@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-page="404">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Página não encontrada · ENIA</title>
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#132333">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<style>
+  :root{
+    --ink:#132333; --ink-2:#0C1826; --lime:#DCF081;
+    --paper:#FFFFFF; --mist:#BED2D9;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    background:var(--ink); color:var(--paper);
+    font-family:"Helvetica Neue",Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    font-weight:300; -webkit-font-smoothing:antialiased;
+    display:flex; align-items:center; justify-content:center;
+    padding:clamp(24px,6vw,80px);
+  }
+  main{max-width:44rem; width:100%}
+  .code{
+    font-size:clamp(4.5rem,18vw,11rem); line-height:.85; font-weight:700;
+    letter-spacing:-.04em; color:var(--lime); margin-bottom:clamp(20px,4vw,36px);
+  }
+  h1{
+    font-size:clamp(1.5rem,4.2vw,2.4rem); line-height:1.15; font-weight:400;
+    letter-spacing:-.02em; margin-bottom:1rem;
+  }
+  p{color:var(--mist); font-size:clamp(1rem,2vw,1.125rem); line-height:1.6; max-width:36rem}
+  .links{
+    display:flex; flex-wrap:wrap; gap:.75rem; margin-top:clamp(28px,5vw,44px);
+  }
+  a.btn{
+    display:inline-block; padding:.7rem 1.15rem; text-decoration:none;
+    border:1px solid rgba(190,210,217,.35); color:var(--paper);
+    font-size:.95rem; transition:background .18s ease,border-color .18s ease,color .18s ease;
+  }
+  a.btn:hover{background:var(--lime); border-color:var(--lime); color:var(--ink)}
+  a.btn.primary{background:var(--lime); border-color:var(--lime); color:var(--ink); font-weight:500}
+  a.btn.primary:hover{background:transparent; color:var(--paper); border-color:var(--lime)}
+  .clock{
+    margin-top:clamp(36px,6vw,56px); padding-top:1.25rem;
+    border-top:1px solid rgba(190,210,217,.2);
+    display:flex; align-items:baseline; gap:.6rem; flex-wrap:wrap;
+  }
+  .clock b{color:var(--lime); font-size:1.6rem; font-weight:700; letter-spacing:-.02em}
+  .clock span{color:var(--mist); font-size:.9rem; letter-spacing:.01em}
+  .en{margin-top:1.5rem; color:rgba(190,210,217,.6); font-size:.85rem}
+  .en a{color:var(--mist)}
+</style>
+</head>
+<body>
+<main>
+  <div class="code">404</div>
+  <h1>Esta página não existe. O prazo continua a existir.</h1>
+  <p>O endereço que seguiu está errado, mudou de sítio ou nunca chegou a ser publicado.
+     O Radar, o teste de classificação e o resto do observatório estão todos abaixo.</p>
+
+  <div class="links">
+    <a class="btn primary" href="/">Página principal</a>
+    <a class="btn" href="/radar.html">Radar IA Act</a>
+    <a class="btn" href="/teste.html">Teste de classificação</a>
+    <a class="btn" href="/contactos.html">Contactos</a>
+  </div>
+
+  <div class="clock">
+    <b id="dias">—</b>
+    <span id="legenda">até 2 de Agosto de 2026, regime completo de alto risco</span>
+  </div>
+
+  <p class="en">Looking for the English site? <a href="/en/">enia.pt/en</a></p>
+</main>
+
+<script>
+(function(){
+  var alvo = Date.UTC(2026, 7, 2);                       // 2 de Agosto de 2026
+  var hoje = new Date();
+  var agora = Date.UTC(hoje.getUTCFullYear(), hoje.getUTCMonth(), hoje.getUTCDate());
+  var d = Math.round((alvo - agora) / 86400000);
+  var elD = document.getElementById('dias');
+  var elL = document.getElementById('legenda');
+  if (d > 0) {
+    elD.textContent = d;
+    elL.textContent = (d === 1 ? 'dia' : 'dias') + ' até 2 de Agosto de 2026, regime completo de alto risco';
+  } else if (d === 0) {
+    elD.textContent = 'Hoje';
+    elL.textContent = 'entra em vigor o regime completo para sistemas de alto risco';
+  } else {
+    elD.textContent = Math.abs(d);
+    elL.textContent = 'dias desde 2 de Agosto de 2026 — o regime de alto risco está em vigor';
+  }
+})();
+</script>
+</body>
+</html>
