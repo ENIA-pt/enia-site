@@ -1,0 +1,1861 @@
+<!DOCTYPE html>
+<html lang="en" data-page="teste">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Act risk classification test · ENIA</title>
+<meta name="description" content="The only European Portuguese tool for ethical AI assessment. Find out in five minutes which AI Act risk tier your system sits in, which obligations apply and what deadlines you face. Free.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/en/teste.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/teste.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/teste.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/teste.html">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAwIDMwMDAiPgo8cmVjdCB3aWR0aD0iMzAwMCIgaGVpZ2h0PSIzMDAwIiByeD0iNjQwIiBmaWxsPSIjMTMyMzMzIi8+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1MDAgMTUwMCkgc2NhbGUoMC42MikgdHJhbnNsYXRlKC0xNTAwIC0xNTAwKSI+CjxwYXRoIGQ9Ik0xMjYzLjA1NCw3MzUuOTk5YzAsNzEuMjUzIC01Ny44NDgsMTI5LjEwMSAtMTI5LjEwMSwxMjkuMTAxbC00MjcuNjAzLDBjLTcxLjI1MywwIC0xMjkuMTAxLC01Ny44NDggLTEyOS4xMDEsLTEyOS4xMDFjMCwtNzEuMjUzIDU3Ljg0OCwtMTI5LjEwMSAxMjkuMTAxLC0xMjkuMTAxbDQyNy42MDMsMGM3MS4yNTMsMCAxMjkuMTAxLDU3Ljg0OCAxMjkuMTAxLDEyOS4xMDFabS00NDAuNzQsNjMyLjkxNGwtMC4wMTQsLTBjLTM0NS41NzIsLTcuMzc4IC02MjMuNDQ1LC0yODkuODE0IC02MjMuNDQ1LC02MzcuMTU1Yy0wLC0zNDcuMzQ1IDI3Ny44NzgsLTYyOS43ODMgNjIzLjQwNiwtNjM3LjE1M2MyLjA3NSwtMC4xIDQuMTYzLC0wLjE1IDYuMjYyLC0wLjE1bDUyMi42MjYsMGM3MS4yNTMsMCAxMjkuMTAxLDU3Ljg0OCAxMjkuMTAxLDEyOS4xMDFjMCw3MS4yNTMgLTU3Ljg0OCwxMjkuMTAxIC0xMjkuMTAxLDEyOS4xMDFsLTUyMi42MjYsMGMtMy41MzYsMCAtNy4wMzgsLTAuMTQzIC0xMC40OTUsLTAuNDIyYy0yMDEuNDI0LDkuNDUzIC0zNjEuODE4LDE3NS43NjEgLTM2MS44MTgsMzc5LjUyNGMwLDIwMy43NjIgMTYwLjM5MiwzNzAuMDY5IDM2MS44MSwzNzkuNTI1YzMuNDY0LC0wLjI4IDYuOTY3LC0wLjQyMyAxMC41MDMsLTAuNDIzbDUyMi42MjYsMGM3MS4yNTMsMCAxMjkuMTAxLDU3Ljg0OCAxMjkuMTAxLDEyOS4xMDFjMCw3MS4yNTMgLTU3Ljg0OCwxMjkuMTAxIC0xMjkuMTAxLDEyOS4xMDFsLTUyMi42MjYsMGMtMi4wODEsMCAtNC4xNTEsLTAuMDUgLTYuMjA4LC0wLjE0N1ptNzY0LjcsLTY1Ny43ODdsMCwtMC4wMTRjNy4zNzgsLTM0NS41NzIgMjg5LjgxNCwtNjIzLjQ0NSA2MzcuMTU1LC02MjMuNDQ1YzM0Ny4zNDUsMCA2MjkuNzgzLDI3Ny44NzggNjM3LjE1Myw2MjMuNDA2YzAuMSwyLjA3NSAwLjE1LDQuMTYzIDAuMTUsNi4yNjJsMCw1MjIuNjI2YzAsNzEuMjUzIC01Ny44NDgsMTI5LjEwMSAtMTI5LjEwMSwxMjkuMTAxYy03MS4yNTMsMCAtMTI5LjEwMSwtNTcuODQ4IC0xMjkuMTAxLC0xMjkuMTAxbDAsLTUyMi42MjZjMCwtMy41MzYgMC4xNDMsLTcuMDM4IDAuNDIyLC0xMC40OTVjLTkuNDUzLC0yMDEuNDI0IC0xNzUuNzYxLC0zNjEuODE4IC0zNzkuNTI0LC0zNjEuODE4Yy0yMDMuNzYyLDAgLTM3MC4wNjksMTYwLjM5MiAtMzc5LjUyNSwzNjEuODFjMC4yOCwzLjQ2NCAwLjQyMyw2Ljk2NyAwLjQyMywxMC41MDNsMCw1MjIuNjI2YzAsNzEuMjUzIC01Ny44NDgsMTI5LjEwMSAtMTI5LjEwMSwxMjkuMTAxYy03MS4yNTMsMCAtMTI5LjEwMSwtNTcuODQ4IC0xMjkuMTAxLC0xMjkuMTAxbDAsLTUyMi42MjZjMCwtMi4wODEgMC4wNSwtNC4xNTEgMC4xNDcsLTYuMjA4Wm0wLDE1NDMuMjczbDAsLTAuMDE0YzcuMzc4LC0zNDUuNTcyIDI4OS44MTQsLTYyMy40NDUgNjM3LjE1NSwtNjIzLjQ0NWMzNDcuMzQ1LDAgNjI5Ljc4MywyNzcuODc4IDYzNy4xNTMsNjIzLjQwNmMwLjEsMi4wNzUgMC4xNSw0LjE2MyAwLjE1LDYuMjYybDAsNTIyLjYyNmMwLDcxLjI1MyAtNTcuODQ4LDEyOS4xMDEgLTEyOS4xMDEsMTI5LjEwMWMtNzEuMjUzLDAgLTEyOS4xMDEsLTU3Ljg0OCAtMTI5LjEwMSwtMTI5LjEwMWwtMCwtNTIyLjYyNmMwLC0zLjUzNiAwLjE0MywtNy4wMzggMC40MjIsLTEwLjQ5NWMtOS40NTMsLTIwMS40MjQgLTE3NS43NjEsLTM2MS44MTggLTM3OS41MjQsLTM2MS44MThjLTIwMy43NjIsMCAtMzcwLjA2OSwxNjAuMzkyIC0zNzkuNTI1LDM2MS44MWMwLjI4LDMuNDY0IDAuNDIzLDYuOTY3IDAuNDIzLDEwLjUwM2wwLDUyMi42MjZjMCw3MS4yNTMgLTU3Ljg0OCwxMjkuMTAxIC0xMjkuMTAxLDEyOS4xMDFjLTcxLjI1MywwIC0xMjkuMTAxLC01Ny44NDggLTEyOS4xMDEsLTEyOS4xMDFsMCwtNTIyLjYyNmMwLC0yLjA4MSAwLjA1LC00LjE1MSAwLjE0NywtNi4yMDhabTQ0My40NzcsMzUzLjk2MWMtNzAuMjM4LC0wIC0xMjcuMjYzLC01Ny4wMjUgLTEyNy4yNjMsLTEyNy4yNjNjMCwtNzAuMjM4IDU3LjAyNSwtMTI3LjI2MyAxMjcuMjYzLC0xMjcuMjYzbDM4Ny4zNTgsMGM3MC4yMzgsLTAgMTI3LjI2Myw1Ny4wMjUgMTI3LjI2MywxMjcuMjYzYzAsNzAuMjM4IC01Ny4wMjUsMTI3LjI2MyAtMTI3LjI2MywxMjcuMjYzbC0zODcuMzU4LDBabS0xMTg3LjI2MywtMTE4My41MTZjMjQ1LjgzNCwwIDQ0NS40MiwxOTkuNTg2IDQ0NS40Miw0NDUuNDJjMCwyNDUuODM0IC0xOTkuNTg2LDQ0NS40MiAtNDQ1LjQyLDQ0NS40MmMtMjQ1LjgzNCwwIC00NDUuNDIsLTE5OS41ODYgLTQ0NS40MiwtNDQ1LjQyYzAsLTI0NS44MzQgMTk5LjU4NiwtNDQ1LjQyIDQ0NS40MiwtNDQ1LjQyWm0wLDI1NC41MjVjLTEwNS4zNTcsMCAtMTkwLjg5NCw4NS41MzcgLTE5MC44OTQsMTkwLjg5NGMwLDEwNS4zNTcgODUuNTM3LDE5MC44OTQgMTkwLjg5NCwxOTAuODk0YzEwNS4zNTcsMCAxOTAuODk0LC04NS41MzcgMTkwLjg5NCwtMTkwLjg5NGMwLC0xMDUuMzU3IC04NS41MzcsLTE5MC44OTQgLTE5MC44OTQsLTE5MC44OTRabS01OTguMzQ5LDEwMDEuMDM3YzEyNS41ODUsLTE5NS4wMjggMzQ0LjYzOCwtMzI0LjI1MyA1OTMuNjIsLTMyNC4zMzFsMC4yMjYsLTBjNjMuMTQxLC0wLjA5MyAxMjEuMjQxLDcuOTU1IDE3NC40MDYsMjEuNzQzYzE4Mi43MTgsNDYuNDk2IDMzNy4wNzIsMTY0LjMzNSA0MzEuNTUzLDMyMi4wODljOC4wOTEsMTIuODE0IDEzLjE1MiwyMS45NjggMTUuMjQ0LDI2LjExYzE1LjA1MiwyOS44MDkgMTQuMjc4LDUwLjEzOSAxNC40NCw1My44ODZsLTguMjQ4LDUwLjg3NWwtMjQuODkxLDQwLjQwOGwtMjYuNDUyLDIyLjA3M2wtMzIuNjEsMTQuNTIxbC0yNS42MjEsNC41NTJsLTMxLjQzNiwtMS41OWMtMy4zNjksLTAuNTk0IC01NS4yNTMsLTEuOTc5IC05MS4xNTYsLTY2LjgxOGMtMi4yNTksLTQuMDc5IC00LjU3OSwtOC4xMiAtNi45NTksLTEyLjEyMWMtMjcuMjE4LC00MC43MzUgLTE1MC45MjcsLTIwNy4zNjcgLTM2MS4wNzEsLTIyMC4zOTVjLTguOTI0LC0wLjUzMiAtMTcuOTE3LC0wLjgwMyAtMjYuOTcyLC0wLjgwOGwtMC4yMjYsMGMtMTk0LjA2NywwLjQ0NCAtMzE4LjI5MywxMjcuODUxIC0zNjQuMDA2LDE4NC41ODljLTguMjc5LDExLjI2OCAtMTYuMDQ5LDIyLjkzMiAtMjMuMjc0LDM0Ljk2Yy0yNi4wODEsNDMuNDE2IC01NC45NzUsNTIuNzAxIC01OC42NTMsNTQuNDAybC00Ni45ODIsMTEuNTk3bC01NC43NDYsLTkuMzQ4bC00My42MDcsLTI5LjY5MmwtMjQuMDc5LC0zNS42MDVsLTExLjI4NywtNDkuMzJsMy4zNzQsLTMyLjUwOWMxLjA4NywtNC42MDggMy4yOTgsLTEzLjU0MiA5LjAwNCwtMjUuNzI2YzEuODMxLC0zLjkwOCA4LjYwNCwtMTYuMDEzIDIwLjQxMSwtMzMuNTQ0WiIgZmlsbD0iI0RDRjA4MSIvPgo8L2c+Cjwvc3ZnPg==" type="image/svg+xml">
+<meta property="og:title" content="AI Act risk classification test · ENIA">
+<meta property="og:description" content="Mandatory from 2 August. In European Portuguese, it exists only here.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<style>
+/* ==========================================================================
+   ENIA v4 — sistema de design
+   Tokens de site.af · logótipo oficial · Helvetica Neue / Inter
+
+   Novidade da v4: contexto de cor por banda. Cada secção declara o seu tom
+   e redefine --line, --num, --fill-*, --soft. Os componentes nunca sabem em
+   que fundo estão — leem sempre as variáveis do contexto.
+   ========================================================================== */
+
+:root{
+  --ink:#132333;
+  --ink-2:#0C1826;
+  --ink-3:#1D3145;
+  --ink-4:#22384E;   /* superfície elevada dos quadrados sobre fundo escuro */
+  --lime:#DCF081;
+  --lime-2:#CBE264;
+  --paper:#FFFFFF;
+  --mist:#BED2D9;
+  --sky:#AFE2FF;
+
+  /* contexto por omissão: escuro */
+  --bg:var(--ink);
+  --fg:var(--paper);
+  --line:rgba(255,255,255,.15);
+  --line-2:rgba(255,255,255,.30);
+  --num:var(--lime);
+  --fill-bg:var(--lime);
+  --fill-fg:var(--ink);
+  --soft:rgba(255,255,255,.05);
+
+  /* Quadrados: sempre escuros, texto branco, números a lima.
+     Um por grupo é destacado — lima com texto escuro. */
+  --card-bg:var(--ink-4);
+  --card-fg:var(--paper);
+  --card-line:rgba(255,255,255,.16);
+  --card-num:var(--lime);
+  --hi-bg:var(--lime);
+  --hi-fg:var(--ink);
+  --hi-num:var(--ink);
+
+  --rail:clamp(58px,4.4vw,78px);
+  --rail-open:clamp(276px,25vw,394px);
+  --gut:clamp(22px,4.6vw,84px);
+  --pad:calc(var(--rail) + var(--gut));
+
+  /* Inter foi desenhada para ecrã em tamanhos pequenos: altura-x alta,
+     aberturas abertas, algarismos tabulares nativos. Substitui a Helvetica
+     Neue, que fecha as aberturas e perde legibilidade abaixo dos 14px. */
+  --f:"Inter","Inter var",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --dur:.8s;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--f);font-weight:400;line-height:1.55;letter-spacing:-.006em;
+  background:var(--ink);color:var(--paper);overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  font-feature-settings:"cv05" 1,"cv08" 1,"ss03" 1;  /* l com cauda, I com serifas, cifrão simples */
+  font-variant-numeric:lining-nums;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+::selection{background:var(--lime);color:var(--ink)}
+:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+.tab{font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.skip{position:fixed;left:-9999px;top:0;z-index:200;background:var(--lime);color:var(--ink);padding:12px 20px}
+.skip:focus{left:12px;top:12px}
+
+/* ==========================================================================
+   BANDAS DE COR
+   ========================================================================== */
+.band{background:var(--bg);color:var(--fg);padding:clamp(52px,8vh,104px) var(--pad);position:relative}
+.band--tight{padding-block:clamp(38px,5.5vh,72px)}
+.band--tall{padding-block:clamp(72px,11vh,132px)}
+
+.band--ink{
+  --bg:var(--ink);--fg:var(--paper);
+  --line:rgba(255,255,255,.15);--line-2:rgba(255,255,255,.30);
+  --num:var(--lime);--fill-bg:var(--lime);--fill-fg:var(--ink);--soft:rgba(255,255,255,.05);
+  --card-bg:var(--ink-4);
+}
+.band--deep{
+  --bg:var(--ink-2);--fg:var(--paper);
+  --line:rgba(255,255,255,.13);--line-2:rgba(255,255,255,.28);
+  --num:var(--lime);--fill-bg:var(--lime);--fill-fg:var(--ink);--soft:rgba(255,255,255,.04);
+  --card-bg:var(--ink-4);--card-line:rgba(255,255,255,.15);
+}
+.band--paper{
+  --bg:var(--paper);--fg:var(--ink);
+  --line:rgba(19,35,51,.14);--line-2:rgba(19,35,51,.32);
+  --num:var(--ink);--fill-bg:var(--lime);--fill-fg:var(--ink);--soft:rgba(19,35,51,.035);
+  --card-bg:var(--ink);--card-line:rgba(255,255,255,.14);
+}
+.band--mist{
+  --bg:#E7EFF2;--fg:var(--ink);
+  --line:rgba(19,35,51,.15);--line-2:rgba(19,35,51,.33);
+  --num:var(--ink);--fill-bg:var(--ink);--fill-fg:var(--lime);--soft:rgba(19,35,51,.045);
+  --card-bg:var(--ink);--card-line:rgba(255,255,255,.14);
+}
+.band--lime{
+  --bg:var(--lime);--fg:var(--ink);
+  --line:rgba(19,35,51,.22);--line-2:rgba(19,35,51,.42);
+  --num:var(--ink);--fill-bg:var(--ink);--fill-fg:var(--lime);--soft:rgba(19,35,51,.06);
+  --card-bg:var(--ink);--card-line:rgba(255,255,255,.16);
+  /* fundo verde → o quadrado de destaque é o mais escuro de todos */
+  --hi-bg:#05090D;--hi-fg:var(--paper);--hi-num:var(--lime);
+}
+
+/* ==========================================================================
+   RAIL — fechada mostra só a marca; aberta revela as páginas
+   ========================================================================== */
+.rail{
+  position:fixed;top:0;left:0;z-index:90;
+  width:var(--rail);height:100vh;height:100svh;
+  display:flex;flex-direction:column;
+  background:var(--ink-2);color:var(--paper);
+  border-right:1px solid rgba(255,255,255,.14);
+  transform:translateX(0);
+  transition:transform var(--dur) var(--ease),width .5s var(--ease),box-shadow .5s;
+  will-change:transform,width;overflow:hidden;
+}
+html[data-side="right"] .rail{
+  transform:translateX(calc(var(--vw,100vw) - var(--rail)));
+  border-right:0;border-left:1px solid rgba(255,255,255,.14);
+}
+.rail.is-open{width:var(--rail-open);box-shadow:0 0 60px rgba(0,0,0,.35)}
+html[data-side="right"] .rail.is-open{transform:translateX(calc(var(--vw,100vw) - var(--rail-open)))}
+
+.rail__home{
+  width:100%;flex:0 0 var(--rail);height:var(--rail);
+  display:flex;align-items:center;justify-content:center;gap:14px;
+  text-decoration:none;position:relative;transition:padding .5s var(--ease);
+}
+.rail.is-open .rail__home{
+  justify-content:flex-start;padding-inline:calc((var(--rail) - 34px) / 2);
+  border-bottom:1px solid rgba(255,255,255,.14);
+}
+.rail__home[aria-current="page"] .rail__logo{color:var(--lime)}
+.rail__btn{
+  flex:0 0 auto;width:100%;height:34px;display:grid;place-items:center;position:relative;
+}
+.rail.is-open .rail__btn{display:none}
+/* espaço elástico entre a marca (topo) e o seletor de língua (fundo) */
+.rail__fill{flex:1 1 auto;min-height:0}
+.rail.is-open .rail__fill{display:none}
+.rail__logo{width:clamp(30px,2.4vw,38px);flex:0 0 auto;color:var(--paper);transition:width .4s var(--ease),color .3s}
+.rail.is-open .rail__logo{width:34px}
+.rail__logo svg{width:100%;height:auto;display:block}
+.rail__word{
+  font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;
+  white-space:nowrap;opacity:0;max-width:0;overflow:hidden;transition:opacity .3s .14s,max-width .4s
+}
+.rail.is-open .rail__word{opacity:.6;max-width:200px}
+.rail__hint{width:13px;height:13px;opacity:.3;transition:opacity .3s}
+.rail__btn:hover .rail__hint,.rail__btn:focus-visible .rail__hint{opacity:.9;color:var(--lime)}
+
+.rail__hint svg{width:100%;height:100%;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+html[data-side="right"] .rail__hint{rotate:180deg}
+
+.rail__panel{
+  flex:0 0 0;height:0;min-height:0;overflow:hidden;
+  display:flex;flex-direction:column;
+  padding:0;opacity:0;pointer-events:none;
+  transition:opacity .3s var(--ease)
+}
+.rail.is-open .rail__panel{
+  flex:1 1 auto;height:auto;min-height:0;overflow-y:auto;
+  padding:clamp(18px,2.6vh,30px) 0 clamp(18px,2.6vh,28px);
+  opacity:1;pointer-events:auto;transition-delay:.16s
+}
+.rail__link{
+  display:block;text-decoration:none;
+  padding:clamp(11px,1.5vh,15px) clamp(20px,2vw,30px);
+  font-size:clamp(.98rem,1.15vw,1.18rem);line-height:1.28;font-weight:300;letter-spacing:-.015em;
+  opacity:.68;border-left:2px solid transparent;
+  transition:background-color .25s,opacity .25s,border-color .25s
+}
+.rail__link:hover{background:rgba(255,255,255,.06);opacity:1}
+.rail__link[aria-current="page"]{opacity:1;border-left-color:var(--lime);background:rgba(220,240,129,.08)}
+.rail__link small{display:block;font-size:.67rem;letter-spacing:.12em;text-transform:uppercase;opacity:.45;margin-top:5px}
+.rail__sep{height:1px;background:rgba(255,255,255,.14);margin:clamp(12px,2vh,20px) clamp(20px,2vw,30px)}
+.rail__cta{
+  margin:auto clamp(20px,2vw,30px) 0;display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  background:var(--lime);color:var(--ink);text-decoration:none;white-space:nowrap;
+  padding:13px 20px;border-radius:100px;font-size:.86rem;font-weight:500;transition:background-color .3s
+}
+.rail__cta:hover{background:var(--lime-2)}
+.rail__meta{margin:15px clamp(20px,2vw,30px) 0;font-size:.67rem;line-height:1.5;opacity:.38}
+
+.rail__lang{
+  flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:2px;
+  padding-bottom:clamp(14px,2.2vh,22px);
+}
+.rail.is-open .rail__lang{
+  flex-direction:row;justify-content:flex-start;gap:6px;
+  padding:14px clamp(20px,2vw,30px) clamp(14px,2.2vh,22px);
+}
+.rail__lang a{
+  font-size:11px;letter-spacing:.14em;font-weight:700;text-decoration:none;
+  padding:5px 7px;border-radius:3px;opacity:.4;transition:opacity .25s,color .25s,background-color .25s;
+}
+.rail__lang a:hover{opacity:.85}
+.rail__lang a[aria-current="true"]{color:var(--lime);opacity:1}
+.rail__lang i{font-style:normal;opacity:.22;font-size:10px;line-height:1}
+.rail.is-open .rail__lang i{display:none}
+.rail.is-open .rail__lang a{border:1px solid rgba(255,255,255,.16);padding:5px 11px;border-radius:100px}
+.rail.is-open .rail__lang a[aria-current="true"]{border-color:var(--lime)}
+
+.rail__scrim{
+  position:fixed;inset:0;z-index:80;background:rgba(12,24,38,.45);
+  opacity:0;pointer-events:none;transition:opacity .4s;
+  backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)
+}
+.rail__scrim.is-on{opacity:1;pointer-events:auto}
+
+/* ==========================================================================
+   Tipografia
+   ========================================================================== */
+.eyebrow{font-size:clamp(10px,.74vw,11.5px);letter-spacing:.18em;text-transform:uppercase;font-weight:600;opacity:.72;margin:0 0 clamp(16px,2.4vh,26px)}
+.eyebrow b{color:var(--num);font-weight:500;opacity:1}
+.band--paper .eyebrow b,.band--lime .eyebrow b,.band--mist .eyebrow b{opacity:.5}
+
+h1,h2,h3,h4{margin:0;font-weight:300;letter-spacing:-.038em;line-height:1.04}
+h1{font-size:clamp(2.5rem,6vw,5.6rem)}
+h2{font-size:clamp(1.8rem,3.6vw,3.4rem)}
+h3{font-size:clamp(1.02rem,1.3vw,1.34rem);font-weight:600;letter-spacing:-.018em;line-height:1.25}
+h4{font-size:clamp(.9rem,.98vw,1rem);font-weight:600;letter-spacing:-.008em;line-height:1.3}
+.lime{color:var(--num)}
+
+.lead{font-size:clamp(.97rem,1.12vw,1.16rem);line-height:1.62;max-width:64ch;opacity:.9;font-weight:400;margin:clamp(18px,2.6vh,28px) 0 0}
+p{margin:0 0 1em}
+p:last-child{margin-bottom:0}
+.note{font-size:.815rem;line-height:1.62;opacity:.75;max-width:86ch;margin:16px 0 0}
+.hd{display:flex;justify-content:space-between;align-items:flex-end;gap:26px;flex-wrap:wrap;margin-bottom:clamp(24px,4vh,44px)}
+.hd .note{margin:0;max-width:44ch}
+
+/* separador interno, dentro de uma banda */
+.sec{padding:clamp(34px,5vh,64px) 0;border-top:1px solid var(--line)}
+.sec:first-of-type{border-top:0;padding-top:0}
+
+/* ==========================================================================
+   Botões
+   ========================================================================== */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:100px;text-decoration:none;
+  font-size:clamp(.84rem,.94vw,.96rem);font-weight:500;border:1px solid transparent;
+  transition:transform .3s var(--ease),background-color .3s,color .3s,border-color .3s,opacity .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn i{font-style:normal;transition:transform .3s var(--ease)}
+.btn:hover i{transform:translateX(4px)}
+.btn--fill{background:var(--fill-bg);color:var(--fill-fg)}
+.btn--fill:hover{opacity:.88}
+.btn--ghost{border-color:var(--line-2)}
+.btn--ghost:hover{border-color:currentColor}
+.btns{display:flex;gap:13px;flex-wrap:wrap;margin-top:clamp(26px,4vh,42px)}
+.soon{display:inline-block;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+  border:1px solid currentColor;opacity:.55;padding:4px 9px;border-radius:100px}
+
+/* ==========================================================================
+   HOME — 7 slides
+   ========================================================================== */
+.deck{height:100vh;height:100svh;overflow-y:scroll;overflow-x:hidden;scroll-snap-type:y mandatory;scrollbar-width:none}
+.deck::-webkit-scrollbar{display:none}
+.slide{
+  min-height:100vh;min-height:100svh;scroll-snap-align:start;scroll-snap-stop:always;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:clamp(66px,9vh,110px) var(--pad) clamp(52px,7.5vh,92px);
+  overflow:hidden;position:relative;
+  background:var(--bg);color:var(--fg);
+}
+.slide__n{position:absolute;top:clamp(24px,4vh,44px);font-size:.66rem;letter-spacing:.2em;font-weight:700;opacity:.3}
+html[data-side="right"] .slide__n{left:var(--pad)}
+html[data-side="left"] .slide__n{right:var(--gut)}
+
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(24px,3.6vw,64px);align-items:center}
+.hero>*{position:relative;z-index:2}
+.hero h1{font-size:clamp(2.5rem,5.8vw,5.6rem);max-width:13ch}
+.hero__lead{font-size:clamp(.9rem,1.05vw,1.1rem);line-height:1.6;max-width:50ch;opacity:.78;margin-top:clamp(14px,2.2vh,26px)}
+.hero__brand{position:absolute;left:calc(var(--gut) * -.16);bottom:0;width:clamp(190px,24vw,380px);
+  z-index:0;pointer-events:none;opacity:.11;translate:0 26%}
+html[data-side="left"] .hero__brand{left:auto;right:calc(var(--gut) * -.16)}
+
+/* ==========================================================================
+   Grelhas e componentes
+   ========================================================================== */
+.grid{display:grid;gap:clamp(12px,1.3vw,20px)}
+.grid--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid--4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,4.5vw,84px);align-items:start}
+.two--wide{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+
+
+
+
+.card{padding:clamp(20px,2vw,32px);display:flex;flex-direction:column;gap:13px}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px}
+.fig{padding:clamp(18px,1.8vw,26px)}
+.card__n{font-size:10px;letter-spacing:.2em;font-weight:700;margin:0}
+.card p{font-size:clamp(.82rem,.92vw,.94rem);line-height:1.52;opacity:.75;margin:0}
+.card ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.card li{font-size:clamp(.8rem,.9vw,.92rem);line-height:1.46;opacity:.78;padding-left:15px;position:relative}
+.card li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:1px;background:currentColor;opacity:.6}
+.card .btn,.card .soon{align-self:flex-start;margin-top:auto}
+
+.terr{padding:clamp(20px,2.1vw,34px);display:flex;flex-direction:column;gap:15px;
+  min-height:clamp(210px,29vh,320px);text-decoration:none;position:relative;
+  transition:background-color .4s var(--ease),color .4s var(--ease),border-color .4s}
+
+.terr__ico{width:44px;height:44px;border:1px solid currentColor;opacity:.55;border-radius:50%;display:grid;place-items:center;flex:0 0 auto;transition:opacity .3s}
+.terr__ico svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.terr h3{margin-top:auto}
+.terr p{margin:0;font-size:clamp(.8rem,.9vw,.92rem);line-height:1.5;opacity:.68}
+.terr__go{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;opacity:.55}
+.tag-live{position:absolute;top:clamp(18px,1.8vw,28px);right:clamp(18px,1.8vw,28px);
+  font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+  padding:4px 9px;border-radius:100px;display:inline-flex;align-items:center;gap:5px}
+.tag-live::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+
+.motor{padding:clamp(20px,2.1vw,34px);display:flex;flex-direction:column;min-height:clamp(270px,38vh,400px)}
+
+
+.motor__n{font-size:10px;letter-spacing:.2em;font-weight:700;opacity:.5;margin:0 0 auto}
+.motor h3{margin:clamp(22px,3.4vh,44px) 0 14px}
+.motor ul{list-style:none;margin:0 0 24px;padding:0;display:flex;flex-direction:column;gap:9px}
+.motor li{font-size:clamp(.79rem,.88vw,.9rem);line-height:1.45;opacity:.8;padding-left:15px;position:relative}
+.motor li::before{content:"";position:absolute;left:0;top:.6em;width:6px;height:1px;background:currentColor;opacity:.6}
+.motor .btn,.motor>span:last-child{align-self:flex-start;margin-top:auto}
+
+
+.kv{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.kv li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;padding:14px 0;border-bottom:1px solid var(--line);align-items:baseline;font-size:clamp(.85rem,.95vw,1rem)}
+.kv li span{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;opacity:.45;white-space:nowrap}
+
+.chk{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.chk li{display:grid;grid-template-columns:22px 1fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:start}
+.chk svg{width:16px;height:16px;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round;margin-top:3px}
+.chk .ok svg{stroke:var(--num)}
+.chk .no svg{stroke:currentColor;opacity:.4}
+.chk h4{font-size:.95rem}
+.chk .no h4{opacity:.74}
+.chk p{margin:5px 0 0;font-size:.79rem;line-height:1.48;opacity:.56}
+
+.bars{display:flex;flex-direction:column;gap:8px;margin:0;padding:0;list-style:none}
+.brow{display:grid;grid-template-columns:clamp(104px,13vw,200px) 1fr clamp(52px,5vw,76px);gap:clamp(10px,1.4vw,20px);align-items:center}
+.brow__l{font-size:clamp(.76rem,.88vw,.9rem);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.8}
+.brow--me .brow__l{opacity:1;font-weight:700}
+.brow__t{position:relative;height:24px;background:var(--soft);border-radius:2px;overflow:hidden}
+/* Uma só cor de destaque por gráfico. A lima marca o que importa — Portugal,
+   ou a linha que o texto está a discutir — e tudo o resto fica contido. Se
+   metade das barras for lima, nenhuma é destaque. */
+.brow__f{position:absolute;inset:0 auto 0 0;width:0;border-radius:2px;background:currentColor;opacity:.28;transition:width 1.1s var(--ease)}
+.brow--top .brow__f{opacity:.45}
+.brow--low .brow__f{opacity:.22}
+.brow--me .brow__f{background:var(--num);opacity:1}
+.brow--me .brow__l{opacity:1;font-weight:700}
+.brow--me .brow__v{color:var(--num);font-weight:700;opacity:1}
+.brow--me .brow__t{outline:1px solid var(--num);outline-offset:1px}
+.brow__v{text-align:right;font-size:clamp(.76rem,.88vw,.9rem);opacity:.85}
+.brow--me .brow__v{color:var(--num);font-weight:700;opacity:1}
+.legend{display:flex;gap:20px;flex-wrap:wrap;margin-top:20px;font-size:.73rem;opacity:.6}
+.legend i{display:inline-block;width:22px;height:8px;border-radius:2px;margin-right:8px;vertical-align:middle;background:currentColor}
+.legend .a{background:var(--num)}
+.legend .b{opacity:.45}
+.legend .c{opacity:.28}
+.legend .d{opacity:.22}
+
+
+
+.fig b{display:block;font-size:clamp(1.6rem,2.6vw,2.5rem);font-weight:300;letter-spacing:-.045em;line-height:1}
+.fig p{margin:10px 0 0;font-size:.8rem;line-height:1.45;opacity:.72}
+.fig cite{display:block;margin-top:8px;font-style:normal;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;opacity:.4}
+
+.tbl{width:100%;border-collapse:collapse;font-size:clamp(.78rem,.88vw,.9rem)}
+.tbl th,.tbl td{text-align:left;padding:13px 14px 13px 0;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.45}
+.tbl th{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;opacity:.5;border-bottom-color:var(--line-2)}
+.tbl td:last-child,.tbl th:last-child{padding-right:0}
+.tbl .st{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;padding:4px 9px;border-radius:100px;white-space:nowrap;display:inline-block}
+.st--ok{background:var(--fill-bg);color:var(--fill-fg)}
+.st--wip{border:1px solid var(--line-2)}
+.st--no{border:1px solid var(--line);opacity:.55}
+
+.quote{max-width:min(1040px,100%)}
+.quote blockquote{margin:0;font-size:clamp(1.24rem,2.4vw,2.4rem);line-height:1.26;font-style:italic;letter-spacing:-.028em}
+.quote blockquote b{font-style:normal;font-weight:400;color:var(--num)}
+.rule{width:64px;height:1px;background:var(--num);margin-bottom:clamp(22px,3.2vh,38px)}
+
+.truths{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(26px,4vw,72px);align-items:start}
+.truths ol{list-style:none;counter-reset:t;margin:0;padding:0;display:flex;flex-direction:column}
+.truths li{counter-increment:t;border-top:1px solid var(--line);padding:clamp(12px,1.8vh,18px) 0;display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start}
+.truths li:last-child{border-bottom:1px solid var(--line)}
+.truths li::before{content:"0" counter(t);font-size:.72rem;letter-spacing:.1em;font-weight:700;opacity:.45;padding-top:.35em}
+.truths li p{margin:0;font-size:clamp(.88rem,1.05vw,1.1rem);line-height:1.42;font-weight:400}
+.truths li b{font-weight:700}
+.kicker{font-size:clamp(1.2rem,2.2vw,2.2rem);line-height:1.12;font-weight:700;font-style:italic;letter-spacing:-.03em;margin:clamp(22px,3.2vh,40px) 0 0}
+
+.warn{border:1px solid var(--line-2);border-left:2px solid var(--num);padding:clamp(18px,2vw,26px);margin-top:clamp(22px,3vh,34px)}
+.warn h4{margin-bottom:9px}
+.warn p{font-size:.83rem;line-height:1.55;opacity:.72;margin:0}
+.warn p + p{margin-top:.7em}
+
+.feed{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.feed a{display:grid;grid-template-columns:clamp(86px,9vw,120px) 1fr auto;gap:clamp(12px,2vw,28px);
+  padding:20px 0;border-bottom:1px solid var(--line);text-decoration:none;align-items:start;
+  transition:padding-inline .35s var(--ease),background-color .35s}
+.feed a:hover{background:var(--soft);padding-inline:14px}
+.feed__d{font-size:.75rem;opacity:.45;padding-top:3px;white-space:nowrap}
+.feed__b h4{font-size:clamp(.95rem,1.1vw,1.1rem)}
+.feed__b p{margin:6px 0 0;font-size:.83rem;line-height:1.5;opacity:.62;max-width:78ch}
+.feed__s{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.6;
+  border:1px solid var(--line);padding:4px 9px;border-radius:100px;white-space:nowrap}
+.feed a:hover .feed__s{border-color:var(--num);color:var(--num);opacity:1}
+
+.form{display:flex;flex-direction:column;gap:16px;margin-top:clamp(20px,2.8vh,30px);max-width:520px}
+.field{display:flex;flex-direction:column;gap:7px}
+.field label{font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.55;font-weight:500}
+.field input,.field select,.field textarea{background:transparent;border:0;border-bottom:1px solid var(--line-2);
+  color:inherit;padding:10px 0;font:inherit;font-size:.95rem;font-weight:300;border-radius:0;resize:vertical}
+.field select option{background:var(--ink-2);color:var(--paper)}
+.band--paper .field select option,.band--lime .field select option,.band--mist .field select option{background:#fff;color:var(--ink)}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-bottom-color:var(--num)}
+.field input::placeholder,.field textarea::placeholder{color:currentColor;opacity:.32}
+
+.colegios{list-style:none;margin:clamp(18px,2.6vh,28px) 0 0;padding:0;border-top:1px solid var(--line)}
+.colegios li{padding:12px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font-size:clamp(.84rem,.94vw,.98rem)}
+.colegios li span{opacity:.45;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;align-self:center}
+
+/* ==========================================================================
+   QUADRADOS — regra única e consistente em todo o site
+   · fundo escuro, texto branco, números e destaques a lima
+   · um por grupo é destacado: lima com texto escuro
+   · em banda lima, o destaque passa a quase-preto
+   ========================================================================== */
+.card,.terr,.motor,.cell,.fig,.box{
+  background:var(--card-bg);color:var(--card-fg);
+  border:1px solid var(--card-line);
+}
+.card .card__n,.motor .motor__n{color:var(--card-num);opacity:.75}
+.cell__v,.fig b{color:var(--card-num)}
+.card p,.card li,.terr p,.motor li,.cell__b,.fig p{opacity:.86}
+.cell__s,.fig cite,.terr__go{opacity:.62}
+.card--soft{background:var(--card-bg)}
+
+/* destaque */
+.card--hi,.terr--hi,.motor--hi,.cell--hi,.fig--hi,.card--invert{
+  background:var(--hi-bg);color:var(--hi-fg);border-color:transparent;
+}
+.card--hi .card__n,.motor--hi .motor__n{color:var(--hi-num);opacity:.7}
+.cell--hi .cell__v,.fig--hi b{color:var(--hi-num)}
+.card--hi p,.card--hi li,.motor--hi li,.terr--hi p{opacity:.9}
+.motor--hi .btn--fill,.card--hi .btn--fill{background:var(--hi-fg);color:var(--hi-bg)}
+.motor--hi .btn--ghost,.card--hi .btn--ghost{border-color:currentColor;opacity:.85}
+
+/* hover: um quadrado escuro acende a lima */
+a.terr:hover,a.terr:focus-visible{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent}
+a.terr:hover .terr__ico,a.terr:focus-visible .terr__ico{border-color:currentColor}
+a.terr:hover .terr__go,a.terr:focus-visible .terr__go{opacity:.7}
+a.terr--hi:hover,a.terr--hi:focus-visible{background:var(--card-bg);color:var(--card-fg)}
+a.terr--hi:hover .tag-live{background:var(--hi-bg);color:var(--hi-fg)}
+.tag-live{background:var(--hi-bg);color:var(--hi-fg)}
+.terr--hi .tag-live{background:var(--card-bg);color:var(--card-fg)}
+a.terr:hover .tag-live{background:var(--card-bg);color:var(--card-fg)}
+
+/* grelhas de figuras: as divisórias vivem sobre fundo escuro */
+.figs{background:var(--card-line);border-color:var(--card-line)}
+.fig{border:0}
+
+/* Nada dentro de um quadrado herda a cor da banda. Sem isto, uma declaração
+   de cor posterior no ficheiro deixa texto escuro sobre fundo escuro. */
+.card *,.terr *,.motor *,.cell *,.fig *,.box *{color:inherit}
+.card .lime,.terr .lime,.motor .lime,.cell .lime,.fig .lime,.box .lime{color:var(--card-num)}
+.card--hi .lime,.terr--hi .lime,.motor--hi .lime,.cell--hi .lime,.fig--hi .lime{color:var(--hi-num)}
+
+/* separadores internos dentro de um quadrado */
+.card .kv,.card .kv li,.box .kv,.box .kv li{border-color:var(--card-line)}
+
+/* ==========================================================================
+   ESCADA DA HOME — medida no mainpage.pdf
+   · o fundo da célula é o mesmo da secção: não há preenchimento próprio
+   · os números são sempre lima, excepto na célula lima, onde são escuros
+   · só as células com texto levam linha; as vazias não existem visualmente
+   · linhas de 1px, peso único entre células adjacentes (box-shadow em vez
+     de border: as sombras de células vizinhas ocupam a mesma banda de 1px,
+     ao passo que duas borders dariam 2px)
+   ========================================================================== */
+.stair{display:grid;grid-template-columns:repeat(3,1fr);gap:0;background:transparent}
+
+.stair .cell{
+  background:transparent;color:var(--fg);
+  border:0;box-shadow:0 0 0 1px var(--line);
+  padding:clamp(15px,1.5vw,26px);
+  display:flex;flex-direction:column;gap:8px;
+  min-height:clamp(130px,17vh,196px);
+}
+.stair .cell__v{color:var(--num);font-size:clamp(1.8rem,3.1vw,3rem);font-weight:300;letter-spacing:-.05em;line-height:1}
+.stair .cell__v small{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--fg);opacity:.7;margin-left:7px}
+.stair .cell__b{margin:0;font-size:clamp(.74rem,.84vw,.88rem);line-height:1.5;opacity:.9}
+.stair .cell__b b{font-weight:700;opacity:1}
+.stair .cell__s{margin-top:auto;padding-top:10px;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;opacity:.5;line-height:1.45}
+
+/* as células vazias são espaço, não objecto */
+.stair .cell--void{box-shadow:none;background:transparent;border:0;min-height:0;padding:0}
+
+/* a avaliação: única célula preenchida, e a única com números escuros */
+.stair .cell--hi{background:var(--hi-bg);color:var(--hi-fg);box-shadow:none}
+.stair .cell--hi .cell__v{color:var(--hi-num);font-size:clamp(2.1rem,3.7vw,3.5rem)}
+.stair .cell--hi .cell__b{opacity:1}
+.stair .cell--hi .cell__s{opacity:.6}
+
+/* posições, como no mainpage: avaliação no topo à direita, contador no meio */
+.stair .cell--rank{grid-area:1/3/2/4}
+.stair .cell--next{grid-area:2/2/3/3}
+
+.stair__foot{
+  grid-column:1/-1;background:transparent;border:0;box-shadow:none;
+  margin:0;padding:clamp(12px,1.6vh,18px) 0 0;color:var(--fg);
+  text-align:right;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;opacity:.42
+}
+
+/* ==========================================================================
+   Rodapé
+   ========================================================================== */
+.foot{background:var(--ink-2);color:var(--paper);border-top:1px solid rgba(255,255,255,.13);padding:clamp(40px,6vh,72px) var(--pad)}
+.foot__in{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,3vw,56px)}
+.foot h4{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.45;margin-bottom:14px;font-weight:500}
+.foot p{font-size:.82rem;line-height:1.7;opacity:.6;margin:0}
+.foot a{color:inherit;text-decoration:none;opacity:.75;transition:opacity .3s,color .3s}
+.foot a:hover{opacity:1;color:var(--lime)}
+.foot nav{display:flex;flex-direction:column;gap:8px;font-size:.85rem}
+.foot__mark{width:34px;margin-bottom:18px;opacity:.85}
+.foot__bar{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:clamp(26px,4vh,46px);padding-top:18px;border-top:1px solid rgba(255,255,255,.13);font-size:.7rem;letter-spacing:.06em;opacity:.4}
+
+/* ==========================================================================
+   Revelação
+   ========================================================================== */
+html.js .rv{opacity:0;transform:translateY(18px);transition:opacity .75s var(--ease),transform .75s var(--ease)}
+html.js .rv.in{opacity:1;transform:none}
+html.js .slide.in .rv{opacity:1;transform:none}
+html.js .slide.in .rv:nth-child(2){transition-delay:.06s}
+html.js .slide.in .rv:nth-child(3){transition-delay:.12s}
+html.js .slide.in .rv:nth-child(4){transition-delay:.18s}
+html.js .slide.in .rv:nth-child(5){transition-delay:.24s}
+
+/* ==========================================================================
+   Responsivo
+   ========================================================================== */
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr;align-items:start;gap:clamp(24px,3.6vh,42px)}
+  .hero__brand{width:clamp(150px,28vw,250px);opacity:.09}
+  .grid--4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .grid--3{grid-template-columns:1fr}
+  .two,.two--wide,.truths{grid-template-columns:1fr}
+  .foot__in{grid-template-columns:1fr 1fr}
+  .slide{justify-content:flex-start}
+}
+@media (max-width:860px){
+  :root{--rail:100vw;--pad:22px}
+  .rail{height:56px;width:100vw;flex-direction:row;align-items:center;transform:none!important;
+        border:0;border-bottom:1px solid rgba(255,255,255,.14)}
+  .rail.is-open{width:100vw;height:100svh;flex-direction:column;align-items:stretch;box-shadow:none}
+  .rail__home{height:56px;flex:0 0 auto;justify-content:flex-start;padding-inline:20px;width:auto;border:0}
+  .rail.is-open .rail__home{height:56px;flex:0 0 56px;width:100%;border-bottom:1px solid rgba(255,255,255,.14)}
+  .rail__btn{height:56px;width:56px;flex:0 0 56px;margin-left:auto}
+  .rail__fill{display:none}
+  .rail__lang{flex-direction:row;padding:0 16px 0 0;margin-left:auto;gap:4px}
+  .rail.is-open .rail__lang{margin-left:0;padding:14px 20px 20px}
+  .rail__lang i{display:none}
+  .rail__word{opacity:.6;max-width:200px}
+  .rail__hint{opacity:.6;rotate:90deg!important}
+  .deck{height:auto;overflow:visible;scroll-snap-type:none}
+  .slide{min-height:0;padding:92px 22px 60px}
+  .slide__n{display:none}
+  .band{padding-top:clamp(60px,9vh,90px)}
+  main>.band:first-child{padding-top:96px}
+  .stair{grid-template-columns:1fr}
+  .stair .cell{min-height:0}
+  .stair .cell--rank,.stair .cell--next{grid-area:auto}
+  .stair .cell--void{display:none}
+  .stair__foot{text-align:left}
+  .grid--2,.grid--4{grid-template-columns:1fr}
+  .terr,.motor{min-height:0}
+  .feed a{grid-template-columns:1fr;gap:8px}
+  .feed__s{justify-self:start}
+  .foot__in{grid-template-columns:1fr;gap:30px}
+  .brow{grid-template-columns:clamp(92px,26vw,150px) 1fr 52px}
+  .tbl thead{display:none}
+  .tbl tr{display:grid;gap:4px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .tbl td{border:0;padding:0}
+  .tbl td::before{content:attr(data-l);display:block;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;opacity:.42;margin-bottom:3px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  html.js .rv{opacity:1;transform:none}
+  .deck{scroll-snap-type:none}
+}
+@media print{
+  .rail,.rail__scrim,.skip{display:none}
+  body{background:#fff;color:#000}
+  .band,.slide{padding:20px;background:#fff;color:#000}
+  .deck{height:auto;overflow:visible}
+}
+
+</style>
+<style>
+  .wrap{max-width:min(920px,100%)}
+  .prog{display:flex;gap:5px;margin:clamp(24px,3.4vh,40px) 0 clamp(22px,3vh,34px)}
+  .prog i{flex:1;height:3px;background:var(--line);border-radius:2px;transition:background-color .4s}
+  .prog i.on{background:var(--num)}
+  .qn{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;opacity:.6;margin:0 0 12px}
+  .q h2{font-size:clamp(1.35rem,2.4vw,2.1rem);line-height:1.14}
+  .qhelp{font-size:.88rem;line-height:1.62;opacity:.82;margin:14px 0 0;max-width:62ch}
+  .opts{display:flex;flex-direction:column;gap:9px;margin:clamp(22px,3vh,32px) 0 0}
+  .opt{display:grid;grid-template-columns:20px 1fr;gap:14px;align-items:start;
+       background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);
+       padding:15px 18px;cursor:pointer;transition:background-color .25s,color .25s}
+  .opt:hover{border-color:currentColor}
+  .opt.sel{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent}
+  .mark{width:18px;height:18px;border:1px solid currentColor;opacity:.75;margin-top:2px;position:relative;flex:0 0 auto}
+  .opt[data-t="single"] .mark{border-radius:50%}
+  .opt.sel .mark{opacity:1}
+  .opt.sel .mark::after{content:"";position:absolute;inset:3px;background:currentColor}
+  .opt[data-t="single"].sel .mark::after{border-radius:50%}
+  .opt b{font-weight:500;font-size:clamp(.9rem,1.02vw,1rem);line-height:1.42;display:block}
+  .opt small{display:block;margin-top:5px;font-size:.8rem;line-height:1.55;opacity:.82}
+  .nav{display:flex;justify-content:space-between;gap:14px;margin-top:clamp(26px,3.6vh,40px);flex-wrap:wrap}
+
+  .idform{display:grid;grid-template-columns:1fr 1fr;gap:clamp(14px,1.8vw,24px);margin-top:clamp(22px,3vh,32px)}
+  .consent{grid-column:1/-1;display:grid;grid-template-columns:22px 1fr;gap:14px;align-items:start;
+    background:var(--hi-bg);color:var(--hi-fg);padding:clamp(18px,2vw,26px);cursor:pointer;margin-top:6px}
+  .consent input{position:absolute;opacity:0;width:0;height:0}
+  .consent .mark{opacity:1;margin-top:1px}
+  .consent.on .mark::after{content:"";position:absolute;inset:3px;background:currentColor}
+  .consent b{display:block;font-weight:600;font-size:.98rem;line-height:1.38}
+  .consent p{margin:8px 0 0;font-size:.83rem;line-height:1.6;opacity:.9}
+  .why{border:1px solid var(--line-2);border-left:2px solid var(--num);padding:clamp(16px,1.8vw,24px);margin-top:clamp(20px,2.6vh,30px)}
+  .why h4{margin-bottom:8px}
+  .why p{margin:0;font-size:.84rem;line-height:1.62;opacity:.82}
+  .why p + p{margin-top:.65em}
+
+  .verdict{background:var(--hi-bg);color:var(--hi-fg);border:0;padding:clamp(24px,2.8vw,44px)}
+  .verdict.v-x,.verdict.v-l,.verdict.v-m{background:var(--card-bg);color:var(--card-fg)}
+  .verdict .lvl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;opacity:.68;margin:0 0 12px}
+  .verdict h2{font-size:clamp(1.7rem,3.4vw,3rem)}
+  .verdict .sum{font-size:clamp(.95rem,1.15vw,1.15rem);line-height:1.6;margin:18px 0 0;max-width:64ch;opacity:.92}
+  .also{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+  .also span{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+             border:1px solid currentColor;padding:5px 10px;border-radius:100px;opacity:.85}
+  .ob{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+  .ob li{display:grid;grid-template-columns:20px 1fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:start}
+  .ob svg{width:15px;height:15px;stroke:var(--num);stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round;margin-top:4px}
+  .ob b{font-weight:600;font-size:.95rem;display:block}
+  .ob p{margin:5px 0 0;font-size:.83rem;line-height:1.58;opacity:.8}
+  .dl2{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--card-line)}
+  .dl2 div{background:var(--card-bg);color:var(--card-fg);padding:18px}
+  .dl2 b{display:block;font-size:clamp(1.5rem,2.4vw,2.2rem);font-weight:300;letter-spacing:-.04em;line-height:1;color:var(--card-num)}
+  .dl2 b.past{color:inherit;font-size:clamp(.9rem,1.1vw,1.05rem);letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.78}
+  .dl2 b small{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;opacity:.62;margin-left:6px;color:inherit;font-weight:600}
+  .dl2 p{margin:10px 0 0;font-size:.82rem;line-height:1.5;opacity:.9}
+  .dl2 cite{display:block;margin-top:7px;font-style:normal;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;opacity:.62}
+  .recap{list-style:none;margin:0;padding:0;font-size:.85rem}
+  .recap li{padding:9px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px}
+  .recap li span{opacity:.68}
+  .recap li b{font-weight:500;text-align:right}
+  @media (max-width:720px){ .idform{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+
+<section class="band band--ink" id="bIntro">
+<div class="wrap">
+  <p class="eyebrow">Certification <b>·</b> free tool</p>
+  <h1>What risk tier<br>is <span class="lime">your AI</span> in?</h1>
+  <p class="lead">Nine questions, five minutes. At the end you will know which risk tier the AI Act places your system in, which obligations are enforceable against you, which deadlines are running, and what documentation you will have to produce.</p>
+
+  <div class="why" style="border-left-width:3px">
+    <h4>From 2 August this becomes mandatory. In European Portuguese, it exists only here.</h4>
+    <p>The transparency obligations of Article 50 become enforceable on 2 August 2026 against any organisation placing AI-generated content on the European market. The Commission published guidance on 20 July; ANACOM still has no enforcement unit in place.</p>
+    <p>We know of no other ethical AI assessment tool in European Portuguese, built on the text of the regulation and offered free of charge. If you know of one, tell us and we will publish the link — the goal is for the country to comply, not for ENIA to be right.</p>
+  </div>
+
+  <div class="grid grid--3" style="margin-top:clamp(26px,3.6vh,44px)">
+    <article class="card"><h4>Your answers stay in your browser</h4><p>The classification runs locally. Only the identification details you fill in at the end are recorded.</p></article>
+    <article class="card"><h4>This is not legal advice</h4><p>It is an indicative self-assessment based on the text of the regulation. The final classification is the operator’s responsibility.</p></article>
+    <article class="card"><h4>We do not sell the next step</h4><p>ENIA does not provide compliance services. If you need help, the meeting is free and does not end in a pitch.</p></article>
+  </div>
+
+  <div class="btns">
+    <button class="btn btn--fill" type="button" data-go="1">Start the test <i>→</i></button>
+    <a class="btn btn--ghost" href="certificacao.html">First, see how the AI Act works <i>→</i></a>
+  </div>
+</div>
+</section>
+
+<section class="band band--paper" id="bQuiz" hidden>
+ <div class="wrap"><div id="quiz"></div></div>
+</section>
+
+<section class="band band--mist" id="bId" hidden>
+ <div class="wrap">
+  <div class="prog" id="progId" aria-hidden="true"></div>
+  <p class="qn">Last step</p>
+  <h2>Who is assessing,<br>and what is being assessed.</h2>
+  <p class="lead">These details serve a concrete purpose: nobody knows the real state of AI in Portugal, because nobody measures it. This test is the first instrument capable of measuring it — and it only works if we know which sector and which company size each answer comes from.</p>
+
+  <form class="idform" id="idForm" novalidate>
+    <div class="field"><label for="iEmpresa">Company or organisation</label><input id="iEmpresa" name="empresa" autocomplete="organization" required placeholder="Registered name"></div>
+    <div class="field"><label for="iProduto">Name of the AI system or product</label><input id="iProduto" name="produto" required placeholder="What the thing you assessed is called"></div>
+    <div class="field"><label for="iName">Your name</label><input id="iName" name="nome" autocomplete="name" required placeholder="First name and surname"></div>
+    <div class="field"><label for="iEmail">Your email</label><input id="iEmail" name="email" type="email" autocomplete="email" required placeholder="nome@organizacao.pt"></div>
+    <div class="field"><label for="iSetor">Sector</label>
+      <select id="iSetor" name="setor">
+        <option>Information technology and software</option>
+        <option>Communications and telecommunications</option>
+        <option>Finance, banking and insurance</option>
+        <option>Health and pharmaceuticals</option>
+        <option>Industry and manufacturing</option>
+        <option>Retail and trade</option>
+        <option>Education and training</option>
+        <option>Public administration</option>
+        <option>University or research centre</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="field"><label for="iDim">Company size</label>
+      <select id="iDim" name="dimensao">
+        <option>1 to 9 people</option>
+        <option>10 to 49 people</option>
+        <option>50 to 249 people</option>
+        <option>250 or more people</option>
+      </select>
+    </div>
+
+    <label class="consent" id="consent">
+      <input type="checkbox" id="iConsent" name="consent">
+      <span class="mark"></span>
+      <span>
+        <b>I authorise ENIA to mention my organisation publicly in the Ethical AI Marketplace, if the classification warrants it.</b>
+        <p>The Marketplace is a public listing of Portuguese organisations that have assessed their AI and demonstrated governance. It serves two purposes at once: it gives visibility to those who did the work, and it gives the country a list of AI suppliers who know what risk tier they operate in. Without authorisation, your details enter only the statistical aggregate — the test works exactly the same way.</p>
+      </span>
+    </label>
+  </form>
+
+  <div class="why">
+    <h4>Why we keep this</h4>
+    <p>INE measures whether companies <em>use</em> AI. Nobody measures whether that AI is classified, documented and governed. It is the most consequential gap in the national diagnosis: without it, any AI policy is made blind.</p>
+    <p>Every completed test becomes a point on a public chart — risk distribution by sector and by company size. We publish the aggregate, never the individual case, unless expressly authorised above. The data is not shared with third parties and not used to sell anything, because we sell nothing.</p>
+  </div>
+
+  <div class="nav">
+    <button class="btn btn--ghost" type="button" id="idBack">← Back to the questions</button>
+    <button class="btn btn--fill" type="button" id="idNext">See my result <i>→</i></button>
+  </div>
+ </div>
+</section>
+
+<section class="band band--deep" id="bOut" hidden>
+ <div class="wrap">
+  <div class="prog" id="progR" aria-hidden="true"></div>
+  <div id="out"></div>
+ </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAzMDAwIDMwMDAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM6c2VyaWY9Imh0dHA6Ly93d3cuc2VyaWYuY29tLyIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoyOyI+PHJlY3QgaWQ9IlByYW5jaGV0YTEiIHg9IjAiIHk9IjAiIHdpZHRoPSIzMDAwIiBoZWlnaHQ9IjMwMDAiIHN0eWxlPSJmaWxsOm5vbmU7Ii8+PGcgaWQ9IlByYW5jaGV0YTExIiBzZXJpZjppZD0iUHJhbmNoZXRhMSI+PHBhdGggZD0iTTEyNjMuMDU0LDczNS45OTljMCw3MS4yNTMgLTU3Ljg0OCwxMjkuMTAxIC0xMjkuMTAxLDEyOS4xMDFsLTQyNy42MDMsMGMtNzEuMjUzLDAgLTEyOS4xMDEsLTU3Ljg0OCAtMTI5LjEwMSwtMTI5LjEwMWMwLC03MS4yNTMgNTcuODQ4LC0xMjkuMTAxIDEyOS4xMDEsLTEyOS4xMDFsNDI3LjYwMywwYzcxLjI1MywwIDEyOS4xMDEsNTcuODQ4IDEyOS4xMDEsMTI5LjEwMVptLTQ0MC43NCw2MzIuOTE0bC0wLjAxNCwtMGMtMzQ1LjU3MiwtNy4zNzggLTYyMy40NDUsLTI4OS44MTQgLTYyMy40NDUsLTYzNy4xNTVjLTAsLTM0Ny4zNDUgMjc3Ljg3OCwtNjI5Ljc4MyA2MjMuNDA2LC02MzcuMTUzYzIuMDc1LC0wLjEgNC4xNjMsLTAuMTUgNi4yNjIsLTAuMTVsNTIyLjYyNiwwYzcxLjI1MywwIDEyOS4xMDEsNTcuODQ4IDEyOS4xMDEsMTI5LjEwMWMwLDcxLjI1MyAtNTcuODQ4LDEyOS4xMDEgLTEyOS4xMDEsMTI5LjEwMWwtNTIyLjYyNiwwYy0zLjUzNiwwIC03LjAzOCwtMC4xNDMgLTEwLjQ5NSwtMC40MjJjLTIwMS40MjQsOS40NTMgLTM2MS44MTgsMTc1Ljc2MSAtMzYxLjgxOCwzNzkuNTI0YzAsMjAzLjc2MiAxNjAuMzkyLDM3MC4wNjkgMzYxLjgxLDM3OS41MjVjMy40NjQsLTAuMjggNi45NjcsLTAuNDIzIDEwLjUwMywtMC40MjNsNTIyLjYyNiwwYzcxLjI1MywwIDEyOS4xMDEsNTcuODQ4IDEyOS4xMDEsMTI5LjEwMWMwLDcxLjI1MyAtNTcuODQ4LDEyOS4xMDEgLTEyOS4xMDEsMTI5LjEwMWwtNTIyLjYyNiwwYy0yLjA4MSwwIC00LjE1MSwtMC4wNSAtNi4yMDgsLTAuMTQ3Wm03NjQuNywtNjU3Ljc4N2wwLC0wLjAxNGM3LjM3OCwtMzQ1LjU3MiAyODkuODE0LC02MjMuNDQ1IDYzNy4xNTUsLTYyMy40NDVjMzQ3LjM0NSwwIDYyOS43ODMsMjc3Ljg3OCA2MzcuMTUzLDYyMy40MDZjMC4xLDIuMDc1IDAuMTUsNC4xNjMgMC4xNSw2LjI2MmwwLDUyMi42MjZjMCw3MS4yNTMgLTU3Ljg0OCwxMjkuMTAxIC0xMjkuMTAxLDEyOS4xMDFjLTcxLjI1MywwIC0xMjkuMTAxLC01Ny44NDggLTEyOS4xMDEsLTEyOS4xMDFsMCwtNTIyLjYyNmMwLC0zLjUzNiAwLjE0MywtNy4wMzggMC40MjIsLTEwLjQ5NWMtOS40NTMsLTIwMS40MjQgLTE3NS43NjEsLTM2MS44MTggLTM3OS41MjQsLTM2MS44MThjLTIwMy43NjIsMCAtMzcwLjA2OSwxNjAuMzkyIC0zNzkuNTI1LDM2MS44MWMwLjI4LDMuNDY0IDAuNDIzLDYuOTY3IDAuNDIzLDEwLjUwM2wwLDUyMi42MjZjMCw3MS4yNTMgLTU3Ljg0OCwxMjkuMTAxIC0xMjkuMTAxLDEyOS4xMDFjLTcxLjI1MywwIC0xMjkuMTAxLC01Ny44NDggLTEyOS4xMDEsLTEyOS4xMDFsMCwtNTIyLjYyNmMwLC0yLjA4MSAwLjA1LC00LjE1MSAwLjE0NywtNi4yMDhabTAsMTU0My4yNzNsMCwtMC4wMTRjNy4zNzgsLTM0NS41NzIgMjg5LjgxNCwtNjIzLjQ0NSA2MzcuMTU1LC02MjMuNDQ1YzM0Ny4zNDUsMCA2MjkuNzgzLDI3Ny44NzggNjM3LjE1Myw2MjMuNDA2YzAuMSwyLjA3NSAwLjE1LDQuMTYzIDAuMTUsNi4yNjJsMCw1MjIuNjI2YzAsNzEuMjUzIC01Ny44NDgsMTI5LjEwMSAtMTI5LjEwMSwxMjkuMTAxYy03MS4yNTMsMCAtMTI5LjEwMSwtNTcuODQ4IC0xMjkuMTAxLC0xMjkuMTAxbC0wLC01MjIuNjI2YzAsLTMuNTM2IDAuMTQzLC03LjAzOCAwLjQyMiwtMTAuNDk1Yy05LjQ1MywtMjAxLjQyNCAtMTc1Ljc2MSwtMzYxLjgxOCAtMzc5LjUyNCwtMzYxLjgxOGMtMjAzLjc2MiwwIC0zNzAuMDY5LDE2MC4zOTIgLTM3OS41MjUsMzYxLjgxYzAuMjgsMy40NjQgMC40MjMsNi45NjcgMC40MjMsMTAuNTAzbDAsNTIyLjYyNmMwLDcxLjI1MyAtNTcuODQ4LDEyOS4xMDEgLTEyOS4xMDEsMTI5LjEwMWMtNzEuMjUzLDAgLTEyOS4xMDEsLTU3Ljg0OCAtMTI5LjEwMSwtMTI5LjEwMWwwLC01MjIuNjI2YzAsLTIuMDgxIDAuMDUsLTQuMTUxIDAuMTQ3LC02LjIwOFptNDQzLjQ3NywzNTMuOTYxYy03MC4yMzgsLTAgLTEyNy4yNjMsLTU3LjAyNSAtMTI3LjI2MywtMTI3LjI2M2MwLC03MC4yMzggNTcuMDI1LC0xMjcuMjYzIDEyNy4yNjMsLTEyNy4yNjNsMzg3LjM1OCwwYzcwLjIzOCwtMCAxMjcuMjYzLDU3LjAyNSAxMjcuMjYzLDEyNy4yNjNjMCw3MC4yMzggLTU3LjAyNSwxMjcuMjYzIC0xMjcuMjYzLDEyNy4yNjNsLTM4Ny4zNTgsMFptLTExODcuMjYzLC0xMTgzLjUxNmMyNDUuODM0LDAgNDQ1LjQyLDE5OS41ODYgNDQ1LjQyLDQ0NS40MmMwLDI0NS44MzQgLTE5OS41ODYsNDQ1LjQyIC00NDUuNDIsNDQ1LjQyYy0yNDUuODM0LDAgLTQ0NS40MiwtMTk5LjU4NiAtNDQ1LjQyLC00NDUuNDJjMCwtMjQ1LjgzNCAxOTkuNTg2LC00NDUuNDIgNDQ1LjQyLC00NDUuNDJabTAsMjU0LjUyNWMtMTA1LjM1NywwIC0xOTAuODk0LDg1LjUzNyAtMTkwLjg5NCwxOTAuODk0YzAsMTA1LjM1NyA4NS41MzcsMTkwLjg5NCAxOTAuODk0LDE5MC44OTRjMTA1LjM1NywwIDE5MC44OTQsLTg1LjUzNyAxOTAuODk0LC0xOTAuODk0YzAsLTEwNS4zNTcgLTg1LjUzNywtMTkwLjg5NCAtMTkwLjg5NCwtMTkwLjg5NFptLTU5OC4zNDksMTAwMS4wMzdjMTI1LjU4NSwtMTk1LjAyOCAzNDQuNjM4LC0zMjQuMjUzIDU5My42MiwtMzI0LjMzMWwwLjIyNiwtMGM2My4xNDEsLTAuMDkzIDEyMS4yNDEsNy45NTUgMTc0LjQwNiwyMS43NDNjMTgyLjcxOCw0Ni40OTYgMzM3LjA3MiwxNjQuMzM1IDQzMS41NTMsMzIyLjA4OWM4LjA5MSwxMi44MTQgMTMuMTUyLDIxLjk2OCAxNS4yNDQsMjYuMTFjMTUuMDUyLDI5LjgwOSAxNC4yNzgsNTAuMTM5IDE0LjQ0LDUzLjg4NmwtOC4yNDgsNTAuODc1bC0yNC44OTEsNDAuNDA4bC0yNi40NTIsMjIuMDczbC0zMi42MSwxNC41MjFsLTI1LjYyMSw0LjU1MmwtMzEuNDM2LC0xLjU5Yy0zLjM2OSwtMC41OTQgLTU1LjI1MywtMS45NzkgLTkxLjE1NiwtNjYuODE4Yy0yLjI1OSwtNC4wNzkgLTQuNTc5LC04LjEyIC02Ljk1OSwtMTIuMTIxYy0yNy4yMTgsLTQwLjczNSAtMTUwLjkyNywtMjA3LjM2NyAtMzYxLjA3MSwtMjIwLjM5NWMtOC45MjQsLTAuNTMyIC0xNy45MTcsLTAuODAzIC0yNi45NzIsLTAuODA4bC0wLjIyNiwwYy0xOTQuMDY3LDAuNDQ0IC0zMTguMjkzLDEyNy44NTEgLTM2NC4wMDYsMTg0LjU4OWMtOC4yNzksMTEuMjY4IC0xNi4wNDksMjIuOTMyIC0yMy4yNzQsMzQuOTZjLTI2LjA4MSw0My40MTYgLTU0Ljk3NSw1Mi43MDEgLTU4LjY1Myw1NC40MDJsLTQ2Ljk4MiwxMS41OTdsLTU0Ljc0NiwtOS4zNDhsLTQzLjYwNywtMjkuNjkybC0yNC4wNzksLTM1LjYwNWwtMTEuMjg3LC00OS4zMmwzLjM3NCwtMzIuNTA5YzEuMDg3LC00LjYwOCAzLjI5OCwtMTMuNTQyIDkuMDA0LC0yNS43MjZjMS44MzEsLTMuOTA4IDguNjA0LC0xNi4wMTMgMjAuNDExLC0zMy41NDRaIiBzdHlsZT0iZmlsbDojZmZmOyIvPjwvZz48L3N2Zz4=" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>National Entity for Artificial Intelligence<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">AI Act Radar</a>
+        <a href="noticias.html">News and publications</a>
+        <a href="marketplace.html">Ethical AI Marketplace</a>
+        <a href="sobre.html">About ENIA and the Colleges</a>
+        <a href="estrategia.html">National Strategy</a>
+        <a href="certificacao.html">Certification</a>
+        <a href="capacitacao.html">Skills and literacy</a>
+        <a href="contactos.html">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Legal basis</h4>
+      <p>Regulation (EU) 2024/1689 — Articles 4, 5, 6, 50 and 51 to 55, and Annexes I and III. Timeline per the Digital Omnibus on AI.</p>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Indicative self-assessment · not legal advice and not a certification</span>
+    <span>Observatory updated daily at 00:00 CET</span>
+  </div>
+</footer>
+
+<script>
+/* Gerado por scripts/bundle.mjs — não editar à mão. */
+window.__ENIA__ = {"radar":{"version":"2026.07.26","generated":null,"nextUpdate":"00:00 CET","omnibus":"Digital Omnibus sobre IA: acordo político a 7 de maio de 2026, aprovação do Parlamento Europeu a 16 de junho e aprovação final do Conselho a 29 de junho de 2026. Os novos prazos só produzem efeitos jurídicos com a publicação no Jornal Oficial — até lá, o calendário original mantém-se tecnicamente aplicável. Verificar o estado da publicação antes de usar em comunicação externa.","highlights":[{"value":"17%","body":"das empresas portuguesas já usam IA. <b>O dobro da média europeia (≈8%).</b>","source":"DESI 2024 · Comissão Europeia"},{"value":"8/27","body":"Estados-Membros com enforcement plenamente operacional. <b>Portugal ainda não tem.</b>","source":"Reg. (UE) 2024/1689"},{"value":"38,7%","body":"da população portuguesa entre os 16 e os 74 anos utiliza ferramentas de Inteligência Artificial.","source":"INE · IUTICE Famílias 2025"}],"deadlines":[{"date":"2025-02-02","label":"Práticas proibidas + literacia em IA","done":true},{"date":"2025-08-02","label":"GPAI, AI Office e regime de coimas","done":true},{"date":"2026-08-02","label":"Artigo 50.º — obrigações de transparência","done":false},{"date":"2026-12-02","label":"Art. 50.º(2) para sistemas legados + novas práticas proibidas (NCII/CSAM)","done":false},{"date":"2027-08-02","label":"Sandbox regulatória nacional obrigatória em cada Estado-Membro","done":false},{"date":"2027-12-02","label":"Alto risco — Anexo III (sistemas autónomos)","done":false},{"date":"2028-08-02","label":"Alto risco — Anexo I (IA embebida em produtos regulados)","done":false}],"countries":[{"name":"Finlândia","score":95,"state":"top"},{"name":"Alemanha","score":75,"state":"mid"},{"name":"Itália","score":68,"state":"mid"},{"name":"França","score":65,"state":"mid"},{"name":"Países Baixos","score":60,"state":"mid"},{"name":"Espanha","score":58,"state":"mid"},{"name":"Bélgica","score":55,"state":"mid"},{"name":"Portugal","score":40,"state":"me"},{"name":"Irlanda","score":35,"state":"low"},{"name":"Polónia","score":30,"state":"low"},{"name":"Suécia","score":28,"state":"low"},{"name":"Hungria","score":10,"state":"low"}],"sectors":[{"name":"Comunicações","value":54.6},{"name":"IT / Tecnologia","value":38.5},{"name":"Financeiro","value":24.1},{"name":"Saúde","value":18.3},{"name":"Indústria","value":15.2},{"name":"Administração Pública","value":15},{"name":"Outros","value":12.1}],"checklist":[{"done":true,"title":"Autoridade nacional competente designada","note":"ANACOM, 19 de setembro de 2025 — 49 dias após o prazo do Artigo 70.º."},{"done":true,"title":"Coordenação sectorial estabelecida","note":"14 entidades: CNPD, Banco de Portugal, ASF, CMVM, ERS, IGF/IGDN, ERC, entre outras."},{"done":true,"title":"Agenda Nacional de IA aprovada","note":"RCM n.º 2/2026, de 8 de janeiro. 32 iniciativas, mais de 400 M€ até 2030."},{"done":false,"title":"Unidade de enforcement com poderes plenos","note":"Sem equipas técnicas especializadas em avaliação de sistemas de IA."},{"done":false,"title":"Sandbox regulatória de IA operacional","note":"Obrigatória até 2 de agosto de 2027 (Art. 57.º). Sem ação pública anunciada."},{"done":false,"title":"Sistema de notificação e registo de alto risco","note":"Necessário para os operadores do Anexo III cumprirem o registo europeu."},{"done":false,"title":"Normas técnicas harmonizadas","note":"CEN/CENELEC falharam o prazo de 2025; trabalho ainda em curso."},{"done":false,"title":"Mecanismo nacional de apoio às PME","note":"Sem equivalente ao AI Act Service Desk europeu. A ENIA supre informalmente."}],"ine":{"asOf":"INE · IUTICE 2025 — Empresas publicado a 21 de novembro de 2025","empresas":{"adocao":11.5,"delta":2.9,"nota":"Empresas com 10 ou mais pessoas ao serviço. Inquérito conduzido de fevereiro a junho de 2025.","porDimensao":[{"name":"250 ou mais pessoas","value":49.1,"delta":7.2},{"name":"50 a 249 pessoas","value":18.2,"delta":2.8},{"name":"10 a 49 pessoas","value":9.4,"delta":2.7}],"aplicacoes":[{"name":"Análise de linguagem escrita","value":59.4},{"name":"Geração de imagem, vídeo ou áudio","value":50.9},{"name":"Geração de texto, fala ou código","value":45.6}],"barreiras":[{"name":"Falta de conhecimentos na empresa","value":74.4},{"name":"Custos considerados demasiado elevados","value":60.4},{"name":"Falta de clareza sobre consequências legais","value":57.3},{"name":"Preocupações com proteção de dados e privacidade","value":55.4}],"contexto":[{"name":"Acesso à internet para fins profissionais","value":98.8},{"name":"Executam análise de dados","value":45},{"name":"Utilizam pelo menos um software empresarial","value":53.7},{"name":"Utilizam software de business intelligence","value":13}]},"pessoas":{"adocao":38.7,"nota":"Pessoas dos 16 aos 74 anos que utilizaram ferramentas de IA nos três meses anteriores à entrevista. Recolha de maio a agosto de 2025.","finalidades":[{"name":"Fins pessoais","value":33.2},{"name":"Contexto profissional","value":19.9},{"name":"Atividades educativas formais","value":14.5}],"porGrupo":[{"name":"Estudantes","value":81.5},{"name":"16 a 24 anos","value":76.5},{"name":"Ensino superior","value":63.4},{"name":"25 a 34 anos","value":62.6},{"name":"35 a 44 anos","value":52.3},{"name":"Ensino secundário","value":44.9},{"name":"Total 16 aos 74 anos","value":38.7}],"naoUtilizadores":[{"name":"Não sente necessidade","value":67.9},{"name":"Falta de conhecimentos para utilizar","value":15.3},{"name":"Preocupações de privacidade ou segurança","value":8.3}]}},"aicep":{"asOf":"AICEP · portugalglobal.pt · 2025-2026","figs":[{"value":"10%","label":"do PIB nacional gerado pelo setor das TIC","source":"Portugal ICT Study 2026-2030"},{"value":"16,6 mM€","label":"receitas projetadas para o setor TIC até 2028","source":"Portugal ICT Study 2026-2030"},{"value":"5 000+","label":"startups ativas em 2025, mais 8% do que em 2024","source":"AICEP · Startup ecosystem"},{"value":"2,85 mM€","label":"volume de negócios das startups e cerca de 28 000 empregos","source":"AICEP · Startup ecosystem"},{"value":"120","label":"empresas estrangeiras atraídas para o setor digital","source":"AICEP · Digital sector"},{"value":"1,5%","label":"das exportações nacionais têm origem em startups","source":"AICEP · Startup ecosystem"}]},"ania":{"asOf":"RCM n.º 2/2026, de 8 de janeiro · PAANIA 2026-2030","resumo":"32 iniciativas e um investimento superior a 400 M€ até 2030, maioritariamente com fundos europeus. Impacto estimado pelo Governo: mais 18 a 22 mil M€ no PIB, cerca de 8% no pico, e um contributo adicional da produtividade para o crescimento do PIB de até 2,7 p.p. na próxima década (fonte citada: McKinsey & Co.).","avaliacao":"Estado atribuído pela ENIA a partir de informação pública. «Sem informação pública» significa exatamente isso: não encontrámos evidência publicada, não que a medida não esteja a decorrer.","medidas":[{"eixo":"Infraestrutura e Dados","medida":"Aquisição de capacidade de computação avançada","estado":"wip","nota":"Investimentos anunciados no ecossistema, incluindo 20 M€ da ULisboa em computação avançada e IA (julho de 2026)."},{"eixo":"Infraestrutura e Dados","medida":"AI Factory nacional","estado":"wip","nota":"Prevista na Agenda. Sem data pública de entrada em funcionamento."},{"eixo":"Infraestrutura e Dados","medida":"LLM nacional AMÁLIA","estado":"wip","nota":"Consórcio NOVA, IST, U. Coimbra, U. Porto, U. Minho e FCT. Em 2026 o investimento orienta-se para casos de uso, incluindo o sistema educativo."},{"eixo":"Inovação e Adoção","medida":"Centro de Excelência em IA na ARTE","estado":"wip","nota":"Anunciado para o primeiro semestre de 2026 como coordenador transversal do Estado."},{"eixo":"Inovação e Adoção","medida":"Centros de IA setoriais (Saúde, Indústria e Robótica)","estado":"no","nota":"Sem informação pública sobre a constituição dos consórcios."},{"eixo":"Inovação e Adoção","medida":"IA na Administração Pública — 25 M€ em contratação, faturas, recrutamento e licenciamentos","estado":"wip","nota":"Dotação anunciada. Sem indicadores públicos de execução."},{"eixo":"Inovação e Adoção","medida":"Linha de financiamento «IA nas PME» reforçada e roadshows","estado":"wip","nota":"Mecanismos existentes, incluindo o IFIC, referidos como via de apoio."},{"eixo":"Inovação e Adoção","medida":"Plataforma nacional de produtos de IA low-code/no-code para PME","estado":"no","nota":"Sem informação pública sobre desenvolvimento."},{"eixo":"Inovação e Adoção","medida":"Sandboxes regulatórias de IA","estado":"no","nota":"Obrigatórias até 2 de agosto de 2027 pelo Art. 57.º do AI Act. Sem ação pública anunciada."},{"eixo":"Inovação e Adoção","medida":"Guia oficial de interpretação do Código dos Contratos Públicos para aquisição de IA","estado":"no","nota":"Sem informação pública."},{"eixo":"Talento e Competências","medida":"Programa de formação avançada em IA para funcionários públicos","estado":"wip","nota":"Previsto no plano de ação. Sem números públicos de formandos."},{"eixo":"Talento e Competências","medida":"Doutoramentos não académicos e investigação aplicada em IA","estado":"wip","nota":"Expansão prevista."},{"eixo":"Enquadramento","medida":"Revisão do regime de propriedade intelectual e patentes de IA","estado":"no","nota":"Sem informação pública sobre calendário legislativo."},{"eixo":"Enquadramento","medida":"Alinhamento com o AI Continent Action Plan e a estratégia Apply AI","estado":"ok","nota":"Alinhamento declarado no documento da Agenda."}]},"sources":[{"name":"EUR-Lex · Reg. (UE) 2024/1689","url":"eur-lex.europa.eu"},{"name":"Comissão Europeia · AI Office","url":"digital-strategy.ec.europa.eu"},{"name":"Parlamento Europeu","url":"europarl.europa.eu"},{"name":"INE · IUTICE Empresas e Famílias","url":"ine.pt"},{"name":"AICEP · Portugal Global","url":"portugalglobal.pt"},{"name":"ANIA · RCM n.º 2/2026","url":"digital.gov.pt"},{"name":"ANACOM","url":"anacom.pt"},{"name":"CNPD","url":"cnpd.pt"},{"name":"Banco de Portugal","url":"bportugal.pt"},{"name":"ERS · Saúde","url":"ers.pt"},{"name":"DESI / Relatório da Década Digital","url":"digital-strategy.ec.europa.eu"}],"_nota":"Os indicadores (highlights, countries, sectors, checklist, ine, aicep, ania) são curados pela ENIA e NÃO são reescritos pelo sync automático — só os campos 'generated' e 'version'. Editar aqui e fazer commit."},"news":{"generated":null,"window":"últimos 45 dias","items":[{"title":"Digital Omnibus: novas regras","summary":"Modelos de grande escala (GPT-4, Claude, Mistral) têm novos requisitos desde agosto de 2025. O que muda para Portugal.","source":"EUR-Lex","date":"2026-07-18","url":"https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689"},{"title":"Finlândia ativa enforcement","summary":"A TRAFICOM iniciou operações. O que Portugal pode aprender com o primeiro regulador de IA plenamente operacional da UE.","source":"ENIA Analysis","date":"2026-07-15","url":"radar.html#benchmark"},{"title":"Estado de preparação de Portugal, revisto","summary":"Relatório ENIA ajustado aos novos prazos do Digital Omnibus, com o cronograma vinculativo reconstruído obrigação a obrigação.","source":"ENIA Publishing","date":"2026-07-14","url":"radar.html#prazos"}]},"series":{"generated":"2026-07-28T15:20:59.575Z","since":"2026-07-26","readings":2,"delta":{"pt":0,"rank":0},"points":[{"date":"2026-07-26","pt":40,"rank":8,"of":12,"euAvg":51.6,"gap":55,"done":3,"aniaOk":1},{"date":"2026-07-28","pt":40,"rank":8,"of":12,"euAvg":51.6,"gap":55,"done":3,"aniaOk":1}]},"archive":{"generated":null,"nota":"Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.","count":16,"items":[{"date":"2026-07-24","title":"Comissão conclui preliminarmente que o TikTok viola o DSA na proteção de menores","summary":"Conclusões preliminares por falha na garantia de contas seguras para menores. Sinal de que o enforcement digital europeu passou da fase declaratória à fase sancionatória.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/en/news/commission-preliminary-finds-tiktok-breach-digital-services-act-failing-ensure-safe-accounts-minors"},{"date":"2026-07-23","title":"Comissão multa a Google em 890 milhões de euros por violação do DMA","summary":"A maior coima aplicada ao abrigo do Regulamento dos Mercados Digitais até à data. Referência de escala para quem ainda trata a conformidade digital como risco teórico.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/en/news/commission-fines-google-eu890-million-breaches-digital-markets-act"},{"date":"2026-07-20","title":"Comissão publica orientações sobre as obrigações de transparência do Artigo 50.º","summary":"Orientações para fornecedores e implementadores de certos sistemas de IA, a treze dias do prazo de 2 de agosto de 2026. É o documento que qualquer organização com funcionalidades generativas tem de ler antes do prazo.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"},{"date":"2026-07-20","title":"Comissão multa a AliExpress em 550 milhões de euros por violação do DSA","summary":"Segunda coima de grande dimensão em três dias. O padrão de enforcement europeu para plataformas está a consolidar-se em vésperas da entrada em vigor da transparência do AI Act.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"},{"date":"2026-07-15","title":"AI Office publica conclusões de peritos sobre IA de fronteira","summary":"Contributo de peritos sobre competitividade, soberania e segurança da União em modelos de fronteira. Enquadra a direção que o AI Office vai dar à supervisão de modelos de uso geral.","source":"AI Office","url":"https://digital-strategy.ec.europa.eu/pt/policies/ai-office"},{"date":"2026-07-13","title":"Estudo de viabilidade para um registo europeu de reservas de direitos em TDM","summary":"Novo estudo sobre a criação de um registo à escala da União para as reservas de direitos em prospeção de textos e dados. Afeta diretamente a política de direitos de autor exigida aos fornecedores de GPAI.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"},{"date":"2026-07-07","title":"Plano de Ação da UE para a Cibersegurança e a Inteligência Artificial","summary":"A Comissão apresenta um plano que cruza cibersegurança e IA. Relevante para quem tem obrigações simultâneas ao abrigo do AI Act e da NIS2.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"},{"date":"2026-06-29","title":"Conselho aprova em definitivo o Digital Omnibus sobre IA","summary":"Aprovação final que altera o calendário do AI Act: alto risco do Anexo III passa para 2 de dezembro de 2027, Anexo I para agosto de 2028 e a sandbox nacional para agosto de 2027. A transparência do Artigo 50.º não foi adiada.","source":"Conselho da UE","url":"https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"},{"date":"2026-06-24","title":"Comissão apresenta o Pacote de Soberania Tecnológica Europeia","summary":"Medidas para reforçar a capacidade europeia em semicondutores, inteligência artificial, cloud e código aberto, incluindo o Chips Act 2.0 e a proposta de Cloud and AI Development Act.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy"},{"date":"2026-06-16","title":"Parlamento Europeu aprova o Digital Omnibus sobre IA","summary":"Aprovação parlamentar do pacote de simplificação, na sequência do acordo político de 7 de maio. Faltava apenas a aprovação do Conselho.","source":"Parlamento Europeu","url":"https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"},{"date":"2026-05-19","title":"Comissão e OCDE colaboram na monitorização de estratégias nacionais de IA","summary":"Acompanhamento conjunto das estratégias e do investimento em IA dos Estados-Membros. Portugal passa a ser comparado com métrica externa — o que torna a execução da ANIA mais visível.","source":"Comissão Europeia","url":"https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"},{"date":"2026-05-07","title":"Acordo político sobre o Digital Omnibus sobre IA","summary":"Colegisladores chegam a acordo sobre o adiamento faseado das obrigações de alto risco. Abre a janela que dá a Portugal tempo para montar a infraestrutura que ainda não tem.","source":"Conselho da UE","url":"https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"},{"date":"2026-01-08","title":"Agenda Nacional de Inteligência Artificial aprovada em Conselho de Ministros","summary":"Resolução do Conselho de Ministros n.º 2/2026 aprova a ANIA e o Plano de Ação 2026-2030: 32 iniciativas e mais de 400 M€ até 2030, com impacto estimado de 18 a 22 mil M€ no PIB.","source":"Governo de Portugal","url":"https://digital.gov.pt/pt/estrategia-digital/agenda-nacional-de-ia"},{"date":"2025-11-21","title":"INE: 11,5% das empresas portuguesas utilizam inteligência artificial","summary":"Inquérito IUTICE 2025: mais 2,9 pontos percentuais do que em 2024. A adoção varia de 9,4% nas empresas de 10 a 49 pessoas a 49,1% nas de 250 ou mais.","source":"INE","url":"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=707462458&DESTAQUESmodo=2&xlang=pt"},{"date":"2025-09-19","title":"ANACOM designada autoridade nacional competente para o AI Act","summary":"Designação oficial 49 dias após o prazo do Artigo 70.º. A ANACOM passa a coordenar 14 entidades sectoriais, mas a unidade de enforcement com poderes plenos continua por constituir.","source":"ANACOM","url":"https://www.anacom.pt/render.jsp?categoryId=406877"},{"date":"2025-08-02","title":"Entram em vigor as obrigações para modelos de IA de uso geral","summary":"Documentação técnica, política de direitos de autor e sumário público dos dados de treino passam a ser exigíveis. O AI Office torna-se operacional e o regime de coimas entra em aplicação.","source":"EUR-Lex","url":"https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689"}]},"marketplace":{"generated":null,"nota":"Listagem pública das organizações que concluíram o teste de classificação e autorizaram menção. Alimentada pelo endpoint de submissão do teste (ver README, secção 15). Só entram registos com consent:true e score >= 60. O agregado estatístico usa todos os registos, incluindo os sem autorização.","aggregate":{"total":0,"consented":0,"byTier":{"minimo":0,"limitado":0,"derrogado":0,"alto":0,"inaceitavel":0},"bySector":{},"avgGov":null},"items":[]}};
+
+</script>
+<script>
+/* ==========================================================================
+   ENIA v4 — comportamento partilhado
+
+   A rail navega entre PÁGINAS, nunca entre slides. Na home alterna de lado
+   consoante o slide visível; nas restantes páginas assenta no lado definido
+   no mapa abaixo. Fechada mostra apenas a marca.
+   ========================================================================== */
+(() => {
+  'use strict';
+  const html = document.documentElement;
+
+  /* A classe .js é o que ativa a animação de revelação — e, com ela, o estado
+     inicial opacity:0. Só a acrescentamos se existir mesmo forma de a reverter.
+     Sem IntersectionObserver (ou se este script rebentar), o conteúdo fica
+     visível: um site ilegível é pior do que um site sem animação. */
+  const canReveal = 'IntersectionObserver' in window;
+  if (canReveal) html.classList.add('js');
+
+  /* Língua: as páginas inglesas vivem em /en/ e partilham este ficheiro. */
+  const LANG = html.lang.slice(0, 2) === 'en' ? 'en' : 'pt';
+  const EN = LANG === 'en';
+  const UP = EN ? '../' : '';          /* de /en/ para a raiz */
+  const DOWN = EN ? '' : 'en/';        /* da raiz para /en/ */
+
+  const PAGES = [
+    /* A home não aparece na lista: o próprio logótipo é o link para ela. */
+    { id: 'radar',        file: 'radar.html',        side: 'left',
+      pt: 'Radar IA Act',      ptSub: 'Observatório diário',
+      en: 'AI Act Radar',      enSub: 'Daily observatory' },
+    { id: 'noticias',     file: 'noticias.html',     side: 'right',
+      pt: 'Notícias e publicações', ptSub: 'Arquivo integral',
+      en: 'News and publications',  enSub: 'Full archive' },
+    { id: 'sobre',        file: 'sobre.html',        side: 'left',
+      pt: 'Sobre a ENIA e a estrutura em Colégios',
+      en: 'About ENIA and the College structure' },
+    { id: 'estrategia',   file: 'estrategia.html',   side: 'right',
+      pt: 'Estratégia Nacional',  en: 'National Strategy' },
+    { id: 'certificacao', file: 'certificacao.html', side: 'left',
+      pt: 'Certificação',         en: 'Certification' },
+    { id: 'teste',        file: 'teste.html',        side: 'right',
+      pt: 'Teste de classificação', ptSub: 'Gratuito, 5 minutos',
+      en: 'Risk classification test', enSub: 'Free, 5 minutes' },
+    { id: 'marketplace',  file: 'marketplace.html',  side: 'left',
+      pt: 'Marketplace de IA Ética', ptSub: 'Quem já se avaliou',
+      en: 'Ethical AI Marketplace',  enSub: 'Who has been assessed' },
+    { id: 'capacitacao',  file: 'capacitacao.html',  side: 'right',
+      pt: 'Capacitação',          en: 'Skills and literacy' },
+    { id: 'contactos',    file: 'contactos.html',    side: 'left',
+      pt: 'Contactos',            en: 'Contact' }
+  ].map(p => ({ ...p, label: EN ? p.en : p.pt, sub: EN ? p.enSub : p.ptSub }));
+
+  const HOME = { id: 'home', file: 'index.html', side: 'right' };
+  const ALL = [HOME, ...PAGES];
+
+  const T = {
+    open:   EN ? 'Open navigation'  : 'Abrir navegação',
+    close:  EN ? 'Close navigation' : 'Fechar navegação',
+    cta:    EN ? 'Join the cluster' : 'Integrar o cluster',
+    meta:   EN ? 'Observatory updated daily at 00:00 CET'
+               : 'Observatório atualizado diariamente às 00:00 CET',
+    stamp:  EN ? 'Data updated on '  : 'Dados atualizados a ',
+    ptLang: 'Português', enLang: 'English'
+  };
+
+  const current = html.dataset.page || 'home';
+
+  html.dataset.side = (ALL.find(p => p.id === current) || HOME).side;
+
+  /* largura real do viewport, sem a scrollbar */
+  const setVW = () => html.style.setProperty('--vw', html.clientWidth + 'px');
+  setVW();
+  addEventListener('resize', setVW, { passive: true });
+  addEventListener('orientationchange', setVW);
+
+  /* ── rail ────────────────────────────────────────────────────────────── */
+  const rail = document.createElement('nav');
+  rail.className = 'rail';
+  rail.setAttribute('aria-label', 'Navegação do site');
+  const here = ALL.find(p => p.id === current) || HOME;
+
+  /* Marca desenhada inline. Como <img src> falhava sempre que o caminho
+     relativo mudava (/en/, build autónoma, file://), o símbolo passa a viver
+     no próprio JS: não há caminho para partir. */
+  const MARK = `<svg viewBox="0 0 3000 3000" fill="currentColor" aria-hidden="true"><path d="M1263.054,735.999c0,71.253 -57.848,129.101 -129.101,129.101l-427.603,0c-71.253,0 -129.101,-57.848 -129.101,-129.101c0,-71.253 57.848,-129.101 129.101,-129.101l427.603,0c71.253,0 129.101,57.848 129.101,129.101Zm-440.74,632.914l-0.014,-0c-345.572,-7.378 -623.445,-289.814 -623.445,-637.155c-0,-347.345 277.878,-629.783 623.406,-637.153c2.075,-0.1 4.163,-0.15 6.262,-0.15l522.626,0c71.253,0 129.101,57.848 129.101,129.101c0,71.253 -57.848,129.101 -129.101,129.101l-522.626,0c-3.536,0 -7.038,-0.143 -10.495,-0.422c-201.424,9.453 -361.818,175.761 -361.818,379.524c0,203.762 160.392,370.069 361.81,379.525c3.464,-0.28 6.967,-0.423 10.503,-0.423l522.626,0c71.253,0 129.101,57.848 129.101,129.101c0,71.253 -57.848,129.101 -129.101,129.101l-522.626,0c-2.081,0 -4.151,-0.05 -6.208,-0.147Zm764.7,-657.787l0,-0.014c7.378,-345.572 289.814,-623.445 637.155,-623.445c347.345,0 629.783,277.878 637.153,623.406c0.1,2.075 0.15,4.163 0.15,6.262l0,522.626c0,71.253 -57.848,129.101 -129.101,129.101c-71.253,0 -129.101,-57.848 -129.101,-129.101l0,-522.626c0,-3.536 0.143,-7.038 0.422,-10.495c-9.453,-201.424 -175.761,-361.818 -379.524,-361.818c-203.762,0 -370.069,160.392 -379.525,361.81c0.28,3.464 0.423,6.967 0.423,10.503l0,522.626c0,71.253 -57.848,129.101 -129.101,129.101c-71.253,0 -129.101,-57.848 -129.101,-129.101l0,-522.626c0,-2.081 0.05,-4.151 0.147,-6.208Zm0,1543.273l0,-0.014c7.378,-345.572 289.814,-623.445 637.155,-623.445c347.345,0 629.783,277.878 637.153,623.406c0.1,2.075 0.15,4.163 0.15,6.262l0,522.626c0,71.253 -57.848,129.101 -129.101,129.101c-71.253,0 -129.101,-57.848 -129.101,-129.101l-0,-522.626c0,-3.536 0.143,-7.038 0.422,-10.495c-9.453,-201.424 -175.761,-361.818 -379.524,-361.818c-203.762,0 -370.069,160.392 -379.525,361.81c0.28,3.464 0.423,6.967 0.423,10.503l0,522.626c0,71.253 -57.848,129.101 -129.101,129.101c-71.253,0 -129.101,-57.848 -129.101,-129.101l0,-522.626c0,-2.081 0.05,-4.151 0.147,-6.208Zm443.477,353.961c-70.238,-0 -127.263,-57.025 -127.263,-127.263c0,-70.238 57.025,-127.263 127.263,-127.263l387.358,0c70.238,-0 127.263,57.025 127.263,127.263c0,70.238 -57.025,127.263 -127.263,127.263l-387.358,0Zm-1187.263,-1183.516c245.834,0 445.42,199.586 445.42,445.42c0,245.834 -199.586,445.42 -445.42,445.42c-245.834,0 -445.42,-199.586 -445.42,-445.42c0,-245.834 199.586,-445.42 445.42,-445.42Zm0,254.525c-105.357,0 -190.894,85.537 -190.894,190.894c0,105.357 85.537,190.894 190.894,190.894c105.357,0 190.894,-85.537 190.894,-190.894c0,-105.357 -85.537,-190.894 -190.894,-190.894Zm-598.349,1001.037c125.585,-195.028 344.638,-324.253 593.62,-324.331l0.226,-0c63.141,-0.093 121.241,7.955 174.406,21.743c182.718,46.496 337.072,164.335 431.553,322.089c8.091,12.814 13.152,21.968 15.244,26.11c15.052,29.809 14.278,50.139 14.44,53.886l-8.248,50.875l-24.891,40.408l-26.452,22.073l-32.61,14.521l-25.621,4.552l-31.436,-1.59c-3.369,-0.594 -55.253,-1.979 -91.156,-66.818c-2.259,-4.079 -4.579,-8.12 -6.959,-12.121c-27.218,-40.735 -150.927,-207.367 -361.071,-220.395c-8.924,-0.532 -17.917,-0.803 -26.972,-0.808l-0.226,0c-194.067,0.444 -318.293,127.851 -364.006,184.589c-8.279,11.268 -16.049,22.932 -23.274,34.96c-26.081,43.416 -54.975,52.701 -58.653,54.402l-46.982,11.597l-54.746,-9.348l-43.607,-29.692l-24.079,-35.605l-11.287,-49.32l3.374,-32.509c1.087,-4.608 3.298,-13.542 9.004,-25.726c1.831,-3.908 8.604,-16.013 20.411,-33.544Z"/></svg>`;
+
+  rail.innerHTML = `
+    <a class="rail__home" href="${UP}index.html" aria-label="ENIA — ${EN ? 'home' : 'página inicial'}"${current === 'home' ? ' aria-current="page"' : ''}>
+      <span class="rail__logo">${MARK}</span>
+      <span class="rail__word" aria-hidden="true">ENIA</span>
+    </a>
+    <button class="rail__btn" type="button" aria-expanded="false" aria-controls="railPanel">
+      <span class="sr">${T.open}</span>
+      <span class="rail__hint" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></span>
+    </button>
+    <span class="rail__fill" aria-hidden="true"></span>
+    <div class="rail__panel" id="railPanel">
+      ${PAGES.map(p => `<a class="rail__link" href="${p.file}"${p.id === current ? ' aria-current="page"' : ''}>${p.label}${p.sub ? `<small>${p.sub}</small>` : ''}</a>`).join('')}
+      <div class="rail__sep"></div>
+      <a class="rail__cta" href="contactos.html#integrar">${T.cta} <i>→</i></a>
+      <p class="rail__meta" id="railMeta">${T.meta}</p>
+    </div>
+    <div class="rail__lang">
+      <a href="${UP}${here.file}" lang="pt" hreflang="pt-PT" aria-current="${!EN}" title="${T.ptLang}">PT</a>
+      <i aria-hidden="true">·</i>
+      <a href="${UP}${DOWN}${here.file}" lang="en" hreflang="en" aria-current="${EN}" title="${T.enLang}">EN</a>
+    </div>`;
+
+  const scrim = document.createElement('div');
+  scrim.className = 'rail__scrim';
+  document.body.prepend(rail, scrim);
+
+  const btn = rail.querySelector('.rail__btn');
+  const desktop = () => matchMedia('(min-width:861px)').matches;
+  let open = false, byPointer = false;
+
+  const setOpen = (v) => {
+    open = v;
+    rail.classList.toggle('is-open', v);
+    scrim.classList.toggle('is-on', v);
+    btn.setAttribute('aria-expanded', String(v));
+    btn.querySelector('.sr').textContent = v ? T.close : T.open;
+    if (v) rail.querySelector('.rail__link').focus({ preventScroll: true });
+  };
+
+  btn.addEventListener('click', () => { byPointer = false; setOpen(!open); });
+  scrim.addEventListener('click', () => setOpen(false));
+  rail.querySelector('.rail__lang').addEventListener('click', e => e.stopPropagation());
+  addEventListener('keydown', e => { if (e.key === 'Escape' && open) { setOpen(false); btn.focus(); } });
+
+  /* comportamento clássico de barra lateral: abre ao aproximar o ponteiro */
+  rail.addEventListener('pointerenter', () => {
+    if (!desktop() || open) return;
+    byPointer = true; setOpen(true);
+  });
+  rail.addEventListener('pointerleave', () => {
+    if (!desktop() || !byPointer) return;
+    byPointer = false; setOpen(false);
+  });
+
+  /* ── home: a rail alterna de lado consoante o slide visível ──────────── */
+  const slides = [...document.querySelectorAll('.slide')];
+  if (slides.length && canReveal) {
+    const sio = new IntersectionObserver(es => es.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('in');
+      if (e.intersectionRatio > .5) {
+        const i = slides.indexOf(e.target);
+        html.dataset.side = i % 2 === 0 ? 'right' : 'left';
+        html.dataset.slide = String(i + 1);
+      }
+    }), { threshold: [.2, .55], root: document.querySelector('.deck') });
+    slides.forEach(s => sio.observe(s));
+    slides[0].classList.add('in');
+  }
+
+  /* ── revelação ───────────────────────────────────────────────────────── */
+  const reduce = matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if (canReveal && !reduce) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }), { threshold: .1 });
+    document.querySelectorAll('.rv').forEach(el => io.observe(el));
+  } else {
+    document.querySelectorAll('.rv').forEach(el => el.classList.add('in'));
+  }
+
+  /* ── barras de dados ─────────────────────────────────────────────────── */
+  window.eniaBars = (root = document) => {
+    const fills = root.querySelectorAll('.brow__f[data-w]');
+    if (!canReveal || reduce) {
+      fills.forEach(f => { f.style.width = f.dataset.w + '%'; });
+      return;
+    }
+    const bio = new IntersectionObserver(es => es.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.style.width = e.target.dataset.w + '%';
+      bio.unobserve(e.target);
+    }), { threshold: .3 });
+    fills.forEach(f => bio.observe(f));
+  };
+  eniaBars();
+
+  /* ── utilitários partilhados ─────────────────────────────────────────── */
+  const E = window.ENIA = {
+    deadlines: (EN ? [
+      { date: '2025-02-02', label: 'Prohibited practices + AI literacy', done: true },
+      { date: '2025-08-02', label: 'GPAI, AI Office and penalties regime', done: true },
+      { date: '2026-08-02', label: 'Article 50 — transparency obligations' },
+      { date: '2026-12-02', label: 'Art. 50(2) for legacy systems + new prohibited practices' },
+      { date: '2027-08-02', label: 'National regulatory sandbox becomes mandatory' },
+      { date: '2027-12-02', label: 'High risk — Annex III (stand-alone systems)' },
+      { date: '2028-08-02', label: 'High risk — Annex I (AI embedded in products)' }
+    ] : [
+      { date: '2025-02-02', label: 'Práticas proibidas + literacia em IA', done: true },
+      { date: '2025-08-02', label: 'GPAI, AI Office e regime de coimas', done: true },
+      { date: '2026-08-02', label: 'Artigo 50.º — obrigações de transparência' },
+      { date: '2026-12-02', label: 'Art. 50.º(2) para sistemas legados + novas práticas proibidas' },
+      { date: '2027-08-02', label: 'Sandbox regulatória nacional obrigatória' },
+      { date: '2027-12-02', label: 'Alto risco — Anexo III (sistemas autónomos)' },
+      { date: '2028-08-02', label: 'Alto risco — Anexo I (IA embebida em produtos)' }
+    ]),
+    lang: LANG, en: EN, base: UP,
+    fLong:  new Intl.DateTimeFormat(EN ? 'en-GB' : 'pt-PT', { day: 'numeric', month: 'long', year: 'numeric' }),
+    fShort: new Intl.DateTimeFormat(EN ? 'en-GB' : 'pt-PT', { day: '2-digit', month: 'short', year: 'numeric' }),
+    fStamp: new Intl.DateTimeFormat(EN ? 'en-GB' : 'pt-PT', { dateStyle: 'long', timeStyle: 'short' }),
+    D: s => new Date(s + 'T00:00:00Z'),
+    days: s => Math.ceil((E.D(s) - Date.now()) / 864e5),
+    ord: EN
+      ? ['zeroth','1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th','12th']
+      : ['zero','primeiro','segundo','terceiro','quarto','quinto','sexto','sétimo','oitavo','nono','décimo','décimo primeiro','décimo segundo'],
+    esc: s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])),
+    rich: s => E.esc(s).replace(/&lt;b&gt;/g, '<b>').replace(/&lt;\/b&gt;/g, '</b>'),
+    next() {
+      const up = E.deadlines.filter(d => E.days(d.date) >= 0);
+      return up[0] || E.deadlines[E.deadlines.length - 1];
+    },
+    /* dupla queda: fetch → data/bundle.js → semente inline */
+    get: (url, fallback) => {
+      const key = /marketplace/.test(url) ? 'marketplace' : /archive/.test(url) ? 'archive' : /radar/.test(url) ? 'radar' : /news/.test(url) ? 'news' : null;
+      const local = key && window.__ENIA__ ? window.__ENIA__[key] : null;
+      return fetch(UP + url, { cache: 'no-cache' })
+        .then(r => r.ok ? r.json() : Promise.reject())
+        .catch(() => local || fallback);
+    }
+  };
+
+  E.get('data/radar.json', null).then(d => {
+    if (!d || !d.generated) return;
+    const m = document.getElementById('railMeta');
+    if (m) m.textContent = T.stamp + E.fStamp.format(new Date(d.generated));
+  });
+  /* Rede de segurança: qualquer erro não previsto num script de página não pode
+     deixar conteúdo invisível. */
+  addEventListener('error', () => {
+    html.classList.remove('js');
+    document.querySelectorAll('.rv').forEach(el => el.classList.add('in'));
+  });
+})();
+
+</script>
+<script>
+/**
+ * ENIA — conteúdo do teste de classificação, nas duas línguas
+ * ---------------------------------------------------------------------------
+ * Separado de teste.html por uma razão concreta: na v5 estas strings viviam
+ * dentro do JS da página e o build de tradução, que só percorre HTML, não lhes
+ * chegava. O resultado era uma página portuguesa a devolver «Limited risk».
+ *
+ * Aqui cada string existe explicitamente nas duas línguas. Não há build a
+ * adivinhar: se faltar uma tradução, falta visivelmente.
+ *
+ * Carregado por <script src>, expõe window.ENIA_TEST.
+ */
+(() => {
+  'use strict';
+  const EN = document.documentElement.lang.slice(0, 2) === 'en';
+  const t = (pt, en) => (EN ? en : pt);
+
+  /* ══════════════════════ perguntas ══════════════════════ */
+  const Q = [
+    {
+      id: 'papel', type: 'single',
+      t: t('Qual é o seu papel em relação ao sistema de IA?',
+           'What is your role in relation to the AI system?'),
+      h: t('O AI Act distribui obrigações diferentes por papel. Se desenvolve e coloca no mercado com o seu nome, é fornecedor. Se usa sob a sua autoridade um sistema de outrem, é implementador.',
+           'The AI Act assigns different obligations by role. If you develop it and place it on the market under your own name, you are a provider. If you use someone else’s system under your own authority, you are a deployer.'),
+      o: [
+        { v: 'fornecedor', l: t('Fornecedor', 'Provider'),
+          n: t('Desenvolvo o sistema ou coloco-o no mercado com o meu nome ou marca.',
+               'I develop the system or place it on the market under my own name or trademark.') },
+        { v: 'implementador', l: t('Implementador', 'Deployer'),
+          n: t('Uso um sistema de IA de terceiros sob a minha autoridade, no contexto profissional.',
+               'I use a third-party AI system under my own authority, in a professional context.') },
+        { v: 'importador', l: t('Importador ou distribuidor', 'Importer or distributor'),
+          n: t('Coloco no mercado da UE um sistema de um operador estabelecido fora da União.',
+               'I place a system from an operator established outside the Union on the EU market.') },
+        { v: 'ambos', l: t('Mais do que um destes', 'More than one of these'),
+          n: t('Frequente: quem integra um modelo de terceiros num produto próprio acumula papéis.',
+               'Common: integrating a third-party model into your own product stacks the roles.') }
+      ]
+    },
+    {
+      id: 'proibidas', type: 'multi', none: t('Nenhuma das anteriores', 'None of the above'),
+      t: t('O sistema faz alguma destas coisas?', 'Does the system do any of these things?'),
+      h: t('Artigo 5.º — práticas proibidas. Estão banidas desde 2 de fevereiro de 2025, sem período de transição e com a coima mais alta do regulamento.',
+           'Article 5 — prohibited practices. Banned since 2 February 2025, with no transition period and the highest fines in the regulation.'),
+      o: [
+        { v: 'p1', l: t('Classificação social de pessoas', 'Social scoring of people'),
+          n: t('Avaliar ou classificar pessoas pelo comportamento social, com tratamento desfavorável em contextos não relacionados.',
+               'Evaluating or scoring people by social behaviour, leading to detrimental treatment in unrelated contexts.') },
+        { v: 'p2', l: t('Técnicas subliminares ou manipulativas', 'Subliminal or manipulative techniques'),
+          n: t('Distorcer materialmente o comportamento de forma a causar dano significativo.',
+               'Materially distorting behaviour in a way that causes significant harm.') },
+        { v: 'p3', l: t('Exploração de vulnerabilidades', 'Exploiting vulnerabilities'),
+          n: t('Aproveitar idade, deficiência ou situação socioeconómica para distorcer comportamento.',
+               'Using age, disability or socioeconomic situation to distort behaviour.') },
+        { v: 'p4', l: t('Categorização biométrica sensível', 'Sensitive biometric categorisation'),
+          n: t('Inferir raça, opinião política, filiação sindical, convicções religiosas, vida ou orientação sexual.',
+               'Inferring race, political opinion, trade union membership, religious belief, sex life or sexual orientation.') },
+        { v: 'p5', l: t('Reconhecimento de emoções no trabalho ou no ensino', 'Emotion recognition at work or in education'),
+          n: t('Salvo por razões médicas ou de segurança.', 'Except for medical or safety reasons.') },
+        { v: 'p6', l: t('Identificação biométrica remota em tempo real em espaço público', 'Real-time remote biometric identification in public spaces'),
+          n: t('Para efeitos de aplicação da lei, fora das exceções estritas do regulamento.',
+               'For law enforcement purposes, outside the regulation’s narrow exceptions.') },
+        { v: 'p7', l: t('Raspagem não direcionada de imagens faciais', 'Untargeted scraping of facial images'),
+          n: t('Para criar ou expandir bases de dados de reconhecimento facial.',
+               'To create or expand facial recognition databases.') },
+        { v: 'p8', l: t('Policiamento preditivo individual', 'Individual predictive policing'),
+          n: t('Prever a probabilidade de uma pessoa cometer um crime apenas com base em perfil ou traços de personalidade.',
+               'Predicting the likelihood of a person committing a crime based solely on profiling or personality traits.') }
+      ]
+    },
+    {
+      id: 'anexo3', type: 'multi', none: t('Nenhum destes domínios', 'None of these areas'),
+      t: t('Em que domínio o sistema é usado?', 'In what area is the system used?'),
+      h: t('Anexo III — domínios de alto risco. Basta que o sistema seja usado num deles para desencadear o regime completo, independentemente da dimensão da organização.',
+           'Annex III — high-risk areas. Use in any one of them triggers the full regime, regardless of the size of the organisation.'),
+      o: [
+        { v: 'a1', l: t('Biometria', 'Biometrics'),
+          n: t('Identificação biométrica remota, categorização biométrica ou reconhecimento de emoções fora do que é proibido.',
+               'Remote biometric identification, biometric categorisation or emotion recognition outside what is prohibited.') },
+        { v: 'a2', l: t('Infraestruturas críticas', 'Critical infrastructure'),
+          n: t('Gestão e funcionamento de trânsito rodoviário, água, gás, aquecimento, eletricidade ou infraestrutura digital crítica.',
+               'Management and operation of road traffic, water, gas, heating, electricity or critical digital infrastructure.') },
+        { v: 'a3', l: t('Educação e formação profissional', 'Education and vocational training'),
+          n: t('Admissão, avaliação de resultados, definição de nível de acesso ou monitorização de exames.',
+               'Admission, assessment of outcomes, setting access levels or monitoring examinations.') },
+        { v: 'a4', l: t('Emprego e gestão de trabalhadores', 'Employment and worker management'),
+          n: t('Recrutamento, triagem de candidaturas, promoções, cessação, atribuição de tarefas ou monitorização de desempenho.',
+               'Recruitment, screening applications, promotion, termination, task allocation or performance monitoring.') },
+        { v: 'a5', l: t('Serviços essenciais, crédito e seguros', 'Essential services, credit and insurance'),
+          n: t('Elegibilidade para prestações públicas, avaliação de solvabilidade, scoring de crédito, preços de seguros de vida e saúde, triagem de emergência.',
+               'Eligibility for public benefits, creditworthiness assessment, credit scoring, life and health insurance pricing, emergency triage.') },
+        { v: 'a6', l: t('Aplicação da lei', 'Law enforcement'),
+          n: t('Avaliação de risco de vitimização, polígrafos, avaliação de prova, perfis criminais.',
+               'Victimisation risk assessment, polygraphs, evidence evaluation, criminal profiling.') },
+        { v: 'a7', l: t('Migração, asilo e fronteiras', 'Migration, asylum and borders'),
+          n: t('Avaliação de risco de segurança, exame de pedidos de asilo ou visto, deteção de pessoas.',
+               'Security risk assessment, examination of asylum or visa applications, detection of persons.') },
+        { v: 'a8', l: t('Justiça e processos democráticos', 'Justice and democratic processes'),
+          n: t('Apoio à investigação e interpretação de factos e do direito, ou influência no resultado de eleições e referendos.',
+               'Assisting in researching and interpreting facts and the law, or influencing the outcome of elections and referendums.') }
+      ]
+    },
+    {
+      id: 'derrogacao', type: 'single',
+      when: s => (s.anexo3 || []).length > 0,
+      t: t('O sistema tem influência material na decisão final?',
+           'Does the system materially influence the final decision?'),
+      h: t('Artigo 6.º(3) — derrogação. Um sistema num domínio do Anexo III pode não ser de alto risco se apenas executar tarefas processuais restritas, melhorar resultado de trabalho humano já concluído, detetar padrões de decisão sem substituir a avaliação humana, ou preparar dados. A derrogação exige documentação e registo prévios — não se presume.',
+           'Article 6(3) — derogation. A system in an Annex III area may not be high risk if it only performs narrow procedural tasks, improves the result of previously completed human work, detects decision patterns without replacing human assessment, or prepares data. The derogation requires documentation and prior registration — it is not presumed.'),
+      o: [
+        { v: 'sim', l: t('Sim, influencia ou determina a decisão', 'Yes, it influences or determines the decision'),
+          n: t('Pontua, ordena, filtra, recomenda ou decide sobre pessoas.',
+               'It scores, ranks, filters, recommends or decides about people.') },
+        { v: 'nao', l: t('Não, é puramente acessório', 'No, it is purely ancillary'),
+          n: t('Executa tarefa processual restrita ou prepara dados, sem substituir avaliação humana. Vou documentar e registar a derrogação.',
+               'It performs a narrow procedural task or prepares data, without replacing human assessment. I will document and register the derogation.') },
+        { v: 'duvida', l: t('Tenho dúvidas', 'I am not sure'),
+          n: t('Na dúvida, o regulamento presume alto risco. É a resposta prudente.',
+               'Where there is doubt, the regulation presumes high risk. This is the prudent answer.') }
+      ]
+    },
+    {
+      id: 'anexo1', type: 'single',
+      t: t('A IA está embebida num produto já regulado pela UE?',
+           'Is the AI embedded in a product already regulated by the EU?'),
+      h: t('Anexo I — produtos sujeitos a legislação de harmonização: dispositivos médicos, máquinas, brinquedos, elevadores, equipamento de proteção individual, veículos, aviação, entre outros.',
+           'Annex I — products covered by harmonisation legislation: medical devices, machinery, toys, lifts, personal protective equipment, vehicles, aviation and others.'),
+      o: [
+        { v: 'sim', l: t('Sim, é componente de segurança ou é o próprio produto', 'Yes, it is a safety component or is the product itself'),
+          n: t('O sistema exige avaliação de conformidade por terceiro ao abrigo da legislação setorial.',
+               'The system requires third-party conformity assessment under the sectoral legislation.') },
+        { v: 'nao', l: t('Não', 'No'),
+          n: t('É um sistema autónomo, software ou serviço.', 'It is a stand-alone system, software or service.') }
+      ]
+    },
+    {
+      id: 'gpai', type: 'single',
+      t: t('Desenvolve ou coloca no mercado um modelo de IA de uso geral?',
+           'Do you develop or place a general-purpose AI model on the market?'),
+      h: t('GPAI — modelos treinados com grande volume de dados, capazes de executar múltiplas tarefas distintas e de ser integrados em vários sistemas a jusante. Usar a API de um modelo de terceiros não o torna fornecedor de GPAI.',
+           'GPAI — models trained on large volumes of data, capable of performing multiple distinct tasks and of being integrated into various downstream systems. Using a third-party model’s API does not make you a GPAI provider.'),
+      o: [
+        { v: 'sistemico', l: t('Sim, e com poder de computação ≥ 10²⁵ FLOPs', 'Yes, with compute ≥ 10²⁵ FLOPs'),
+          n: t('Presume-se risco sistémico: obrigações adicionais de avaliação adversarial e reporte.',
+               'Systemic risk is presumed: additional adversarial evaluation and reporting obligations.') },
+        { v: 'sim', l: t('Sim, abaixo desse limiar', 'Yes, below that threshold'),
+          n: t('Regime GPAI base: documentação técnica, política de direitos de autor, sumário público dos dados de treino.',
+               'Base GPAI regime: technical documentation, copyright policy, public summary of training data.') },
+        { v: 'nao', l: t('Não', 'No'),
+          n: t('Uso modelos de terceiros ou não desenvolvo modelos de uso geral.',
+               'I use third-party models, or I do not develop general-purpose models.') }
+      ]
+    },
+    {
+      id: 'transp', type: 'multi', none: t('Nenhuma das anteriores', 'None of the above'),
+      t: t('O sistema faz alguma destas interações?', 'Does the system do any of these things?'),
+      h: t('Artigo 50.º — obrigações de transparência. É o prazo mais próximo de todos e não foi adiado pelo Digital Omnibus.',
+           'Article 50 — transparency obligations. This is the nearest deadline of all, and it was not postponed by the Digital Omnibus.'),
+      o: [
+        { v: 't1', l: t('Interage diretamente com pessoas', 'Interacts directly with people'),
+          n: t('Assistentes, chatbots, atendimento automatizado.', 'Assistants, chatbots, automated customer service.') },
+        { v: 't2', l: t('Gera ou manipula conteúdo sintético', 'Generates or manipulates synthetic content'),
+          n: t('Texto, imagem, áudio ou vídeo produzidos ou alterados por IA.',
+               'Text, image, audio or video produced or altered by AI.') },
+        { v: 't3', l: t('Produz deepfakes', 'Produces deepfakes'),
+          n: t('Conteúdo que se assemelha a pessoas, objetos ou eventos reais e pode induzir em erro.',
+               'Content resembling real people, objects or events that could mislead.') },
+        { v: 't4', l: t('Gera texto para informar o público sobre assuntos de interesse público', 'Generates text to inform the public on matters of public interest'),
+          n: t('Publicação de conteúdo noticioso ou informativo sem revisão editorial humana.',
+               'Publishing news or informational content without human editorial review.') },
+        { v: 't5', l: t('Reconhece emoções ou categoriza biometricamente', 'Recognises emotions or categorises biometrically'),
+          n: t('Fora dos contextos proibidos.', 'Outside the prohibited contexts.') }
+      ]
+    },
+    {
+      id: 'legado', type: 'single',
+      t: t('O sistema já estava no mercado antes de 2 de agosto de 2025?',
+           'Was the system already on the market before 2 August 2025?'),
+      h: t('O regulamento trata de forma diferente os sistemas legados. Para modelos GPAI já colocados no mercado antes dessa data, a conformidade plena é exigível a 2 de agosto de 2027.',
+           'The regulation treats legacy systems differently. For GPAI models already placed on the market before that date, full compliance is required by 2 August 2027.'),
+      o: [
+        { v: 'sim', l: t('Sim, já estava em produção', 'Yes, it was already in production'), n: '' },
+        { v: 'nao', l: t('Não, é novo ou vai ser lançado agora', 'No, it is new or about to launch'), n: '' }
+      ]
+    },
+    {
+      id: 'gov', type: 'multi', none: t('Nenhuma destas', 'None of these'),
+      t: t('Qual destas peças já existe na sua organização?',
+           'Which of these already exist in your organisation?'),
+      h: t('Não altera a classificação de risco — mede a distância a que está de a conseguir demonstrar. É a pergunta que quase toda a gente falha.',
+           'This does not change the risk classification — it measures how far you are from being able to demonstrate it. It is the question almost everyone fails.'),
+      o: [
+        { v: 'g1', l: t('Inventário escrito dos sistemas de IA em uso', 'A written inventory of the AI systems in use'), n: '' },
+        { v: 'g2', l: t('Política interna de utilização e gestão de IA', 'An internal AI use and management policy'), n: '' },
+        { v: 'g3', l: t('Processo formal de avaliação de risco algorítmico', 'A formal algorithmic risk assessment process'), n: '' },
+        { v: 'g4', l: t('Responsável identificado pela conformidade com o AI Act', 'A named person accountable for AI Act compliance'), n: '' },
+        { v: 'g5', l: t('Plano de literacia em IA para o pessoal (Artigo 4.º)', 'An AI literacy plan for staff (Article 4)'), n: '' }
+      ]
+    }
+  ];
+
+  /* ══════════════════════ prazos ══════════════════════ */
+  const DL = {
+    proib:    { d: '2025-02-02', t: t('Práticas proibidas', 'Prohibited practices'), c: t('Artigo 5.º', 'Article 5') },
+    lit:      { d: '2025-02-02', t: t('Literacia em IA', 'AI literacy'), c: t('Artigo 4.º', 'Article 4') },
+    gpai:     { d: '2025-08-02', t: t('Regime GPAI', 'GPAI regime'), c: t('Artigos 51.º a 55.º', 'Articles 51 to 55') },
+    transp:   { d: '2026-08-02', t: t('Transparência', 'Transparency'), c: t('Artigo 50.º', 'Article 50') },
+    legado50: { d: '2026-12-02', t: t('Transparência para sistemas legados', 'Transparency for legacy systems'), c: t('Artigo 50.º(2)', 'Article 50(2)') },
+    novasP:   { d: '2026-12-02', t: t('Novas práticas proibidas', 'New prohibited practices'), c: t('Artigo 5.º revisto', 'Article 5 as revised') },
+    sandbox:  { d: '2027-08-02', t: t('Sandbox nacional obrigatória', 'National sandbox becomes mandatory'), c: t('Artigo 57.º', 'Article 57') },
+    gpaiLeg:  { d: '2027-08-02', t: t('GPAI legado — conformidade plena', 'Legacy GPAI — full compliance'), c: t('Artigo 111.º', 'Article 111') },
+    alto3:    { d: '2027-12-02', t: t('Alto risco — Anexo III', 'High risk — Annex III'), c: t('Artigos 8.º a 27.º', 'Articles 8 to 27') },
+    alto1:    { d: '2028-08-02', t: t('Alto risco — Anexo I', 'High risk — Annex I'), c: t('Artigos 8.º a 27.º', 'Articles 8 to 27') }
+  };
+
+  /* ══════════════════════ obrigações ══════════════════════ */
+  const OB = {
+    gestao:   [t('Sistema de gestão de risco contínuo', 'Continuous risk management system'),
+               t('Documentado, mantido ao longo de todo o ciclo de vida e revisto sempre que o sistema muda materialmente.',
+                 'Documented, maintained across the whole lifecycle and reviewed whenever the system changes materially.')],
+    dados:    [t('Governação de dados', 'Data governance'),
+               t('Conjuntos de treino, validação e teste relevantes, representativos e examinados quanto a enviesamentos.',
+                 'Training, validation and testing sets that are relevant, representative and examined for bias.')],
+    doctec:   [t('Documentação técnica', 'Technical documentation'),
+               t('Elaborada antes da colocação no mercado e mantida atualizada. É o dossiê que a autoridade pede primeiro.',
+                 'Drawn up before placing on the market and kept up to date. It is the file the authority asks for first.')],
+    logs:     [t('Registo automático de eventos', 'Automatic event logging'),
+               t('Logs que permitam rastrear o funcionamento do sistema durante toda a sua vida útil.',
+                 'Logs allowing the system’s operation to be traced throughout its lifetime.')],
+    info:     [t('Instruções de utilização', 'Instructions for use'),
+               t('Informação clara e completa ao implementador sobre capacidades, limitações e condições de uso.',
+                 'Clear, complete information to the deployer on capabilities, limitations and conditions of use.')],
+    humano:   [t('Supervisão humana efetiva', 'Effective human oversight'),
+               t('Pessoas com competência e autoridade reais para interpretar, ignorar ou reverter o resultado.',
+                 'People with real competence and authority to interpret, override or reverse the output.')],
+    robust:   [t('Exatidão, robustez e cibersegurança', 'Accuracy, robustness and cybersecurity'),
+               t('Níveis adequados e consistentes ao longo do ciclo de vida, declarados nas instruções.',
+                 'Appropriate and consistent levels across the lifecycle, declared in the instructions.')],
+    conf:     [t('Avaliação de conformidade e marcação CE', 'Conformity assessment and CE marking'),
+               t('Antes da colocação no mercado. Para o Anexo I, por organismo notificado.',
+                 'Before placing on the market. For Annex I, by a notified body.')],
+    registo:  [t('Registo na base de dados da UE', 'Registration in the EU database'),
+               t('Inscrição do sistema antes da colocação no mercado ou colocação em serviço.',
+                 'Registering the system before placing it on the market or putting it into service.')],
+    pos:      [t('Monitorização pós-comercialização', 'Post-market monitoring'),
+               t('Plano ativo de recolha e análise de desempenho, com comunicação de incidentes graves.',
+                 'An active plan to collect and analyse performance, with reporting of serious incidents.')],
+    fria:     [t('Avaliação de impacto sobre direitos fundamentais', 'Fundamental rights impact assessment'),
+               t('Exigível a implementadores públicos e a certos serviços privados essenciais (Artigo 27.º).',
+                 'Required of public deployers and certain essential private services (Article 27).')],
+    t_ident:  [t('Informar que se trata de IA', 'Disclose that this is AI'),
+               t('A pessoa tem de saber que está a interagir com um sistema de IA, salvo se for óbvio pelo contexto.',
+                 'The person must know they are interacting with an AI system, unless it is obvious from context.')],
+    t_marca:  [t('Marcar conteúdo sintético', 'Mark synthetic content'),
+               t('Em formato legível por máquina e detetável como gerado ou manipulado artificialmente.',
+                 'In machine-readable format and detectable as artificially generated or manipulated.')],
+    t_deep:   [t('Divulgar deepfakes', 'Disclose deepfakes'),
+               t('Declarar que o conteúdo foi gerado ou manipulado artificialmente.',
+                 'State that the content has been artificially generated or manipulated.')],
+    t_texto:  [t('Divulgar texto publicado sem revisão humana', 'Disclose text published without human review'),
+               t('Quando destinado a informar o público sobre assuntos de interesse público.',
+                 'Where it is intended to inform the public on matters of public interest.')],
+    g_doc:    [t('Documentação técnica do modelo', 'Model technical documentation'),
+               t('Incluindo processo de treino e testes, disponível ao AI Office e a jusante.',
+                 'Including the training and testing process, available to the AI Office and downstream.')],
+    g_copy:   [t('Política de direitos de autor', 'Copyright policy'),
+               t('Com mecanismo de respeito pelas reservas de direitos expressas ao abrigo da diretiva sobre TDM.',
+                 'With a mechanism to respect rights reservations expressed under the TDM directive.')],
+    g_sum:    [t('Sumário público dos dados de treino', 'Public summary of training data'),
+               t('Suficientemente detalhado, segundo o modelo publicado pelo AI Office.',
+                 'Sufficiently detailed, following the template published by the AI Office.')],
+    g_red:    [t('Avaliação adversarial (red-teaming)', 'Adversarial evaluation (red-teaming)'),
+               t('Avaliação e mitigação sistemática de riscos sistémicos a nível da União.',
+                 'Systematic assessment and mitigation of systemic risks at Union level.')],
+    g_inc:    [t('Reporte de incidentes graves ao AI Office', 'Serious incident reporting to the AI Office'),
+               t('Sem demora indevida, com medidas corretivas.', 'Without undue delay, with corrective measures.')],
+    g_sec:    [t('Cibersegurança reforçada', 'Reinforced cybersecurity'),
+               t('Do modelo e da infraestrutura física que o suporta.', 'Of the model and the physical infrastructure supporting it.')],
+    literacia:[t('Literacia em IA no pessoal', 'AI literacy among staff'),
+               t('Já exigível desde fevereiro de 2025, a todos os operadores, independentemente do nível de risco.',
+                 'Enforceable since February 2025, against all operators, regardless of risk tier.')]
+  };
+
+  /* ══════════════════════ veredictos ══════════════════════ */
+  const V = {
+    inaceitavel: {
+      title: t('Risco inaceitável', 'Unacceptable risk'),
+      sum: t('Pelo menos uma das práticas que assinalou está proibida pelo Artigo 5.º desde 2 de fevereiro de 2025. Não há conformidade possível: a prática tem de cessar. A coima pode atingir 35 milhões de euros ou 7% do volume de negócios anual mundial, consoante o que for mais elevado.',
+             'At least one of the practices you flagged has been prohibited by Article 5 since 2 February 2025. There is no possible compliance: the practice must stop. Fines can reach €35 million or 7% of annual worldwide turnover, whichever is higher.')
+    },
+    altoA1: {
+      title: t('Alto risco', 'High risk'),
+      sum: t('O sistema é componente de segurança de um produto já regulado, ou é o próprio produto. Aplica-se o regime completo de alto risco, com avaliação de conformidade por organismo notificado ao abrigo da legislação setorial.',
+             'The system is a safety component of an already-regulated product, or is the product itself. The full high-risk regime applies, with conformity assessment by a notified body under the sectoral legislation.')
+    },
+    altoA3: {
+      title: t('Alto risco', 'High risk'),
+      sum: t('O sistema opera num domínio do Anexo III com influência material na decisão. Aplica-se o regime completo: gestão de risco, governação de dados, documentação técnica, supervisão humana, registo europeu e monitorização pós-comercialização.',
+             'The system operates in an Annex III area with material influence over the decision. The full regime applies: risk management, data governance, technical documentation, human oversight, EU registration and post-market monitoring.')
+    },
+    derrogado: {
+      title: t('Alto risco derrogado', 'High risk, derogated'),
+      sum: t('O sistema opera num domínio do Anexo III mas invocou a derrogação do Artigo 6.º(3). Atenção: a derrogação não é automática. Tem de a documentar antes da colocação no mercado e registar o sistema na base de dados da UE mesmo assim. Se a autoridade discordar da avaliação, o regime aplicável passa a ser o de alto risco por inteiro.',
+             'The system operates in an Annex III area but you have invoked the Article 6(3) derogation. Note: the derogation is not automatic. You must document it before placing the system on the market, and register the system in the EU database regardless. If the authority disagrees with your assessment, the full high-risk regime applies.')
+    },
+    limitado: {
+      title: t('Risco limitado', 'Limited risk'),
+      sum: t('O sistema não é de alto risco, mas está sujeito às obrigações de transparência do Artigo 50.º. É o prazo mais próximo do regulamento e não foi adiado pelo Digital Omnibus.',
+             'The system is not high risk, but it is subject to the transparency obligations of Article 50. That is the nearest deadline in the regulation, and it was not postponed by the Digital Omnibus.')
+    },
+    minimo: {
+      title: t('Risco mínimo', 'Minimal risk'),
+      sum: t('Pelo que descreveu, o sistema não cai em nenhuma categoria regulada de forma específica. Não está isento de tudo: o dever de literacia em IA do Artigo 4.º aplica-se a todos os operadores desde fevereiro de 2025, e a classificação deve ser revista sempre que o caso de uso mudar.',
+             'From what you have described, the system does not fall into any specifically regulated category. It is not exempt from everything: the Article 4 AI literacy duty applies to all operators since February 2025, and the classification should be revisited whenever the use case changes.')
+    }
+  };
+
+  /* ══════════════════════ interface ══════════════════════ */
+  const UI = {
+    question: (i, n) => t(`Pergunta ${i} de ${n}`, `Question ${i} of ${n}`),
+    prev: t('← Anterior', '← Back'),
+    next: t('Seguinte', 'Next'),
+    seeResult: t('Ver resultado', 'See result'),
+    gpaiSys: t('GPAI com risco sistémico', 'GPAI with systemic risk'),
+    gpaiBase: t('Regime GPAI', 'GPAI regime'),
+    alsoTransp: t('Transparência · Artigo 50.º', 'Transparency · Article 50'),
+    bothAnnex: t('Anexo I e Anexo III', 'Annex I and Annex III'),
+    stackedRoles: t('Papéis acumulados', 'Stacked roles'),
+    verdictLabel: t('Resultado da auto-avaliação', 'Self-assessment result'),
+    obsCount: t('obrigações principais identificadas para o seu caso', 'principal obligations identified for your case'),
+    docsCount: t('documentos e procedimentos estimados para conformidade plena', 'documents and procedures estimated for full compliance'),
+    govCount: t('peças de governação interna que já tem', 'internal governance pieces you already have'),
+    regSource: t('Reg. (UE) 2024/1689', 'Reg. (EU) 2024/1689'),
+    eniaEstimate: t('Estimativa ENIA', 'ENIA estimate'),
+    selfDeclared: t('Auto-declarado', 'Self-declared'),
+    obsTitle: t('O que tem de garantir', 'What you must ensure'),
+    obsHead: t('As suas obrigações.', 'Your obligations.'),
+    dlTitle: t('Contagem decrescente', 'Countdown'),
+    dlHead: t('Os prazos que<br>correm contra si.', 'The deadlines<br>running against you.'),
+    dlNote: t('Calendário conforme o Digital Omnibus sobre IA, com aprovação final do Conselho a 29 de junho de 2026. Os novos prazos só produzem efeitos jurídicos com a publicação no Jornal Oficial — confirme o estado no',
+              'Timeline per the Digital Omnibus on AI, finally approved by the Council on 29 June 2026. The new deadlines only take legal effect once published in the Official Journal — check the status in the'),
+    radar: t('Radar', 'Radar'),
+    inForce: t('Em vigor', 'In force'),
+    days: t('dias', 'days'),
+    matTitle: t('Maturidade interna', 'Internal maturity'),
+    matHead: t('A que distância está<br>de o conseguir provar.', 'How far you are<br>from being able to prove it.'),
+    mat: [
+      t('Não se protege o que não se conhece. Sem inventário, política e responsável identificado, qualquer plano de conformidade começa no escuro — e este é o ponto onde a maioria das organizações portuguesas está.',
+        'You cannot protect what you cannot see. Without an inventory, a policy and a named owner, any compliance plan starts in the dark — and this is where most Portuguese organisations are.'),
+      t('Tem parte da base montada. As peças em falta são normalmente as que a autoridade pede primeiro.',
+        'You have part of the foundation in place. The missing pieces are usually the ones the authority asks for first.'),
+      t('A sua organização já tem quase toda a base de governação montada. Falta ligar essa base à documentação exigida pelo nível de risco.',
+        'Your organisation already has almost the whole governance foundation. What remains is connecting it to the documentation your risk tier requires.')
+    ],
+    recapTitle: t('As suas respostas', 'Your answers'),
+    recap: {
+      papel: t('Papel', 'Role'),
+      proibidas: t('Práticas proibidas assinaladas', 'Prohibited practices flagged'),
+      anexo3: t('Domínios do Anexo III', 'Annex III areas'),
+      derrogacao: t('Derrogação do Artigo 6.º(3)', 'Article 6(3) derogation'),
+      anexo1: t('Produto do Anexo I', 'Annex I product'),
+      gpai: t('Modelo de uso geral', 'General-purpose model'),
+      transp: t('Gatilhos de transparência', 'Transparency triggers'),
+      legado: t('Sistema legado', 'Legacy system')
+    },
+    yes: t('Sim', 'Yes'), no: t('Não', 'No'),
+    invoked: t('Invocada', 'Invoked'), notInvoked: t('Não invocada', 'Not invoked'), na: t('Não aplicável', 'Not applicable'),
+    gpaiSysShort: t('Sim, com risco sistémico', 'Yes, with systemic risk'),
+    roles: {
+      fornecedor: t('Fornecedor', 'Provider'),
+      implementador: t('Implementador', 'Deployer'),
+      importador: t('Importador ou distribuidor', 'Importer or distributor'),
+      ambos: t('Papéis acumulados', 'Stacked roles')
+    },
+    download: t('Descarregar PDF', 'Download PDF'),
+    copy: t('Copiar resultado', 'Copy result'),
+    copied: t('Copiado ✓', 'Copied ✓'),
+    copyFail: t('Não foi possível copiar', 'Could not copy'),
+    print: t('Imprimir', 'Print'),
+    again: t('Repetir o teste', 'Take the test again'),
+    discTitle: t('O que isto é e o que não é', 'What this is and what it is not'),
+    disc1: t('Esta é uma auto-avaliação orientativa construída sobre o texto do Regulamento (UE) 2024/1689. Não é aconselhamento jurídico, não é uma certificação e não vincula nenhuma autoridade. A classificação final e a sua documentação são responsabilidade do operador.',
+             'This is an indicative self-assessment built on the text of Regulation (EU) 2024/1689. It is not legal advice, it is not a certification and it binds no authority. The final classification and its documentation are the operator’s responsibility.'),
+    discuss: t('Discutir este resultado connosco, gratuitamente', 'Discuss this result with us, free of charge')
+  };
+
+  window.ENIA_TEST = { Q, DL, OB, V, UI, t, EN };
+})();
+
+</script>
+<script>
+(() => {
+'use strict';
+const E = window.ENIA, D = window.ENIA_TEST;
+const { Q, DL, OB, V, UI } = D;
+const $ = s => document.querySelector(s);
+
+/* ══════════════ motor de classificação — só lógica, zero copy ══════════════ */
+function classify(s) {
+  const has = (k, v) => (s[k] || []).includes(v);
+  const any = k => (s[k] || []).length > 0;
+  const proib = any('proibidas');
+  const a3 = any('anexo3');
+  const derr = s.derrogacao === 'nao';
+  const alto3 = a3 && !derr;
+  const alto1 = s.anexo1 === 'sim';
+  const gpai = s.gpai === 'sim' || s.gpai === 'sistemico';
+  const sist = s.gpai === 'sistemico';
+  const transp = any('transp');
+  const legado = s.legado === 'sim';
+
+  let tier, cls, v;
+  if (proib)           { tier = 'inaceitavel'; cls = 'v-x'; v = V.inaceitavel; }
+  else if (alto1)      { tier = 'alto';        cls = '';    v = V.altoA1; }
+  else if (alto3)      { tier = 'alto';        cls = '';    v = V.altoA3; }
+  else if (a3 && derr) { tier = 'derrogado';   cls = 'v-l'; v = V.derrogado; }
+  else if (transp)     { tier = 'limitado';    cls = 'v-l'; v = V.limitado; }
+  else                 { tier = 'minimo';      cls = 'v-m'; v = V.minimo; }
+
+  const also = [];
+  if (gpai) also.push(sist ? UI.gpaiSys : UI.gpaiBase);
+  if (transp && tier !== 'limitado' && tier !== 'inaceitavel') also.push(UI.alsoTransp);
+  if (alto1 && alto3) also.push(UI.bothAnnex);
+  if (s.papel === 'ambos') also.push(UI.stackedRoles);
+
+  const obs = [];
+  const add = k => { if (!obs.includes(k)) obs.push(k); };
+  if (tier === 'alto') ['gestao','dados','doctec','logs','info','humano','robust','conf','registo','pos'].forEach(add);
+  if (tier === 'alto' && (s.papel === 'implementador' || s.papel === 'ambos')) add('fria');
+  if (tier === 'derrogado') ['doctec','registo','humano'].forEach(add);
+  if (has('transp','t1')) add('t_ident');
+  if (has('transp','t2') || has('transp','t5')) add('t_marca');
+  if (has('transp','t3')) add('t_deep');
+  if (has('transp','t4')) add('t_texto');
+  if (gpai) ['g_doc','g_copy','g_sum'].forEach(add);
+  if (sist) ['g_red','g_inc','g_sec'].forEach(add);
+  add('literacia');
+
+  const dls = [];
+  if (proib) { dls.push(DL.proib, DL.novasP); }
+  if (tier === 'alto' && alto3) dls.push(DL.alto3);
+  if (alto1) dls.push(DL.alto1);
+  if (transp) { dls.push(DL.transp); if (legado) dls.push(DL.legado50); }
+  if (gpai) { dls.push(DL.gpai); if (legado) dls.push(DL.gpaiLeg); }
+  dls.push(DL.lit);
+  const seen = new Set();
+  const deadlines = dls.filter(x => !seen.has(x.d + x.t) && seen.add(x.d + x.t))
+                       .sort((a, b) => a.d.localeCompare(b.d));
+
+  let docs = 3;
+  if (tier === 'alto') docs = 42;
+  else if (tier === 'derrogado') docs = 14;
+  else if (tier === 'limitado') docs = 9;
+  if (gpai) docs += 6;
+
+  const gov = (s.gov || []).length;
+  return { tier, cls, title: v.title, sum: v.sum, also, obs, deadlines, docs, gov,
+           score: Math.round((gov / 5) * 100), gpai, sist };
+}
+
+/* ══════════════ interface ══════════════ */
+const state = {}, ident = {};
+let order = [], idx = -1;
+
+const rebuildOrder = () => { order = Q.filter(q => !q.when || q.when(state)); };
+const progress = (n, total) =>
+  Array.from({ length: total }, (_, i) => `<i class="${i <= n ? 'on' : ''}"></i>`).join('');
+const BANDS = ['bIntro','bQuiz','bId','bOut'];
+const show = (id) => BANDS.forEach(b => {
+  const el = document.getElementById(b);
+  if (el) el.hidden = (b !== id);
+});
+
+function renderQ() {
+  const q = order[idx], total = order.length;
+  const sel = state[q.id];
+  const isMulti = q.type === 'multi';
+  const chosen = isMulti ? (sel || []) : (sel ? [sel] : []);
+
+  $('#quiz').innerHTML = `
+    <div class="prog" aria-hidden="true">${progress(idx, total + 2)}</div>
+    <div class="q">
+      <p class="qn">${UI.question(idx + 1, total)}</p>
+      <h2>${q.t}</h2>
+      <p class="qhelp">${q.h}</p>
+      <div class="opts" role="group">
+        ${q.o.map(o => `
+          <label class="opt${chosen.includes(o.v) ? ' sel' : ''}" data-t="${q.type}" data-v="${o.v}">
+            <span class="mark"></span>
+            <span><b>${o.l}</b>${o.n ? `<small>${o.n}</small>` : ''}</span>
+          </label>`).join('')}
+        ${isMulti ? `<label class="opt${chosen.includes('__none') ? ' sel' : ''}" data-t="multi" data-v="__none">
+            <span class="mark"></span><span><b>${q.none}</b></span></label>` : ''}
+      </div>
+    </div>
+    <div class="nav">
+      <button class="btn btn--ghost" type="button" data-back>${UI.prev}</button>
+      <button class="btn btn--fill" type="button" data-next>${idx === total - 1 ? UI.seeResult : UI.next} <i>→</i></button>
+    </div>`;
+
+  show('bQuiz');
+  $('#quiz').querySelectorAll('.opt').forEach(el => el.addEventListener('click', () => pick(q, el)));
+  $('#quiz').querySelector('[data-back]').addEventListener('click', back);
+  $('#quiz').querySelector('[data-next]').addEventListener('click', next);
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function pick(q, el) {
+  const v = el.dataset.v;
+  if (q.type === 'single') {
+    state[q.id] = v;
+    $('#quiz').querySelectorAll('.opt').forEach(x => x.classList.toggle('sel', x === el));
+    setTimeout(next, 220);
+    return;
+  }
+  const cur = new Set(state[q.id] || []);
+  if (v === '__none') { cur.clear(); cur.add('__none'); }
+  else { cur.delete('__none'); cur.has(v) ? cur.delete(v) : cur.add(v); }
+  state[q.id] = [...cur].filter(x => x !== '__none');
+  const marked = new Set(state[q.id].length ? state[q.id] : (cur.has('__none') ? ['__none'] : []));
+  $('#quiz').querySelectorAll('.opt').forEach(x => x.classList.toggle('sel', marked.has(x.dataset.v)));
+}
+
+function next() {
+  const q = order[idx];
+  if (q && state[q.id] === undefined) {
+    if (q.type === 'multi') state[q.id] = [];
+    else { $('#quiz').querySelector('.opts').animate(
+      [{ transform: 'translateX(0)' }, { transform: 'translateX(-5px)' }, { transform: 'translateX(5px)' }, { transform: 'translateX(0)' }],
+      { duration: 260 }); return; }
+  }
+  rebuildOrder();
+  if (idx + 1 >= order.length) return identify();
+  idx++; renderQ();
+}
+
+function back() {
+  if (idx === 0) { idx = -1; $('#quiz').innerHTML = ''; show('bIntro'); window.scrollTo({ top: 0 }); return; }
+  idx--; renderQ();
+}
+
+function identify() {
+  $('#progId').innerHTML = progress(order.length, order.length + 2);
+  show('bId');
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+$('#consent').addEventListener('click', () => {
+  setTimeout(() => $('#consent').classList.toggle('on', $('#iConsent').checked), 0);
+});
+$('#idBack').addEventListener('click', () => { idx = order.length - 1; renderQ(); });
+$('#idNext').addEventListener('click', () => {
+  const f = $('#idForm');
+  for (const id of ['iEmpresa','iProduto','iName','iEmail']) {
+    const el = document.getElementById(id);
+    if (!el.value.trim() || !el.checkValidity()) { el.focus(); f.reportValidity(); return; }
+  }
+  Object.assign(ident, {
+    empresa: f.empresa.value.trim(), produto: f.produto.value.trim(),
+    nome: f.nome.value.trim(), email: f.email.value.trim(),
+    setor: f.setor.value, dimensao: f.dimensao.value,
+    consent: f.consent.checked, date: new Date().toISOString().slice(0, 10)
+  });
+  render();
+});
+
+/* ══════════════ resultado ══════════════ */
+function render() {
+  const r = classify(state);
+  show('bOut');
+  $('#progR').innerHTML = progress(99, order.length + 2);
+
+  const CHK = '<svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>';
+  const dls = r.deadlines.map(x => {
+    const n = E.days(x.d);
+    return `<div>
+      ${n < 0 ? `<b class="past">${UI.inForce}</b>` : `<b class="tab">${n}<small>${UI.days}</small></b>`}
+      <p>${x.t}</p><cite>${E.fLong.format(E.D(x.d))} · ${x.c}</cite></div>`;
+  }).join('');
+  const govTxt = UI.mat[r.gov >= 4 ? 2 : r.gov >= 2 ? 1 : 0];
+
+  $('#out').innerHTML = `
+    <div class="verdict ${r.cls}">
+      <p class="lvl">${UI.verdictLabel}</p>
+      <h2>${r.title}</h2>
+      <p class="sum">${r.sum}</p>
+      ${r.also.length ? `<div class="also">${r.also.map(a => `<span>+ ${a}</span>`).join('')}</div>` : ''}
+    </div>
+
+    <div class="figs" style="margin-top:clamp(26px,3.6vh,44px)">
+      <div class="fig"><b class="tab">${r.obs.length}</b><p>${UI.obsCount}</p><cite>${UI.regSource}</cite></div>
+      <div class="fig"><b class="tab">~${r.docs}</b><p>${UI.docsCount}</p><cite>${UI.eniaEstimate}</cite></div>
+      <div class="fig"><b class="tab">${r.gov}/5</b><p>${UI.govCount}</p><cite>${UI.selfDeclared}</cite></div>
+    </div>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.obsTitle}</p>
+      <h2 style="font-size:clamp(1.4rem,2.4vw,2.1rem)">${UI.obsHead}</h2>
+      <ul class="ob" style="margin-top:clamp(20px,2.8vh,32px)">
+        ${r.obs.map(k => `<li>${CHK}<div><b>${OB[k][0]}</b><p>${OB[k][1]}</p></div></li>`).join('')}
+      </ul>
+    </section>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.dlTitle}</p>
+      <h2 style="font-size:clamp(1.4rem,2.4vw,2.1rem)">${UI.dlHead}</h2>
+      <div class="dl2" style="margin-top:clamp(20px,2.8vh,32px)">${dls}</div>
+      <p class="note">${UI.dlNote} <a href="radar.html#prazos" class="lime">${UI.radar}</a>.</p>
+    </section>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.matTitle}</p>
+      <h2 style="font-size:clamp(1.4rem,2.4vw,2.1rem)">${UI.matHead}</h2>
+      <p class="lead">${govTxt}</p>
+    </section>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.recapTitle}</p>
+      <ul class="recap">
+        <li><span>${UI.recap.papel}</span><b>${UI.roles[state.papel] || '—'}</b></li>
+        <li><span>${UI.recap.proibidas}</span><b>${(state.proibidas || []).length}</b></li>
+        <li><span>${UI.recap.anexo3}</span><b>${(state.anexo3 || []).length}</b></li>
+        <li><span>${UI.recap.derrogacao}</span><b>${state.derrogacao === 'nao' ? UI.invoked : state.derrogacao ? UI.notInvoked : UI.na}</b></li>
+        <li><span>${UI.recap.anexo1}</span><b>${state.anexo1 === 'sim' ? UI.yes : UI.no}</b></li>
+        <li><span>${UI.recap.gpai}</span><b>${state.gpai === 'sistemico' ? UI.gpaiSysShort : state.gpai === 'sim' ? UI.yes : UI.no}</b></li>
+        <li><span>${UI.recap.transp}</span><b>${(state.transp || []).length}</b></li>
+        <li><span>${UI.recap.legado}</span><b>${state.legado === 'sim' ? UI.yes : UI.no}</b></li>
+      </ul>
+      <div class="btns">
+        <button class="btn btn--fill" type="button" id="pdf">${UI.download} <i>↓</i></button>
+        <button class="btn btn--ghost" type="button" id="copy">${UI.copy} <i>⧉</i></button>
+        <button class="btn btn--ghost" type="button" id="prt">${UI.print} <i>→</i></button>
+      </div>
+      <p class="note" id="sent"></p>
+    </section>
+
+    <section class="sec">
+      <div class="why" style="margin-top:0">
+        <h4>${UI.discTitle}</h4>
+        <p>${UI.disc1}</p>
+      </div>
+      <div class="btns">
+        <a class="btn btn--fill" href="contactos.html#reuniao">${UI.discuss} <i>→</i></a>
+        <button class="btn btn--ghost" type="button" id="again">${UI.again} <i>↺</i></button>
+      </div>
+    </section>`;
+
+  const txt = () => plainText(r);
+  $('#pdf').addEventListener('click', () => makePDF(r));
+  $('#prt').addEventListener('click', () => window.print());
+  $('#copy').addEventListener('click', async (e) => {
+    try { await navigator.clipboard.writeText(txt()); e.target.innerHTML = UI.copied; }
+    catch { e.target.innerHTML = UI.copyFail; }
+    setTimeout(() => { e.target.innerHTML = `${UI.copy} <i>⧉</i>`; }, 2400);
+  });
+  $('#again').addEventListener('click', () => {
+    Object.keys(state).forEach(k => delete state[k]);
+    Object.keys(ident).forEach(k => delete ident[k]);
+    $('#idForm').reset(); $('#consent').classList.remove('on');
+    idx = -1; show('bIntro'); window.scrollTo({ top: 0 });
+  });
+
+  submit(r);
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+/* ── texto simples: base do PDF, do copiar e do e-mail ── */
+function plainText(r) {
+  const L = D.EN;
+  return [
+    L ? 'AI ACT SELF-ASSESSMENT · ENIA' : 'AUTO-AVALIAÇÃO AI ACT · ENIA',
+    new Date().toLocaleDateString(L ? 'en-GB' : 'en-GB'),
+    '',
+    `${L ? 'Organisation' : 'Organisation'}: ${ident.empresa || '—'}`,
+    `${L ? 'System' : 'Sistema'}: ${ident.produto || '—'}`,
+    `${L ? 'Assessed by' : 'Avaliado por'}: ${ident.nome || '—'} (${ident.email || '—'})`,
+    `${L ? 'Sector' : 'Setor'}: ${ident.setor || '—'} · ${ident.dimensao || '—'}`,
+    `${L ? 'Marketplace consent' : 'Autorização Marketplace'}: ${ident.consent ? (L ? 'yes' : 'sim') : (L ? 'no' : 'não')}`,
+    '',
+    `${L ? 'CLASSIFICATION' : 'CLASSIFICAÇÃO'}: ${r.title}${r.also.length ? ' (+ ' + r.also.join(', ') + ')' : ''}`,
+    '', r.sum, '',
+    `${L ? 'OBLIGATIONS' : 'OBRIGAÇÕES'} (${r.obs.length}):`,
+    ...r.obs.map(k => '· ' + OB[k][0]),
+    '', `${L ? 'DEADLINES' : 'PRAZOS'}:`,
+    ...r.deadlines.map(x => `· ${x.t} — ${E.fLong.format(E.D(x.d))} (${x.c})`),
+    '',
+    `${L ? 'Internal governance' : 'Internal governance'}: ${r.gov}/5`,
+    `${L ? 'Estimated documentation' : 'Documentação estimada'}: ~${r.docs}`,
+    '',
+    L ? 'Indicative self-assessment. Not legal advice and not a certification. enia.pt'
+      : 'Auto-avaliação orientativa. Não constitui aconselhamento jurídico nem certificação. enia.pt'
+  ].join('\n');
+}
+
+/* ── PDF ─────────────────────────────────────────────────────────────
+   Sem biblioteca externa: constrói-se um PDF 1.4 mínimo com Helvetica.
+   Um jsPDF daria melhor tipografia e 250 KB de peso — para um relatório
+   de uma página não compensa.
+   ------------------------------------------------------------------- */
+function makePDF(r) {
+  const lines = [];
+  const wrap = (s, n) => {
+    let line = '';
+    for (const w of String(s).split(' ')) {
+      if ((line + ' ' + w).trim().length > n) { lines.push(line.trim()); line = w; }
+      else line += ' ' + w;
+    }
+    if (line.trim()) lines.push(line.trim());
+  };
+  plainText(r).split('\n').forEach(l => l ? wrap(l, 92) : lines.push(''));
+
+  const esc = s => s.replace(/\\/g, '\\\\').replace(/\(/g, '\\(').replace(/\)/g, '\\)');
+  /* WinAnsi cobre o português; o que sai fora é aproximado em vez de virar lixo */
+  const win = s => s.normalize('NFC').replace(/[^\x00-\xFF]/g, c =>
+    ({ '—':'-','–':'-','«':'"','»':'"','“':'"','”':'"','’':"'",'‘':"'",
+       '≥':'>=','≈':'~','²':'2','⁵':'5','·':'-','→':'->','↓':'v' }[c] || '?'));
+
+  let y = 800, body = `BT /F1 9 Tf 12 TL 40 ${y} Td\n`;
+  for (const l of lines) { if (y < 50) break; body += `(${esc(win(l))}) Tj T*\n`; y -= 12; }
+  body += 'ET';
+
+  const objs = [
+    '<< /Type /Catalog /Pages 2 0 R >>',
+    '<< /Type /Pages /Kids [3 0 R] /Count 1 >>',
+    '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>',
+    '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>',
+    `<< /Length ${body.length} >>\nstream\n${body}\nendstream`
+  ];
+  let pdf = '%PDF-1.4\n'; const off = [];
+  objs.forEach((o, i) => { off.push(pdf.length); pdf += `${i + 1} 0 obj\n${o}\nendobj\n`; });
+  const xref = pdf.length;
+  pdf += `xref\n0 ${objs.length + 1}\n0000000000 65535 f \n`
+       + off.map(o => String(o).padStart(10, '0') + ' 00000 n \n').join('')
+       + `trailer\n<< /Size ${objs.length + 1} /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF`;
+
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([pdf], { type: 'application/pdf' }));
+  a.download = `ENIA-${(ident.empresa || 'avaliacao').replace(/[^\w-]/g, '_')}-${ident.date || ''}.pdf`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+}
+
+/* ── submissão ───────────────────────────────────────────────────────
+   Um site estático não envia e-mail. Se window.ENIA_ENDPOINT estiver
+   definido (ver README), o registo vai por POST e o servidor envia o
+   PDF. Sem endpoint, o registo fica em fila local e é oferecido o envio
+   pelo cliente de e-mail — nunca se perde uma submissão em silêncio.
+   ------------------------------------------------------------------- */
+function submit(r) {
+  const record = { ...ident, tier: r.tier, title: r.title, gov: r.gov,
+                   score: r.score, docs: r.docs, obs: r.obs.length, lang: E.lang };
+  const el = $('#sent');
+  const ep = window.ENIA_ENDPOINT;
+
+  if (ep) {
+    fetch(ep, { method: 'POST', headers: { 'content-type': 'application/json' },
+                body: JSON.stringify(record) })
+      .then(res => {
+        if (!res.ok) throw new Error();
+        el.textContent = D.EN
+          ? `Report sent to ${ident.email}. A copy stays with ENIA for the national aggregate.`
+          : `Relatório enviado para ${ident.email}. Uma cópia fica na ENIA para o agregado nacional.`;
+      })
+      .catch(() => fallback(record, el));
+  } else {
+    fallback(record, el);
+  }
+}
+
+function fallback(record, el) {
+  try {
+    const k = 'enia_pending';
+    const arr = JSON.parse(sessionStorage.getItem(k) || '[]');
+    arr.push(record); sessionStorage.setItem(k, JSON.stringify(arr));
+  } catch { /* modo privado: segue sem fila */ }
+
+  const subject = encodeURIComponent(`[ENIA] ${D.EN ? 'Self-assessment' : 'Auto-avaliação'} · ${record.empresa}`);
+  const body = encodeURIComponent(plainText({ ...record, sum: '', also: [], obs: [], deadlines: [] })
+    .replace(/\n{3,}/g, '\n\n'));
+  el.innerHTML = (D.EN
+    ? 'Automatic sending is not yet active. Download the PDF above, or '
+    : 'O envio automático ainda não está ativo. Descarregue o PDF acima, ou ')
+    + `<a class="lime" href="mailto:jorge.saraiva@enia.pt?subject=${subject}&body=${body}">`
+    + (D.EN ? 'send the record to ENIA by email' : 'envie o registo por e-mail para a ENIA') + '</a>.';
+}
+
+document.querySelector('[data-go]').addEventListener('click', () => {
+  rebuildOrder(); idx = 0; renderQ();
+});
+})();
+</script>
+</body>
+</html>

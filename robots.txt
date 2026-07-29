@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://enia.pt/sitemap.xml

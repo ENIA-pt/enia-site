@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-page="teste">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Teste de classificação de risco AI Act · ENIA</title>
+<meta name="description" content="A única ferramenta em português europeu de avaliação ética da IA. Descubra em cinco minutos em que nível de risco do AI Act está o seu sistema, que obrigações se lhe aplicam e que prazos tem pela frente. Gratuito.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/teste.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/teste.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/teste.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/teste.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Teste de classificação de risco AI Act · ENIA">
+<meta property="og:description" content="Obrigatório a partir de 2 de agosto. Em português europeu, só existe aqui.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="assets/enia.css">
+<style>
+  .wrap{max-width:min(920px,100%)}
+  .prog{display:flex;gap:5px;margin:clamp(24px,3.4vh,40px) 0 clamp(22px,3vh,34px)}
+  .prog i{flex:1;height:3px;background:var(--line);border-radius:2px;transition:background-color .4s}
+  .prog i.on{background:var(--num)}
+  .qn{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;opacity:.6;margin:0 0 12px}
+  .q h2{font-size:clamp(1.35rem,2.4vw,2.1rem);line-height:1.14}
+  .qhelp{font-size:.88rem;line-height:1.62;opacity:.82;margin:14px 0 0;max-width:62ch}
+  .opts{display:flex;flex-direction:column;gap:9px;margin:clamp(22px,3vh,32px) 0 0}
+  .opt{display:grid;grid-template-columns:20px 1fr;gap:14px;align-items:start;
+       background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);
+       padding:15px 18px;cursor:pointer;transition:background-color .25s,color .25s}
+  .opt:hover{border-color:currentColor}
+  .opt.sel{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent}
+  .mark{width:18px;height:18px;border:1px solid currentColor;opacity:.75;margin-top:2px;position:relative;flex:0 0 auto}
+  .opt[data-t="single"] .mark{border-radius:50%}
+  .opt.sel .mark{opacity:1}
+  .opt.sel .mark::after{content:"";position:absolute;inset:3px;background:currentColor}
+  .opt[data-t="single"].sel .mark::after{border-radius:50%}
+  .opt b{font-weight:500;font-size:clamp(.9rem,1.02vw,1rem);line-height:1.42;display:block}
+  .opt small{display:block;margin-top:5px;font-size:.8rem;line-height:1.55;opacity:.82}
+  .nav{display:flex;justify-content:space-between;gap:14px;margin-top:clamp(26px,3.6vh,40px);flex-wrap:wrap}
+
+  .idform{display:grid;grid-template-columns:1fr 1fr;gap:clamp(14px,1.8vw,24px);margin-top:clamp(22px,3vh,32px)}
+  .consent{grid-column:1/-1;display:grid;grid-template-columns:22px 1fr;gap:14px;align-items:start;
+    background:var(--hi-bg);color:var(--hi-fg);padding:clamp(18px,2vw,26px);cursor:pointer;margin-top:6px}
+  .consent input{position:absolute;opacity:0;width:0;height:0}
+  .consent .mark{opacity:1;margin-top:1px}
+  .consent.on .mark::after{content:"";position:absolute;inset:3px;background:currentColor}
+  .consent b{display:block;font-weight:600;font-size:.98rem;line-height:1.38}
+  .consent p{margin:8px 0 0;font-size:.83rem;line-height:1.6;opacity:.9}
+  .why{border:1px solid var(--line-2);border-left:2px solid var(--num);padding:clamp(16px,1.8vw,24px);margin-top:clamp(20px,2.6vh,30px)}
+  .why h4{margin-bottom:8px}
+  .why p{margin:0;font-size:.84rem;line-height:1.62;opacity:.82}
+  .why p + p{margin-top:.65em}
+
+  .verdict{background:var(--hi-bg);color:var(--hi-fg);border:0;padding:clamp(24px,2.8vw,44px)}
+  .verdict.v-x,.verdict.v-l,.verdict.v-m{background:var(--card-bg);color:var(--card-fg)}
+  .verdict .lvl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;opacity:.68;margin:0 0 12px}
+  .verdict h2{font-size:clamp(1.7rem,3.4vw,3rem)}
+  .verdict .sum{font-size:clamp(.95rem,1.15vw,1.15rem);line-height:1.6;margin:18px 0 0;max-width:64ch;opacity:.92}
+  .also{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+  .also span{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+             border:1px solid currentColor;padding:5px 10px;border-radius:100px;opacity:.85}
+  .ob{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+  .ob li{display:grid;grid-template-columns:20px 1fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:start}
+  .ob svg{width:15px;height:15px;stroke:var(--num);stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round;margin-top:4px}
+  .ob b{font-weight:600;font-size:.95rem;display:block}
+  .ob p{margin:5px 0 0;font-size:.83rem;line-height:1.58;opacity:.8}
+  .dl2{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--card-line)}
+  .dl2 div{background:var(--card-bg);color:var(--card-fg);padding:18px}
+  .dl2 b{display:block;font-size:clamp(1.5rem,2.4vw,2.2rem);font-weight:300;letter-spacing:-.04em;line-height:1;color:var(--card-num)}
+  .dl2 b.past{color:inherit;font-size:clamp(.9rem,1.1vw,1.05rem);letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.78}
+  .dl2 b small{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;opacity:.62;margin-left:6px;color:inherit;font-weight:600}
+  .dl2 p{margin:10px 0 0;font-size:.82rem;line-height:1.5;opacity:.9}
+  .dl2 cite{display:block;margin-top:7px;font-style:normal;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;opacity:.62}
+  .recap{list-style:none;margin:0;padding:0;font-size:.85rem}
+  .recap li{padding:9px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px}
+  .recap li span{opacity:.68}
+  .recap li b{font-weight:500;text-align:right}
+  @media (max-width:720px){ .idform{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar para o conteúdo</a>
+
+<main id="main">
+
+<section class="band band--ink" id="bIntro">
+<div class="wrap">
+  <p class="eyebrow">Certificação <b>·</b> ferramenta gratuita</p>
+  <h1>Em que nível de risco<br>está a <span class="lime">sua IA?</span></h1>
+  <p class="lead">Nove perguntas, cinco minutos. No fim sabe em que nível de risco o AI Act coloca o seu sistema, que obrigações lhe são exigíveis, que prazos correm contra si e que documentação vai ter de produzir.</p>
+
+  <div class="why" style="border-left-width:3px">
+    <h4>A partir de 2 de agosto isto passa a ser obrigatório. Em português europeu, só existe aqui.</h4>
+    <p>As obrigações de transparência do Artigo 50.º tornam-se exigíveis a 2 de agosto de 2026 para qualquer organização que coloque conteúdo gerado por IA no mercado europeu. A Comissão publicou orientações a 20 de julho; a ANACOM ainda não tem unidade de enforcement constituída.</p>
+    <p>Não conhecemos outra ferramenta de avaliação ética de IA em português europeu, construída sobre o texto do regulamento e disponibilizada gratuitamente. Se conhecer, diga-nos e publicamos a ligação — o objetivo é o país cumprir, não a ENIA ter razão.</p>
+  </div>
+
+  <div class="grid grid--3" style="margin-top:clamp(26px,3.6vh,44px)">
+    <article class="card"><h4>As respostas ficam no seu browser</h4><p>A classificação corre localmente. Só os dados de identificação que preencher no fim são registados.</p></article>
+    <article class="card"><h4>Não é aconselhamento jurídico</h4><p>É uma auto-avaliação orientativa baseada no texto do regulamento. A classificação final é responsabilidade do operador.</p></article>
+    <article class="card"><h4>Não vendemos o passo seguinte</h4><p>A ENIA não presta serviços de conformidade. Se precisar de ajuda, a reunião é gratuita e não termina em proposta.</p></article>
+  </div>
+
+  <div class="btns">
+    <button class="btn btn--fill" type="button" data-go="1">Começar o teste <i>→</i></button>
+    <a class="btn btn--ghost" href="certificacao.html">Ver primeiro como funciona o AI Act <i>→</i></a>
+  </div>
+</div>
+</section>
+
+<section class="band band--paper" id="bQuiz" hidden>
+ <div class="wrap"><div id="quiz"></div></div>
+</section>
+
+<section class="band band--mist" id="bId" hidden>
+ <div class="wrap">
+  <div class="prog" id="progId" aria-hidden="true"></div>
+  <p class="qn">Último passo</p>
+  <h2>Quem está a avaliar,<br>e o que está a avaliar.</h2>
+  <p class="lead">Estes dados servem um propósito concreto: ninguém sabe qual é o estado real da IA em Portugal, porque ninguém o mede. Este teste é o primeiro instrumento capaz de o medir — e só funciona se soubermos de que setor e de que dimensão vem cada resposta.</p>
+
+  <form class="idform" id="idForm" novalidate>
+    <div class="field"><label for="iEmpresa">Empresa ou organização</label><input id="iEmpresa" name="empresa" autocomplete="organization" required placeholder="Razão social"></div>
+    <div class="field"><label for="iProduto">Nome do sistema ou produto de IA</label><input id="iProduto" name="produto" required placeholder="Como se chama o que avaliou"></div>
+    <div class="field"><label for="iNome">O seu nome</label><input id="iNome" name="nome" autocomplete="name" required placeholder="Nome próprio e apelido"></div>
+    <div class="field"><label for="iEmail">O seu e-mail</label><input id="iEmail" name="email" type="email" autocomplete="email" required placeholder="nome@organizacao.pt"></div>
+    <div class="field"><label for="iSetor">Setor de atividade</label>
+      <select id="iSetor" name="setor">
+        <option>Tecnologias de informação e software</option>
+        <option>Comunicações e telecomunicações</option>
+        <option>Financeiro, banca e seguros</option>
+        <option>Saúde e farmacêutica</option>
+        <option>Indústria e manufatura</option>
+        <option>Retalho e comércio</option>
+        <option>Educação e formação</option>
+        <option>Administração pública</option>
+        <option>Universidade ou centro de investigação</option>
+        <option>Outro</option>
+      </select>
+    </div>
+    <div class="field"><label for="iDim">Dimensão</label>
+      <select id="iDim" name="dimensao">
+        <option>1 a 9 pessoas</option>
+        <option>10 a 49 pessoas</option>
+        <option>50 a 249 pessoas</option>
+        <option>250 ou mais pessoas</option>
+      </select>
+    </div>
+
+    <label class="consent" id="consent">
+      <input type="checkbox" id="iConsent" name="consent">
+      <span class="mark"></span>
+      <span>
+        <b>Autorizo a ENIA a mencionar publicamente a minha organização no Marketplace de IA Ética, se a classificação o justificar.</b>
+        <p>O Marketplace é uma listagem pública das organizações portuguesas que avaliaram a sua IA e demonstraram governação. Serve dois propósitos ao mesmo tempo: dá visibilidade a quem fez o trabalho, e dá ao país uma lista de fornecedores de IA que sabem em que nível de risco operam. Sem autorização, os seus dados entram apenas no agregado estatístico — o teste funciona exatamente da mesma maneira.</p>
+      </span>
+    </label>
+  </form>
+
+  <div class="why">
+    <h4>Porque é que guardamos isto</h4>
+    <p>O INE mede se as empresas <em>usam</em> IA. Ninguém mede se essa IA está classificada, documentada e governada. É a lacuna mais consequente do diagnóstico nacional: sem ela, qualquer política de IA é feita às cegas.</p>
+    <p>Cada teste concluído passa a ser um ponto num gráfico público — distribuição de risco por setor e por dimensão de empresa. Publicamos o agregado, nunca o caso individual, salvo autorização expressa acima. Os dados não são partilhados com terceiros nem usados para vender nada, porque não vendemos nada.</p>
+  </div>
+
+  <div class="nav">
+    <button class="btn btn--ghost" type="button" id="idBack">← Voltar às perguntas</button>
+    <button class="btn btn--fill" type="button" id="idNext">Ver o meu resultado <i>→</i></button>
+  </div>
+ </div>
+</section>
+
+<section class="band band--deep" id="bOut" hidden>
+ <div class="wrap">
+  <div class="prog" id="progR" aria-hidden="true"></div>
+  <div id="out"></div>
+ </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>Entidade Nacional para a Inteligência Artificial<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">Radar IA Act</a>
+        <a href="noticias.html">Notícias e publicações</a>
+        <a href="marketplace.html">Marketplace de IA Ética</a>
+        <a href="sobre.html">Sobre a ENIA e os Colégios</a>
+        <a href="estrategia.html">Estratégia Nacional</a>
+        <a href="certificacao.html">Certificação</a>
+        <a href="capacitacao.html">Capacitação</a>
+        <a href="contactos.html">Contactos</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Base legal</h4>
+      <p>Regulamento (UE) 2024/1689 — Artigos 4.º, 5.º, 6.º, 50.º, 51.º a 55.º e Anexos I e III. Calendário conforme o Digital Omnibus sobre IA.</p>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Auto-avaliação orientativa · não constitui aconselhamento jurídico nem certificação</span>
+    <span>Observatório atualizado diariamente às 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="data/bundle.js"></script>
+<script src="assets/enia.js"></script>
+<script src="assets/teste-dados.js"></script>
+<script>
+(() => {
+'use strict';
+const E = window.ENIA, D = window.ENIA_TEST;
+const { Q, DL, OB, V, UI } = D;
+const $ = s => document.querySelector(s);
+
+/* ══════════════ motor de classificação — só lógica, zero copy ══════════════ */
+function classify(s) {
+  const has = (k, v) => (s[k] || []).includes(v);
+  const any = k => (s[k] || []).length > 0;
+  const proib = any('proibidas');
+  const a3 = any('anexo3');
+  const derr = s.derrogacao === 'nao';
+  const alto3 = a3 && !derr;
+  const alto1 = s.anexo1 === 'sim';
+  const gpai = s.gpai === 'sim' || s.gpai === 'sistemico';
+  const sist = s.gpai === 'sistemico';
+  const transp = any('transp');
+  const legado = s.legado === 'sim';
+
+  let tier, cls, v;
+  if (proib)           { tier = 'inaceitavel'; cls = 'v-x'; v = V.inaceitavel; }
+  else if (alto1)      { tier = 'alto';        cls = '';    v = V.altoA1; }
+  else if (alto3)      { tier = 'alto';        cls = '';    v = V.altoA3; }
+  else if (a3 && derr) { tier = 'derrogado';   cls = 'v-l'; v = V.derrogado; }
+  else if (transp)     { tier = 'limitado';    cls = 'v-l'; v = V.limitado; }
+  else                 { tier = 'minimo';      cls = 'v-m'; v = V.minimo; }
+
+  const also = [];
+  if (gpai) also.push(sist ? UI.gpaiSys : UI.gpaiBase);
+  if (transp && tier !== 'limitado' && tier !== 'inaceitavel') also.push(UI.alsoTransp);
+  if (alto1 && alto3) also.push(UI.bothAnnex);
+  if (s.papel === 'ambos') also.push(UI.stackedRoles);
+
+  const obs = [];
+  const add = k => { if (!obs.includes(k)) obs.push(k); };
+  if (tier === 'alto') ['gestao','dados','doctec','logs','info','humano','robust','conf','registo','pos'].forEach(add);
+  if (tier === 'alto' && (s.papel === 'implementador' || s.papel === 'ambos')) add('fria');
+  if (tier === 'derrogado') ['doctec','registo','humano'].forEach(add);
+  if (has('transp','t1')) add('t_ident');
+  if (has('transp','t2') || has('transp','t5')) add('t_marca');
+  if (has('transp','t3')) add('t_deep');
+  if (has('transp','t4')) add('t_texto');
+  if (gpai) ['g_doc','g_copy','g_sum'].forEach(add);
+  if (sist) ['g_red','g_inc','g_sec'].forEach(add);
+  add('literacia');
+
+  const dls = [];
+  if (proib) { dls.push(DL.proib, DL.novasP); }
+  if (tier === 'alto' && alto3) dls.push(DL.alto3);
+  if (alto1) dls.push(DL.alto1);
+  if (transp) { dls.push(DL.transp); if (legado) dls.push(DL.legado50); }
+  if (gpai) { dls.push(DL.gpai); if (legado) dls.push(DL.gpaiLeg); }
+  dls.push(DL.lit);
+  const seen = new Set();
+  const deadlines = dls.filter(x => !seen.has(x.d + x.t) && seen.add(x.d + x.t))
+                       .sort((a, b) => a.d.localeCompare(b.d));
+
+  let docs = 3;
+  if (tier === 'alto') docs = 42;
+  else if (tier === 'derrogado') docs = 14;
+  else if (tier === 'limitado') docs = 9;
+  if (gpai) docs += 6;
+
+  const gov = (s.gov || []).length;
+  return { tier, cls, title: v.title, sum: v.sum, also, obs, deadlines, docs, gov,
+           score: Math.round((gov / 5) * 100), gpai, sist };
+}
+
+/* ══════════════ interface ══════════════ */
+const state = {}, ident = {};
+let order = [], idx = -1;
+
+const rebuildOrder = () => { order = Q.filter(q => !q.when || q.when(state)); };
+const progress = (n, total) =>
+  Array.from({ length: total }, (_, i) => `<i class="${i <= n ? 'on' : ''}"></i>`).join('');
+const BANDS = ['bIntro','bQuiz','bId','bOut'];
+const show = (id) => BANDS.forEach(b => {
+  const el = document.getElementById(b);
+  if (el) el.hidden = (b !== id);
+});
+
+function renderQ() {
+  const q = order[idx], total = order.length;
+  const sel = state[q.id];
+  const isMulti = q.type === 'multi';
+  const chosen = isMulti ? (sel || []) : (sel ? [sel] : []);
+
+  $('#quiz').innerHTML = `
+    <div class="prog" aria-hidden="true">${progress(idx, total + 2)}</div>
+    <div class="q">
+      <p class="qn">${UI.question(idx + 1, total)}</p>
+      <h2>${q.t}</h2>
+      <p class="qhelp">${q.h}</p>
+      <div class="opts" role="group">
+        ${q.o.map(o => `
+          <label class="opt${chosen.includes(o.v) ? ' sel' : ''}" data-t="${q.type}" data-v="${o.v}">
+            <span class="mark"></span>
+            <span><b>${o.l}</b>${o.n ? `<small>${o.n}</small>` : ''}</span>
+          </label>`).join('')}
+        ${isMulti ? `<label class="opt${chosen.includes('__none') ? ' sel' : ''}" data-t="multi" data-v="__none">
+            <span class="mark"></span><span><b>${q.none}</b></span></label>` : ''}
+      </div>
+    </div>
+    <div class="nav">
+      <button class="btn btn--ghost" type="button" data-back>${UI.prev}</button>
+      <button class="btn btn--fill" type="button" data-next>${idx === total - 1 ? UI.seeResult : UI.next} <i>→</i></button>
+    </div>`;
+
+  show('bQuiz');
+  $('#quiz').querySelectorAll('.opt').forEach(el => el.addEventListener('click', () => pick(q, el)));
+  $('#quiz').querySelector('[data-back]').addEventListener('click', back);
+  $('#quiz').querySelector('[data-next]').addEventListener('click', next);
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function pick(q, el) {
+  const v = el.dataset.v;
+  if (q.type === 'single') {
+    state[q.id] = v;
+    $('#quiz').querySelectorAll('.opt').forEach(x => x.classList.toggle('sel', x === el));
+    setTimeout(next, 220);
+    return;
+  }
+  const cur = new Set(state[q.id] || []);
+  if (v === '__none') { cur.clear(); cur.add('__none'); }
+  else { cur.delete('__none'); cur.has(v) ? cur.delete(v) : cur.add(v); }
+  state[q.id] = [...cur].filter(x => x !== '__none');
+  const marked = new Set(state[q.id].length ? state[q.id] : (cur.has('__none') ? ['__none'] : []));
+  $('#quiz').querySelectorAll('.opt').forEach(x => x.classList.toggle('sel', marked.has(x.dataset.v)));
+}
+
+function next() {
+  const q = order[idx];
+  if (q && state[q.id] === undefined) {
+    if (q.type === 'multi') state[q.id] = [];
+    else { $('#quiz').querySelector('.opts').animate(
+      [{ transform: 'translateX(0)' }, { transform: 'translateX(-5px)' }, { transform: 'translateX(5px)' }, { transform: 'translateX(0)' }],
+      { duration: 260 }); return; }
+  }
+  rebuildOrder();
+  if (idx + 1 >= order.length) return identify();
+  idx++; renderQ();
+}
+
+function back() {
+  if (idx === 0) { idx = -1; $('#quiz').innerHTML = ''; show('bIntro'); window.scrollTo({ top: 0 }); return; }
+  idx--; renderQ();
+}
+
+function identify() {
+  $('#progId').innerHTML = progress(order.length, order.length + 2);
+  show('bId');
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+$('#consent').addEventListener('click', () => {
+  setTimeout(() => $('#consent').classList.toggle('on', $('#iConsent').checked), 0);
+});
+$('#idBack').addEventListener('click', () => { idx = order.length - 1; renderQ(); });
+$('#idNext').addEventListener('click', () => {
+  const f = $('#idForm');
+  for (const id of ['iEmpresa','iProduto','iNome','iEmail']) {
+    const el = document.getElementById(id);
+    if (!el.value.trim() || !el.checkValidity()) { el.focus(); f.reportValidity(); return; }
+  }
+  Object.assign(ident, {
+    empresa: f.empresa.value.trim(), produto: f.produto.value.trim(),
+    nome: f.nome.value.trim(), email: f.email.value.trim(),
+    setor: f.setor.value, dimensao: f.dimensao.value,
+    consent: f.consent.checked, date: new Date().toISOString().slice(0, 10)
+  });
+  render();
+});
+
+/* ══════════════ resultado ══════════════ */
+function render() {
+  const r = classify(state);
+  show('bOut');
+  $('#progR').innerHTML = progress(99, order.length + 2);
+
+  const CHK = '<svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>';
+  const dls = r.deadlines.map(x => {
+    const n = E.days(x.d);
+    return `<div>
+      ${n < 0 ? `<b class="past">${UI.inForce}</b>` : `<b class="tab">${n}<small>${UI.days}</small></b>`}
+      <p>${x.t}</p><cite>${E.fLong.format(E.D(x.d))} · ${x.c}</cite></div>`;
+  }).join('');
+  const govTxt = UI.mat[r.gov >= 4 ? 2 : r.gov >= 2 ? 1 : 0];
+
+  $('#out').innerHTML = `
+    <div class="verdict ${r.cls}">
+      <p class="lvl">${UI.verdictLabel}</p>
+      <h2>${r.title}</h2>
+      <p class="sum">${r.sum}</p>
+      ${r.also.length ? `<div class="also">${r.also.map(a => `<span>+ ${a}</span>`).join('')}</div>` : ''}
+    </div>
+
+    <div class="figs" style="margin-top:clamp(26px,3.6vh,44px)">
+      <div class="fig"><b class="tab">${r.obs.length}</b><p>${UI.obsCount}</p><cite>${UI.regSource}</cite></div>
+      <div class="fig"><b class="tab">~${r.docs}</b><p>${UI.docsCount}</p><cite>${UI.eniaEstimate}</cite></div>
+      <div class="fig"><b class="tab">${r.gov}/5</b><p>${UI.govCount}</p><cite>${UI.selfDeclared}</cite></div>
+    </div>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.obsTitle}</p>
+      <h2 style="font-size:clamp(1.4rem,2.4vw,2.1rem)">${UI.obsHead}</h2>
+      <ul class="ob" style="margin-top:clamp(20px,2.8vh,32px)">
+        ${r.obs.map(k => `<li>${CHK}<div><b>${OB[k][0]}</b><p>${OB[k][1]}</p></div></li>`).join('')}
+      </ul>
+    </section>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.dlTitle}</p>
+      <h2 style="font-size:clamp(1.4rem,2.4vw,2.1rem)">${UI.dlHead}</h2>
+      <div class="dl2" style="margin-top:clamp(20px,2.8vh,32px)">${dls}</div>
+      <p class="note">${UI.dlNote} <a href="radar.html#prazos" class="lime">${UI.radar}</a>.</p>
+    </section>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.matTitle}</p>
+      <h2 style="font-size:clamp(1.4rem,2.4vw,2.1rem)">${UI.matHead}</h2>
+      <p class="lead">${govTxt}</p>
+    </section>
+
+    <section class="sec">
+      <p class="eyebrow">${UI.recapTitle}</p>
+      <ul class="recap">
+        <li><span>${UI.recap.papel}</span><b>${UI.roles[state.papel] || '—'}</b></li>
+        <li><span>${UI.recap.proibidas}</span><b>${(state.proibidas || []).length}</b></li>
+        <li><span>${UI.recap.anexo3}</span><b>${(state.anexo3 || []).length}</b></li>
+        <li><span>${UI.recap.derrogacao}</span><b>${state.derrogacao === 'nao' ? UI.invoked : state.derrogacao ? UI.notInvoked : UI.na}</b></li>
+        <li><span>${UI.recap.anexo1}</span><b>${state.anexo1 === 'sim' ? UI.yes : UI.no}</b></li>
+        <li><span>${UI.recap.gpai}</span><b>${state.gpai === 'sistemico' ? UI.gpaiSysShort : state.gpai === 'sim' ? UI.yes : UI.no}</b></li>
+        <li><span>${UI.recap.transp}</span><b>${(state.transp || []).length}</b></li>
+        <li><span>${UI.recap.legado}</span><b>${state.legado === 'sim' ? UI.yes : UI.no}</b></li>
+      </ul>
+      <div class="btns">
+        <button class="btn btn--fill" type="button" id="pdf">${UI.download} <i>↓</i></button>
+        <button class="btn btn--ghost" type="button" id="copy">${UI.copy} <i>⧉</i></button>
+        <button class="btn btn--ghost" type="button" id="prt">${UI.print} <i>→</i></button>
+      </div>
+      <p class="note" id="sent"></p>
+    </section>
+
+    <section class="sec">
+      <div class="why" style="margin-top:0">
+        <h4>${UI.discTitle}</h4>
+        <p>${UI.disc1}</p>
+      </div>
+      <div class="btns">
+        <a class="btn btn--fill" href="contactos.html#reuniao">${UI.discuss} <i>→</i></a>
+        <button class="btn btn--ghost" type="button" id="again">${UI.again} <i>↺</i></button>
+      </div>
+    </section>`;
+
+  const txt = () => plainText(r);
+  $('#pdf').addEventListener('click', () => makePDF(r));
+  $('#prt').addEventListener('click', () => window.print());
+  $('#copy').addEventListener('click', async (e) => {
+    try { await navigator.clipboard.writeText(txt()); e.target.innerHTML = UI.copied; }
+    catch { e.target.innerHTML = UI.copyFail; }
+    setTimeout(() => { e.target.innerHTML = `${UI.copy} <i>⧉</i>`; }, 2400);
+  });
+  $('#again').addEventListener('click', () => {
+    Object.keys(state).forEach(k => delete state[k]);
+    Object.keys(ident).forEach(k => delete ident[k]);
+    $('#idForm').reset(); $('#consent').classList.remove('on');
+    idx = -1; show('bIntro'); window.scrollTo({ top: 0 });
+  });
+
+  submit(r);
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+/* ── texto simples: base do PDF, do copiar e do e-mail ── */
+function plainText(r) {
+  const L = D.EN;
+  return [
+    L ? 'AI ACT SELF-ASSESSMENT · ENIA' : 'AUTO-AVALIAÇÃO AI ACT · ENIA',
+    new Date().toLocaleDateString(L ? 'en-GB' : 'pt-PT'),
+    '',
+    `${L ? 'Organisation' : 'Organização'}: ${ident.empresa || '—'}`,
+    `${L ? 'System' : 'Sistema'}: ${ident.produto || '—'}`,
+    `${L ? 'Assessed by' : 'Avaliado por'}: ${ident.nome || '—'} (${ident.email || '—'})`,
+    `${L ? 'Sector' : 'Setor'}: ${ident.setor || '—'} · ${ident.dimensao || '—'}`,
+    `${L ? 'Marketplace consent' : 'Autorização Marketplace'}: ${ident.consent ? (L ? 'yes' : 'sim') : (L ? 'no' : 'não')}`,
+    '',
+    `${L ? 'CLASSIFICATION' : 'CLASSIFICAÇÃO'}: ${r.title}${r.also.length ? ' (+ ' + r.also.join(', ') + ')' : ''}`,
+    '', r.sum, '',
+    `${L ? 'OBLIGATIONS' : 'OBRIGAÇÕES'} (${r.obs.length}):`,
+    ...r.obs.map(k => '· ' + OB[k][0]),
+    '', `${L ? 'DEADLINES' : 'PRAZOS'}:`,
+    ...r.deadlines.map(x => `· ${x.t} — ${E.fLong.format(E.D(x.d))} (${x.c})`),
+    '',
+    `${L ? 'Internal governance' : 'Governação interna'}: ${r.gov}/5`,
+    `${L ? 'Estimated documentation' : 'Documentação estimada'}: ~${r.docs}`,
+    '',
+    L ? 'Indicative self-assessment. Not legal advice and not a certification. enia.pt'
+      : 'Auto-avaliação orientativa. Não constitui aconselhamento jurídico nem certificação. enia.pt'
+  ].join('\n');
+}
+
+/* ── PDF ─────────────────────────────────────────────────────────────
+   Sem biblioteca externa: constrói-se um PDF 1.4 mínimo com Helvetica.
+   Um jsPDF daria melhor tipografia e 250 KB de peso — para um relatório
+   de uma página não compensa.
+   ------------------------------------------------------------------- */
+function makePDF(r) {
+  const lines = [];
+  const wrap = (s, n) => {
+    let line = '';
+    for (const w of String(s).split(' ')) {
+      if ((line + ' ' + w).trim().length > n) { lines.push(line.trim()); line = w; }
+      else line += ' ' + w;
+    }
+    if (line.trim()) lines.push(line.trim());
+  };
+  plainText(r).split('\n').forEach(l => l ? wrap(l, 92) : lines.push(''));
+
+  const esc = s => s.replace(/\\/g, '\\\\').replace(/\(/g, '\\(').replace(/\)/g, '\\)');
+  /* WinAnsi cobre o português; o que sai fora é aproximado em vez de virar lixo */
+  const win = s => s.normalize('NFC').replace(/[^\x00-\xFF]/g, c =>
+    ({ '—':'-','–':'-','«':'"','»':'"','“':'"','”':'"','’':"'",'‘':"'",
+       '≥':'>=','≈':'~','²':'2','⁵':'5','·':'-','→':'->','↓':'v' }[c] || '?'));
+
+  let y = 800, body = `BT /F1 9 Tf 12 TL 40 ${y} Td\n`;
+  for (const l of lines) { if (y < 50) break; body += `(${esc(win(l))}) Tj T*\n`; y -= 12; }
+  body += 'ET';
+
+  const objs = [
+    '<< /Type /Catalog /Pages 2 0 R >>',
+    '<< /Type /Pages /Kids [3 0 R] /Count 1 >>',
+    '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>',
+    '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>',
+    `<< /Length ${body.length} >>\nstream\n${body}\nendstream`
+  ];
+  let pdf = '%PDF-1.4\n'; const off = [];
+  objs.forEach((o, i) => { off.push(pdf.length); pdf += `${i + 1} 0 obj\n${o}\nendobj\n`; });
+  const xref = pdf.length;
+  pdf += `xref\n0 ${objs.length + 1}\n0000000000 65535 f \n`
+       + off.map(o => String(o).padStart(10, '0') + ' 00000 n \n').join('')
+       + `trailer\n<< /Size ${objs.length + 1} /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF`;
+
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([pdf], { type: 'application/pdf' }));
+  a.download = `ENIA-${(ident.empresa || 'avaliacao').replace(/[^\w-]/g, '_')}-${ident.date || ''}.pdf`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+}
+
+/* ── submissão ───────────────────────────────────────────────────────
+   Um site estático não envia e-mail. Se window.ENIA_ENDPOINT estiver
+   definido (ver README), o registo vai por POST e o servidor envia o
+   PDF. Sem endpoint, o registo fica em fila local e é oferecido o envio
+   pelo cliente de e-mail — nunca se perde uma submissão em silêncio.
+   ------------------------------------------------------------------- */
+function submit(r) {
+  const record = { ...ident, tier: r.tier, title: r.title, gov: r.gov,
+                   score: r.score, docs: r.docs, obs: r.obs.length, lang: E.lang };
+  const el = $('#sent');
+  const ep = window.ENIA_ENDPOINT;
+
+  if (ep) {
+    fetch(ep, { method: 'POST', headers: { 'content-type': 'application/json' },
+                body: JSON.stringify(record) })
+      .then(res => {
+        if (!res.ok) throw new Error();
+        el.textContent = D.EN
+          ? `Report sent to ${ident.email}. A copy stays with ENIA for the national aggregate.`
+          : `Relatório enviado para ${ident.email}. Uma cópia fica na ENIA para o agregado nacional.`;
+      })
+      .catch(() => fallback(record, el));
+  } else {
+    fallback(record, el);
+  }
+}
+
+function fallback(record, el) {
+  try {
+    const k = 'enia_pending';
+    const arr = JSON.parse(sessionStorage.getItem(k) || '[]');
+    arr.push(record); sessionStorage.setItem(k, JSON.stringify(arr));
+  } catch { /* modo privado: segue sem fila */ }
+
+  const subject = encodeURIComponent(`[ENIA] ${D.EN ? 'Self-assessment' : 'Auto-avaliação'} · ${record.empresa}`);
+  const body = encodeURIComponent(plainText({ ...record, sum: '', also: [], obs: [], deadlines: [] })
+    .replace(/\n{3,}/g, '\n\n'));
+  el.innerHTML = (D.EN
+    ? 'Automatic sending is not yet active. Download the PDF above, or '
+    : 'O envio automático ainda não está ativo. Descarregue o PDF acima, ou ')
+    + `<a class="lime" href="mailto:jorge.saraiva@enia.pt?subject=${subject}&body=${body}">`
+    + (D.EN ? 'send the record to ENIA by email' : 'envie o registo por e-mail para a ENIA') + '</a>.';
+}
+
+document.querySelector('[data-go]').addEventListener('click', () => {
+  rebuildOrder(); idx = 0; renderQ();
+});
+})();
+</script>
+</body>
+</html>

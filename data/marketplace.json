@@ -1,0 +1,12 @@
+{
+  "generated": null,
+  "nota": "Listagem pública das organizações que concluíram o teste de classificação e autorizaram menção. Alimentada pelo endpoint de submissão do teste (ver README, secção 15). Só entram registos com consent:true e score >= 60. O agregado estatístico usa todos os registos, incluindo os sem autorização.",
+  "aggregate": {
+    "total": 0,
+    "consented": 0,
+    "byTier": { "minimo": 0, "limitado": 0, "derrogado": 0, "alto": 0, "inaceitavel": 0 },
+    "bySector": {},
+    "avgGov": null
+  },
+  "items": []
+}

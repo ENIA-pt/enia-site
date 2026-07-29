@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-page="radar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar IA Act · ENIA — observatório regulatório diário</title>
+<meta name="description" content="Prazos vinculativos do AI Act, índice de prontidão dos Estados-Membros, adoção de IA em Portugal segundo o INE e a AICEP e acompanhamento da execução da Agenda Nacional de IA.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/radar.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/radar.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/radar.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/radar.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Radar IA Act · ENIA">
+<meta property="og:description" content="Prazos, prontidão europeia, dados do INE e execução da Agenda Nacional de IA — atualizado todos os dias às 00:00 CET.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="assets/enia.css">
+<style>
+  /* específico do radar */
+  .dls{display:grid;grid-template-columns:repeat(auto-fit,minmax(184px,1fr));gap:clamp(10px,1vw,14px)}
+  .dl{background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);padding:clamp(17px,1.8vw,26px);display:flex;flex-direction:column;gap:10px}
+  .dl--next{background:var(--hi-bg);border-color:transparent;color:var(--hi-fg)}
+  .dl__d{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;opacity:.5;margin:0}
+  .dl--next .dl__d{opacity:.65}
+  .dl__n{font-size:clamp(1.9rem,3.2vw,2.9rem);font-weight:300;letter-spacing:-.05em;line-height:1;color:var(--card-num);margin:0}
+  .dl--next .dl__n{color:var(--hi-num);font-weight:400}
+  .dl__n small{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;opacity:.65;margin-left:7px;color:inherit}
+  .dl--next .dl__n small{color:inherit}
+  .dl__t{margin:0;font-size:.84rem;line-height:1.5;opacity:.88}
+  .dl__done{margin:0;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--card-num);opacity:.85}
+  .stamp{display:flex;gap:clamp(18px,2.6vw,46px);flex-wrap:wrap;margin-top:clamp(26px,4vh,44px);padding-top:20px;border-top:1px solid var(--line)}
+  .stamp div{min-width:148px}
+  .stamp dt{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;opacity:.45;margin:0 0 6px}
+  .stamp dd{margin:0;font-size:.9rem;font-weight:400}
+  .stamp dd b{color:var(--num);font-weight:600}
+  .thresh{margin-top:13px;padding-top:11px;border-top:1px dashed var(--line);font-size:.73rem;opacity:.5}
+  .srcs{display:grid;grid-template-columns:repeat(auto-fit,minmax(206px,1fr));gap:1px;background:var(--card-line);margin-top:clamp(20px,3vh,32px)}
+  .srcs div{background:var(--card-bg);color:var(--card-fg);padding:18px}
+  .srcs h4{font-size:.8rem;margin-bottom:5px}
+  .srcs p{margin:0;font-size:.76rem;line-height:1.55;opacity:.7;word-break:break-word}
+  .split{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:clamp(26px,3vw,52px);align-items:start}
+  .split h4{margin-bottom:14px}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar para o conteúdo</a>
+
+<main id="main">
+
+<!-- ══════════════════ ABERTURA ══════════════════ -->
+<section class="band band--ink">
+  <p class="eyebrow rv">Centro de Inteligência Regulatória <b>·</b> Observatório ENIA</p>
+  <h1 class="rv">O relógio do<br>AI&nbsp;Act, <span class="lime">todos os dias.</span></h1>
+  <p class="lead rv">Prazos vinculativos, prontidão comparada dos Estados-Membros, adoção real de IA em Portugal e execução da Agenda Nacional. Recolhido automaticamente das fontes oficiais, interpretado por nós.</p>
+  <dl class="stamp rv">
+    <div><dt>Última atualização</dt><dd id="mGen">—</dd></div>
+    <div><dt>Próxima recolha</dt><dd id="mNext">00:00 CET</dd></div>
+    <div><dt>Regime aplicável</dt><dd><b>Reg. (UE) 2024/1689</b> + Digital Omnibus</dd></div>
+    <div><dt>Versão do dataset</dt><dd id="mVer">—</dd></div>
+  </dl>
+</section>
+
+<!-- ══════════════════ 01 · PRAZOS ══════════════════ -->
+<section class="band band--deep" id="prazos">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">01 · Cronograma vinculativo</p>
+      <h2>Quanto tempo falta,<br>obrigação a obrigação.</h2>
+    </div>
+    <p class="note">O Digital Omnibus adiou o alto risco — não adiou a transparência. É essa diferença que separa quem planeou de quem esperou.</p>
+  </div>
+  <div class="dls rv" id="dls"></div>
+  <p class="note rv" id="omnibusNote"></p>
+</section>
+
+<!-- ══════════════════ 02 · BENCHMARK ══════════════════ -->
+<section class="band band--paper" id="benchmark">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">02 · Índice de Prontidão para o AI Act</p>
+      <h2>Onde está Portugal<br>na corrida europeia.</h2>
+    </div>
+    <p class="note">Índice 0–100 composto por designação de autoridade, capacidade de enforcement, sandbox, normas harmonizadas e apoio a PME.</p>
+  </div>
+  <ul class="bars rv" id="barsC"></ul>
+  <div class="legend rv">
+    <span><i class="a"></i>Portugal</span>
+    <span><i class="b"></i>Enforcement operacional</span>
+    <span><i class="c"></i>Em progresso</span>
+    <span><i class="d"></i>Atrasado</span>
+  </div>
+
+  <div class="rv" id="trajBlock" style="margin-top:clamp(34px,5vh,64px);padding-top:clamp(26px,3.6vh,44px);border-top:1px solid var(--line)">
+    <div class="hd" style="margin-bottom:clamp(18px,2.6vh,30px)">
+      <div>
+        <p class="eyebrow" style="margin-bottom:10px">Trajetória</p>
+        <h3 style="font-size:clamp(1.15rem,1.5vw,1.5rem)">Não interessa onde Portugal está.<br>Interessa para onde vai.</h3>
+      </div>
+      <p class="note" id="trajMeta">—</p>
+    </div>
+    <div id="traj"></div>
+  </div>
+</section>
+
+<!-- ══════════════════ 03 · SECTORES ══════════════════ -->
+<section class="band band--mist" id="sectores">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">03 · Preparação para o AI Act por sector</p>
+      <h2>Quase nenhum sector<br>está pronto para<br>a IA que já usa.</h2>
+    </div>
+    <p class="note">Abaixo do limiar de 30% o risco de incumprimento involuntário é elevado — sobretudo em domínios classificados como alto risco no Anexo III.</p>
+  </div>
+  <ul class="bars rv" id="barsS"></ul>
+  <p class="thresh rv">Limiar crítico de 30%. Fonte: ENIA AI Act Intelligence Center.</p>
+</section>
+
+<!-- ══════════════════ 04 · ESTADO DA IA EM PORTUGAL ══════════════════ -->
+<section class="band band--paper" id="portugal">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">04 · Estado da IA em Portugal <b>·</b> INE</p>
+      <h2>As pessoas adotaram.<br>As empresas ainda não.</h2>
+    </div>
+    <p class="note" id="ineAsOf">—</p>
+  </div>
+
+  <div class="figs rv" id="ineTop"></div>
+
+  <div class="split rv" style="margin-top:clamp(30px,4.4vh,56px)">
+    <div>
+      <h4>Empresas: a adoção cresce com a dimensão</h4>
+      <ul class="bars" id="ineDim"></ul>
+      <p class="thresh" id="ineDimNote">—</p>
+    </div>
+    <div>
+      <h4>Pessoas: a adoção cresce com a idade invertida</h4>
+      <ul class="bars" id="inePes"></ul>
+      <p class="thresh" id="inePesNote">—</p>
+    </div>
+  </div>
+
+  <div class="split rv" style="margin-top:clamp(30px,4.4vh,56px)">
+    <div>
+      <h4>O que as empresas fazem com IA</h4>
+      <ul class="bars" id="ineApp"></ul>
+    </div>
+    <div>
+      <h4>Porque é que as outras não usam</h4>
+      <ul class="bars" id="ineBar"></ul>
+    </div>
+  </div>
+
+  <div class="warn rv">
+    <h4>Porque é que os números divergem — e o que fazemos com isso</h4>
+    <p>Circulam duas leituras da adoção empresarial de IA em Portugal. O DESI da Comissão Europeia aponta cerca de 17%, o dobro da média europeia. O INE, no IUTICE de 2025, apura 11,5%.</p>
+    <p>Não é contradição, é âmbito: as duas séries usam definições e universos diferentes — o INE cobre apenas empresas com 10 ou mais pessoas ao serviço, e a pergunta europeia sobre tecnologias de IA mudou de formulação entre edições. O que ambas mostram, sem margem para dúvida, é a mesma direção: a adoção sobe, é muito desigual por dimensão de empresa e está muito à frente da capacidade nacional de a governar.</p>
+    <p>Publicamos as duas com a fonte à frente. Um radar que escolhe o número mais favorável deixa de ser um radar.</p>
+  </div>
+</section>
+
+<!-- ══════════════════ 05 · ECONOMIA ══════════════════ -->
+<section class="band band--deep" id="economia">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">05 · Economia digital <b>·</b> AICEP</p>
+      <h2>A base económica<br>já existe.</h2>
+    </div>
+    <p class="note" id="aicepAsOf">—</p>
+  </div>
+  <div class="figs rv" id="aicepFigs"></div>
+  <p class="note rv">Um setor que gera cerca de um décimo do PIB e um ecossistema de startups com escala internacional são o substrato de que a economia de IA precisa. O que falta não é tecido empresarial — é a infraestrutura de confiança que transforma esse tecido em vantagem regulada.</p>
+</section>
+
+<!-- ══════════════════ 06 · AGENDA NACIONAL ══════════════════ -->
+<section class="band band--mist" id="ania">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">06 · Agenda Nacional de IA <b>·</b> acompanhamento</p>
+      <h2>32 iniciativas.<br>Quantas estão<br>a acontecer?</h2>
+    </div>
+    <p class="note" id="aniaAsOf">—</p>
+  </div>
+
+  <p class="lead rv" id="aniaResumo" style="margin-top:0">—</p>
+
+  <div class="figs rv" id="aniaScore" style="margin-top:clamp(26px,3.6vh,40px)"></div>
+
+  <table class="tbl rv" style="margin-top:clamp(26px,3.6vh,40px)">
+    <thead><tr><th>Eixo</th><th>Iniciativa</th><th>Estado</th><th>Evidência pública</th></tr></thead>
+    <tbody id="aniaBody"></tbody>
+  </table>
+
+  <div class="warn rv">
+    <h4>Como leem estes estados</h4>
+    <p id="aniaAval">—</p>
+    <p>A ENIA não tem acesso privilegiado à execução da Agenda. Este acompanhamento existe porque ninguém o publica — e porque uma agenda de 400 milhões de euros merece um painel público. Se uma medida avançou e não a registámos, corrigimos no dia em que nos disserem: <a href="mailto:jorge.saraiva@enia.pt" class="lime">jorge.saraiva@enia.pt</a>.</p>
+  </div>
+</section>
+
+<!-- ══════════════════ 07 · INSTITUCIONAL ══════════════════ -->
+<section class="band band--paper" id="institucional">
+  <div class="two rv">
+    <div>
+      <p class="eyebrow">07 · Arquitetura de enforcement</p>
+      <h2>O que Portugal<br>já tem — e o que<br>falta construir.</h2>
+      <p class="lead">A ANACOM foi designada autoridade nacional competente a 19 de setembro de 2025 e coordena 14 entidades sectoriais. A designação era o passo necessário; não é o passo suficiente.</p>
+      <p class="note">A ENIA disponibiliza gratuitamente reuniões de apoio a qualquer cidadão, empresa ou entidade pública que precise de navegar o AI Act — a suprir, informalmente, a função de <em>AI Act Service Desk</em> nacional.</p>
+    </div>
+    <ul class="chk" id="chk"></ul>
+  </div>
+</section>
+
+<!-- ══════════════════ 08 · FEED ══════════════════ -->
+<section class="band band--deep" id="feed">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">08 · Feed regulatório</p>
+      <h2>Recolhido das fontes<br>oficiais. Traduzido<br>para consequências.</h2>
+    </div>
+    <p class="note">EUR-Lex, Comissão Europeia / AI Office, Parlamento Europeu, INE, ANACOM, CNPD. Uma recolha por dia, às 00:00 CET.</p>
+  </div>
+  <ul class="feed rv" id="feedList"></ul>
+  <div class="btns rv">
+    <a class="btn btn--ghost" href="noticias.html">Arquivo completo, com calendário e pesquisa <i>&rarr;</i></a>
+  </div>
+</section>
+
+<!-- ══════════════════ 09 · METODOLOGIA ══════════════════ -->
+<section class="band band--ink" id="fontes">
+  <p class="eyebrow rv">09 · Metodologia e fontes</p>
+  <h2 class="rv">Como é que este<br>número foi feito.</h2>
+  <p class="lead rv">Cada indicador tem origem declarada e data. Quando uma fonte oficial não permite recolha automática, o item é marcado como verificação manual e datado. Não publicamos estimativas sem o dizer.</p>
+  <div class="srcs rv" id="srcs"></div>
+  <p class="note rv">O Índice de Prontidão é um índice composto da ENIA, não um indicador oficial da União Europeia. A metodologia completa, os pesos de cada dimensão e o histórico das séries estão disponíveis a pedido em <a href="mailto:jorge.saraiva@enia.pt" class="lime">jorge.saraiva@enia.pt</a>.</p>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>Entidade Nacional para a Inteligência Artificial<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="noticias.html">Notícias e publicações</a>
+        <a href="teste.html">Teste de classificação</a>
+        <a href="marketplace.html">Marketplace de IA Ética</a>
+        <a href="sobre.html">Sobre a ENIA e os Colégios</a>
+        <a href="estrategia.html">Estratégia Nacional</a>
+        <a href="certificacao.html">Certificação</a>
+        <a href="capacitacao.html">Capacitação</a>
+        <a href="contactos.html">Contactos</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Neste radar</h4>
+      <nav>
+        <a href="#prazos">Prazos vinculativos</a>
+        <a href="#benchmark">Prontidão europeia</a>
+        <a href="#portugal">Estado da IA em Portugal</a>
+        <a href="#ania">Agenda Nacional de IA</a>
+        <a href="#feed">Feed regulatório</a>
+        <a href="#fontes">Metodologia</a>
+      </nav>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Transformar conformidade em vantagem competitiva global</span>
+    <span>Observatório atualizado diariamente às 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="data/bundle.js"></script>
+<script src="assets/enia.js"></script>
+<script>
+(() => {
+'use strict';
+const E = window.ENIA;
+const $ = id => document.getElementById(id);
+
+const NEWS_SEED = { generated:null, items:[
+  { title:'Digital Omnibus: novas regras', summary:'Modelos de grande escala têm novos requisitos desde agosto de 2025. O que muda para Portugal.', source:'EUR-Lex', date:'2026-07-18', url:'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689' },
+  { title:'Finlândia ativa enforcement', summary:'A TRAFICOM iniciou operações. O que Portugal pode aprender com o primeiro regulador de IA plenamente operacional da UE.', source:'ENIA Analysis', date:'2026-07-15', url:'#benchmark' },
+  { title:'Estado de preparação de Portugal, revisto', summary:'Relatório ENIA ajustado aos novos prazos do Digital Omnibus, com o cronograma reconstruído obrigação a obrigação.', source:'ENIA Publishing', date:'2026-07-14', url:'#prazos' }
+]};
+
+/* barras genéricas */
+const bars = (el, rows, { max, unit = '%', hi = 30, me = null } = {}) => {
+  if (!el) return;
+  const m = max || Math.max(...rows.map(r => r.value)) * 1.05;
+  el.innerHTML = rows.map(r => {
+    const cls = me && me.test(r.name) ? 'me' : (r.value >= hi ? 'top' : 'low');
+    return `<li class="brow brow--${cls}">
+      <span class="brow__l">${E.esc(r.name)}</span>
+      <span class="brow__t"><i class="brow__f" data-w="${(r.value / m * 100).toFixed(1)}"></i></span>
+      <span class="brow__v tab">${String(r.value).replace('.', ',')}${unit}</span>
+    </li>`;
+  }).join('');
+  eniaBars(el);
+};
+
+const figs = (el, items) => {
+  if (!el) return;
+  el.innerHTML = items.map(f => `<div class="fig">
+    <b class="tab">${E.esc(f.value)}</b><p>${E.esc(f.label)}</p><cite>${E.esc(f.source || '')}</cite></div>`).join('');
+};
+
+/* ── trajetória: série histórica do índice ──────────────────────── */
+function trajectory(s){
+  const box = $('traj'), meta = $('trajMeta');
+  if (!box) return;
+  const pts = (s && s.points || []).filter(p => p.pt != null);
+
+  if (pts.length < 2) {
+    meta.textContent = s && s.since ? 'Série iniciada a ' + E.fShort.format(E.D(s.since)) + '.' : '';
+    box.innerHTML = `<div class="warn" style="margin-top:0">
+      <h4>A série começa hoje — e é isso que a torna valiosa</h4>
+      <p>Com ${pts.length === 1 ? 'uma leitura' : 'nenhuma leitura'} ainda não há trajetória para desenhar. A partir da segunda, esta secção mostra a evolução da pontuação de Portugal contra a média dos países avaliados.</p>
+      <p>O retrato de hoje é copiável em tarde. Dezoito meses de leituras diárias não são — e é por isso que o snapshot é guardado todos os dias em <code style="opacity:.8">data/history/</code> desde a primeira execução.</p>
+    </div>`;
+    return;
+  }
+
+  const W = 800, H = 220, ML = 34, MR = 12, MT = 16, MB = 30;
+  const xs = (i) => ML + i * (W - ML - MR) / (pts.length - 1);
+  const all = pts.flatMap(p => [p.pt, p.euAvg]).filter(v => v != null);
+  const lo = Math.max(0, Math.floor(Math.min(...all) / 10) * 10 - 5);
+  const hi = Math.min(100, Math.ceil(Math.max(...all) / 10) * 10 + 5);
+  const ys = (v) => MT + (H - MT - MB) * (1 - (v - lo) / (hi - lo));
+  const line = (k) => pts.map((p, i) => `${xs(i).toFixed(1)},${ys(p[k]).toFixed(1)}`).join(' ');
+
+  const first = pts[0], last = pts[pts.length - 1];
+  const d = +(last.pt - first.pt).toFixed(1);
+  const dr = first.rank - last.rank;
+
+  meta.innerHTML = `${pts.length} leituras desde ${E.fShort.format(E.D(first.date))}. `
+    + `Índice de Portugal ${d > 0 ? '+' + d : d} pontos`
+    + (dr ? `, ${dr > 0 ? 'a subir ' + dr : 'a descer ' + Math.abs(dr)} posição(ões)` : ', sem alteração de posição') + '.';
+
+  box.innerHTML = `
+  <svg viewBox="0 0 ${W} ${H}" width="100%" role="img"
+       aria-label="Evolução do Índice de Prontidão de Portugal e da média dos países avaliados desde ${first.date}">
+    ${[lo, Math.round((lo + hi) / 2), hi].map(v => `
+      <line x1="${ML}" x2="${W - MR}" y1="${ys(v)}" y2="${ys(v)}" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
+      <text x="0" y="${ys(v) + 4}" fill="rgba(255,255,255,.4)" font-size="11">${v}</text>`).join('')}
+    <polyline points="${line('euAvg')}" fill="none" stroke="#BED2D9" stroke-width="1.5"
+              stroke-dasharray="5 4" opacity=".65"/>
+    <polyline points="${line('pt')}" fill="none" stroke="#DCF081" stroke-width="2.5"
+              stroke-linejoin="round" stroke-linecap="round"/>
+    ${pts.map((p, i) => `<circle cx="${xs(i).toFixed(1)}" cy="${ys(p.pt).toFixed(1)}" r="3" fill="#DCF081"/>`).join('')}
+    <text x="${ML}" y="${H - 8}" fill="rgba(255,255,255,.4)" font-size="11">${E.fShort.format(E.D(first.date))}</text>
+    <text x="${W - MR}" y="${H - 8}" fill="rgba(255,255,255,.4)" font-size="11" text-anchor="end">${E.fShort.format(E.D(last.date))}</text>
+  </svg>
+  <div class="legend" style="margin-top:14px">
+    <span><i class="a"></i>Portugal</span>
+    <span><i style="background:repeating-linear-gradient(90deg,#BED2D9 0 5px,transparent 5px 9px)"></i>Média dos países avaliados</span>
+  </div>`;
+}
+
+function render(d, news){
+  /* ── metadados ── */
+  $('mGen').textContent = d.generated ? E.fStamp.format(new Date(d.generated)) : 'semente estática — aguarda 1.ª sincronização';
+  $('mNext').textContent = d.nextUpdate || '00:00 CET';
+  $('mVer').textContent = 'v' + (d.version || '—');
+  $('omnibusNote').textContent = d.omnibus || '';
+
+  /* ── prazos ── */
+  const up = d.deadlines.filter(x => E.days(x.date) >= 0);
+  const nextDate = up.length ? up[0].date : null;
+  $('dls').innerHTML = d.deadlines.map(x => {
+    const n = E.days(x.date), isNext = x.date === nextDate;
+    if (n < 0) return `<article class="dl">
+      <p class="dl__d">${E.fLong.format(E.D(x.date))}</p>
+      <p class="dl__done">Em vigor</p>
+      <p class="dl__t">${E.esc(x.label)}</p></article>`;
+    return `<article class="dl${isNext ? ' dl--next' : ''}">
+      <p class="dl__d">${E.fLong.format(E.D(x.date))}${isNext ? ' · próximo' : ''}</p>
+      <p class="dl__n tab">${n}<small>dias</small></p>
+      <p class="dl__t">${E.esc(x.label)}</p></article>`;
+  }).join('');
+
+  /* ── prontidão UE ── */
+  const maxC = Math.max(...d.countries.map(c => c.score), 100);
+  $('barsC').innerHTML = d.countries.map(c => `
+    <li class="brow brow--${E.esc(c.state)}">
+      <span class="brow__l">${E.esc(c.name)}</span>
+      <span class="brow__t"><i class="brow__f" data-w="${(c.score / maxC * 100).toFixed(1)}"></i></span>
+      <span class="brow__v tab">${c.score}</span>
+    </li>`).join('');
+  eniaBars($('barsC'));
+
+  /* ── sectores ── */
+  bars($('barsS'), d.sectors, { max: 60, hi: 30, me: /Comunica/i });
+
+  /* ── INE ── */
+  if (d.ine) {
+    const emp = d.ine.empresas, pes = d.ine.pessoas;
+    $('ineAsOf').textContent = d.ine.asOf || '';
+    figs($('ineTop'), [
+      { value: emp.adocao.toString().replace('.', ',') + '%', label: 'das empresas utilizam tecnologias de IA (+' + String(emp.delta).replace('.', ',') + ' p.p. face a 2024)', source: 'INE · IUTICE Empresas 2025' },
+      { value: pes.adocao.toString().replace('.', ',') + '%', label: 'das pessoas dos 16 aos 74 anos usaram ferramentas de IA nos últimos 3 meses', source: 'INE · IUTICE Famílias 2025' },
+      { value: '9,4%', label: 'das empresas com 10 a 49 pessoas usam IA — contra 49,1% nas de 250 ou mais', source: 'INE · IUTICE Empresas 2025' },
+      { value: '74,4%', label: 'apontam falta de conhecimentos como principal barreira à adoção', source: 'INE · IUTICE Empresas 2025' }
+    ]);
+    bars($('ineDim'), emp.porDimensao, { max: 100, hi: 20 });
+    $('ineDimNote').textContent = emp.nota || '';
+    bars($('inePes'), pes.porGrupo, { max: 100, hi: 50, me: /^Total/i });
+    $('inePesNote').textContent = pes.nota || '';
+    bars($('ineApp'), emp.aplicacoes, { max: 100, hi: 40 });
+    bars($('ineBar'), emp.barreiras, { max: 100, hi: 101 });
+  }
+
+  /* ── AICEP ── */
+  if (d.aicep) {
+    $('aicepAsOf').textContent = d.aicep.asOf || '';
+    figs($('aicepFigs'), d.aicep.figs);
+  }
+
+  /* ── Agenda Nacional ── */
+  if (d.ania) {
+    $('aniaAsOf').textContent = d.ania.asOf || '';
+    $('aniaResumo').textContent = d.ania.resumo || '';
+    $('aniaAval').textContent = d.ania.avaliacao || '';
+    const m = d.ania.medidas || [];
+    const c = s => m.filter(x => x.estado === s).length;
+    figs($('aniaScore'), [
+      { value: String(m.length), label: 'iniciativas monitorizadas pela ENIA, das 32 da Agenda', source: 'Acompanhamento ENIA' },
+      { value: String(c('ok')),  label: 'com execução confirmada por informação pública', source: 'Acompanhamento ENIA' },
+      { value: String(c('wip')), label: 'anunciadas e em curso, sem indicadores de execução', source: 'Acompanhamento ENIA' },
+      { value: String(c('no')),  label: 'sem qualquer informação pública encontrada', source: 'Acompanhamento ENIA' }
+    ]);
+    const LB = { ok: ['Confirmada', 'st--ok'], wip: ['Em curso', 'st--wip'], no: ['Sem informação', 'st--no'] };
+    $('aniaBody').innerHTML = m.map(x => {
+      const [txt, cls] = LB[x.estado] || LB.no;
+      return `<tr>
+        <td data-l="Eixo" style="opacity:.6">${E.esc(x.eixo)}</td>
+        <td data-l="Iniciativa"><strong style="font-weight:500">${E.esc(x.medida)}</strong></td>
+        <td data-l="Estado"><span class="st ${cls}">${txt}</span></td>
+        <td data-l="Evidência pública" style="opacity:.6">${E.esc(x.nota)}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  /* ── checklist ── */
+  const OK = '<svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>';
+  const NO = '<svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+  $('chk').innerHTML = d.checklist.map(c => `
+    <li class="${c.done ? 'ok' : 'no'}">${c.done ? OK : NO}
+      <div><h4>${E.esc(c.title)}</h4><p>${E.esc(c.note)}</p></div></li>`).join('');
+
+  /* ── fontes ── */
+  $('srcs').innerHTML = d.sources.map(s => `<div><h4>${E.esc(s.name)}</h4><p>${E.esc(s.url)}</p></div>`).join('');
+
+  /* ── feed ── */
+  $('feedList').innerHTML = (news.items || []).map(n => `
+    <li><a href="${E.esc(n.url)}"${/^https?:/.test(n.url) ? ' target="_blank" rel="noopener"' : ''}>
+      <span class="feed__d">${E.fShort.format(new Date(n.date))}</span>
+      <span class="feed__b"><h4>${E.esc(n.title)}</h4><p>${E.esc(n.summary)}</p></span>
+      <span class="feed__s">${E.esc(n.source)}</span></a></li>`).join('');
+}
+
+const series = () => fetch('data/history/series.json', { cache: 'no-cache' })
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .catch(() => (window.__ENIA__ && window.__ENIA__.series) || { readings: 0, points: [] });
+
+Promise.all([ E.get('data/radar.json', null), E.get('data/news.json', NEWS_SEED), series() ])
+  .then(([d, n, s]) => {
+    if (!d) { document.getElementById('mGen').textContent = 'dataset indisponível'; return; }
+    render(d, n || NEWS_SEED);
+    trajectory(s);
+  });
+})();
+</script>
+</body>
+</html>

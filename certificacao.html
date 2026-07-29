@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-page="certificacao">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Certificação AI Act · ENIA</title>
+<meta name="description" content="O AI Act aplica-se independentemente da sua faturação. Níveis de risco, 42 documentos de conformidade, custos reais de certificação e o teste gratuito de classificação que a ENIA está a desenvolver para a IA portuguesa.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/certificacao.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/certificacao.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/certificacao.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/certificacao.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="assets/enia.css">
+<style>
+  .risk{background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);padding:clamp(18px,1.9vw,28px);display:flex;flex-direction:column;gap:11px;position:relative;overflow:hidden}
+  .risk::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:currentColor;opacity:.9}
+  .risk--x{border-color:currentColor}
+  .risk--h{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent}
+  .risk--h .lvl{color:var(--hi-num);opacity:.75}
+  .risk--l{}
+  .risk--m{opacity:.82}
+  .risk h3{color:inherit}
+  .risk .lvl{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;margin:0;color:var(--card-num);opacity:.85}
+  .risk p{margin:0;font-size:.84rem;line-height:1.55;opacity:.86;color:inherit}
+  .risk .ob{margin-top:auto;padding-top:10px;border-top:1px solid currentColor;font-size:.775rem;line-height:1.5;opacity:.7;color:inherit}
+  .dom{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;background:var(--card-line)}
+  .dom div{background:var(--card-bg);color:var(--card-fg);padding:16px 18px;font-size:.86rem}
+  .docs{display:grid;grid-template-columns:auto 1fr auto;gap:clamp(12px,1.6vw,22px);align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}
+  .docs:first-of-type{border-top:1px solid var(--line)}
+  .docs b{font-size:clamp(1.1rem,1.5vw,1.5rem);font-weight:300;color:var(--num);min-width:2.6ch;text-align:right;letter-spacing:-.03em}
+  .docs p{margin:0;font-size:.875rem;opacity:.9}
+  .docs span{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;opacity:.42;white-space:nowrap}
+  .tl{position:relative;padding-left:26px}
+  .tl::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:1px;background:var(--line)}
+  .tl div{position:relative;padding-bottom:clamp(20px,2.6vh,30px)}
+  .tl div::before{content:"";position:absolute;left:-25px;top:6px;width:11px;height:11px;border-radius:50%;background:var(--bg);border:1px solid var(--line-2)}
+  .tl div.on::before{background:var(--num);border-color:var(--num)}
+  .tl div.next::before{background:var(--bg);border-color:var(--num);box-shadow:0 0 0 4px var(--soft)}
+  .tl .d{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;opacity:.5;margin:0 0 5px}
+  .tl div.next .d{color:var(--num);opacity:1}
+  .tl h4{margin-bottom:5px}
+  .tl p{margin:0;font-size:.84rem;line-height:1.58;opacity:.84}
+  .lnk{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(10px,1.2vw,16px)}
+  .lnk a{background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);padding:clamp(17px,1.8vw,24px);text-decoration:none;display:flex;flex-direction:column;gap:8px;transition:background-color .3s,color .3s}
+  .lnk a:hover{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent}
+  .lnk b{font-size:.95rem;font-weight:500}
+  .lnk span{font-size:.79rem;line-height:1.52;opacity:.82}
+  .lnk em{font-style:normal;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;opacity:.55;margin-top:auto}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar para o conteúdo</a>
+
+<main id="main">
+<section class="band band--ink">
+<p class="eyebrow rv">Certificação <b>·</b> AI Act e conformidade</p>
+  <h1 class="rv">Tem uma empresa<br>de IA? Parabéns.<br><span class="lime">O trabalho duro<br>ainda não acabou.</span></h1>
+  <p class="lead rv">O AI Act aplica-se independentemente de quanto fatura e de quantas pessoas emprega. Os seus clientes vão exigir prova de conformidade antes de comprar. Os investidores já perguntam por ela. E, ao contrário do que se ouve, o prazo que conta não é o mesmo para todos.</p>
+
+  <div class="btns rv">
+    <a class="btn btn--fill" href="teste.html">Classificar o meu sistema em 5 minutos <i>&rarr;</i></a>
+    <a class="btn btn--ghost" href="radar.html#prazos">Ver os prazos <i>&rarr;</i></a>
+  </div>
+
+  <div class="grid grid--3 rv" style="margin-top:clamp(28px,4vh,48px)">
+    <article class="card"><h4>Aplica-se a todos</h4><p>Fornecedor, implementador, importador ou distribuidor: as obrigações não dependem da dimensão nem do volume de negócios.</p></article>
+    <article class="card"><h4>Os clientes vão exigir</h4><p>A conformidade desce a cadeia de fornecimento. Quem vende a uma empresa regulada passa a ser auditado por ela.</p></article>
+    <article class="card"><h4>O dinheiro vai exigir</h4><p>Financiamento europeu e investidores institucionais já tratam o AI Act como pré-requisito de <em>due diligence</em>.</p></article>
+  </div>
+
+  <!-- ══════════ Níveis de risco ══════════ -->
+</section>
+
+<section class="band band--paper">
+    <div class="hd rv">
+      <div>
+        <p class="eyebrow">01 · Como funciona</p>
+        <h2>Baseado no risco,<br>não na dimensão.</h2>
+      </div>
+      <p class="note">A maioria das empresas europeias de IA está em risco limitado ou alto risco. Classificar o seu sistema é a primeira tarefa — e a única que não pode delegar.</p>
+    </div>
+
+    <div class="grid grid--4 rv">
+      <article class="risk risk--x">
+        <p class="lvl">Inaceitável</p>
+        <h3>Proibido</h3>
+        <p>Classificação social, IA manipulativa, categorização biométrica sensível. Desde dezembro de 2026, também imagens íntimas não consentidas geradas por IA.</p>
+        <p class="ob">Proibição absoluta · coima até 35 M€ ou 7% do volume de negócios global</p>
+      </article>
+      <article class="risk risk--h">
+        <p class="lvl">Alto risco</p>
+        <h3>Conformidade plena</h3>
+        <p>Saúde, transportes, finanças, recrutamento, educação, aplicação da lei, infraestruturas críticas.</p>
+        <p class="ob">Gestão de risco · documentação técnica · supervisão humana · registo europeu</p>
+      </article>
+      <article class="risk risk--l">
+        <p class="lvl">Risco limitado</p>
+        <h3>Transparência</h3>
+        <p>Chatbots, <em>deepfakes</em>, geração de conteúdo, reconhecimento de emoções.</p>
+        <p class="ob">Identificação obrigatória como IA · marcação de conteúdo sintético</p>
+      </article>
+      <article class="risk risk--m">
+        <p class="lvl">Risco mínimo</p>
+        <h3>Sem obrigações</h3>
+        <p>Filtros de spam, recomendação de entretenimento, IA em videojogos.</p>
+        <p class="ob">Sem obrigações específicas · código de conduta voluntário</p>
+      </article>
+    </div>
+
+    <h3 class="rv" style="margin-top:clamp(34px,5vh,58px)">Está em risco? Se o seu sistema opera num destes domínios, sim.</h3>
+    <p class="note rv" style="margin-bottom:22px">Artigo 6.º e Anexo III do Regulamento (UE) 2024/1689.</p>
+    <div class="dom rv">
+      <div>Recrutamento e recursos humanos</div>
+      <div>Educação e formação</div>
+      <div>Serviços essenciais e crédito</div>
+      <div>Infraestruturas críticas</div>
+      <div>Aplicação da lei</div>
+      <div>Justiça e processos democráticos</div>
+      <div>Migração e controlo de fronteiras</div>
+      <div>Biometria e dados pessoais sensíveis</div>
+    </div>
+  </section>
+
+  <!-- ══════════ 42 documentos ══════════ -->
+
+<section class="band band--deep">
+    <div class="two rv">
+      <div>
+        <p class="eyebrow">02 · O que é preciso produzir</p>
+        <h2>42 documentos<br>e procedimentos.</h2>
+        <p class="lead">É o total para uma certificação completa de alto risco, variando com o tipo de operador e a classificação do sistema. Nenhum deles é opcional quando o sistema cai no Anexo III.</p>
+        <p class="note">Na Europa, estima-se um custo entre 150 000 € e 400 000 € para uma certificação manual de alto risco. A ENIA parte do princípio de que a automação pode reduzir esse valor por uma ordem de magnitude — e é isso que estamos a construir.</p>
+      </div>
+      <div>
+        <div class="docs"><b class="tab">11</b><p>Core — documentação essencial do sistema</p><span>Sempre</span></div>
+        <div class="docs"><b class="tab">9</b><p>Específicos do tipo de fornecedor</p><span>Condicional</span></div>
+        <div class="docs"><b class="tab">7</b><p>Posicionamento de mercado e informação ao utilizador</p><span>Sempre</span></div>
+        <div class="docs"><b class="tab">6</b><p>Regime GPAI, para modelos de uso geral</p><span>Condicional</span></div>
+        <div class="docs"><b class="tab">6</b><p>Situacionais, conforme o caso de uso</p><span>Condicional</span></div>
+        <div class="docs"><b class="tab">3</b><p>Governação e responsabilidades internas</p><span>Sempre</span></div>
+        <div class="docs" style="border-bottom:0"><b class="tab" style="color:var(--paper)">42</b><p style="font-weight:500;opacity:1">Total para conformidade plena de alto risco</p><span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ Não é só o AI Act ══════════ -->
+
+<section class="band band--mist">
+    <div class="hd rv">
+      <div>
+        <p class="eyebrow">03 · O quadro completo</p>
+        <h2>Não é só o AI Act.</h2>
+      </div>
+      <p class="note">Cinco outros regulamentos aplicam-se em simultâneo. Tratá-los como projetos separados multiplica o custo e produz documentação contraditória.</p>
+    </div>
+    <div class="grid grid--3 rv">
+      <article class="card"><p class="card__n">RGPD</p><h4>Proteção de dados</h4><p>Aplicável a virtualmente todos os sistemas de IA que processem dados pessoais.</p></article>
+      <article class="card"><p class="card__n">DSA</p><h4>Serviços digitais</h4><p>Todos os serviços digitais com algoritmos de recomendação e moderação.</p></article>
+      <article class="card"><p class="card__n">NIS2</p><h4>Cibersegurança</h4><p>Infraestruturas críticas e respetiva cadeia de fornecimento.</p></article>
+      <article class="card"><p class="card__n">DORA</p><h4>Resiliência operacional</h4><p>Impacto direto nos serviços financeiros e nos seus fornecedores de TI.</p></article>
+      <article class="card"><p class="card__n">CRA</p><h4>Cyber Resilience Act</h4><p>Todos os produtos digitais conectados, a partir de 2027.</p></article>
+      <article class="card"><p class="card__n">PRODUTO</p><h4>Segurança do produto</h4><p>As certificações clássicas de segurança passam a aplicar-se também ao digital.</p></article>
+    </div>
+  </section>
+
+  <!-- ══════════ Cronograma ══════════ -->
+
+<section class="band band--paper">
+    <div class="hd rv">
+      <div>
+        <p class="eyebrow">04 · Cronograma atualizado</p>
+        <h2>O que mudou com o<br>Digital Omnibus —<br>e o que não mudou.</h2>
+      </div>
+      <p class="note">Muita comunicação ainda cita agosto de 2026 como prazo do alto risco. Já não é. Mas agosto de 2026 continua a ser um prazo — para outra coisa.</p>
+    </div>
+
+    <div class="tl rv">
+      <div class="on"><p class="d">Fevereiro 2025 · em vigor</p><h4>Práticas proibidas e literacia em IA</h4><p>Classificação social, IA manipulativa e categorização biométrica sensível já estão banidas. O dever de literacia em IA (Artigo 4.º) já é exigível a todas as organizações que usam IA.</p></div>
+      <div class="on"><p class="d">Agosto 2025 · em vigor</p><h4>GPAI, AI Office e regime de coimas</h4><p>Obrigações de documentação técnica, conformidade com direitos de autor e sumário público dos dados de treino para modelos de uso geral.</p></div>
+      <div class="next"><p class="d">2 de agosto de 2026 · <span id="d1">—</span></p><h4>Artigo 50.º — transparência</h4><p><strong style="font-weight:500">Não foi adiado.</strong> Quem coloque conteúdo gerado por IA no mercado europeu tem de o identificar. Se lança funcionalidades generativas, este é o seu prazo.</p></div>
+      <div><p class="d">2 de dezembro de 2026</p><h4>Sistemas legados e novas proibições</h4><p>O Artigo 50.º(2) passa a aplicar-se a sistemas já no mercado. Entram em vigor as novas proibições relativas a conteúdo íntimo não consentido e material de abuso sexual de menores.</p></div>
+      <div><p class="d">2 de agosto de 2027</p><h4>Sandbox nacional obrigatória</h4><p>Cada Estado-Membro tem de ter pelo menos uma sandbox regulatória de IA em funcionamento (Artigo 57.º). Portugal ainda não anunciou a sua.</p></div>
+      <div><p class="d">2 de dezembro de 2027</p><h4>Alto risco — Anexo III</h4><p>Conformidade plena para sistemas autónomos de alto risco. Adiado de agosto de 2026 pelo Digital Omnibus.</p></div>
+      <div><p class="d">2 de agosto de 2028</p><h4>Alto risco — Anexo I</h4><p>IA embebida em produtos regulados: dispositivos médicos, máquinas, veículos. Adiado de agosto de 2027.</p></div>
+    </div>
+
+    <div class="warn rv">
+      <h4>Uma ressalva que importa</h4>
+      <p>O Digital Omnibus sobre IA obteve acordo político a 7 de maio de 2026, aprovação do Parlamento Europeu a 16 de junho e aprovação final do Conselho a 29 de junho. Os novos prazos, contudo, só produzem efeitos jurídicos com a publicação no Jornal Oficial. Até essa publicação, o calendário original mantém-se tecnicamente aplicável.</p>
+      <p>Se está a planear com base nas novas datas, confirme o estado da publicação. É o tipo de detalhe que distingue um plano de conformidade de uma boa intenção — e é para isso que existe o <a href="radar.html#prazos" class="lime">Radar</a>.</p>
+    </div>
+  </section>
+
+  <!-- ══════════ ENIA ══════════ -->
+
+<section class="band band--ink">
+    <div class="hd rv">
+      <div>
+        <p class="eyebrow">05 · O que a ENIA faz</p>
+        <h2>Tornar as regras<br>geríveis.</h2>
+      </div>
+      <p class="note">Tal como expusemos à ANACOM: acreditamos que o AI Act pode ser benéfico para as empresas portuguesas de IA se lhes permitir nivelar-se com as melhores da Europa no acesso a fundos e financiamento. Mas Portugal tem de saber agilizar o sistema.</p>
+    </div>
+    <div class="grid grid--3 rv">
+      <article class="card"><h4>Mapeamento regulatório</h4><p>Que regulamentos se aplicam ao seu sistema e em que ordem de prioridade.</p></article>
+      <article class="card"><h4>Estruturação documental</h4><p>Que documentos produzir, com que conteúdo e em que sequência.</p></article>
+      <article class="card"><h4>Preparação de auditorias</h4><p>O que um organismo notificado vai pedir e como não ser apanhado a produzi-lo no momento.</p></article>
+      <article class="card"><h4>Monitorização contínua</h4><p>A conformidade não é um evento. O que muda, muda com aviso — se alguém estiver a olhar.</p></article>
+      <article class="card"><h4>Coordenação de equipa</h4><p>Articulação entre equipas técnicas, jurídicas e de produto, que raramente falam a mesma língua.</p></article>
+      <article class="card card--invert">
+        <p class="card__n">DISPONÍVEL</p>
+        <h4>Classificação automática</h4>
+        <p>O teste gratuito de classificação de risco para a IA portuguesa. Nove perguntas e sai o nível de risco, as obrigações aplicáveis, os prazos e a documentação estimada para o seu caso.</p>
+        <a class="btn btn--fill" href="teste.html" >Fazer o teste <i>&rarr;</i></a>
+      </article>
+    </div>
+
+    <p class="lead rv" style="margin-top:clamp(30px,4vh,52px)">A ENIA lidera em Portugal os testes e planos de AI Act: projetos-piloto, estudos sobre o estado da nação e o único ponto de contacto gratuito a nível nacional. Não vendemos conformidade — construímos o instrumento que a torna acessível a quem não tem 400 000 € para gastar num processo manual.</p>
+  </section>
+
+  <!-- ══════════ Links oficiais ══════════ -->
+
+<section class="band band--lime">
+    <p class="eyebrow rv">06 · Fontes oficiais da União Europeia</p>
+    <h2 class="rv">Vá à fonte.<br>Nós vamos todos os dias.</h2>
+    <p class="lead rv">Não acredite na nossa leitura sem confirmar. Estes são os pontos de acesso oficiais — e são gratuitos.</p>
+    <div class="lnk rv" style="margin-top:clamp(24px,3.4vh,40px)">
+      <a href="https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai" target="_blank" rel="noopener">
+        <b>Quadro regulatório da IA</b><span>Página oficial da Comissão Europeia sobre o AI Act, com orientações, calendário e documentos de apoio.</span><em>digital-strategy.ec.europa.eu</em>
+      </a>
+      <a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689" target="_blank" rel="noopener">
+        <b>Texto integral do Regulamento</b><span>Regulamento (UE) 2024/1689 em português, no EUR-Lex. A fonte primária, incluindo o Anexo III.</span><em>eur-lex.europa.eu</em>
+      </a>
+      <a href="https://digital-strategy.ec.europa.eu/pt/policies/ai-office" target="_blank" rel="noopener">
+        <b>AI Office europeu</b><span>Entidade da Comissão responsável pela supervisão de modelos de uso geral e pela coordenação do enforcement.</span><em>digital-strategy.ec.europa.eu</em>
+      </a>
+      <a href="https://ai-act-service-desk.ec.europa.eu/" target="_blank" rel="noopener">
+        <b>AI Act Service Desk</b><span>Balcão de apoio da Comissão a PME e startups na navegação do AI Act. Portugal não tem equivalente nacional.</span><em>ai-act-service-desk.ec.europa.eu</em>
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════ CTA ══════════ -->
+
+<section class="band band--deep">
+    <div class="two rv">
+      <div>
+        <p class="eyebrow">07 · Comece agora</p>
+        <h2>Pelo menos para alguns,<br>a altura certa<br>foi ontem.</h2>
+      </div>
+      <div>
+        <p class="lead" style="margin-top:0">Ser pioneiro beneficia a reputação — e muitos processos de aquisição vão excluir quem não estiver certificado. «AI Act compliant» vai tornar-se uma marca de confiança como o SOC 2 ou a ISO 27001. Use o AI Act como vantagem competitiva.</p>
+        <div class="btns">
+          <a class="btn btn--fill" href="contactos.html#reuniao">Agendar reunião gratuita <i>→</i></a>
+          <a class="btn btn--ghost" href="radar.html#prazos">Ver os prazos no Radar <i>→</i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>Entidade Nacional para a Inteligência Artificial<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">Radar IA Act</a>
+        <a href="noticias.html">Notícias e publicações</a>
+        <a href="teste.html">Teste de classificação</a>
+        <a href="marketplace.html">Marketplace de IA Ética</a>
+        <a href="sobre.html">Sobre a ENIA e os Colégios</a>
+        <a href="estrategia.html">Estratégia Nacional</a>
+        <a href="capacitacao.html">Capacitação</a>
+        <a href="contactos.html">Contactos</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Fontes desta página</h4>
+      <p>Regulamento (UE) 2024/1689 · Digital Omnibus sobre IA · Comissão Europeia / AI Office · elaboração ENIA</p>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Transformar conformidade em vantagem competitiva global</span>
+    <span>Observatório atualizado diariamente às 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="data/bundle.js"></script>
+<script src="assets/enia.js"></script>
+<script>
+  /* contagem para o prazo de transparência, coerente com o Radar */
+  (() => {
+    const E = window.ENIA, el = document.getElementById('d1');
+    if (!E || !el) return;
+    const n = E.days('2026-08-02');
+    el.textContent = n > 0 ? `faltam ${n} dias` : 'em vigor';
+  })();
+</script>
+</body>
+</html>

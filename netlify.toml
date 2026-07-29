@@ -1,0 +1,73 @@
+[build]
+  publish = "."
+  command = ""
+
+# ── Redirects ────────────────────────────────────────────────
+# O antigo observatório passa a apontar para o novo Radar.
+[[redirects]]
+  from = "/observatorio"
+  to   = "/radar.html"
+  status = 301
+
+[[redirects]]
+  from = "/radar"
+  to   = "/radar.html"
+  status = 200
+
+# URLs antigos do site anterior
+[[redirects]]
+  from = "/estrategia-nacional-ia"
+  to   = "/estrategia.html"
+  status = 301
+
+[[redirects]]
+  from = "/certificacao-ai-act"
+  to   = "/certificacao.html"
+  status = 301
+
+[[redirects]]
+  from = "/contactos"
+  to   = "/contactos.html"
+  status = 301
+
+[[redirects]]
+  from = "/publicacoes"
+  to   = "/radar.html#feed"
+  status = 301
+
+# ── Língua ───────────────────────────────────────────────────
+# Sem redirect automático por Accept-Language: a escolha é do visitante,
+# feita no seletor PT/EN da barra lateral. Redirecionar por cabeçalho
+# esconde a versão portuguesa a quem tem o browser em inglês — e este é,
+# antes de tudo, um observatório português.
+
+[[redirects]]
+  from = "/en"
+  to   = "/en/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/radar"
+  to   = "/en/radar.html"
+  status = 200
+
+# ── Headers ──────────────────────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self'; form-action 'self' mailto:; base-uri 'self'; frame-ancestors 'self'"
+
+# Os JSON mudam todos os dias — nunca em cache longa.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

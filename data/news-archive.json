@@ -1,0 +1,119 @@
+{
+  "generated": null,
+  "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
+  "count": 16,
+  "items": [
+    {
+      "date": "2026-07-24",
+      "title": "Comissão conclui preliminarmente que o TikTok viola o DSA na proteção de menores",
+      "summary": "Conclusões preliminares por falha na garantia de contas seguras para menores. Sinal de que o enforcement digital europeu passou da fase declaratória à fase sancionatória.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminary-finds-tiktok-breach-digital-services-act-failing-ensure-safe-accounts-minors"
+    },
+    {
+      "date": "2026-07-23",
+      "title": "Comissão multa a Google em 890 milhões de euros por violação do DMA",
+      "summary": "A maior coima aplicada ao abrigo do Regulamento dos Mercados Digitais até à data. Referência de escala para quem ainda trata a conformidade digital como risco teórico.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-google-eu890-million-breaches-digital-markets-act"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Comissão publica orientações sobre as obrigações de transparência do Artigo 50.º",
+      "summary": "Orientações para fornecedores e implementadores de certos sistemas de IA, a treze dias do prazo de 2 de agosto de 2026. É o documento que qualquer organização com funcionalidades generativas tem de ler antes do prazo.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Comissão multa a AliExpress em 550 milhões de euros por violação do DSA",
+      "summary": "Segunda coima de grande dimensão em três dias. O padrão de enforcement europeu para plataformas está a consolidar-se em vésperas da entrada em vigor da transparência do AI Act.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "AI Office publica conclusões de peritos sobre IA de fronteira",
+      "summary": "Contributo de peritos sobre competitividade, soberania e segurança da União em modelos de fronteira. Enquadra a direção que o AI Office vai dar à supervisão de modelos de uso geral.",
+      "source": "AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/pt/policies/ai-office"
+    },
+    {
+      "date": "2026-07-13",
+      "title": "Estudo de viabilidade para um registo europeu de reservas de direitos em TDM",
+      "summary": "Novo estudo sobre a criação de um registo à escala da União para as reservas de direitos em prospeção de textos e dados. Afeta diretamente a política de direitos de autor exigida aos fornecedores de GPAI.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Plano de Ação da UE para a Cibersegurança e a Inteligência Artificial",
+      "summary": "A Comissão apresenta um plano que cruza cibersegurança e IA. Relevante para quem tem obrigações simultâneas ao abrigo do AI Act e da NIS2.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Conselho aprova em definitivo o Digital Omnibus sobre IA",
+      "summary": "Aprovação final que altera o calendário do AI Act: alto risco do Anexo III passa para 2 de dezembro de 2027, Anexo I para agosto de 2028 e a sandbox nacional para agosto de 2027. A transparência do Artigo 50.º não foi adiada.",
+      "source": "Conselho da UE",
+      "url": "https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Comissão apresenta o Pacote de Soberania Tecnológica Europeia",
+      "summary": "Medidas para reforçar a capacidade europeia em semicondutores, inteligência artificial, cloud e código aberto, incluindo o Chips Act 2.0 e a proposta de Cloud and AI Development Act.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Parlamento Europeu aprova o Digital Omnibus sobre IA",
+      "summary": "Aprovação parlamentar do pacote de simplificação, na sequência do acordo político de 7 de maio. Faltava apenas a aprovação do Conselho.",
+      "source": "Parlamento Europeu",
+      "url": "https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Comissão e OCDE colaboram na monitorização de estratégias nacionais de IA",
+      "summary": "Acompanhamento conjunto das estratégias e do investimento em IA dos Estados-Membros. Portugal passa a ser comparado com métrica externa — o que torna a execução da ANIA mais visível.",
+      "source": "Comissão Europeia",
+      "url": "https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Acordo político sobre o Digital Omnibus sobre IA",
+      "summary": "Colegisladores chegam a acordo sobre o adiamento faseado das obrigações de alto risco. Abre a janela que dá a Portugal tempo para montar a infraestrutura que ainda não tem.",
+      "source": "Conselho da UE",
+      "url": "https://digital-strategy.ec.europa.eu/pt/policies/regulatory-framework-ai"
+    },
+    {
+      "date": "2026-01-08",
+      "title": "Agenda Nacional de Inteligência Artificial aprovada em Conselho de Ministros",
+      "summary": "Resolução do Conselho de Ministros n.º 2/2026 aprova a ANIA e o Plano de Ação 2026-2030: 32 iniciativas e mais de 400 M€ até 2030, com impacto estimado de 18 a 22 mil M€ no PIB.",
+      "source": "Governo de Portugal",
+      "url": "https://digital.gov.pt/pt/estrategia-digital/agenda-nacional-de-ia"
+    },
+    {
+      "date": "2025-11-21",
+      "title": "INE: 11,5% das empresas portuguesas utilizam inteligência artificial",
+      "summary": "Inquérito IUTICE 2025: mais 2,9 pontos percentuais do que em 2024. A adoção varia de 9,4% nas empresas de 10 a 49 pessoas a 49,1% nas de 250 ou mais.",
+      "source": "INE",
+      "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=707462458&DESTAQUESmodo=2&xlang=pt"
+    },
+    {
+      "date": "2025-09-19",
+      "title": "ANACOM designada autoridade nacional competente para o AI Act",
+      "summary": "Designação oficial 49 dias após o prazo do Artigo 70.º. A ANACOM passa a coordenar 14 entidades sectoriais, mas a unidade de enforcement com poderes plenos continua por constituir.",
+      "source": "ANACOM",
+      "url": "https://www.anacom.pt/render.jsp?categoryId=406877"
+    },
+    {
+      "date": "2025-08-02",
+      "title": "Entram em vigor as obrigações para modelos de IA de uso geral",
+      "summary": "Documentação técnica, política de direitos de autor e sumário público dos dados de treino passam a ser exigíveis. O AI Office torna-se operacional e o regime de coimas entra em aplicação.",
+      "source": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689"
+    }
+  ]
+}

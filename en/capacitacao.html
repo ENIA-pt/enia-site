@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-page="capacitacao">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Skills, literacy and the AI CENSUS · ENIA</title>
+<meta name="description" content="38,7% dos portugueses já usam IA, mas 74,4% das empresas apontam falta de conhecimentos como a maior barreira. O CENSUS IA vai medir a capacitação real do país. AI Literacy Passport ao abrigo do Artigo 4.º do AI Act.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/en/capacitacao.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/capacitacao.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/capacitacao.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/capacitacao.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="../assets/enia.css">
+<style>
+  .census{background:var(--hi-bg);color:var(--hi-fg);border:0;padding:clamp(24px,2.6vw,44px)}
+  .census .badge{display:inline-flex;align-items:center;gap:7px;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;background:var(--hi-fg);color:var(--hi-bg);padding:5px 11px;border-radius:100px;margin-bottom:18px}
+  .dims{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--card-line);margin-top:clamp(22px,3vh,34px)}
+  .dims div{background:var(--card-bg);color:var(--card-fg);padding:clamp(17px,1.8vw,24px)}
+  .dims .n{font-size:.66rem;letter-spacing:.16em;font-weight:700;color:var(--card-num);margin:0 0 10px}
+  .dims h4{margin-bottom:7px}
+  .dims p{margin:0;font-size:.82rem;line-height:1.55;opacity:.86}
+  .tier{display:grid;grid-template-columns:clamp(64px,7vw,104px) 1fr;gap:clamp(14px,2vw,30px);padding:clamp(18px,2.2vh,26px) 0;border-bottom:1px solid var(--line);align-items:start}
+  .tier:first-of-type{border-top:1px solid var(--line)}
+  .tier .lvl{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--num);padding-top:5px}
+  .tier h3{margin-bottom:9px}
+  .tier p{margin:0;font-size:.9rem;line-height:1.62;opacity:.88;max-width:76ch}
+  .tier .who{margin-top:10px;font-size:.74rem;letter-spacing:.06em;opacity:.45}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+<section class="band band--ink">
+<p class="eyebrow rv">Skills <b>·</b> literacy, measurement and certification</p>
+  <h1 class="rv">The country already uses AI.<br><span class="lime">Nobody has measured<br>whether it knows how.</span></h1>
+  <p class="lead rv">Almost four in ten Portuguese people used artificial intelligence tools in the last three months. At the same time, three in four companies that have not adopted AI say the reason is a lack of knowledge. Both facts are true at once — and that contradiction is exactly what national skills policy has to resolve.</p>
+
+  <div class="figs rv" id="figTop" style="margin-top:clamp(30px,4.4vh,52px)"></div>
+
+  <!-- ══════════ O diagnóstico ══════════ -->
+</section>
+
+<section class="band band--mist">
+    <div class="hd rv">
+      <div>
+        <p class="eyebrow">01 · The INE diagnosis</p>
+        <h2>Adoption without<br>competence is risk,<br>not productivity.</h2>
+      </div>
+      <p class="note" id="ineAsOf">—</p>
+    </div>
+
+    <div class="two rv">
+      <div>
+        <h4 style="margin-bottom:14px">Who in Portugal already uses AI</h4>
+        <ul class="bars" id="barsPes"></ul>
+        <p class="note" id="notePes">—</p>
+      </div>
+      <div>
+        <h4 style="margin-bottom:14px">Why those who do not use it, do not</h4>
+        <ul class="bars" id="barsNao"></ul>
+        <p class="note">People who did not use AI tools in the three months before the interview.</p>
+      </div>
+    </div>
+
+    <div class="two rv" style="margin-top:clamp(30px,4.4vh,52px)">
+      <div>
+        <h4 style="margin-bottom:14px">The barrier, on the company side</h4>
+        <ul class="bars" id="barsBar"></ul>
+      </div>
+      <div>
+        <h4 style="margin-bottom:14px">Business adoption by company size</h4>
+        <ul class="bars" id="barsDim"></ul>
+        <p class="note">The inequality is not in access to the technology — it is in access to people who know how to deploy it.</p>
+      </div>
+    </div>
+
+    <div class="warn rv">
+      <h4>What these numbers say together</h4>
+      <p>Individual adoption is high and uneven by age: 81.5% among students, 76.5% among 16 to 24-year-olds, 52.3% among 35 to 44-year-olds. Business adoption is low and uneven by size: 49.1% in companies with 250 or more employees, 9.4% in those with 10 to 49.</p>
+      <p>In other words: people entering the labour market already bring the skill, but find companies that do not know how to use it. And among the companies left outside, 74.4% cite a lack of knowledge and 57.3% a lack of clarity about the legal consequences. This is not a training problem — it is a problem of organisational literacy and legal certainty at the same time.</p>
+    </div>
+  </section>
+
+  <!-- ══════════ Artigo 4.º ══════════ -->
+
+<section class="band band--paper">
+    <div class="two rv">
+      <div>
+        <p class="eyebrow">02 · The obligation almost nobody knows about</p>
+        <h2>Article 4:<br>AI literacy is<br>already enforceable.</h2>
+        <p class="lead">Since 2 February 2025, the AI Act has required providers and deployers of AI systems to ensure a sufficient level of AI literacy among their staff and anyone operating those systems on their behalf.</p>
+      </div>
+      <div>
+        <p class="lead" style="margin-top:0">It is not a recommendation, it has no future deadline, and it does not depend on the system’s risk tier. It is the most cross-cutting obligation in the whole regulation — and the least complied with in Portugal, because almost nobody knows it exists.</p>
+        <p class="note">There is no official European AI literacy certificate. There is an obligation of result and the need to demonstrate it. That is the gap the AI Literacy Passport fills: a national, verifiable standard an organisation can present as evidence of diligence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CENSUS IA ══════════ -->
+
+<section class="band band--deep">
+    <p class="eyebrow rv">03 · The instrument</p>
+    <div class="census rv">
+      <span class="badge">Coming soon</span>
+      <h2>CENSUS IA</h2>
+      <p class="lead" style="max-width:70ch">The first national survey dedicated to artificial intelligence skills. INE measures whether people <em>use</em> AI. The AI CENSUS measures whether they know how to use it, whether the organisation they work in governs it, and whether anyone inside it is accountable for that.</p>
+      <div class="dims">
+        <div><p class="n">01</p><h4>Individual literacy</h4><p>Real competence in use, beyond familiarity. Telling a plausible answer from a correct one.</p></div>
+        <div><p class="n">02</p><h4>Internal governance</h4><p>Is there an inventory of the AI systems in use? Is there a written policy? Is anyone accountable?</p></div>
+        <div><p class="n">03</p><h4>Regulatory awareness</h4><p>Does the organisation know what risk tier it operates in and which AI Act deadlines apply to it?</p></div>
+        <div><p class="n">04</p><h4>Technical capacity</h4><p>Internal deployment and oversight skills, against total dependence on suppliers.</p></div>
+        <div><p class="n">05</p><h4>Actual adoption</h4><p>Where AI is genuinely changing processes, against where it is undeclared individual experimentation.</p></div>
+      </div>
+      <p class="note">Annual, free, with results published by region, sector and company size. The historical series is the asset: the value of a census is not in the first edition, it is in the third.</p>
+      <div class="btns">
+        <a class="btn btn--fill" href="contactos.html#census">I want to take part in the AI CENSUS <i>→</i></a>
+        <a class="btn btn--ghost" href="radar.html#portugal">See the current data in the Radar <i>→</i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ Estratégia em 3 níveis ══════════ -->
+
+<section class="band band--lime">
+    <div class="hd rv">
+      <div>
+        <p class="eyebrow">04 · The skills strategy</p>
+        <h2>Three levels,<br>three audiences.</h2>
+      </div>
+      <p class="note">Finland trained 1% of its population through Elements of AI and turned that into national positioning. Portugal has a better starting point on adoption — and no equivalent instrument.</p>
+    </div>
+
+    <div class="rv">
+      <div class="tier">
+        <p class="lvl">Level 1</p>
+        <div>
+          <h3>AI Literacy Passport</h3>
+          <p>Individual certification, free and at mass scale, aligned with the Article 4 duty. Short, in European Portuguese, using examples from the national context — and issuing a record the person presents and the organisation files as evidence of diligence.</p>
+          <p class="who">For the whole working population · goal: mass adoption, public recognition thereafter</p>
+        </div>
+      </div>
+      <div class="tier">
+        <p class="lvl">Level 2</p>
+        <div>
+          <h3>Algorithmic governance for decision-makers</h3>
+          <p>Training for managers, technical staff and public decision-makers on what the AI Act requires, how a system is classified, how an inventory is built and what effective human oversight actually means. In partnership with universities and business associations.</p>
+          <p class="who">For middle and senior management · private sector and public administration</p>
+        </div>
+      </div>
+      <div class="tier">
+        <p class="lvl">Level 3</p>
+        <div>
+          <h3>Technical assessment of AI systems</h3>
+          <p>Specialist competence to audit, test and validate systems. This is the country’s most critical gap: without national assessors, Portugal imports the certification of its own AI — and pays import prices for it.</p>
+          <p class="who">For engineering, audit and regulators · a precondition for a credible enforcement unit</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="note rv">Monitoring closes the loop: the AI CENSUS measures, the Passport trains, the Radar tracks the effect. Without measurement, a skills plan is a list of intentions with a budget.</p>
+  </section>
+
+  <!-- ══════════ CTA ══════════ -->
+
+<section class="band band--ink">
+    <div class="two rv">
+      <div>
+        <p class="eyebrow">05 · Take part</p>
+        <h2>Skills are the only AI<br>policy that works<br>from the inside.</h2>
+      </div>
+      <div>
+        <p class="lead" style="margin-top:0">If you represent a business association, a university, a trade union or a municipality, the AI CENSUS needs your network to achieve national coverage — and the Skills College is where that work is designed.</p>
+        <div class="btns">
+          <a class="btn btn--fill" href="contactos.html#integrar">Integrar o cluster <i>→</i></a>
+          <a class="btn btn--ghost" href="sobre.html">How the Colleges work <i>→</i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="../assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>National Entity for Artificial Intelligence<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">AI Act Radar</a>
+        <a href="noticias.html">News and publications</a>
+        <a href="teste.html">Classification test</a>
+        <a href="marketplace.html">Ethical AI Marketplace</a>
+        <a href="sobre.html">About ENIA and the Colleges</a>
+        <a href="estrategia.html">National Strategy</a>
+        <a href="certificacao.html">Certification</a>
+        <a href="contactos.html">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Sources for this page</h4>
+      <p>INE · IUTICE Households and Businesses 2025 · Regulation (EU) 2024/1689, Article 4 · Elements of AI (Finland) · ENIA analysis</p>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Turning compliance into global competitive advantage</span>
+    <span>Observatory updated daily at 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="../data/bundle.js"></script>
+<script src="../assets/enia.js"></script>
+<script>
+(() => {
+  'use strict';
+  const E = window.ENIA, $ = id => document.getElementById(id);
+  const nb = v => String(v).replace('.', ',');
+
+  const bars = (el, rows, hi) => {
+    if (!el) return;
+    el.innerHTML = rows.map(r => `<li class="brow brow--${r.value >= hi ? 'top' : 'low'}">
+      <span class="brow__l">${E.esc(r.name)}</span>
+      <span class="brow__t"><i class="brow__f" data-w="${r.value.toFixed(1)}"></i></span>
+      <span class="brow__v tab">${nb(r.value)}%</span></li>`).join('');
+    eniaBars(el);
+  };
+
+  E.get('data/radar.json', null).then(d => {
+    if (!d || !d.ine) return;
+    const { empresas: emp, pessoas: pes } = d.ine;
+
+    $('ineAsOf').textContent = d.ine.asOf || '';
+    $('notePes').textContent = pes.nota || '';
+
+    $('figTop').innerHTML = [
+      { v: nb(pes.adocao) + '%', l: 'da população dos 16 aos 74 anos usou ferramentas de IA nos últimos três meses', s: 'INE · IUTICE Famílias 2025' },
+      { v: '81,5%', l: 'entre estudantes — o dobro da média nacional', s: 'INE · IUTICE Famílias 2025' },
+      { v: '74,4%', l: 'das empresas que não adotaram IA apontam falta de conhecimentos', s: 'INE · IUTICE Empresas 2025' },
+      { v: '15,3%', l: 'dos não utilizadores dizem não saber usar estas ferramentas', s: 'INE · IUTICE Famílias 2025' }
+    ].map(f => `<div class="fig"><b class="tab">${f.v}</b><p>${f.l}</p><cite>${f.s}</cite></div>`).join('');
+
+    bars($('barsPes'), pes.porGrupo, 50);
+    bars($('barsNao'), pes.naoUtilizadores, 101);
+    bars($('barsBar'), emp.barreiras, 101);
+    bars($('barsDim'), emp.porDimensao, 20);
+  });
+})();
+</script>
+</body>
+</html>

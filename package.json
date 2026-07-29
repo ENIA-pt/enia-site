@@ -1,0 +1,20 @@
+{
+  "name": "enia-v3",
+  "version": "6.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ENIA — site institucional e Radar IA Act (observatório regulatório diário)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "history": "node scripts/history.mjs",
+    "bundle": "node scripts/bundle.mjs",
+    "i18n": "node scripts/i18n.mjs",
+    "standalone": "node scripts/standalone.mjs",
+    "build": "node scripts/history.mjs && node scripts/bundle.mjs && node scripts/i18n.mjs && node scripts/standalone.mjs",
+    "serve": "npx --yes serve . -l 4000",
+    "dev": "npx --yes serve . -l 4000"
+  }
+}

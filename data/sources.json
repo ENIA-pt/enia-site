@@ -1,0 +1,92 @@
+{
+  "_leia": "Registo de fontes da recolha diária. Todos os URLs abaixo foram verificados a 26/07/2026 — ver campo 'verificado'. 'kind' define o parser: rss/atom (feed XML), sparql (API pública), watch (sem feed: só registado para verificação manual), manual (ficheiro local).",
+
+  "window_days": 45,
+  "max_items": 12,
+
+  "keywords": [
+    "AI Act", "artificial intelligence", "inteligência artificial", "IA",
+    "2024/1689", "GPAI", "AI Office", "high-risk", "alto risco",
+    "digital omnibus", "sandbox", "algorítmic", "algorithmic",
+    "serviços digitais", "DSA", "transparência"
+  ],
+
+  "sources": [
+    {
+      "id": "eurlex-sparql",
+      "label": "EUR-Lex",
+      "kind": "sparql",
+      "endpoint": "https://publications.europa.eu/webapi/rdf/sparql",
+      "verificado": "2026-07-26 · API pública do Cellar, sem restrição robots",
+      "nota": "Atos publicados em português cujo título refere inteligência artificial. Se der timeout, apertar o filtro por tipo de recurso."
+    },
+    {
+      "id": "anacom-noticias",
+      "label": "ANACOM",
+      "kind": "rss",
+      "url": "https://www.anacom.pt/rssFeed.jsp?categoryId=406877",
+      "charset": "ISO-8859-15",
+      "verificado": "2026-07-26 · listado em anacom.pt/render.jsp?categoryId=272402",
+      "nota": "Autoridade nacional competente para o AI Act desde 19/09/2025."
+    },
+    {
+      "id": "anacom-legislacao",
+      "label": "ANACOM",
+      "kind": "rss",
+      "url": "https://www.anacom.pt/rssFeed.jsp?categoryId=1644",
+      "charset": "ISO-8859-15",
+      "verificado": "2026-07-26",
+      "nota": "Legislação. É aqui que aparece transposição e regulamentação nacional."
+    },
+    {
+      "id": "anacom-imprensa",
+      "label": "ANACOM",
+      "kind": "rss",
+      "url": "https://www.anacom.pt/rssFeed.jsp?categoryId=368995",
+      "charset": "ISO-8859-15",
+      "verificado": "2026-07-26",
+      "nota": "Comunicados de imprensa."
+    },
+    {
+      "id": "anacom-consultas",
+      "label": "ANACOM",
+      "kind": "rss",
+      "url": "https://www.anacom.pt/rssFeed.jsp?categoryId=140982",
+      "charset": "ISO-8859-15",
+      "verificado": "2026-07-26",
+      "nota": "Consultas públicas — sinal antecipado de regulamentação a caminho."
+    },
+    {
+      "id": "eurostat-catalogo",
+      "label": "Eurostat",
+      "kind": "rss",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/catalogue/rss/en/statistics-update.rss",
+      "verificado": "2026-07-26 · endpoint documentado na wiki da Comissão",
+      "nota": "Atualizações do catálogo estatístico. Filtra-se por palavras-chave; útil para apanhar novas séries de adoção de IA."
+    },
+    {
+      "id": "ec-digital-strategy",
+      "label": "Comissão Europeia",
+      "kind": "watch",
+      "url": "https://digital-strategy.ec.europa.eu/pt/news",
+      "verificado": "2026-07-26 · SEM FEED RSS",
+      "nota": "Confirmado a 26/07/2026: o site não publica RSS e o listing filtrado é interdito pelo robots.txt. Não é raspado. Fica registado para verificação manual semanal e para subscrição da newsletter em digital-strategy.ec.europa.eu/pt/newsletters. As notícias relevantes entram por data/news.manual.json."
+    },
+    {
+      "id": "cnpd",
+      "label": "CNPD",
+      "kind": "watch",
+      "url": "https://www.cnpd.pt/",
+      "verificado": "2026-07-26 · feed não confirmado",
+      "nota": "Não foi possível confirmar um feed público. Verificação manual até haver confirmação."
+    },
+    {
+      "id": "enia-manual",
+      "label": "ENIA Publishing",
+      "kind": "manual",
+      "file": "data/news.manual.json",
+      "verificado": "sempre incluído",
+      "nota": "Publicações e análises próprias, mais itens de fontes sem feed. Entram sempre."
+    }
+  ]
+}

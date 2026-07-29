@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" data-page="marketplace">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ethical AI Marketplace · ENIA</title>
+<meta name="description" content="The Portuguese organisations that have assessed their AI against the AI Act and demonstrated governance. Search by company, a calendar of assessments, and the first aggregate picture of national AI risk.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/en/marketplace.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/marketplace.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/marketplace.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/marketplace.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Ethical AI Marketplace · ENIA">
+<meta property="og:description" content="Who in Portugal knows what risk tier their AI operates in — and can prove it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="../assets/enia.css">
+<style>
+  .board{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:clamp(26px,3.4vw,60px);align-items:start}
+  .cal{background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);padding:clamp(16px,1.6vw,22px);position:sticky;top:clamp(16px,3vh,30px)}
+  .cal__hd{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}
+  .cal__hd b{font-size:.92rem;font-weight:600;letter-spacing:-.01em;text-transform:capitalize}
+  .cal__nav{display:flex;gap:4px}
+  .cal__nav button{width:28px;height:28px;border:1px solid var(--card-line);display:grid;place-items:center;transition:border-color .25s,color .25s}
+  .cal__nav button:hover:not(:disabled){border-color:var(--card-num);color:var(--card-num)}
+  .cal__nav button:disabled{opacity:.25;cursor:default}
+  .cal__nav svg{width:12px;height:12px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .cal__grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+  .cal__dow{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;opacity:.45;text-align:center;padding:5px 0}
+  .cal__d{aspect-ratio:1;display:grid;place-items:center;position:relative;font-size:.78rem;opacity:.3;border:1px solid transparent;border-radius:2px}
+  .cal__d.has{opacity:1;cursor:pointer;background:rgba(255,255,255,.07);border-color:var(--card-line)}
+  .cal__d.has:hover{border-color:var(--card-num)}
+  .cal__d.has::after{content:"";position:absolute;bottom:4px;left:50%;translate:-50% 0;width:4px;height:4px;border-radius:50%;background:var(--card-num)}
+  .cal__d.sel{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent;font-weight:700}
+  .cal__d.sel::after{background:currentColor}
+  .cal__foot{margin-top:16px;padding-top:14px;border-top:1px solid var(--card-line);font-size:.74rem;line-height:1.5;opacity:.75}
+  .cal__foot button{color:var(--card-num);text-decoration:underline;text-underline-offset:3px;font-size:.74rem}
+
+  .tools{display:flex;flex-direction:column;gap:14px;margin-bottom:clamp(20px,2.6vh,30px)}
+  .search{position:relative}
+  .search input{width:100%;background:transparent;border:1px solid var(--line-2);color:inherit;
+                padding:15px 44px 15px 16px;font:inherit;font-size:1rem;font-weight:400;border-radius:0}
+  .search input:focus{outline:none;border-color:var(--num)}
+  .search input::placeholder{color:currentColor;opacity:.36}
+  .search svg{position:absolute;right:15px;top:50%;translate:0 -50%;width:16px;height:16px;stroke:currentColor;stroke-width:1.6;fill:none;opacity:.45;pointer-events:none}
+  .chips{display:flex;gap:7px;flex-wrap:wrap}
+  .chip{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;
+        border:1px solid var(--line-2);padding:6px 12px;border-radius:100px;opacity:.7;
+        transition:border-color .25s,opacity .25s,background-color .25s,color .25s}
+  .chip:hover{opacity:1}
+  .chip.on{background:var(--fill-bg);border-color:var(--fill-bg);color:var(--fill-fg);opacity:1;font-weight:700}
+  .count{font-size:.78rem;opacity:.65;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:12px;border-bottom:1px solid var(--line)}
+  .count button{color:var(--num);text-decoration:underline;text-underline-offset:3px;font-size:.78rem}
+
+  .co{display:grid;grid-template-columns:auto 1fr auto;gap:clamp(14px,2vw,26px);align-items:center;
+      background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);
+      padding:clamp(16px,1.8vw,24px);margin-top:9px}
+  .co--top{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent}
+  .co__score{font-size:clamp(1.5rem,2.4vw,2.1rem);font-weight:300;letter-spacing:-.04em;line-height:1;color:var(--card-num);min-width:3.4ch;text-align:right}
+  .co--top .co__score{color:var(--hi-num)}
+  .co h3{font-size:clamp(1rem,1.2vw,1.16rem)}
+  .co p{margin:5px 0 0;font-size:.82rem;line-height:1.5;opacity:.82}
+  .co__t{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+         border:1px solid currentColor;padding:4px 9px;border-radius:100px;opacity:.8;white-space:nowrap}
+  .co mark{background:var(--lime);color:var(--ink);padding:0 2px;border-radius:2px}
+
+  .empty{background:var(--card-bg);color:var(--card-fg);padding:clamp(26px,3.4vw,48px);margin-top:20px}
+  .empty h3{margin-bottom:10px}
+  .empty p{margin:0;font-size:.88rem;line-height:1.62;opacity:.85;max-width:64ch}
+  .empty p + p{margin-top:.7em}
+
+  .chart{background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);padding:clamp(20px,2.2vw,32px)}
+  .chart h4{margin-bottom:16px}
+  @media (max-width:980px){ .board{grid-template-columns:1fr} .cal{position:static;order:-1} }
+  @media (max-width:720px){ .co{grid-template-columns:auto 1fr} .co__t{grid-column:2;justify-self:start} }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+
+<section class="band band--ink">
+  <p class="eyebrow rv">Ethical AI Marketplace <b>·</b> public listing</p>
+  <h1 class="rv">Who in Portugal<br>knows where they stand —<br><span class="lime">and can prove it.</span></h1>
+  <p class="lead rv">The organisations on this list did three things almost nobody has: they assessed their AI system against the text of the AI Act, established what risk tier they operate in, and authorised us to say so publicly. This is not a mark we sell — it is the result of a test anyone can repeat in five minutes.</p>
+  <div class="btns rv">
+    <a class="btn btn--fill" href="teste.html">Assess my AI <i>→</i></a>
+    <a class="btn btn--ghost" href="#agregado">See the national picture <i>→</i></a>
+  </div>
+</section>
+
+<section class="band band--paper">
+  <div class="board">
+    <aside class="cal rv" aria-label="Assessment calendar">
+      <div class="cal__hd">
+        <b id="calLabel">—</b>
+        <div class="cal__nav">
+          <button type="button" id="calPrev" aria-label="Previous month"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+          <button type="button" id="calNext" aria-label="Next month"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+        </div>
+      </div>
+      <div class="cal__grid" id="calGrid" role="grid"></div>
+      <p class="cal__foot" id="calFoot">—</p>
+    </aside>
+
+    <div>
+      <div class="tools rv">
+        <div class="search">
+          <label class="sr" for="q">Search company</label>
+          <input id="q" type="search" placeholder="Search by company, system or sector…" autocomplete="off">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filter by sector"></div>
+      </div>
+      <p class="count rv"><span id="count">—</span><button type="button" id="clear" hidden>Clear filters</button></p>
+      <div id="list" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--mist" id="agregado">
+  <div class="hd rv">
+    <div>
+      <p class="eyebrow">The national picture <b>·</b> aggregate</p>
+      <h2>The figure the country<br>was missing.</h2>
+    </div>
+    <p class="note">Every completed test is a data point. That includes those who did not authorise public mention: the aggregate never carries names.</p>
+  </div>
+
+  <div class="figs rv" id="aggFigs"></div>
+
+  <div class="two rv" style="margin-top:clamp(28px,4vh,52px)">
+    <div class="chart">
+      <h4>Distribution by risk tier</h4>
+      <ul class="bars" id="byTier"></ul>
+    </div>
+    <div class="chart">
+      <h4>Assessments by sector</h4>
+      <ul class="bars" id="bySector"></ul>
+    </div>
+  </div>
+
+  <div class="warn rv">
+    <h4>What this chart is worth, and when</h4>
+    <p>A self-selected sample is not a representative one: anyone who takes a compliance test on their own initiative is, by definition, already above average in regulatory awareness. This aggregate measures those who assess themselves, not the universe of Portuguese companies.</p>
+    <p>We say so up front, because the opposite — presenting this as a portrait of the country — would be exactly the kind of convenient reading an observatory cannot allow itself. The value is in the series: as the points accumulate, the distribution by sector and by size becomes comparable over time, and nobody in Portugal has that.</p>
+  </div>
+</section>
+
+<section class="band band--deep">
+  <div class="two rv">
+    <div>
+      <p class="eyebrow">How you get on this list</p>
+      <h2>You do not buy your way in.<br>You take the test.</h2>
+    </div>
+    <div>
+      <ul class="kv" style="margin-top:0">
+        <li>Complete the classification test <span>5 minutes</span></li>
+        <li>Authorise public mention at the end <span>Optional</span></li>
+        <li>Demonstrate 3 of 5 governance pieces <span>Criterion</span></li>
+        <li>Pay to be listed <span>Does not exist</span></li>
+      </ul>
+      <p class="note">The criterion is declared governance, not risk tier. A well-governed high-risk system counts for more on this list than a chatbot with no inventory — because that is what the AI Act measures, and what a customer needs to know.</p>
+      <div class="btns">
+        <a class="btn btn--fill" href="teste.html">Take the test <i>→</i></a>
+        <a class="btn btn--ghost" href="contactos.html#reuniao">Talk to us first <i>→</i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="../assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>National Entity for Artificial Intelligence<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">AI Act Radar</a>
+        <a href="noticias.html">News and publications</a>
+        <a href="teste.html">Classification test</a>
+        <a href="sobre.html">About ENIA and the Colleges</a>
+        <a href="estrategia.html">National Strategy</a>
+        <a href="certificacao.html">Certification</a>
+        <a href="capacitacao.html">Skills and literacy</a>
+        <a href="contactos.html">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <h4>How it is built</h4>
+      <p>Fed by submissions from the classification test. Only organisations that authorised public mention and demonstrated governance are listed. The aggregate uses every record, without names.<br><br><a href="teste.html">Take the test →</a></p>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Public listing · not a certification and not a commercial recommendation</span>
+    <span>Observatory updated daily at 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="../data/bundle.js"></script>
+<script src="../assets/enia.js"></script>
+<script>
+(() => {
+'use strict';
+const E = window.ENIA, $ = id => document.getElementById(id);
+const EN = E.en;
+const T = {
+  months: EN ? ['January','February','March','April','May','June','July','August','September','October','November','December']
+             : ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'],
+  dow: EN ? ['M','T','W','T','F','S','S'] : ['S','T','Q','Q','S','S','D'],
+  none: EN ? 'No results' : 'Nenhum resultado',
+  of: EN ? 'of' : 'de',
+  entries: EN ? 'organisations' : 'organizações',
+  noneMonth: EN ? 'No assessments this month.' : 'Sem avaliações neste mês.',
+  seeMonth: EN ? 'See the whole month' : 'Ver o mês inteiro',
+  inMonth: n => EN ? `${n} assessment${n === 1 ? '' : 's'} this month.` : `${n} ${n === 1 ? 'avaliação' : 'avaliações'} neste mês.`,
+  emptyH: EN ? 'The list starts empty — and that is the point' : 'A lista começa vazia — e é isso que interessa',
+  emptyP1: EN
+    ? 'No organisation has yet completed the assessment and authorised public mention. That is not a flaw in this page: it is the measurement of the problem. Transparency obligations become enforceable on 2 August, and on the day this page went live nobody in the country had a public record of having assessed their own AI.'
+    : 'Nenhuma organização concluiu ainda a avaliação e autorizou menção pública. Isso não é uma falha desta página: é a medida do problema. As obrigações de transparência tornam-se exigíveis a 2 de agosto e, no dia em que esta página foi publicada, ninguém no país tinha registo público de ter avaliado a sua própria IA.',
+  emptyP2: EN
+    ? 'The first name on this list will have been the first to do it. Five minutes.'
+    : 'O primeiro nome desta lista terá sido o primeiro a fazê-lo. Cinco minutos.',
+  aggEmpty: EN ? 'awaiting the first assessments' : 'aguarda as primeiras avaliações',
+  tiers: EN
+    ? { minimo:'Minimal risk', limitado:'Limited risk', derrogado:'Derogated', alto:'High risk', inaceitavel:'Unacceptable' }
+    : { minimo:'Minimal risk', limitado:'Limited risk', derrogado:'Derrogado', alto:'High risk', inaceitavel:'Unacceptable' }
+};
+const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+let ITEMS = [], AGG = null, view = null, day = null, sector = null, term = '';
+
+const load = () => fetch(E.base + 'data/marketplace.json', { cache: 'no-cache' })
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .catch(() => (window.__ENIA__ && window.__ENIA__.marketplace) || { items: [], aggregate: null });
+
+load().then(d => {
+  ITEMS = (d.items || []).slice().sort((a, b) => (b.score - a.score) || b.date.localeCompare(a.date));
+  AGG = d.aggregate;
+  view = new Date((ITEMS[0] && ITEMS[0].date || new Date().toISOString().slice(0, 10)) + 'T00:00:00');
+  view.setDate(1);
+  chips(); calendar(); render(); aggregate();
+});
+
+function chips() {
+  const all = [...new Set(ITEMS.map(i => i.setor))].filter(Boolean).sort((a, b) => a.localeCompare(b, 'pt'));
+  $('chips').innerHTML = all.map(s => `<button class="chip" type="button" data-s="${E.esc(s)}">${E.esc(s)}</button>`).join('');
+  $('chips').querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+    sector = sector === b.dataset.s ? null : b.dataset.s;
+    $('chips').querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x.dataset.s === sector));
+    render();
+  }));
+}
+
+function calendar() {
+  const y = view.getFullYear(), m = view.getMonth();
+  $('calLabel').textContent = `${T.months[m]} ${y}`;
+
+  const byDay = {};
+  ITEMS.forEach(i => {
+    const d = new Date(i.date + 'T00:00:00');
+    if (d.getFullYear() === y && d.getMonth() === m) byDay[d.getDate()] = (byDay[d.getDate()] || 0) + 1;
+  });
+
+  const firstDow = (new Date(y, m, 1).getDay() + 6) % 7;
+  const days = new Date(y, m + 1, 0).getDate();
+  let html = T.dow.map(d => `<span class="cal__dow">${d}</span>`).join('');
+  html += Array.from({ length: firstDow }, () => '<span></span>').join('');
+  for (let d = 1; d <= days; d++) {
+    const iso = `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+    const has = !!byDay[d];
+    const cls = ['cal__d', has ? 'has' : '', day === iso ? 'sel' : ''].filter(Boolean).join(' ');
+    html += has
+      ? `<button class="${cls}" type="button" data-d="${iso}" aria-label="${d} ${T.months[m]}, ${byDay[d]}">${d}</button>`
+      : `<span class="${cls}">${d}</span>`;
+  }
+  $('calGrid').innerHTML = html;
+  $('calGrid').querySelectorAll('[data-d]').forEach(b => b.addEventListener('click', () => {
+    day = day === b.dataset.d ? null : b.dataset.d;
+    calendar(); render();
+  }));
+
+  const months = ITEMS.map(i => i.date.slice(0, 7));
+  const min = months.length ? months[months.length - 1] : null, max = months.length ? months[0] : null;
+  const cur = `${y}-${String(m + 1).padStart(2, '0')}`;
+  $('calPrev').disabled = !min || cur <= min;
+  $('calNext').disabled = !max || cur >= max;
+
+  const n = Object.values(byDay).reduce((a, b) => a + b, 0);
+  $('calFoot').innerHTML = n
+    ? T.inMonth(n) + (day ? ` <button type="button" id="calAll">${T.seeMonth}</button>` : '')
+    : T.noneMonth;
+  const ca = $('calAll');
+  if (ca) ca.addEventListener('click', () => { day = null; calendar(); render(); });
+}
+
+$('calPrev').addEventListener('click', () => { view.setMonth(view.getMonth() - 1); day = null; calendar(); render(); });
+$('calNext').addEventListener('click', () => { view.setMonth(view.getMonth() + 1); day = null; calendar(); render(); });
+
+let tm;
+$('q').addEventListener('input', e => {
+  clearTimeout(tm);
+  tm = setTimeout(() => { term = e.target.value.trim(); render(); }, 140);
+});
+$('clear').addEventListener('click', () => {
+  term = ''; day = null; sector = null; $('q').value = '';
+  $('chips').querySelectorAll('.chip').forEach(x => x.classList.remove('on'));
+  calendar(); render();
+});
+
+const hl = (txt, q) => {
+  if (!q) return E.esc(txt);
+  const n = norm(txt), nq = norm(q), out = []; let i = 0, p;
+  while ((p = n.indexOf(nq, i)) !== -1) {
+    out.push(E.esc(txt.slice(i, p)), '<mark>', E.esc(txt.slice(p, p + q.length)), '</mark>');
+    i = p + q.length;
+  }
+  out.push(E.esc(txt.slice(i)));
+  return out.join('');
+};
+
+function render() {
+  const nq = norm(term);
+  const rows = ITEMS.filter(i =>
+    (!day || i.date === day) && (!sector || i.setor === sector) &&
+    (!nq || norm(`${i.empresa} ${i.produto} ${i.setor}`).includes(nq)));
+
+  $('clear').hidden = !(term || day || sector);
+  $('count').textContent = !ITEMS.length ? '—'
+    : rows.length === 0 ? T.none
+    : `${rows.length} ${T.of} ${ITEMS.length} ${T.entries}`;
+
+  if (!ITEMS.length) {
+    $('list').innerHTML = `<div class="empty">
+      <h3>${T.emptyH}</h3><p>${T.emptyP1}</p><p>${T.emptyP2}</p></div>`;
+    return;
+  }
+  if (!rows.length) {
+    $('list').innerHTML = `<div class="empty"><h3>${T.none}</h3></div>`;
+    return;
+  }
+
+  $('list').innerHTML = rows.map((i, k) => `
+    <article class="co${k === 0 && !term && !day && !sector ? ' co--top' : ''}">
+      <span class="co__score tab">${i.score}</span>
+      <span>
+        <h3>${hl(i.empresa, term)}</h3>
+        <p>${hl(i.produto, term)} · ${hl(i.setor, term)} · ${E.fShort.format(E.D(i.date))}</p>
+      </span>
+      <span class="co__t">${E.esc(T.tiers[i.tier] || i.tier)}</span>
+    </article>`).join('');
+}
+
+function aggregate() {
+  const a = AGG || {};
+  const n = a.total || 0;
+  $('aggFigs').innerHTML = [
+    { v: String(n), l: EN ? 'assessments completed' : 'avaliações concluídas' },
+    { v: String(a.consented || 0), l: EN ? 'authorised public mention' : 'autorizaram menção pública' },
+    { v: a.avgGov == null ? '—' : `${a.avgGov}/5`, l: EN ? 'average internal governance' : 'governação interna média' },
+    { v: n ? Object.keys(a.bySector || {}).length : '—', l: EN ? 'sectors represented' : 'setores representados' }
+  ].map(f => `<div class="fig"><b class="tab">${f.v}</b><p>${f.l}</p>
+      <cite>${n ? (EN ? 'ENIA classification test' : 'Classification test ENIA') : T.aggEmpty}</cite></div>`).join('');
+
+  const bars = (el, rows) => {
+    if (!rows.length) {
+      el.innerHTML = `<p class="note" style="margin:0">${T.aggEmpty}</p>`;
+      return;
+    }
+    const max = Math.max(...rows.map(r => r.value)) || 1;
+    el.innerHTML = rows.map(r => `<li class="brow brow--${r.me ? 'me' : 'low'}">
+      <span class="brow__l">${E.esc(r.name)}</span>
+      <span class="brow__t"><i class="brow__f" data-w="${(r.value / max * 100).toFixed(1)}"></i></span>
+      <span class="brow__v tab">${r.value}</span></li>`).join('');
+    eniaBars(el);
+  };
+
+  const tiers = Object.entries(a.byTier || {}).filter(([, v]) => v > 0)
+    .map(([k, v]) => ({ name: T.tiers[k] || k, value: v }));
+  /* o maior grupo fica a lima: é a leitura que o gráfico serve para dar */
+  if (tiers.length) { const m = Math.max(...tiers.map(t => t.value)); tiers.forEach(t => t.me = t.value === m); }
+  bars($('byTier'), tiers);
+
+  const secs = Object.entries(a.bySector || {}).sort((x, y) => y[1] - x[1])
+    .map(([k, v]) => ({ name: k, value: v }));
+  if (secs.length) secs[0].me = true;
+  bars($('bySector'), secs);
+}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" data-page="contactos">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact · ENIA</title>
+<meta name="description" content="Talk to ENIA. Free AI Act briefings for any citizen, company or public body. Av. Liberdade 318, Braga.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/en/contactos.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/contactos.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/contactos.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/contactos.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="../assets/enia.css">
+<style>
+  .why{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+  .why li{padding:16px 0;border-bottom:1px solid var(--line)}
+  .why h4{margin-bottom:6px}
+  .why p{margin:0;font-size:.83rem;line-height:1.5;opacity:.66}
+  .ok{border:1px solid var(--num);background:var(--soft);padding:clamp(18px,2vw,26px);margin-top:22px;display:none}
+  .ok.on{display:block}
+  .ok h4{color:var(--num);margin-bottom:8px}
+  .ok p{margin:0;font-size:.85rem;line-height:1.55;opacity:.8}
+  .addr{font-size:clamp(.92rem,1.05vw,1.06rem);line-height:1.8;opacity:.82;font-style:normal}
+  .addr a{color:var(--num);text-decoration:none}
+  .addr a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+<section class="band band--ink">
+<p class="eyebrow rv">Contact <b>·</b> a free national point of contact</p>
+  <h1 class="rv">Talk to us.<br><span class="lime">It costs nothing —<br>literally.</span></h1>
+  <p class="lead rv">ENIA provides free briefings on the AI Act to any citizen, company, university or public body. There is no sales pitch at the end: we do not sell compliance services. This is the public service a national AI entity ought to provide — and the national equivalent of the European AI Act Service Desk, which Portugal still lacks.</p>
+</section>
+
+<section class="band band--paper" id="integrar">
+    <div class="two rv">
+      <div>
+        <p class="eyebrow">Write to us</p>
+        <h2>Tell us what you need.<br>We reply within<br>48 working hours.</h2>
+
+        <form class="form" id="f" novalidate>
+          <div class="field">
+            <label for="motivo">Reason for contact</label>
+            <select id="motivo" name="motivo">
+              <option value="AI Act briefing meeting">AI Act briefing meeting</option>
+              <option value="Join the cluster / a College">Join the cluster / a College</option>
+              <option value="Take part in the AI CENSUS">Take part in the AI CENSUS</option>
+              <option value="Risk classification for an AI system">Risk classification for an AI system</option>
+              <option value="AI strategy and 90-day plan">AI strategy and 90-day plan</option>
+              <option value="Press and Radar data requests">Press and Radar data requests</option>
+              <option value="Correcting a published figure">Correcting a published figure</option>
+              <option value="Something else">Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="nome">Name</label>
+            <input id="nome" name="nome" autocomplete="name" required placeholder="First name and surname">
+          </div>
+          <div class="field">
+            <label for="org">Organisation</label>
+            <input id="org" name="org" autocomplete="organization" placeholder="Company, university, association or public body">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="nome@organizacao.pt">
+          </div>
+          <div class="field">
+            <label for="tel">Phone <span style="text-transform:none;letter-spacing:0;opacity:.6">(opcional)</span></label>
+            <input id="tel" name="tel" type="tel" autocomplete="tel" placeholder="+351">
+          </div>
+          <div class="field">
+            <label for="colegio">College of interest</label>
+            <select id="colegio" name="colegio">
+              <option value="Not applicable">Not applicable</option>
+              <option>Business Associations</option>
+              <option>Innovation and Technology</option>
+              <option>Universities and Research</option>
+              <option>Civil Society and Labour</option>
+              <option>Government and Institutional</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="msg">Message</label>
+            <textarea id="msg" name="msg" rows="4" placeholder="Context, the AI system in question, the deadline worrying you…"></textarea>
+          </div>
+          <button class="btn btn--fill" type="submit" style="align-self:flex-start;margin-top:6px">Send <i>→</i></button>
+        </form>
+
+        <div class="ok" id="ok" role="status">
+          <h4>We have opened your email client</h4>
+          <p>The message has been filled in and addressed to <strong style="font-weight:500">jorge.saraiva@enia.pt</strong>. All that is left is to press send. If nothing opened, copy the message or write to us directly at that address.</p>
+        </div>
+      </div>
+
+      <div>
+        <p class="eyebrow">Where we are</p>
+        <address class="addr">
+          <strong style="font-weight:500;opacity:1">ENIA</strong><br>
+          National Entity for Artificial Intelligence<br>
+          Av. Liberdade, 318<br>
+          4710-250 Braga · Portugal<br><br>
+          <a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a><br>
+          <a href="https://www.enia.pt">www.enia.pt</a>
+        </address>
+
+        <p class="eyebrow" style="margin-top:clamp(30px,4.4vh,52px)">Who comes to us</p>
+        <ul class="why">
+          <li><h4>Companies using AI without knowing what risk tier they are in</h4><p>The most common case. Half an hour is usually enough to establish whether Annex III applies.</p></li>
+          <li><h4>Suppliers whose customer has asked for proof of compliance</h4><p>Usually with a deadline already running and no baseline documentation.</p></li>
+          <li><h4>Public bodies preparing to procure AI solutions</h4><p>Contract clauses, transparency requirements and deployer responsibilities.</p></li>
+          <li><h4>Universities and research centres</h4><p>Applied research, sandboxes and liaison with the Universities and Research College.</p></li>
+          <li><h4>Journalists</h4><p>Radar data is public and citable, with the methodology available on request.</p></li>
+        </ul>
+
+        <p class="eyebrow" style="margin-top:clamp(30px,4.4vh,52px)">What we do not do</p>
+        <p class="note" style="margin-top:0">We do not provide compliance consultancy, we do not produce commissioned studies and we do not represent individual interests. If you need delivery, we point you in a direction and receive nothing for pointing. <a href="sobre.html" class="lime">Why →</a></p>
+      </div>
+    </div>
+  </section>
+
+<section class="band band--mist" id="reuniao">
+    <div class="two rv">
+      <div>
+        <p class="eyebrow">Free meeting</p>
+        <h2>No cost, no<br>obligation and no<br>pitch at the end.</h2>
+      </div>
+      <div>
+        <p class="lead" style="margin-top:0">We book a 45-minute session, in person in Braga or by video. We bring what we already know about your sector, and you leave with a clear reading of which obligations apply to your case and which deadlines to count from.</p>
+        <p class="note">If you would rather write directly, the address is <a href="mailto:jorge.saraiva@enia.pt?subject=Reuni%C3%A3o%20de%20esclarecimento%20AI%20Act" class="lime">jorge.saraiva@enia.pt</a>.</p>
+      </div>
+    </div>
+  </section>
+
+<section class="band band--deep" id="census">
+    <div class="two rv">
+      <div>
+        <p class="eyebrow">CENSUS IA</p>
+        <h2>Take part in the<br>national survey.</h2>
+      </div>
+      <div>
+        <p class="lead" style="margin-top:0">The AI CENSUS needs national coverage to be worth anything. If you represent an association, a university, a trade union or a municipality and can circulate the survey through your network, choose “Take part in the AI CENSUS” in the form above.</p>
+        <p class="note">Results published by region, sector and company size. Free and citable. <a href="capacitacao.html" class="lime">See what the CENSUS measures →</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="../assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>National Entity for Artificial Intelligence<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">AI Act Radar</a>
+        <a href="noticias.html">News and publications</a>
+        <a href="teste.html">Classification test</a>
+        <a href="marketplace.html">Ethical AI Marketplace</a>
+        <a href="sobre.html">About ENIA and the Colleges</a>
+        <a href="estrategia.html">National Strategy</a>
+        <a href="certificacao.html">Certification</a>
+        <a href="capacitacao.html">Skills and literacy</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Where we stand</h4>
+      <p>We are not a consultancy, we are not an employers’ association, and we do not live on structural state funding.<br><br>We are the radar: we measure, we compare, we publish.</p>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Turning compliance into global competitive advantage</span>
+    <span>Observatory updated daily at 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="../data/bundle.js"></script>
+<script src="../assets/enia.js"></script>
+<script>
+(() => {
+  'use strict';
+  const f = document.getElementById('f');
+  if (!f) return;
+
+  /* Pré-seleciona o motivo em função da âncora usada para chegar aqui. */
+  const map = { integrar: 'Join the cluster / a College', census: 'Take part in the AI CENSUS', reuniao: 'AI Act briefing meeting' };
+  const pre = map[location.hash.slice(1)];
+  if (pre) {
+    const s = document.getElementById('motivo');
+    [...s.options].forEach(o => { if (o.value === pre) s.value = pre; });
+  }
+
+  f.addEventListener('submit', e => {
+    e.preventDefault();
+    if (!f.nome.value.trim() || !f.email.value.trim() || !f.email.checkValidity()) { f.reportValidity(); return; }
+    const g = n => f[n].value.trim() || '—';
+    const body = [
+      'Motivo: ' + g('motivo'), 'Name: ' + g('nome'), 'Organisation: ' + g('org'),
+      'Email: ' + g('email'), 'Phone: ' + g('tel'), 'College: ' + g('colegio'),
+      '', 'Message:', g('msg'), '', '— enviado a partir de enia.pt'
+    ].join('\r\n');
+    location.href = 'mailto:jorge.saraiva@enia.pt'
+      + '?subject=' + encodeURIComponent('[enia.pt] ' + g('motivo'))
+      + '&body=' + encodeURIComponent(body);
+    document.getElementById('ok').classList.add('on');
+  });
+})();
+</script>
+</body>
+</html>

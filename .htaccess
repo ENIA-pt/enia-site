@@ -1,0 +1,114 @@
+# =============================================================
+# ENIA v6 · .htaccess para Hostinger (Apache/LiteSpeed)
+# Substitui integralmente o netlify.toml
+# Colocar em public_html/.htaccess
+# =============================================================
+
+DirectoryIndex index.html
+
+# --- 1. Charset e MIME -------------------------------------------------
+AddDefaultCharset UTF-8
+AddType application/json .json
+AddType image/svg+xml .svg
+AddType font/woff2 .woff2
+AddType text/javascript .js .mjs
+
+# --- 2. HTTPS + host canónico (enia.pt, sem www) -----------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # força HTTPS
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP:X-Forwarded-Proto} =http
+  RewriteRule ^(.*)$ https://enia.pt/$1 [R=301,L]
+
+  # www -> apex
+  RewriteCond %{HTTP_HOST} ^www\.enia\.pt$ [NC]
+  RewriteRule ^(.*)$ https://enia.pt/$1 [R=301,L]
+
+  # OPCIONAL — URLs sem .html (/radar em vez de /radar.html).
+  # Só activar depois de mudar as tags <link rel="canonical"> no HTML,
+  # senão cria duas URLs para a mesma página e parte o SEO.
+  # RewriteCond %{REQUEST_FILENAME} !-d
+  # RewriteCond %{REQUEST_FILENAME}\.html -f
+  # RewriteRule ^(.+)$ $1.html [L]
+</IfModule>
+
+# --- 3. Protecção do código-fonte --------------------------------------
+# Se usar o Git integrado do hPanel, o repositório inteiro é copiado para
+# public_html. Estas regras impedem que scripts, config e workflows
+# fiquem publicamente legíveis.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(scripts|api|\.github|\.git|node_modules)/ - [F,L]
+</IfModule>
+
+<FilesMatch "\.(mjs|toml|json|yml|yaml|md|lock)$">
+  Require all denied
+</FilesMatch>
+
+# ...excepto os dados públicos do Radar e os ficheiros de indexação
+<FilesMatch "^(radar|news|news\.manual|sources)\.json$">
+  Require all granted
+</FilesMatch>
+<Files "sitemap.xml">
+  Require all granted
+</Files>
+<Files "robots.txt">
+  Require all granted
+</Files>
+
+# --- 4. Cache ----------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # estáticos versionáveis — 1 ano
+  ExpiresByType text/css                "access plus 1 year"
+  ExpiresByType text/javascript         "access plus 1 year"
+  ExpiresByType image/svg+xml           "access plus 1 year"
+  ExpiresByType image/jpeg              "access plus 1 year"
+  ExpiresByType image/png               "access plus 1 year"
+  ExpiresByType image/webp              "access plus 1 year"
+  ExpiresByType font/woff2              "access plus 1 year"
+
+  # HTML — sempre revalidado (o Radar muda todos os dias)
+  ExpiresByType text/html               "access plus 0 seconds"
+
+  # dados do Radar — 10 minutos
+  ExpiresByType application/json        "access plus 10 minutes"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|svg|jpg|jpeg|png|webp|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "^(radar|news|news\.manual|sources)\.json$">
+    Header set Cache-Control "public, max-age=600"
+  </FilesMatch>
+</IfModule>
+
+# --- 5. Compressão -----------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+    text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# --- 6. Cabeçalhos de segurança ---------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header unset X-Powered-By
+</IfModule>
+
+# --- 7. Erros ----------------------------------------------------------
+# Criar 404.html na raiz se ainda não existir.
+ErrorDocument 404 /404.html
+
+# --- 8. Listagem de directórios desligada ------------------------------
+Options -Indexes

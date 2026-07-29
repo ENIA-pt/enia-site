@@ -1,0 +1,27 @@
+{
+  "generated": null,
+  "window": "últimos 45 dias",
+  "items": [
+    {
+      "title": "Digital Omnibus: novas regras",
+      "summary": "Modelos de grande escala (GPT-4, Claude, Mistral) têm novos requisitos desde agosto de 2025. O que muda para Portugal.",
+      "source": "EUR-Lex",
+      "date": "2026-07-18",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689"
+    },
+    {
+      "title": "Finlândia ativa enforcement",
+      "summary": "A TRAFICOM iniciou operações. O que Portugal pode aprender com o primeiro regulador de IA plenamente operacional da UE.",
+      "source": "ENIA Analysis",
+      "date": "2026-07-15",
+      "url": "radar.html#benchmark"
+    },
+    {
+      "title": "Estado de preparação de Portugal, revisto",
+      "summary": "Relatório ENIA ajustado aos novos prazos do Digital Omnibus, com o cronograma vinculativo reconstruído obrigação a obrigação.",
+      "source": "ENIA Publishing",
+      "date": "2026-07-14",
+      "url": "radar.html#prazos"
+    }
+  ]
+}
