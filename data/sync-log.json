@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-11T18:01:36.894Z",
+  "startedAt": "2026-08-11T21:14:05.305Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -7,7 +7,7 @@
       "kind": "sparql",
       "ok": true,
       "items": 60,
-      "kept": 8
+      "kept": 0
     },
     {
       "id": "eurlex-oj-l",
@@ -99,7 +99,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "id": "fra",
@@ -522,10 +522,9 @@
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
-      "kept": 0,
-      "error": "HTTP 404"
+      "kept": 0
     },
     {
       "id": "mlex",
@@ -618,7 +617,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1058,
+      "items": 1060,
       "kept": 0
     },
     {
@@ -633,7 +632,7 @@
   "warnings": [
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
-    "[edps] HTTP 404",
+    "[edps] HTTP 503",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
@@ -647,11 +646,10 @@
     "[coe-ai] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
-    "ANTHROPIC_API_KEY ausente: itens ficam no texto e língua originais."
+    "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
     "ai-act-service-desk",
@@ -663,11 +661,12 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-11T18:02:30.323Z",
-  "recolhidos": 52,
-  "written": 52,
+  "finishedAt": "2026-08-11T21:15:01.134Z",
+  "recolhidos": 51,
+  "written": 51,
   "archive": {
-    "added": 48,
-    "total": 76
+    "added": 5,
+    "curados": 37,
+    "total": 81
   }
 }
