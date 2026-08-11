@@ -1,0 +1,77 @@
+{
+  "startedAt": "2026-08-11T13:59:49.493Z",
+  "sources": [
+    {
+      "id": "eurlex-sparql",
+      "kind": "sparql",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "id": "anacom-noticias",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "error": "fetch failed"
+    },
+    {
+      "id": "anacom-legislacao",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "error": "fetch failed"
+    },
+    {
+      "id": "anacom-imprensa",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "error": "fetch failed"
+    },
+    {
+      "id": "anacom-consultas",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "error": "fetch failed"
+    },
+    {
+      "id": "eurostat-catalogo",
+      "kind": "rss",
+      "ok": true,
+      "items": 1058
+    },
+    {
+      "id": "ec-digital-strategy",
+      "kind": "watch",
+      "ok": true,
+      "items": 0,
+      "skipped": "sem feed — verificação manual"
+    },
+    {
+      "id": "cnpd",
+      "kind": "watch",
+      "ok": true,
+      "items": 0,
+      "skipped": "sem feed — verificação manual"
+    },
+    {
+      "id": "enia-manual",
+      "kind": "manual",
+      "ok": true,
+      "items": 2
+    }
+  ],
+  "warnings": [
+    "[anacom-noticias] fetch failed",
+    "[anacom-legislacao] fetch failed",
+    "[anacom-imprensa] fetch failed",
+    "[anacom-consultas] fetch failed"
+  ],
+  "finishedAt": "2026-08-11T14:00:43.302Z",
+  "written": 12,
+  "archive": {
+    "added": 12,
+    "total": 28
+  }
+}

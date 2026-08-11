@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Page not found · ENIA</title>
+<title>Página não encontrada · ENIA</title>
 <meta name="robots" content="noindex, follow">
 <meta name="theme-color" content="#132333">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -56,28 +56,28 @@
 <body>
 <main>
   <div class="code">404</div>
-  <h1>This page does not exist. The deadline still does.</h1>
-  <p>The address you followed is wrong, has moved, or was never published.
-     The Radar, the classification test and the rest of the observatory are all below.</p>
+  <h1>Esta página não existe. O prazo continua a existir.</h1>
+  <p>O endereço que seguiu está errado, mudou de sítio ou nunca chegou a ser publicado.
+     O Radar, o teste de classificação e o resto do observatório estão todos abaixo.</p>
 
   <div class="links">
-    <a class="btn primary" href="/en/">Home</a>
-    <a class="btn" href="/en/radar.html">AI Act Radar</a>
-    <a class="btn" href="/en/teste.html">Classification test</a>
-    <a class="btn" href="/en/contactos.html">Contact</a>
+    <a class="btn primary" href="/">Página principal</a>
+    <a class="btn" href="/radar.html">AI Act Radar</a>
+    <a class="btn" href="/teste.html">Classification test</a>
+    <a class="btn" href="/contactos.html">Contact</a>
   </div>
 
   <div class="clock">
     <b id="dias">—</b>
-    <span id="legenda">until 2 August 2026, full high-risk regime</span>
+    <span id="legenda">até 2 August 2026, regime completo de alto risco</span>
   </div>
 
-  <p class="en">Prefere português? <a href="/">enia.pt</a></p>
+  <p class="en">Looking for the English site? <a href="/en/">enia.pt/en</a></p>
 </main>
 
 <script>
 (function(){
-  var alvo = Date.UTC(2026, 7, 2);                       // 2 de Agosto de 2026
+  var alvo = Date.UTC(2026, 7, 2);                       // 2 August 2026
   var hoje = new Date();
   var agora = Date.UTC(hoje.getUTCFullYear(), hoje.getUTCMonth(), hoje.getUTCDate());
   var d = Math.round((alvo - agora) / 86400000);
@@ -85,13 +85,13 @@
   var elL = document.getElementById('legenda');
   if (d > 0) {
     elD.textContent = d;
-    elL.textContent = (d === 1 ? 'day' : 'days') + ' until 2 August 2026, full high-risk regime';
+    elL.textContent = (d === 1 ? 'dia' : 'dias') + ' até 2 August 2026, regime completo de alto risco';
   } else if (d === 0) {
-    elD.textContent = 'Today';
-    elL.textContent = 'the full regime for high-risk systems enters into force';
+    elD.textContent = 'Hoje';
+    elL.textContent = 'entra em vigor o regime completo para sistemas de alto risco';
   } else {
     elD.textContent = Math.abs(d);
-    elL.textContent = 'days since 2 August 2026 — the high-risk regime is in force';
+    elL.textContent = 'dias desde 2 August 2026 — o regime de alto risco está em vigor';
   }
 })();
 </script>

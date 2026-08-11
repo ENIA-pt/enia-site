@@ -1,8 +1,78 @@
 {
-  "generated": null,
+  "generated": "2026-08-11T14:00:43.302Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 16,
+  "count": 28,
   "items": [
+    {
+      "title": "EDUC_UOE_ENRS07 - \"Dataset: updated data\"",
+      "summary": "Pupils enrolled in post-secondary non-tertiary education by programme orientation, sex, type of institution and intensity of participation",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/EDUC_UOE_ENRS07"
+    },
+    {
+      "title": "EDUC_UOE_ENRT01 - \"Dataset: updated data\"",
+      "summary": "Students enrolled in tertiary education by education level, programme orientation, sex, type of institution and intensity of participation",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/EDUC_UOE_ENRT01"
+    },
+    {
+      "title": "MIGR_ASYTPSM - \"Dataset: updated data\"",
+      "summary": "Beneficiaries of temporary protection at the end of the month by citizenship, age and sex - monthly data",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/MIGR_ASYTPSM"
+    },
+    {
+      "title": "MIGR_ASYTPSPOP - \"Dataset: updated data\"",
+      "summary": "Beneficiaries of temporary protection by citizenship - per thousand persons",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/MIGR_ASYTPSPOP"
+    },
+    {
+      "title": "NRG_PC_203 - \"Dataset: updated data\"",
+      "summary": "Gas prices for industrial consumers - bi-annual data (from 2007 onwards)",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/NRG_PC_203"
+    },
+    {
+      "title": "NRG_PC_205 - \"Dataset: updated data\"",
+      "summary": "Electricity prices for industrial consumers - bi-annual data (from 2007 onwards)",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/NRG_PC_205"
+    },
+    {
+      "title": "STS_COPI_M - \"Dataset: updated data\"",
+      "summary": "Construction producer prices or costs, new residential buildings - monthly data",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/STS_COPI_M"
+    },
+    {
+      "title": "STS_COPI_Q - \"Dataset: updated data\"",
+      "summary": "Construction producer prices or costs, new residential buildings - quarterly data",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/STS_COPI_Q"
+    },
+    {
+      "title": "TEIIS040 - \"Dataset: updated data\"",
+      "summary": "Domestic producer prices - intermediate goods",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/TEIIS040"
+    },
+    {
+      "title": "TEIIS110 - \"Dataset: updated data\"",
+      "summary": "Production in industry - intermediate goods",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/TEIIS110"
+    },
     {
       "date": "2026-07-24",
       "title": "Comissão conclui preliminarmente que o TikTok viola o DSA na proteção de menores",
@@ -37,6 +107,20 @@
       "summary": "Contributo de peritos sobre competitividade, soberania e segurança da União em modelos de fronteira. Enquadra a direção que o AI Office vai dar à supervisão de modelos de uso geral.",
       "source": "AI Office",
       "url": "https://digital-strategy.ec.europa.eu/pt/policies/ai-office"
+    },
+    {
+      "title": "Finlândia ativa enforcement",
+      "summary": "A TRAFICOM iniciou operações. O que Portugal pode aprender com o primeiro regulador de IA plenamente operacional da UE.",
+      "source": "ENIA Analysis",
+      "date": "2026-07-15",
+      "url": "radar.html#benchmark"
+    },
+    {
+      "title": "Estado de preparação de Portugal, revisto",
+      "summary": "Relatório ENIA ajustado aos novos prazos do Digital Omnibus, com o cronograma vinculativo reconstruído obrigação a obrigação.",
+      "source": "ENIA Publishing",
+      "date": "2026-07-14",
+      "url": "radar.html#prazos"
     },
     {
       "date": "2026-07-13",

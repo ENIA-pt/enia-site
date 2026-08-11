@@ -1,14 +1,7 @@
 {
-  "generated": null,
+  "generated": "2026-08-11T14:00:43.302Z",
   "window": "últimos 45 dias",
   "items": [
-    {
-      "title": "Digital Omnibus: novas regras",
-      "summary": "Modelos de grande escala (GPT-4, Claude, Mistral) têm novos requisitos desde agosto de 2025. O que muda para Portugal.",
-      "source": "EUR-Lex",
-      "date": "2026-07-18",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689"
-    },
     {
       "title": "Finlândia ativa enforcement",
       "summary": "A TRAFICOM iniciou operações. O que Portugal pode aprender com o primeiro regulador de IA plenamente operacional da UE.",
@@ -22,6 +15,76 @@
       "source": "ENIA Publishing",
       "date": "2026-07-14",
       "url": "radar.html#prazos"
+    },
+    {
+      "title": "EDUC_UOE_ENRS07 - \"Dataset: updated data\"",
+      "summary": "Pupils enrolled in post-secondary non-tertiary education by programme orientation, sex, type of institution and intensity of participation",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/EDUC_UOE_ENRS07"
+    },
+    {
+      "title": "EDUC_UOE_ENRT01 - \"Dataset: updated data\"",
+      "summary": "Students enrolled in tertiary education by education level, programme orientation, sex, type of institution and intensity of participation",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/EDUC_UOE_ENRT01"
+    },
+    {
+      "title": "MIGR_ASYTPSM - \"Dataset: updated data\"",
+      "summary": "Beneficiaries of temporary protection at the end of the month by citizenship, age and sex - monthly data",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/MIGR_ASYTPSM"
+    },
+    {
+      "title": "MIGR_ASYTPSPOP - \"Dataset: updated data\"",
+      "summary": "Beneficiaries of temporary protection by citizenship - per thousand persons",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/MIGR_ASYTPSPOP"
+    },
+    {
+      "title": "NRG_PC_203 - \"Dataset: updated data\"",
+      "summary": "Gas prices for industrial consumers - bi-annual data (from 2007 onwards)",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/NRG_PC_203"
+    },
+    {
+      "title": "NRG_PC_205 - \"Dataset: updated data\"",
+      "summary": "Electricity prices for industrial consumers - bi-annual data (from 2007 onwards)",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/NRG_PC_205"
+    },
+    {
+      "title": "STS_COPI_M - \"Dataset: updated data\"",
+      "summary": "Construction producer prices or costs, new residential buildings - monthly data",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/STS_COPI_M"
+    },
+    {
+      "title": "STS_COPI_Q - \"Dataset: updated data\"",
+      "summary": "Construction producer prices or costs, new residential buildings - quarterly data",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/STS_COPI_Q"
+    },
+    {
+      "title": "TEIIS040 - \"Dataset: updated data\"",
+      "summary": "Domestic producer prices - intermediate goods",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/TEIIS040"
+    },
+    {
+      "title": "TEIIS110 - \"Dataset: updated data\"",
+      "summary": "Production in industry - intermediate goods",
+      "source": "Eurostat",
+      "date": "2026-08-11",
+      "url": "https://ec.europa.eu/eurostat/databrowser/product/page/TEIIS110"
     }
   ]
 }

@@ -1,61 +1,196 @@
 {
-  "version": "2026.07.26",
-  "generated": null,
+  "version": "2026.08.11",
+  "generated": "2026-08-11T14:00:43.302Z",
   "nextUpdate": "00:00 CET",
   "omnibus": "Digital Omnibus sobre IA: acordo político a 7 de maio de 2026, aprovação do Parlamento Europeu a 16 de junho e aprovação final do Conselho a 29 de junho de 2026. Os novos prazos só produzem efeitos jurídicos com a publicação no Jornal Oficial — até lá, o calendário original mantém-se tecnicamente aplicável. Verificar o estado da publicação antes de usar em comunicação externa.",
-
   "highlights": [
-    { "value": "17%",   "body": "das empresas portuguesas já usam IA. <b>O dobro da média europeia (≈8%).</b>", "source": "DESI 2024 · Comissão Europeia" },
-    { "value": "8/27",  "body": "Estados-Membros com enforcement plenamente operacional. <b>Portugal ainda não tem.</b>", "source": "Reg. (UE) 2024/1689" },
-    { "value": "38,7%", "body": "da população portuguesa entre os 16 e os 74 anos utiliza ferramentas de Inteligência Artificial.", "source": "INE · IUTICE Famílias 2025" }
+    {
+      "value": "17%",
+      "body": "das empresas portuguesas já usam IA. <b>O dobro da média europeia (≈8%).</b>",
+      "source": "DESI 2024 · Comissão Europeia"
+    },
+    {
+      "value": "8/27",
+      "body": "Estados-Membros com enforcement plenamente operacional. <b>Portugal ainda não tem.</b>",
+      "source": "Reg. (UE) 2024/1689"
+    },
+    {
+      "value": "38,7%",
+      "body": "da população portuguesa entre os 16 e os 74 anos utiliza ferramentas de Inteligência Artificial.",
+      "source": "INE · IUTICE Famílias 2025"
+    }
   ],
-
   "deadlines": [
-    { "date": "2025-02-02", "label": "Práticas proibidas + literacia em IA", "done": true },
-    { "date": "2025-08-02", "label": "GPAI, AI Office e regime de coimas", "done": true },
-    { "date": "2026-08-02", "label": "Artigo 50.º — obrigações de transparência", "done": false },
-    { "date": "2026-12-02", "label": "Art. 50.º(2) para sistemas legados + novas práticas proibidas (NCII/CSAM)", "done": false },
-    { "date": "2027-08-02", "label": "Sandbox regulatória nacional obrigatória em cada Estado-Membro", "done": false },
-    { "date": "2027-12-02", "label": "Alto risco — Anexo III (sistemas autónomos)", "done": false },
-    { "date": "2028-08-02", "label": "Alto risco — Anexo I (IA embebida em produtos regulados)", "done": false }
+    {
+      "date": "2025-02-02",
+      "label": "Práticas proibidas + literacia em IA",
+      "done": true
+    },
+    {
+      "date": "2025-08-02",
+      "label": "GPAI, AI Office e regime de coimas",
+      "done": true
+    },
+    {
+      "date": "2026-08-02",
+      "label": "Artigo 50.º — obrigações de transparência",
+      "done": false
+    },
+    {
+      "date": "2026-12-02",
+      "label": "Art. 50.º(2) para sistemas legados + novas práticas proibidas (NCII/CSAM)",
+      "done": false
+    },
+    {
+      "date": "2027-08-02",
+      "label": "Sandbox regulatória nacional obrigatória em cada Estado-Membro",
+      "done": false
+    },
+    {
+      "date": "2027-12-02",
+      "label": "Alto risco — Anexo III (sistemas autónomos)",
+      "done": false
+    },
+    {
+      "date": "2028-08-02",
+      "label": "Alto risco — Anexo I (IA embebida em produtos regulados)",
+      "done": false
+    }
   ],
-
   "countries": [
-    { "name": "Finlândia",     "score": 95, "state": "top" },
-    { "name": "Alemanha",      "score": 75, "state": "mid" },
-    { "name": "Itália",        "score": 68, "state": "mid" },
-    { "name": "França",        "score": 65, "state": "mid" },
-    { "name": "Países Baixos", "score": 60, "state": "mid" },
-    { "name": "Espanha",       "score": 58, "state": "mid" },
-    { "name": "Bélgica",       "score": 55, "state": "mid" },
-    { "name": "Portugal",      "score": 40, "state": "me"  },
-    { "name": "Irlanda",       "score": 35, "state": "low" },
-    { "name": "Polónia",       "score": 30, "state": "low" },
-    { "name": "Suécia",        "score": 28, "state": "low" },
-    { "name": "Hungria",       "score": 10, "state": "low" }
+    {
+      "name": "Finlândia",
+      "score": 95,
+      "state": "top"
+    },
+    {
+      "name": "Alemanha",
+      "score": 75,
+      "state": "mid"
+    },
+    {
+      "name": "Itália",
+      "score": 68,
+      "state": "mid"
+    },
+    {
+      "name": "França",
+      "score": 65,
+      "state": "mid"
+    },
+    {
+      "name": "Países Baixos",
+      "score": 60,
+      "state": "mid"
+    },
+    {
+      "name": "Espanha",
+      "score": 58,
+      "state": "mid"
+    },
+    {
+      "name": "Bélgica",
+      "score": 55,
+      "state": "mid"
+    },
+    {
+      "name": "Portugal",
+      "score": 40,
+      "state": "me"
+    },
+    {
+      "name": "Irlanda",
+      "score": 35,
+      "state": "low"
+    },
+    {
+      "name": "Polónia",
+      "score": 30,
+      "state": "low"
+    },
+    {
+      "name": "Suécia",
+      "score": 28,
+      "state": "low"
+    },
+    {
+      "name": "Hungria",
+      "score": 10,
+      "state": "low"
+    }
   ],
-
   "sectors": [
-    { "name": "Comunicações",          "value": 54.6 },
-    { "name": "IT / Tecnologia",       "value": 38.5 },
-    { "name": "Financeiro",            "value": 24.1 },
-    { "name": "Saúde",                 "value": 18.3 },
-    { "name": "Indústria",             "value": 15.2 },
-    { "name": "Administração Pública", "value": 15.0 },
-    { "name": "Outros",                "value": 12.1 }
+    {
+      "name": "Comunicações",
+      "value": 54.6
+    },
+    {
+      "name": "IT / Tecnologia",
+      "value": 38.5
+    },
+    {
+      "name": "Financeiro",
+      "value": 24.1
+    },
+    {
+      "name": "Saúde",
+      "value": 18.3
+    },
+    {
+      "name": "Indústria",
+      "value": 15.2
+    },
+    {
+      "name": "Administração Pública",
+      "value": 15
+    },
+    {
+      "name": "Outros",
+      "value": 12.1
+    }
   ],
-
   "checklist": [
-    { "done": true,  "title": "Autoridade nacional competente designada", "note": "ANACOM, 19 de setembro de 2025 — 49 dias após o prazo do Artigo 70.º." },
-    { "done": true,  "title": "Coordenação sectorial estabelecida", "note": "14 entidades: CNPD, Banco de Portugal, ASF, CMVM, ERS, IGF/IGDN, ERC, entre outras." },
-    { "done": true,  "title": "Agenda Nacional de IA aprovada", "note": "RCM n.º 2/2026, de 8 de janeiro. 32 iniciativas, mais de 400 M€ até 2030." },
-    { "done": false, "title": "Unidade de enforcement com poderes plenos", "note": "Sem equipas técnicas especializadas em avaliação de sistemas de IA." },
-    { "done": false, "title": "Sandbox regulatória de IA operacional", "note": "Obrigatória até 2 de agosto de 2027 (Art. 57.º). Sem ação pública anunciada." },
-    { "done": false, "title": "Sistema de notificação e registo de alto risco", "note": "Necessário para os operadores do Anexo III cumprirem o registo europeu." },
-    { "done": false, "title": "Normas técnicas harmonizadas", "note": "CEN/CENELEC falharam o prazo de 2025; trabalho ainda em curso." },
-    { "done": false, "title": "Mecanismo nacional de apoio às PME", "note": "Sem equivalente ao AI Act Service Desk europeu. A ENIA supre informalmente." }
+    {
+      "done": true,
+      "title": "Autoridade nacional competente designada",
+      "note": "ANACOM, 19 de setembro de 2025 — 49 dias após o prazo do Artigo 70.º."
+    },
+    {
+      "done": true,
+      "title": "Coordenação sectorial estabelecida",
+      "note": "14 entidades: CNPD, Banco de Portugal, ASF, CMVM, ERS, IGF/IGDN, ERC, entre outras."
+    },
+    {
+      "done": true,
+      "title": "Agenda Nacional de IA aprovada",
+      "note": "RCM n.º 2/2026, de 8 de janeiro. 32 iniciativas, mais de 400 M€ até 2030."
+    },
+    {
+      "done": false,
+      "title": "Unidade de enforcement com poderes plenos",
+      "note": "Sem equipas técnicas especializadas em avaliação de sistemas de IA."
+    },
+    {
+      "done": false,
+      "title": "Sandbox regulatória de IA operacional",
+      "note": "Obrigatória até 2 de agosto de 2027 (Art. 57.º). Sem ação pública anunciada."
+    },
+    {
+      "done": false,
+      "title": "Sistema de notificação e registo de alto risco",
+      "note": "Necessário para os operadores do Anexo III cumprirem o registo europeu."
+    },
+    {
+      "done": false,
+      "title": "Normas técnicas harmonizadas",
+      "note": "CEN/CENELEC falharam o prazo de 2025; trabalho ainda em curso."
+    },
+    {
+      "done": false,
+      "title": "Mecanismo nacional de apoio às PME",
+      "note": "Sem equivalente ao AI Act Service Desk europeu. A ENIA supre informalmente."
+    }
   ],
-
   "ine": {
     "asOf": "INE · IUTICE 2025 — Empresas publicado a 21 de novembro de 2025",
     "empresas": {
@@ -63,100 +198,307 @@
       "delta": 2.9,
       "nota": "Empresas com 10 ou mais pessoas ao serviço. Inquérito conduzido de fevereiro a junho de 2025.",
       "porDimensao": [
-        { "name": "250 ou mais pessoas", "value": 49.1, "delta": 7.2 },
-        { "name": "50 a 249 pessoas",    "value": 18.2, "delta": 2.8 },
-        { "name": "10 a 49 pessoas",     "value": 9.4,  "delta": 2.7 }
+        {
+          "name": "250 ou mais pessoas",
+          "value": 49.1,
+          "delta": 7.2
+        },
+        {
+          "name": "50 a 249 pessoas",
+          "value": 18.2,
+          "delta": 2.8
+        },
+        {
+          "name": "10 a 49 pessoas",
+          "value": 9.4,
+          "delta": 2.7
+        }
       ],
       "aplicacoes": [
-        { "name": "Análise de linguagem escrita",       "value": 59.4 },
-        { "name": "Geração de imagem, vídeo ou áudio",  "value": 50.9 },
-        { "name": "Geração de texto, fala ou código",   "value": 45.6 }
+        {
+          "name": "Análise de linguagem escrita",
+          "value": 59.4
+        },
+        {
+          "name": "Geração de imagem, vídeo ou áudio",
+          "value": 50.9
+        },
+        {
+          "name": "Geração de texto, fala ou código",
+          "value": 45.6
+        }
       ],
       "barreiras": [
-        { "name": "Falta de conhecimentos na empresa",                "value": 74.4 },
-        { "name": "Custos considerados demasiado elevados",           "value": 60.4 },
-        { "name": "Falta de clareza sobre consequências legais",      "value": 57.3 },
-        { "name": "Preocupações com proteção de dados e privacidade", "value": 55.4 }
+        {
+          "name": "Falta de conhecimentos na empresa",
+          "value": 74.4
+        },
+        {
+          "name": "Custos considerados demasiado elevados",
+          "value": 60.4
+        },
+        {
+          "name": "Falta de clareza sobre consequências legais",
+          "value": 57.3
+        },
+        {
+          "name": "Preocupações com proteção de dados e privacidade",
+          "value": 55.4
+        }
       ],
       "contexto": [
-        { "name": "Acesso à internet para fins profissionais",   "value": 98.8 },
-        { "name": "Executam análise de dados",                   "value": 45.0 },
-        { "name": "Utilizam pelo menos um software empresarial", "value": 53.7 },
-        { "name": "Utilizam software de business intelligence",  "value": 13.0 }
+        {
+          "name": "Acesso à internet para fins profissionais",
+          "value": 98.8
+        },
+        {
+          "name": "Executam análise de dados",
+          "value": 45
+        },
+        {
+          "name": "Utilizam pelo menos um software empresarial",
+          "value": 53.7
+        },
+        {
+          "name": "Utilizam software de business intelligence",
+          "value": 13
+        }
       ]
     },
     "pessoas": {
       "adocao": 38.7,
       "nota": "Pessoas dos 16 aos 74 anos que utilizaram ferramentas de IA nos três meses anteriores à entrevista. Recolha de maio a agosto de 2025.",
       "finalidades": [
-        { "name": "Fins pessoais",                  "value": 33.2 },
-        { "name": "Contexto profissional",          "value": 19.9 },
-        { "name": "Atividades educativas formais",  "value": 14.5 }
+        {
+          "name": "Fins pessoais",
+          "value": 33.2
+        },
+        {
+          "name": "Contexto profissional",
+          "value": 19.9
+        },
+        {
+          "name": "Atividades educativas formais",
+          "value": 14.5
+        }
       ],
       "porGrupo": [
-        { "name": "Estudantes",           "value": 81.5 },
-        { "name": "16 a 24 anos",         "value": 76.5 },
-        { "name": "Ensino superior",      "value": 63.4 },
-        { "name": "25 a 34 anos",         "value": 62.6 },
-        { "name": "35 a 44 anos",         "value": 52.3 },
-        { "name": "Ensino secundário",    "value": 44.9 },
-        { "name": "Total 16 aos 74 anos", "value": 38.7 }
+        {
+          "name": "Estudantes",
+          "value": 81.5
+        },
+        {
+          "name": "16 a 24 anos",
+          "value": 76.5
+        },
+        {
+          "name": "Ensino superior",
+          "value": 63.4
+        },
+        {
+          "name": "25 a 34 anos",
+          "value": 62.6
+        },
+        {
+          "name": "35 a 44 anos",
+          "value": 52.3
+        },
+        {
+          "name": "Ensino secundário",
+          "value": 44.9
+        },
+        {
+          "name": "Total 16 aos 74 anos",
+          "value": 38.7
+        }
       ],
       "naoUtilizadores": [
-        { "name": "Não sente necessidade",                     "value": 67.9 },
-        { "name": "Falta de conhecimentos para utilizar",       "value": 15.3 },
-        { "name": "Preocupações de privacidade ou segurança",   "value": 8.3 }
+        {
+          "name": "Não sente necessidade",
+          "value": 67.9
+        },
+        {
+          "name": "Falta de conhecimentos para utilizar",
+          "value": 15.3
+        },
+        {
+          "name": "Preocupações de privacidade ou segurança",
+          "value": 8.3
+        }
       ]
     }
   },
-
   "aicep": {
     "asOf": "AICEP · portugalglobal.pt · 2025-2026",
     "figs": [
-      { "value": "10%",      "label": "do PIB nacional gerado pelo setor das TIC",              "source": "Portugal ICT Study 2026-2030" },
-      { "value": "16,6 mM€", "label": "receitas projetadas para o setor TIC até 2028",           "source": "Portugal ICT Study 2026-2030" },
-      { "value": "5 000+",   "label": "startups ativas em 2025, mais 8% do que em 2024",         "source": "AICEP · Startup ecosystem" },
-      { "value": "2,85 mM€", "label": "volume de negócios das startups e cerca de 28 000 empregos", "source": "AICEP · Startup ecosystem" },
-      { "value": "120",      "label": "empresas estrangeiras atraídas para o setor digital",     "source": "AICEP · Digital sector" },
-      { "value": "1,5%",     "label": "das exportações nacionais têm origem em startups",        "source": "AICEP · Startup ecosystem" }
+      {
+        "value": "10%",
+        "label": "do PIB nacional gerado pelo setor das TIC",
+        "source": "Portugal ICT Study 2026-2030"
+      },
+      {
+        "value": "16,6 mM€",
+        "label": "receitas projetadas para o setor TIC até 2028",
+        "source": "Portugal ICT Study 2026-2030"
+      },
+      {
+        "value": "5 000+",
+        "label": "startups ativas em 2025, mais 8% do que em 2024",
+        "source": "AICEP · Startup ecosystem"
+      },
+      {
+        "value": "2,85 mM€",
+        "label": "volume de negócios das startups e cerca de 28 000 empregos",
+        "source": "AICEP · Startup ecosystem"
+      },
+      {
+        "value": "120",
+        "label": "empresas estrangeiras atraídas para o setor digital",
+        "source": "AICEP · Digital sector"
+      },
+      {
+        "value": "1,5%",
+        "label": "das exportações nacionais têm origem em startups",
+        "source": "AICEP · Startup ecosystem"
+      }
     ]
   },
-
   "ania": {
     "asOf": "RCM n.º 2/2026, de 8 de janeiro · PAANIA 2026-2030",
     "resumo": "32 iniciativas e um investimento superior a 400 M€ até 2030, maioritariamente com fundos europeus. Impacto estimado pelo Governo: mais 18 a 22 mil M€ no PIB, cerca de 8% no pico, e um contributo adicional da produtividade para o crescimento do PIB de até 2,7 p.p. na próxima década (fonte citada: McKinsey & Co.).",
     "avaliacao": "Estado atribuído pela ENIA a partir de informação pública. «Sem informação pública» significa exatamente isso: não encontrámos evidência publicada, não que a medida não esteja a decorrer.",
     "medidas": [
-      { "eixo": "Infraestrutura e Dados",   "medida": "Aquisição de capacidade de computação avançada", "estado": "wip", "nota": "Investimentos anunciados no ecossistema, incluindo 20 M€ da ULisboa em computação avançada e IA (julho de 2026)." },
-      { "eixo": "Infraestrutura e Dados",   "medida": "AI Factory nacional", "estado": "wip", "nota": "Prevista na Agenda. Sem data pública de entrada em funcionamento." },
-      { "eixo": "Infraestrutura e Dados",   "medida": "LLM nacional AMÁLIA", "estado": "wip", "nota": "Consórcio NOVA, IST, U. Coimbra, U. Porto, U. Minho e FCT. Em 2026 o investimento orienta-se para casos de uso, incluindo o sistema educativo." },
-      { "eixo": "Inovação e Adoção",        "medida": "Centro de Excelência em IA na ARTE", "estado": "wip", "nota": "Anunciado para o primeiro semestre de 2026 como coordenador transversal do Estado." },
-      { "eixo": "Inovação e Adoção",        "medida": "Centros de IA setoriais (Saúde, Indústria e Robótica)", "estado": "no", "nota": "Sem informação pública sobre a constituição dos consórcios." },
-      { "eixo": "Inovação e Adoção",        "medida": "IA na Administração Pública — 25 M€ em contratação, faturas, recrutamento e licenciamentos", "estado": "wip", "nota": "Dotação anunciada. Sem indicadores públicos de execução." },
-      { "eixo": "Inovação e Adoção",        "medida": "Linha de financiamento «IA nas PME» reforçada e roadshows", "estado": "wip", "nota": "Mecanismos existentes, incluindo o IFIC, referidos como via de apoio." },
-      { "eixo": "Inovação e Adoção",        "medida": "Plataforma nacional de produtos de IA low-code/no-code para PME", "estado": "no", "nota": "Sem informação pública sobre desenvolvimento." },
-      { "eixo": "Inovação e Adoção",        "medida": "Sandboxes regulatórias de IA", "estado": "no", "nota": "Obrigatórias até 2 de agosto de 2027 pelo Art. 57.º do AI Act. Sem ação pública anunciada." },
-      { "eixo": "Inovação e Adoção",        "medida": "Guia oficial de interpretação do Código dos Contratos Públicos para aquisição de IA", "estado": "no", "nota": "Sem informação pública." },
-      { "eixo": "Talento e Competências",   "medida": "Programa de formação avançada em IA para funcionários públicos", "estado": "wip", "nota": "Previsto no plano de ação. Sem números públicos de formandos." },
-      { "eixo": "Talento e Competências",   "medida": "Doutoramentos não académicos e investigação aplicada em IA", "estado": "wip", "nota": "Expansão prevista." },
-      { "eixo": "Enquadramento",            "medida": "Revisão do regime de propriedade intelectual e patentes de IA", "estado": "no", "nota": "Sem informação pública sobre calendário legislativo." },
-      { "eixo": "Enquadramento",            "medida": "Alinhamento com o AI Continent Action Plan e a estratégia Apply AI", "estado": "ok", "nota": "Alinhamento declarado no documento da Agenda." }
+      {
+        "eixo": "Infraestrutura e Dados",
+        "medida": "Aquisição de capacidade de computação avançada",
+        "estado": "wip",
+        "nota": "Investimentos anunciados no ecossistema, incluindo 20 M€ da ULisboa em computação avançada e IA (julho de 2026)."
+      },
+      {
+        "eixo": "Infraestrutura e Dados",
+        "medida": "AI Factory nacional",
+        "estado": "wip",
+        "nota": "Prevista na Agenda. Sem data pública de entrada em funcionamento."
+      },
+      {
+        "eixo": "Infraestrutura e Dados",
+        "medida": "LLM nacional AMÁLIA",
+        "estado": "wip",
+        "nota": "Consórcio NOVA, IST, U. Coimbra, U. Porto, U. Minho e FCT. Em 2026 o investimento orienta-se para casos de uso, incluindo o sistema educativo."
+      },
+      {
+        "eixo": "Inovação e Adoção",
+        "medida": "Centro de Excelência em IA na ARTE",
+        "estado": "wip",
+        "nota": "Anunciado para o primeiro semestre de 2026 como coordenador transversal do Estado."
+      },
+      {
+        "eixo": "Inovação e Adoção",
+        "medida": "Centros de IA setoriais (Saúde, Indústria e Robótica)",
+        "estado": "no",
+        "nota": "Sem informação pública sobre a constituição dos consórcios."
+      },
+      {
+        "eixo": "Inovação e Adoção",
+        "medida": "IA na Administração Pública — 25 M€ em contratação, faturas, recrutamento e licenciamentos",
+        "estado": "wip",
+        "nota": "Dotação anunciada. Sem indicadores públicos de execução."
+      },
+      {
+        "eixo": "Inovação e Adoção",
+        "medida": "Linha de financiamento «IA nas PME» reforçada e roadshows",
+        "estado": "wip",
+        "nota": "Mecanismos existentes, incluindo o IFIC, referidos como via de apoio."
+      },
+      {
+        "eixo": "Inovação e Adoção",
+        "medida": "Plataforma nacional de produtos de IA low-code/no-code para PME",
+        "estado": "no",
+        "nota": "Sem informação pública sobre desenvolvimento."
+      },
+      {
+        "eixo": "Inovação e Adoção",
+        "medida": "Sandboxes regulatórias de IA",
+        "estado": "no",
+        "nota": "Obrigatórias até 2 de agosto de 2027 pelo Art. 57.º do AI Act. Sem ação pública anunciada."
+      },
+      {
+        "eixo": "Inovação e Adoção",
+        "medida": "Guia oficial de interpretação do Código dos Contratos Públicos para aquisição de IA",
+        "estado": "no",
+        "nota": "Sem informação pública."
+      },
+      {
+        "eixo": "Talento e Competências",
+        "medida": "Programa de formação avançada em IA para funcionários públicos",
+        "estado": "wip",
+        "nota": "Previsto no plano de ação. Sem números públicos de formandos."
+      },
+      {
+        "eixo": "Talento e Competências",
+        "medida": "Doutoramentos não académicos e investigação aplicada em IA",
+        "estado": "wip",
+        "nota": "Expansão prevista."
+      },
+      {
+        "eixo": "Enquadramento",
+        "medida": "Revisão do regime de propriedade intelectual e patentes de IA",
+        "estado": "no",
+        "nota": "Sem informação pública sobre calendário legislativo."
+      },
+      {
+        "eixo": "Enquadramento",
+        "medida": "Alinhamento com o AI Continent Action Plan e a estratégia Apply AI",
+        "estado": "ok",
+        "nota": "Alinhamento declarado no documento da Agenda."
+      }
     ]
   },
-
   "sources": [
-    { "name": "EUR-Lex · Reg. (UE) 2024/1689",        "url": "eur-lex.europa.eu" },
-    { "name": "Comissão Europeia · AI Office",        "url": "digital-strategy.ec.europa.eu" },
-    { "name": "Parlamento Europeu",                   "url": "europarl.europa.eu" },
-    { "name": "INE · IUTICE Empresas e Famílias",     "url": "ine.pt" },
-    { "name": "AICEP · Portugal Global",              "url": "portugalglobal.pt" },
-    { "name": "ANIA · RCM n.º 2/2026",                "url": "digital.gov.pt" },
-    { "name": "ANACOM",                               "url": "anacom.pt" },
-    { "name": "CNPD",                                 "url": "cnpd.pt" },
-    { "name": "Banco de Portugal",                    "url": "bportugal.pt" },
-    { "name": "ERS · Saúde",                          "url": "ers.pt" },
-    { "name": "DESI / Relatório da Década Digital",   "url": "digital-strategy.ec.europa.eu" }
+    {
+      "name": "EUR-Lex · Reg. (UE) 2024/1689",
+      "url": "eur-lex.europa.eu"
+    },
+    {
+      "name": "Comissão Europeia · AI Office",
+      "url": "digital-strategy.ec.europa.eu"
+    },
+    {
+      "name": "Parlamento Europeu",
+      "url": "europarl.europa.eu"
+    },
+    {
+      "name": "INE · IUTICE Empresas e Famílias",
+      "url": "ine.pt"
+    },
+    {
+      "name": "AICEP · Portugal Global",
+      "url": "portugalglobal.pt"
+    },
+    {
+      "name": "ANIA · RCM n.º 2/2026",
+      "url": "digital.gov.pt"
+    },
+    {
+      "name": "ANACOM",
+      "url": "anacom.pt"
+    },
+    {
+      "name": "CNPD",
+      "url": "cnpd.pt"
+    },
+    {
+      "name": "Banco de Portugal",
+      "url": "bportugal.pt"
+    },
+    {
+      "name": "ERS · Saúde",
+      "url": "ers.pt"
+    },
+    {
+      "name": "DESI / Relatório da Década Digital",
+      "url": "digital-strategy.ec.europa.eu"
+    }
   ],
-
   "_nota": "Os indicadores (highlights, countries, sectors, checklist, ine, aicep, ania) são curados pela ENIA e NÃO são reescritos pelo sync automático — só os campos 'generated' e 'version'. Editar aqui e fazer commit."
 }
