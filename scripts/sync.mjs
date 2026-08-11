@@ -9,25 +9,6 @@
  *   data/radar.json         → apenas 'generated' e 'version'
  *   data/sync-log.json      → o que funcionou, o que falhou e porquê
  *
- * Mudanças face ao esquema 1, e a razão de cada uma:
- *
- *  1. QUOTA POR FONTE. Antes, o pool era ordenado por data e cortado
- *     nos 12. O Eurostat, que publica dezenas de itens por dia, ficava
- *     com o feed inteiro e empurrava a ANACOM e o EUR-Lex para fora.
- *     Agora cada fonte tem tecto próprio antes da fusão.
- *
- *  2. FILTRO REGEX COM FRONTEIRA DE PALAVRA. Antes, a chave "IA" em
- *     minúsculas fazia includes('ia'), que acerta dentro de 'notícia',
- *     'agência' e 'financial'. Era um filtro sempre verdadeiro.
- *
- *  3. ARQUIVO SEPARADO DO FEED. Antes, o arquivo só recebia o que
- *     sobrevivia ao corte de 12. Perdia-se tudo o resto para sempre.
- *     Agora o arquivo recebe tudo o que passa o filtro; o corte só se
- *     aplica ao que é mostrado na homepage.
- *
- *  4. 'watch' DEIXA DE MENTIR. Antes registava ok:true. Uma fonte sem
- *     feed é uma fonte desligada e o log passa a dizer exactamente isso.
- *
  * Uso:   node scripts/sync.mjs
  * Env:   ANTHROPIC_API_KEY (opcional — sem chave, usa o texto original)
  * Node:  >= 20 (fetch nativo)
@@ -41,6 +22,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const p = (...s) => resolve(ROOT, ...s);
 const MODEL = process.env.ENIA_MODEL || 'claude-sonnet-5';
 const TIMEOUT = 25_000;
+const MAX_SUM = 420;   /* tecto do resumo em bruto, antes da reescrita */
 
 const log = { startedAt: new Date().toISOString(), sources: [], warnings: [], desligadas: [] };
 
@@ -81,12 +63,67 @@ async function get(url, { headers = {}, method = 'GET', body, charset, agente } 
   throw ultimo ?? new Error('falha desconhecida');
 }
 
-const strip = (s = '') => s
-  .replace(/<!\[CDATA\[|\]\]>/g, '')
-  .replace(/<[^>]+>/g, ' ')
-  .replace(/&([a-z]+|#\d+);/gi, m => ({ '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&#39;': "'", '&nbsp;': ' ' }[m] ?? ' '))
-  .replace(/\s+/g, ' ')
-  .trim();
+/* ─────────────────── limpeza de texto (corrigida) ───────────────────
+ *
+ * O QUE ESTAVA MAL, e porque é que se via markup no site:
+ *
+ *   A versão anterior removia as tags PRIMEIRO e só depois descodificava
+ *   as entidades. Vários feeds institucionais — o da Comissão Europeia é
+ *   o caso mais visível — servem a descrição com o HTML escapado dentro
+ *   de CDATA, isto é, "&lt;span&gt;" em vez de "<span>".
+ *
+ *   Nesse formato, o removedor de tags não vê tag nenhuma e deixa passar.
+ *   O descodificador, a seguir, transforma "&lt;span&gt;" em "<span>" —
+ *   já depois de a limpeza ter acontecido. O markup entrava pela porta
+ *   que o passo anterior tinha acabado de fechar.
+ *
+ * A CORREÇÃO: descodificar antes de limpar, e repetir o par até o texto
+ * estabilizar, porque há fontes com escape duplo ("&amp;lt;span&amp;gt;").
+ *
+ * COMPROMISSO ASSUMIDO: um texto que use "&lt;" como sinal de menor
+ * ("a &lt; b") passa a ser tratado como início de tag e pode perder-se.
+ * É raro em prosa regulatória e muito menos grave do que despejar a folha
+ * de estilos da Comissão dentro de um cartão de notícia.
+ */
+
+const ENT = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  hellip: '…', mdash: '—', ndash: '–', laquo: '«', raquo: '»',
+  rsquo: '\u2019', lsquo: '\u2018', ldquo: '\u201C', rdquo: '\u201D',
+  eacute: 'é', ccedil: 'ç', atilde: 'ã', otilde: 'õ', aacute: 'á',
+  oacute: 'ó', iacute: 'í', uacute: 'ú', agrave: 'à', ecirc: 'ê',
+  ocirc: 'ô', acirc: 'â', euro: '€'
+};
+
+const decode = (s) => String(s).replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, g) => {
+  if (g[0] === '#') {
+    const hex = g[1] === 'x' || g[1] === 'X';
+    const n = parseInt(hex ? g.slice(2) : g.slice(1), hex ? 16 : 10);
+    /* Só códigos válidos e imprimíveis; o resto vira espaço em vez de
+       poluir o texto com caracteres de controlo. */
+    return Number.isFinite(n) && n >= 9 && n <= 0x10FFFF ? String.fromCodePoint(n) : ' ';
+  }
+  return ENT[g.toLowerCase()] ?? ' ';
+});
+
+const strip = (s = '') => {
+  let t = String(s).replace(/<!\[CDATA\[|\]\]>/g, '');
+  for (let i = 0; i < 3; i++) {
+    const antes = t;
+    t = decode(t).replace(/<[^>]*>/g, ' ');
+    if (t === antes) break;          /* estabilizou: nada mais a limpar */
+  }
+  return t
+    .replace(/\s+/g, ' ')
+    .replace(/\s+([,.;:!?])/g, '$1')  /* espaço órfão antes de pontuação */
+    .trim();
+};
+
+/* Corta na fronteira da palavra, sem partir a meio. */
+const cut = (s, n) => {
+  const t = String(s || '');
+  return t.length > n ? t.slice(0, n).replace(/\s+\S*$/, '') + '…' : t;
+};
 
 const tag = (xml, name) => {
   const m = xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, 'i'));
@@ -102,8 +139,8 @@ const linkOf = (xml) =>
 function parseFeed(xml, label) {
   const blocks = xml.match(/<(item|entry)[\s\S]*?<\/\1>/gi) ?? [];
   return blocks.map(b => ({
-    title: tag(b, 'title'),
-    summary: tag(b, 'description') || tag(b, 'summary') || tag(b, 'content'),
+    title: cut(tag(b, 'title'), 160),
+    summary: cut(tag(b, 'description') || tag(b, 'summary') || tag(b, 'content'), MAX_SUM),
     url: linkOf(b),
     date: new Date(tag(b, 'pubDate') || tag(b, 'updated') || tag(b, 'published') || tag(b, 'dc:date') || Date.now()),
     source: label
@@ -131,9 +168,6 @@ function compilarMatch(cfg) {
 /* ────────────────────── fontes por tipo ────────────────────── */
 
 async function fromSparql(src, since) {
-  /* O esquema 1 exigia expressão em português E 'inteligência artificial'
-     no título. Isso excluía tudo o que não fosse acto do JO em português,
-     ou seja, quase tudo o que interessa. Aqui alargamos a línguas e termos. */
   const desde = since.toISOString().slice(0, 10);
   const termos = src.query_profile === 'titulo_multilingue'
     ? ['inteligência artificial', 'artificial intelligence', 'intelligence artificielle', 'künstliche intelligenz', '2024/1689']
@@ -160,7 +194,7 @@ ORDER BY DESC(?date) LIMIT 60`;
 
   const json = JSON.parse(body);
   return (json.results?.bindings ?? []).map(b => ({
-    title: b.title.value,
+    title: cut(strip(b.title.value), 160),
     summary: '',
     url: b.work.value.replace('http://publications.europa.eu/resource/cellar/',
       'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:'),
@@ -180,11 +214,14 @@ async function fromManual(src) {
 
 async function toPortugueseNews(items) {
   const key = process.env.ANTHROPIC_API_KEY;
-  if (!key) { log.warnings.push('ANTHROPIC_API_KEY ausente: itens ficam no texto e língua originais.'); return items; }
+  if (!key) {
+    log.warnings.push('ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT.');
+    return items;
+  }
   if (!items.length) return items;
 
-  /* Em lotes de 15: um prompt com 60 itens estoura o max_tokens da resposta
-     e devolve JSON truncado, o que faz cair todo o lote. */
+  /* Em lotes de 15: um prompt com 60 itens estoura o max_tokens da
+     resposta e devolve JSON truncado, o que faria cair o lote inteiro. */
   for (let i = 0; i < items.length; i += 15) {
     const lote = items.slice(i, i + 15);
     const payload = lote.map((it, n) => ({ n, title: it.title, text: (it.summary || '').slice(0, 600), source: it.source }));
@@ -207,12 +244,12 @@ ${JSON.stringify(payload)}`;
       const arr = JSON.parse(txt.replace(/```json|```/g, '').trim());
       for (const r of arr) {
         if (lote[r.n]) {
-          lote[r.n].title = r.title || lote[r.n].title;
-          lote[r.n].summary = r.summary || lote[r.n].summary;
+          lote[r.n].title = strip(r.title) || lote[r.n].title;
+          lote[r.n].summary = strip(r.summary) || lote[r.n].summary;
         }
       }
     } catch (e) {
-      log.warnings.push(`Reescrita editorial do lote ${i / 15 + 1} ignorada: ${e.message}`);
+      log.warnings.push(`Reescrita editorial do lote ${Math.floor(i / 15) + 1} ignorada: ${e.message}`);
     }
   }
   return items;
@@ -232,7 +269,6 @@ async function main() {
 
     /* 'watch' é uma fonte DESLIGADA. Regista-se como tal, sem fingir sucesso. */
     if (src.kind === 'watch') {
-      entry.ok = false;
       entry.desligada = 'sem feed — verificação manual';
       log.desligadas.push(src.id);
       log.sources.push(entry);
@@ -248,9 +284,6 @@ async function main() {
       entry.ok = true;
       entry.items = items.length;
 
-      /* Filtrar dentro da própria fonte, e só depois aplicar a quota.
-         Assim uma fonte prolífica contribui com os seus melhores N e não
-         com os seus N mais recentes, que podem ser todos irrelevantes. */
       const quota = src.quota ?? quotaDefeito;
       const relevantes = items
         .filter(i => i._manual || src.always || filtro.passa(`${i.title} ${i.summary}`))
@@ -268,26 +301,22 @@ async function main() {
     log.sources.push(entry);
   }
 
-  /* deduplicar por URL, depois ordenar por peso editorial e data */
   const seen = new Set();
+  const chave = (i) => (i.url || i.title).toLowerCase().replace(/[?#].*$/, '');
   const todos = pool
     .sort((a, b) => (b.pin ? 1 : 0) - (a.pin ? 1 : 0) || b._peso - a._peso || b.date - a.date)
-    .filter(i => {
-      const k = (i.url || i.title).toLowerCase().replace(/[?#].*$/, '');
-      if (seen.has(k)) return false;
-      seen.add(k); return true;
-    });
+    .filter(i => { const k = chave(i); if (seen.has(k)) return false; seen.add(k); return true; });
 
-  /* O feed é o topo; o arquivo é tudo. Esta separação é o que torna a
-     biblioteca exaustiva em vez de uma janela de 12 itens. */
   const doFeed = todos.slice(0, cfg.max_items ?? 60);
 
   await toPortugueseNews(todos.filter(i => !i._manual));
 
+  /* Última passagem de limpeza: mesmo que a reescrita falhe ou uma fonte
+     nova traga formato inesperado, nada com markup chega ao ficheiro. */
   const limpar = i => ({
-    title: i.title,
-    summary: i.summary || '—',
-    source: i.source,
+    title: strip(i.title),
+    summary: cut(strip(i.summary), 260) || '—',
+    source: strip(i.source),
     tier: i._tier,
     date: i.date.toISOString().slice(0, 10),
     url: i.url
@@ -303,7 +332,6 @@ async function main() {
   log.recolhidos = todos.length;
   log.written = news.items.length;
 
-  /* Recolha vazia = falha de rede ou de URL. Preserva o feed anterior. */
   if (!news.items.length) {
     log.warnings.push('Recolha vazia — data/news.json foi preservado.');
     await writeFile(p('data/sync-log.json'), JSON.stringify(log, null, 2) + '\n');
@@ -315,10 +343,22 @@ async function main() {
   radar.generated = news.generated;
   radar.version = news.generated.slice(0, 10).replace(/-/g, '.');
 
-  /* Arquivo integral: acrescenta tudo o que é novo, nunca remove nada.
-     Recebe 'todos', não 'doFeed'. */
+  /* ── arquivo ──
+     O arquivo nunca remove itens, o que significa que também guardou o
+     markup escrito pela versão anterior do strip(). Por isso cada execução
+     volta a limpar o que já lá está: o defeito desaparece do histórico
+     todo, não só dos itens novos. É idempotente — sobre texto já limpo o
+     strip() não altera nada. */
   let archive = { items: [] };
   try { archive = JSON.parse(await readFile(p('data/news-archive.json'), 'utf8')); } catch {}
+
+  let curados = 0;
+  archive.items = (archive.items || []).map(i => {
+    const t = strip(i.title), s = cut(strip(i.summary), 260) || '—';
+    if (t !== i.title || s !== i.summary) curados++;
+    return { ...i, title: t, summary: s };
+  });
+
   const known = new Set(archive.items.map(i => (i.url || i.title).toLowerCase().replace(/[?#].*$/, '')));
   let added = 0;
   for (const i of todos.map(limpar)) {
@@ -330,13 +370,12 @@ async function main() {
   archive.generated = news.generated;
   archive.count = archive.items.length;
   await writeFile(p('data/news-archive.json'), JSON.stringify(archive, null, 2) + '\n');
-  log.archive = { added, total: archive.count };
+  log.archive = { added, curados, total: archive.count };
 
   await writeFile(p('data/news.json'), JSON.stringify(news, null, 2) + '\n');
   await writeFile(p('data/radar.json'), JSON.stringify(radar, null, 2) + '\n');
   await writeFile(p('data/sync-log.json'), JSON.stringify(log, null, 2) + '\n');
 
-  /* retrato do dia + série histórica, depois o bundle usado em file:// */
   const { execFileSync } = await import('node:child_process');
   for (const step of ['scripts/history.mjs', 'scripts/bundle.mjs']) {
     try { execFileSync(process.execPath, [p(step)], { stdio: 'inherit' }); }
@@ -347,6 +386,7 @@ async function main() {
   const falhadas = log.sources.filter(s => s.error).length;
   console.log(`✓ ${activas} fontes ok · ${falhadas} falhadas · ${log.desligadas.length} desligadas (watch)`);
   console.log(`✓ ${todos.length} itens relevantes · ${news.items.length} no feed · ${added} novos no arquivo (${archive.count} no total)`);
+  if (curados) console.log(`✓ ${curados} itens antigos do arquivo limpos de markup residual`);
   if (log.warnings.length) console.warn('⚠ ' + log.warnings.join('\n⚠ '));
 }
 
