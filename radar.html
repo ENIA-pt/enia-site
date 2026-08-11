@@ -42,6 +42,74 @@
   .srcs p{margin:0;font-size:.76rem;line-height:1.55;opacity:.7;word-break:break-word}
   .split{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:clamp(26px,3vw,52px);align-items:start}
   .split h4{margin-bottom:14px}
+
+  /* ═══════════════════════════════════════════════════════════════
+     08 · FEED REGULATÓRIO — contraste explícito
+     ───────────────────────────────────────────────────────────────
+     A banda é band--deep, ou seja, fundo escuro. Sem estas regras o
+     feed herda a cor de texto da folha genérica, que assume fundo
+     claro: fica quase preto sobre azul-escuro e desaparece.
+
+     Todas as cores abaixo são absolutas e não herdadas, e o seletor
+     é prefixado por #feed para ganhar especificidade sobre
+     assets/enia.css. Assim nenhuma alteração futura à folha comum
+     volta a apagar esta secção.
+
+     Escala usada: branco puro no título, branco a 72% no resumo
+     (rácio ~9:1 sobre #132333, acima do exigido pela WCAG AA),
+     lima ENIA na fonte e no hover.
+     ═══════════════════════════════════════════════════════════════ */
+
+  #feed .feed{
+    list-style:none;margin:0;padding:0;
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:1px;background:rgba(255,255,255,.14)   /* a grelha faz de linha divisória */
+  }
+  #feed .feed li{background:#132333;margin:0}
+
+  #feed .feed a{
+    display:flex;flex-direction:column;gap:11px;height:100%;
+    padding:clamp(20px,2.2vw,30px);
+    text-decoration:none;color:#fff;
+    transition:background .22s ease
+  }
+  #feed .feed a:hover,
+  #feed .feed a:focus-visible{background:#1B3047}
+  #feed .feed a:focus-visible{outline:2px solid #DCF081;outline-offset:-2px}
+
+  /* A ordem no DOM é data → corpo → fonte. Visualmente queremos
+     fonte no topo e data no rodapé do cartão, como no resto do site. */
+  #feed .feed__s{order:1;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#DCF081}
+  #feed .feed__b{order:2}
+  #feed .feed__d{order:3}
+
+  #feed .feed__b h4{
+    margin:0 0 9px;font-size:1rem;line-height:1.35;font-weight:500;
+    color:#fff;
+    transition:color .22s ease
+  }
+  #feed .feed a:hover .feed__b h4{color:#DCF081}
+
+  /* O clamp a 4 linhas impede que um resumo mal formado rebente o
+     cartão. O texto integral continua no arquivo e na fonte original. */
+  #feed .feed__b p{
+    margin:0;font-size:.84rem;line-height:1.62;
+    color:rgba(255,255,255,.72);
+    display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;
+    overflow:hidden;overflow-wrap:anywhere
+  }
+
+  #feed .feed__d{
+    margin-top:auto;padding-top:14px;
+    font-size:.72rem;letter-spacing:.07em;
+    color:rgba(255,255,255,.45);
+    border-top:1px solid rgba(255,255,255,.1)
+  }
+
+  @media (max-width:600px){
+    #feed .feed{grid-template-columns:1fr}
+    #feed .feed__b p{-webkit-line-clamp:3}
+  }
 </style>
 </head>
 <body>
@@ -281,7 +349,39 @@
 <script>
 (() => {
 'use strict';
-const E = window.ENIA;
+/* ── rede de segurança: assets/enia.js pode não ter carregado ─────
+   Se esse ficheiro der 404, falhar por rede ou tiver erro de sintaxe,
+   window.ENIA fica indefinido e a página inteira morre na primeira
+   chamada a E.get() — que foi exatamente o erro observado.
+
+   Este bloco fornece uma implementação mínima equivalente para que o
+   Radar renderize na mesma. O aviso na consola mantém o problema
+   visível: degradar em silêncio seria repetir o erro das fontes em
+   'watch', que se davam por boas sem nunca serem lidas.            */
+const E = window.ENIA || (() => {
+  console.warn('[ENIA] assets/enia.js não carregou — a usar implementação de recurso. Verificar 404 ou erro de sintaxe nesse ficheiro.');
+  const L = 'pt-PT';
+  return {
+    esc: s => String(s ?? '').replace(/[&<>"']/g, c =>
+      ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c])),
+    /* datas 'AAAA-MM-DD' sem hora são lidas como UTC pelo motor; forçar
+       meia-noite local evita saltar um dia em fusos a oeste de Greenwich */
+    D: s => new Date(String(s).length <= 10 ? s + 'T00:00:00' : s),
+    days(s){ return Math.ceil((this.D(s) - new Date()) / 864e5); },
+    fShort: new Intl.DateTimeFormat(L, { day:'2-digit', month:'2-digit', year:'numeric' }),
+    fLong:  new Intl.DateTimeFormat(L, { day:'numeric', month:'long', year:'numeric' }),
+    fStamp: new Intl.DateTimeFormat(L, { dateStyle:'long', timeStyle:'short' }),
+    get: (url, fb) => fetch(url, { cache:'no-cache' })
+      .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+      .catch(() => fb)
+  };
+})();
+
+/* eniaBars() é outro global de assets/enia.js. Sem animação, as barras
+   aparecem já na largura final — perde-se o efeito, não a informação. */
+const drawBars = window.eniaBars || (el => {
+  el.querySelectorAll('.brow__f').forEach(i => { i.style.width = (i.dataset.w || 0) + '%'; });
+});
 const $ = id => document.getElementById(id);
 
 const NEWS_SEED = { generated:null, items:[
@@ -289,6 +389,39 @@ const NEWS_SEED = { generated:null, items:[
   { title:'Finlândia ativa enforcement', summary:'A TRAFICOM iniciou operações. O que Portugal pode aprender com o primeiro regulador de IA plenamente operacional da UE.', source:'ENIA Analysis', date:'2026-07-15', url:'#benchmark' },
   { title:'Estado de preparação de Portugal, revisto', summary:'Relatório ENIA ajustado aos novos prazos do Digital Omnibus, com o cronograma reconstruído obrigação a obrigação.', source:'ENIA Publishing', date:'2026-07-14', url:'#prazos' }
 ]};
+
+/* ── limpeza de markup residual ───────────────────────────────────
+   Vários feeds institucionais, entre eles o da Comissão Europeia,
+   servem a descrição com HTML escapado dentro de CDATA. O sync
+   remove as tags ANTES de descodificar as entidades, pelo que
+   &lt;span&gt; sobrevive ao stripping e só depois se transforma em
+   <span> — que passa a ser texto visível no cartão.
+
+   A correção definitiva é inverter essa ordem em scripts/sync.mjs.
+   Esta função é a rede de segurança do lado do cliente: descodifica
+   e limpa em ciclo até estabilizar, para que um feed mal formado
+   nunca chegue ao ecrã como sopa de tags.                          */
+const clean = (s = '') => {
+  let t = String(s);
+  for (let i = 0; i < 3; i++) {
+    const antes = t;
+    t = t
+      .replace(/&(?:amp|#0*38);/gi, '&')
+      .replace(/&(?:lt|#0*60);/gi, '<')
+      .replace(/&(?:gt|#0*62);/gi, '>')
+      .replace(/&(?:quot|#0*34);/gi, '"')
+      .replace(/&(?:apos|#0*39);/gi, "'")
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/<[^>]*>/g, ' ');
+    if (t === antes) break;
+  }
+  return t.replace(/\s+/g, ' ').trim();
+};
+
+/* Corta na fronteira da palavra. O clamp CSS já limita a altura;
+   isto evita transportar 4 KB de texto por cartão para o DOM. */
+const cut = (s, n = 240) =>
+  s.length > n ? s.slice(0, n).replace(/\s+\S*$/, '') + '…' : s;
 
 /* barras genéricas */
 const bars = (el, rows, { max, unit = '%', hi = 30, me = null } = {}) => {
@@ -302,7 +435,7 @@ const bars = (el, rows, { max, unit = '%', hi = 30, me = null } = {}) => {
       <span class="brow__v tab">${String(r.value).replace('.', ',')}${unit}</span>
     </li>`;
   }).join('');
-  eniaBars(el);
+  drawBars(el);
 };
 
 const figs = (el, items) => {
@@ -393,7 +526,7 @@ function render(d, news){
       <span class="brow__t"><i class="brow__f" data-w="${(c.score / maxC * 100).toFixed(1)}"></i></span>
       <span class="brow__v tab">${c.score}</span>
     </li>`).join('');
-  eniaBars($('barsC'));
+  drawBars($('barsC'));
 
   /* ── sectores ── */
   bars($('barsS'), d.sectors, { max: 60, hi: 30, me: /Comunica/i });
@@ -457,12 +590,19 @@ function render(d, news){
   /* ── fontes ── */
   $('srcs').innerHTML = d.sources.map(s => `<div><h4>${E.esc(s.name)}</h4><p>${E.esc(s.url)}</p></div>`).join('');
 
-  /* ── feed ── */
-  $('feedList').innerHTML = (news.items || []).map(n => `
-    <li><a href="${E.esc(n.url)}"${/^https?:/.test(n.url) ? ' target="_blank" rel="noopener"' : ''}>
+  /* ── feed ──
+     Título e resumo passam por clean() antes de E.esc(): primeiro
+     tira-se o markup que veio da fonte, depois escapa-se o resultado
+     para o DOM. A ordem importa — inverter reintroduziria o problema. */
+  $('feedList').innerHTML = (news.items || []).map(n => {
+    const titulo = clean(n.title) || 'Sem título';
+    const resumo = cut(clean(n.summary));
+    const externo = /^https?:/.test(n.url || '');
+    return `<li><a href="${E.esc(n.url || '#')}"${externo ? ' target="_blank" rel="noopener"' : ''}>
       <span class="feed__d">${E.fShort.format(new Date(n.date))}</span>
-      <span class="feed__b"><h4>${E.esc(n.title)}</h4><p>${E.esc(n.summary)}</p></span>
-      <span class="feed__s">${E.esc(n.source)}</span></a></li>`).join('');
+      <span class="feed__b"><h4>${E.esc(titulo)}</h4><p>${E.esc(resumo || '—')}</p></span>
+      <span class="feed__s">${E.esc(n.source || '')}</span></a></li>`;
+  }).join('');
 }
 
 const series = () => fetch('data/history/series.json', { cache: 'no-cache' })
@@ -477,5 +617,4 @@ Promise.all([ E.get('data/radar.json', null), E.get('data/news.json', NEWS_SEED)
   });
 })();
 </script>
-</body>
-</html>
+
