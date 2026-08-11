@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-11T13:59:49.493Z",
+  "startedAt": "2026-08-11T17:01:25.814Z",
   "sources": [
     {
       "id": "eurlex-sparql",
@@ -68,10 +68,10 @@
     "[anacom-imprensa] fetch failed",
     "[anacom-consultas] fetch failed"
   ],
-  "finishedAt": "2026-08-11T14:00:43.302Z",
+  "finishedAt": "2026-08-11T17:02:09.848Z",
   "written": 12,
   "archive": {
-    "added": 12,
+    "added": 0,
     "total": 28
   }
 }
