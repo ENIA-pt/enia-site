@@ -1,0 +1,135 @@
+name: Sync + Deploy Hostinger
+ 
+# Corre todos os dias e sempre que carregar em "Run workflow" no separador Actions.
+# Nota: 23:17 UTC em vez de 23:00. À hora certa a fila do GitHub está congestionada
+# e os jobs agendados podem atrasar horas ou ser saltados.
+on:
+  schedule:
+    - cron: "17 23 * * *"
+  workflow_dispatch:
+ 
+# Sem isto, o push do bot é recusado com erro 403 e o job morre a meio.
+permissions:
+  contents: write
+ 
+concurrency:
+  group: enia-deploy
+  cancel-in-progress: false
+ 
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+ 
+      - name: Instalar Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+ 
+      - name: Instalar dependências
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm install
+          else
+            echo "Sem package.json, a saltar este passo."
+          fi
+ 
+      # RECOLHA DE DADOS
+      # continue-on-error: se o EUR-Lex ou a ANACOM estiverem em baixo,
+      # o site continua a ser publicado com os últimos dados bons.
+      # O job fica vermelho no fim e recebe email de aviso.
+ 
+      - name: Recolha de dados (sync)
+        id: sync
+        continue-on-error: true
+        run: node scripts/sync.mjs
+ 
+      - name: Regenerar bundle
+        id: bundle
+        continue-on-error: true
+        run: node scripts/bundle.mjs
+ 
+      - name: Regenerar build EN
+        id: i18n
+        continue-on-error: true
+        run: node scripts/i18n.mjs
+ 
+      # CARIMBO DE VERIFICAÇÃO
+      # Escreve sempre um ficheiro com a hora da execução, mesmo que
+      # nada tenha mudado nas fontes. Serve para duas coisas:
+      # 1) abrir enia.pt/data/_status.json no browser e ver logo se o cron correu
+      # 2) garantir commit diário, o que impede o GitHub de desactivar
+      #    o agendamento por inactividade ao fim de 60 dias
+ 
+      - name: Escrever carimbo de estado
+        run: |
+          mkdir -p data
+          cat > data/_status.json <<EOF
+          {
+            "last_run_utc": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "run_id": "${{ github.run_id }}",
+            "run_number": ${{ github.run_number }},
+            "trigger": "${{ github.event_name }}",
+            "sync": "${{ steps.sync.outcome }}",
+            "bundle": "${{ steps.bundle.outcome }}",
+            "i18n": "${{ steps.i18n.outcome }}"
+          }
+          EOF
+          cat data/_status.json
+ 
+      # COMMIT
+      # O "git diff --staged --quiet ||" é essencial: sem ele, num dia sem
+      # alterações regulatórias o git commit devolve código 1, o workflow
+      # aborta e o deploy nunca chega a correr.
+ 
+      - name: Guardar dados recolhidos no repositório
+        run: |
+          git config user.name  "enia-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/ en/ || true
+          git add -A || true
+          git diff --staged --quiet || git commit -m "sync: dados de $(date -u +%Y-%m-%d)"
+          git push || echo "Nada para enviar."
+ 
+      # PUBLICAÇÃO
+      # server-dir tem de terminar em barra.
+      # Se a conta FTP já abre dentro de public_html, usar "./" em vez de "public_html/".
+ 
+      - name: Deploy FTPS para Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          server-dir: public_html/
+          local-dir: ./
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.DS_Store
+            **/*.md
+            package-lock.json
+ 
+      # SINALIZAR FALHAS DE RECOLHA
+      # O site foi publicado, mas se alguma fonte falhou o job fica vermelho
+      # para gerar notificação por email.
+ 
+      - name: Marcar job como falhado se a recolha falhou
+        if: steps.sync.outcome == 'failure' || steps.bundle.outcome == 'failure' || steps.i18n.outcome == 'failure'
+        run: |
+          echo "Site publicado, mas houve falhas na recolha:"
+          echo "sync=${{ steps.sync.outcome }} bundle=${{ steps.bundle.outcome }} i18n=${{ steps.i18n.outcome }}"
+          exit 1
+ 
+
