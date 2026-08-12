@@ -1,8 +1,40 @@
 {
-  "generated": "2026-08-11T21:15:01.133Z",
+  "generated": "2026-08-12T05:20:30.109Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 81,
+  "count": 85,
   "items": [
+    {
+      "title": "Inferential Capability Does Not Determine Legal Scope",
+      "summary": "arXiv:2608.10601v1 Announce Type: new Abstract: Two instruments of EU digital law place inference at their centre and mean different things by it. Article 3(1) of the AI Act uses the capability to infer constitutively: it is the central feature separating the…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-12",
+      "url": "https://arxiv.org/abs/2608.10601"
+    },
+    {
+      "title": "Context and Symmetry in Auditing: A Case Study of Skeleton Inference in Motion Capture",
+      "summary": "arXiv:2608.10194v1 Announce Type: new Abstract: Humans are increasingly expected to interact with AI systems that observe and make inferences about them - but do these systems actually work? A standard approach to answering this question is AI auditing.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-12",
+      "url": "https://arxiv.org/abs/2608.10194"
+    },
+    {
+      "title": "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election",
+      "summary": "arXiv:2608.10773v1 Announce Type: new Abstract: The increasing use of Generative Artificial Intelligence (GenAI) in journalism raises concerns about possible detrimental effects both on journalism and its democratic function. We explore these risks through a…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-12",
+      "url": "https://arxiv.org/abs/2608.10773"
+    },
+    {
+      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+      "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer,…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-12",
+      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive"
+    },
     {
       "title": "EDUC_UOE_ENRS07 - \"Dataset: updated data\"",
       "summary": "Pupils enrolled in post-secondary non-tertiary education by programme orientation, sex, type of institution and intensity of participation",

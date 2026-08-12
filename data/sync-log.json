@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-11T21:14:05.305Z",
+  "startedAt": "2026-08-12T05:18:19.807Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -99,7 +99,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "id": "fra",
@@ -165,33 +165,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 16,
-      "kept": 1
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "fetch failed"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
-      "kept": 0
+      "kept": 0,
+      "error": "fetch failed"
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
-      "kept": 0
+      "kept": 0,
+      "error": "fetch failed"
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 1,
-      "kept": 0
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "fetch failed"
     },
     {
       "id": "dre-pt",
@@ -361,7 +365,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 30,
+      "items": 39,
       "kept": 3
     },
     {
@@ -384,9 +388,10 @@
       "id": "alan-turing",
       "tier": "9-investigacao",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
-      "kept": 0
+      "kept": 0,
+      "error": "HTTP 404"
     },
     {
       "id": "ai-now",
@@ -549,7 +554,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1123,
+      "items": 1124,
       "kept": 2
     },
     {
@@ -632,11 +637,15 @@
   "warnings": [
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
-    "[edps] HTTP 503",
+    "[edps] HTTP 404",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
+    "[anacom-noticias] fetch failed",
+    "[anacom-legislacao] fetch failed",
+    "[anacom-imprensa] fetch failed",
+    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -644,6 +653,7 @@
     "[iso] HTTP 403",
     "[oecd-ai] HTTP 404",
     "[coe-ai] HTTP 403",
+    "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
     "[anthropic-news] HTTP 404",
@@ -661,12 +671,12 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-11T21:15:01.134Z",
-  "recolhidos": 51,
-  "written": 51,
+  "finishedAt": "2026-08-12T05:20:30.110Z",
+  "recolhidos": 50,
+  "written": 50,
   "archive": {
-    "added": 5,
-    "curados": 37,
-    "total": 81
+    "added": 4,
+    "curados": 0,
+    "total": 85
   }
 }
