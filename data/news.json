@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T05:20:30.109Z",
+  "generated": "2026-08-13T05:24:15.821Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -9,6 +9,14 @@
       "tier": "14-enia",
       "date": "2026-07-14",
       "url": "radar.html#prazos"
+    },
+    {
+      "title": "Utiliza o Claude para produzir textos? Anthropic vai introduzir marca de água",
+      "summary": "A Anthropic vai introduzir uma marca de água nos textos produzidos pelo Claude, de forma a cumprir as exigências da Comissão Europeia no âmbito do AI Act, o plano de Bruxelas para regular a inteligência artificial (IA). A empresa norte-americana assinou o…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-12",
+      "url": "https://eco.sapo.pt/2026/08/12/utiliza-o-claude-para-produzir-textos-anthropic-vai-introduzir-marca-de-agua/"
     },
     {
       "title": "AI Therapy under the EU AI Act",
@@ -67,28 +75,28 @@
       "url": "https://artificialintelligenceact.eu/scientific-panel/?utm_source=rss&utm_medium=rss&utm_campaign=scientific-panel"
     },
     {
-      "title": "Short-term load forecasting under EU-AI Act Requirements in Safety-Critical Environments: Results from a 41-day live challenge on the aggregated German…",
-      "summary": "arXiv:2608.05018v2 Announce Type: replace Abstract: Short-term load forecasting (STLF) play a vital role in the electric power industry. It serves infrastructure that European and German law designate as critical. Determinism, reproducibility, and…",
+      "title": "Variable Selection in the Context of AI Fairness",
+      "summary": "arXiv:2608.11251v1 Announce Type: cross Abstract: Fairness in AI systems has become more important with recent regulatory demands, such as the EU AI Act. Traditional approaches often do not take into account philosophical ethics and social awareness. Variable…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-08-12",
-      "url": "https://arxiv.org/abs/2608.05018"
-    },
-    {
-      "title": "UGAF-ITS: A Standards Harmonization Framework and Validation Tool for Multi-Framework AI Governance in Distributed Intelligent Transportation Systems",
-      "summary": "arXiv:2604.22789v2 Announce Type: replace-cross Abstract: Organizations deploying AI-enabled Intelligent Transportation Systems face fragmented governance: ISO/IEC~42001 demands a certifiable management system, the EU AI Act imposes binding high-risk…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-12",
-      "url": "https://arxiv.org/abs/2604.22789"
+      "date": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.11251"
     },
     {
       "title": "Inferential Capability Does Not Determine Legal Scope",
-      "summary": "arXiv:2608.10601v1 Announce Type: new Abstract: Two instruments of EU digital law place inference at their centre and mean different things by it. Article 3(1) of the AI Act uses the capability to infer constitutively: it is the central feature separating the…",
-      "source": "arXiv cs.CY",
+      "summary": "arXiv:2608.10601v2 Announce Type: replace-cross Abstract: Two instruments of EU digital law place inference at their centre and mean different things by it. Article 3(1) of the AI Act uses the capability to infer constitutively: it is the central feature…",
+      "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "url": "https://arxiv.org/abs/2608.10601"
+    },
+    {
+      "title": "ANACOM participa em encontro de reguladores sobre Inteligência Artificial sustentável",
+      "summary": "Evento reuniu especialistas e representantes institucionais para debater infraestrutura digital, regulação e modelos de governança da IA.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-08-05",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1853671"
     },
     {
       "title": "Advancing responsible AI across Europe",
@@ -107,76 +115,84 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
     },
     {
-      "title": "Towards an Argumentative Foundation for Evaluative AI",
-      "summary": "arXiv:2608.07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against…",
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "summary": "arXiv:2608.11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-08-12",
-      "url": "https://arxiv.org/abs/2608.07473"
+      "date": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.11207"
     },
     {
-      "title": "Context and Symmetry in Auditing: A Case Study of Skeleton Inference in Motion Capture",
-      "summary": "arXiv:2608.10194v1 Announce Type: new Abstract: Humans are increasingly expected to interact with AI systems that observe and make inferences about them - but do these systems actually work? A standard approach to answering this question is AI auditing.…",
+      "title": "Methodologies for Improving the Quality of AI Tutoring in K-12 Education",
+      "summary": "arXiv:2608.11259v1 Announce Type: new Abstract: Many AI tutors leverage large language models (LLMs) today. Given that LLMs are opaque black boxes, robust evaluation and live experimentation to measure the impact of every change are essential. We pioneered…",
       "source": "arXiv cs.CY",
       "tier": "9-investigacao",
-      "date": "2026-08-12",
-      "url": "https://arxiv.org/abs/2608.10194"
+      "date": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.11259"
     },
     {
-      "title": "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election",
-      "summary": "arXiv:2608.10773v1 Announce Type: new Abstract: The increasing use of Generative Artificial Intelligence (GenAI) in journalism raises concerns about possible detrimental effects both on journalism and its democratic function. We explore these risks through a…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-12",
-      "url": "https://arxiv.org/abs/2608.10773"
+      "title": "Made by Google 2026: all the Pixel news and announcements",
+      "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google’s Gemini AI and other features. Google also…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-13",
+      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news"
     },
     {
-      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
-      "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer,…",
+      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+      "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump.…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-08-12",
-      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive"
+      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch"
     },
     {
-      "title": "Braga ganha em setembro residência universitária com 786 camas desde 94 euros por mês",
-      "summary": "Num investimento superior a 29 milhões de euros, a Residência Universitária Confiança — antiga fábrica de sabonetes –, abre em setembro deste ano com 786 camas. Com quartos desde 94 euros por mês, este novo equipamento será gerido pela Universidade do Minho…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-11",
-      "url": "https://eco.sapo.pt/2026/08/11/braga-ganha-em-setembro-residencia-universitaria-com-786-camas-desde-94-euros-por-mes/"
-    },
-    {
-      "title": "ChatGPT and Gemini both just passed 1 billion users",
-      "summary": "For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever. A billion users is a huge milestone, but Google…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-11",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
-    },
-    {
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
-      "summary": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
+      "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+      "summary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-08-11",
-      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/"
+      "date": "2026-08-12",
+      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/"
     },
     {
-      "title": "A anatomia do megaplano de 500 mil milhões da Nvidia com Wall Street",
-      "summary": "A Nvidia lançou um desafio a seis das maiores gestoras de capital do mundo para, em conjunto, desenharem um projeto de financiamento que pretende mobilizar mais de 500 mil milhões de dólares em capital para sustentar a construção de infraestruturas de…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-11",
-      "url": "https://eco.sapo.pt/especiais/a-anatomia-do-megaplano-de-500-mil-milhoes-da-nvidia-com-wall-street/"
-    },
-    {
-      "title": "Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations",
-      "summary": "Spotify is introducing “AI Persona” labels for artist profiles that represent AI-generated identities and will exclude their music from editorial, algorithmic, and personalized recommendations by default.",
+      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-08-11",
-      "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"
+      "date": "2026-08-12",
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
+    },
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-12",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/"
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "source": "Google DeepMind",
+      "tier": "12-industria",
+      "date": "2026-08-12",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+    },
+    {
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-12",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
+    },
+    {
+      "title": "Request for Information (RFI) on Modernizing the National Vulnerability Database in the Age of Artificial Intelligence",
+      "summary": "The National Institute of Standards and Technology (NIST) established and operates the National Vulnerability Database (NVD), which provides the U.S. government repository of standards-based vulnerability management data. NIST seeks stakeholder input on…",
+      "source": "Federal Register",
+      "tier": "8-jurisdicoes",
+      "date": "2026-08-12",
+      "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16371/request-for-information-rfi-on-modernizing-the-national-vulnerability-database-in-the-age-of"
     },
     {
       "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
@@ -195,22 +211,6 @@
       "url": "https://www.federalregister.gov/documents/2026/08/11/2026-16328/innovation-advisory-committee"
     },
     {
-      "title": "AI professors are negotiating the new realities of academic research",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-10",
-      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/"
-    },
-    {
-      "title": "What building an AI-native finance function taught me",
-      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-10",
-      "url": "https://openai.com/index/building-an-ai-native-finance-function"
-    },
-    {
       "title": "They said they would build AI safely. Then it went rogue.",
       "summary": "CSET’s Helen Toner shared her expert insight in an article published by The Washington Post. The article looks at recent incidents in which AI models from OpenAI, Anthropic, and Meta broke out of controlled testing environments and attempted to hack real…",
       "source": "CSET Georgetown",
@@ -225,22 +225,6 @@
       "tier": "2-comissao",
       "date": "2026-08-10",
       "url": "https://digital-strategy.ec.europa.eu/en/events/join-inaugural-d-tect-forum"
-    },
-    {
-      "title": "9-11 Response and Biometric Entry-Exit Fee for H-1B and L-1 Visas",
-      "summary": "The Department of Homeland Security (DHS) is amending the regulations concerning the 9-11 Response and Biometric Entry-Exit Fee for certain H-1B and L-1 Visas (9-11 Biometric Fee). The regulatory changes correct DHS's interpretation of statutory language to…",
-      "source": "Federal Register",
-      "tier": "8-jurisdicoes",
-      "date": "2026-08-10",
-      "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16231/9-11-response-and-biometric-entry-exit-fee-for-h-1b-and-l-1-visas"
-    },
-    {
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "summary": "—",
-      "source": "Google DeepMind",
-      "tier": "12-industria",
-      "date": "2026-08-06",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
     },
     {
       "title": "Chatbots & Democratic Decisionmakers – Guidelines",
