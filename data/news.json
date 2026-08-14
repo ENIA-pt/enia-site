@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T05:24:15.821Z",
+  "generated": "2026-08-14T05:22:12.634Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -9,14 +9,6 @@
       "tier": "14-enia",
       "date": "2026-07-14",
       "url": "radar.html#prazos"
-    },
-    {
-      "title": "Utiliza o Claude para produzir textos? Anthropic vai introduzir marca de água",
-      "summary": "A Anthropic vai introduzir uma marca de água nos textos produzidos pelo Claude, de forma a cumprir as exigências da Comissão Europeia no âmbito do AI Act, o plano de Bruxelas para regular a inteligência artificial (IA). A empresa norte-americana assinou o…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-12",
-      "url": "https://eco.sapo.pt/2026/08/12/utiliza-o-claude-para-produzir-textos-anthropic-vai-introduzir-marca-de-agua/"
     },
     {
       "title": "AI Therapy under the EU AI Act",
@@ -79,7 +71,7 @@
       "summary": "arXiv:2608.11251v1 Announce Type: cross Abstract: Fairness in AI systems has become more important with recent regulatory demands, such as the EU AI Act. Traditional approaches often do not take into account philosophical ethics and social awareness. Variable…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "url": "https://arxiv.org/abs/2608.11251"
     },
     {
@@ -87,16 +79,8 @@
       "summary": "arXiv:2608.10601v2 Announce Type: replace-cross Abstract: Two instruments of EU digital law place inference at their centre and mean different things by it. Article 3(1) of the AI Act uses the capability to infer constitutively: it is the central feature…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "url": "https://arxiv.org/abs/2608.10601"
-    },
-    {
-      "title": "ANACOM participa em encontro de reguladores sobre Inteligência Artificial sustentável",
-      "summary": "Evento reuniu especialistas e representantes institucionais para debater infraestrutura digital, regulação e modelos de governança da IA.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-08-05",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1853671"
     },
     {
       "title": "Advancing responsible AI across Europe",
@@ -119,56 +103,88 @@
       "summary": "arXiv:2608.11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "url": "https://arxiv.org/abs/2608.11207"
     },
     {
-      "title": "Methodologies for Improving the Quality of AI Tutoring in K-12 Education",
-      "summary": "arXiv:2608.11259v1 Announce Type: new Abstract: Many AI tutors leverage large language models (LLMs) today. Given that LLMs are opaque black boxes, robust evaluation and live experimentation to measure the impact of every change are essential. We pioneered…",
+      "title": "The AI Accountability Ecosystem in the Era of Language Models",
+      "summary": "arXiv:2608.12320v1 Announce Type: new Abstract: This article reviews and updates the framework for accountability in AI based on account- ability ecosystems. We update the framework in light of the latest developments since the release of Large Language…",
       "source": "arXiv cs.CY",
       "tier": "9-investigacao",
-      "date": "2026-08-13",
-      "url": "https://arxiv.org/abs/2608.11259"
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.12320"
     },
     {
-      "title": "Made by Google 2026: all the Pixel news and announcements",
-      "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google’s Gemini AI and other features. Google also…",
+      "title": "When AI Is Your Pastor: A Benchmark for Theological Triage and Pastoral Guidance in Large Language Models",
+      "summary": "arXiv:2608.12324v1 Announce Type: new Abstract: People increasingly ask large language models (LLMs) for counsel on questions of faith, doctrine, and pastoral care. These questions are not ordinary information requests. Some ask about core Christian beliefs,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.12324"
+    },
+    {
+      "title": "From Caveman to Expert Analyst: Energy Consumption of Variable LLM Tasks",
+      "summary": "arXiv:2608.12350v1 Announce Type: new Abstract: The energy demand growth and environmental impacts of artificial intelligence (AI) have generated substantial interest in supplying sufficient low-cost electricity for AI-driven data center development. Research…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.12350"
+    },
+    {
+      "title": "Microsoft is combining its Copilot apps ahead of a ‘super app’",
+      "summary": "Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single \"super app\" interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app,…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-08-13",
-      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news"
+      "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience"
     },
     {
-      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
-      "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump.…",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-13",
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/"
+    },
+    {
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-13",
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
+    },
+    {
+      "title": "Suno is trying to look more like a real music production tool",
+      "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-08-12",
-      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch"
+      "date": "2026-08-13",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects"
     },
     {
-      "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
-      "summary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-12",
-      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/"
-    },
-    {
-      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
-      "summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-12",
-      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
-    },
-    {
-      "title": "Scaling AI agents with trustworthy data",
-      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired…",
+      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the founding editors of Anyway, an…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-08-12",
-      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/"
+      "date": "2026-08-13",
+      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/"
+    },
+    {
+      "title": "The builder’s guide to GPT‑5.6",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-13",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6"
+    },
+    {
+      "title": "How kids feel about AI, in their own words",
+      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-13",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/"
     },
     {
       "title": "Putting sign language AI into users’ hands",
@@ -179,28 +195,12 @@
       "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
     },
     {
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-12",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
-    },
-    {
       "title": "Request for Information (RFI) on Modernizing the National Vulnerability Database in the Age of Artificial Intelligence",
       "summary": "The National Institute of Standards and Technology (NIST) established and operates the National Vulnerability Database (NVD), which provides the U.S. government repository of standards-based vulnerability management data. NIST seeks stakeholder input on…",
       "source": "Federal Register",
       "tier": "8-jurisdicoes",
       "date": "2026-08-12",
       "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16371/request-for-information-rfi-on-modernizing-the-national-vulnerability-database-in-the-age-of"
-    },
-    {
-      "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google researchers introduced the transformer,…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-11",
-      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/"
     },
     {
       "title": "Innovation Advisory Committee",
