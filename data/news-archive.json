@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-14T05:22:12.634Z",
+  "generated": "2026-08-15T00:01:09.125Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 107,
+  "count": 110,
   "items": [
     {
       "title": "The AI Accountability Ecosystem in the Era of Language Models",
@@ -26,6 +26,30 @@
       "tier": "9-investigacao",
       "date": "2026-08-14",
       "url": "https://arxiv.org/abs/2608.12350"
+    },
+    {
+      "title": "You can now turn off Google Gemini’s visible watermarks",
+      "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-14",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+    },
+    {
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-14",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/"
+    },
+    {
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-14",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/"
     },
     {
       "title": "Variable Selection in the Context of AI Fairness",

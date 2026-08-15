@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-14T05:19:52.318Z",
+  "startedAt": "2026-08-14T23:58:57.790Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -7,7 +7,7 @@
       "kind": "sparql",
       "ok": true,
       "items": 60,
-      "kept": 0
+      "kept": 8
     },
     {
       "id": "eurlex-oj-l",
@@ -331,7 +331,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 35,
+      "items": 38,
       "kept": 2
     },
     {
@@ -527,9 +527,10 @@
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
-      "kept": 0
+      "kept": 0,
+      "error": "HTTP 404"
     },
     {
       "id": "mlex",
@@ -622,7 +623,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1310,
+      "items": 1442,
       "kept": 0
     },
     {
@@ -656,6 +657,7 @@
     "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -671,12 +673,12 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-14T05:22:12.635Z",
-  "recolhidos": 48,
-  "written": 48,
+  "finishedAt": "2026-08-15T00:01:09.125Z",
+  "recolhidos": 49,
+  "written": 49,
   "archive": {
-    "added": 10,
+    "added": 3,
     "curados": 0,
-    "total": 107
+    "total": 110
   }
 }
