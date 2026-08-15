@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T00:01:09.125Z",
+  "generated": "2026-08-15T23:54:21.600Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -67,20 +67,20 @@
       "url": "https://artificialintelligenceact.eu/scientific-panel/?utm_source=rss&utm_medium=rss&utm_campaign=scientific-panel"
     },
     {
-      "title": "Variable Selection in the Context of AI Fairness",
-      "summary": "arXiv:2608.11251v1 Announce Type: cross Abstract: Fairness in AI systems has become more important with recent regulatory demands, such as the EU AI Act. Traditional approaches often do not take into account philosophical ethics and social awareness. Variable…",
+      "title": "Short-term load forecasting under EU-AI Act Requirements in Safety-Critical Environments: Results from a 41-day live challenge on the aggregated German…",
+      "summary": "arXiv:2608.05018v3 Announce Type: replace Abstract: Short-term load forecasting (STLF) plays a vital role in the electric power industry. It is relevant for critical infrastructure. STLF is no longer purely a performance and accuracy problem, because…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-08-14",
-      "url": "https://arxiv.org/abs/2608.11251"
+      "date": "2026-08-15",
+      "url": "https://arxiv.org/abs/2608.05018"
     },
     {
-      "title": "Inferential Capability Does Not Determine Legal Scope",
-      "summary": "arXiv:2608.10601v2 Announce Type: replace-cross Abstract: Two instruments of EU digital law place inference at their centre and mean different things by it. Article 3(1) of the AI Act uses the capability to infer constitutively: it is the central feature…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-14",
-      "url": "https://arxiv.org/abs/2608.10601"
+      "title": "ANACOM participa em encontro de reguladores sobre Inteligência Artificial sustentável",
+      "summary": "Evento reuniu especialistas e representantes institucionais para debater infraestrutura digital, regulação e modelos de governança da IA.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-08-05",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1853671"
     },
     {
       "title": "Advancing responsible AI across Europe",
@@ -91,7 +91,7 @@
       "url": "https://openai.com/index/advancing-responsible-ai-across-europe"
     },
     {
-      "title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending…",
+      "title": "Verordening (EU) 2024/1689 van het Europees Parlement en de Raad van 13 juni 2024 tot vaststelling van geharmoniseerde regels betreffende artificiële…",
       "summary": "—",
       "source": "EUR-Lex",
       "tier": "1-lei",
@@ -107,68 +107,60 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
     },
     {
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"
+    },
+    {
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
+    },
+    {
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
+    },
+    {
+      "title": "“O Digital Markets Act criou um monstro de burocracia para as empresas a que se aplica”",
+      "summary": "Ricardo Bordalo Junqueiro, sócio responsável da área de Concorrência & UE da Vieira de Almeida considera que o Direito da Concorrência tem acompanhado a evolução dos mercados, adaptando-se à digitalização, à inteligência artificial e às novas dinâmicas…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://eco.sapo.pt/entrevista/o-digital-markets-act-criou-um-monstro-de-burocracia-para-as-empresas-a-que-se-aplica/"
+    },
+    {
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "summary": "arXiv:2608.12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-15",
+      "url": "https://arxiv.org/abs/2608.12325"
+    },
+    {
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "summary": "arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-15",
+      "url": "https://arxiv.org/abs/2608.12346"
+    },
+    {
       "title": "You can now turn off Google Gemini’s visible watermarks",
       "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-08-14",
       "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
-    },
-    {
-      "title": "Google will now allow users to remove visible watermark from its AI generations",
-      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-14",
-      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/"
-    },
-    {
-      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
-      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark…",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-14",
-      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/"
-    },
-    {
-      "title": "Suno is trying to look more like a real music production tool",
-      "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-14",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects"
-    },
-    {
-      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
-      "summary": "arXiv:2608.11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-14",
-      "url": "https://arxiv.org/abs/2608.11207"
-    },
-    {
-      "title": "The AI Accountability Ecosystem in the Era of Language Models",
-      "summary": "arXiv:2608.12320v1 Announce Type: new Abstract: This article reviews and updates the framework for accountability in AI based on account- ability ecosystems. We update the framework in light of the latest developments since the release of Large Language…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-14",
-      "url": "https://arxiv.org/abs/2608.12320"
-    },
-    {
-      "title": "When AI Is Your Pastor: A Benchmark for Theological Triage and Pastoral Guidance in Large Language Models",
-      "summary": "arXiv:2608.12324v1 Announce Type: new Abstract: People increasingly ask large language models (LLMs) for counsel on questions of faith, doctrine, and pastoral care. These questions are not ordinary information requests. Some ask about core Christian beliefs,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-14",
-      "url": "https://arxiv.org/abs/2608.12324"
-    },
-    {
-      "title": "From Caveman to Expert Analyst: Energy Consumption of Variable LLM Tasks",
-      "summary": "arXiv:2608.12350v1 Announce Type: new Abstract: The energy demand growth and environmental impacts of artificial intelligence (AI) have generated substantial interest in supplying sufficient low-cost electricity for AI-driven data center development. Research…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-14",
-      "url": "https://arxiv.org/abs/2608.12350"
     },
     {
       "title": "The Download: kids’ thoughts on AI, and female clones of male mice",

@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-14T23:58:57.790Z",
+  "startedAt": "2026-08-15T23:53:21.371Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -99,7 +99,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "id": "fra",
@@ -165,37 +165,33 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 14,
+      "kept": 3
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "kept": 0
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 1,
+      "kept": 0
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "kept": 0
     },
     {
       "id": "dre-pt",
@@ -331,7 +327,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 38,
+      "items": 37,
       "kept": 2
     },
     {
@@ -357,7 +353,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 306,
+      "items": 299,
       "kept": 3
     },
     {
@@ -365,8 +361,8 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 34,
-      "kept": 3
+      "items": 0,
+      "kept": 0
     },
     {
       "id": "stanford-hai",
@@ -521,7 +517,7 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0
+      "kept": 1
     },
     {
       "id": "publico-tec",
@@ -623,7 +619,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1442,
+      "items": 1435,
       "kept": 0
     },
     {
@@ -638,15 +634,11 @@
   "warnings": [
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
-    "[edps] HTTP 404",
+    "[edps] HTTP 403",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
-    "[anacom-noticias] fetch failed",
-    "[anacom-legislacao] fetch failed",
-    "[anacom-imprensa] fetch failed",
-    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -673,12 +665,12 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-15T00:01:09.125Z",
-  "recolhidos": 49,
-  "written": 49,
+  "finishedAt": "2026-08-15T23:54:21.600Z",
+  "recolhidos": 48,
+  "written": 48,
   "archive": {
-    "added": 3,
+    "added": 6,
     "curados": 0,
-    "total": 110
+    "total": 116
   }
 }

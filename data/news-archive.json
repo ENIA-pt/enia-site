@@ -1,8 +1,56 @@
 {
-  "generated": "2026-08-15T00:01:09.125Z",
+  "generated": "2026-08-15T23:54:21.600Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 110,
+  "count": 116,
   "items": [
+    {
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"
+    },
+    {
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
+    },
+    {
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
+    },
+    {
+      "title": "“O Digital Markets Act criou um monstro de burocracia para as empresas a que se aplica”",
+      "summary": "Ricardo Bordalo Junqueiro, sócio responsável da área de Concorrência & UE da Vieira de Almeida considera que o Direito da Concorrência tem acompanhado a evolução dos mercados, adaptando-se à digitalização, à inteligência artificial e às novas dinâmicas…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-15",
+      "url": "https://eco.sapo.pt/entrevista/o-digital-markets-act-criou-um-monstro-de-burocracia-para-as-empresas-a-que-se-aplica/"
+    },
+    {
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "summary": "arXiv:2608.12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-15",
+      "url": "https://arxiv.org/abs/2608.12325"
+    },
+    {
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "summary": "arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-15",
+      "url": "https://arxiv.org/abs/2608.12346"
+    },
     {
       "title": "The AI Accountability Ecosystem in the Era of Language Models",
       "summary": "arXiv:2608.12320v1 Announce Type: new Abstract: This article reviews and updates the framework for accountability in AI based on account- ability ecosystems. We update the framework in light of the latest developments since the release of Large Language…",
