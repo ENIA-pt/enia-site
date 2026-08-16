@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T23:54:21.600Z",
+  "generated": "2026-08-16T23:54:56.116Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -67,22 +67,6 @@
       "url": "https://artificialintelligenceact.eu/scientific-panel/?utm_source=rss&utm_medium=rss&utm_campaign=scientific-panel"
     },
     {
-      "title": "Short-term load forecasting under EU-AI Act Requirements in Safety-Critical Environments: Results from a 41-day live challenge on the aggregated German…",
-      "summary": "arXiv:2608.05018v3 Announce Type: replace Abstract: Short-term load forecasting (STLF) plays a vital role in the electric power industry. It is relevant for critical infrastructure. STLF is no longer purely a performance and accuracy problem, because…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-15",
-      "url": "https://arxiv.org/abs/2608.05018"
-    },
-    {
-      "title": "ANACOM participa em encontro de reguladores sobre Inteligência Artificial sustentável",
-      "summary": "Evento reuniu especialistas e representantes institucionais para debater infraestrutura digital, regulação e modelos de governança da IA.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-08-05",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1853671"
-    },
-    {
       "title": "Advancing responsible AI across Europe",
       "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
       "source": "OpenAI",
@@ -91,7 +75,7 @@
       "url": "https://openai.com/index/advancing-responsible-ai-across-europe"
     },
     {
-      "title": "Verordening (EU) 2024/1689 van het Europees Parlement en de Raad van 13 juni 2024 tot vaststelling van geharmoniseerde regels betreffende artificiële…",
+      "title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending…",
       "summary": "—",
       "source": "EUR-Lex",
       "tier": "1-lei",
@@ -107,28 +91,28 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
     },
     {
-      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-      "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-08-15",
-      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"
+      "date": "2026-08-16",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+    },
+    {
+      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-16",
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/"
     },
     {
       "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
       "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
-    },
-    {
-      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-15",
-      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
     },
     {
       "title": "“O Digital Markets Act criou um monstro de burocracia para as empresas a que se aplica”",
@@ -137,22 +121,6 @@
       "tier": "11-imprensa",
       "date": "2026-08-15",
       "url": "https://eco.sapo.pt/entrevista/o-digital-markets-act-criou-um-monstro-de-burocracia-para-as-empresas-a-que-se-aplica/"
-    },
-    {
-      "title": "Position: Reasoning is a Learnable Rule-Based Process",
-      "summary": "arXiv:2608.12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-15",
-      "url": "https://arxiv.org/abs/2608.12325"
-    },
-    {
-      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
-      "summary": "arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-15",
-      "url": "https://arxiv.org/abs/2608.12346"
     },
     {
       "title": "You can now turn off Google Gemini’s visible watermarks",
