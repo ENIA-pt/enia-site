@@ -1,8 +1,120 @@
 {
-  "generated": "2026-08-16T23:54:56.116Z",
+  "generated": "2026-08-17T23:57:37.758Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 118,
+  "count": 132,
   "items": [
+    {
+      "title": "Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation",
+      "summary": "arXiv:2608.13754v1 Announce Type: new Abstract: The EU AI Act requires providers of high-risk systems to file technical documentation describing how the system reaches its decisions. Mechanistic interpretability is the obvious source of such evidence, and…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.13754"
+    },
+    {
+      "title": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
+      "summary": "The greatest invention in pet tech in recent years is the litter robot. A machine that scoops your kitties' poop so you don't have to - what else could a cat owner possibly want? How about insights into your kitty's litter box usage that could flag health…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-17",
+      "url": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review"
+    },
+    {
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "summary": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-17",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+    },
+    {
+      "title": "What Flock’s defenders are missing",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US,…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-17",
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/"
+    },
+    {
+      "title": "“IA, vamos conversar?” junta Carlão e Bárbara Tinoco para dar música à Staples",
+      "summary": "A Staples centra a sua campanha de regresso às aulas numa conversa sobre a inteligência artificial (IA) nas escolas. A marca procura reforçar assim o seu posicionamento de campanhas de início de ano letivo assentes em temas com impacto social. Sob o mote “IA,…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-17",
+      "url": "https://eco.sapo.pt/2026/08/17/ia-vamos-conversar-junta-carlao-e-barbara-tinoco-para-dar-musica-a-staples/"
+    },
+    {
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-17",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/"
+    },
+    {
+      "title": "Anthropic explains how Claude’s invisible text watermarks will work",
+      "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-17",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
+    },
+    {
+      "title": "De FRIA voor AI-systemen komt eraan: bereid u voor",
+      "summary": "Bent u een overheidsorganisatie of een private organisatie die publieke diensten levert? En bent u van plan een AI-systeem met een hoog risico te gaan gebruiken? Of gaat u als publieke of private organisatie een beoordelingssysteem voor financiële risico’s…",
+      "source": "Autoriteit Persoonsgegevens",
+      "tier": "4-dados",
+      "date": "2026-08-17",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/de-fria-voor-ai-systemen-komt-eraan-bereid-u-voor"
+    },
+    {
+      "title": "The Defender’s Window",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-17",
+      "url": "https://openai.com/index/the-defenders-window"
+    },
+    {
+      "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+      "summary": "arXiv:2608.13565v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation. Despite their widespread adoption, the relative importance of…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.13565"
+    },
+    {
+      "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+      "summary": "arXiv:2608.13567v1 Announce Type: new Abstract: The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.13567"
+    },
+    {
+      "title": "Language-Specific Gaps in AI Safety Training Datasets",
+      "summary": "arXiv:2608.13695v1 Announce Type: new Abstract: Large language model providers routinely cite multilingual safety benchmarks spanning a dozen or more languages as evidence that their models are safe for non-English-speaking users. We show that these…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.13695"
+    },
+    {
+      "title": "Reading Between The Lines: Modeling and Evaluating Behavioral Realism in Legal Simulation",
+      "summary": "arXiv:2608.13712v1 Announce Type: new Abstract: Deposition training requires attorneys to manage dynamic witness behavior, yet legal-AI evaluations largely focus on factual accuracy, reasoning, or response-level plausibility. We introduce WitnessSim, a…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.13712"
+    },
+    {
+      "title": "Designing Inclusive Crypto-Asset Dispute Resolution A Hybrid AI and Smart Contract Online Dispute Resolution Framework for Vulnerable Users",
+      "summary": "arXiv:2608.14356v1 Announce Type: new Abstract: The growing use of crypto-assets has generated disputes that sit uneasily within existing legal redress mechanisms. Their resolution is complicated by the technical features of blockchain transactions, the…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.14356"
+    },
     {
       "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
       "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",

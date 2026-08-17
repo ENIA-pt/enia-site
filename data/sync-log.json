@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-16T23:52:31.774Z",
+  "startedAt": "2026-08-17T23:56:36.038Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -165,37 +165,33 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 15,
+      "kept": 3
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "kept": 0
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 1,
+      "kept": 0
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "kept": 0
     },
     {
       "id": "dre-pt",
@@ -331,7 +327,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 34,
+      "items": 32,
       "kept": 2
     },
     {
@@ -357,16 +353,16 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0
+      "items": 268,
+      "kept": 3
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0
+      "items": 24,
+      "kept": 3
     },
     {
       "id": "stanford-hai",
@@ -497,7 +493,7 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 2
+      "kept": 1
     },
     {
       "id": "techcrunch-ai",
@@ -554,7 +550,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1129,
+      "items": 1132,
       "kept": 2
     },
     {
@@ -622,7 +618,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1435,
+      "items": 1343,
       "kept": 0
     },
     {
@@ -642,10 +638,6 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
-    "[anacom-noticias] fetch failed",
-    "[anacom-legislacao] fetch failed",
-    "[anacom-imprensa] fetch failed",
-    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -671,12 +663,12 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-16T23:54:56.116Z",
-  "recolhidos": 44,
-  "written": 44,
+  "finishedAt": "2026-08-17T23:57:37.759Z",
+  "recolhidos": 50,
+  "written": 50,
   "archive": {
-    "added": 2,
+    "added": 14,
     "curados": 0,
-    "total": 118
+    "total": 132
   }
 }
