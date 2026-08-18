@@ -1,8 +1,144 @@
 {
-  "generated": "2026-08-17T23:57:37.758Z",
+  "generated": "2026-08-18T23:58:46.486Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 132,
+  "count": 149,
   "items": [
+    {
+      "title": "Brasileira Darede escolhe Lisboa como “hub europeu” e vai contratar mais 10 pessoas",
+      "summary": "A consultora tecnológica brasileira Darede, especializada em cloud, inteligência artificial (IA) e transformação digital, está a reforçar a sua operação em Portugal, dois anos após a entrada neste mercado, e escolheu-o como hub europeu a partir do qual será…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://eco.sapo.pt/2026/08/18/brasileira-darede-escolhe-lisboa-como-hub-europeu-e-vai-contratar-mais-10-pessoas/"
+    },
+    {
+      "title": "Position: AI Governance Needs ISO-like Interoperability Protocols, Not Just Laws",
+      "summary": "arXiv:2608.14568v1 Announce Type: new Abstract: As Artificial Intelligence (AI) systems become deeply integrated into critical global infrastructure, the urgency for robust governance frameworks has intensified. However, current approaches, led by…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-18",
+      "url": "https://arxiv.org/abs/2608.14568"
+    },
+    {
+      "title": "Qualifying and Quantifying Risk Under the EU AI Act",
+      "summary": "arXiv:2608.08564v2 Announce Type: replace Abstract: The EU AI Act uses a risk-based approach to regulate AI systems, calibrating the intensity of regulation according to the risks they pose. While the term 'risk' implies quantification, resulting from the…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-18",
+      "url": "https://arxiv.org/abs/2608.08564"
+    },
+    {
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/"
+    },
+    {
+      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+      "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai"
+    },
+    {
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+    },
+    {
+      "title": "Strengthening democratic oversight in national security",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-18",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+    },
+    {
+      "title": "Ferramentas de Inteligência Artificial já são usadas por 85% dos consumidores de luxo",
+      "summary": "Os clientes do segmento de luxo estimam que 39% das suas compras venham a ser realizadas com a mediação de um agente de Inteligência Artificial em 2030, segundo um estudo da consultora McKinsey. E têm boas razões para o prever: 85% destes consumidores já…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://eco.sapo.pt/2026/08/18/ferramentas-de-inteligencia-artificial-ja-sao-usadas-por-85-dos-consumidores-de-luxo/"
+    },
+    {
+      "title": "The A.I.s Are Already Out of Control",
+      "summary": "CSET’s Helen Toner shared her expert insight in an interview with The New York Times. The conversation examines recent incidents involving AI systems hacking, deceiving humans, and coordinating with other AI agents, as well as concerns about the ability of…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-08-18",
+      "url": "https://cset.georgetown.edu/article/the-a-i-s-are-already-out-of-control/"
+    },
+    {
+      "title": "Etched’s valuation doubles to $21B in a month",
+      "summary": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
+    },
+    {
+      "title": "The AI Ethics Brief #197: Terms Set Upstream",
+      "summary": "Enterprises are discovering their AI provider is also a competitor. Chinese users discovered their companions were never theirs. Source",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-08-18",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-197-terms-set-upstream/"
+    },
+    {
+      "title": "The Download: how people really use AI, and Flock’s design choices",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We still don’t know how people are really using AI AI companies like Anthropic and OpenAI regularly publish reports on…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/"
+    },
+    {
+      "title": "We still don’t know how people are really using AI",
+      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-18",
+      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/"
+    },
+    {
+      "title": "Call for tenders: Study on how online marketplace design influences user behaviour",
+      "summary": "Call for tenders: Study on how online marketplace design influences user behaviour Anonymous (not verified) Tue, 08/18/2026 - 11:13 Opening: 17 August 2026 Closing: 23 September 2026 The study will explore users' interactions with features mandated by the…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-08-18",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-study-how-online-marketplace-design-influences-user-behaviour"
+    },
+    {
+      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+      "summary": "arXiv:2608.14550v1 Announce Type: new Abstract: AI efficiency has recently taken the spotlight in both academy and industry due to massive model scales, high energy demands, and environmental costs. While reporting Floating Point Operations (FLOPs) is a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-18",
+      "url": "https://arxiv.org/abs/2608.14550"
+    },
+    {
+      "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+      "summary": "arXiv:2608.14552v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and uncertainty. We developed a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-18",
+      "url": "https://arxiv.org/abs/2608.14552"
+    },
+    {
+      "title": "Psychological Determinants of Academic Integrity in the Use of Generative AI in Higher Education",
+      "summary": "arXiv:2608.14605v1 Announce Type: new Abstract: This paper examines the psychological determinants that shape academically honest and dishonest uses of generative artificial intelligence (GenAI) in higher education. Rather than treating academic misconduct as…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-18",
+      "url": "https://arxiv.org/abs/2608.14605"
+    },
     {
       "title": "Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation",
       "summary": "arXiv:2608.13754v1 Announce Type: new Abstract: The EU AI Act requires providers of high-risk systems to file technical documentation describing how the system reaches its decisions. Mechanistic interpretability is the obvious source of such evidence, and…",
