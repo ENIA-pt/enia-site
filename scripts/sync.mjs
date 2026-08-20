@@ -289,10 +289,21 @@ async function main() {
         .filter(i => i._manual || src.always || filtro.passa(`${i.title} ${i.summary}`))
         .filter(i => i._manual || i.date >= since)
         .map(i => ({ ...i, _peso: filtro.peso(`${i.title} ${i.summary}`), _tier: src.tier, _src: src.id }))
-        .sort((a, b) => b._peso - a._peso || b.date - a.date)
+        /* DATA primeiro, peso só como desempate.
+           A versão anterior tinha isto invertido, e era essa a causa de o
+           feed congelar: um item de julho com 3 palavras de boost («AI Act»
+           + «Article 50» + «2024/1689») vencia sempre um item de agosto com
+           1, ocupava a quota da fonte e nunca mais saía. Num radar diário
+           a recência é o critério; a relevância desempata. */
+        .sort((a, b) => b.date - a.date || b._peso - a._peso)
         .slice(0, quota);
 
       entry.kept = relevantes.length;
+      /* Data do item mais novo desta fonte. É o indicador que responde
+         num relance à pergunta «esta fonte ainda está viva?». */
+      entry.maisRecente = relevantes.length
+        ? new Date(Math.max(...relevantes.map(i => +i.date))).toISOString().slice(0, 10)
+        : null;
       pool.push(...relevantes);
     } catch (e) {
       entry.error = e.message;
@@ -303,8 +314,14 @@ async function main() {
 
   const seen = new Set();
   const chave = (i) => (i.url || i.title).toLowerCase().replace(/[?#].*$/, '');
+  /* Um item fixado (pin) só se mantém no topo enquanto for recente. Passados
+     PIN_DIAS volta à fila normal — senão um destaque de julho fica a abrir
+     uma secção intitulada «o que mudou desde ontem» durante meses. */
+  const PIN_DIAS = 10;
+  const fixo = i => (i.pin && (Date.now() - i.date) < PIN_DIAS * 864e5) ? 1 : 0;
+
   const todos = pool
-    .sort((a, b) => (b.pin ? 1 : 0) - (a.pin ? 1 : 0) || b._peso - a._peso || b.date - a.date)
+    .sort((a, b) => fixo(b) - fixo(a) || b.date - a.date || b._peso - a._peso)
     .filter(i => { const k = chave(i); if (seen.has(k)) return false; seen.add(k); return true; });
 
   const doFeed = todos.slice(0, cfg.max_items ?? 60);
@@ -331,6 +348,8 @@ async function main() {
   log.finishedAt = new Date().toISOString();
   log.recolhidos = todos.length;
   log.written = news.items.length;
+  log.maisRecente = news.items.length ? news.items[0].date : null;
+  log.traducao = process.env.ANTHROPIC_API_KEY ? 'activa' : 'DESLIGADA (sem ANTHROPIC_API_KEY)';
 
   if (!news.items.length) {
     log.warnings.push('Recolha vazia — data/news.json foi preservado.');
@@ -385,6 +404,18 @@ async function main() {
   const activas = log.sources.filter(s => s.ok).length;
   const falhadas = log.sources.filter(s => s.error).length;
   console.log(`✓ ${activas} fontes ok · ${falhadas} falhadas · ${log.desligadas.length} desligadas (watch)`);
+  console.log(`✓ item mais recente no feed: ${log.maisRecente} · tradução: ${log.traducao}`);
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.warn('');
+    console.warn('════════════════════════════════════════════════════════════');
+    console.warn(' TRADUÇÃO DESLIGADA — ANTHROPIC_API_KEY não chegou ao script');
+    console.warn(' As notícias ficam na língua original da fonte.');
+    console.warn(' Verificar: (1) segredo criado no repositório, e (2) bloco');
+    console.warn(' env: no passo de sync do workflow. Faltar o segundo é o');
+    console.warn(' erro mais comum: o segredo existe mas nunca é passado.');
+    console.warn('════════════════════════════════════════════════════════════');
+    console.warn('');
+  }
   console.log(`✓ ${todos.length} itens relevantes · ${news.items.length} no feed · ${added} novos no arquivo (${archive.count} no total)`);
   if (curados) console.log(`✓ ${curados} itens antigos do arquivo limpos de markup residual`);
   if (log.warnings.length) console.warn('⚠ ' + log.warnings.join('\n⚠ '));
