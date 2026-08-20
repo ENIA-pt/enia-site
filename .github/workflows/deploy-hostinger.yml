@@ -1,14 +1,14 @@
 name: Sync + Deploy Hostinger
  
 # Corre todos os dias e sempre que carregar em "Run workflow" no separador Actions.
-# Nota: 23:17 UTC em vez de 23:00. À hora certa a fila do GitHub está congestionada
-# e os jobs agendados podem atrasar horas ou ser saltados.
+# 23:17 UTC em vez de 23:00: à hora certa a fila de jobs agendados do GitHub
+# congestiona e as execuções atrasam ou são simplesmente saltadas.
 on:
   schedule:
     - cron: "17 23 * * *"
   workflow_dispatch:
  
-# Sem isto, o push do bot é recusado com erro 403 e o job morre a meio.
+# Sem isto, o push do bot é recusado com 403 e o job morre antes do deploy.
 permissions:
   contents: write
  
@@ -41,14 +41,57 @@ jobs:
             echo "Sem package.json, a saltar este passo."
           fi
  
-      # RECOLHA DE DADOS
-      # continue-on-error: se o EUR-Lex ou a ANACOM estiverem em baixo,
-      # o site continua a ser publicado com os últimos dados bons.
-      # O job fica vermelho no fim e recebe email de aviso.
+      # ══════════════════════════════════════════════════════════════
+      # VERIFICAÇÃO DE SEGREDOS
+      # Confirma a presença de cada segredo sem nunca revelar o valor:
+      # imprime apenas o número de caracteres. Existir no repositório e
+      # chegar ao script são coisas diferentes, e é essa diferença que
+      # este passo torna visível.
+      # ══════════════════════════════════════════════════════════════
+      - name: Verificar segredos
+        env:
+          A: ${{ secrets.ANTHROPIC_API_KEY }}
+          S: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          falta=0
+          for par in "ANTHROPIC_API_KEY:$A" "FTP_SERVER:$S" "FTP_USERNAME:$U" "FTP_PASSWORD:$P"; do
+            nome="${par%%:*}"; val="${par#*:}"
+            if [ -z "$val" ]; then
+              echo "✗ $nome AUSENTE"
+              falta=1
+            else
+              echo "✓ $nome presente (${#val} caracteres)"
+            fi
+          done
+          if [ -z "$A" ]; then
+            echo "::warning title=Tradução desligada::ANTHROPIC_API_KEY ausente. As notícias vão ficar na língua original da fonte."
+          fi
+          if [ "$falta" = "1" ]; then
+            echo "Alguns segredos faltam. Ver Settings → Secrets and variables → Actions."
+          fi
  
+      # ══════════════════════════════════════════════════════════════
+      # RECOLHA DE DADOS
+      #
+      # O bloco `env` abaixo é OBRIGATÓRIO e a sua ausência era o bug.
+      # Os segredos do GitHub não entram automaticamente no ambiente do
+      # processo: têm de ser passados explicitamente, passo a passo.
+      # Sem esta linha, process.env.ANTHROPIC_API_KEY é undefined, o
+      # sync salta a reescrita editorial e as notícias saem em inglês —
+      # mesmo com o segredo correctamente criado no repositório.
+      #
+      # continue-on-error: se o EUR-Lex ou a ANACOM estiverem em baixo,
+      # o site é publicado com os últimos dados bons e o job fica
+      # vermelho no fim para gerar notificação por email.
+      # ══════════════════════════════════════════════════════════════
       - name: Recolha de dados (sync)
         id: sync
         continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ENIA_MODEL: claude-sonnet-5
         run: node scripts/sync.mjs
  
       - name: Regenerar bundle
@@ -60,20 +103,67 @@ jobs:
         id: i18n
         continue-on-error: true
         run: node scripts/i18n.mjs
-
-      - name: Regenerar histórico de notícias
-        id: history
-        continue-on-error: true
-        run: node scripts/history.mjs
  
-      # CARIMBO DE VERIFICAÇÃO
-      # Escreve sempre um ficheiro com a hora da execução, mesmo que
-      # nada tenha mudado nas fontes. Serve para duas coisas:
-      # 1) abrir enia.pt/data/_status.json no browser e ver logo se o cron correu
-      # 2) garantir commit diário, o que impede o GitHub de desactivar
-      #    o agendamento por inactividade ao fim de 60 dias
+      # ══════════════════════════════════════════════════════════════
+      # RESUMO NO SEPARADOR ACTIONS
+      # Lê data/sync-log.json e escreve as três respostas que interessam
+      # na página do run, sem obrigar a abrir logs: quantas fontes
+      # responderam, qual a data do item mais recente e se a tradução
+      # esteve activa. É o painel de controlo diário.
+      # ══════════════════════════════════════════════════════════════
+      - name: Escrever resumo da recolha
+        if: always()
+        run: |
+          node -e '
+            const fs = require("fs");
+            let L;
+            try { L = JSON.parse(fs.readFileSync("data/sync-log.json", "utf8")); }
+            catch { console.log("Sem data/sync-log.json — o sync não chegou a escrever."); process.exit(0); }
  
+            const ok  = (L.sources||[]).filter(s => s.ok).length;
+            const err = (L.sources||[]).filter(s => s.error);
+            const off = (L.desligadas||[]).length;
+ 
+            const li = [];
+            li.push("## Recolha de " + new Date().toISOString().slice(0,10));
+            li.push("");
+            li.push("| | |");
+            li.push("|---|---|");
+            li.push("| Fontes com resposta | " + ok + " |");
+            li.push("| Fontes falhadas | " + err.length + " |");
+            li.push("| Fontes desligadas (watch) | " + off + " |");
+            li.push("| Itens relevantes | " + (L.recolhidos ?? "—") + " |");
+            li.push("| No feed | " + (L.written ?? "—") + " |");
+            li.push("| Item mais recente | **" + (L.maisRecente ?? "—") + "** |");
+            li.push("| Arquivo (total) | " + (L.archive?.total ?? "—") + " |");
+            li.push("| Tradução pt-PT | **" + (L.traducao ?? "—") + "** |");
+            li.push("");
+ 
+            const vivas = (L.sources||[]).filter(s => s.ok && s.kept > 0)
+              .sort((a,b) => String(b.maisRecente||"").localeCompare(String(a.maisRecente||"")));
+            if (vivas.length) {
+              li.push("### Fontes que contribuíram");
+              li.push("");
+              li.push("| Fonte | Itens | Mais recente |");
+              li.push("|---|---|---|");
+              for (const s of vivas) li.push("| " + s.id + " | " + s.kept + " | " + (s.maisRecente||"—") + " |");
+              li.push("");
+            }
+            if (err.length) {
+              li.push("### Fontes falhadas");
+              li.push("");
+              for (const s of err) li.push("- `" + s.id + "` — " + s.error);
+              li.push("");
+            }
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, li.join("\n") + "\n");
+          '
+ 
+      # Carimbo verificável no próprio site: enia.pt/data/_status.json
+      # diz a hora exacta da última execução. Serve também de commit
+      # diário, o que impede o GitHub de desactivar o agendamento por
+      # inactividade ao fim de 60 dias.
       - name: Escrever carimbo de estado
+        if: always()
         run: |
           mkdir -p data
           cat > data/_status.json <<EOF
@@ -89,24 +179,19 @@ jobs:
           EOF
           cat data/_status.json
  
-      # COMMIT
       # O "git diff --staged --quiet ||" é essencial: sem ele, num dia sem
-      # alterações regulatórias o git commit devolve código 1, o workflow
-      # aborta e o deploy nunca chega a correr.
- 
+      # alterações o git commit devolve 1, o workflow aborta e o deploy
+      # nunca corre. Ou seja, falhava precisamente nos dias calmos.
       - name: Guardar dados recolhidos no repositório
         run: |
           git config user.name  "enia-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A data/ en/ || true
-          git add -A || true
+          git add -A
           git diff --staged --quiet || git commit -m "sync: dados de $(date -u +%Y-%m-%d)"
           git push || echo "Nada para enviar."
  
-      # PUBLICAÇÃO
-      # server-dir tem de terminar em barra.
-      # Se a conta FTP já abre dentro de public_html, usar "./" em vez de "public_html/".
- 
+      # server-dir tem de terminar em barra. Se a conta FTP já abre dentro
+      # de public_html, usar "./" em vez de "public_html/".
       - name: Deploy FTPS para Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -126,10 +211,8 @@ jobs:
             **/*.md
             package-lock.json
  
-      # SINALIZAR FALHAS DE RECOLHA
-      # O site foi publicado, mas se alguma fonte falhou o job fica vermelho
-      # para gerar notificação por email.
- 
+      # O site foi publicado; se alguma etapa de recolha falhou, o job
+      # fica vermelho para gerar notificação.
       - name: Marcar job como falhado se a recolha falhou
         if: steps.sync.outcome == 'failure' || steps.bundle.outcome == 'failure' || steps.i18n.outcome == 'failure'
         run: |
@@ -137,4 +220,12 @@ jobs:
           echo "sync=${{ steps.sync.outcome }} bundle=${{ steps.bundle.outcome }} i18n=${{ steps.i18n.outcome }}"
           exit 1
  
+
+
+
+
+
+
+
+
 
