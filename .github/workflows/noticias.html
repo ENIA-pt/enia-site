@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-page="noticias">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Notícias e publicações · ENIA</title>
+<meta name="description" content="Arquivo completo do que a ENIA publica sobre o AI Act e a inteligência artificial em Portugal e na Europa. Pesquisa por texto, filtro por fonte e calendário de acesso rápido.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/noticias.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/noticias.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/noticias.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/noticias.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Notícias e publicações · ENIA">
+<meta property="og:description" content="O arquivo regulatório completo, dia a dia, com pesquisa e calendário.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="assets/enia.css">
+<style>
+  .board{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:clamp(26px,3.4vw,60px);align-items:start}
+
+  /* ── calendário ── */
+  .cal{background:var(--card-bg);color:var(--card-fg);border:1px solid var(--card-line);padding:clamp(16px,1.6vw,22px);position:sticky;top:clamp(16px,3vh,30px)}
+  .cal__hd{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}
+  .cal__hd b{font-size:.92rem;font-weight:500;letter-spacing:-.01em;text-transform:capitalize}
+  .cal__nav{display:flex;gap:4px}
+  .cal__nav button{width:28px;height:28px;border:1px solid var(--card-line);display:grid;place-items:center;transition:border-color .25s,color .25s}
+  .cal__nav button:hover:not(:disabled){border-color:var(--card-num);color:var(--card-num)}
+  .cal__nav button:disabled{opacity:.25;cursor:default}
+  .cal__nav svg{width:12px;height:12px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .cal__grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+  .cal__dow{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;opacity:.35;text-align:center;padding:5px 0}
+  .cal__d{aspect-ratio:1;display:grid;place-items:center;position:relative;font-size:.78rem;
+          opacity:.28;border:1px solid transparent;border-radius:2px}
+  .cal__d.has{opacity:1;cursor:pointer;background:rgba(255,255,255,.07);border-color:var(--card-line)}
+  .cal__d.has:hover{border-color:var(--card-num)}
+  .cal__d.has::after{content:"";position:absolute;bottom:4px;left:50%;translate:-50% 0;width:4px;height:4px;border-radius:50%;background:var(--card-num)}
+  .cal__d.sel{background:var(--hi-bg);color:var(--hi-fg);border-color:transparent;font-weight:700}
+  .cal__d.sel::after{background:currentColor}
+  .cal__d.today{border-color:var(--line-2)}
+  .cal__foot{margin-top:16px;padding-top:14px;border-top:1px solid var(--card-line);font-size:.74rem;line-height:1.5;opacity:.72}
+  .cal__foot button{color:var(--card-num);text-decoration:underline;text-underline-offset:3px;font-size:.72rem}
+
+  /* ── pesquisa ── */
+  .tools{display:flex;flex-direction:column;gap:14px;margin-bottom:clamp(20px,2.6vh,30px)}
+  .search{position:relative}
+  .search input{width:100%;background:transparent;border:1px solid var(--line-2);color:inherit;
+                padding:15px 44px 15px 16px;font:inherit;font-size:1rem;font-weight:300;border-radius:0}
+  .search input:focus{outline:none;border-color:var(--num)}
+  .search input::placeholder{color:currentColor;opacity:.32}
+  .search svg{position:absolute;right:15px;top:50%;translate:0 -50%;width:16px;height:16px;
+              stroke:currentColor;stroke-width:1.6;fill:none;opacity:.4;pointer-events:none}
+  .chips{display:flex;gap:7px;flex-wrap:wrap}
+  .chip{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;
+        border:1px solid var(--line);padding:6px 12px;border-radius:100px;opacity:.6;
+        transition:border-color .25s,opacity .25s,background-color .25s,color .25s}
+  .chip:hover{opacity:1}
+  .chip.on{background:var(--fill-bg);border-color:var(--fill-bg);color:var(--fill-fg);opacity:1;font-weight:700}
+  .count{font-size:.76rem;opacity:.5;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+         padding-bottom:12px;border-bottom:1px solid var(--line)}
+  .count button{color:var(--num);text-decoration:underline;text-underline-offset:3px;font-size:.76rem}
+
+  /* ── proveniência dos dados ──────────────────────────────────────
+     Diz sempre de onde vieram os itens e de quando são. Um arquivo
+     que mostra dados velhos com ar de novos é pior do que um arquivo
+     vazio: este bloco existe para que isso nunca volte a passar
+     despercebido durante um mês. */
+  .prov{margin:10px 0 0;font-size:.72rem;line-height:1.5;opacity:.5}
+  .prov b{font-weight:600;opacity:.9}
+  .prov--alerta{opacity:1;background:var(--soft);border-left:3px solid var(--num);
+                padding:11px 14px;margin-top:14px;font-size:.78rem}
+  .prov--alerta b{color:var(--num)}
+
+  /* ── lista ── */
+  .month{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;opacity:.4;
+         margin:clamp(24px,3vh,34px) 0 10px;padding-top:14px;border-top:1px solid var(--line)}
+  .month:first-of-type{margin-top:18px;border-top:0;padding-top:0}
+  .item{display:grid;grid-template-columns:clamp(52px,5vw,64px) 1fr;gap:clamp(14px,1.8vw,26px);
+        padding:18px 0;border-bottom:1px solid var(--line);text-decoration:none;
+        transition:padding-inline .3s var(--ease),background-color .3s}
+  .item:hover{background:var(--soft);padding-inline:12px}
+  .item__d{text-align:center;padding-top:2px}
+  .item__d b{display:block;font-size:1.35rem;font-weight:300;letter-spacing:-.03em;line-height:1;color:var(--num)}
+  .item__d span{display:block;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;opacity:.4;margin-top:5px}
+  .item h3{font-size:clamp(.98rem,1.15vw,1.14rem);font-weight:500;line-height:1.28}
+  .item p{margin:7px 0 0;font-size:.86rem;line-height:1.58;opacity:.8;max-width:76ch}
+  .item__s{display:inline-block;margin-top:10px;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+           font-weight:700;opacity:.55;border:1px solid var(--line);padding:4px 9px;border-radius:100px}
+  .item:hover .item__s{border-color:var(--num);color:var(--num);opacity:1}
+  /* realce de pesquisa: deliberadamente fixo — lima sobre escuro lê a 12,8:1 em qualquer banda */
+  .item mark{background:var(--lime);color:var(--ink);padding:0 2px;border-radius:2px}
+  .empty{background:var(--card-bg);color:var(--card-fg);padding:clamp(24px,3vw,40px);text-align:center;margin-top:20px}
+  .empty h3{margin-bottom:8px}
+  .empty p{margin:0;font-size:.86rem;opacity:.8}
+
+  @media (max-width:980px){
+    .board{grid-template-columns:1fr}
+    .cal{position:static;order:-1}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar para o conteúdo</a>
+
+<main id="main">
+<section class="band band--ink">
+<p class="eyebrow rv">Notícias e publicações <b>·</b> arquivo integral</p>
+  <h1 class="rv">Tudo o que mudou,<br><span class="lime">dia a dia.</span></h1>
+  <p class="lead rv">O arquivo completo do que publicamos e do que as fontes oficiais publicam sobre o AI Act e a inteligência artificial em Portugal e na Europa. Nada é removido: o valor de um observatório está em conseguir voltar atrás.</p>
+</section>
+
+<section class="band band--paper">
+  <div class="board" style="margin-top:0">
+
+    <!-- ══════════ calendário ══════════ -->
+    <aside class="cal rv" aria-label="Calendário de notícias">
+      <div class="cal__hd">
+        <b id="calLabel">—</b>
+        <div class="cal__nav">
+          <button type="button" id="calPrev" aria-label="Mês anterior"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+          <button type="button" id="calNext" aria-label="Mês seguinte"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+        </div>
+      </div>
+      <div class="cal__grid" id="calGrid" role="grid"></div>
+      <p class="cal__foot" id="calFoot">—</p>
+    </aside>
+
+    <!-- ══════════ lista ══════════ -->
+    <div>
+      <div class="tools rv">
+        <div class="search">
+          <label class="sr" for="q">Pesquisar notícias</label>
+          <input id="q" type="search" placeholder="Pesquisar por título, resumo ou fonte…" autocomplete="off">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filtrar por fonte"></div>
+      </div>
+
+      <p class="count rv"><span id="count">—</span><button type="button" id="clear" hidden>Limpar filtros</button></p>
+      <p class="prov" id="prov"></p>
+
+      <div id="list" aria-live="polite"></div>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>Entidade Nacional para a Inteligência Artificial<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">Radar IA Act</a>
+        <a href="teste.html">Teste de classificação</a>
+        <a href="marketplace.html">Marketplace de IA Ética</a>
+        <a href="sobre.html">Sobre a ENIA e os Colégios</a>
+        <a href="estrategia.html">Estratégia Nacional</a>
+        <a href="certificacao.html">Certificação</a>
+        <a href="capacitacao.html">Capacitação</a>
+        <a href="contactos.html">Contactos</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Como é construído</h4>
+      <p>Recolha automática diária das fontes oficiais às 00:00 CET, complementada por publicações próprias. O arquivo nunca é truncado.<br><br><a href="radar.html#fontes">Metodologia e fontes →</a></p>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Transformar conformidade em vantagem competitiva global</span>
+    <span>Observatório atualizado diariamente às 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="data/bundle.js"></script>
+<script src="assets/enia.js"></script>
+<script>
+(() => {
+'use strict';
+
+/* ── rede de segurança: assets/enia.js pode não ter carregado ─────
+   Se esse ficheiro der 404 ou tiver erro de sintaxe, window.ENIA fica
+   indefinido e a página inteira morre na primeira chamada. Isto fornece
+   o mínimo equivalente. O aviso na consola mantém o problema visível. */
+const E = window.ENIA || (() => {
+  console.warn('[ENIA] assets/enia.js não carregou — a usar implementação de recurso.');
+  const L = 'pt-PT';
+  return {
+    esc: s => String(s ?? '').replace(/[&<>"']/g, c =>
+      ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c])),
+    D: s => new Date(String(s).length <= 10 ? s + 'T00:00:00' : s),
+    days(s){ return Math.ceil((this.D(s) - new Date()) / 864e5); },
+    fShort: new Intl.DateTimeFormat(L, { day:'2-digit', month:'2-digit', year:'numeric' }),
+    fLong:  new Intl.DateTimeFormat(L, { day:'numeric', month:'long', year:'numeric' }),
+    fStamp: new Intl.DateTimeFormat(L, { dateStyle:'long', timeStyle:'short' })
+  };
+})();
+
+const $ = id => document.getElementById(id);
+
+const MES = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+const DOW = ['S','T','Q','Q','S','S','D'];              /* segunda a domingo */
+const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+let ITEMS = [], view = null, day = null, src = null, term = '';
+const proveniencia = { arquivo: null, feed: null, recurso: false, geradoEm: null };
+
+/* ══════════════════════════════════════════════════════════════════
+   CARREGAMENTO
+   ──────────────────────────────────────────────────────────────────
+   A versão anterior fazia isto:
+
+     fetch('data/news-archive.json')
+       .catch(() => window.__ENIA__.archive || { items: [] })
+
+   Se o pedido falhasse por qualquer motivo — 404, cache do servidor,
+   ficheiro por publicar — a página caía em silêncio para o arquivo
+   embutido no bundle.js, uma semente antiga de 16 itens curados à mão.
+   Continuava a mostrar um arquivo com bom aspecto, mas congelado em
+   julho, sem que nada no ecrã o denunciasse.
+
+   Esta versão corrige três coisas:
+
+   1. Lê o arquivo E o feed do dia (data/news.json). O feed é sempre
+      escrito pela recolha diária, por isso serve de garantia: a página
+      nunca pode ficar mais desactualizada do que o Radar.
+   2. Funde os dois e deduplica por URL. O arquivo é a memória longa,
+      o feed é a certeza de que hoje está lá.
+   3. Regista de onde veio cada bloco e mostra-o por baixo da contagem.
+      Se estiver a usar a semente de recurso, diz-se em voz alta.
+   ══════════════════════════════════════════════════════════════════ */
+
+/* cache: 'no-store' e sufixo de versão: o header sozinho não chega
+   quando há proxy ou cache de alojamento pelo meio. */
+const loadJSON = (url) =>
+  fetch(url + (url.includes('?') ? '&' : '?') + 'v=' + Date.now(), { cache: 'no-store' })
+    .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)));
+
+const chaveDe = (i) => String(i.url || i.title || '').toLowerCase().replace(/[?#].*$/, '');
+const dataDe  = (i) => String(i.date || '').slice(0, 10);
+
+Promise.allSettled([
+  loadJSON('data/news-archive.json'),
+  loadJSON('data/news.json')
+]).then(([arq, fd]) => {
+
+  let doArquivo = [];
+  if (arq.status === 'fulfilled' && Array.isArray(arq.value.items)) {
+    doArquivo = arq.value.items;
+    proveniencia.arquivo = 'ok';
+    proveniencia.geradoEm = arq.value.generated || null;
+  } else {
+    proveniencia.arquivo = 'falhou: ' + (arq.reason?.message || 'erro desconhecido');
+    const seed = (window.__ENIA__ && window.__ENIA__.archive && window.__ENIA__.archive.items) || [];
+    if (seed.length) { doArquivo = seed; proveniencia.recurso = true; }
+  }
+
+  let doFeed = [];
+  if (fd.status === 'fulfilled' && Array.isArray(fd.value.items)) {
+    doFeed = fd.value.items;
+    proveniencia.feed = 'ok';
+    if (!proveniencia.geradoEm) proveniencia.geradoEm = fd.value.generated || null;
+  } else {
+    proveniencia.feed = 'falhou: ' + (fd.reason?.message || 'erro desconhecido');
+  }
+
+  /* O feed entra primeiro para que, havendo duplicado, prevaleça a versão
+     mais recentemente reescrita em pt-PT. */
+  const vistos = new Set();
+  ITEMS = [...doFeed, ...doArquivo]
+    .filter(i => i && i.title && dataDe(i))
+    .map(i => ({ ...i, date: dataDe(i), summary: i.summary || '—', source: i.source || '—', url: i.url || '#' }))
+    .filter(i => { const k = chaveDe(i); if (vistos.has(k)) return false; vistos.add(k); return true; })
+    .sort((x, y) => y.date.localeCompare(x.date));
+
+  if (!ITEMS.length) {
+    $('list').innerHTML = `<div class="empty"><h3>Arquivo vazio</h3>
+      <p>Não foi possível carregar <code>data/news-archive.json</code> nem <code>data/news.json</code>.</p></div>`;
+    provenienciaHTML();
+    return;
+  }
+
+  view = new Date(ITEMS[0].date + 'T00:00:00');
+  view.setDate(1);
+  chips(); calendar(); render(); provenienciaHTML();
+});
+
+/* ── proveniência visível ─────────────────────────────────────── */
+function provenienciaHTML() {
+  const el = $('prov');
+  if (!el) return;
+  const p = proveniencia;
+  const recente = ITEMS.length ? E.fLong.format(E.D(ITEMS[0].date)) : '—';
+  const gerado = p.geradoEm ? E.fStamp.format(new Date(p.geradoEm)) : 'desconhecida';
+
+  if (p.recurso) {
+    el.className = 'prov prov--alerta';
+    el.innerHTML = `<b>A mostrar dados de recurso.</b> O arquivo publicado não respondeu
+      (<code>${E.esc(p.arquivo)}</code>), pelo que estes itens vêm da cópia embutida em
+      <code>bundle.js</code> e podem estar desactualizados. Verificar se
+      <code>data/news-archive.json</code> está publicado em enia.pt.`;
+    return;
+  }
+
+  el.className = 'prov';
+  let txt = `Entrada mais recente: <b>${recente}</b>. Última recolha: <b>${gerado}</b>.`;
+  if (p.arquivo !== 'ok') txt += ` Arquivo longo indisponível (<code>${E.esc(p.arquivo)}</code>): a mostrar apenas o feed do dia.`;
+  if (p.feed !== 'ok' && p.arquivo === 'ok') txt += ` Feed do dia indisponível: a mostrar apenas o arquivo.`;
+  el.innerHTML = txt;
+}
+
+/* ── filtros por fonte ────────────────────────────────────────── */
+function chips() {
+  const all = [...new Set(ITEMS.map(i => i.source))].sort((a, b) => a.localeCompare(b, 'pt'));
+  $('chips').innerHTML = all.map(s =>
+    `<button class="chip" type="button" data-s="${E.esc(s)}">${E.esc(s)}</button>`).join('');
+  $('chips').querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+    src = src === b.dataset.s ? null : b.dataset.s;
+    $('chips').querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x.dataset.s === src));
+    render();
+  }));
+}
+
+/* ── calendário ───────────────────────────────────────────────── */
+function calendar() {
+  const y = view.getFullYear(), m = view.getMonth();
+  $('calLabel').textContent = `${MES[m]} ${y}`;
+
+  const byDay = {};
+  ITEMS.forEach(i => {
+    const d = new Date(i.date + 'T00:00:00');
+    if (d.getFullYear() === y && d.getMonth() === m) byDay[d.getDate()] = (byDay[d.getDate()] || 0) + 1;
+  });
+
+  const firstDow = (new Date(y, m, 1).getDay() + 6) % 7;      /* segunda = 0 */
+  const days = new Date(y, m + 1, 0).getDate();
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+
+  let html = DOW.map(d => `<span class="cal__dow">${d}</span>`).join('');
+  html += Array.from({ length: firstDow }, () => '<span></span>').join('');
+  for (let d = 1; d <= days; d++) {
+    const iso = `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+    const has = !!byDay[d];
+    const cls = ['cal__d', has ? 'has' : '', day === iso ? 'sel' : '',
+      (+new Date(y, m, d) === +today) ? 'today' : ''].filter(Boolean).join(' ');
+    html += has
+      ? `<button class="${cls}" type="button" data-d="${iso}" title="${byDay[d]} notícia(s)" aria-label="${d} de ${MES[m]}, ${byDay[d]} notícia(s)">${d}</button>`
+      : `<span class="${cls}">${d}</span>`;
+  }
+  $('calGrid').innerHTML = html;
+  $('calGrid').querySelectorAll('[data-d]').forEach(b => b.addEventListener('click', () => {
+    day = day === b.dataset.d ? null : b.dataset.d;
+    calendar(); render();
+  }));
+
+  /* limites de navegação: não sair do intervalo com conteúdo */
+  const min = ITEMS[ITEMS.length - 1].date.slice(0, 7), max = ITEMS[0].date.slice(0, 7);
+  const cur = `${y}-${String(m + 1).padStart(2, '0')}`;
+  $('calPrev').disabled = cur <= min;
+  $('calNext').disabled = cur >= max;
+
+  const n = Object.values(byDay).reduce((a, b) => a + b, 0);
+  $('calFoot').innerHTML = n
+    ? `${n} ${n === 1 ? 'entrada' : 'entradas'} neste mês.` + (day ? ` <button type="button" id="calAll">Ver o mês inteiro</button>` : '')
+    : 'Sem entradas neste mês.';
+  const ca = $('calAll');
+  if (ca) ca.addEventListener('click', () => { day = null; calendar(); render(); });
+}
+
+$('calPrev').addEventListener('click', () => { if (!view) return; view.setMonth(view.getMonth() - 1); day = null; calendar(); render(); });
+$('calNext').addEventListener('click', () => { if (!view) return; view.setMonth(view.getMonth() + 1); day = null; calendar(); render(); });
+
+/* ── pesquisa ─────────────────────────────────────────────────── */
+let t;
+$('q').addEventListener('input', e => {
+  clearTimeout(t);
+  t = setTimeout(() => { term = e.target.value.trim(); render(); }, 140);
+});
+
+$('clear').addEventListener('click', () => {
+  term = ''; day = null; src = null;
+  $('q').value = '';
+  $('chips').querySelectorAll('.chip').forEach(x => x.classList.remove('on'));
+  calendar(); render();
+});
+
+/* ── lista ────────────────────────────────────────────────────── */
+const hl = (txt, q) => {
+  const s = String(txt ?? '');
+  if (!q) return E.esc(s);
+  const n = norm(s), nq = norm(q), out = []; let i = 0, p;
+  while ((p = n.indexOf(nq, i)) !== -1) {
+    out.push(E.esc(s.slice(i, p)), '<mark>', E.esc(s.slice(p, p + q.length)), '</mark>');
+    i = p + q.length;
+  }
+  out.push(E.esc(s.slice(i)));
+  return out.join('');
+};
+
+function render() {
+  const nq = norm(term);
+  const rows = ITEMS.filter(i =>
+    (!day || i.date === day) &&
+    (!src || i.source === src) &&
+    (!nq || norm(i.title + ' ' + i.summary + ' ' + i.source).includes(nq)));
+
+  const filtered = term || day || src;
+  $('clear').hidden = !filtered;
+  $('count').textContent = rows.length === 0 ? 'Nenhum resultado'
+    : `${rows.length} de ${ITEMS.length} ${ITEMS.length === 1 ? 'entrada' : 'entradas'}`
+      + (day ? ` · ${E.fLong.format(E.D(day))}` : '')
+      + (src ? ` · ${src}` : '');
+
+  if (!rows.length) {
+    $('list').innerHTML = `<div class="empty"><h3>Nada encontrado</h3>
+      <p>Experimente outro termo, outra fonte ou outro dia do calendário.</p></div>`;
+    return;
+  }
+
+  let html = '', lastMonth = '';
+  for (const i of rows) {
+    const d = new Date(i.date + 'T00:00:00');
+    const mk = `${d.getFullYear()}-${d.getMonth()}`;
+    if (mk !== lastMonth) {
+      lastMonth = mk;
+      html += `<p class="month">${MES[d.getMonth()]} de ${d.getFullYear()}</p>`;
+    }
+    const ext = /^https?:/.test(i.url);
+    html += `<a class="item" href="${E.esc(i.url)}"${ext ? ' target="_blank" rel="noopener"' : ''}>
+      <span class="item__d"><b class="tab">${String(d.getDate()).padStart(2, '0')}</b><span>${MES[d.getMonth()].slice(0, 3)}</span></span>
+      <span>
+        <h3>${hl(i.title, term)}</h3>
+        <p>${hl(i.summary, term)}</p>
+        <span class="item__s">${E.esc(i.source)}</span>
+      </span></a>`;
+  }
+  $('list').innerHTML = html;
+}
+})();
+</script>
+</body>
+</html>
