@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-18T23:56:32.637Z",
+  "startedAt": "2026-08-19T23:57:04.862Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -124,7 +124,7 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 1
+      "kept": 0
     },
     {
       "id": "aepd",
@@ -331,7 +331,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 34,
+      "items": 37,
       "kept": 2
     },
     {
@@ -357,7 +357,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 647,
+      "items": 275,
       "kept": 3
     },
     {
@@ -365,7 +365,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 63,
+      "items": 53,
       "kept": 3
     },
     {
@@ -527,9 +527,10 @@
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
-      "kept": 0
+      "kept": 0,
+      "error": "HTTP 404"
     },
     {
       "id": "mlex",
@@ -554,7 +555,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1138,
+      "items": 1141,
       "kept": 2
     },
     {
@@ -622,7 +623,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1225,
+      "items": 1191,
       "kept": 0
     },
     {
@@ -656,6 +657,7 @@
     "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -671,12 +673,12 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-18T23:58:46.487Z",
+  "finishedAt": "2026-08-19T23:59:17.470Z",
   "recolhidos": 49,
   "written": 49,
   "archive": {
-    "added": 17,
+    "added": 14,
     "curados": 0,
-    "total": 149
+    "total": 163
   }
 }

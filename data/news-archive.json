@@ -1,8 +1,120 @@
 {
-  "generated": "2026-08-18T23:58:46.486Z",
+  "generated": "2026-08-19T23:59:17.469Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 149,
+  "count": 163,
   "items": [
+    {
+      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+      "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-19",
+      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/"
+    },
+    {
+      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-19",
+      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-19",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+    },
+    {
+      "title": "OpenAI hit the brakes. Now what?",
+      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-19",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
+    },
+    {
+      "title": "‘Ethical hacker’ CyberX vai simular cibertaques em plafaforma europeia de saúde digital",
+      "summary": "A CyberX foi selecionada para integrar um projeto europeu dedicado a reforçar a cibersegurança da plataforma de saúde digital IBIONS360, que combina telemedicina, inteligência artificial (IA) e conhecimento científico para apoiar protocolos…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-19",
+      "url": "https://eco.sapo.pt/2026/08/19/ethical-hacker-cyberx-vai-simular-cibertaques-em-plafaforma-europeia-de-saude-digital/"
+    },
+    {
+      "title": "Libax integra IA nos sistemas tecnológicos dos mediadores",
+      "summary": "A Libax, empresa portuguesa de software para a distribuição de seguros, passou a disponibilizar uma integração através do Model Context Protocol (MCP) que permite a ferramentas de inteligência artificial, como ChatGPT e Claude, consultar informação existente…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-19",
+      "url": "https://eco.sapo.pt/2026/08/19/libax-integra-ia-nos-sistemas-tecnologicos-dos-mediadores/"
+    },
+    {
+      "title": "Meta AI is getting a Mac app",
+      "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-19",
+      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app"
+    },
+    {
+      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI’s recursive self-improvement might not come so quickly after all The AI industry’s boldest promise right now is that…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-19",
+      "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/"
+    },
+    {
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "summary": "arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.16890"
+    },
+    {
+      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+      "summary": "arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.16891"
+    },
+    {
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "summary": "arXiv:2608.16977v1 Announce Type: new Abstract: AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reasoning is a limited resource, and expert mathematical review is even more sharply…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.16977"
+    },
+    {
+      "title": "A Framework for Using and Evaluating LLMs as Surrogate Experts in Security Surveys: Reliability, Bias, and Implications",
+      "summary": "arXiv:2608.16893v1 Announce Type: new Abstract: Expert surveys are widely used in security research to study practitioner workows and decision-making, yet recruiting domain experts - especially in Security Operations Centres (SOCs), where analysts face high…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.16893"
+    },
+    {
+      "title": "Orphan risks at the frontier of artificial intelligence: What diverging safety and compliance frameworks reveal about how AI companies choose the risks they…",
+      "summary": "arXiv:2608.16895v1 Announce Type: new Abstract: Companies developing some of the world's most powerful artificial intelligence systems are surprisingly diligent in how they map out the risks their technologies present. Yet the risk landscape that lies between…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.16895"
+    },
+    {
+      "title": "What If AI Carried Her Imagination? Black Girls as Creators in an AI Storytelling Weekend Program",
+      "summary": "arXiv:2608.16896v1 Announce Type: new Abstract: This paper presents the design and outcomes of a seven-weekend AI storytelling program developed for Black girls aged 10-12. Grounded in Afrofuturism and Black feminist thought, the program adopted AI-enabled…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.16896"
+    },
     {
       "title": "Brasileira Darede escolhe Lisboa como “hub europeu” e vai contratar mais 10 pessoas",
       "summary": "A consultora tecnológica brasileira Darede, especializada em cloud, inteligência artificial (IA) e transformação digital, está a reforçar a sua operação em Portugal, dois anos após a entrada neste mercado, e escolheu-o como hub europeu a partir do qual será…",
