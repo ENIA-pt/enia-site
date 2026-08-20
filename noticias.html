@@ -61,6 +61,17 @@
          padding-bottom:12px;border-bottom:1px solid var(--line)}
   .count button{color:var(--num);text-decoration:underline;text-underline-offset:3px;font-size:.76rem}
 
+  /* ── proveniência dos dados ──────────────────────────────────────
+     Diz sempre de onde vieram os itens e de quando são. Um arquivo
+     que mostra dados velhos com ar de novos é pior do que um arquivo
+     vazio: este bloco existe para que isso nunca volte a passar
+     despercebido durante um mês. */
+  .prov{margin:10px 0 0;font-size:.72rem;line-height:1.5;opacity:.5}
+  .prov b{font-weight:600;opacity:.9}
+  .prov--alerta{opacity:1;background:var(--soft);border-left:3px solid var(--num);
+                padding:11px 14px;margin-top:14px;font-size:.78rem}
+  .prov--alerta b{color:var(--num)}
+
   /* ── lista ── */
   .month{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;opacity:.4;
          margin:clamp(24px,3vh,34px) 0 10px;padding-top:14px;border-top:1px solid var(--line)}
@@ -127,6 +138,7 @@
       </div>
 
       <p class="count rv"><span id="count">—</span><button type="button" id="clear" hidden>Limpar filtros</button></p>
+      <p class="prov" id="prov"></p>
 
       <div id="list" aria-live="polite"></div>
     </div>
@@ -170,26 +182,137 @@
 <script>
 (() => {
 'use strict';
-const E = window.ENIA, $ = id => document.getElementById(id);
+
+/* ── rede de segurança: assets/enia.js pode não ter carregado ─────
+   Se esse ficheiro der 404 ou tiver erro de sintaxe, window.ENIA fica
+   indefinido e a página inteira morre na primeira chamada. Isto fornece
+   o mínimo equivalente. O aviso na consola mantém o problema visível. */
+const E = window.ENIA || (() => {
+  console.warn('[ENIA] assets/enia.js não carregou — a usar implementação de recurso.');
+  const L = 'pt-PT';
+  return {
+    esc: s => String(s ?? '').replace(/[&<>"']/g, c =>
+      ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c])),
+    D: s => new Date(String(s).length <= 10 ? s + 'T00:00:00' : s),
+    days(s){ return Math.ceil((this.D(s) - new Date()) / 864e5); },
+    fShort: new Intl.DateTimeFormat(L, { day:'2-digit', month:'2-digit', year:'numeric' }),
+    fLong:  new Intl.DateTimeFormat(L, { day:'numeric', month:'long', year:'numeric' }),
+    fStamp: new Intl.DateTimeFormat(L, { dateStyle:'long', timeStyle:'short' })
+  };
+})();
+
+const $ = id => document.getElementById(id);
 
 const MES = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
 const DOW = ['S','T','Q','Q','S','S','D'];              /* segunda a domingo */
 const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
 let ITEMS = [], view = null, day = null, src = null, term = '';
+const proveniencia = { arquivo: null, feed: null, recurso: false, geradoEm: null };
 
-/* ── arranque ─────────────────────────────────────────────────── */
-const load = () => fetch('data/news-archive.json', { cache: 'no-cache' })
-  .then(r => r.ok ? r.json() : Promise.reject())
-  .catch(() => (window.__ENIA__ && window.__ENIA__.archive) || { items: [] });
+/* ══════════════════════════════════════════════════════════════════
+   CARREGAMENTO
+   ──────────────────────────────────────────────────────────────────
+   A versão anterior fazia isto:
 
-load().then(a => {
-  ITEMS = (a.items || []).slice().sort((x, y) => y.date.localeCompare(x.date));
-  if (!ITEMS.length) { $('list').innerHTML = '<div class="empty"><h3>Arquivo vazio</h3><p>A primeira recolha ainda não correu.</p></div>'; return; }
+     fetch('data/news-archive.json')
+       .catch(() => window.__ENIA__.archive || { items: [] })
+
+   Se o pedido falhasse por qualquer motivo — 404, cache do servidor,
+   ficheiro por publicar — a página caía em silêncio para o arquivo
+   embutido no bundle.js, uma semente antiga de 16 itens curados à mão.
+   Continuava a mostrar um arquivo com bom aspecto, mas congelado em
+   julho, sem que nada no ecrã o denunciasse.
+
+   Esta versão corrige três coisas:
+
+   1. Lê o arquivo E o feed do dia (data/news.json). O feed é sempre
+      escrito pela recolha diária, por isso serve de garantia: a página
+      nunca pode ficar mais desactualizada do que o Radar.
+   2. Funde os dois e deduplica por URL. O arquivo é a memória longa,
+      o feed é a certeza de que hoje está lá.
+   3. Regista de onde veio cada bloco e mostra-o por baixo da contagem.
+      Se estiver a usar a semente de recurso, diz-se em voz alta.
+   ══════════════════════════════════════════════════════════════════ */
+
+/* cache: 'no-store' e sufixo de versão: o header sozinho não chega
+   quando há proxy ou cache de alojamento pelo meio. */
+const loadJSON = (url) =>
+  fetch(url + (url.includes('?') ? '&' : '?') + 'v=' + Date.now(), { cache: 'no-store' })
+    .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)));
+
+const chaveDe = (i) => String(i.url || i.title || '').toLowerCase().replace(/[?#].*$/, '');
+const dataDe  = (i) => String(i.date || '').slice(0, 10);
+
+Promise.allSettled([
+  loadJSON('data/news-archive.json'),
+  loadJSON('data/news.json')
+]).then(([arq, fd]) => {
+
+  let doArquivo = [];
+  if (arq.status === 'fulfilled' && Array.isArray(arq.value.items)) {
+    doArquivo = arq.value.items;
+    proveniencia.arquivo = 'ok';
+    proveniencia.geradoEm = arq.value.generated || null;
+  } else {
+    proveniencia.arquivo = 'falhou: ' + (arq.reason?.message || 'erro desconhecido');
+    const seed = (window.__ENIA__ && window.__ENIA__.archive && window.__ENIA__.archive.items) || [];
+    if (seed.length) { doArquivo = seed; proveniencia.recurso = true; }
+  }
+
+  let doFeed = [];
+  if (fd.status === 'fulfilled' && Array.isArray(fd.value.items)) {
+    doFeed = fd.value.items;
+    proveniencia.feed = 'ok';
+    if (!proveniencia.geradoEm) proveniencia.geradoEm = fd.value.generated || null;
+  } else {
+    proveniencia.feed = 'falhou: ' + (fd.reason?.message || 'erro desconhecido');
+  }
+
+  /* O feed entra primeiro para que, havendo duplicado, prevaleça a versão
+     mais recentemente reescrita em pt-PT. */
+  const vistos = new Set();
+  ITEMS = [...doFeed, ...doArquivo]
+    .filter(i => i && i.title && dataDe(i))
+    .map(i => ({ ...i, date: dataDe(i), summary: i.summary || '—', source: i.source || '—', url: i.url || '#' }))
+    .filter(i => { const k = chaveDe(i); if (vistos.has(k)) return false; vistos.add(k); return true; })
+    .sort((x, y) => y.date.localeCompare(x.date));
+
+  if (!ITEMS.length) {
+    $('list').innerHTML = `<div class="empty"><h3>Arquivo vazio</h3>
+      <p>Não foi possível carregar <code>data/news-archive.json</code> nem <code>data/news.json</code>.</p></div>`;
+    provenienciaHTML();
+    return;
+  }
+
   view = new Date(ITEMS[0].date + 'T00:00:00');
   view.setDate(1);
-  chips(); calendar(); render();
+  chips(); calendar(); render(); provenienciaHTML();
 });
+
+/* ── proveniência visível ─────────────────────────────────────── */
+function provenienciaHTML() {
+  const el = $('prov');
+  if (!el) return;
+  const p = proveniencia;
+  const recente = ITEMS.length ? E.fLong.format(E.D(ITEMS[0].date)) : '—';
+  const gerado = p.geradoEm ? E.fStamp.format(new Date(p.geradoEm)) : 'desconhecida';
+
+  if (p.recurso) {
+    el.className = 'prov prov--alerta';
+    el.innerHTML = `<b>A mostrar dados de recurso.</b> O arquivo publicado não respondeu
+      (<code>${E.esc(p.arquivo)}</code>), pelo que estes itens vêm da cópia embutida em
+      <code>bundle.js</code> e podem estar desactualizados. Verificar se
+      <code>data/news-archive.json</code> está publicado em enia.pt.`;
+    return;
+  }
+
+  el.className = 'prov';
+  let txt = `Entrada mais recente: <b>${recente}</b>. Última recolha: <b>${gerado}</b>.`;
+  if (p.arquivo !== 'ok') txt += ` Arquivo longo indisponível (<code>${E.esc(p.arquivo)}</code>): a mostrar apenas o feed do dia.`;
+  if (p.feed !== 'ok' && p.arquivo === 'ok') txt += ` Feed do dia indisponível: a mostrar apenas o arquivo.`;
+  el.innerHTML = txt;
+}
 
 /* ── filtros por fonte ────────────────────────────────────────── */
 function chips() {
@@ -249,8 +372,8 @@ function calendar() {
   if (ca) ca.addEventListener('click', () => { day = null; calendar(); render(); });
 }
 
-$('calPrev').addEventListener('click', () => { view.setMonth(view.getMonth() - 1); day = null; calendar(); render(); });
-$('calNext').addEventListener('click', () => { view.setMonth(view.getMonth() + 1); day = null; calendar(); render(); });
+$('calPrev').addEventListener('click', () => { if (!view) return; view.setMonth(view.getMonth() - 1); day = null; calendar(); render(); });
+$('calNext').addEventListener('click', () => { if (!view) return; view.setMonth(view.getMonth() + 1); day = null; calendar(); render(); });
 
 /* ── pesquisa ─────────────────────────────────────────────────── */
 let t;
@@ -268,13 +391,14 @@ $('clear').addEventListener('click', () => {
 
 /* ── lista ────────────────────────────────────────────────────── */
 const hl = (txt, q) => {
-  if (!q) return E.esc(txt);
-  const n = norm(txt), nq = norm(q), out = []; let i = 0, p;
+  const s = String(txt ?? '');
+  if (!q) return E.esc(s);
+  const n = norm(s), nq = norm(q), out = []; let i = 0, p;
   while ((p = n.indexOf(nq, i)) !== -1) {
-    out.push(E.esc(txt.slice(i, p)), '<mark>', E.esc(txt.slice(p, p + q.length)), '</mark>');
+    out.push(E.esc(s.slice(i, p)), '<mark>', E.esc(s.slice(p, p + q.length)), '</mark>');
     i = p + q.length;
   }
-  out.push(E.esc(txt.slice(i)));
+  out.push(E.esc(s.slice(i)));
   return out.join('');
 };
 
