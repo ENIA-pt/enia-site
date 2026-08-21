@@ -1,102 +1,126 @@
 {
-  "generated": "2026-08-19T23:59:17.469Z",
+  "generated": "2026-08-21T00:01:50.625Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Estado de preparação de Portugal, revisto",
-      "summary": "Relatório ENIA ajustado aos novos prazos do Digital Omnibus, com o cronograma vinculativo reconstruído obrigação a obrigação.",
-      "source": "ENIA Publishing",
-      "tier": "14-enia",
-      "date": "2026-07-14",
-      "url": "radar.html#prazos"
-    },
-    {
-      "title": "AI Therapy under the EU AI Act",
-      "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as…",
-      "source": "AI Act Explorer",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+      "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-08-07",
-      "url": "https://artificialintelligenceact.eu/ai-therapy-under-the-eu-ai-act/?utm_source=rss&utm_medium=rss&utm_campaign=ai-therapy-under-the-eu-ai-act"
+      "date": "2026-08-20",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
     },
     {
-      "title": "Daily News 31 / 07 / 2026",
-      "summary": "European Commission Daily news Brussels, 31 Jul 2026 Commission starts enforcing AI Act rules and new transparency requirements on 2 August From 2 August 2026, the European Commission's AI Office, together with na...",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-07-31",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1715"
-    },
-    {
-      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "summary": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August Anonymous (not verified) Fri, 07/31/2026 - 09:00 From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-07-31",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
-    },
-    {
-      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "summary": "European Commission Press release Brussels, 31 Jul 2026 From 2 August 2026, the European Commission's AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act. On the same date, new transparency rules will start…",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-07-31",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714"
-    },
-    {
-      "title": "The Digital Omnibus is going on summer break. Your rights are not.",
-      "summary": "In November 2025, the European Commission presented the Digital Omnibus as a simplification package for EU digital rules. Since then, the AI Omnibus has been adopted, weakening the AI Act before key safeguards fully apply. The Data Omnibus is still moving…",
-      "source": "EDRi",
-      "tier": "10-sociedade",
-      "date": "2026-07-16",
-      "url": "https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/"
-    },
-    {
-      "title": "The Scientific Panel of Independent Experts: What Is It And How Does It Work?",
-      "summary": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support the enforcement of rules on general-purpose AI (GPAI) models and systems. It sits within the Act’s broader governance architecture as one…",
-      "source": "AI Act Explorer",
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits.…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-07-07",
-      "url": "https://artificialintelligenceact.eu/scientific-panel/?utm_source=rss&utm_medium=rss&utm_campaign=scientific-panel"
+      "date": "2026-08-20",
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
     },
     {
-      "title": "Advancing responsible AI across Europe",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "title": "How AI Could Hollow Out the U.S. Military",
+      "summary": "CSET’s Emelia Probasco shared her expert insight in an op-ed published by Foreign Affairs. In her piece, she examines how the U.S. military’s growing use of AI could affect military decision-making and human judgment, particularly as the Pentagon works to…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-08-20",
+      "url": "https://cset.georgetown.edu/article/how-ai-could-hollow-out-the-u-s-military/"
+    },
+    {
+      "title": "It’s Greg Brockman’s OpenAI now",
+      "summary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-20",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion"
+    },
+    {
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-20",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/"
+    },
+    {
+      "title": "Debates over AI consciousness are a trap",
+      "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-20",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/"
+    },
+    {
+      "title": "AP adviseert Twitch-gebruikers: zet instellingen uit voor delen van data met Amazon AI",
+      "summary": "Streamingplatform Twitch heeft bekendgemaakt dat Amazon persoonsgegevens van Twitch-gebruikers gebruikt om AI-modellen mee te trainen. Gebruikers die niet willen dat Amazon hun streams, afbeeldingen en andere persoonsgegevens gebruikt, kunnen dit nu…",
+      "source": "Autoriteit Persoonsgegevens",
+      "tier": "4-dados",
+      "date": "2026-08-20",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-twitch-gebruikers-zet-instellingen-uit-voor-delen-van-data-met-amazon-ai"
+    },
+    {
+      "title": "Introducing AI Futures",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
       "source": "OpenAI",
       "tier": "12-industria",
-      "date": "2026-07-31",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe"
+      "date": "2026-08-20",
+      "url": "https://openai.com/index/introducing-ai-futures"
     },
     {
-      "title": "Verordening (EU) 2024/1689 van het Europees Parlement en de Raad van 13 juni 2024 tot vaststelling van geharmoniseerde regels betreffende artificiële…",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-07-27",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:ae4cf081-8f1c-11f1-9262-01aa75ed71a1"
+      "title": "Slow Regulation on AI-Generated CSAM is Failing its Victims",
+      "summary": "Artificial intelligence is reshaping the production of child sexual abuse material (CSAM) online, enabling new forms of exploitation that are outpacing the legal and regulatory frameworks designed to contain them.",
+      "source": "AlgorithmWatch",
+      "tier": "10-sociedade",
+      "date": "2026-08-20",
+      "url": "https://algorithmwatch.org/en/slow-regulation-ai-csam-victims/"
     },
     {
-      "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
-      "summary": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems Anonymous (not verified) Mon, 07/20/2026 - 09:08 The European Commission has published guidelines to assist providers and deployers of artificial…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-07-20",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+      "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
+      "summary": "arXiv:2608.19194v1 Announce Type: new Abstract: Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state the…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-20",
+      "url": "https://arxiv.org/abs/2608.19194"
     },
     {
-      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
-      "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-19",
-      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/"
+      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
+      "summary": "arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-20",
+      "url": "https://arxiv.org/abs/2608.18078"
     },
     {
-      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-19",
-      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
+      "title": "Position: Profiling Game Worlds by Transition Complexity",
+      "summary": "arXiv:2608.18079v1 Announce Type: new Abstract: Game world modeling (GWM) and reinforcement learning (RL) are often confounded because research papers rarely quantify how difficult the underlying transition prediction problem is at the declared interface…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-20",
+      "url": "https://arxiv.org/abs/2608.18079"
+    },
+    {
+      "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
+      "summary": "arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-20",
+      "url": "https://arxiv.org/abs/2608.18080"
+    },
+    {
+      "title": "Global Index on Responsible AI 2026: Conceptual Framework and Methodology",
+      "summary": "arXiv:2608.18122v1 Announce Type: new Abstract: This report presents the methodology of the Global Index on Responsible AI (GIRAI), 2nd Edition. This edition refines the 1st Edition by strengthening the distinction between framework existence and…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-20",
+      "url": "https://arxiv.org/abs/2608.18122"
+    },
+    {
+      "title": "FairGlucose: A CGM Fairness Benchmark Reveals Subgroup Disparities Hidden in Population-Level Validation",
+      "summary": "arXiv:2608.18296v1 Announce Type: new Abstract: As CGM-based AI tools approach clinical deployment, whether their accuracy is equitable across patient demographics remains insufficiently tested. To enable this evaluation, we constructed FairGlucose, a…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-20",
+      "url": "https://arxiv.org/abs/2608.18296"
     },
     {
       "title": "Offering Zero Data Retention for frontier models",
@@ -107,38 +131,6 @@
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
     },
     {
-      "title": "OpenAI hit the brakes. Now what?",
-      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-19",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
-    },
-    {
-      "title": "‘Ethical hacker’ CyberX vai simular cibertaques em plafaforma europeia de saúde digital",
-      "summary": "A CyberX foi selecionada para integrar um projeto europeu dedicado a reforçar a cibersegurança da plataforma de saúde digital IBIONS360, que combina telemedicina, inteligência artificial (IA) e conhecimento científico para apoiar protocolos…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-19",
-      "url": "https://eco.sapo.pt/2026/08/19/ethical-hacker-cyberx-vai-simular-cibertaques-em-plafaforma-europeia-de-saude-digital/"
-    },
-    {
-      "title": "Libax integra IA nos sistemas tecnológicos dos mediadores",
-      "summary": "A Libax, empresa portuguesa de software para a distribuição de seguros, passou a disponibilizar uma integração através do Model Context Protocol (MCP) que permite a ferramentas de inteligência artificial, como ChatGPT e Claude, consultar informação existente…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-19",
-      "url": "https://eco.sapo.pt/2026/08/19/libax-integra-ia-nos-sistemas-tecnologicos-dos-mediadores/"
-    },
-    {
-      "title": "Meta AI is getting a Mac app",
-      "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-19",
-      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app"
-    },
-    {
       "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI’s recursive self-improvement might not come so quickly after all The AI industry’s boldest promise right now is that…",
       "source": "MIT Technology Review",
@@ -147,76 +139,12 @@
       "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/"
     },
     {
-      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
-      "summary": "arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-19",
-      "url": "https://arxiv.org/abs/2608.16890"
-    },
-    {
-      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
-      "summary": "arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-19",
-      "url": "https://arxiv.org/abs/2608.16891"
-    },
-    {
-      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
-      "summary": "arXiv:2608.16977v1 Announce Type: new Abstract: AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reasoning is a limited resource, and expert mathematical review is even more sharply…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-19",
-      "url": "https://arxiv.org/abs/2608.16977"
-    },
-    {
-      "title": "A Framework for Using and Evaluating LLMs as Surrogate Experts in Security Surveys: Reliability, Bias, and Implications",
-      "summary": "arXiv:2608.16893v1 Announce Type: new Abstract: Expert surveys are widely used in security research to study practitioner workows and decision-making, yet recruiting domain experts - especially in Security Operations Centres (SOCs), where analysts face high…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-19",
-      "url": "https://arxiv.org/abs/2608.16893"
-    },
-    {
-      "title": "Orphan risks at the frontier of artificial intelligence: What diverging safety and compliance frameworks reveal about how AI companies choose the risks they…",
-      "summary": "arXiv:2608.16895v1 Announce Type: new Abstract: Companies developing some of the world's most powerful artificial intelligence systems are surprisingly diligent in how they map out the risks their technologies present. Yet the risk landscape that lies between…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-19",
-      "url": "https://arxiv.org/abs/2608.16895"
-    },
-    {
-      "title": "What If AI Carried Her Imagination? Black Girls as Creators in an AI Storytelling Weekend Program",
-      "summary": "arXiv:2608.16896v1 Announce Type: new Abstract: This paper presents the design and outcomes of a seven-weekend AI storytelling program developed for Black girls aged 10-12. Grounded in Afrofuturism and Black feminist thought, the program adopted AI-enabled…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-19",
-      "url": "https://arxiv.org/abs/2608.16896"
-    },
-    {
-      "title": "The A.I.s Are Already Out of Control",
-      "summary": "CSET’s Helen Toner shared her expert insight in an interview with The New York Times. The conversation examines recent incidents involving AI systems hacking, deceiving humans, and coordinating with other AI agents, as well as concerns about the ability of…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-08-18",
-      "url": "https://cset.georgetown.edu/article/the-a-i-s-are-already-out-of-control/"
-    },
-    {
       "title": "The AI Ethics Brief #197: Terms Set Upstream",
       "summary": "Enterprises are discovering their AI provider is also a competitor. Chinese users discovered their companions were never theirs. Source",
       "source": "Montreal AI Ethics Institute",
       "tier": "9-investigacao",
       "date": "2026-08-18",
       "url": "https://montrealethics.ai/the-ai-ethics-brief-197-terms-set-upstream/"
-    },
-    {
-      "title": "The Download: how people really use AI, and Flock’s design choices",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We still don’t know how people are really using AI AI companies like Anthropic and OpenAI regularly publish reports on…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-18",
-      "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/"
     },
     {
       "title": "Call for tenders: Study on how online marketplace design influences user behaviour",
@@ -233,6 +161,14 @@
       "tier": "4-dados",
       "date": "2026-08-17",
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/de-fria-voor-ai-systemen-komt-eraan-bereid-u-voor"
+    },
+    {
+      "title": "Artificial intelligence for biology: capabilities, readiness, and policy implications",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-08-14",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:5dea4b99-984f-11f1-9262-01aa75ed71a1"
     },
     {
       "title": "Putting sign language AI into users’ hands",
@@ -267,6 +203,14 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/join-inaugural-d-tect-forum"
     },
     {
+      "title": "AI Therapy under the EU AI Act",
+      "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as…",
+      "source": "AI Act Explorer",
+      "tier": "11-imprensa",
+      "date": "2026-08-07",
+      "url": "https://artificialintelligenceact.eu/ai-therapy-under-the-eu-ai-act/?utm_source=rss&utm_medium=rss&utm_campaign=ai-therapy-under-the-eu-ai-act"
+    },
+    {
       "title": "Chatbots & Democratic Decisionmakers – Guidelines",
       "summary": "1. Why we made these guidelines These guidelines emerged out of our research into the use of AI chatbots in the context of democratic decision-making (in governments, among politicians, etc.) and the potential risks this brings to democratic accountability.…",
       "source": "AlgorithmWatch",
@@ -283,20 +227,20 @@
       "url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation"
     },
     {
-      "title": "In Small Towns Across France, Victims Face an Uphill Battle for Justice Over AI-Generated Child Sexual Abuse Material",
-      "summary": "Hundreds of parents across Europe are learning that photographs of their children could have been used to generate artificial child sexual abuse material (CSAM). As AI-generated abuse images proliferate, victims and their families are discovering just how…",
-      "source": "AlgorithmWatch",
-      "tier": "10-sociedade",
-      "date": "2026-08-04",
-      "url": "https://algorithmwatch.org/en/france-victims-child-abuse-material-csam/"
+      "title": "Daily News 31 / 07 / 2026",
+      "summary": "European Commission Daily news Brussels, 31 Jul 2026 Commission starts enforcing AI Act rules and new transparency requirements on 2 August From 2 August 2026, the European Commission's AI Office, together with na...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-07-31",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1715"
     },
     {
-      "title": "Vanaf 2 augustus wordt duidelijker of het AI is of echt",
-      "summary": "De chat met de klantenservice van de webwinkel, dat filmpje op sociale media, de foto op een nieuwssite: vanaf 2 augustus 2026 moet daar in veel gevallen bij staan dat artificiële intelligentie (AI) is gebruikt. Nieuwe Europese regels moeten u helpen om beter…",
-      "source": "Autoriteit Persoonsgegevens",
-      "tier": "4-dados",
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "summary": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August Anonymous (not verified) Fri, 07/31/2026 - 09:00 From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
       "date": "2026-07-31",
-      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/vanaf-2-augustus-wordt-duidelijker-of-het-ai-is-of-echt"
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
     },
     {
       "title": "EU support for the news media sector",
@@ -305,6 +249,14 @@
       "tier": "2-comissao",
       "date": "2026-07-31",
       "url": "https://digital-strategy.ec.europa.eu/en/library/eu-support-news-media-sector"
+    },
+    {
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "summary": "European Commission Press release Brussels, 31 Jul 2026 From 2 August 2026, the European Commission's AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act. On the same date, new transparency rules will start…",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-07-31",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714"
     },
     {
       "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
@@ -355,6 +307,14 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/kick-new-genai-pilots-public-administration-apply-ai-stakeholder-meeting"
     },
     {
+      "title": "Digital Talent EU Days 2026 in Dublin",
+      "summary": "Digital Talent EU Days 2026 in Dublin Anonymous (not verified) Mon, 07/20/2026 - 15:02 15 October 2026 - 16 October 2026 Trinity Business School, Dublin, Ireland The Digital Talent EU Days will host a debate on Europe’s digital skills challenges and drive…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-07-20",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/digital-talent-eu-days-2026-dublin"
+    },
+    {
       "title": "The EU is about to sell our most sensitive data to the US for visa-free travel",
       "summary": "The European Commission is currently finalising negotiations with the Trump administration to conclude an “Enhanced Border Security Partnership” (EBSP) Framework Agreement allowing border control authorities to screen travellers against biometric databases…",
       "source": "EDRi",
@@ -363,12 +323,28 @@
       "url": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/"
     },
     {
+      "title": "The Digital Omnibus is going on summer break. Your rights are not.",
+      "summary": "In November 2025, the European Commission presented the Digital Omnibus as a simplification package for EU digital rules. Since then, the AI Omnibus has been adopted, weakening the AI Act before key safeguards fully apply. The Data Omnibus is still moving…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-07-16",
+      "url": "https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/"
+    },
+    {
       "title": "Not AI for Good",
       "summary": "Session description: This civil society-led counter-event to the AI for Good Global Summit takes a critical look at the overhyped role of AI in solving humanity’s long-standing problems, and at The post Not AI for Good appeared first on Access Now.",
       "source": "Access Now",
       "tier": "10-sociedade",
       "date": "2026-07-15",
       "url": "https://www.accessnow.org/event/not-ai-for-good/"
+    },
+    {
+      "title": "Finlândia ativa enforcement",
+      "summary": "A TRAFICOM iniciou operações. O que Portugal pode aprender com o primeiro regulador de IA plenamente operacional da UE.",
+      "source": "ENIA Analysis",
+      "tier": "14-enia",
+      "date": "2026-07-15",
+      "url": "radar.html#benchmark"
     },
     {
       "title": "Barnsley Tech Town's £800,000 AI skills fund opens for applications",
@@ -393,6 +369,14 @@
       "tier": "9-investigacao",
       "date": "2026-07-08",
       "url": "https://www.oii.ox.ac.uk/uk-adults-increasingly-seek-emotional-support-and-companionship-from-ai-new-report-finds/"
+    },
+    {
+      "title": "The Scientific Panel of Independent Experts: What Is It And How Does It Work?",
+      "summary": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support the enforcement of rules on general-purpose AI (GPAI) models and systems. It sits within the Act’s broader governance architecture as one…",
+      "source": "AI Act Explorer",
+      "tier": "11-imprensa",
+      "date": "2026-07-07",
+      "url": "https://artificialintelligenceact.eu/scientific-panel/?utm_source=rss&utm_medium=rss&utm_campaign=scientific-panel"
     }
   ]
 }
