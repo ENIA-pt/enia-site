@@ -1,8 +1,32 @@
 {
-  "generated": "2026-08-22T00:00:47.020Z",
+  "generated": "2026-08-22T23:55:27.890Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 187,
+  "count": 191,
   "items": [
+    {
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-22",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/"
+    },
+    {
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-22",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+    },
+    {
+      "title": "How Popular AI Chatbots Recommend Pro-life Websites to Pregnant People",
+      "summary": "An experiment involving four commercial chatbots across Europe found that these often blur the line between trusted health information and advocacy, frequently directing users to anti-abortion content without clearly identifying their sources or…",
+      "source": "AlgorithmWatch",
+      "tier": "10-sociedade",
+      "date": "2026-08-22",
+      "url": "https://algorithmwatch.org/en/chatbots-abortion-ai/"
+    },
     {
       "title": "Nvidia partners with data center developer Cloverleaf",
       "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
@@ -66,6 +90,14 @@
       "tier": "9-investigacao",
       "date": "2026-08-21",
       "url": "https://arxiv.org/abs/2608.19379"
+    },
+    {
+      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-21",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
     },
     {
       "title": "OpenAI is gaining on Anthropic with business users, new data indicates",

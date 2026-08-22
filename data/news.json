@@ -1,22 +1,38 @@
 {
-  "generated": "2026-08-22T00:00:47.020Z",
+  "generated": "2026-08-22T23:55:27.890Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Nvidia partners with data center developer Cloverleaf",
-      "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-08-21",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/"
+      "date": "2026-08-22",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/"
     },
     {
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
+      "date": "2026-08-22",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+    },
+    {
+      "title": "How Popular AI Chatbots Recommend Pro-life Websites to Pregnant People",
+      "summary": "An experiment involving four commercial chatbots across Europe found that these often blur the line between trusted health information and advocacy, frequently directing users to anti-abortion content without clearly identifying their sources or…",
+      "source": "AlgorithmWatch",
+      "tier": "10-sociedade",
+      "date": "2026-08-22",
+      "url": "https://algorithmwatch.org/en/chatbots-abortion-ai/"
+    },
+    {
+      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
       "date": "2026-08-21",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
     },
     {
       "title": "Major YouTube creators are facing backlash for accepting AI money",
@@ -49,62 +65,6 @@
       "tier": "11-imprensa",
       "date": "2026-08-21",
       "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/"
-    },
-    {
-      "title": "Mapping General-Purpose AI Governance in Twenty AI Middle-Power Jurisdictions",
-      "summary": "arXiv:2608.19278v1 Announce Type: new Abstract: The most capable general-purpose AI (GPAI) models are mostly built in two jurisdictions, the United States and China, but the risks they carry land globally. Regionally advanced economies hosting no frontier…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-21",
-      "url": "https://arxiv.org/abs/2608.19278"
-    },
-    {
-      "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
-      "summary": "arXiv:2608.19194v2 Announce Type: replace Abstract: Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-21",
-      "url": "https://arxiv.org/abs/2608.19194"
-    },
-    {
-      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
-      "summary": "arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-21",
-      "url": "https://arxiv.org/abs/2608.18078"
-    },
-    {
-      "title": "Position: Profiling Game Worlds by Transition Complexity",
-      "summary": "arXiv:2608.18079v1 Announce Type: new Abstract: Game world modeling (GWM) and reinforcement learning (RL) are often confounded because research papers rarely quantify how difficult the underlying transition prediction problem is at the declared interface…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-21",
-      "url": "https://arxiv.org/abs/2608.18079"
-    },
-    {
-      "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
-      "summary": "arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-21",
-      "url": "https://arxiv.org/abs/2608.18080"
-    },
-    {
-      "title": "Multi-Tier Mentorship with AI-Assisted Development: Authentic Engineering for K-12 and Undergraduates",
-      "summary": "arXiv:2608.19379v1 Announce Type: new Abstract: K-12 students often possess creative engineering ideas but lack technical skills to build them, while undergraduates have coding expertise but few opportunities to lead real-world projects or mentor others. The…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-21",
-      "url": "https://arxiv.org/abs/2608.19379"
-    },
-    {
-      "title": "Google Discover is getting an AI chatbot-tuned feed",
-      "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits.…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-20",
-      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
     },
     {
       "title": "How AI Could Hollow Out the U.S. Military",
@@ -209,14 +169,6 @@
       "tier": "11-imprensa",
       "date": "2026-08-07",
       "url": "https://artificialintelligenceact.eu/ai-therapy-under-the-eu-ai-act/?utm_source=rss&utm_medium=rss&utm_campaign=ai-therapy-under-the-eu-ai-act"
-    },
-    {
-      "title": "Chatbots & Democratic Decisionmakers – Guidelines",
-      "summary": "These Guidelines are based on our expertise in risks and guidelines around AI, including our research on AI use in government: https://algorithmwatch.org/en/could-ai-chatbots-influence-governments/. However, they are not yet a final product – we need input…",
-      "source": "AlgorithmWatch",
-      "tier": "10-sociedade",
-      "date": "2026-08-05",
-      "url": "https://algorithmwatch.org/en/chatbots-democratic-decisionmakers-guidelines/"
     },
     {
       "title": "NIST Joins National Genesis Mission to Accelerate AI Innovation",
@@ -353,14 +305,6 @@
       "tier": "8-jurisdicoes",
       "date": "2026-07-13",
       "url": "https://www.gov.uk/government/news/barnsley-tech-towns-800000-ai-skills-fund-opens-for-applications"
-    },
-    {
-      "title": "UK adults increasingly seek emotional support and companionship from AI, new report finds",
-      "summary": "—",
-      "source": "Oxford Internet Institute",
-      "tier": "9-investigacao",
-      "date": "2026-07-08",
-      "url": "https://www.oii.ox.ac.uk/uk-adults-increasingly-seek-emotional-support-and-companionship-from-ai-new-report-finds/"
     }
   ]
 }
