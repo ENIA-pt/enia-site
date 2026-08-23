@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-22T23:54:06.554Z",
+  "startedAt": "2026-08-23T23:54:39.181Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 37,
+      "items": 36,
       "kept": 2,
       "maisRecente": "2026-08-12"
     },
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-08-22"
+      "maisRecente": "2026-08-23"
     },
     {
       "id": "theverge-ai",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 2,
+      "maisRecente": "2026-08-23"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 404"
     },
     {
       "id": "mlex",
@@ -629,16 +629,16 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "error": "HTTP 404"
     },
     {
       "id": "senado-br-ia",
       "tier": "13-lusofonia",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "inacom-ao",
@@ -695,11 +695,11 @@
     "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[microsoft-issues] HTTP 403",
-    "[anpd-br] fetch failed",
-    "[senado-br-ia] fetch failed",
+    "[anpd-br] HTTP 404",
     "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
@@ -712,14 +712,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-22T23:55:27.891Z",
-  "recolhidos": 38,
-  "written": 38,
-  "maisRecente": "2026-08-22",
+  "finishedAt": "2026-08-23T23:55:41.304Z",
+  "recolhidos": 40,
+  "written": 40,
+  "maisRecente": "2026-08-23",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
     "added": 4,
     "curados": 0,
-    "total": 191
+    "total": 195
   }
 }

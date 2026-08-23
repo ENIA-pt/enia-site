@@ -1,8 +1,40 @@
 {
-  "generated": "2026-08-22T23:55:27.890Z",
+  "generated": "2026-08-23T23:55:41.303Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 191,
+  "count": 195,
   "items": [
+    {
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-23",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/"
+    },
+    {
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-23",
+      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/"
+    },
+    {
+      "title": "Liang Wenfeng, o misterioso fundador da DeepSeek que é um dos homens mais ricos do mundo",
+      "summary": "Estávamos em janeiro de 2025 quando o mundo ouviu falar pela primeira vez da DeepSeek, até então praticamente desconhecida para a maioria das pessoas, mesmo para aquelas mais ligadas à tecnologia. Em poucos dias, após o lançamento do modelo de inteligência…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-23",
+      "url": "https://eco.sapo.pt/2026/08/23/liang-wenfeng-o-misterioso-fundador-da-deepseek-que-e-um-dos-homens-mais-ricos-do-mundo/"
+    },
+    {
+      "title": "Alibaba vai captar 10,2 mil milhões para investir em IA",
+      "summary": "A Alibaba prepara uma colocação de ações de 80 mil milhões de dólares de Hong Kong, cerca de 10,2 mil milhões de dólares, para financiar investimentos em inteligência artificial, segundo o Financial Times (acesso pago, em inglês). A operação surge depois de o…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-23",
+      "url": "https://eco.sapo.pt/2026/08/23/alibaba-vai-captar-102-mil-milhoes-para-investir-em-ia/"
+    },
     {
       "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
       "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
