@@ -1,8 +1,112 @@
 {
-  "generated": "2026-08-23T23:55:41.303Z",
+  "generated": "2026-08-24T23:56:23.482Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 195,
+  "count": 208,
   "items": [
+    {
+      "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-24",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/"
+    },
+    {
+      "title": "Plot lança ferramenta que avalia como as marcas são vistas pela IA",
+      "summary": "Rui Borges, CEO da Plot A Plot está a lançar uma ferramenta desenhada para medir e comparar a forma como as marcas são vistas, citadas e recomendadas pelos principais modelos de linguagem (LLM). O “Top of mAInd” surge como resposta a uma mudança no…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-24",
+      "url": "https://eco.sapo.pt/2026/08/24/plot-lanca-ferramenta-que-avalia-como-as-marcas-sao-vistas-pela-ia/"
+    },
+    {
+      "title": "New partnership set to see the UK and Ukraine develop battle winning technology as Britain secures access to Ukraine's Avengers AI Labs",
+      "summary": "A landmark AI deal between the UK and Ukraine has been signed today as the two countries join forces to develop new military capabilities and the technology of the future.",
+      "source": "GOV.UK · DSIT / AISI",
+      "tier": "8-jurisdicoes",
+      "date": "2026-08-24",
+      "url": "https://www.gov.uk/government/news/new-partnership-set-to-see-the-uk-and-ukraine-develop-battle-winning-technology-as-britain-secures-access-to-ukraines-avengers-ai-labs"
+    },
+    {
+      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-24",
+      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
+    },
+    {
+      "title": "How to encourage smarter AI use in the classroom",
+      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly,…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-24",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
+    },
+    {
+      "title": "The Download: kids outlearning AI, and space travel agents",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a computer to use human language requires an inhuman amount of…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-24",
+      "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/"
+    },
+    {
+      "title": "Pitching day: Finalists of the Apply AI Startup Award",
+      "summary": "Pitching day: Finalists of the Apply AI Startup Award Anonymous (not verified) Mon, 08/24/2026 - 10:19 20 October 2026 Watch the pitches of the top 10 finalists of the Apply AI Startup Award and learn more about the European AI innovation ecosystem. The Apply…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-08-24",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/pitching-day-finalists-apply-ai-startup-award"
+    },
+    {
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.20341"
+    },
+    {
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.20342"
+    },
+    {
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.20378"
+    },
+    {
+      "title": "Six misconceptions about large language models: A minimal model and diagnostic taxonomy",
+      "summary": "arXiv:2608.20421v1 Announce Type: new Abstract: Large language models (LLMs) are now embedded in scientific, educational, and governance workflows, with debates centering on their capabilities, mechanisms, and impacts. Yet these debates remain structured by…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.20421"
+    },
+    {
+      "title": "Interaction Effects Between Learner Characteristics and Dialogue Format in TTS Dialogue-Based Lessons",
+      "summary": "arXiv:2608.20822v1 Announce Type: new Abstract: This study examined how learner characteristics affect motivation, learning outcomes, and overall evaluation in three types of dialogue-based lessons---(1) teacher--student, (2) student--student, and (3)…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.20822"
+    },
+    {
+      "title": "Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data",
+      "summary": "arXiv:2608.20830v1 Announce Type: new Abstract: Evaluating mobility interventions at tourist destinations requires predicting visitor behavior under varying conditions. Traditional methods struggle because tourist decisions depend heavily on context like…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.20830"
+    },
     {
       "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
       "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",

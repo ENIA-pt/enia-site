@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-23T23:54:39.181Z",
+  "startedAt": "2026-08-24T23:55:22.652Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -44,7 +44,7 @@
       "ok": true,
       "items": 10,
       "kept": 8,
-      "maisRecente": "2026-08-18"
+      "maisRecente": "2026-08-24"
     },
     {
       "id": "ec-have-your-say",
@@ -177,7 +177,7 @@
       "tier": "5-nacional",
       "kind": "rss",
       "ok": true,
-      "items": 8,
+      "items": 9,
       "kept": 0,
       "maisRecente": null
     },
@@ -331,8 +331,8 @@
       "kind": "atom",
       "ok": true,
       "items": 20,
-      "kept": 1,
-      "maisRecente": "2026-07-13"
+      "kept": 2,
+      "maisRecente": "2026-08-24"
     },
     {
       "id": "us-ftc-ai",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 290,
+      "kept": 3,
+      "maisRecente": "2026-08-24"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 26,
+      "kept": 3,
+      "maisRecente": "2026-08-24"
     },
     {
       "id": "stanford-hai",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-08-21"
+      "maisRecente": "2026-08-24"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-08-23"
+      "maisRecente": "2026-08-24"
     },
     {
       "id": "theverge-ai",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 2,
-      "maisRecente": "2026-08-23"
+      "kept": 1,
+      "maisRecente": "2026-08-24"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "mlex",
@@ -591,7 +591,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1143,
+      "items": 1144,
       "kept": 2,
       "maisRecente": "2026-08-20"
     },
@@ -617,10 +617,10 @@
       "id": "microsoft-issues",
       "tier": "12-industria",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 10,
       "kept": 0,
-      "error": "HTTP 403"
+      "maisRecente": null
     },
     {
       "id": "anpd-br",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 966,
+      "items": 950,
       "kept": 0,
       "maisRecente": null
     },
@@ -695,10 +695,8 @@
     "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
-    "[microsoft-issues] HTTP 403",
     "[anpd-br] HTTP 404",
     "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
@@ -712,14 +710,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-23T23:55:41.304Z",
-  "recolhidos": 40,
-  "written": 40,
-  "maisRecente": "2026-08-23",
+  "finishedAt": "2026-08-24T23:56:23.483Z",
+  "recolhidos": 46,
+  "written": 46,
+  "maisRecente": "2026-08-24",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 4,
+    "added": 13,
     "curados": 0,
-    "total": 195
+    "total": 208
   }
 }
