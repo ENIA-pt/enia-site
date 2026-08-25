@@ -1,22 +1,118 @@
 {
-  "generated": "2026-08-24T23:56:23.482Z",
+  "generated": "2026-08-25T23:59:52.228Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
-      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
-      "source": "TechCrunch AI",
+      "title": "Your brain on AI",
+      "summary": "Many people find AI-based chatbots helpful in keeping up with news, but a study by Pattie Maes and her colleagues at the MIT Media Lab points to a big problem with this strategy. Participants who evaluated paired news headlines and images over the course of…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-08-24",
-      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/"
+      "date": "2026-08-25",
+      "url": "https://www.technologyreview.com/2026/08/25/1140958/your-brain-on-ai/"
     },
     {
-      "title": "Plot lança ferramenta que avalia como as marcas são vistas pela IA",
-      "summary": "Rui Borges, CEO da Plot A Plot está a lançar uma ferramenta desenhada para medir e comparar a forma como as marcas são vistas, citadas e recomendadas pelos principais modelos de linguagem (LLM). O “Top of mAInd” surge como resposta a uma mudança no…",
+      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "summary": "The company's new fundraising total now stands at $232 million.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-25",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"
+    },
+    {
+      "title": "Claude Cowork finally remembers what you told the app in chat",
+      "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-25",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+    },
+    {
+      "title": "ChatGPT introduz limite de utilização por períodos de cinco horas nas contas Plus",
+      "summary": "Os utilizadores do ChatGPT Plus e alguns clientes empresariais estão agora sujeitos a um novo limite de utilização na popular ferramenta de inteligência artificial (IA) generativa. Além do limite semanal já existente, há agora um novo plafond que renova por…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-08-24",
-      "url": "https://eco.sapo.pt/2026/08/24/plot-lanca-ferramenta-que-avalia-como-as-marcas-sao-vistas-pela-ia/"
+      "date": "2026-08-25",
+      "url": "https://eco.sapo.pt/2026/08/25/chatgpt-introduz-limite-de-utilizacao-a-cada-cinco-horas-nas-contas-plus/"
+    },
+    {
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-25",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
+    },
+    {
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-25",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack"
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-25",
+      "url": "https://openai.com/index/jalapeno-first-results"
+    },
+    {
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "summary": "arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.21362"
+    },
+    {
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+      "summary": "arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.21363"
+    },
+    {
+      "title": "Reviewing Model Collapse and Countermeasures",
+      "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.21366"
+    },
+    {
+      "title": "Self-Reported AI Usage for Learning in Computer Science Education: Relationships with Goal Orientation and Academic Help-Seeking",
+      "summary": "arXiv:2608.21373v1 Announce Type: new Abstract: Artificial intelligence (AI) is becoming an increasingly integral part of higher education, yet the factors shaping students' use of AI for learning remain insufficiently understood. This study examines how…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.21373"
+    },
+    {
+      "title": "PersonaMem-v3: Toward Omni-Platform Personal Intelligence for Holistic User Understanding, Recommendation, and Agentic Tasks",
+      "summary": "arXiv:2608.21381v1 Announce Type: new Abstract: Personal intelligence is becoming a central frontier for user-facing AI agents. To be helpful in everyday life, agents must understand users across the digital contexts where their preferences, intents, habits,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.21381"
+    },
+    {
+      "title": "Determinants of Starting Salaries for Filipino Graduates: An Explainable Machine Learning Approach",
+      "summary": "arXiv:2608.21383v1 Announce Type: new Abstract: Filipino graduates face a persistent disconnect between educational preparation and labor market outcomes, where starting salary is a key signal of entry-level valuation. Current Philippine research is dominated…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.21383"
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-25",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
     },
     {
       "title": "New partnership set to see the UK and Ukraine develop battle winning technology as Britain secures access to Ukraine's Avengers AI Labs",
@@ -27,30 +123,6 @@
       "url": "https://www.gov.uk/government/news/new-partnership-set-to-see-the-uk-and-ukraine-develop-battle-winning-technology-as-britain-secures-access-to-ukraines-avengers-ai-labs"
     },
     {
-      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven…",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-24",
-      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
-    },
-    {
-      "title": "How to encourage smarter AI use in the classroom",
-      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly,…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-24",
-      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
-    },
-    {
-      "title": "The Download: kids outlearning AI, and space travel agents",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a computer to use human language requires an inhuman amount of…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-24",
-      "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/"
-    },
-    {
       "title": "Pitching day: Finalists of the Apply AI Startup Award",
       "summary": "Pitching day: Finalists of the Apply AI Startup Award Anonymous (not verified) Mon, 08/24/2026 - 10:19 20 October 2026 Watch the pitches of the top 10 finalists of the Apply AI Startup Award and learn more about the European AI innovation ecosystem. The Apply…",
       "source": "Shaping Europe's Digital Future",
@@ -59,76 +131,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/pitching-day-finalists-apply-ai-startup-award"
     },
     {
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-24",
-      "url": "https://arxiv.org/abs/2608.20341"
-    },
-    {
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-24",
-      "url": "https://arxiv.org/abs/2608.20342"
-    },
-    {
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-24",
-      "url": "https://arxiv.org/abs/2608.20378"
-    },
-    {
-      "title": "Six misconceptions about large language models: A minimal model and diagnostic taxonomy",
-      "summary": "arXiv:2608.20421v1 Announce Type: new Abstract: Large language models (LLMs) are now embedded in scientific, educational, and governance workflows, with debates centering on their capabilities, mechanisms, and impacts. Yet these debates remain structured by…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-24",
-      "url": "https://arxiv.org/abs/2608.20421"
-    },
-    {
-      "title": "Interaction Effects Between Learner Characteristics and Dialogue Format in TTS Dialogue-Based Lessons",
-      "summary": "arXiv:2608.20822v1 Announce Type: new Abstract: This study examined how learner characteristics affect motivation, learning outcomes, and overall evaluation in three types of dialogue-based lessons---(1) teacher--student, (2) student--student, and (3)…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-24",
-      "url": "https://arxiv.org/abs/2608.20822"
-    },
-    {
-      "title": "Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data",
-      "summary": "arXiv:2608.20830v1 Announce Type: new Abstract: Evaluating mobility interventions at tourist destinations requires predicting visitor behavior under varying conditions. Traditional methods struggle because tourist decisions depend heavily on context like…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-24",
-      "url": "https://arxiv.org/abs/2608.20830"
-    },
-    {
       "title": "How Popular AI Chatbots Recommend Pro-life Websites to Pregnant People",
       "summary": "An experiment involving four commercial chatbots across Europe found that these often blur the line between trusted health information and advocacy, frequently directing users to anti-abortion content without clearly identifying their sources or…",
       "source": "AlgorithmWatch",
       "tier": "10-sociedade",
       "date": "2026-08-22",
       "url": "https://algorithmwatch.org/en/chatbots-abortion-ai/"
-    },
-    {
-      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
-      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-21",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
-    },
-    {
-      "title": "Major YouTube creators are facing backlash for accepting AI money",
-      "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-21",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
     },
     {
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -155,28 +163,12 @@
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-twitch-gebruikers-zet-instellingen-uit-voor-delen-van-data-met-amazon-ai"
     },
     {
-      "title": "Introducing AI Futures",
-      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-20",
-      "url": "https://openai.com/index/introducing-ai-futures"
-    },
-    {
       "title": "Slow Regulation on AI-Generated CSAM is Failing its Victims",
       "summary": "Artificial intelligence is reshaping the production of child sexual abuse material (CSAM) online, enabling new forms of exploitation that are outpacing the legal and regulatory frameworks designed to contain them.",
       "source": "AlgorithmWatch",
       "tier": "10-sociedade",
       "date": "2026-08-20",
       "url": "https://algorithmwatch.org/en/slow-regulation-ai-csam-victims/"
-    },
-    {
-      "title": "Offering Zero Data Retention for frontier models",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-19",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
     },
     {
       "title": "The AI Ethics Brief #197: Terms Set Upstream",
@@ -289,14 +281,6 @@
       "tier": "2-comissao",
       "date": "2026-07-30",
       "url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion"
-    },
-    {
-      "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
-      "summary": "European Commission Press release Brussels, 30 Jul 2026 The EU today launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of…",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-07-29",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
     },
     {
       "title": "Investors Need Better Information About How Companies are Using AI",

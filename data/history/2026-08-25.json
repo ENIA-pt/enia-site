@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-25",
+  "version": "2026.08.25",
+  "pt": 40,
+  "rank": 8,
+  "of": 12,
+  "euAvg": 51.6,
+  "leader": {
+    "name": "Finlândia",
+    "score": 95
+  },
+  "gapToLeader": 55,
+  "countries": {
+    "Finlândia": 95,
+    "Alemanha": 75,
+    "Itália": 68,
+    "França": 65,
+    "Países Baixos": 60,
+    "Espanha": 58,
+    "Bélgica": 55,
+    "Portugal": 40,
+    "Irlanda": 35,
+    "Polónia": 30,
+    "Suécia": 28,
+    "Hungria": 10
+  },
+  "sectors": {
+    "Comunicações": 54.6,
+    "IT / Tecnologia": 38.5,
+    "Financeiro": 24.1,
+    "Saúde": 18.3,
+    "Indústria": 15.2,
+    "Administração Pública": 15,
+    "Outros": 12.1
+  },
+  "checklist": {
+    "done": 3,
+    "total": 8
+  },
+  "ania": {
+    "ok": 1,
+    "wip": 8,
+    "no": 5
+  }
+}
