@@ -1,118 +1,150 @@
 {
-  "generated": "2026-08-25T23:59:52.228Z",
+  "generated": "2026-08-28T06:13:20.014Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Your brain on AI",
-      "summary": "Many people find AI-based chatbots helpful in keeping up with news, but a study by Pattie Maes and her colleagues at the MIT Media Lab points to a big problem with this strategy. Participants who evaluated paired news headlines and images over the course of…",
+      "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
+      "summary": "arXiv:2608.19194v3 Announce Type: replace Abstract: Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.19194"
+    },
+    {
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.26109"
+    },
+    {
+      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+      "summary": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics.…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.26111"
+    },
+    {
+      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+      "summary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.26113"
+    },
+    {
+      "title": "Mitigating Fabrication in Multi-Stage LLM Pipelines for Hiring: An Empirical Evaluation of Prompt Guardrails and Human-in-the-Loop Checkpoints",
+      "summary": "arXiv:2608.26171v1 Announce Type: new Abstract: Multi-stage LLM hiring pipelines (resume improvement, interview question generation, answer feedback) can fabricate credentials, inflate qualifiers, and invent experience. We evaluate two mitigations, prompt…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.26171"
+    },
+    {
+      "title": "ClassVision: AI-Powered Classroom Attendance System",
+      "summary": "arXiv:2608.26173v1 Announce Type: new Abstract: Students and working professionals have to go through the attendance process every day. Traditional methods of marking attendance using pen and paper or online platforms are human-intensive and time-consuming.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.26173"
+    },
+    {
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-27",
+      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+    },
+    {
+      "title": "Google’s AI note-taking app now allows you to interact with books",
+      "summary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-27",
+      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books"
+    },
+    {
+      "title": "OpenAI’s executive exodus has one big winner",
+      "summary": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-27",
+      "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus"
+    },
+    {
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-27",
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+    },
+    {
+      "title": "In applying AI to military decision-making, the IP4 should learn from NATO",
+      "summary": "Sophie Mayo, Emelia Probasco, and Lauren Kahn shared their expert analysis in an op-ed published by the Australian Strategic Policy Institute’s The Strategist. In their piece, they examine how NATO’s Indo-Pacific Four (IP4) partners, Australia, Japan, South…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-08-27",
+      "url": "https://cset.georgetown.edu/article/in-applying-ai-to-military-decision-making-the-ip4-should-learn-from-nato/"
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "summary": "Piloting the world's first double-blind AI evaluations",
+      "source": "Google DeepMind",
+      "tier": "12-industria",
+      "date": "2026-08-27",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+    },
+    {
+      "title": "FTC Finalizes Orders with Cox Media Group, Two Other Firms Settling Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
+      "summary": "The Federal Trade Commission finalized orders requiring Cox Media Group (CMG) and two other firms to pay a total of $930,000 to settle allegations they deceived customers by falsely claiming to offer an AI-powered service that could target localized ads based…",
+      "source": "FTC",
+      "tier": "8-jurisdicoes",
+      "date": "2026-08-27",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about"
+    },
+    {
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-27",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil"
+    },
+    {
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids’ use of technology was once a subcurrent, it has become a raging…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-08-25",
-      "url": "https://www.technologyreview.com/2026/08/25/1140958/your-brain-on-ai/"
+      "date": "2026-08-26",
+      "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/"
     },
     {
-      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
-      "summary": "The company's new fundraising total now stands at $232 million.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-25",
-      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"
+      "title": "IA: la CNIL met à jour son outil de traçabilité des modèles publiés en source ouverte",
+      "summary": "La CNIL publie une nouvelle version de son démonstrateur permettant d’explorer la généalogie des modèles d’IA publiés en source ouverte. Cette mise à jour améliore notamment les performances de l’outil, son ergonomie et automatise l’actualisation des données.…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-08-26",
+      "url": "https://www.cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte"
     },
     {
-      "title": "Claude Cowork finally remembers what you told the app in chat",
-      "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-25",
-      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
-    },
-    {
-      "title": "ChatGPT introduz limite de utilização por períodos de cinco horas nas contas Plus",
-      "summary": "Os utilizadores do ChatGPT Plus e alguns clientes empresariais estão agora sujeitos a um novo limite de utilização na popular ferramenta de inteligência artificial (IA) generativa. Além do limite semanal já existente, há agora um novo plafond que renova por…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-25",
-      "url": "https://eco.sapo.pt/2026/08/25/chatgpt-introduz-limite-de-utilizacao-a-cada-cinco-horas-nas-contas-plus/"
-    },
-    {
-      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
-      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-25",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
-    },
-    {
-      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-      "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-25",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack"
-    },
-    {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
       "source": "OpenAI",
       "tier": "12-industria",
-      "date": "2026-08-25",
-      "url": "https://openai.com/index/jalapeno-first-results"
+      "date": "2026-08-26",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
     },
     {
-      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-      "summary": "arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.21362"
-    },
-    {
-      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
-      "summary": "arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.21363"
-    },
-    {
-      "title": "Reviewing Model Collapse and Countermeasures",
-      "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.21366"
-    },
-    {
-      "title": "Self-Reported AI Usage for Learning in Computer Science Education: Relationships with Goal Orientation and Academic Help-Seeking",
-      "summary": "arXiv:2608.21373v1 Announce Type: new Abstract: Artificial intelligence (AI) is becoming an increasingly integral part of higher education, yet the factors shaping students' use of AI for learning remain insufficiently understood. This study examines how…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.21373"
-    },
-    {
-      "title": "PersonaMem-v3: Toward Omni-Platform Personal Intelligence for Holistic User Understanding, Recommendation, and Agentic Tasks",
-      "summary": "arXiv:2608.21381v1 Announce Type: new Abstract: Personal intelligence is becoming a central frontier for user-facing AI agents. To be helpful in everyday life, agents must understand users across the digital contexts where their preferences, intents, habits,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.21381"
-    },
-    {
-      "title": "Determinants of Starting Salaries for Filipino Graduates: An Explainable Machine Learning Approach",
-      "summary": "arXiv:2608.21383v1 Announce Type: new Abstract: Filipino graduates face a persistent disconnect between educational preparation and labor market outcomes, where starting salary is a key signal of entry-level valuation. Current Philippine research is dominated…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.21383"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-25",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+      "title": "Raised on AI",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-26",
+      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/"
     },
     {
       "title": "New partnership set to see the UK and Ukraine develop battle winning technology as Britain secures access to Ukraine's Avengers AI Labs",
@@ -137,22 +169,6 @@
       "tier": "10-sociedade",
       "date": "2026-08-22",
       "url": "https://algorithmwatch.org/en/chatbots-abortion-ai/"
-    },
-    {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "source": "Google DeepMind",
-      "tier": "12-industria",
-      "date": "2026-08-21",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
-    },
-    {
-      "title": "How AI Could Hollow Out the U.S. Military",
-      "summary": "CSET’s Emelia Probasco shared her expert insight in an op-ed published by Foreign Affairs. In her piece, she examines how the U.S. military’s growing use of AI could affect military decision-making and human judgment, particularly as the Pentagon works to…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-08-20",
-      "url": "https://cset.georgetown.edu/article/how-ai-could-hollow-out-the-u-s-military/"
     },
     {
       "title": "AP adviseert Twitch-gebruikers: zet instellingen uit voor delen van data met Amazon AI",
@@ -345,14 +361,6 @@
       "tier": "14-enia",
       "date": "2026-07-15",
       "url": "radar.html#benchmark"
-    },
-    {
-      "title": "Barnsley Tech Town's £800,000 AI skills fund opens for applications",
-      "summary": "Applications open for the AI Upskilling Challenge Fund, inviting organisations to deliver innovative AI training to help Barnsley workers, businesses and residents build AI skills as part of the Barnsley Tech Town.",
-      "source": "GOV.UK · DSIT / AISI",
-      "tier": "8-jurisdicoes",
-      "date": "2026-07-13",
-      "url": "https://www.gov.uk/government/news/barnsley-tech-towns-800000-ai-skills-fund-opens-for-applications"
     }
   ]
 }
