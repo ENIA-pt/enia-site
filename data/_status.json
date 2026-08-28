@@ -1,8 +1,8 @@
 {
-  "last_run_utc": "2026-08-28T06:14:27Z",
-  "run_id": "33147068808",
-  "run_number": 20,
-  "trigger": "schedule",
+  "last_run_utc": "2026-08-28T23:21:39Z",
+  "run_id": "33219965320",
+  "run_number": 21,
+  "trigger": "workflow_dispatch",
   "sync": "success",
   "bundle": "success",
   "i18n": "success"

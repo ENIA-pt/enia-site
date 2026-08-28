@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-28T06:13:20.014Z",
+  "generated": "2026-08-28T23:20:31.360Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 239,
+  "count": 244,
   "items": [
     {
       "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
@@ -42,6 +42,46 @@
       "tier": "9-investigacao",
       "date": "2026-08-28",
       "url": "https://arxiv.org/abs/2608.26173"
+    },
+    {
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+    },
+    {
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
+    },
+    {
+      "title": "Conteúdo autêntico supera produção excessiva",
+      "summary": "Num mundo digital inundado por publicações automáticas, textos produzidos em segundos e imagens geradas por inteligência artificial, começa a emergir uma nova valorização da autenticidade. Paradoxalmente, quanto mais sofisticada se torna a tecnologia capaz de…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://eco.sapo.pt/opiniao/conteudo-autentico-supera-producao-excessiva/"
+    },
+    {
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
+    },
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-28",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
     },
     {
       "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",

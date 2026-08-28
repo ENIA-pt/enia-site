@@ -1,7 +1,47 @@
 {
-  "generated": "2026-08-28T06:13:20.014Z",
+  "generated": "2026-08-28T23:20:31.360Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+    },
+    {
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
+    },
+    {
+      "title": "Conteúdo autêntico supera produção excessiva",
+      "summary": "Num mundo digital inundado por publicações automáticas, textos produzidos em segundos e imagens geradas por inteligência artificial, começa a emergir uma nova valorização da autenticidade. Paradoxalmente, quanto mais sofisticada se torna a tecnologia capaz de…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://eco.sapo.pt/opiniao/conteudo-autentico-supera-producao-excessiva/"
+    },
+    {
+      "title": "Google’s AI note-taking app now allows you to interact with books",
+      "summary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books"
+    },
+    {
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-28",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
+    },
     {
       "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
       "summary": "arXiv:2608.19194v3 Announce Type: replace Abstract: Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state…",
@@ -51,36 +91,12 @@
       "url": "https://arxiv.org/abs/2608.26173"
     },
     {
-      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-27",
-      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
-    },
-    {
-      "title": "Google’s AI note-taking app now allows you to interact with books",
-      "summary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-27",
-      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books"
-    },
-    {
-      "title": "OpenAI’s executive exodus has one big winner",
-      "summary": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-27",
-      "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus"
-    },
-    {
-      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-27",
-      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-28",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
     },
     {
       "title": "In applying AI to military decision-making, the IP4 should learn from NATO",
@@ -129,14 +145,6 @@
       "tier": "4-dados",
       "date": "2026-08-26",
       "url": "https://www.cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte"
-    },
-    {
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-26",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
     },
     {
       "title": "Raised on AI",

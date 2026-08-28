@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
 <link rel="stylesheet" href="../assets/enia.css">
+<link rel="stylesheet" href="../assets/enia-selo.css">
 <style>
   /* específico do radar */
   .dls{display:grid;grid-template-columns:repeat(auto-fit,minmax(184px,1fr));gap:clamp(10px,1vw,14px)}
@@ -42,6 +43,13 @@
   .srcs p{margin:0;font-size:.76rem;line-height:1.55;opacity:.7;word-break:break-word}
   .split{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:clamp(26px,3vw,52px);align-items:start}
   .split h4{margin-bottom:14px}
+
+  /* ── selo de fonte ─────────────────────────────────────────────
+     Componente reutilizável, obrigatório sob qualquer número
+     publicado no site. A variante --proprio marca os índices que são
+     construção da ENIA e não indicadores oficiais: sem essa distinção
+     visível, um índice nosso ao lado de dados do INE lê-se como se
+     tivesse a mesma autoridade, e não tem. */
 
   /* ═══════════════════════════════════════════════════════════════
      08 · FEED REGULATÓRIO — contraste explícito
@@ -128,6 +136,12 @@
     <div><dt>Applicable regime</dt><dd><b>Reg. (UE) 2024/1689</b> + Digital Omnibus</dd></div>
     <div><dt>Dataset version</dt><dd id="mVer">—</dd></div>
   </dl>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p>Este relógio não existe para nos assustar. <b>Existe para nos posicionar.</b></p>
+    <p>Cada indicador desta página mede a distância entre onde Portugal está e onde precisa de estar para liderar a economia europeia de IA de confiança. Atualiza todos os dias, e quem quiser verificar tem os ficheiros em bruto à distância de um clique.</p>
+  </div>
 </section>
 
 <!-- ══════════════════ 01 · PRAZOS ══════════════════ -->
@@ -141,6 +155,12 @@
   </div>
   <div class="dls rv" id="dls"></div>
   <p class="note rv" id="omnibusNote"></p>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p>December 2027 não é um prazo para cumprir. <b>É a data em que o mercado europeu separa quem se preparou de quem esperou.</b></p>
+    <p>Quem chegar com a casa arrumada não está a evitar uma coima. Está a ficar com os contratos de quem não chegou a tempo.</p>
+  </div>
 </section>
 
 <!-- ══════════════════ 02 · BENCHMARK ══════════════════ -->
@@ -150,7 +170,7 @@
       <p class="eyebrow">02 · AI Act Readiness Index</p>
       <h2>Where Portugal stands<br>in the European race.</h2>
     </div>
-    <p class="note">A 0–100 index combining authority designation, enforcement capacity, sandbox, harmonised standards and SME support.</p>
+    <p class="note">A 0–100 index combining authority designation, enforcement capacity, sandbox, harmonised standards and SME support.<br><span class="selo selo--proprio">Índice ENIA, metodologia própria, 2026 · <a href="metodologia.html#prontidao">ver método e pesos</a></span></p>
   </div>
   <ul class="bars rv" id="barsC"></ul>
   <div class="legend rv">
@@ -170,6 +190,12 @@
     </div>
     <div id="traj"></div>
   </div>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p><b>Nenhuma das cinco dimensões deste índice exige legislação nova.</b> Exigem decisões administrativas, com dono e com data.</p>
+    <p>É por isso que subir aqui é o passo mais barato do rumo à liderança: não depende de Bruxelas, nem de fundos, nem de eleições. Depende de nós.</p>
+  </div>
 </section>
 
 <!-- ══════════════════ 03 · SECTORES ══════════════════ -->
@@ -182,7 +208,13 @@
     <p class="note">Below the 30% threshold the risk of unintentional non-compliance is high — especially in areas classified as high risk under Annex III.</p>
   </div>
   <ul class="bars rv" id="barsS"></ul>
-  <p class="thresh rv">Critical threshold of 30%. Source: ENIA AI Act Intelligence Center.</p>
+  <p class="thresh rv">Limiar crítico de 30%. <span class="selo selo--proprio">Índice ENIA de preparação setorial, metodologia própria, 2025 · <a href="metodologia.html#setorial">ver método</a></span></p>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p>Nenhum sector português está onde precisa de estar. <b>O que significa que nenhum está atrasado em relação aos outros.</b></p>
+    <p>Quem for primeiro no seu sector não está a apanhar ninguém: está a definir a referência que os concursos públicos europeus vão pedir a seguir. A vantagem de partida existe uma vez só, e é agora.</p>
+  </div>
 </section>
 
 <!-- ══════════════════ 04 · ESTADO DA IA EM PORTUGAL ══════════════════ -->
@@ -222,10 +254,17 @@
   </div>
 
   <div class="warn rv">
-    <h4>Why the numbers diverge — and what we do about it</h4>
-    <p>Two readings of business AI adoption in Portugal are in circulation. The European Commission’s DESI puts it at around 17%, twice the European average. INE, in its 2025 IUTICE survey, finds 11.5%.</p>
-    <p>This is not a contradiction, it is scope: the two series use different definitions and different universes — INE covers only companies with ten or more employees, and the European question on AI technologies was reworded between editions. What both show, beyond any doubt, is the same direction of travel: adoption is rising, it is deeply uneven by company size, and it is far ahead of the country’s capacity to govern it.</p>
-    <p>We publish both, each with its source attached. A radar that picks the more flattering number stops being a radar.</p>
+    <h4>As duas fontes oficiais concordam. E concordam contra nós.</h4>
+    <p>O DESI aponta 8,6% em 2024, abaixo dos 13,5% europeus. A mesma direção do INE. As duas fontes oficiais concordam, e concordam contra nós. É exatamente por isso que confiamos nelas.</p>
+    <p>As séries usam universos diferentes: o INE cobre apenas empresas com 10 ou mais pessoas ao serviço, e a pergunta europeia sobre tecnologias de IA mudou de formulação entre edições. Publicamos as duas com a fonte à frente, sem escolher a mais favorável. Um radar que filtra por conveniência deixa de ser um radar.</p>
+    <p>Até 28 August 2026 esta secção apresentava, como leitura alternativa legítima, um valor que não existe em nenhuma fonte oficial para Portugal. A correção, a sua origem e o valor errado que foi retirado estão registados em <a href="metodologia.html#correcoes" class="lime">metodologia.html</a>.</p>
+    <p class="selo">Fonte: INE (IUTICE Empresas 2025), Comissão Europeia (Digital Decade 2025) e Eurostat (isoc_eb_ai), 2025</p>
+  </div>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p><b>O fosso de fora nasce dentro.</b> O número nacional é, na prática, o número das pequenas empresas.</p>
+    <p>Fechar a distância entre as grandes e as pequenas fecha a distância com a Europa por arrasto. É a alavanca mais curta que o país tem, e é a única que ninguém está a puxar.</p>
   </div>
 </section>
 
@@ -239,7 +278,13 @@
     <p class="note" id="aicepAsOf">—</p>
   </div>
   <div class="figs rv" id="aicepFigs"></div>
-  <p class="note rv">A sector generating around a tenth of GDP and a startup ecosystem operating at international scale are exactly the substrate an AI economy needs. What is missing is not business fabric — it is the trust infrastructure that turns that fabric into regulated advantage.</p>
+  <p class="note rv">Um setor que gera cerca de um décimo do PIB e um ecossistema de startups com escala internacional são o substrato de que a economia de IA precisa. O que falta não é tecido empresarial: é a infraestrutura de confiança que transforma esse tecido em vantagem regulada.</p>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p><b>A base económica já está paga.</b> Não é preciso construir uma indústria nova.</p>
+    <p>É preciso dar-lhe a camada de confiança que a Europa vai exigir a partir de December 2027, e que hoje quase ninguém no continente oferece. Substrato sem infraestrutura não exporta.</p>
+  </div>
 </section>
 
 <!-- ══════════════════ 06 · AGENDA NACIONAL ══════════════════ -->
@@ -266,6 +311,12 @@
     <p id="aniaAval">—</p>
     <p>ENIA has no privileged access to how the Agenda is being delivered. This tracker exists because nobody publishes one — and because a €400 million agenda deserves a public dashboard. If a measure has moved and we have not recorded it, we correct it the day you tell us: <a href="mailto:jorge.saraiva@enia.pt" class="lime">jorge.saraiva@enia.pt</a>.</p>
   </div>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p>Uma agenda de 400 milhões de euros merece um painel público. <b>A partir de hoje tem um.</b></p>
+    <p>Cada iniciativa que passar de «sem informação» a «confirmada» é um ponto no Índice de Prontidão e um passo no rumo. Não medimos para acusar: medimos porque uma agenda que ninguém acompanha nunca se executa sozinha.</p>
+  </div>
 </section>
 
 <!-- ══════════════════ 07 · INSTITUCIONAL ══════════════════ -->
@@ -278,6 +329,12 @@
       <p class="note">ENIA offers free support meetings to any citizen, company or public body that needs to navigate the AI Act — informally filling the role of a national <em>AI Act Service Desk</em>.</p>
     </div>
     <ul class="chk" id="chk"></ul>
+  </div>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p>A designação da ANACOM era o passo necessário. <b>O suficiente são três coisas que ainda faltam:</b> uma sandbox operacional, uma autoridade notificadora e um balcão nacional para PME.</p>
+    <p>Nenhuma das três exige lei nova. O quadro legal das zonas livres tecnológicas já existe, e a ENIA já opera o balcão, de graça, com voluntários. Falta decidir, e decidir é mais barato do que legislar.</p>
   </div>
 </section>
 
@@ -294,6 +351,12 @@
   <div class="btns rv">
     <a class="btn btn--ghost" href="noticias.html">Full archive, with calendar and search <i>&rarr;</i></a>
   </div>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p><b>A velocidade é a nossa vantagem estrutural.</b> Atualizamos no próprio dia em que as coisas acontecem.</p>
+    <p>Nenhuma autoridade nacional consegue fazê-lo, e não por falta de competência: por restrições de governação que nós não temos. Quem chega primeiro à informação chega primeiro à decisão, e é assim que um país pequeno se põe à frente de países grandes.</p>
+  </div>
 </section>
 
 <!-- ══════════════════ 09 · METODOLOGIA ══════════════════ -->
@@ -302,7 +365,13 @@
   <h2 class="rv">How this number<br>was made.</h2>
   <p class="lead rv">Every indicator carries a declared source and a date. Where an official source does not allow automated collection, the item is flagged for manual verification and dated. We do not publish estimates without saying so.</p>
   <div class="srcs rv" id="srcs"></div>
-  <p class="note rv">The Readiness Index is an ENIA composite index, not an official European Union indicator. The full methodology, the weight of each dimension and the historical series are available on request at <a href="mailto:jorge.saraiva@enia.pt" class="lime">jorge.saraiva@enia.pt</a>.</p>
+  <p class="note rv">O Índice de Prontidão é um índice composto da ENIA, não um indicador oficial da União Europeia. A metodologia completa, os pesos de cada dimensão, os limites que assumimos e o registo público de correções de dados estão em <a href="metodologia.html" class="lime">metodologia.html</a>. Os ficheiros em bruto que alimentam esta página estão em <a href="metodologia.html#dados" class="lime">metodologia.html#dados</a>.</p>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p>Publicamos o método e o registo dos nossos próprios erros. <b>Um observatório que pede fé em vez de confiança não serve para liderar nada.</b></p>
+    <p>É o único ativo que a ENIA tem, e é o que torna credível tudo o resto nesta página. Portugal só lidera em IA de confiança se as instituições que a medem forem, elas próprias, verificáveis.</p>
+  </div>
 </section>
 
 </main>
@@ -317,6 +386,7 @@
       <h4>Site</h4>
       <nav>
         <a href="noticias.html">News and publications</a>
+        <a href="metodologia.html">Methodology e fontes</a>
         <a href="teste.html">Classification test</a>
         <a href="marketplace.html">Ethical AI Marketplace</a>
         <a href="sobre.html">About ENIA and the Colleges</a>
@@ -346,6 +416,7 @@
 
 <script src="../data/bundle.js"></script>
 <script src="../assets/enia.js"></script>
+<script src="../assets/enia-selo.js" defer></script>
 <script>
 (() => {
 'use strict';
@@ -617,4 +688,3 @@ Promise.all([ E.get('data/radar.json', null), E.get('data/news.json', NEWS_SEED)
   });
 })();
 </script>
-

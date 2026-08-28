@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-page="metodologia">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Methodology e fontes · ENIA</title>
+<meta name="description" content="Como são construídos os índices da ENIA, que fontes usamos para cada número publicado, e o registo público de correções de dados.">
+<meta name="theme-color" content="#132333">
+<link rel="canonical" href="https://enia.pt/en/metodologia.html">
+<link rel="alternate" hreflang="pt-PT" href="https://enia.pt/metodologia.html">
+<link rel="alternate" hreflang="en" href="https://enia.pt/en/metodologia.html">
+<link rel="alternate" hreflang="x-default" href="https://enia.pt/metodologia.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Methodology e fontes · ENIA">
+<meta property="og:description" content="Cada número que publicamos tem origem declarada. Incluindo os que corrigimos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
+<link rel="stylesheet" href="../assets/enia.css">
+<link rel="stylesheet" href="../assets/enia-selo.css">
+<style>
+  .doc{max-width:74ch}
+  .doc h3{margin:clamp(30px,4vh,48px) 0 12px;font-size:clamp(1.1rem,1.4vw,1.4rem);font-weight:500}
+  .doc h4{margin:24px 0 8px;font-size:.98rem;font-weight:500}
+  .doc p{margin:0 0 14px;line-height:1.68}
+  .doc ul{margin:0 0 16px;padding-left:20px}
+  .doc li{margin-bottom:8px;line-height:1.62}
+  .doc code{font-size:.86em;opacity:.85}
+
+  .pesos{width:100%;border-collapse:collapse;margin:18px 0 24px;font-size:.88rem}
+  .pesos th,.pesos td{text-align:left;padding:11px 14px 11px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  .pesos th{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;opacity:.45}
+  .pesos td:last-child{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+  .corr{border-left:3px solid var(--num);padding:16px 0 16px 18px;margin:0 0 20px}
+  .corr b{display:block;font-weight:600;margin-bottom:6px}
+  .corr p{margin:0 0 8px;font-size:.9rem;line-height:1.6}
+  .corr p:last-child{margin:0}
+  .corr time{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;opacity:.45}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+
+<section class="band band--ink">
+  <p class="eyebrow rv">Methodology e fontes <b>·</b> documento público</p>
+  <h1 class="rv">Como é que cada<br>número foi <span class="lime">feito.</span></h1>
+  <p class="lead rv">Todos os indicadores publicados em enia.pt declaram origem e ano junto ao número. Os índices que são construção nossa dizem-no de forma explícita. Esta página existe porque um observatório que pede para ser acreditado sem mostrar o método está a pedir fé, não confiança.</p>
+</section>
+
+<section class="band band--paper" id="principios">
+  <div class="doc rv">
+    <p class="eyebrow">01 · Princípios</p>
+    <h2>Quatro regras que não abrimos.</h2>
+
+    <h3>Toda a estatística mostra a fonte junto ao número</h3>
+    <p>Name da fonte, ano e ligação quando o dado é consultável online. Não há números órfãos no site. Se um indicador aparecer sem selo de fonte, é um defeito nosso e agradecemos que nos avisem.</p>
+
+    <h3>Os nossos índices identificam-se como nossos</h3>
+    <p>O Índice de Prontidão para o AI Act e a preparação setorial são construções da ENIA, não indicadores oficiais da União Europeia. Aparecem sempre marcados como <em>Índice ENIA, metodologia própria</em>, com ligação a esta página. Nunca os apresentamos ao lado de dados do INE, do Eurostat ou da Comissão sem essa distinção visível.</p>
+
+    <h3>Nunca escolhemos o número mais favorável</h3>
+    <p>Quando duas fontes oficiais divergem, publicamos as duas com a fonte à frente e explicamos a diferença de âmbito. Quando ambas apontam contra Portugal, publicamos ambas do mesmo modo. Um radar que filtra por conveniência deixa de ser um radar.</p>
+
+    <h3>Os números vivem num só ficheiro</h3>
+    <p>Todos os indicadores do site são lidos de <code>data/enia-dados.json</code>. Nenhum número é escrito à mão dentro de uma página. Esta regra nasceu de um erro concreto, descrito no registo de correções mais abaixo: o mesmo valor errado estava copiado em duas páginas e sobreviveu meses porque não havia um lugar único onde o verificar.</p>
+
+    <div class="rumo rv">
+      <p class="rumo__k">Rumo à liderança</p>
+      <p>Estas quatro regras não são conformidade. <b>São o produto.</b></p>
+    </div>
+    <p style="margin:0">A ENIA certifica terceiros e emite selos. Um certificador que não mostra o método está a pedir fé, não confiança. Portugal só lidera em IA de confiança se as instituições que a medem forem, elas próprias, verificáveis.</p>
+  </div>
+</section>
+
+<section class="band band--deep" id="prontidao">
+  <div class="doc rv">
+    <p class="eyebrow">02 · AI Act Readiness Index</p>
+    <h2>Cinco dimensões,<br>fontes públicas.</h2>
+
+    <p>Índice composto de 0 a 100 que mede a capacidade instalada de um Estado-Membro para aplicar o Regulamento (UE) 2024/1689. Mede capacidade institucional, não qualidade regulatória nem nível de inovação.</p>
+
+    <table class="pesos">
+      <thead><tr><th>Company size</th><th>O que avalia</th><th>Peso</th></tr></thead>
+      <tbody>
+        <tr><td>Designação de autoridade</td><td>Existência de autoridade nacional competente designada e publicada, com mandato claro</td><td>25</td></tr>
+        <tr><td>Capacidade de enforcement</td><td>Unidade operacional com equipa técnica dedicada e poderes de investigação efetivos</td><td>25</td></tr>
+        <tr><td>Sandbox regulatória</td><td>Ambiente de teste do Artigo 57 operacional, com critérios de acesso publicados</td><td>20</td></tr>
+        <tr><td>Normas harmonizadas</td><td>Participação nacional em CEN-CENELEC JTC 21 e transposição de normas aplicáveis</td><td>15</td></tr>
+        <tr><td>Apoio a PME</td><td>Balcão equivalente ao AI Act Service Desk europeu, com acesso público</td><td>15</td></tr>
+      </tbody>
+    </table>
+
+    <p>Cada dimensão é pontuada de 0 a 100 e ponderada pelos pesos acima. As pontuações assentam exclusivamente em informação pública verificável: publicações oficiais, comunicados de autoridades nacionais e documentos da Comissão. Não usamos entrevistas anónimas nem estimativas próprias.</p>
+
+    <h4>Limites que assumimos</h4>
+    <ul>
+      <li>Só cobrimos os Estados-Membros com informação pública suficiente nas cinco dimensões. Em 2026 são 12 dos 27, e não extrapolamos para os restantes.</li>
+      <li>A ausência de informação pública é pontuada como ausência de capacidade. É uma escolha discutível: um Estado pode ter capacidade que não comunica. Preferimos este erro ao inverso, porque o AI Act exige que a capacidade seja conhecida pelos regulados.</li>
+      <li>Os pesos são um juízo nosso, informado pela sequência de obrigações do Regulamento. Outra ponderação razoável daria outro resultado.</li>
+    </ul>
+
+    <p class="selo selo--proprio">Índice ENIA, metodologia própria, 2026</p>
+
+    <div class="rumo rv">
+      <p class="rumo__k">Rumo à liderança</p>
+      <p><b>Este índice existe para ser batido.</b></p>
+      <p>Cada ponto que Portugal subir corresponde a uma decisão administrativa tomada, não a um comunicado. Publicamos a subida com a mesma frieza com que publicamos a estagnação, e é isso que torna a subida credível quando acontecer.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band band--mist" id="setorial">
+  <div class="doc rv">
+    <p class="eyebrow">03 · Preparação setorial</p>
+    <h2>O limiar dos 30%.</h2>
+
+    <p>Mede, por setor de atividade em Portugal, a proporção de empresas com os elementos mínimos exigidos pelo AI Act já implementados: inventário de sistemas de IA em uso, classificação de risco documentada, política interna de utilização e responsável identificado.</p>
+
+    <p>Abaixo de 30% consideramos elevado o risco de incumprimento involuntário, sobretudo em domínios classificados como alto risco no Anexo III. O limiar é nosso e resulta da observação de que, abaixo desse nível, a maioria das empresas de um setor não tem sequer o inventário que permitiria saber se está ou não obrigada.</p>
+
+    <p class="selo selo--proprio">Índice ENIA de preparação setorial, metodologia própria, 2025</p>
+
+    <div class="rumo rv">
+      <p class="rumo__k">Rumo à liderança</p>
+      <p>Nenhum sector português passa hoje o limiar com folga. <b>Isso não é uma sentença. É uma pista vazia com várias faixas.</b></p>
+      <p>Quem for primeiro no seu sector define a referência que os concursos públicos europeus vão pedir a seguir. A vantagem de partida existe uma vez só.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band band--paper" id="recolha">
+  <div class="doc rv">
+    <p class="eyebrow">04 · Recolha do Radar</p>
+    <h2>Automática, datada,<br>e auditável.</h2>
+
+    <p>O feed regulatório é recolhido uma vez por dia das fontes registadas em <code>data/sources.json</code>, ficheiro que declara para cada fonte o tipo, o endereço, a quota de itens e a data da última verificação com sucesso.</p>
+
+    <ul>
+      <li>Cada fonte tem quota própria, para que nenhuma fonte prolífica ocupe o feed inteiro e empurre as outras para fora.</li>
+      <li>Fontes sem feed público são registadas como <em>verificação manual</em> e nunca são raspadas. Aparecem no registo como desligadas, não como ativas.</li>
+      <li>O arquivo em <code>data/news-archive.json</code> nunca remove itens. O valor de um observatório está em conseguir voltar atrás.</li>
+      <li>Os itens em língua estrangeira são reescritos em português europeu de forma automatizada. A ligação para o original está sempre presente em cada item, e é o original que faz fé.</li>
+    </ul>
+
+    <p>Os indicadores do Radar não são recolhidos automaticamente. São curados e só mudam por decisão humana registada. Um script que atualizasse sozinho o Índice de Prontidão a partir de notícias produziria um número que ninguém consegue defender.</p>
+
+    <div class="rumo rv">
+      <p class="rumo__k">Rumo à liderança</p>
+      <p><b>Velocidade com método é a única vantagem que um país pequeno não perde.</b></p>
+      <p>Atualizamos no dia em que as coisas acontecem, e sustentamos cada número com a fonte. É a combinação que permite chegar primeiro à informação sem chegar errado, e é assim que se lidera sem orçamento.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band band--deep" id="correcoes">
+  <div class="doc rv">
+    <p class="eyebrow">05 · Registo de correções</p>
+    <h2>O que publicámos<br>mal, e quando<br>corrigimos.</h2>
+
+    <p>Este registo é público e permanente. Um observatório que corrige sem dizer o que corrigiu está a pedir que confiem na versão de agora sem poder verificar a de antes.</p>
+
+    <div class="corr">
+      <time>28 August 2026</time>
+      <b>«17% das empresas portuguesas usam IA, o dobro da média europeia»</b>
+      <p>Publicado na página inicial, nas versões portuguesa e inglesa, na secção 04 do Radar e no relatório <em>O Estado da Preparação de Portugal para o AI Act</em> de March 2026.</p>
+      <p><strong style="font-weight:600">O erro:</strong> este valor não corresponde a nenhum valor real de Portugal, em nenhum ano, em nenhuma fonte oficial. Os 17% são a taxa de adoção de IA das pequenas empresas de toda a União Europeia em 2025 (Eurostat, <code>isoc_eb_ai</code>). O «≈8%» que apresentávamos como média europeia é, quase exatamente, o valor real de Portugal em 2024. A causa mais provável foi uma troca de linhas ao ler uma tabela do Eurostat.</p>
+      <p><strong style="font-weight:600">O valor correto:</strong> Portugal está a divergir da média europeia em adoção de IA, e a divergência está a acelerar. Representava 98% da média europeia em 2023, 64% em 2024 e 58% em 2025.</p>
+      <p><strong style="font-weight:600">Como foi encontrado:</strong> por contestação externa. A Academia CIP levantou a questão por escrito, o que motivou uma auditoria de dados página a página a todo o site público.</p>
+      <p><strong style="font-weight:600">O que mudou para além do número:</strong> a narrativa construída sobre ele. A tese de que Portugal «usa IA acima da média mas regula abaixo dela» dependia do valor errado e, corrigido o dado, deixa de fazer sentido. Os dois indicadores apontam para o mesmo lado.</p>
+      <p class="selo">Comissão Europeia (Digital Decade 2025), Eurostat (isoc_eb_ai) e INE (IUTICE Empresas 2025) · <a href="radar.html#portugal">ver dados no Radar</a></p>
+    </div>
+
+    <p style="opacity:.7;font-size:.9rem">Se encontrar um número sem fonte visível, ou um valor que não consiga reconciliar com a fonte declarada, escreva para <a href="mailto:jorge.saraiva@enia.pt" class="lime">jorge.saraiva@enia.pt</a>. Corrigimos e registamos aqui.</p>
+
+    <div class="rumo rv">
+      <p class="rumo__k">Rumo à liderança</p>
+      <p><b>Este registo é o nosso melhor argumento.</b> Um certificador que nunca errou em público é um certificador que ninguém auditou.</p>
+      <p>Publicámos um erro que sustentava a nossa própria tese fundadora, encontrado por contestação externa, com as fontes que o desmentem. Se fazemos isto com os nossos números, o país pode confiar-nos os seus. É essa confiança, e só ela, que transforma um observatório num instrumento de liderança nacional.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band band--mist" id="dados">
+  <div class="doc rv">
+    <p class="eyebrow">06 · Dados em bruto</p>
+    <h2>Verifique por si.</h2>
+    <p>Os ficheiros que alimentam o site estão públicos e são legíveis por máquina.</p>
+    <ul>
+      <li><a href="../data/enia-dados.json">data/enia-dados.json</a> · todos os indicadores publicados, com fonte e ano</li>
+      <li><a href="../data/sources.json">data/sources.json</a> · registo de fontes da recolha diária</li>
+      <li><a href="../data/news-archive.json">data/news-archive.json</a> · arquivo integral de notícias</li>
+      <li><a href="../data/sync-log.json">data/sync-log.json</a> · o que funcionou e o que falhou na última recolha</li>
+      <li><a href="../data/radar.json">data/radar.json</a> · indicadores curados do Radar</li>
+    </ul>
+    <p>Uso livre com atribuição à ENIA e indicação da data de consulta. Se usar estes dados num trabalho publicado, agradecemos que nos diga: ajuda-nos a saber o que vale a pena manter.</p>
+
+    <div class="rumo rv">
+      <p class="rumo__k">Rumo à liderança</p>
+      <p><b>Não queremos ser os donos do número. Queremos que o país tenha um.</b></p>
+      <p>Portugal não tem hoje uma bitola única e credível para medir a adoção de inteligência artificial, e circulam leituras opostas do mesmo facto. Quanto mais gente usar estes ficheiros, mais depressa essa lacuna fecha. Um país que discute sobre a mesma base decide mais depressa, e decidir depressa é a diferença entre convergir e liderar.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <img class="foot__mark" src="../assets/enia-mark.svg" alt="ENIA" width="34" height="34">
+      <p><strong style="font-weight:500;opacity:.9">ENIA</strong><br>National Entity for Artificial Intelligence<br>Av. Liberdade, 318 · 4710-250 Braga<br><a href="mailto:jorge.saraiva@enia.pt">jorge.saraiva@enia.pt</a></p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <nav>
+        <a href="radar.html">AI Act Radar</a>
+        <a href="noticias.html">News and publications</a>
+        <a href="teste.html">Classification test</a>
+        <a href="marketplace.html">Ethical AI Marketplace</a>
+        <a href="sobre.html">About ENIA and the Colleges</a>
+        <a href="estrategia.html">National Strategy</a>
+        <a href="certificacao.html">Certification</a>
+        <a href="capacitacao.html">Skills and literacy</a>
+        <a href="contactos.html">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <h4>On this page</h4>
+      <nav>
+        <a href="#principios">Princípios</a>
+        <a href="#prontidao">Índice de Prontidão</a>
+        <a href="#setorial">Preparação setorial</a>
+        <a href="#recolha">Recolha do Radar</a>
+        <a href="#correcoes">Registo de correções</a>
+        <a href="#dados">Dados em bruto</a>
+      </nav>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>Turning compliance into global competitive advantage</span>
+    <span>Observatory updated daily at 00:00 CET</span>
+  </div>
+</footer>
+
+<script src="../assets/enia-selo.js" defer></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-28T06:10:58.877Z",
+  "startedAt": "2026-08-28T23:18:20.335Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -23,10 +23,10 @@
       "id": "op-cellar-atom",
       "tier": "1-lei",
       "kind": "atom",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 403"
     },
     {
       "id": "ec-press-corner",
@@ -537,9 +537,9 @@
       "tier": "11-imprensa",
       "kind": "rss",
       "ok": true,
-      "items": 20,
+      "items": 19,
       "kept": 2,
-      "maisRecente": "2026-08-27"
+      "maisRecente": "2026-08-28"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-08-27"
+      "maisRecente": "2026-08-28"
     },
     {
       "id": "eco-pt",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 1,
+      "maisRecente": "2026-08-28"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1155,
+      "items": 1156,
       "kept": 2,
-      "maisRecente": "2026-08-27"
+      "maisRecente": "2026-08-28"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1092,
+      "items": 1484,
       "kept": 0,
       "maisRecente": null
     },
@@ -678,6 +678,7 @@
     }
   ],
   "warnings": [
+    "[op-cellar-atom] HTTP 403",
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
@@ -714,14 +715,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-28T06:13:20.015Z",
-  "recolhidos": 45,
-  "written": 45,
+  "finishedAt": "2026-08-28T23:20:31.360Z",
+  "recolhidos": 46,
+  "written": 46,
   "maisRecente": "2026-08-28",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 17,
+    "added": 5,
     "curados": 0,
-    "total": 239
+    "total": 244
   }
 }
