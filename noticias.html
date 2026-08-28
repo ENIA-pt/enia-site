@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400;1,14..32,600&display=swap">
 <link rel="stylesheet" href="assets/enia.css">
+<link rel="stylesheet" href="assets/enia-selo.css">
 <style>
   .board{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:clamp(26px,3.4vw,60px);align-items:start}
 
@@ -76,8 +77,11 @@
   .month{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;opacity:.4;
          margin:clamp(24px,3vh,34px) 0 10px;padding-top:14px;border-top:1px solid var(--line)}
   .month:first-of-type{margin-top:18px;border-top:0;padding-top:0}
+  /* Deixa de ser um <a> envolvente: um anchor não pode conter outro
+     anchor, e a etiqueta de fonte tem de ser clicável de forma
+     autónoma. O título é agora o link principal. */
   .item{display:grid;grid-template-columns:clamp(52px,5vw,64px) 1fr;gap:clamp(14px,1.8vw,26px);
-        padding:18px 0;border-bottom:1px solid var(--line);text-decoration:none;
+        padding:18px 0;border-bottom:1px solid var(--line);
         transition:padding-inline .3s var(--ease),background-color .3s}
   .item:hover{background:var(--soft);padding-inline:12px}
   .item__d{text-align:center;padding-top:2px}
@@ -85,9 +89,22 @@
   .item__d span{display:block;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;opacity:.4;margin-top:5px}
   .item h3{font-size:clamp(.98rem,1.15vw,1.14rem);font-weight:500;line-height:1.28}
   .item p{margin:7px 0 0;font-size:.86rem;line-height:1.58;opacity:.8;max-width:76ch}
-  .item__s{display:inline-block;margin-top:10px;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
-           font-weight:700;opacity:.55;border:1px solid var(--line);padding:4px 9px;border-radius:100px}
-  .item:hover .item__s{border-color:var(--num);color:var(--num);opacity:1}
+  /* ── etiqueta de fonte ─────────────────────────────────────────
+     Passa a abrir a lista de cada cartão, com peso visual próprio, e
+     é ela própria uma ligação directa ao artigo original. Antes era um
+     texto pequeno e mudo no fundo do cartão: num arquivo cuja
+     credibilidade assenta na proveniência, a fonte não pode ser o
+     elemento menos visível do item. */
+  .item__src{display:inline-flex;align-items:center;gap:6px;margin-bottom:9px;
+             font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+             color:var(--num);border:1px solid currentColor;padding:5px 11px;border-radius:100px;
+             text-decoration:none;transition:background-color .25s,color .25s}
+  .item__src:hover,.item__src:focus-visible{background:var(--fill-bg);border-color:var(--fill-bg);color:var(--fill-fg)}
+  .item__src svg{width:10px;height:10px;stroke:currentColor;stroke-width:2.2;fill:none;
+                 stroke-linecap:round;stroke-linejoin:round;opacity:.75}
+  .item__t{display:block;text-decoration:none;color:inherit}
+  .item__t:hover h3,.item__t:focus-visible h3{color:var(--num)}
+  .item h3{transition:color .22s ease}
   /* realce de pesquisa: deliberadamente fixo — lima sobre escuro lê a 12,8:1 em qualquer banda */
   .item mark{background:var(--lime);color:var(--ink);padding:0 2px;border-radius:2px}
   .empty{background:var(--card-bg);color:var(--card-fg);padding:clamp(24px,3vw,40px);text-align:center;margin-top:20px}
@@ -144,6 +161,12 @@
     </div>
 
   </div>
+
+  <div class="rumo rv">
+    <p class="rumo__k">Rumo à liderança</p>
+    <p><b>Dezoito meses de leituras diárias não se copiam num mês.</b> É essa a barreira que separa uma base de dados de uma opinião.</p>
+    <p>Nada é removido deste arquivo. Cada dia que ele cresce, Portugal fica com mais uma peça da infraestrutura de confiança que a Europa vai exigir, e que hoje quase nenhum país tem em aberto. Um observatório que consegue voltar atrás é um observatório em que se pode decidir para a frente.</p>
+  </div>
 </section>
 </main>
 
@@ -157,6 +180,7 @@
       <h4>Site</h4>
       <nav>
         <a href="radar.html">Radar IA Act</a>
+        <a href="metodologia.html">Metodologia e fontes</a>
         <a href="teste.html">Teste de classificação</a>
         <a href="marketplace.html">Marketplace de IA Ética</a>
         <a href="sobre.html">Sobre a ENIA e os Colégios</a>
@@ -179,6 +203,7 @@
 
 <script src="data/bundle.js"></script>
 <script src="assets/enia.js"></script>
+<script src="assets/enia-selo.js" defer></script>
 <script>
 (() => {
 'use strict';
@@ -208,7 +233,7 @@ const DOW = ['S','T','Q','Q','S','S','D'];              /* segunda a domingo */
 const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
 let ITEMS = [], view = null, day = null, src = null, term = '';
-const proveniencia = { arquivo: null, feed: null, recurso: false, geradoEm: null };
+const proveniencia = { arquivo: null, feed: null, recurso: false, geradoEm: null, caminho: null };
 
 /* ══════════════════════════════════════════════════════════════════
    CARREGAMENTO
@@ -244,18 +269,43 @@ const loadJSON = (url) =>
 const chaveDe = (i) => String(i.url || i.title || '').toLowerCase().replace(/[?#].*$/, '');
 const dataDe  = (i) => String(i.date || '').slice(0, 10);
 
+/* O arquivo respondeu HTTP 403 em produção. Um 403 num ficheiro estático
+   que o irmão data/news.json serve sem problema aponta para o servidor, não
+   para o código: permissões do ficheiro (deve ser 644) ou regra de WAF a
+   reagir ao nome. Enquanto a causa não estiver fechada, tentamos caminhos
+   alternativos por ordem. O primeiro que responder ganha, e o selo de
+   proveniência diz qual foi. */
+const CAMINHOS_ARQUIVO = [
+  'data/news-archive.json',
+  'data/arquivo.json',        /* cópia escrita pelo sync, contorna 403 por nome */
+  'api/news-archive.json'
+];
+
+async function carregarArquivo() {
+  const tentativas = [];
+  for (const url of CAMINHOS_ARQUIVO) {
+    try {
+      const j = await loadJSON(url);
+      if (Array.isArray(j.items)) return { ok: true, url, dados: j, tentativas };
+    } catch (e) { tentativas.push(url + ': ' + e.message); }
+  }
+  return { ok: false, tentativas };
+}
+
 Promise.allSettled([
-  loadJSON('data/news-archive.json'),
+  carregarArquivo(),
   loadJSON('data/news.json')
 ]).then(([arq, fd]) => {
 
   let doArquivo = [];
-  if (arq.status === 'fulfilled' && Array.isArray(arq.value.items)) {
-    doArquivo = arq.value.items;
+  const r = arq.status === 'fulfilled' ? arq.value : { ok: false, tentativas: ['erro interno'] };
+  if (r.ok) {
+    doArquivo = r.dados.items;
     proveniencia.arquivo = 'ok';
-    proveniencia.geradoEm = arq.value.generated || null;
+    proveniencia.caminho = r.url;
+    proveniencia.geradoEm = r.dados.generated || null;
   } else {
-    proveniencia.arquivo = 'falhou: ' + (arq.reason?.message || 'erro desconhecido');
+    proveniencia.arquivo = 'falhou: ' + r.tentativas.join(' | ');
     const seed = (window.__ENIA__ && window.__ENIA__.archive && window.__ENIA__.archive.items) || [];
     if (seed.length) { doArquivo = seed; proveniencia.recurso = true; }
   }
@@ -309,6 +359,9 @@ function provenienciaHTML() {
 
   el.className = 'prov';
   let txt = `Entrada mais recente: <b>${recente}</b>. Última recolha: <b>${gerado}</b>.`;
+  if (proveniencia.caminho && proveniencia.caminho !== CAMINHOS_ARQUIVO[0]) {
+    txt += ` Arquivo lido de <code>${E.esc(proveniencia.caminho)}</code> (o caminho principal não respondeu).`;
+  }
   if (p.arquivo !== 'ok') txt += ` Arquivo longo indisponível (<code>${E.esc(p.arquivo)}</code>): a mostrar apenas o feed do dia.`;
   if (p.feed !== 'ok' && p.arquivo === 'ok') txt += ` Feed do dia indisponível: a mostrar apenas o arquivo.`;
   el.innerHTML = txt;
@@ -431,13 +484,18 @@ function render() {
       html += `<p class="month">${MES[d.getMonth()]} de ${d.getFullYear()}</p>`;
     }
     const ext = /^https?:/.test(i.url);
-    html += `<a class="item" href="${E.esc(i.url)}"${ext ? ' target="_blank" rel="noopener"' : ''}>
+    const alvo = ext ? ' target="_blank" rel="noopener"' : '';
+    const seta = ext ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>' : '';
+    html += `<article class="item">
       <span class="item__d"><b class="tab">${String(d.getDate()).padStart(2, '0')}</b><span>${MES[d.getMonth()].slice(0, 3)}</span></span>
-      <span>
-        <h3>${hl(i.title, term)}</h3>
+      <div>
+        <a class="item__src" href="${E.esc(i.url)}"${alvo}
+           title="Abrir o original em ${E.esc(i.source)}">${E.esc(i.source)}${seta}</a>
+        <a class="item__t" href="${E.esc(i.url)}"${alvo}>
+          <h3>${hl(i.title, term)}</h3>
+        </a>
         <p>${hl(i.summary, term)}</p>
-        <span class="item__s">${E.esc(i.source)}</span>
-      </span></a>`;
+      </div></article>`;
   }
   $('list').innerHTML = html;
 }
