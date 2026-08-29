@@ -1,0 +1,325 @@
+{
+  "_leia": "Fonte única de verdade para toda a estatística publicada em enia.pt. Nenhum número deve voltar a ser escrito directamente no HTML de uma página. Cada indicador declara obrigatoriamente 'fonte', 'ano' e, quando existe, 'url'. Os índices proprietários da ENIA declaram-se como tal em 'proprio: true' e apontam para metodologia.html.",
+  "_porque_existe": "A 28 de agosto de 2026 uma auditoria encontrou na homepage e no radar o valor '17% das empresas portuguesas usam IA, o dobro da média europeia'. Não correspondia a nenhum valor real de Portugal em nenhum ano. 17% é a taxa de adopção das pequenas empresas de TODA a União Europeia em 2025 (Eurostat, isoc_eb_ai); o '≈8%' apresentado como média europeia era, quase exactamente, o valor real de Portugal em 2024. Foi uma troca de linhas ao ler uma tabela. O erro sobreviveu meses porque o número estava escrito à mão em duas páginas, sem fonte verificável ao lado. Este ficheiro existe para que isso não se repita: um número, um lugar, uma fonte.",
+  "atualizado": "2026-08-28",
+  "proxima_revisao": "2027-01-31",
+  "_nota_revisao": "O INE publica o IUTICE Empresas por norma no último trimestre; o Eurostat actualiza isoc_eb_ai no início do ano. Rever ambos em janeiro.",
+  "fontes": {
+    "ine_iutice_2025": {
+      "nome": "INE, IUTICE Empresas",
+      "ano": 2025,
+      "url": "https://www.ine.pt/",
+      "nota": "Universo: empresas com 10 ou mais pessoas ao serviço."
+    },
+    "ine_iutice_familias_2025": {
+      "nome": "INE, IUTICE Famílias",
+      "ano": 2025,
+      "url": "https://www.ine.pt/"
+    },
+    "ce_digital_decade_2025": {
+      "nome": "Comissão Europeia, Digital Decade 2025 (relatório de Portugal)",
+      "ano": 2025,
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
+    },
+    "eurostat_isoc_eb_ai": {
+      "nome": "Eurostat, isoc_eb_ai",
+      "ano": 2025,
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_in_enterprises"
+    },
+    "enia_indice": {
+      "nome": "Índice ENIA, metodologia própria",
+      "ano": 2026,
+      "url": "metodologia.html",
+      "proprio": true
+    },
+    "enia_setorial": {
+      "nome": "Índice ENIA de preparação setorial, metodologia própria",
+      "ano": 2025,
+      "url": "metodologia.html",
+      "proprio": true
+    },
+    "aicep": {
+      "nome": "AICEP",
+      "ano": 2025,
+      "url": "https://www.aicep.pt/",
+      "nota": "Valores não reverificados na auditoria de 28/08/2026. Manter a fonte original até nova verificação."
+    },
+    "eurostat_produtividade": {
+      "nome": "Eurostat",
+      "ano": 2023,
+      "url": "https://ec.europa.eu/eurostat/",
+      "nota": "Valores não reverificados na auditoria de 28/08/2026."
+    }
+  },
+  "indicadores": {
+    "convergencia_ia": {
+      "_uso": "Contador principal da homepage. Substitui o antigo bloco dos 17%.",
+      "valor": "58%",
+      "legenda_pt": "É a fração da média europeia de adoção de IA que Portugal atingia em 2025. Em 2024 estávamos a 64%.",
+      "legenda_en": "That is the share of the EU average AI adoption rate Portugal reached in 2025. In 2024 we were at 64%.",
+      "fonte": [
+        "ce_digital_decade_2025",
+        "eurostat_isoc_eb_ai"
+      ],
+      "fonte_texto_pt": "Comissão Europeia (Digital Decade 2025) e Eurostat (isoc_eb_ai), 2025",
+      "fonte_texto_en": "European Commission (Digital Decade 2025) and Eurostat (isoc_eb_ai), 2025",
+      "serie": [
+        {
+          "ano": 2023,
+          "pt": 7.9,
+          "ue": 8.1,
+          "razao": 98,
+          "ue_calculada": true,
+          "publicavel": false,
+          "motivo": "UE calculada, proveniência desconhecida, e provável quebra de base"
+        },
+        {
+          "ano": 2024,
+          "pt": 8.6,
+          "ue": 13.5,
+          "razao": 64,
+          "publicavel": true
+        },
+        {
+          "ano": 2025,
+          "pt": 11.5,
+          "ue": 19.95,
+          "razao": 58,
+          "publicavel": true
+        }
+      ],
+      "_nota_serie": "PT 2025 vem do INE (11,5%); UE 2025 do Eurostat (19,95%). O valor da UE em 2023 é calculado, e está assinalado como tal.",
+      "_quebra_de_base": "ALERTA. A média europeia salta 67% entre 2023 e 2024 (8,1% para 13,5%) enquanto Portugal sobe 9%. Uma média de 27 países não se move assim por comportamento real. A auditoria registou que a formulação europeia da pergunta sobre IA mudou entre edições. Se mudou em 2024 e a do INE não, 2023 e 2024 não estão na mesma base e a queda de 98% para 64% é em parte artefacto de medição.",
+      "_publicavel": "Publicar apenas 2024 (64%) e 2025 (58%). O ponto de 2023 fica no ficheiro para memória, marcado, e não vai para manchete até verificação da formulação da pergunta nas edições 2023 a 2025.",
+      "fosso_pp": 8.4,
+      "_fosso_nota": "Diferença em pontos percentuais entre a média europeia e Portugal no último ano publicável. Derivado, não é um valor publicado por nenhuma fonte."
+    },
+    "adocao_empresas_pt": {
+      "valor": "11,5%",
+      "legenda_pt": "das empresas portuguesas utilizam tecnologias de IA",
+      "delta_pp": 2.9,
+      "delta_base": 2024,
+      "fonte": [
+        "ine_iutice_2025"
+      ]
+    },
+    "adocao_pessoas_pt": {
+      "valor": "38,7%",
+      "legenda_pt": "das pessoas dos 16 aos 74 anos usaram ferramentas de IA nos últimos 3 meses",
+      "fonte": [
+        "ine_iutice_familias_2025"
+      ]
+    },
+    "adocao_por_dimensao": {
+      "_uso": "Barras do radar, secção 04. Valores PORTUGUESES apenas.",
+      "_aviso_critico": "NUNCA acrescentar uma coluna de comparação europeia a esta tabela sem ter o valor do Eurostat para a MESMA classe de dimensão. Uma versão anterior deste ficheiro comparava as grandes empresas portuguesas (49,1%) com a média europeia TOTAL (19,95%) e apresentava o resultado como 246%. É aritmeticamente correcto e estruturalmente inválido: compara uma classe de dimensão nacional com um total europeu. É a mesma estrutura do erro dos 17%.",
+      "unidade": "%",
+      "denominador": "percentagem de EMPRESAS com 10 ou mais pessoas ao serviço. Não é ponderado por emprego, volume de negócios nem VAB.",
+      "fonte": [
+        "ine_iutice_2025"
+      ],
+      "serie": [
+        {
+          "classe": "10 a 49 pessoas",
+          "2021": 5.3,
+          "2023": 5.8,
+          "2024": 6.7,
+          "2025": 9.4
+        },
+        {
+          "classe": "50 a 249 pessoas",
+          "2021": 13.4,
+          "2023": 16.4,
+          "2024": 15.4,
+          "2025": 18.2
+        },
+        {
+          "classe": "250 ou mais",
+          "2021": 28.3,
+          "2023": 35.4,
+          "2024": 41.9,
+          "2025": 49.1
+        },
+        {
+          "classe": "Total",
+          "2021": 7.2,
+          "2023": 7.9,
+          "2024": 8.6,
+          "2025": 11.5
+        }
+      ],
+      "fosso_interno_pp": {
+        "2021": 23.0,
+        "2025": 39.7,
+        "agravamento": 16.7
+      },
+      "_nota_fosso": "250+ menos 10-49. Definir sempre assim ao citar. O Manual de Nova Narrativa cita 34,0 p.p. para PT e 28,5 p.p. para a UE; esse par usa outra definição de classes e não é comparável com este.",
+      "_verificacao_pendente": "Confirmar que a formulação da pergunta do INE não mudou entre 2021 e 2025 antes de publicar o agravamento de 16,7 p.p. como manchete.",
+      "destaques": {
+        "_uso": "Atalhos nomeados para citar valores em prosa sem indexar o array pela posição, o que quebraria em silêncio se a ordem mudasse.",
+        "ano": 2025,
+        "pequenas": 9.4,
+        "medias": 18.2,
+        "grandes": 49.1,
+        "total": 11.5
+      }
+    },
+    "barreira_principal": {
+      "valor": "74,4%",
+      "legenda_pt": "apontam falta de conhecimentos como principal barreira à adoção",
+      "fonte": [
+        "ine_iutice_2025"
+      ]
+    },
+    "indice_prontidao": {
+      "_uso": "Contador da homepage e barras do radar, secção 02.",
+      "valor": "40%",
+      "posicao": "8.º em 12 países avaliados",
+      "legenda_pt": "Índice de Prontidão da ENIA para o AI Act",
+      "fonte": [
+        "enia_indice"
+      ],
+      "proprio": true,
+      "_aviso": "Índice composto da ENIA, não um indicador oficial da União Europeia. Nunca apresentar ao lado de dados do INE, do Eurostat ou da Comissão sem esta distinção visível."
+    },
+    "preparacao_setorial": {
+      "_uso": "Barras do radar, secção 03.",
+      "limiar_critico": 30,
+      "fonte": [
+        "enia_setorial"
+      ],
+      "proprio": true,
+      "referencias": [
+        {
+          "setor": "Comunicações",
+          "valor": 54.6
+        },
+        {
+          "setor": "Saúde",
+          "valor": 18.3
+        }
+      ],
+      "_nota": "Valores completos em data/radar.json. Estes dois estão aqui porque são citados no relatório de março de 2026."
+    },
+    "especialistas_tic": {
+      "_uso": "Suporta o segundo pilar da narrativa: a capacidade existe e não está a ser usada.",
+      "fonte": [
+        "ce_digital_decade_2025"
+      ],
+      "comparacoes": [
+        {
+          "indicador": "Formação TIC nas empresas",
+          "pt": 27.8,
+          "ue": 22.3,
+          "razao_pct": 125,
+          "denominador": "% de empresas"
+        },
+        {
+          "indicador": "Análise de dados",
+          "pt": 38.6,
+          "ue": 33.3,
+          "razao_pct": 116,
+          "denominador": "% de empresas"
+        },
+        {
+          "indicador": "Mulheres especialistas de TIC",
+          "pt": 22.7,
+          "ue": 19.5,
+          "razao_pct": 116,
+          "denominador": "% dos especialistas de TIC"
+        },
+        {
+          "indicador": "Especialistas de TIC",
+          "pt": 5.2,
+          "ue": 5.0,
+          "razao_pct": 104,
+          "denominador": "% do emprego total"
+        },
+        {
+          "indicador": "Computação em nuvem",
+          "pt": 32.3,
+          "ue": 39.0,
+          "razao_pct": 83,
+          "denominador": "% de empresas"
+        }
+      ],
+      "fosso_etario": {
+        "pt": {
+          "jovens": 82.6,
+          "mais_velhos": 18.5,
+          "fosso_pp": 64.1
+        },
+        "ue": {
+          "jovens": 70.0,
+          "mais_velhos": 28.2,
+          "fosso_pp": 41.8
+        }
+      },
+      "_aviso_critico": "Cada LINHA é uma comparação válida (PT vs UE, mesma métrica). A COLUNA de razões NÃO é uma escala: junta percentagens de empresas, de emprego total e de especialistas de TIC. Não somar, não fazer média, não desenhar num gráfico de barras único. Nunca extrair um valor isolado e rotulá-lo como 'capacidade': a formulação autorizada é 'acima da média europeia em quatro de cinco indicadores'.",
+      "formulacao_autorizada_pt": "Portugal está acima da média europeia em quatro dos cinco indicadores de capacidade digital medidos pela Comissão Europeia.",
+      "formulacao_proibida": "125% da capacidade"
+    },
+    "pequenas_empresas_pt_ue": {
+      "_uso": "MANCHETE PRINCIPAL. Substitui o par '125% da capacidade / 58% da adoção'.",
+      "_porque_e_a_melhor": "É a única comparação dimensão contra dimensão que as fontes auditadas permitem: mesma classe (10 a 49 pessoas), mesmo ano (2025), mesma definição de classe (Eurostat e INE coincidem). Sem reserva metodológica. E resolve a objeção de composição em vez de a convidar.",
+      "pt": 9.4,
+      "ue": 17.0,
+      "razao_pct": 55,
+      "classe": "10 a 49 pessoas",
+      "ano": 2025,
+      "manchete_pt": "As pequenas empresas portuguesas adotam IA a pouco mais de metade do ritmo das pequenas empresas europeias.",
+      "manchete_en": "Small Portuguese companies adopt AI at little more than half the rate of small European companies.",
+      "fonte": [
+        "ine_iutice_2025",
+        "eurostat_isoc_eb_ai"
+      ],
+      "fonte_texto_pt": "INE (IUTICE Empresas 2025) e Eurostat (isoc_eb_ai, 2025). Mesma classe de dimensão, mesmo ano, mesma definição.",
+      "_indisponivel": "O Eurostat por classe não está disponível nas fontes auditadas para médias (50-249) nem grandes (250+). Sem esses valores, PT 18,2% e PT 49,1% publicam-se sem coluna europeia."
+    }
+  },
+  "retirados": [
+    {
+      "valor": "17%",
+      "onde": "homepage (bloco de estatísticas, PT e EN), radar.html secção 04, relatório PDF de março de 2026",
+      "problema": "Apresentado como adopção de IA das empresas portuguesas e como o dobro da média europeia. Não corresponde a nenhum valor real de Portugal em nenhum ano.",
+      "o_que_e_realmente": "Taxa de adopção de IA das pequenas empresas de toda a União Europeia em 2025 (Eurostat, isoc_eb_ai).",
+      "substituido_por": "convergencia_ia",
+      "data": "2026-08-28"
+    },
+    {
+      "valor": "≈8%",
+      "onde": "homepage, apresentado como média europeia de adopção",
+      "problema": "É aproximadamente o valor real de PORTUGAL em 2024 (8,6%), não a média europeia (13,5%).",
+      "substituido_por": "convergencia_ia",
+      "data": "2026-08-28"
+    },
+    {
+      "valor": "18,2% das PME",
+      "onde": "documento do CIP, citado em correspondência",
+      "problema": "18,2% é o valor das MÉDIAS empresas (50 a 249 pessoas) no INE, não o das PME. Generalizar ao universo PME não é rigoroso.",
+      "data": "2026-08-28"
+    },
+    {
+      "valor": "246%",
+      "onde": "documento de campanha A Última Milha, tabela das duas velocidades, coluna 'vs média UE 2025'",
+      "problema": "Comparava grandes empresas portuguesas (49,1%) com a média europeia TOTAL (19,95%). Classe de dimensão nacional contra total europeu. Mesma estrutura de erro dos 17%.",
+      "substituido_por": "pequenas_empresas_pt_ue",
+      "data": "2026-08-28",
+      "nota": "Detectado em auditoria interna de equivalência, no mesmo dia em que foi escrito, antes de qualquer publicação."
+    },
+    {
+      "valor": "125% da capacidade",
+      "onde": "documento de campanha A Última Milha, assinatura",
+      "problema": "Usava o mais favorável de cinco indicadores e rotulava-o com o substantivo amplo 'capacidade'. Cada linha era válida; a etiqueta não.",
+      "substituido_por": "formulacao_autorizada_pt em especialistas_tic",
+      "data": "2026-08-28"
+    }
+  ],
+  "_metodo": {
+    "denominador_padrao": "Todos os indicadores de adoção usados pela ENIA são percentagem de EMPRESAS com 10 ou mais pessoas ao serviço. Cada empresa conta uma vez, independentemente de emprego, volume de negócios ou VAB. Não há ponderação por PIB em nenhum indicador deste ficheiro.",
+    "porque_contagem": "A missão da ENIA é conformidade e literacia. Cada empresa é sujeito de obrigações no AI Act independentemente da dimensão: uma empresa de doze pessoas com um chatbot tem o mesmo dever do Artigo 50 que um banco. Para argumentos de impacto económico a métrica correcta seria ponderada por VAB, e essa NÃO existe neste ficheiro.",
+    "afirmacao_sem_numero": "É verdade que uma fatia da atividade económica portuguesa maior do que 11,5% passa dentro de empresas que usam IA, porque as grandes empresas concentram emprego e VAB. Essa afirmação NÃO tem número nas fontes auditadas e não deve ser quantificada por estimativa. Foi uma estimativa de conveniência que produziu os 17%.",
+    "regra_mecanica": "Nenhuma comparação internacional entra em material da ENIA sem declarar, para os DOIS lados: numerador, denominador, universo, ano e fonte. Se as cinco não coincidirem, a comparação não sai. Sem excepção para manchetes."
+  },
+  "_schema_nota": "Revisto na auditoria de equivalência de 28/08/2026. Ver ENIA-Auditoria-Equivalencia.md."
+}
