@@ -1,8 +1,24 @@
 {
-  "generated": "2026-08-29T09:05:23.152Z",
+  "generated": "2026-08-29T16:06:31.786Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 244,
+  "count": 246,
   "items": [
+    {
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-29",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+    },
+    {
+      "title": "Cook despede-se da liderança da Apple e Ternus assume leme com desafio da IA",
+      "summary": "John Ternus vai assumir, em 01 de setembro, o império financeiro consolidado por Tim Cook na Apple, onde terá de lidar com o impacto das políticas tarifárias dos EUA e de acelerar o desempenho na corrida da inteligência artificial (IA). Tim Cook, o líder que…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-29",
+      "url": "https://eco.sapo.pt/2026/08/29/cook-despede-se-da-lideranca-da-apple-e-ternus-assume-leme-com-desafio-da-ia/"
+    },
     {
       "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
       "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap,…",

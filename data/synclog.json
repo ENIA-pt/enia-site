@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-29T09:04:18.995Z",
+  "startedAt": "2026-08-29T16:03:57.561Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 14,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 2,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "dre-pt",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 19,
       "kept": 2,
-      "maisRecente": "2026-08-28"
+      "maisRecente": "2026-08-29"
     },
     {
       "id": "theverge-ai",
@@ -557,7 +557,7 @@
       "ok": true,
       "items": 22,
       "kept": 1,
-      "maisRecente": "2026-08-28"
+      "maisRecente": "2026-08-29"
     },
     {
       "id": "publico-tec",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1484,
+      "items": 1394,
       "kept": 0,
       "maisRecente": null
     },
@@ -686,6 +686,10 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
+    "[anacom-noticias] fetch failed",
+    "[anacom-legislacao] fetch failed",
+    "[anacom-imprensa] fetch failed",
+    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -699,8 +703,7 @@
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
-    "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT.",
-    "Arquivo migrado de news-archive.json para arquivo.json."
+    "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
     "ai-act-service-desk",
@@ -712,14 +715,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-29T09:05:23.153Z",
+  "finishedAt": "2026-08-29T16:06:31.787Z",
   "recolhidos": 40,
   "written": 40,
-  "maisRecente": "2026-08-28",
+  "maisRecente": "2026-08-29",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 0,
+    "added": 2,
     "curados": 0,
-    "total": 244
+    "total": 246
   }
 }

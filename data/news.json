@@ -1,7 +1,23 @@
 {
-  "generated": "2026-08-29T09:05:23.152Z",
+  "generated": "2026-08-29T16:06:31.786Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-29",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+    },
+    {
+      "title": "Cook despede-se da liderança da Apple e Ternus assume leme com desafio da IA",
+      "summary": "John Ternus vai assumir, em 01 de setembro, o império financeiro consolidado por Tim Cook na Apple, onde terá de lidar com o impacto das políticas tarifárias dos EUA e de acelerar o desempenho na corrida da inteligência artificial (IA). Tim Cook, o líder que…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-29",
+      "url": "https://eco.sapo.pt/2026/08/29/cook-despede-se-da-lideranca-da-apple-e-ternus-assume-leme-com-desafio-da-ia/"
+    },
     {
       "title": "Neocloud Lambda secures $1B in debt to buy more chips",
       "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
@@ -9,22 +25,6 @@
       "tier": "11-imprensa",
       "date": "2026-08-28",
       "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
-    },
-    {
-      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-28",
-      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
-    },
-    {
-      "title": "Conteúdo autêntico supera produção excessiva",
-      "summary": "Num mundo digital inundado por publicações automáticas, textos produzidos em segundos e imagens geradas por inteligência artificial, começa a emergir uma nova valorização da autenticidade. Paradoxalmente, quanto mais sofisticada se torna a tecnologia capaz de…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-28",
-      "url": "https://eco.sapo.pt/opiniao/conteudo-autentico-supera-producao-excessiva/"
     },
     {
       "title": "Google’s AI note-taking app now allows you to interact with books",
