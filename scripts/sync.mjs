@@ -4,10 +4,24 @@
  * ------------------------------------------------------------------
  * Lê data/sources.json (esquema 2) e escreve:
  *
- *   data/news.json          → feed do site (limitado a max_items)
- *   data/news-archive.json  → biblioteca exaustiva (nunca perde nada)
- *   data/radar.json         → apenas 'generated' e 'version'
- *   data/sync-log.json      → o que funcionou, o que falhou e porquê
+ *   data/news.json     → feed do site (limitado a max_items)
+ *   data/arquivo.json  → biblioteca exaustiva (nunca perde nada)
+ *   data/radar.json    → apenas 'generated' e 'version'
+ *   data/synclog.json  → o que funcionou, o que falhou e porquê
+ *
+ * NOMES SEM HÍFEN, E NÃO É ESTILO
+ * A 29/08/2026 confirmou-se que o alojamento devolve HTTP 403 em todos
+ * os ficheiros desta pasta cujo nome contém hífen, com permissões 644
+ * correctas. enia-dados.json, news-archive.json e sync-log.json davam
+ * 403; news.json, radar.json e sources.json serviam sem problema. É uma
+ * regra de firewall de aplicação a reagir ao nome.
+ *
+ * Podíamos ter contornado com caminhos alternativos no código, e chegou
+ * a ser feito. Não serve: a página de metodologia oferece os ficheiros
+ * em bruto ao público, e três dos cinco links devolviam «acesso negado».
+ * Um observatório que se diz verificável e cujos dados não abrem é pior
+ * do que um que não os oferece. Os nomes mudaram, e o problema deixa de
+ * depender do suporte do alojamento.
  *
  * Uso:   node scripts/sync.mjs
  * Env:   ANTHROPIC_API_KEY (opcional — sem chave, usa o texto original)
@@ -353,7 +367,7 @@ async function main() {
 
   if (!news.items.length) {
     log.warnings.push('Recolha vazia — data/news.json foi preservado.');
-    await writeFile(p('data/sync-log.json'), JSON.stringify(log, null, 2) + '\n');
+    await writeFile(p('data/synclog.json'), JSON.stringify(log, null, 2) + '\n');
     console.warn('⚠ ' + log.warnings.join('\n⚠ '));
     process.exit(1);
   }
@@ -368,8 +382,17 @@ async function main() {
      volta a limpar o que já lá está: o defeito desaparece do histórico
      todo, não só dos itens novos. É idempotente — sobre texto já limpo o
      strip() não altera nada. */
+  /* Lê o nome novo; se não existir ainda, herda o antigo. Assim a
+     migração não perde uma única entrada do histórico acumulado. */
   let archive = { items: [] };
-  try { archive = JSON.parse(await readFile(p('data/news-archive.json'), 'utf8')); } catch {}
+  try {
+    archive = JSON.parse(await readFile(p('data/arquivo.json'), 'utf8'));
+  } catch {
+    try {
+      archive = JSON.parse(await readFile(p('data/news-archive.json'), 'utf8'));
+      log.warnings.push('Arquivo migrado de news-archive.json para arquivo.json.');
+    } catch {}
+  }
 
   let curados = 0;
   archive.items = (archive.items || []).map(i => {
@@ -388,12 +411,12 @@ async function main() {
   archive.items.sort((a, b) => b.date.localeCompare(a.date));
   archive.generated = news.generated;
   archive.count = archive.items.length;
-  await writeFile(p('data/news-archive.json'), JSON.stringify(archive, null, 2) + '\n');
+  await writeFile(p('data/arquivo.json'), JSON.stringify(archive, null, 2) + '\n');
   log.archive = { added, curados, total: archive.count };
 
   await writeFile(p('data/news.json'), JSON.stringify(news, null, 2) + '\n');
   await writeFile(p('data/radar.json'), JSON.stringify(radar, null, 2) + '\n');
-  await writeFile(p('data/sync-log.json'), JSON.stringify(log, null, 2) + '\n');
+  await writeFile(p('data/synclog.json'), JSON.stringify(log, null, 2) + '\n');
 
   const { execFileSync } = await import('node:child_process');
   for (const step of ['scripts/history.mjs', 'scripts/bundle.mjs']) {
