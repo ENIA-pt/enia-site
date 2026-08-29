@@ -519,12 +519,49 @@ const pp = v => String(v).replace('.', ',') + ' p.p.';
    não respondeu em vez de mostrar valores antigos com ar de novos.
    ══════════════════════════════════════════════════════════════════ */
 
-fetch('data/enia-dados.json?v=' + Date.now(), { cache: 'no-store' })
-  .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+/* NOMES SEM HÍFEN, E NÃO É ESTILO
+   A 29/08/2026 confirmou-se que o alojamento devolve HTTP 403 em todos
+   os ficheiros de data/ cujo nome contém hífen, com permissões 644
+   correctas. Regra de firewall a reagir ao nome, do lado do servidor.
+   Os ficheiros foram renomeados em vez de contornados, porque a página
+   de metodologia oferece os dados em bruto ao público e três dos cinco
+   links devolviam «acesso negado».
+
+   O nome antigo fica na lista apenas durante a migração, para que o
+   site não parta entre o envio dos ficheiros e a execução do sync. */
+const CAMINHOS_DADOS = [
+  'data/eniadados.json',
+  'data/enia-dados.json'
+];
+
+async function carregarDados() {
+  const falhas = [];
+  for (const url of CAMINHOS_DADOS) {
+    try {
+      const r = await fetch(url + '?v=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) { falhas.push(url + ' HTTP ' + r.status); continue; }
+      const j = await r.json();
+      if (url !== CAMINHOS_DADOS[0]) console.warn('[home] dados lidos de ' + url + ' (o caminho principal falhou)');
+      return j;
+    } catch (e) { falhas.push(url + ' ' + e.message); }
+  }
+  throw new Error(falhas.join(' · '));
+}
+
+carregarDados()
   .then(construir)
   .catch(e => {
     console.error('[home] data/enia-dados.json não carregou:', e.message);
-    const aviso = '<p class="selo selo--falha">Indicadores indisponíveis: data/enia-dados.json não respondeu.</p>';
+    /* O código HTTP vai para o ecrã, não só para a consola. A diferença
+       entre 403 e 404 é a diferença entre permissões e ficheiro em falta,
+       e sem ela ninguém consegue corrigir sem adivinhar. */
+    const ajuda = /403/.test(e.message)
+      ? ' O ficheiro existe no servidor mas o acesso está proibido: verificar permissões 644 em public_html/data.'
+      : /404/.test(e.message)
+        ? ' O ficheiro não chegou ao servidor: confirmar que o workflow correu depois do commit.'
+        : '';
+    const aviso = '<p class="selo selo--falha">Indicadores indisponíveis: data/enia-dados.json devolveu '
+      + e.message + '.' + ajuda + '</p>';
     ['divergBox','swotBox','diamBox','convBox','velBox','ferrBox'].forEach(id => {
       const el = $(id); if (el) el.innerHTML = aviso;
     });
@@ -844,8 +881,7 @@ function stats(d) {
   /* Os três indicadores de abertura já não vêm de radar.json: vêm do
      ficheiro de dados auditado, para que a homepage não possa voltar a
      mostrar um número que ninguém consegue reconciliar com a fonte. */
-  fetch('data/enia-dados.json?v=' + Date.now(), { cache: 'no-store' })
-    .then(r => r.json())
+  carregarDados()
     .then(D => {
       const I = D.indicadores;
       const u = I.convergencia_ia.serie.at(-1);
