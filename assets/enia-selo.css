@@ -1,0 +1,229 @@
+/* ══════════════════════════════════════════════════════════════════
+   ENIA · selo de fonte
+   ──────────────────────────────────────────────────────────────────
+   Folha independente. Não altera nem depende de assets/enia.css, para
+   poder entrar em qualquer página sem risco de regressão visual.
+
+   Usa as variáveis de tema do site quando existem e cai em valores
+   literais quando não existem, através do segundo argumento de var().
+   Assim funciona igual na banda clara e na banda escura.
+
+   Três variantes:
+     .selo             dado de fonte externa oficial
+     .selo--proprio    índice da ENIA, em cor de destaque, com ligação
+                       à metodologia. Existe para que um índice nosso
+                       nunca se leia com a mesma autoridade que um dado
+                       do INE ou do Eurostat.
+     .selo--falha      o ficheiro de dados não respondeu. Deliberadamente
+                       visível: um site que mostra números sem conseguir
+                       provar a origem deve dizê-lo.
+   ══════════════════════════════════════════════════════════════════ */
+
+.selo {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+  font-size: .63rem;
+  line-height: 1.4;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: .34;
+  color: inherit;
+}
+
+.selo a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: opacity .22s ease;
+}
+.selo a:hover,
+.selo a:focus-visible { opacity: .7; }
+
+/* Índice proprietário: cor de destaque e opacidade mais alta. A
+   distinção tem de ser perceptível sem ler o texto. */
+.selo--proprio {
+  color: var(--num, #2DD4BF);
+  opacity: .58;
+}
+
+/* Falha de carregamento. Laranja da paleta ENIA, reservado a avisos. */
+.selo--falha {
+  color: var(--warn, #F97316);
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* Contextos onde o selo precisa de mais respiro ou de menos. */
+.warn .selo,
+.doc .selo        { margin-top: 12px; }
+.fig .selo        { margin-top: 5px; font-size: .64rem; }
+.thresh .selo,
+.note .selo       { margin-top: 4px; }
+
+/* Debaixo de um número grande, o selo alinha à esquerda em bloco
+   próprio em vez de correr ao lado. */
+.stat .selo,
+.counter .selo {
+  display: flex;
+  margin-top: 12px;
+}
+
+@media (max-width: 640px) {
+  .selo { font-size: .66rem; letter-spacing: .04em; }
+}
+
+/* Impressão: as ligações não clicam no papel, por isso o endereço
+   aparece a seguir ao nome da fonte. Um número sem origem verificável
+   num documento impresso é exactamente o problema que estamos a
+   resolver. */
+@media print {
+  .selo { opacity: 1; color: #000; }
+  .selo a::after {
+    content: " (" attr(href) ")";
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   NOTA DE RIGOR
+   ──────────────────────────────────────────────────────────────────
+   O problema que isto resolve: as ressalvas metodológicas são o que
+   distingue a ENIA de um panfleto, e ao mesmo tempo são exactamente o
+   que faz um leitor distraído desistir a meio de um painel.
+
+   Na primeira versão da homepage, a objeção sobre composição contra
+   desempenho ocupava seis linhas a meio do painel mais importante.
+   Bom argumento, péssimo sítio.
+
+   A solução é dobrar em vez de apagar. Uma linha minúscula que se
+   abre a pedido. Quem procura rigor encontra-o em dois segundos. Quem
+   está a ler na diagonal nem repara. Apagar não era opção: são estas
+   notas que sustentam a reclamação de rigor.
+   ══════════════════════════════════════════════════════════════════ */
+
+.rigor {
+  margin-top: 16px;
+  font-size: .72rem;
+  line-height: 1.55;
+  opacity: .3;
+  transition: opacity .25s ease;
+  max-width: 74ch;
+}
+.rigor:hover,
+.rigor[open] { opacity: .55; }
+
+.rigor summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: .6rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.rigor summary::-webkit-details-marker { display: none; }
+.rigor summary::before {
+  content: "+";
+  display: grid;
+  place-items: center;
+  width: 13px; height: 13px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 400;
+}
+.rigor[open] summary::before { content: "\2013"; }
+.rigor p { margin: 9px 0 0; }
+.rigor p + p { margin-top: 7px; }
+
+/* Frase de aterragem. Uma por painel denso, para quem lê na diagonal
+   apanhar o essencial sem ler o resto. */
+.pitch {
+  font-size: clamp(1.02rem, 1.5vw, 1.28rem);
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: -.01em;
+  max-width: 60ch;
+  margin: clamp(18px, 2.4vh, 28px) 0 0;
+}
+.pitch b { font-weight: 700; }
+
+@media print { .rigor { opacity: 1; } .rigor[open] summary::before, .rigor summary::before { display: none; } }
+
+
+/* ══════════════════════════════════════════════════════════════════
+   RUMO À LIDERANÇA
+   ──────────────────────────────────────────────────────────────────
+   O bloco que fecha cada painel do site.
+
+   O problema que resolve: um observatório que só diagnostica produz
+   fatalismo. Os números diziam onde estamos e não diziam para onde
+   vamos, e um leitor que sai de uma página a saber que o país está
+   atrasado, sem saber o que fazer com isso, não volta.
+
+   Cada bloco pega nos números daquele painel, e só nesses, e converte
+   um passo concreto na direção da liderança europeia em IA de
+   confiança. A regra é rígida: se o painel não tem número que sustente
+   a aspiração, o bloco não existe. Aspiração sem dado é publicidade, e
+   é exactamente o que a ENIA não pode ser.
+
+   Tratamento visual próprio e repetido, para que o leitor aprenda ao
+   segundo painel que é ali que está o caminho.
+   ══════════════════════════════════════════════════════════════════ */
+
+.rumo {
+  margin-top: clamp(26px, 3.6vh, 44px);
+  padding: 2px 0 2px clamp(16px, 2vw, 26px);
+  border-left: 2px solid var(--num, #2DD4BF);
+  max-width: 68ch;
+}
+.rumo__k {
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: .6rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--num, #2DD4BF);
+}
+.rumo__k::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: currentColor;
+  opacity: .25;
+}
+.rumo p {
+  margin: 0 0 11px;
+  font-size: clamp(1rem, 1.45vw, 1.2rem);
+  line-height: 1.52;
+  font-weight: 500;
+  letter-spacing: -.005em;
+}
+.rumo p:last-child { margin: 0; }
+.rumo b { font-weight: 700; }
+
+/* Na banda lima o texto já é escuro: a cor de destaque desaparecia. */
+.band--lime .rumo { border-left-color: currentColor; }
+.band--lime .rumo__k { color: inherit; opacity: .55; }
+
+/* ── pista de trajetória ───────────────────────────────────────────
+   Divergente, convergente, líder, com a posição real do país marcada.
+   Os três estados são definição da ENIA e estão assinalados como tal:
+   convergente é atingir cem por cento da média europeia, líder é
+   ultrapassá-la de forma sustentada. */
+.pista { margin-top: clamp(24px, 3.4vh, 40px); }
+.pista svg { width: 100%; height: auto; display: block; overflow: visible; }
