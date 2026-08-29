@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-28T23:18:20.335Z",
+  "startedAt": "2026-08-29T04:09:58.072Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 35,
+      "items": 32,
       "kept": 2,
       "maisRecente": "2026-08-12"
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 312,
-      "kept": 3,
-      "maisRecente": "2026-08-28"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 21,
-      "kept": 3,
-      "maisRecente": "2026-08-28"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "stanford-hai",
@@ -591,7 +591,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1156,
+      "items": 1157,
       "kept": 2,
       "maisRecente": "2026-08-28"
     },
@@ -629,7 +629,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "error": "fetch failed"
     },
     {
       "id": "senado-br-ia",
@@ -702,7 +702,7 @@
     "[euronews-next] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
-    "[anpd-br] HTTP 404",
+    "[anpd-br] fetch failed",
     "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
@@ -715,13 +715,13 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-28T23:20:31.360Z",
-  "recolhidos": 46,
-  "written": 46,
+  "finishedAt": "2026-08-29T04:12:20.332Z",
+  "recolhidos": 40,
+  "written": 40,
   "maisRecente": "2026-08-28",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 5,
+    "added": 0,
     "curados": 0,
     "total": 244
   }

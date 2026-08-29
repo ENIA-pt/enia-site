@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T23:20:31.360Z",
+  "generated": "2026-08-29T04:12:20.331Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -41,54 +41,6 @@
       "tier": "11-imprensa",
       "date": "2026-08-28",
       "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
-    },
-    {
-      "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
-      "summary": "arXiv:2608.19194v3 Announce Type: replace Abstract: Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-28",
-      "url": "https://arxiv.org/abs/2608.19194"
-    },
-    {
-      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-      "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap,…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-28",
-      "url": "https://arxiv.org/abs/2608.26109"
-    },
-    {
-      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
-      "summary": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics.…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-28",
-      "url": "https://arxiv.org/abs/2608.26111"
-    },
-    {
-      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
-      "summary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-28",
-      "url": "https://arxiv.org/abs/2608.26113"
-    },
-    {
-      "title": "Mitigating Fabrication in Multi-Stage LLM Pipelines for Hiring: An Empirical Evaluation of Prompt Guardrails and Human-in-the-Loop Checkpoints",
-      "summary": "arXiv:2608.26171v1 Announce Type: new Abstract: Multi-stage LLM hiring pipelines (resume improvement, interview question generation, answer feedback) can fabricate credentials, inflate qualifiers, and invent experience. We evaluate two mitigations, prompt…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-28",
-      "url": "https://arxiv.org/abs/2608.26171"
-    },
-    {
-      "title": "ClassVision: AI-Powered Classroom Attendance System",
-      "summary": "arXiv:2608.26173v1 Announce Type: new Abstract: Students and working professionals have to go through the attendance process every day. Traditional methods of marking attendance using pen and paper or online platforms are human-intensive and time-consuming.…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-28",
-      "url": "https://arxiv.org/abs/2608.26173"
     },
     {
       "title": "Supporting Thailand’s next generation of AI startups",
