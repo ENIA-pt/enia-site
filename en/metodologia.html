@@ -189,13 +189,15 @@
     <h2>Verifique por si.</h2>
     <p>Os ficheiros que alimentam o site estão públicos e são legíveis por máquina.</p>
     <ul>
-      <li><a href="../data/enia-dados.json">data/enia-dados.json</a> · todos os indicadores publicados, com fonte e ano</li>
-      <li><a href="../data/sources.json">data/sources.json</a> · registo de fontes da recolha diária</li>
-      <li><a href="../data/news-archive.json">data/news-archive.json</a> · arquivo integral de notícias</li>
-      <li><a href="../data/sync-log.json">data/sync-log.json</a> · o que funcionou e o que falhou na última recolha</li>
+      <li><a href="../data/eniadados.json">data/eniadados.json</a> · todos os indicadores publicados, com fonte, ano e denominador</li>
+      <li><a href="../data/sources.json">data/sources.json</a> · registo de fontes da recolha diária, com estado de verificação</li>
+      <li><a href="../data/arquivo.json">data/arquivo.json</a> · arquivo integral de notícias, nunca truncado</li>
+      <li><a href="../data/synclog.json">data/synclog.json</a> · o que funcionou e o que falhou na última recolha</li>
       <li><a href="../data/radar.json">data/radar.json</a> · indicadores curados do Radar</li>
+      <li><a href="../data/history/series.json">data/history/series.json</a> · série histórica do Índice de Prontidão</li>
     </ul>
     <p>Uso livre com atribuição à ENIA e indicação da data de consulta. Se usar estes dados num trabalho publicado, agradecemos que nos diga: ajuda-nos a saber o que vale a pena manter.</p>
+    <p style="font-size:.86rem;opacity:.72">Nenhum destes nomes tem hífen, e não é uma escolha de estilo. A 29 August 2026 verificámos que o alojamento devolvia <code>403 Forbidden</code> em todos os ficheiros desta pasta cujo nome continha hífen, com permissões corretas, enquanto os restantes serviam normalmente. Três destes cinco links estiveram inacessíveis ao público sem que nada no site o denunciasse. Os ficheiros foram renomeados. Se algum destes links falhar, é um defeito nosso e agradecemos que nos avise.</p>
 
     <div class="rumo rv">
       <p class="rumo__k">Rumo à liderança</p>

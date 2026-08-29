@@ -1,0 +1,725 @@
+{
+  "startedAt": "2026-08-29T09:04:18.995Z",
+  "sources": [
+    {
+      "id": "eurlex-sparql-pt",
+      "tier": "1-lei",
+      "kind": "sparql",
+      "ok": true,
+      "items": 60,
+      "kept": 8,
+      "maisRecente": "2026-08-14"
+    },
+    {
+      "id": "eurlex-oj-l",
+      "tier": "1-lei",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "op-cellar-atom",
+      "tier": "1-lei",
+      "kind": "atom",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "id": "ec-press-corner",
+      "tier": "2-comissao",
+      "kind": "rss",
+      "ok": true,
+      "items": 50,
+      "kept": 2,
+      "maisRecente": "2026-07-31"
+    },
+    {
+      "id": "ec-digital-strategy",
+      "tier": "2-comissao",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 8,
+      "maisRecente": "2026-08-24"
+    },
+    {
+      "id": "ec-have-your-say",
+      "tier": "2-comissao",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "ai-act-service-desk",
+      "tier": "2-comissao",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "europarl-news",
+      "tier": "3-parlamento",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "europarl-think-tank",
+      "tier": "3-parlamento",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "consilium-press",
+      "tier": "3-parlamento",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "id": "edpb",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "edps",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "fra",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "cnpd",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "cnil",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 1,
+      "maisRecente": "2026-08-26"
+    },
+    {
+      "id": "aepd",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 500"
+    },
+    {
+      "id": "garante",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "ap-nl",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 2,
+      "maisRecente": "2026-08-20"
+    },
+    {
+      "id": "ico-uk",
+      "tier": "4-dados",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "anacom-noticias",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": true,
+      "items": 14,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "anacom-legislacao",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "anacom-imprensa",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "anacom-consultas",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": true,
+      "items": 2,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "dre-pt",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "traficom-fi",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "aesia-es",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "fetch failed"
+    },
+    {
+      "id": "bundesnetzagentur-de",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "agid-it",
+      "tier": "5-nacional",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "cen-cenelec",
+      "tier": "6-normas",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "iso",
+      "tier": "6-normas",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "id": "nist-ai",
+      "tier": "6-normas",
+      "kind": "rss",
+      "ok": true,
+      "items": 40,
+      "kept": 1,
+      "maisRecente": "2026-08-04"
+    },
+    {
+      "id": "etsi",
+      "tier": "6-normas",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "oecd-ai",
+      "tier": "7-internacional",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "unesco-ai",
+      "tier": "7-internacional",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "coe-ai",
+      "tier": "7-internacional",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "id": "un-ai",
+      "tier": "7-internacional",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "uk-dsit",
+      "tier": "8-jurisdicoes",
+      "kind": "atom",
+      "ok": true,
+      "items": 20,
+      "kept": 1,
+      "maisRecente": "2026-08-24"
+    },
+    {
+      "id": "us-ftc-ai",
+      "tier": "8-jurisdicoes",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 1,
+      "maisRecente": "2026-08-27"
+    },
+    {
+      "id": "us-federal-register-ai",
+      "tier": "8-jurisdicoes",
+      "kind": "rss",
+      "ok": true,
+      "items": 34,
+      "kept": 2,
+      "maisRecente": "2026-08-12"
+    },
+    {
+      "id": "canada-aida",
+      "tier": "8-jurisdicoes",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "china-cac",
+      "tier": "8-jurisdicoes",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "arxiv-cs-cy",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "stanford-hai",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "ada-lovelace",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "alan-turing",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "ai-now",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 1,
+      "maisRecente": "2026-07-28"
+    },
+    {
+      "id": "cset",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 1,
+      "maisRecente": "2026-08-27"
+    },
+    {
+      "id": "oii",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "montreal-ethics",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 1,
+      "maisRecente": "2026-08-18"
+    },
+    {
+      "id": "fli",
+      "tier": "10-sociedade",
+      "kind": "rss",
+      "ok": true,
+      "items": 20,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "algorithmwatch",
+      "tier": "10-sociedade",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 2,
+      "maisRecente": "2026-08-22"
+    },
+    {
+      "id": "edri",
+      "tier": "10-sociedade",
+      "kind": "rss",
+      "ok": true,
+      "items": 20,
+      "kept": 2,
+      "maisRecente": "2026-07-20"
+    },
+    {
+      "id": "access-now",
+      "tier": "10-sociedade",
+      "kind": "rss",
+      "ok": true,
+      "items": 15,
+      "kept": 1,
+      "maisRecente": "2026-07-15"
+    },
+    {
+      "id": "partnership-on-ai",
+      "tier": "10-sociedade",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 1,
+      "maisRecente": "2026-07-29"
+    },
+    {
+      "id": "aiact-explorer",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": true,
+      "items": 27,
+      "kept": 1,
+      "maisRecente": "2026-08-07"
+    },
+    {
+      "id": "euractiv-tech",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "id": "euronews-next",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "mit-tech-review",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 2,
+      "maisRecente": "2026-08-26"
+    },
+    {
+      "id": "techcrunch-ai",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": true,
+      "items": 19,
+      "kept": 2,
+      "maisRecente": "2026-08-28"
+    },
+    {
+      "id": "theverge-ai",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 2,
+      "maisRecente": "2026-08-28"
+    },
+    {
+      "id": "eco-pt",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": true,
+      "items": 22,
+      "kept": 1,
+      "maisRecente": "2026-08-28"
+    },
+    {
+      "id": "publico-tec",
+      "tier": "11-imprensa",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "mlex",
+      "tier": "11-imprensa",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "anthropic-news",
+      "tier": "12-industria",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "openai-blog",
+      "tier": "12-industria",
+      "kind": "rss",
+      "ok": true,
+      "items": 1157,
+      "kept": 2,
+      "maisRecente": "2026-08-28"
+    },
+    {
+      "id": "deepmind",
+      "tier": "12-industria",
+      "kind": "rss",
+      "ok": true,
+      "items": 100,
+      "kept": 1,
+      "maisRecente": "2026-08-27"
+    },
+    {
+      "id": "mistral",
+      "tier": "12-industria",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "microsoft-issues",
+      "tier": "12-industria",
+      "kind": "rss",
+      "ok": true,
+      "items": 10,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "anpd-br",
+      "tier": "13-lusofonia",
+      "kind": "rss",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "senado-br-ia",
+      "tier": "13-lusofonia",
+      "kind": "rss",
+      "ok": true,
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "inacom-ao",
+      "tier": "13-lusofonia",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "cplp",
+      "tier": "13-lusofonia",
+      "kind": "watch",
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "desligada": "sem feed — verificação manual"
+    },
+    {
+      "id": "eurostat-catalogo",
+      "tier": "9-investigacao",
+      "kind": "rss",
+      "ok": true,
+      "items": 1484,
+      "kept": 0,
+      "maisRecente": null
+    },
+    {
+      "id": "enia-manual",
+      "tier": "14-enia",
+      "kind": "manual",
+      "ok": true,
+      "items": 2,
+      "kept": 2,
+      "maisRecente": "2026-07-15"
+    }
+  ],
+  "warnings": [
+    "[op-cellar-atom] HTTP 403",
+    "[consilium-press] HTTP 403",
+    "[edpb] HTTP 404",
+    "[edps] HTTP 404",
+    "[cnpd] HTTP 404",
+    "[aepd] HTTP 500",
+    "[garante] HTTP 404",
+    "[ico-uk] HTTP 404",
+    "[traficom-fi] HTTP 404",
+    "[aesia-es] fetch failed",
+    "[bundesnetzagentur-de] HTTP 404",
+    "[agid-it] HTTP 404",
+    "[iso] HTTP 403",
+    "[oecd-ai] HTTP 404",
+    "[coe-ai] HTTP 403",
+    "[alan-turing] HTTP 404",
+    "[euractiv-tech] HTTP 403",
+    "[euronews-next] HTTP 404",
+    "[anthropic-news] HTTP 404",
+    "[mistral] HTTP 404",
+    "[anpd-br] HTTP 404",
+    "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT.",
+    "Arquivo migrado de news-archive.json para arquivo.json."
+  ],
+  "desligadas": [
+    "ai-act-service-desk",
+    "unesco-ai",
+    "un-ai",
+    "canada-aida",
+    "china-cac",
+    "mlex",
+    "inacom-ao",
+    "cplp"
+  ],
+  "finishedAt": "2026-08-29T09:05:23.153Z",
+  "recolhidos": 40,
+  "written": 40,
+  "maisRecente": "2026-08-28",
+  "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
+  "archive": {
+    "added": 0,
+    "curados": 0,
+    "total": 244
+  }
+}

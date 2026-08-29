@@ -269,16 +269,17 @@ const loadJSON = (url) =>
 const chaveDe = (i) => String(i.url || i.title || '').toLowerCase().replace(/[?#].*$/, '');
 const dataDe  = (i) => String(i.date || '').slice(0, 10);
 
-/* O arquivo respondeu HTTP 403 em produção. Um 403 num ficheiro estático
-   que o irmão data/news.json serve sem problema aponta para o servidor, não
-   para o código: permissões do ficheiro (deve ser 644) ou regra de WAF a
-   reagir ao nome. Enquanto a causa não estiver fechada, tentamos caminhos
-   alternativos por ordem. O primeiro que responder ganha, e o selo de
-   proveniência diz qual foi. */
+/* O arquivo respondia HTTP 403 com permissões 644 correctas. Confirmou-se
+   a 29/08/2026 que o alojamento bloqueia todos os ficheiros de data/ com
+   hífen no nome: news-archive.json, sync-log.json e enia-dados.json davam
+   403, enquanto news.json e radar.json serviam. O ficheiro passou a
+   chamar-se arquivo.json.
+
+   O nome antigo fica na lista durante a migração, para que a página não
+   fique vazia entre o envio dos ficheiros e a primeira execução do sync. */
 const CAMINHOS_ARQUIVO = [
-  'data/news-archive.json',
-  'data/arquivo.json',        /* cópia escrita pelo sync, contorna 403 por nome */
-  'api/news-archive.json'
+  'data/arquivo.json',
+  'data/news-archive.json'
 ];
 
 async function carregarArquivo() {
