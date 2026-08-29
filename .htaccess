@@ -47,10 +47,29 @@ AddType text/javascript .js .mjs
   Require all denied
 </FilesMatch>
 
-# ...excepto os dados públicos do Radar e os ficheiros de indexação
-<FilesMatch "^(radar|news|news\.manual|sources)\.json$">
+# ══════════════════════════════════════════════════════════════════════
+# EXCEPÇÕES: os dados públicos do Radar
+# ──────────────────────────────────────────────────────────────────────
+# A regra acima nega TODOS os .json, e esta lista de nomes é a única
+# porta aberta. Foi a causa de três dias de HTTP 403 em agosto de 2026:
+# criámos data/enia-dados.json, data/news-archive.json e
+# data/sync-log.json e ninguém se lembrou de os acrescentar aqui.
+# Os ficheiros existiam, tinham permissões 644, e o servidor recusava
+# servi-los porque lhe tinham dito para o fazer.
+#
+# REGRA PERMANENTE: sempre que o site passar a servir um ficheiro .json
+# novo ao browser, ACRESCENTAR O NOME AQUI no mesmo commit. Se não
+# estiver nesta lista, não existe para o público.
+#
+# Deliberadamente por nome e não por pasta: uma regra do género
+# «tudo o que está em data/ é público» abriria também o que lá viermos
+# a pôr sem pensar. A lista obriga a uma decisão consciente por
+# ficheiro, que é o que se quer num sítio que publica dados.
+# ══════════════════════════════════════════════════════════════════════
+<FilesMatch "^(radar|news|news\.manual|sources|eniadados|arquivo|synclog|series|_status)\.json$">
   Require all granted
 </FilesMatch>
+
 <Files "sitemap.xml">
   Require all granted
 </Files>
@@ -85,7 +104,8 @@ AddType text/javascript .js .mjs
   <FilesMatch "\.html$">
     Header set Cache-Control "public, max-age=0, must-revalidate"
   </FilesMatch>
-  <FilesMatch "^(radar|news|news\.manual|sources)\.json$">
+  # Mesma lista da secção 3. Se acrescentar um nome lá, acrescente aqui.
+  <FilesMatch "^(radar|news|news\.manual|sources|eniadados|arquivo|synclog|series|_status)\.json$">
     Header set Cache-Control "public, max-age=600"
   </FilesMatch>
 </IfModule>
