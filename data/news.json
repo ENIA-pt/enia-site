@@ -1,7 +1,15 @@
 {
-  "generated": "2026-08-29T16:06:31.786Z",
+  "generated": "2026-08-29T22:40:50.661Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-29",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/"
+    },
     {
       "title": "Nvidia’s AI advantage is moving beyond the GPU",
       "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
@@ -19,12 +27,12 @@
       "url": "https://eco.sapo.pt/2026/08/29/cook-despede-se-da-lideranca-da-apple-e-ternus-assume-leme-com-desafio-da-ia/"
     },
     {
-      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
-      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-      "source": "TechCrunch AI",
+      "title": "Musicians-turned-detectives are hunting for AI grifters",
+      "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-08-28",
-      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
     },
     {
       "title": "Google’s AI note-taking app now allows you to interact with books",
@@ -33,14 +41,6 @@
       "tier": "11-imprensa",
       "date": "2026-08-28",
       "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books"
-    },
-    {
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-28",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
     },
     {
       "title": "Supporting Thailand’s next generation of AI startups",
@@ -305,14 +305,6 @@
       "tier": "10-sociedade",
       "date": "2026-07-16",
       "url": "https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/"
-    },
-    {
-      "title": "Not AI for Good",
-      "summary": "Session description: This civil society-led counter-event to the AI for Good Global Summit takes a critical look at the overhyped role of AI in solving humanity’s long-standing problems, and at The post Not AI for Good appeared first on Access Now.",
-      "source": "Access Now",
-      "tier": "10-sociedade",
-      "date": "2026-07-15",
-      "url": "https://www.accessnow.org/event/not-ai-for-good/"
     },
     {
       "title": "Finlândia ativa enforcement",
