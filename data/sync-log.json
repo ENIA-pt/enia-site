@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-29T04:09:58.072Z",
+  "startedAt": "2026-08-29T08:24:02.196Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 32,
+      "items": 34,
       "kept": 2,
       "maisRecente": "2026-08-12"
     },
@@ -563,10 +563,10 @@
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 404"
     },
     {
       "id": "mlex",
@@ -629,7 +629,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "error": "HTTP 404"
     },
     {
       "id": "senado-br-ia",
@@ -700,9 +700,10 @@
     "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
-    "[anpd-br] fetch failed",
+    "[anpd-br] HTTP 404",
     "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
@@ -715,7 +716,7 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-29T04:12:20.332Z",
+  "finishedAt": "2026-08-29T08:26:08.736Z",
   "recolhidos": 40,
   "written": 40,
   "maisRecente": "2026-08-28",
