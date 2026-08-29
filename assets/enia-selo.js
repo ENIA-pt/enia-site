@@ -44,7 +44,11 @@
 (() => {
   'use strict';
 
-  const FICHEIRO = 'data/enia-dados.json';
+  /* Sem hífen no nome: o alojamento devolve 403 em todos os ficheiros de
+     data/ que o tenham, mesmo com permissões 644. O nome antigo fica na
+     lista apenas durante a migração. */
+  const FICHEIROS = ['data/eniadados.json', 'data/enia-dados.json'];
+  const FICHEIRO = FICHEIROS[0];
   const DEV = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) || location.protocol === 'file:';
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c =>
@@ -58,10 +62,17 @@
     caminho.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
 
   async function carregar() {
-    const url = raiz() + FICHEIRO + '?v=' + Date.now();
-    const r = await fetch(url, { cache: 'no-store' });
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
+    const falhas = [];
+    for (const f of FICHEIROS) {
+      try {
+        const r = await fetch(raiz() + f + '?v=' + Date.now(), { cache: 'no-store' });
+        if (!r.ok) { falhas.push(f + ' HTTP ' + r.status); continue; }
+        const j = await r.json();
+        if (f !== FICHEIROS[0]) console.warn('[selo] dados lidos de ' + f);
+        return j;
+      } catch (e) { falhas.push(f + ' ' + e.message); }
+    }
+    throw new Error(falhas.join(' · '));
   }
 
   /* ── construção do selo ───────────────────────────────────────── */
@@ -195,7 +206,7 @@
          28/08/2026. */
       for (const el of document.querySelectorAll('[data-enia-selo]')) {
         el.outerHTML = '<span class="selo selo--falha">Fonte indisponível: '
-          + FICHEIRO + ' não respondeu</span>';
+          + FICHEIRO + ' devolveu ' + e.message + '</span>';
       }
     });
 
