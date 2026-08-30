@@ -28,7 +28,7 @@
 /* ═══════════════════════════════════════════════════════════════════
    MOLDE NARRATIVO
    ───────────────────────────────────────────────────────────────────
-   Todos os painéis, do 02 ao 11, seguem a mesma estrutura:
+   Painéis 02 em diante, com a mesma estrutura:
 
      ┌──────────────────────┬──────────────────────┐
      │ problema             │ RUMO À LIDERANÇA     │
@@ -36,10 +36,8 @@
      [ dados a toda a largura, a sustentar os dois ]
      [ fonte e nota de rigor, em corpo pequeno     ]
 
-   A missão vem imediatamente a seguir ao problema, no mesmo campo de
-   visão, e não no fim do painel. É o que impede a página de ler como
-   um diagnóstico e a faz ler como uma convocatória. Os gráficos
-   deixam de ser o assunto e passam a ser a prova.
+   A missão vem no mesmo campo de visão que o problema, e não no fim.
+   É o que faz a página ler como convocatória em vez de diagnóstico.
 
    Nenhum número está escrito neste ficheiro. Tudo vem de
    data/eniadados.json e data/radar.json em tempo de execução.
@@ -50,20 +48,18 @@
 .pnl__d{margin-top:clamp(26px,4vh,52px)}
 @media(max-width:900px){.pnl{grid-template-columns:1fr;gap:clamp(20px,3vh,32px)}}
 
-/* ── rumo à liderança ──────────────────────────────────────────── */
 .rumo{margin:0;padding:clamp(12px,1.4vw,18px) 0 clamp(12px,1.4vw,18px) clamp(16px,1.8vw,24px);
       border-left:2px solid var(--num,#DCF081);max-width:60ch}
 .rumo__k{margin:0 0 12px;display:flex;align-items:center;gap:10px;
          font-size:.63rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;
          color:var(--num,#DCF081)}
 .rumo__k::after{content:"";flex:1;height:1px;background:currentColor;opacity:.28}
-.rumo p{margin:0 0 11px;font-size:clamp(.92rem,1.15vw,1.05rem);line-height:1.55;font-weight:400}
+.rumo p{margin:0 0 11px;font-size:clamp(.92rem,1.15vw,1.05rem);line-height:1.55}
 .rumo p:last-child{margin:0}
 .rumo b{font-weight:600}
 .band--lime .rumo{border-left-color:currentColor}
 .band--lime .rumo__k{color:inherit;opacity:.6}
 
-/* ── nota de rigor: existe, não interrompe ─────────────────────── */
 .rigor{margin-top:14px;font-size:.7rem;line-height:1.5;opacity:.32;transition:opacity .25s;max-width:76ch}
 .rigor:hover,.rigor[open]{opacity:.6}
 .rigor summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:7px;
@@ -74,58 +70,93 @@
 .rigor[open] summary::before{content:"\2013"}
 .rigor p{margin:9px 0 0}
 
-/* ═══ 01 · PAINEL DE ABERTURA ═════════════════════════════════════
-   Consolidação. Quem não passar deste painel sai com o diagnóstico, a
-   missão, os quatro números-chave e as portas para o resto do portal.
-   É o resumo executivo do país inteiro numa dobra.                   */
-.abre{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
+/* ═══ 01 · ABERTURA ═══════════════════════════════════════════════ */
+.abre{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);
       gap:clamp(26px,3.6vw,66px);align-items:start}
-@media(max-width:1080px){.abre{grid-template-columns:1fr}}
+@media(max-width:1180px){.abre{grid-template-columns:1fr}}
 .abre h1{font-size:clamp(2.3rem,5.2vw,4.4rem);line-height:1.03;letter-spacing:-.045em;
          font-weight:300;margin:clamp(14px,2vh,24px) 0 0}
 .abre h1 b{display:block;font-weight:700;color:var(--lime,#DCF081);margin-top:.08em}
 
-.pista{margin-top:clamp(28px,4.4vh,56px);max-width:660px}
+/* ── pista em serpentina ───────────────────────────────────────────
+   Duas linhas unidas por um semicírculo, para o caminho ganhar altura
+   e deixar de ser um detalhe no fundo do painel. A primeira linha vai
+   do estado divergente até à média europeia; a segunda continua daí
+   até à liderança. O troço percorrido é sólido, o que falta é
+   tracejado. É o elemento mais importante deste painel: quem só vir
+   isto já sabe onde o país está e para onde vai.                    */
+.pista{margin-top:clamp(30px,4.6vh,60px);max-width:760px}
 .pista svg{width:100%;height:auto;display:block;overflow:visible}
+.pista__n{margin:14px 0 0;font-size:.68rem;line-height:1.5;opacity:.4;max-width:56ch}
 
-.cards{columns:3;column-gap:clamp(10px,1vw,16px)}
-@media(max-width:1400px){.cards{columns:2}}
-@media(max-width:1080px){.cards{columns:3}}
-@media(max-width:820px){.cards{columns:2}}
-@media(max-width:560px){.cards{columns:1}}
+/* ── grelha de cartões ─────────────────────────────────────────────
+   Dois tipos deliberadamente diferentes:
+     .cd--cta  fundo lima, texto escuro, tem botão. É uma porta.
+     .cd--num  fundo escuro, contorno lima. É um facto.
+   O contraste entre os dois cria o ritmo da grelha e faz as portas
+   saltar à vista sem precisarem de tamanho extra.                   */
+.cards{columns:3;column-gap:clamp(12px,1.1vw,18px)}
+@media(max-width:1500px){.cards{columns:2}}
+@media(max-width:1180px){.cards{columns:3}}
+@media(max-width:900px){.cards{columns:2}}
+@media(max-width:600px){.cards{columns:1}}
+
 .cd{break-inside:avoid;-webkit-column-break-inside:avoid;page-break-inside:avoid;
-    border:1px solid var(--lime,#DCF081);border-radius:14px;
-    padding:clamp(14px,1.4vw,20px);margin:0 0 clamp(10px,1vw,16px);
-    display:flex;flex-direction:column;gap:9px;text-decoration:none;color:inherit;
-    transition:background-color .28s ease,transform .28s ease}
-a.cd:hover{background:rgba(220,240,129,.09);transform:translateY(-2px)}
-.cd h3{margin:0;font-size:.95rem;font-weight:700;line-height:1.25;color:var(--lime,#DCF081)}
+    border-radius:16px;padding:clamp(20px,1.8vw,28px);margin:0 0 clamp(12px,1.1vw,18px);
+    display:flex;flex-direction:column;gap:12px;text-decoration:none;
+    min-height:clamp(210px,24vh,290px);
+    transition:transform .28s ease,box-shadow .28s ease}
+a.cd:hover{transform:translateY(-3px)}
+
+.cd--num{border:1px solid var(--lime,#DCF081);color:inherit}
+.cd--cta{background:var(--lime,#DCF081);color:#0B1622}
+a.cd--cta:hover{box-shadow:0 10px 30px rgba(220,240,129,.18)}
+
+.cd h3{margin:0;font-size:clamp(1rem,1.25vw,1.16rem);font-weight:700;line-height:1.24}
+.cd--num h3{color:var(--lime,#DCF081)}
 .cd h3 b{display:block;font-weight:700}
-.cd p{margin:0;font-size:.74rem;line-height:1.5;opacity:.72}
-.cd__v{margin:0;font-size:clamp(1.9rem,3.2vw,2.7rem);font-weight:700;letter-spacing:-.045em;
-       line-height:1;color:var(--lime,#DCF081);font-variant-numeric:tabular-nums}
-.cd__v small{font-size:.38em;font-weight:700;letter-spacing:.02em;margin-left:3px}
-.cd__b{margin:0;font-size:.79rem;line-height:1.45;opacity:.92}
-.cd__s{margin:0;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;opacity:.45}
-.cd__go{margin-top:auto;align-self:flex-start;font-size:.68rem;font-style:italic;
-        border:1px solid currentColor;border-radius:100px;padding:5px 13px;opacity:.75;
-        transition:opacity .25s,background-color .25s,color .25s}
-a.cd:hover .cd__go{opacity:1;background:var(--lime,#DCF081);color:#0B1622;border-color:transparent}
+.cd p{margin:0;font-size:clamp(.8rem,.92vw,.87rem);line-height:1.55}
+.cd--cta p{opacity:.86}
+.cd--num p{opacity:.78}
+.cd__v{margin:0;font-size:clamp(2.4rem,4vw,3.4rem);font-weight:700;letter-spacing:-.05em;
+       line-height:.95;color:var(--lime,#DCF081);font-variant-numeric:tabular-nums}
+.cd__v small{font-size:.34em;font-weight:700;letter-spacing:.04em;margin-left:4px}
+.cd__b{margin:0;font-size:clamp(.85rem,1vw,.95rem);line-height:1.5;opacity:.95}
+.cd__s{margin:auto 0 0;font-size:.62rem;letter-spacing:.11em;text-transform:uppercase;
+       font-weight:700;opacity:.45;line-height:1.5}
+.cd__go{margin-top:auto;align-self:flex-start;font-size:.75rem;font-style:italic;
+        border:1px solid currentColor;border-radius:100px;padding:7px 16px;
+        transition:background-color .25s,color .25s}
+a.cd--cta:hover .cd__go{background:#0B1622;color:var(--lime,#DCF081);border-color:transparent}
 
 /* ═══ 02 · GRÁFICO DE DIVERGÊNCIA ═══════════════════════════════ */
 .graf{margin-top:clamp(20px,3vh,34px)}
 .graf svg{width:100%;height:auto;display:block;overflow:visible}
 .graf__leg{display:flex;gap:20px;flex-wrap:wrap;margin-top:14px;font-size:.68rem;opacity:.42}
 .graf__leg i{display:inline-block;width:20px;height:2px;margin-right:7px;vertical-align:middle}
-.par{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--card-line);
-     margin-top:clamp(18px,2.6vh,28px)}
-.par__c{background:var(--card-bg);color:var(--card-fg);padding:clamp(16px,1.8vw,24px)}
-.par__c--nos .par__n{color:var(--lime,#DCF081)}
-.par__n{margin:0;font-size:clamp(2rem,4.2vw,3.2rem);font-weight:300;letter-spacing:-.05em;
-        line-height:1;font-variant-numeric:tabular-nums}
-.par__t{margin:8px 0 0;font-size:.78rem;line-height:1.4;opacity:.7}
 
-/* ═══ 03 · SWOT ═════════════════════════════════════════════════ */
+/* ═══ 03 · PAINEL DE DESTAQUE ═══════════════════════════════════
+   Painel novo, autónomo, em banda lima. Existe para dar descanso a
+   quem navega e para isolar a única comparação dimensão contra
+   dimensão que as fontes permitem. Estava enterrada no fundo do
+   painel do gráfico, onde ninguém a via.                            */
+.dest{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+      gap:clamp(28px,4vw,72px);align-items:center;min-height:clamp(300px,44vh,460px)}
+@media(max-width:900px){.dest{grid-template-columns:1fr;gap:clamp(24px,3.4vh,40px)}}
+.dest h2{font-size:clamp(1.9rem,3.7vw,3.2rem);line-height:1.12;letter-spacing:-.035em;
+         font-weight:600;margin:0}
+.dest__par{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,1.4vw,20px)}
+.dp{border-radius:20px;padding:clamp(20px,2.2vw,32px);display:flex;flex-direction:column;gap:10px;
+    min-height:clamp(180px,22vh,240px);justify-content:center}
+.dp--pt{border:1.5px solid currentColor}
+.dp--ue{background:#0B1622;color:#fff}
+.dp__n{margin:0;font-size:clamp(2.6rem,5.4vw,4.4rem);font-weight:700;letter-spacing:-.055em;
+       line-height:.9;font-variant-numeric:tabular-nums}
+.dp--ue .dp__n{color:var(--lime,#DCF081)}
+.dp__n small{font-size:.36em;font-weight:700;letter-spacing:.02em;margin-left:2px}
+.dp__t{margin:0;font-size:clamp(.82rem,.95vw,.92rem);line-height:1.4;opacity:.8}
+
+/* ═══ 04 · SWOT ═════════════════════════════════════════════════ */
 .swot{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--card-line)}
 .sw{background:var(--card-bg);color:var(--card-fg);padding:clamp(16px,1.8vw,24px);
     display:flex;flex-direction:column;gap:12px}
@@ -142,7 +173,7 @@ a.cd:hover .cd__go{opacity:1;background:var(--lime,#DCF081);color:#0B1622;border
 .sw li b{font-weight:700;font-variant-numeric:tabular-nums}
 .sw .selo{margin-top:auto;padding-top:10px;font-size:.55rem;opacity:.3}
 
-/* ═══ 04 · DIAMANTE DE PORTER ══════════════════════════════════ */
+/* ═══ 05 · DIAMANTE DE PORTER ══════════════════════════════════ */
 .diam{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:1px;background:var(--card-line)}
 .dv{background:var(--card-bg);color:var(--card-fg);padding:clamp(16px,1.8vw,24px);
     display:flex;flex-direction:column;gap:10px}
@@ -158,7 +189,7 @@ a.cd:hover .cd__go{opacity:1;background:var(--lime,#DCF081);color:#0B1622;border
 .dv p{margin:0;font-size:.77rem;line-height:1.5;opacity:.8}
 .dv .selo{margin-top:auto;padding-top:8px;font-size:.55rem;opacity:.3}
 
-/* ═══ 05 · BARRAS PORTUGAL / EUROPA ════════════════════════════ */
+/* ═══ 06 · BARRAS PORTUGAL / EUROPA ════════════════════════════ */
 .conv{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:clamp(9px,1.2vh,14px)}
 .cv{display:grid;grid-template-columns:minmax(150px,1.15fr) minmax(0,2.6fr) 54px;
     gap:clamp(12px,1.6vw,26px);align-items:center}
@@ -173,7 +204,7 @@ a.cd:hover .cd__go{opacity:1;background:var(--lime,#DCF081);color:#0B1622;border
 .cv--no .cv__v{color:var(--warn,#F97316)}
 @media(max-width:640px){.cv{grid-template-columns:1fr 54px}.cv__t{grid-column:1/-1;order:3}}
 
-/* ═══ 06 · DUAS VELOCIDADES ════════════════════════════════════ */
+/* ═══ 07 · DUAS VELOCIDADES ════════════════════════════════════ */
 .vel{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--card-line)}
 .vc{background:var(--card-bg);color:var(--card-fg);padding:clamp(16px,1.8vw,24px);
     display:flex;flex-direction:column;gap:7px}
@@ -183,19 +214,24 @@ a.cd:hover .cd__go{opacity:1;background:var(--lime,#DCF081);color:#0B1622;border
        font-variant-numeric:tabular-nums}
 .vc__s{margin:0;font-size:.72rem;line-height:1.4;opacity:.62}
 
-/* ═══ 07 · PORTAS PARA A INDÚSTRIA ═════════════════════════════ */
-.portas{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--card-line)}
-.pt{background:var(--card-bg);color:var(--card-fg);padding:clamp(18px,2vw,28px);
-    display:flex;flex-direction:column;gap:11px;text-decoration:none;transition:background-color .28s}
-a.pt:hover{background:var(--hi-bg);color:var(--hi-fg)}
-.pt h4{margin:0;font-size:1.02rem;font-weight:600;line-height:1.28}
-.pt p{margin:0;font-size:.81rem;line-height:1.52;opacity:.8}
-.pt__go{margin-top:auto;align-self:flex-start;font-size:.66rem;
-        border:1px solid currentColor;border-radius:100px;padding:6px 14px;opacity:.7;transition:opacity .25s}
-a.pt:hover .pt__go{opacity:1}
-.pt__go--soon{opacity:.4;font-style:italic}
+/* ═══ 08 · PORTAS PARA A INDÚSTRIA, EM BANDA LIMA ══════════════
+   Cartões escuros sobre lima. É a inversão mais forte do site e
+   marca o painel onde a narrativa deixa o diagnóstico e passa à
+   oferta concreta a quem produz IA em Portugal.                    */
+.portas{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(12px,1.3vw,18px)}
+.pt{background:#132333;color:#fff;border-radius:16px;padding:clamp(20px,2.1vw,30px);
+    display:flex;flex-direction:column;gap:12px;text-decoration:none;
+    min-height:clamp(230px,26vh,300px);transition:transform .28s ease,background-color .28s}
+a.pt:hover{background:#1B3047;transform:translateY(-3px)}
+.pt h4{margin:0;font-size:clamp(1rem,1.2vw,1.12rem);font-weight:600;line-height:1.28}
+.pt p{margin:0;font-size:clamp(.8rem,.92vw,.87rem);line-height:1.55;opacity:.78}
+.pt__go{margin-top:auto;align-self:flex-start;font-size:.72rem;
+        border:1px solid currentColor;border-radius:100px;padding:7px 16px;opacity:.75;
+        transition:opacity .25s,background-color .25s,color .25s}
+a.pt:hover .pt__go{opacity:1;background:var(--lime,#DCF081);color:#0B1622;border-color:transparent}
+.pt__go--soon{opacity:.38;font-style:italic}
 
-/* ═══ 08 · EXECUÇÃO DO AI ACT ══════════════════════════════════ */
+/* ═══ 09 · EXECUÇÃO DO AI ACT ══════════════════════════════════ */
 .exec{display:flex;flex-direction:column;gap:1px;background:var(--card-line)}
 .ex{background:var(--card-bg);color:var(--card-fg);padding:13px clamp(15px,1.6vw,22px);
     display:grid;grid-template-columns:auto 1fr auto;gap:clamp(11px,1.4vw,20px);align-items:center}
@@ -210,7 +246,7 @@ a.pt:hover .pt__go{opacity:1}
 .ex--no .ex__d{color:var(--warn,#F97316);opacity:.85}
 @media(max-width:640px){.ex{grid-template-columns:auto 1fr}.ex__d{grid-column:2;text-align:left;margin-top:4px}}
 
-/* ═══ 09 · ARQUIVO DE NOTÍCIAS ═════════════════════════════════ */
+/* ═══ 10 · ARQUIVO DE NOTÍCIAS ═════════════════════════════════ */
 .news{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:var(--card-line)}
 .nw{background:var(--card-bg);color:var(--card-fg);padding:clamp(17px,1.9vw,26px);
     display:flex;flex-direction:column;gap:10px;text-decoration:none;min-height:clamp(180px,22vh,230px);
@@ -222,13 +258,14 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
       display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .nw__d{margin:auto 0 0;font-size:.68rem;letter-spacing:.06em;opacity:.42;font-variant-numeric:tabular-nums}
 
-/* ═══ 10 · FERRAMENTAS QUE TEMOS ═══════════════════════════════ */
+/* ═══ 11 · FERRAMENTAS QUE TEMOS ═══════════════════════════════ */
 .ferr{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:clamp(12px,1.4vw,20px)}
-.fr{border:1px solid currentColor;padding:clamp(16px,1.8vw,24px);display:flex;flex-direction:column;gap:8px}
-.fr__n{margin:0;font-size:clamp(1.7rem,3.2vw,2.4rem);font-weight:300;letter-spacing:-.045em;line-height:1;
+.fr{border:1px solid currentColor;border-radius:14px;padding:clamp(18px,1.9vw,26px);
+    display:flex;flex-direction:column;gap:8px}
+.fr__n{margin:0;font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:300;letter-spacing:-.045em;line-height:1;
        font-variant-numeric:tabular-nums}
-.fr h4{margin:0;font-size:.86rem;font-weight:700}
-.fr p{margin:0;font-size:.78rem;line-height:1.5;opacity:.82}
+.fr h4{margin:0;font-size:.88rem;font-weight:700}
+.fr p{margin:0;font-size:.79rem;line-height:1.5;opacity:.82}
 .fr .selo{margin-top:auto;padding-top:10px;font-size:.55rem;opacity:.45}
 
 .falha{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;
@@ -242,7 +279,7 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
 
 <!-- ═══════════ 01 · ABERTURA CONSOLIDADA ═══════════ -->
 <section class="slide band--ink" id="s1" aria-labelledby="t1">
-  <p class="slide__n">01 / 11</p>
+  <p class="slide__n">01 / 12</p>
   <div class="abre">
     <div>
       <p class="eyebrow rv">Portugal diverge em relação à UE na transição para a economia de IA</p>
@@ -260,7 +297,7 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
 
 <!-- ═══════════ 02 · A DIVERGÊNCIA, MEDIDA ═══════════ -->
 <section class="slide band--deep" id="s2" aria-labelledby="t2">
-  <p class="slide__n">02 / 11</p>
+  <p class="slide__n">02 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow"><em>Adoção de IA nas empresas · Portugal contra a União Europeia</em></p>
@@ -280,26 +317,28 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
       </details>
     </div>
   </div>
+  <div class="graf pnl__d rv" id="grafBox"></div>
+</section>
 
-  <div class="pnl__d">
-    <div class="graf rv" id="grafBox"></div>
-    <div class="pnl" style="margin-top:clamp(20px,3vh,34px)">
-      <div class="rv">
-        <p class="lead" style="margin:0">Por cada pequena empresa portuguesa que adota IA, <b>há quase duas na Europa</b> a fazer o mesmo.</p>
-        <p class="note" style="margin-top:10px">Empresas de 10 to 49 people, 2025.<br><span data-enia-selo="pequenas_empresas_pt_ue"></span></p>
-      </div>
-      <div class="par rv" id="parBox" style="margin-top:0"></div>
+<!-- ═══════════ 03 · DESTAQUE, PEQUENAS EMPRESAS ═══════════ -->
+<section class="slide band--lime" id="s3" aria-labelledby="t3">
+  <p class="slide__n">03 / 12</p>
+  <div class="dest">
+    <div class="rv">
+      <h2 id="t3">Por cada pequena empresa portuguesa que adota IA,<br>há quase duas na Europa a fazer o mesmo.</h2>
+      <p class="note" style="margin-top:clamp(18px,2.4vh,28px)">Empresas de 10 to 49 people ao serviço, 2025. Mesma classe de dimensão, mesmo ano, mesma definição. É a única comparação dimensão contra dimensão que as fontes oficiais permitem hoje.<br><span data-enia-selo="pequenas_empresas_pt_ue"></span></p>
     </div>
+    <div class="dest__par rv" id="parBox"></div>
   </div>
 </section>
 
-<!-- ═══════════ 03 · SWOT ═══════════ -->
-<section class="slide band--paper" id="s3" aria-labelledby="t3">
-  <p class="slide__n">03 / 11</p>
+<!-- ═══════════ 04 · SWOT ═══════════ -->
+<section class="slide band--paper" id="s4" aria-labelledby="t4">
+  <p class="slide__n">04 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">Análise estratégica · cada quadrante com número e fonte</p>
-      <h2 id="t3">O que temos.<br>O que nos falta.<br>O que arriscamos.</h2>
+      <h2 id="t4">O que temos.<br>O que nos falta.<br>O que arriscamos.</h2>
       <p class="lead">Uma SWOT sem números é uma opinião com ar de método.<br>Cada linha aqui tem número e fonte.</p>
     </div>
     <div class="rumo rv">
@@ -312,13 +351,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   <div class="swot pnl__d rv" id="swotBox"></div>
 </section>
 
-<!-- ═══════════ 04 · DIAMANTE DE PORTER ═══════════ -->
-<section class="slide band--deep" id="s4" aria-labelledby="t4">
-  <p class="slide__n">04 / 11</p>
+<!-- ═══════════ 05 · DIAMANTE DE PORTER ═══════════ -->
+<section class="slide band--deep" id="s5" aria-labelledby="t5">
+  <p class="slide__n">05 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">Diamante de Porter · adaptado à economia de IA de confiança</p>
-      <h2 id="t4">Três motores a trabalhar.<br>Um travão puxado.</h2>
+      <h2 id="t5">Três motores a trabalhar.<br>Um travão puxado.</h2>
       <p class="lead">O diamante de Porter explica porque é que um país ganha vantagem num setor. Portugal tem <b>três dos quatro vértices a funcionar</b>. O quarto está travado, e é ele que segura os outros três.</p>
     </div>
     <div class="rv">
@@ -336,13 +375,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   <div class="diam pnl__d rv" id="diamBox"></div>
 </section>
 
-<!-- ═══════════ 05 · ESTADO DA NAÇÃO ═══════════ -->
-<section class="slide band--paper" id="s5" aria-labelledby="t5">
-  <p class="slide__n">05 / 11</p>
+<!-- ═══════════ 06 · ESTADO DA NAÇÃO ═══════════ -->
+<section class="slide band--paper" id="s6" aria-labelledby="t6">
+  <p class="slide__n">06 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">Estado da nação · Portugal como percentagem da média europeia</p>
-      <h2 id="t5">Acima da Europa<br>em quase tudo.<br>Menos no que conta.</h2>
+      <h2 id="t6">Acima da Europa<br>em quase tudo.<br>Menos no que conta.</h2>
       <p class="lead">Portugal ganha à média europeia em quatro dos cinco fatores que produzem adoção de IA. E perde por larga margem no resultado.</p>
     </div>
     <div class="rv">
@@ -369,13 +408,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   </div>
 </section>
 
-<!-- ═══════════ 06 · DUAS VELOCIDADES ═══════════ -->
-<section class="slide band--deep" id="s6" aria-labelledby="t6">
-  <p class="slide__n">06 / 11</p>
+<!-- ═══════════ 07 · DUAS VELOCIDADES ═══════════ -->
+<section class="slide band--deep" id="s7" aria-labelledby="t7">
+  <p class="slide__n">07 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">Adoção por dimensão de empresa · INE</p>
-      <h2 id="t6">O atraso com a<br>Europa nasce<br>dentro de casa.</h2>
+      <h2 id="t7">O atraso com a<br>Europa nasce<br>dentro de casa.</h2>
       <p class="lead"><b><span data-enia="adocao_por_dimensao.destaques.grandes" data-enia-suf="%">—</span> das grandes empresas portuguesas</b> estão a adotar IA. Apenas <b><span data-enia="adocao_por_dimensao.destaques.pequenas" data-enia-suf="%">—</span> das pequenas</b> seguem a mesma tendência.</p>
       <p class="lead">Duas velocidades dentro do mesmo país. São as pequenas que puxam a média nacional para baixo.</p>
     </div>
@@ -397,13 +436,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   </div>
 </section>
 
-<!-- ═══════════ 07 · PORTAS PARA A INDÚSTRIA ═══════════ -->
-<section class="slide band--ink" id="s7" aria-labelledby="t7">
-  <p class="slide__n">07 / 11</p>
+<!-- ═══════════ 08 · PORTAS PARA A INDÚSTRIA ═══════════ -->
+<section class="slide band--lime" id="s8" aria-labelledby="t8">
+  <p class="slide__n">08 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">Indústria nacional de IA · o motor que falta</p>
-      <h2 id="t7">Apoiar a IA nacional.<br>Fazer de Portugal<br><span class="lime">uma nação IA.</span></h2>
+      <h2 id="t8">Apoiar a IA nacional.<br>Fazer de Portugal<br>uma nação IA.</h2>
       <p class="lead">Portugal tem bons quadros e boas empresas tecnológicas. O mercado interno, composto sobretudo por microempresas, precisa de empresas de IA que conheçam a realidade nacional e resolvam a baixa adoção dos novos paradigmas tecnológicos.</p>
       <p class="lead">Mas as empresas de IA nacionais também precisam de investimento. Sem cumprir as regras do AI Act, o acesso a fundos e a investidores europeus fica bloqueado. <b>O AI Act não é uma obrigação. É uma vantagem competitiva e uma porta de financiamento</b> para quem é de confiança desde a origem.</p>
     </div>
@@ -439,13 +478,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   </div>
 </section>
 
-<!-- ═══════════ 08 · EXECUÇÃO DO AI ACT ═══════════ -->
-<section class="slide band--deep" id="s8" aria-labelledby="t8">
-  <p class="slide__n">08 / 11</p>
+<!-- ═══════════ 09 · EXECUÇÃO DO AI ACT ═══════════ -->
+<section class="slide band--deep" id="s9" aria-labelledby="t9">
+  <p class="slide__n">09 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">AI Act Radar · execução em tempo real</p>
-      <h2 id="t8">O que já fizemos.<br>E o que falta.</h2>
+      <h2 id="t9">O que já fizemos.<br>E o que falta.</h2>
       <p class="lead">Acompanhamos o AI Act e a Agenda Nacional todos os dias, e comparamos Portugal com os outros Estados-Membros. Esta lista atualiza sozinha.</p>
     </div>
     <div class="rumo rv">
@@ -465,13 +504,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   </div>
 </section>
 
-<!-- ═══════════ 09 · ARQUIVO DE NOTÍCIAS ═══════════ -->
-<section class="slide band--paper" id="s9" aria-labelledby="t9">
-  <p class="slide__n">09 / 11</p>
+<!-- ═══════════ 10 · ARQUIVO DE NOTÍCIAS ═══════════ -->
+<section class="slide band--paper" id="s10" aria-labelledby="t10">
+  <p class="slide__n">10 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">Publicações e notícias · recolha automática das fontes oficiais</p>
-      <h2 id="t9">O mundo da IA<br>num arquivo central.</h2>
+      <h2 id="t10">O mundo da IA<br>num arquivo central.</h2>
       <p class="lead">Diariamente recolhemos as notícias mais relevantes sobre a economia de IA e guardamos no nosso arquivo. <b>Estar informado é a base para estar preparado.</b></p>
     </div>
     <div class="rumo rv">
@@ -490,13 +529,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   </div>
 </section>
 
-<!-- ═══════════ 10 · A BOA NOTÍCIA ═══════════ -->
-<section class="slide band--lime" id="s10" aria-labelledby="t10">
-  <p class="slide__n">10 / 11</p>
+<!-- ═══════════ 11 · A BOA NOTÍCIA ═══════════ -->
+<section class="slide band--lime" id="s11" aria-labelledby="t11">
+  <p class="slide__n">11 / 12</p>
   <div class="pnl">
     <div class="rv">
       <p class="eyebrow">A boa notícia · e é enorme</p>
-      <h2 id="t10">Já temos tudo<br>o que é preciso.</h2>
+      <h2 id="t11">Já temos tudo<br>o que é preciso.</h2>
       <p class="lead">Formar uma geração de especialistas leva dez anos. Portugal já os formou. O que falta não é capacidade, é distribuição. E distribuição resolve-se em dois anos, não em dez.</p>
       <p class="lead"><b><span data-enia="barreira_principal.valor">—</span> das empresas dizem que a barreira é falta de conhecimento.</b> Num país que forma esse conhecimento acima da média europeia.</p>
     </div>
@@ -509,13 +548,13 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
   <div class="ferr pnl__d rv" id="ferrBox"></div>
 </section>
 
-<!-- ═══════════ 11 · CONTACTOS ═══════════ -->
-<section class="slide band--ink" id="s11" aria-labelledby="t11">
-  <p class="slide__n">11 / 11</p>
+<!-- ═══════════ 12 · CONTACTOS ═══════════ -->
+<section class="slide band--ink" id="s12" aria-labelledby="t12">
+  <p class="slide__n">12 / 12</p>
   <div class="two">
     <div class="rv">
       <p class="eyebrow">Contact</p>
-      <h2 id="t11">Vamos liderar<br>a Europa.<br>Juntos.</h2>
+      <h2 id="t12">Vamos liderar<br>a Europa.<br>Juntos.</h2>
       <p class="lead">Sem quotas de entrada e sem consultoria. Diga-nos onde atua e em que colégio quer trabalhar, e respondemos em 48 horas úteis.</p>
 
       <div class="rumo" style="margin-top:clamp(20px,3vh,30px)">
@@ -568,8 +607,6 @@ a.nw:hover{background:var(--hi-bg);color:var(--hi-fg)}
 (() => {
 'use strict';
 
-/* Rede de segurança: sem assets/enia.js, window.ENIA fica indefinido e
-   a página morre na primeira chamada. Isto fornece o mínimo. */
 const E = window.ENIA || (() => {
   console.warn('[ENIA] assets/enia.js não carregou, implementação de recurso.');
   const L = 'en-GB';
@@ -591,15 +628,10 @@ const $ = id => document.getElementById(id);
 const pc = v => String(v).replace('.', ',') + '%';
 const pp = v => String(v).replace('.', ',') + ' p.p.';
 
-/* ══════════════════════════════════════════════════════════════════
-   Nenhum número está escrito neste ficheiro. Regra 1 da régua de
-   rigor: um número, um lugar, uma fonte. A página lê e apresenta.
-
-   O nome do ficheiro não tem hífen. A 29/08/2026 verificámos que o
-   alojamento devolvia 403 em todos os ficheiros de data/ que o
-   tivessem, com permissões correctas. O nome antigo fica na lista
-   apenas durante a migração.
-   ══════════════════════════════════════════════════════════════════ */
+/* Nenhum número está escrito neste ficheiro. O nome do ficheiro de dados
+   não tem hífen: a lista de excepções do .htaccess da raiz autoriza os
+   JSON por nome, e os que lá não estão devolvem 403. O nome antigo fica
+   na lista apenas durante a migração. */
 const CAMINHOS = ['data/eniadados.json', 'data/enia-dados.json'];
 
 async function carregarDados() {
@@ -616,8 +648,6 @@ async function carregarDados() {
   throw new Error(falhas.join(' · '));
 }
 
-/* radar.json alimenta o Índice de Prontidão, o contador de dias e a
-   lista de execução. Semente mínima para a página nunca ficar muda. */
 const SEED = {
   countries:[
     {name:'Finlândia',score:95},{name:'Alemanha',score:75},{name:'Itália',score:68},
@@ -643,18 +673,16 @@ const NEWS_SEED = { generated:null, items:[
   {title:'INE: 11,5% das empresas utilizam IA', summary:'Mais 2,9 pontos face a 2024, com forte desigualdade por dimensão de empresa.', source:'INE', date:'2025-11-21', url:'noticias.html'}
 ]};
 
-/* ── arranque: os três ficheiros em paralelo ─────────────────────── */
 Promise.allSettled([ carregarDados(), E.get('data/radar.json', SEED), E.get('data/news.json', NEWS_SEED) ])
   .then(([d, r, n]) => {
     const radar = (r.status === 'fulfilled' && r.value && r.value.checklist) ? r.value : SEED;
     execucao(radar);
-    const nn = (n.status === 'fulfilled' && n.value && n.value.items && n.value.items.length) ? n.value : NEWS_SEED;
-    noticias(nn);
+    noticias((n.status === 'fulfilled' && n.value && n.value.items && n.value.items.length) ? n.value : NEWS_SEED);
 
     if (d.status !== 'fulfilled') {
       const msg = String((d.reason && d.reason.message) || 'sem resposta');
       const ajuda = /403/.test(msg)
-        ? ' O ficheiro existe no servidor mas o acesso está proibido: verificar regras em public_html/data.'
+        ? ' O ficheiro existe no servidor mas o acesso está proibido: confirmar que o nome está na lista de excepções do .htaccess da raiz.'
         : /404/.test(msg) ? ' O ficheiro não chegou ao servidor: confirmar que o workflow correu.' : '';
       console.error('[home] indicadores indisponíveis:', msg);
       const aviso = '<p class="falha">Indicadores indisponíveis: ' + E.esc(msg) + '.' + ajuda + '</p>';
@@ -674,7 +702,7 @@ function construir(D, radar) {
   pista(I.convergencia_ia);
   cartoes(I, radar);
   grafico(serie);
-  parPequenas(I.pequenas_empresas_pt_ue);
+  destaque(I.pequenas_empresas_pt_ue);
   swot(I, ind);
   diamante(I, ind);
   barras(cap, serie.at(-1));
@@ -682,43 +710,75 @@ function construir(D, radar) {
   ferramentas(I, ind);
 }
 
-/* ═══ 01a · pista divergente → convergente → líder ════════════════
-   Dá forma ao rumo. O gráfico da divergência mostra o problema; esta
-   pista mostra que o problema tem fim e que o fim tem nome. Os três
-   estados são definição da ENIA e estão assinalados como tal.       */
+/* ═══ 01a · pista em serpentina ═══════════════════════════════════
+   Duas linhas unidas por um semicírculo à direita. A primeira vai do
+   estado divergente à média europeia, com Portugal marcado ao vivo. A
+   segunda continua daí até à liderança.
+
+   Porquê duas linhas em vez de uma: numa linha só, a liderança fica
+   comprimida no canto e lê-se como um detalhe. Partida em duas, o
+   caminho ganha altura, o marcador de Portugal ganha espaço para
+   respirar, e o troço que falta percorrer ocupa metade do desenho.
+   A geometria diz o que o texto diz.
+
+   Sólido é o percorrido. Tracejado é o que falta. A meta é definição
+   da ENIA e está assinalada como tal por baixo.                     */
 function pista(c) {
-  const W = 720, H = 100, ML = 8, MR = 8, Y = 46, esc = 130;
-  const px = v => ML + (v / esc) * (W - ML - MR);
-  const pos = px(c.serie.at(-1).razao), cem = px(100);
-  const marcos = [
-    { v:0,   k:'Divergente',  a:'start'  },
-    { v:100, k:'Convergente', a:'middle' },
-    { v:esc, k:'Líder',       a:'end'    }
-  ];
+  const W = 760, ML = 46, MR = 118, Y1 = 62, Y2 = 178, R = 58;
+  const x0 = ML, x1 = W - MR;
+  const px = v => x0 + (v / 100) * (x1 - x0);
+  const pos = px(c.serie.at(-1).razao);
 
   $('pistaBox').innerHTML = `
-  <svg viewBox="0 0 ${W} ${H}" role="img"
-       aria-label="Trajectory de Portugal: divergente, convergente, líder. Portugal está em ${c.valor} da média europeia.">
-    <line x1="${ML}" x2="${W-MR}" y1="${Y}" y2="${Y}" stroke="currentColor" stroke-width="2" opacity=".22"/>
-    <line x1="${ML}" x2="${pos}" y1="${Y}" y2="${Y}" stroke="var(--lime,#DCF081)" stroke-width="3"/>
-    <line x1="${pos}" x2="${W-MR}" y1="${Y}" y2="${Y}" stroke="var(--lime,#DCF081)" stroke-width="3"
-          stroke-dasharray="2 8" stroke-linecap="round" opacity=".5"/>
-    ${marcos.map(m => {
-      const x = px(m.v), fim = m.v === esc;
-      return `<line x1="${x}" x2="${x}" y1="${Y-8}" y2="${Y+8}" stroke="currentColor" stroke-width="1.5" opacity=".4"/>
-      <text x="${x}" y="${Y+30}" fill="${fim ? 'var(--lime,#DCF081)' : 'currentColor'}" opacity="${fim ? '1' : '.5'}"
-            font-size="14" text-anchor="${m.a}" style="letter-spacing:.05em">${m.k}</text>`;
-    }).join('')}
-    <line x1="${cem}" x2="${cem}" y1="${Y-18}" y2="${Y+8}" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity=".3"/>
-    <circle cx="${pos}" cy="${Y}" r="7" fill="var(--lime,#DCF081)"/>
-    <circle cx="${pos}" cy="${Y}" r="12" fill="none" stroke="var(--lime,#DCF081)" stroke-width="1.5" opacity=".45"/>
-    <text x="${pos}" y="${Y-18}" fill="var(--lime,#DCF081)" font-size="17" font-weight="700" text-anchor="middle">${c.valor}</text>
-    <text x="${pos}" y="${Y-34}" fill="currentColor" opacity=".5" font-size="11.5" text-anchor="middle">Portugal está aqui</text>
-    <text x="${cem}" y="${Y-24}" fill="currentColor" opacity=".4" font-size="11.5" text-anchor="middle">Média UE</text>
-  </svg>`;
+  <svg viewBox="0 0 ${W} 236" role="img"
+       aria-label="Trajectory de Portugal na adoção de IA: divergente, convergente, líder. Portugal está em ${c.valor} da média europeia.">
+    <defs>
+      <marker id="pf" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="var(--lime,#DCF081)"/>
+      </marker>
+    </defs>
+
+    <!-- troço percorrido -->
+    <line x1="${x0}" y1="${Y1}" x2="${pos}" y2="${Y1}" stroke="var(--lime,#DCF081)" stroke-width="5" stroke-linecap="round"/>
+    <!-- o que falta até à média europeia -->
+    <line x1="${pos}" y1="${Y1}" x2="${x1}" y2="${Y1}" stroke="var(--lime,#DCF081)" stroke-width="5"
+          stroke-dasharray="2 12" stroke-linecap="round" opacity=".45"/>
+    <!-- curva de ligação -->
+    <path d="M ${x1} ${Y1} A ${R} ${R} 0 0 1 ${x1} ${Y2}" fill="none" stroke="var(--lime,#DCF081)"
+          stroke-width="5" stroke-dasharray="2 12" stroke-linecap="round" opacity=".45"/>
+    <!-- segunda linha, até à liderança -->
+    <line x1="${x1}" y1="${Y2}" x2="${x0+ 26}" y2="${Y2}" stroke="var(--lime,#DCF081)" stroke-width="5"
+          stroke-dasharray="2 12" stroke-linecap="round" opacity=".45" marker-end="url(#pf)"/>
+
+    <!-- marcas -->
+    <line x1="${x0}" y1="${Y1-13}" x2="${x0}" y2="${Y1+13}" stroke="currentColor" stroke-width="2" opacity=".4"/>
+    <line x1="${x1}" y1="${Y1-13}" x2="${x1}" y2="${Y1+13}" stroke="currentColor" stroke-width="2" opacity=".4"/>
+
+    <!-- Portugal -->
+    <circle cx="${pos}" cy="${Y1}" r="11" fill="var(--lime,#DCF081)"/>
+    <circle cx="${pos}" cy="${Y1}" r="19" fill="none" stroke="var(--lime,#DCF081)" stroke-width="2" opacity=".4"/>
+    <text x="${pos}" y="${Y1-52}" fill="currentColor" opacity=".55" font-size="13" text-anchor="middle"
+          style="letter-spacing:.1em;text-transform:uppercase">Portugal está aqui</text>
+    <text x="${pos}" y="${Y1-26}" fill="var(--lime,#DCF081)" font-size="30" font-weight="700" text-anchor="middle">${c.valor}</text>
+
+    <!-- estados -->
+    <text x="${x0}" y="${Y1+38}" fill="currentColor" opacity=".5" font-size="15" text-anchor="start"
+          style="letter-spacing:.14em;text-transform:uppercase">Divergente</text>
+    <text x="${x1}" y="${Y1-30}" fill="currentColor" opacity=".62" font-size="15" text-anchor="end"
+          style="letter-spacing:.14em;text-transform:uppercase">Convergente</text>
+    <text x="${x1}" y="${Y1-12}" fill="currentColor" opacity=".38" font-size="12.5" text-anchor="end">média da União Europeia</text>
+    <text x="${x0 + 26}" y="${Y2-26}" fill="var(--lime,#DCF081)" font-size="24" font-weight="700" text-anchor="start"
+          style="letter-spacing:.1em;text-transform:uppercase">Líder</text>
+    <text x="${x0 + 26}" y="${Y2+32}" fill="currentColor" opacity=".38" font-size="12.5" text-anchor="start">acima da média, de forma sustentada</text>
+  </svg>
+  <p class="pista__n">Where we stand de Portugal face à média europeia de adoção de IA, atualizada a cada publicação do INE e do Eurostat.
+  <span class="selo selo--proprio">Meta ENIA, definição própria · <a href="metodologia.html">ver metodologia</a></span></p>`;
 }
 
-/* ═══ 01b · grelha de cartões da abertura ════════════════════════ */
+/* ═══ 01b · grelha de cartões ════════════════════════════════════
+   Dois tipos. Os que levam a algum lado têm fundo lima e botão; os
+   que só declaram um facto ficam escuros com contorno. O contraste
+   separa acção de informação sem precisar de legendas.              */
 function cartoes(I, radar) {
   const ranked = [...(radar.countries || SEED.countries)].sort((a,b) => b.score - a.score);
   const iPt = ranked.findIndex(c => /portugal/i.test(c.name));
@@ -727,59 +787,54 @@ function cartoes(I, radar) {
   const s = I.convergencia_ia.serie;
   const anterior = s.filter(p => p.publicavel !== false).slice(-2)[0] || s[1];
 
-  const texto = (t, corpo, href, cta) =>
-    `<a class="cd" href="${href}"><h3>${t}</h3><p>${corpo}</p><span class="cd__go">${cta}</span></a>`;
-  const numero = (v, small, corpo, fonte) =>
-    `<article class="cd">
+  const acao = (t, corpo, href, cta) =>
+    `<a class="cd cd--cta" href="${href}"><h3>${t}</h3><p>${corpo}</p><span class="cd__go">${cta}</span></a>`;
+  const facto = (v, small, corpo, fonte) =>
+    `<article class="cd cd--num">
       <p class="cd__v">${v}${small ? `<small>${small}</small>` : ''}</p>
       <p class="cd__b">${corpo}</p>
       <p class="cd__s">${fonte}</p>
     </article>`;
 
   $('cardsBox').innerHTML =
-      texto('Não se corrige<br>o que não se mede!',
-            'O primeiro passo é uma régua única para medir adoção de IA. Circulam leituras opostas do mesmo facto, e ninguém pode medir com independência aquilo que também executa. É essa lacuna que preenchemos. Por isso tudo o que produzimos de autoridade é gratuito e público.',
-            'radar.html', 'radar IA da ENIA')
+      acao('Não se corrige<br>o que não se mede!',
+           'O primeiro passo é uma régua única para medir adoção de IA. Circulam leituras opostas do mesmo facto, e ninguém pode medir com independência aquilo que também executa. É essa lacuna que preenchemos. Por isso tudo o que produzimos de autoridade é gratuito e público.',
+           'radar.html', 'radar IA da ENIA')
 
-    + numero(pc(ranked[iPt] ? ranked[iPt].score : 0), '',
-             `Prontidão de Portugal para o AI Act. ${E.ord[iPt+1] || (iPt+1) + '.º'} em ${ranked.length} países avaliados diariamente.`,
-             'Índice ENIA, metodologia própria')
+    + facto(pc(ranked[iPt] ? ranked[iPt].score : 0), '',
+            `Prontidão de Portugal para o AI Act. ${E.ord[iPt+1] || (iPt+1) + '.º'} em ${ranked.length} países avaliados diariamente.`,
+            'Índice ENIA, metodologia própria')
 
-    + texto('Economia<br>Nacional da IA!',
-            'A IA não é uma mera ferramenta, é uma mudança radical de paradigma socioeconómico. O progresso nacional no século XXI define-se nos próximos cinco anos. Sabemos onde estamos e temos mecanismos que medem como evoluímos, mas precisamos de um plano estratégico para não falhar.',
-            'estrategia.html', 'Estratégia nacional IA')
+    + acao('Economia<br>Nacional da IA!',
+           'A IA não é uma mera ferramenta, é uma mudança radical de paradigma socioeconómico. O progresso nacional no século XXI define-se nos próximos cinco anos. Sabemos onde estamos e temos mecanismos que medem como evoluímos, mas precisamos de um plano estratégico para não falhar.',
+           'estrategia.html', 'Estratégia nacional IA')
 
-    + numero(I.convergencia_ia.valor, '',
-             `da média europeia de adoção de IA. Em ${anterior.ano} eram ${anterior.razao}%.`,
-             'CE Digital Decade e Eurostat, 2025')
+    + facto(I.convergencia_ia.valor, '',
+            `da média europeia de adoção de IA. Em ${anterior.ano} eram ${anterior.razao}%.`,
+            'CE Digital Decade e Eurostat, 2025')
 
-    + texto('Desenvolver empresas de IA cumprindo o AI Act.<b>Desenvolver a IA nacional!</b>',
-            'A União Europeia está empenhada em apanhar o último comboio disponível da IA: o comboio da IA de confiança. O AI Act, além de regulamentação, é estratégia. As empresas de IA nacionais devem tornar-se motores, liderando na construção de uma IA de confiança.',
-            'certificacao.html', 'tudo sobre certificação')
+    + acao('Desenvolver empresas de IA cumprindo o AI Act.<b>Desenvolver a IA nacional!</b>',
+           'A União Europeia está empenhada em apanhar o último comboio disponível da IA: o comboio da IA de confiança. O AI Act, além de regulamentação, é estratégia. As empresas de IA nacionais devem tornar-se motores, liderando na construção de uma IA de confiança.',
+           'certificacao.html', 'tudo sobre certificação')
 
-    + numero(I.barreira_principal.valor, '',
-             'das empresas que não adotaram IA apontam falta de conhecimentos.',
-             'INE, IUTICE Empresas 2025')
+    + facto(I.barreira_principal.valor, '',
+            'das empresas que não adotaram IA apontam falta de conhecimentos.',
+            'INE, IUTICE Empresas 2025')
 
-    + texto('CENSUS IA',
-            'O inquérito anual que mede a capacitação real, a governação interna, a consciência regulatória e a adoção efetiva. <b>Os resultados pertencem ao país, não à ENIA.</b>',
-            'capacitacao.html', 'Census IA')
+    + acao('CENSUS IA',
+           'O inquérito anual que mede a capacitação real, a governação interna, a consciência regulatória e a adoção efetiva. <b>Os resultados pertencem ao país, não à ENIA.</b>',
+           'capacitacao.html', 'Census IA')
 
-    + numero(String(dias), 'DIAS',
-             'até ao próximo prazo vinculativo.',
-             `${E.fLong.format(E.D(nx.date))} · ${E.esc(nx.label)}`)
+    + facto(String(dias), 'DIAS',
+            'até ao próximo prazo vinculativo.',
+            `${E.fLong.format(E.D(nx.date))} · ${E.esc(nx.label)}`)
 
-    + texto('Rumo à<br>liderança',
-            '<b>Não queremos apanhar a Europa. Queremos liderá-la.</b> A distância é grande e a capacidade para a fechar já está paga. O que falta é juntar o país à volta de um rumo, e é isso que esta página traça, painel a painel, com números e com fontes.',
-            'contactos.html#integrar', 'College nacional IA');
+    + acao('Rumo à<br>liderança',
+           '<b>Não queremos apanhar a Europa. Queremos liderá-la.</b> A distância é grande e a capacidade para a fechar já está paga. O que falta é juntar o país à volta de um rumo, e é isso que esta página traça, painel a painel, com números e com fontes.',
+           'contactos.html#integrar', 'College nacional IA');
 }
 
-/* ═══ 02a · gráfico de divergência ══════════════════════════════
-   Duas linhas e a área entre elas preenchida: o que se quer ver é o
-   fosso, não os pontos. O ano de 2023 leva marca porque a média
-   europeia salta 67% entre 2023 e 2024 enquanto Portugal sobe 9%, e
-   a formulação europeia da pergunta mudou entre edições. Mostrar e
-   assinalar é mais honesto do que apagar.                          */
+/* ═══ 02 · gráfico de divergência ══════════════════════════════ */
 function grafico(s) {
   const W = 1180, H = 430, ML = 84, MR = 92, MT = 26, MB = 74;
   const max = Math.ceil(Math.max(...s.map(p => p.ue)) / 5) * 5 + 5;
@@ -820,20 +875,22 @@ function grafico(s) {
   <p class="note" style="margin-top:10px"><span class="selo">Fonte: INE (IUTICE Empresas), Comissão Europeia (Digital Decade) e Eurostat (isoc_eb_ai)</span></p>`;
 }
 
-/* ═══ 02b · o par de pequenas empresas ═════════════════════════ */
-function parPequenas(q) {
+/* ═══ 03 · painel de destaque ══════════════════════════════════
+   O cartão europeu é escuro e cheio, o português é só contornado. O
+   peso visual reproduz o peso do número sem precisar de o explicar. */
+function destaque(q) {
   $('parBox').innerHTML = `
-    <div class="par__c par__c--nos">
-      <p class="par__n">${pc(q.pt)}</p>
-      <p class="par__t">Pequenas empresas em Portugal adotam IA</p>
+    <div class="dp dp--pt">
+      <p class="dp__n">${String(q.pt).replace('.', ',')}<small>%</small></p>
+      <p class="dp__t">Pequenas empresas em Portugal adotam IA</p>
     </div>
-    <div class="par__c">
-      <p class="par__n">${pc(q.ue)}</p>
-      <p class="par__t">Pequenas empresas na União Europeia adotam IA</p>
+    <div class="dp dp--ue">
+      <p class="dp__n">${String(q.ue).replace('.0','').replace('.', ',')}<small>%</small></p>
+      <p class="dp__t">Pequenas empresas na União Europeia adotam IA</p>
     </div>`;
 }
 
-/* ═══ 03 · SWOT ════════════════════════════════════════════════ */
+/* ═══ 04 · SWOT ════════════════════════════════════════════════ */
 function swot(I, ind) {
   const f = I.adocao_por_dimensao.fosso_interno_pp;
   const et = I.especialistas_tic.fosso_etario;
@@ -877,7 +934,7 @@ function swot(I, ind) {
     </article>`).join('');
 }
 
-/* ═══ 04 · diamante de Porter ══════════════════════════════════ */
+/* ═══ 05 · diamante de Porter ══════════════════════════════════ */
 function diamante(I, ind) {
   const v = [
     ['Vértice 01','Condições de fatores', pc(ind('Especialistas de TIC').pt), 'ok', 'Em condições',
@@ -905,7 +962,7 @@ function diamante(I, ind) {
     </article>`).join('');
 }
 
-/* ═══ 05 · barras Portugal contra Europa ═══════════════════════ */
+/* ═══ 06 · barras Portugal contra Europa ═══════════════════════ */
 function barras(cap, ultimo) {
   const linhas = cap.slice().sort((a,b) => b.razao_pct - a.razao_pct).concat([{
     indicador:'Adoção de IA nas empresas', pt:ultimo.pt, ue:ultimo.ue,
@@ -931,7 +988,7 @@ function barras(cap, ultimo) {
   } else anima();
 }
 
-/* ═══ 06 · duas velocidades ════════════════════════════════════ */
+/* ═══ 07 · duas velocidades ════════════════════════════════════ */
 function velocidades(dim, fosso) {
   $('velBox').innerHTML = dim.map(c => {
     const tot = /total/i.test(c.classe);
@@ -947,7 +1004,7 @@ function velocidades(dim, fosso) {
     + `<br><span class="selo">Fonte: INE, IUTICE Empresas, 2025</span>`;
 }
 
-/* ═══ 08 · execução do AI Act ══════════════════════════════════ */
+/* ═══ 09 · execução do AI Act ══════════════════════════════════ */
 function execucao(radar) {
   const box = $('execBox');
   if (!box) return;
@@ -962,7 +1019,7 @@ function execucao(radar) {
     </div>`).join('');
 }
 
-/* ═══ 09 · arquivo de notícias ═════════════════════════════════ */
+/* ═══ 10 · arquivo de notícias ═════════════════════════════════ */
 function noticias(data) {
   const g = $('newsBox');
   if (!g) return;
@@ -979,7 +1036,7 @@ function noticias(data) {
   if (s) s.textContent = data.generated ? E.fStamp.format(new Date(data.generated)) : 'aguarda primeira sincronização';
 }
 
-/* ═══ 10 · ferramentas que temos ═══════════════════════════════ */
+/* ═══ 11 · ferramentas que temos ═══════════════════════════════ */
 function ferramentas(I, ind) {
   const f = [
     [pc(ind('Formação TIC nas empresas').pt), 'Formação digital nas empresas',
