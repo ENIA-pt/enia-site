@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T01:17:59.612Z",
+  "generated": "2026-08-30T10:26:59.753Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
   "count": 248,
   "items": [

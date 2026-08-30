@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-30T01:15:30.299Z",
+  "startedAt": "2026-08-30T10:24:40.971Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -475,7 +475,7 @@
       "kind": "rss",
       "ok": true,
       "items": 20,
-      "kept": 2,
+      "kept": 1,
       "maisRecente": "2026-07-20"
     },
     {
@@ -563,10 +563,10 @@
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "mlex",
@@ -629,16 +629,16 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "error": "HTTP 404"
     },
     {
       "id": "senado-br-ia",
       "tier": "13-lusofonia",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "inacom-ao",
@@ -700,11 +700,9 @@
     "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
-    "[anpd-br] fetch failed",
-    "[senado-br-ia] fetch failed",
+    "[anpd-br] HTTP 404",
     "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
@@ -717,9 +715,9 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-30T01:17:59.613Z",
-  "recolhidos": 39,
-  "written": 39,
+  "finishedAt": "2026-08-30T10:26:59.754Z",
+  "recolhidos": 38,
+  "written": 38,
   "maisRecente": "2026-08-29",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
