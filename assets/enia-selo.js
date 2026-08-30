@@ -44,6 +44,14 @@
 (() => {
   'use strict';
 
+  /* Marcador de versão. Abrir a consola do browser e procurar esta
+     linha diz, em dois segundos, qual das versões está no servidor.
+     Existe porque se perderam horas a diagnosticar sintomas de um
+     ficheiro antigo que ninguém sabia estar antigo. */
+  const VERSAO = '2026.08.30';
+  console.info('%c[ENIA] enia-selo.js ' + VERSAO, 'color:#DCF081');
+
+
   /* Sem hífen no nome: o alojamento devolve 403 em todos os ficheiros de
      data/ que o tenham, mesmo com permissões 644. O nome antigo fica na
      lista apenas durante a migração. */
