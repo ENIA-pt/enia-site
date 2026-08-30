@@ -49,6 +49,7 @@
      Existe porque se perderam horas a diagnosticar sintomas de um
      ficheiro antigo que ninguém sabia estar antigo. */
   const VERSAO = '2026.08.30';
+  window.__ENIA_SELO__ = VERSAO;
   console.info('%c[ENIA] enia-selo.js ' + VERSAO, 'color:#DCF081');
 
 
