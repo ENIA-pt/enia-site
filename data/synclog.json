@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-30T23:57:35.345Z",
+  "startedAt": "2026-08-31T01:22:39.328Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -711,7 +711,7 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-30T23:58:28.635Z",
+  "finishedAt": "2026-08-31T01:23:23.764Z",
   "recolhidos": 38,
   "written": 38,
   "maisRecente": "2026-08-30",
