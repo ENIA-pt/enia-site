@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-31T01:22:39.328Z",
+  "startedAt": "2026-09-01T01:49:49.081Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -7,7 +7,7 @@
       "kind": "sparql",
       "ok": true,
       "items": 60,
-      "kept": 8,
+      "kept": 7,
       "maisRecente": "2026-08-14"
     },
     {
@@ -23,10 +23,10 @@
       "id": "op-cellar-atom",
       "tier": "1-lei",
       "kind": "atom",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 403"
+      "maisRecente": null
     },
     {
       "id": "ec-press-corner",
@@ -34,8 +34,8 @@
       "kind": "rss",
       "ok": true,
       "items": 50,
-      "kept": 2,
-      "maisRecente": "2026-07-31"
+      "kept": 1,
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "ec-digital-strategy",
@@ -44,7 +44,7 @@
       "ok": true,
       "items": 10,
       "kept": 8,
-      "maisRecente": "2026-08-24"
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "ec-have-your-say",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 14,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 2,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "dre-pt",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 302,
+      "kept": 3,
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 16,
+      "kept": 3,
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "stanford-hai",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-08-26"
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 19,
       "kept": 2,
-      "maisRecente": "2026-08-30"
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-08-30"
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "eco-pt",
@@ -557,7 +557,7 @@
       "ok": true,
       "items": 22,
       "kept": 1,
-      "maisRecente": "2026-08-29"
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1157,
+      "items": 1158,
       "kept": 2,
-      "maisRecente": "2026-08-28"
+      "maisRecente": "2026-08-31"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1486,
+      "items": 1444,
       "kept": 0,
       "maisRecente": null
     },
@@ -678,7 +678,6 @@
     }
   ],
   "warnings": [
-    "[op-cellar-atom] HTTP 403",
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
@@ -686,6 +685,10 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
+    "[anacom-noticias] fetch failed",
+    "[anacom-legislacao] fetch failed",
+    "[anacom-imprensa] fetch failed",
+    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -711,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-08-31T01:23:23.764Z",
-  "recolhidos": 38,
-  "written": 38,
-  "maisRecente": "2026-08-30",
+  "finishedAt": "2026-09-01T01:52:03.826Z",
+  "recolhidos": 43,
+  "written": 43,
+  "maisRecente": "2026-08-31",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 0,
+    "added": 17,
     "curados": 0,
-    "total": 250
+    "total": 267
   }
 }

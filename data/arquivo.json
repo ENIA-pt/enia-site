@@ -1,8 +1,144 @@
 {
-  "generated": "2026-08-31T01:23:23.763Z",
+  "generated": "2026-09-01T01:52:03.825Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 250,
+  "count": 267,
   "items": [
+    {
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+    },
+    {
+      "title": "Instagram puts new limits on undisclosed AI profiles",
+      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
+    },
+    {
+      "title": "“Se querem ficar ricos, deixem centros de dados prosperarem”",
+      "summary": "O Presidente norte-americano defendeu a expansão dos centros de dados no país e criticou o movimento crescente que se opõe à sua construção, argumentando que isso beneficiaria a China na corrida pela liderança em inteligência artificial. “A única razão pela…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://eco.sapo.pt/2026/08/31/se-querem-ficar-ricos-deixem-centros-de-dados-prosperarem/"
+    },
+    {
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
+    },
+    {
+      "title": "Debian won’t ban AI code from its Linux distribution",
+      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
+    },
+    {
+      "title": "State of the Union 2026",
+      "summary": "State of the Union 2026 Anonymous (not verified) Mon, 08/31/2026 - 16:11 16 September 2026 The State of the Union (SOTEU) address is an annual speech by the President of the European Commission to the European Parliament, setting the priorities for the Union…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-08-31",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/state-union-2026"
+    },
+    {
+      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+      "summary": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras"
+    },
+    {
+      "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
+      "summary": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 Today, the Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-08-31",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act"
+    },
+    {
+      "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act*",
+      "summary": "European Commission Press release Brussels, 31 Aug 2026 Today, the Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large Online Platforms (VLOPs), under the Digital Services Act (DSA).",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-08-31",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772"
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-31",
+      "url": "https://openai.com/index/polimill"
+    },
+    {
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27463"
+    },
+    {
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27464"
+    },
+    {
+      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27472"
+    },
+    {
+      "title": "A Guided Inquiry Approach to Students Co-Designing Generative AI Course Policies",
+      "summary": "arXiv:2608.28501v1 Announce Type: new Abstract: As generative AI (GenAI) use among students increases, educators face growing questions about how to support learning while addressing ethical and institutional concerns. This exploratory study examines a guided…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.28501"
+    },
+    {
+      "title": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional Vulnerability Across Six Commercial Models",
+      "summary": "arXiv:2608.27465v1 Announce Type: cross Abstract: As large language models (LLMs) are increasingly used for everyday decision-making advice, whether a model shifts the direction of its advice according to the user's emotional state has become an important…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27465"
+    },
+    {
+      "title": "Generative AI Alignment with Hinduism's Theological Plurality and Sacred Representation",
+      "summary": "arXiv:2608.28228v1 Announce Type: cross Abstract: Generative AI systems are increasingly used to answer personal questions and mediate everyday practices, including religion. However, existing discussions around AI alignment and ethics have largely centered…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.28228"
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-31",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+    },
     {
       "title": "Texas Governor Abbott blocks funding for more Flock cameras",
       "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras.…",

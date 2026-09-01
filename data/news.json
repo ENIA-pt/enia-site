@@ -1,54 +1,142 @@
 {
-  "generated": "2026-08-31T01:23:23.763Z",
+  "generated": "2026-09-01T01:52:03.825Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-      "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras.…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-30",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
-    },
-    {
-      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-      "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-08-30",
-      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/"
+      "date": "2026-08-31",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
     },
     {
-      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
-      "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally…",
+      "title": "Instagram puts new limits on undisclosed AI profiles",
+      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-08-29",
-      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/"
+      "date": "2026-08-31",
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
     },
     {
-      "title": "Cook despede-se da liderança da Apple e Ternus assume leme com desafio da IA",
-      "summary": "John Ternus vai assumir, em 01 de setembro, o império financeiro consolidado por Tim Cook na Apple, onde terá de lidar com o impacto das políticas tarifárias dos EUA e de acelerar o desempenho na corrida da inteligência artificial (IA). Tim Cook, o líder que…",
+      "title": "“Se querem ficar ricos, deixem centros de dados prosperarem”",
+      "summary": "O Presidente norte-americano defendeu a expansão dos centros de dados no país e criticou o movimento crescente que se opõe à sua construção, argumentando que isso beneficiaria a China na corrida pela liderança em inteligência artificial. “A única razão pela…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-08-29",
-      "url": "https://eco.sapo.pt/2026/08/29/cook-despede-se-da-lideranca-da-apple-e-ternus-assume-leme-com-desafio-da-ia/"
+      "date": "2026-08-31",
+      "url": "https://eco.sapo.pt/2026/08/31/se-querem-ficar-ricos-deixem-centros-de-dados-prosperarem/"
     },
     {
-      "title": "Musicians-turned-detectives are hunting for AI grifters",
-      "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people…",
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
+    },
+    {
+      "title": "Debian won’t ban AI code from its Linux distribution",
+      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-08-28",
-      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
+      "date": "2026-08-31",
+      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
     },
     {
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "title": "State of the Union 2026",
+      "summary": "State of the Union 2026 Anonymous (not verified) Mon, 08/31/2026 - 16:11 16 September 2026 The State of the Union (SOTEU) address is an annual speech by the President of the European Commission to the European Parliament, setting the priorities for the Union…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-08-31",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/state-union-2026"
+    },
+    {
+      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+      "summary": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-08-31",
+      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras"
+    },
+    {
+      "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
+      "summary": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 Today, the Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-08-31",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act"
+    },
+    {
+      "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act*",
+      "summary": "European Commission Press release Brussels, 31 Aug 2026 Today, the Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large Online Platforms (VLOPs), under the Digital Services Act (DSA).",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-08-31",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772"
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
       "source": "OpenAI",
       "tier": "12-industria",
-      "date": "2026-08-28",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
+      "date": "2026-08-31",
+      "url": "https://openai.com/index/polimill"
+    },
+    {
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27463"
+    },
+    {
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27464"
+    },
+    {
+      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27472"
+    },
+    {
+      "title": "A Guided Inquiry Approach to Students Co-Designing Generative AI Course Policies",
+      "summary": "arXiv:2608.28501v1 Announce Type: new Abstract: As generative AI (GenAI) use among students increases, educators face growing questions about how to support learning while addressing ethical and institutional concerns. This exploratory study examines a guided…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.28501"
+    },
+    {
+      "title": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional Vulnerability Across Six Commercial Models",
+      "summary": "arXiv:2608.27465v1 Announce Type: cross Abstract: As large language models (LLMs) are increasingly used for everyday decision-making advice, whether a model shifts the direction of its advice according to the user's emotional state has become an important…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.27465"
+    },
+    {
+      "title": "Generative AI Alignment with Hinduism's Theological Plurality and Sacred Representation",
+      "summary": "arXiv:2608.28228v1 Announce Type: cross Abstract: Generative AI systems are increasingly used to answer personal questions and mediate everyday practices, including religion. However, existing discussions around AI alignment and ethics have largely centered…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.28228"
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-31",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
     },
     {
       "title": "In applying AI to military decision-making, the IP4 should learn from NATO",
@@ -75,14 +163,6 @@
       "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about"
     },
     {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-27",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil"
-    },
-    {
       "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids’ use of technology was once a subcurrent, it has become a raging…",
       "source": "MIT Technology Review",
@@ -97,14 +177,6 @@
       "tier": "4-dados",
       "date": "2026-08-26",
       "url": "https://www.cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte"
-    },
-    {
-      "title": "Raised on AI",
-      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-26",
-      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/"
     },
     {
       "title": "New partnership set to see the UK and Ukraine develop battle winning technology as Britain secures access to Ukraine's Avengers AI Labs",
@@ -219,14 +291,6 @@
       "url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation"
     },
     {
-      "title": "Daily News 31 / 07 / 2026",
-      "summary": "European Commission Daily news Brussels, 31 Jul 2026 Commission starts enforcing AI Act rules and new transparency requirements on 2 August From 2 August 2026, the European Commission's AI Office, together with na...",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-07-31",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1715"
-    },
-    {
       "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
       "summary": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August Anonymous (not verified) Fri, 07/31/2026 - 09:00 From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the…",
       "source": "Shaping Europe's Digital Future",
@@ -241,14 +305,6 @@
       "tier": "2-comissao",
       "date": "2026-07-31",
       "url": "https://digital-strategy.ec.europa.eu/en/library/eu-support-news-media-sector"
-    },
-    {
-      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "summary": "European Commission Press release Brussels, 31 Jul 2026 From 2 August 2026, the European Commission's AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act. On the same date, new transparency rules will start…",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-07-31",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714"
     },
     {
       "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
@@ -273,22 +329,6 @@
       "tier": "9-investigacao",
       "date": "2026-07-28",
       "url": "https://ainowinstitute.org/publications/anatomy-of-an-ai-kill-chain"
-    },
-    {
-      "title": "AI-powered robotics in Europe: Live demonstrations and strategic debate",
-      "summary": "AI-powered robotics in Europe: Live demonstrations and strategic debate Anonymous (not verified) Fri, 07/24/2026 - 14:32 02 September 2026 The European Parliament will host a gathering of policymakers, industry leaders, researchers, alongside live…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-07-24",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/ai-powered-robotics-europe-live-demonstrations-and-strategic-debate"
-    },
-    {
-      "title": "Kick-off of new GenAI pilots for public administration & Apply AI stakeholder meeting",
-      "summary": "Kick-off of new GenAI pilots for public administration & Apply AI stakeholder meeting Anonymous (not verified) Wed, 07/22/2026 - 16:18 14 September 2026 This event showcases 3 European generative AI pilots, while bringing together the Apply AI community to…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-07-22",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/kick-new-genai-pilots-public-administration-apply-ai-stakeholder-meeting"
     },
     {
       "title": "The EU is about to sell our most sensitive data to the US for visa-free travel",
