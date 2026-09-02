@@ -1,46 +1,134 @@
 {
-  "generated": "2026-09-01T01:52:03.825Z",
+  "generated": "2026-09-02T01:04:28.126Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "The Pentagon now has its own version of ChatGPT and Grok",
-      "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-31",
-      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
-    },
-    {
-      "title": "Instagram puts new limits on undisclosed AI profiles",
-      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-31",
-      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
-    },
-    {
-      "title": "“Se querem ficar ricos, deixem centros de dados prosperarem”",
-      "summary": "O Presidente norte-americano defendeu a expansão dos centros de dados no país e criticou o movimento crescente que se opõe à sua construção, argumentando que isso beneficiaria a China na corrida pela liderança em inteligência artificial. “A única razão pela…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-08-31",
-      "url": "https://eco.sapo.pt/2026/08/31/se-querem-ficar-ricos-deixem-centros-de-dados-prosperarem/"
-    },
-    {
-      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-31",
-      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
-    },
-    {
-      "title": "Debian won’t ban AI code from its Linux distribution",
-      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes…",
+      "title": "Google needs Hollywood more than the studios need AI",
+      "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-08-31",
-      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
+      "date": "2026-09-01",
+      "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
+    },
+    {
+      "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+      "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack"
+    },
+    {
+      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"
+    },
+    {
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/"
+    },
+    {
+      "title": "Planning for More Than One Future",
+      "summary": "The post Planning for More Than One Future appeared first on Partnership on AI.",
+      "source": "Partnership on AI",
+      "tier": "10-sociedade",
+      "date": "2026-09-01",
+      "url": "https://partnershiponai.org/planning-for-more-than-one-future/"
+    },
+    {
+      "title": "How AI plotted an interstellar journey to Alpha Centauri",
+      "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-01",
+      "url": "https://openai.com/index/ai-native-company-workflows"
+    },
+    {
+      "title": "The AI Ethics Brief #198: Weights and Measures",
+      "summary": "On open-weight models, the responsibilities that move with them, and who owns the layers beneath the model. Source",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-198-weights-and-measures/"
+    },
+    {
+      "title": "Responsible AI in 2026: How we are adapting for what’s ahead",
+      "summary": "Today, Microsoft published its 2026 Responsible AI Transparency Report. The report highlights the progress we’ve made in building and deploying AI responsibly, supporting our customers, and strengthening our responsible AI governance, tools, and practices.…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-09-01",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/"
+    },
+    {
+      "title": "Making the AI-powered case for legacy modernization",
+      "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization feel like a disruption to manage…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/"
+    },
+    {
+      "title": "Operationalising AI Regulatory Sandboxes: Activities, Requirements, and Technical Assessment under the EU AI Act",
+      "summary": "arXiv:2509.25256v4 Announce Type: replace Abstract: The systematic assessment of AI systems is increasingly vital as these technologies enter high-stakes domains. To address this, the EU's Artificial Intelligence Act introduces AI Regulatory Sandboxes (AIRS):…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2509.25256"
+    },
+    {
+      "title": "Law of Large Numbers: Accuracy as Statistical Measure for AI Compliance and Competition",
+      "summary": "arXiv:2608.31018v1 Announce Type: new Abstract: The machine learning community progresses (in part) by improving the \"accuracy\" of its systems. The EU AI Act explicitly refers to \"accuracy\" as part of its compliance measures for high-risk AI systems. Are we…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2608.31018"
+    },
+    {
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2608.27463"
+    },
+    {
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2608.27464"
+    },
+    {
+      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2608.27472"
+    },
+    {
+      "title": "The Brand War: A Gamified AI-Feedback System for Time-Limited EFL Writing",
+      "summary": "arXiv:2608.28604v1 Announce Type: new Abstract: Writing is cognitively demanding and anxiety-provoking for English as a Foreign Language (EFL) learners, especially under time pressure. This paper presents The Brand War, a web-based gamified writing…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2608.28604"
     },
     {
       "title": "State of the Union 2026",
@@ -49,14 +137,6 @@
       "tier": "2-comissao",
       "date": "2026-08-31",
       "url": "https://digital-strategy.ec.europa.eu/en/events/state-union-2026"
-    },
-    {
-      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-      "summary": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-08-31",
-      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras"
     },
     {
       "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
@@ -75,68 +155,12 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772"
     },
     {
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
       "source": "OpenAI",
       "tier": "12-industria",
       "date": "2026-08-31",
-      "url": "https://openai.com/index/polimill"
-    },
-    {
-      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
-      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-31",
-      "url": "https://arxiv.org/abs/2608.27463"
-    },
-    {
-      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
-      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-31",
-      "url": "https://arxiv.org/abs/2608.27464"
-    },
-    {
-      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
-      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-08-31",
-      "url": "https://arxiv.org/abs/2608.27472"
-    },
-    {
-      "title": "A Guided Inquiry Approach to Students Co-Designing Generative AI Course Policies",
-      "summary": "arXiv:2608.28501v1 Announce Type: new Abstract: As generative AI (GenAI) use among students increases, educators face growing questions about how to support learning while addressing ethical and institutional concerns. This exploratory study examines a guided…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-31",
-      "url": "https://arxiv.org/abs/2608.28501"
-    },
-    {
-      "title": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional Vulnerability Across Six Commercial Models",
-      "summary": "arXiv:2608.27465v1 Announce Type: cross Abstract: As large language models (LLMs) are increasingly used for everyday decision-making advice, whether a model shifts the direction of its advice according to the user's emotional state has become an important…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-31",
-      "url": "https://arxiv.org/abs/2608.27465"
-    },
-    {
-      "title": "Generative AI Alignment with Hinduism's Theological Plurality and Sacred Representation",
-      "summary": "arXiv:2608.28228v1 Announce Type: cross Abstract: Generative AI systems are increasingly used to answer personal questions and mediate everyday practices, including religion. However, existing discussions around AI alignment and ethics have largely centered…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-08-31",
-      "url": "https://arxiv.org/abs/2608.28228"
-    },
-    {
-      "title": "A milestone in expanding access to AI",
-      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-31",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
     },
     {
       "title": "In applying AI to military decision-making, the IP4 should learn from NATO",
@@ -161,14 +185,6 @@
       "tier": "8-jurisdicoes",
       "date": "2026-08-27",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about"
-    },
-    {
-      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids’ use of technology was once a subcurrent, it has become a raging…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-08-26",
-      "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/"
     },
     {
       "title": "IA: la CNIL met à jour son outil de traçabilité des modèles publiés en source ouverte",
@@ -217,14 +233,6 @@
       "tier": "10-sociedade",
       "date": "2026-08-20",
       "url": "https://algorithmwatch.org/en/slow-regulation-ai-csam-victims/"
-    },
-    {
-      "title": "The AI Ethics Brief #197: Terms Set Upstream",
-      "summary": "Enterprises are discovering their AI provider is also a competitor. Chinese users discovered their companions were never theirs. Source",
-      "source": "Montreal AI Ethics Institute",
-      "tier": "9-investigacao",
-      "date": "2026-08-18",
-      "url": "https://montrealethics.ai/the-ai-ethics-brief-197-terms-set-upstream/"
     },
     {
       "title": "Call for tenders: Study on how online marketplace design influences user behaviour",
@@ -313,14 +321,6 @@
       "tier": "2-comissao",
       "date": "2026-07-30",
       "url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion"
-    },
-    {
-      "title": "Investors Need Better Information About How Companies are Using AI",
-      "summary": "The post Investors Need Better Information About How Companies are Using AI appeared first on Partnership on AI.",
-      "source": "Partnership on AI",
-      "tier": "10-sociedade",
-      "date": "2026-07-29",
-      "url": "https://partnershiponai.org/investors-need-better-information-about-how-companies-are-using-ai/"
     },
     {
       "title": "Anatomy of an AI Kill Chain with Airwars",

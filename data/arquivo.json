@@ -1,8 +1,112 @@
 {
-  "generated": "2026-09-01T01:52:03.825Z",
+  "generated": "2026-09-02T01:04:28.126Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 267,
+  "count": 281,
   "items": [
+    {
+      "title": "Google needs Hollywood more than the studios need AI",
+      "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
+    },
+    {
+      "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+      "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack"
+    },
+    {
+      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"
+    },
+    {
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/"
+    },
+    {
+      "title": "Planning for More Than One Future",
+      "summary": "The post Planning for More Than One Future appeared first on Partnership on AI.",
+      "source": "Partnership on AI",
+      "tier": "10-sociedade",
+      "date": "2026-09-01",
+      "url": "https://partnershiponai.org/planning-for-more-than-one-future/"
+    },
+    {
+      "title": "How AI plotted an interstellar journey to Alpha Centauri",
+      "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-01",
+      "url": "https://openai.com/index/ai-native-company-workflows"
+    },
+    {
+      "title": "The AI Ethics Brief #198: Weights and Measures",
+      "summary": "On open-weight models, the responsibilities that move with them, and who owns the layers beneath the model. Source",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-198-weights-and-measures/"
+    },
+    {
+      "title": "Responsible AI in 2026: How we are adapting for what’s ahead",
+      "summary": "Today, Microsoft published its 2026 Responsible AI Transparency Report. The report highlights the progress we’ve made in building and deploying AI responsibly, supporting our customers, and strengthening our responsible AI governance, tools, and practices.…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-09-01",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/"
+    },
+    {
+      "title": "Making the AI-powered case for legacy modernization",
+      "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization feel like a disruption to manage…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-01",
+      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/"
+    },
+    {
+      "title": "Operationalising AI Regulatory Sandboxes: Activities, Requirements, and Technical Assessment under the EU AI Act",
+      "summary": "arXiv:2509.25256v4 Announce Type: replace Abstract: The systematic assessment of AI systems is increasingly vital as these technologies enter high-stakes domains. To address this, the EU's Artificial Intelligence Act introduces AI Regulatory Sandboxes (AIRS):…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2509.25256"
+    },
+    {
+      "title": "Law of Large Numbers: Accuracy as Statistical Measure for AI Compliance and Competition",
+      "summary": "arXiv:2608.31018v1 Announce Type: new Abstract: The machine learning community progresses (in part) by improving the \"accuracy\" of its systems. The EU AI Act explicitly refers to \"accuracy\" as part of its compliance measures for high-risk AI systems. Are we…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2608.31018"
+    },
+    {
+      "title": "The Brand War: A Gamified AI-Feedback System for Time-Limited EFL Writing",
+      "summary": "arXiv:2608.28604v1 Announce Type: new Abstract: Writing is cognitively demanding and anxiety-provoking for English as a Foreign Language (EFL) learners, especially under time pressure. This paper presents The Brand War, a web-based gamified writing…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-01",
+      "url": "https://arxiv.org/abs/2608.28604"
+    },
     {
       "title": "The Pentagon now has its own version of ChatGPT and Grok",
       "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
@@ -138,6 +242,14 @@
       "tier": "12-industria",
       "date": "2026-08-31",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+    },
+    {
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-08-31",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
     },
     {
       "title": "Texas Governor Abbott blocks funding for more Flock cameras",
