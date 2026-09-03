@@ -1,38 +1,102 @@
 {
-  "generated": "2026-09-02T01:04:28.126Z",
+  "generated": "2026-09-03T01:08:16.849Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Google needs Hollywood more than the studios need AI",
-      "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be…",
+      "title": "NYC bans AI use for students until they reach high school",
+      "summary": "New York City Mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-01",
-      "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
+      "date": "2026-09-02",
+      "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban"
     },
     {
-      "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
-      "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift…",
+      "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+      "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-02",
+      "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/"
+    },
+    {
+      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-02",
+      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/"
+    },
+    {
+      "title": "Amazon’s AI assistant can now spot fake emails from the company",
+      "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-01",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack"
+      "date": "2026-09-02",
+      "url": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
     },
     {
-      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
-      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
-      "source": "TechCrunch AI",
+      "title": "Facilitating AI integration with simplicity at scale",
+      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-01",
-      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"
+      "date": "2026-09-02",
+      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/"
     },
     {
-      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
-      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
-      "source": "TechCrunch AI",
+      "title": "The Download: AI puzzles and a path to our nearest star system",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and games have always been central to AI…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-01",
-      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/"
+      "date": "2026-09-02",
+      "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/"
+    },
+    {
+      "title": "ANACOM participa no 21.º Workshop Internacional de Regulação",
+      "summary": "Raquel Brízida Castro abordou os desafios regulatórios decorrentes da convergência entre serviços digitais, conteúdos audiovisuais e inteligência artificial.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-09-02",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1856977"
+    },
+    {
+      "title": "Causal Evidentiary Governance for High-Risk Machine Learning Systems",
+      "summary": "arXiv:2609.01040v1 Announce Type: cross Abstract: Machine learning systems deployed for credit, hiring, and resource distribution are increasingly subject to regulatory oversight from policies such as the EU AI Act and GDPR. Current fairness governance…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-02",
+      "url": "https://arxiv.org/abs/2609.01040"
+    },
+    {
+      "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
+      "summary": "arXiv:2608.19194v4 Announce Type: replace Abstract: Legal cross-references are commonly represented as links between instruments or provisions. In a curated legal knowledge base, a link must also identify the legal character of the interaction, its supporting…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-02",
+      "url": "https://arxiv.org/abs/2608.19194"
+    },
+    {
+      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "summary": "arXiv:2609.00003v1 Announce Type: new Abstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned. Despite rapid progress in generative machine unlearning, the unintended degradation…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-02",
+      "url": "https://arxiv.org/abs/2609.00003"
+    },
+    {
+      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-02",
+      "url": "https://arxiv.org/abs/2609.00012"
+    },
+    {
+      "title": "The Veto Variable: Human Override as a Goal-Independent Cost Term",
+      "summary": "arXiv:2609.00109v1 Announce Type: new Abstract: A common reassurance in AI safety holds that a system with benign terminal goals will behave accordingly. We argue that this reassurance fails structurally, and we identify where. For a capable agent that holds…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-02",
+      "url": "https://arxiv.org/abs/2609.00109"
     },
     {
       "title": "Planning for More Than One Future",
@@ -41,14 +105,6 @@
       "tier": "10-sociedade",
       "date": "2026-09-01",
       "url": "https://partnershiponai.org/planning-for-more-than-one-future/"
-    },
-    {
-      "title": "How AI plotted an interstellar journey to Alpha Centauri",
-      "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-01",
-      "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/"
     },
     {
       "title": "How AI-native companies turn workflows into operating capability",
@@ -75,60 +131,12 @@
       "url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/"
     },
     {
-      "title": "Making the AI-powered case for legacy modernization",
-      "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization feel like a disruption to manage…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "source": "OpenAI",
+      "tier": "12-industria",
       "date": "2026-09-01",
-      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/"
-    },
-    {
-      "title": "Operationalising AI Regulatory Sandboxes: Activities, Requirements, and Technical Assessment under the EU AI Act",
-      "summary": "arXiv:2509.25256v4 Announce Type: replace Abstract: The systematic assessment of AI systems is increasingly vital as these technologies enter high-stakes domains. To address this, the EU's Artificial Intelligence Act introduces AI Regulatory Sandboxes (AIRS):…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-01",
-      "url": "https://arxiv.org/abs/2509.25256"
-    },
-    {
-      "title": "Law of Large Numbers: Accuracy as Statistical Measure for AI Compliance and Competition",
-      "summary": "arXiv:2608.31018v1 Announce Type: new Abstract: The machine learning community progresses (in part) by improving the \"accuracy\" of its systems. The EU AI Act explicitly refers to \"accuracy\" as part of its compliance measures for high-risk AI systems. Are we…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-01",
-      "url": "https://arxiv.org/abs/2608.31018"
-    },
-    {
-      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
-      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-01",
-      "url": "https://arxiv.org/abs/2608.27463"
-    },
-    {
-      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
-      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-01",
-      "url": "https://arxiv.org/abs/2608.27464"
-    },
-    {
-      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
-      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-01",
-      "url": "https://arxiv.org/abs/2608.27472"
-    },
-    {
-      "title": "The Brand War: A Gamified AI-Feedback System for Time-Limited EFL Writing",
-      "summary": "arXiv:2608.28604v1 Announce Type: new Abstract: Writing is cognitively demanding and anxiety-provoking for English as a Foreign Language (EFL) learners, especially under time pressure. This paper presents The Brand War, a web-based gamified writing…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-01",
-      "url": "https://arxiv.org/abs/2608.28604"
+      "url": "https://openai.com/index/gilbert-tobin"
     },
     {
       "title": "State of the Union 2026",
@@ -153,14 +161,6 @@
       "tier": "2-comissao",
       "date": "2026-08-31",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772"
-    },
-    {
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-08-31",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
     },
     {
       "title": "In applying AI to military decision-making, the IP4 should learn from NATO",
@@ -219,14 +219,6 @@
       "url": "https://algorithmwatch.org/en/chatbots-abortion-ai/"
     },
     {
-      "title": "AP adviseert Twitch-gebruikers: zet instellingen uit voor delen van data met Amazon AI",
-      "summary": "Streamingplatform Twitch heeft bekendgemaakt dat Amazon persoonsgegevens van Twitch-gebruikers gebruikt om AI-modellen mee te trainen. Gebruikers die niet willen dat Amazon hun streams, afbeeldingen en andere persoonsgegevens gebruikt, kunnen dit nu…",
-      "source": "Autoriteit Persoonsgegevens",
-      "tier": "4-dados",
-      "date": "2026-08-20",
-      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-twitch-gebruikers-zet-instellingen-uit-voor-delen-van-data-met-amazon-ai"
-    },
-    {
       "title": "Slow Regulation on AI-Generated CSAM is Failing its Victims",
       "summary": "Artificial intelligence is reshaping the production of child sexual abuse material (CSAM) online, enabling new forms of exploitation that are outpacing the legal and regulatory frameworks designed to contain them.",
       "source": "AlgorithmWatch",
@@ -241,14 +233,6 @@
       "tier": "2-comissao",
       "date": "2026-08-18",
       "url": "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-study-how-online-marketplace-design-influences-user-behaviour"
-    },
-    {
-      "title": "De FRIA voor AI-systemen komt eraan: bereid u voor",
-      "summary": "Bent u een overheidsorganisatie of een private organisatie die publieke diensten levert? En bent u van plan een AI-systeem met een hoog risico te gaan gebruiken? Of gaat u als publieke of private organisatie een beoordelingssysteem voor financiële risico’s…",
-      "source": "Autoriteit Persoonsgegevens",
-      "tier": "4-dados",
-      "date": "2026-08-17",
-      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/de-fria-voor-ai-systemen-komt-eraan-bereid-u-voor"
     },
     {
       "title": "Artificial intelligence for biology: capabilities, readiness, and policy implications",
