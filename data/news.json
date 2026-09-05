@@ -1,46 +1,110 @@
 {
-  "generated": "2026-09-04T01:01:19.308Z",
+  "generated": "2026-09-05T00:58:45.143Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-      "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-03",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release"
-    },
-    {
-      "title": "Abliteration.ai is making a business out of removing AI guardrails",
-      "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-03",
-      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/"
+      "date": "2026-09-04",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
     },
     {
-      "title": "Meta is paying to peek at how you use their latest AI model",
-      "summary": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-03",
-      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
+      "date": "2026-09-04",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/"
     },
     {
-      "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
-      "summary": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply:…",
+      "title": "Architecting memory and storage in the AI era",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-04",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/"
+    },
+    {
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-03",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
+      "date": "2026-09-04",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip"
     },
     {
-      "title": "Shortlist: Do primeiro relógio de Zidane ao novo ‘gadget’ da Dyson",
-      "summary": "A Shortlist desta semana começa com a Dyson e uma escova de dentes que usa uma câmara e inteligência artificial para identificar os espaços entre os dentes e passa por uma colaboração entre a marca desportiva Asics e as fundadoras da marca Gohar. Em Genebra,…",
-      "source": "ECO",
+      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
+      "date": "2026-09-04",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki"
+    },
+    {
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-04",
+      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/"
+    },
+    {
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+      "summary": "arXiv:2609.02981v1 Announce Type: new Abstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose learners, recommend tasks, and provide formative feedback. This…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.02981"
+    },
+    {
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "summary": "arXiv:2609.03236v1 Announce Type: new Abstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment transition, and observation can delay subsequent decisions.…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.03236"
+    },
+    {
+      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+      "summary": "arXiv:2609.03340v1 Announce Type: new Abstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.03340"
+    },
+    {
+      "title": "Open Problems in AI Risk Modeling: Insights from a Workshop on the Technical Foundations of AI Risk Modeling",
+      "summary": "arXiv:2609.03178v1 Announce Type: new Abstract: We investigate the design of robust risk models to assess societal risks posed by advanced AI systems, an emerging area in AI governance. Many regulatory proposals increasingly require systemic risk assessment,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.03178"
+    },
+    {
+      "title": "Reducing Catastrophic Risk from AI with Systematic Monitoring and Evaluation of Rogue AI Progression",
+      "summary": "arXiv:2609.03189v1 Announce Type: new Abstract: This article presents a structured framework of behavioral indicators that may signal progression toward potentially catastrophic threats from artificial intelligence systems. We adopt a pragmatic approach,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.03189"
+    },
+    {
+      "title": "The 5P Reflection Model for Education in the Generative Artificial Intelligence (GenAI) Era",
+      "summary": "arXiv:2609.03413v1 Announce Type: new Abstract: Contributions: A reflection model suitable for the era of Generative Artificial Intelligence (GenAI) is introduced. The proposed model is an integrated model that extracts features from various existing models…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.03413"
+    },
+    {
+      "title": "What Really Happened When OpenAI Bots Escaped a Cybersecurity Test?",
+      "summary": "When hundreds of OpenAI agents broke out of their test environment and infiltrated the AI platform Hugging Face, headlines warned that the machines had gone rogue. But Heidy Khlaaf says this is the wrong story and a distraction from the real problem. The post…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-09-03",
-      "url": "https://eco.sapo.pt/2026/09/03/shortlist-do-primeiro-relogio-de-zidane-ao-novo-gadget-da-dyson/"
+      "url": "https://ainowinstitute.org/news/press/what-really-happened-when-openai-bots-escaped-a-cybersecurity-test"
     },
     {
       "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
@@ -59,68 +123,12 @@
       "url": "https://openai.com/index/daybreak-for-frontline-defenders"
     },
     {
-      "title": "Scaling agentic AI pilots across the enterprise",
-      "summary": "As agentic AI moves from experimentation toward enterprise deployment, the challenge is figuring out how agents can work together, connect to the systems and data they need, and operate safely across the workflows that run a business. Although agentic AI has…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-03",
-      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/"
-    },
-    {
-      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
-      "summary": "arXiv:2609.01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-03",
-      "url": "https://arxiv.org/abs/2609.01611"
-    },
-    {
-      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
-      "summary": "arXiv:2609.01685v1 Announce Type: new Abstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it. In particular, if future AI…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-03",
-      "url": "https://arxiv.org/abs/2609.01685"
-    },
-    {
-      "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
-      "summary": "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-03",
-      "url": "https://arxiv.org/abs/2609.01834"
-    },
-    {
-      "title": "Accurate in space, unreliable in time: how LLMs represent national cultural change",
-      "summary": "arXiv:2609.01902v1 Announce Type: new Abstract: Assessments of cultural alignment have become an important part of the development and improvement of large language models (LLMs). However, the majority of the evaluations treat culture as a single snapshot,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-03",
-      "url": "https://arxiv.org/abs/2609.01902"
-    },
-    {
-      "title": "Meeting the Coming Wave: The Emerging Politics of AI and Work across 33 Parliaments",
-      "summary": "arXiv:2609.02296v1 Announce Type: new Abstract: A new politics of artificial intelligence and work is taking shape across party systems, but comparative politics has yet to map it. Using 1,514,950 parliamentary speeches from 33 parliaments (2023-2026), we…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-03",
-      "url": "https://arxiv.org/abs/2609.02296"
-    },
-    {
-      "title": "Addressing Trust in AI Systems through Education: A Didactic Perspective",
-      "summary": "arXiv:2609.02453v1 Announce Type: new Abstract: Machine learning (ML) education faces two persistent and connected obstacles: many educational tools present ML as an opaque black box, which leaves learners with a superficial understanding, and this same…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-03",
-      "url": "https://arxiv.org/abs/2609.02453"
-    },
-    {
-      "title": "Facilitating AI integration with simplicity at scale",
-      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
+      "title": "ANACOM participa no 21.º Workshop Internacional de Regulação",
+      "summary": "Raquel Brízida Castro abordou os desafios regulatórios decorrentes da convergência entre serviços digitais, conteúdos audiovisuais e inteligência artificial.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
       "date": "2026-09-02",
-      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/"
+      "url": "https://www.anacom.pt/render.jsp?contentId=1856977"
     },
     {
       "title": "Planning for More Than One Future",
@@ -164,7 +172,7 @@
     },
     {
       "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
-      "summary": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 Today, the Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large…",
+      "summary": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 The Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large Online…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-08-31",
@@ -329,14 +337,6 @@
       "tier": "2-comissao",
       "date": "2026-07-30",
       "url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion"
-    },
-    {
-      "title": "Anatomy of an AI Kill Chain with Airwars",
-      "summary": "This new visual project in partnership with Airwars breaks down how AI is transforming every aspect of war, and how militaries are offloading life and death decisions to brittle and flawed technologies. The post Anatomy of an AI Kill Chain with Airwars…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-07-28",
-      "url": "https://ainowinstitute.org/publications/anatomy-of-an-ai-kill-chain"
     },
     {
       "title": "Finlândia ativa enforcement",
