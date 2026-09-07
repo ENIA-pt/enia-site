@@ -1,7 +1,31 @@
 {
-  "generated": "2026-09-06T01:00:34.348Z",
+  "generated": "2026-09-07T01:02:36.679Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "OpenAI lança modelo de IA “mais inteligente” do mundo. O que é o GPT-6 Astra?",
+      "summary": "—",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-06",
+      "url": "https://eco.sapo.pt/descodificador/openai-lanca-modelo-de-ia-mais-inteligente-do-mundo-o-que-e-o-gpt-6-astra/"
+    },
+    {
+      "title": "An Alien Mind",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-06",
+      "url": "https://openai.com/index/an-alien-mind"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-06",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+    },
     {
       "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
       "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
@@ -25,30 +49,6 @@
       "tier": "11-imprensa",
       "date": "2026-09-05",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident"
-    },
-    {
-      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
-      "summary": "arXiv:2609.02981v1 Announce Type: new Abstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose learners, recommend tasks, and provide formative feedback. This…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-05",
-      "url": "https://arxiv.org/abs/2609.02981"
-    },
-    {
-      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
-      "summary": "arXiv:2609.03236v1 Announce Type: new Abstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment transition, and observation can delay subsequent decisions.…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-05",
-      "url": "https://arxiv.org/abs/2609.03236"
-    },
-    {
-      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
-      "summary": "arXiv:2609.03340v1 Announce Type: new Abstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-05",
-      "url": "https://arxiv.org/abs/2609.03340"
     },
     {
       "title": "Architecting memory and storage in the AI era",
@@ -91,12 +91,12 @@
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
     },
     {
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-03",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+      "title": "ANACOM participa no 21.º Workshop Internacional de Regulação",
+      "summary": "Raquel Brízida Castro abordou os desafios regulatórios decorrentes da convergência entre serviços digitais, conteúdos audiovisuais e inteligência artificial.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-09-02",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1856977"
     },
     {
       "title": "Planning for More Than One Future",
@@ -105,14 +105,6 @@
       "tier": "10-sociedade",
       "date": "2026-09-01",
       "url": "https://partnershiponai.org/planning-for-more-than-one-future/"
-    },
-    {
-      "title": "How AI-native companies turn workflows into operating capability",
-      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-01",
-      "url": "https://openai.com/index/ai-native-company-workflows"
     },
     {
       "title": "The AI Ethics Brief #198: Weights and Measures",

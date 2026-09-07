@@ -1,8 +1,32 @@
 {
-  "generated": "2026-09-06T01:00:34.348Z",
+  "generated": "2026-09-07T01:02:36.679Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 322,
+  "count": 325,
   "items": [
+    {
+      "title": "OpenAI lança modelo de IA “mais inteligente” do mundo. O que é o GPT-6 Astra?",
+      "summary": "—",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-06",
+      "url": "https://eco.sapo.pt/descodificador/openai-lanca-modelo-de-ia-mais-inteligente-do-mundo-o-que-e-o-gpt-6-astra/"
+    },
+    {
+      "title": "An Alien Mind",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-06",
+      "url": "https://openai.com/index/an-alien-mind"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-06",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+    },
     {
       "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
       "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",

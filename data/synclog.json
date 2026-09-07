@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-06T00:58:28.848Z",
+  "startedAt": "2026-09-07T01:01:22.795Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 25,
+      "kept": 1,
+      "maisRecente": "2026-09-02"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 1,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 1,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 3,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "dre-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 36,
+      "items": 35,
       "kept": 2,
       "maisRecente": "2026-08-12"
     },
@@ -375,9 +375,9 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 269,
-      "kept": 3,
-      "maisRecente": "2026-09-05"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "arxiv-cs-cy",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 1,
+      "maisRecente": "2026-09-06"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1170,
+      "items": 1172,
       "kept": 2,
-      "maisRecente": "2026-09-03"
+      "maisRecente": "2026-09-06"
     },
     {
       "id": "deepmind",
@@ -629,16 +629,16 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "error": "fetch failed"
     },
     {
       "id": "senado-br-ia",
       "tier": "13-lusofonia",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "inacom-ao",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1646,
+      "items": 1651,
       "kept": 0,
       "maisRecente": null
     },
@@ -685,10 +685,6 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
-    "[anacom-noticias] fetch failed",
-    "[anacom-legislacao] fetch failed",
-    "[anacom-imprensa] fetch failed",
-    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -702,7 +698,8 @@
     "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
-    "[anpd-br] HTTP 404",
+    "[anpd-br] fetch failed",
+    "[senado-br-ia] fetch failed",
     "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
@@ -715,14 +712,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-06T01:00:34.349Z",
-  "recolhidos": 39,
-  "written": 39,
-  "maisRecente": "2026-09-05",
+  "finishedAt": "2026-09-07T01:02:36.680Z",
+  "recolhidos": 38,
+  "written": 38,
+  "maisRecente": "2026-09-06",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
     "added": 3,
     "curados": 0,
-    "total": 322
+    "total": 325
   }
 }
