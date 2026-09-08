@@ -1,8 +1,96 @@
 {
-  "generated": "2026-09-07T01:02:36.679Z",
+  "generated": "2026-09-08T01:15:06.819Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 325,
+  "count": 337,
   "items": [
+    {
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-07",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+    },
+    {
+      "title": "Companhias pedem regresso de suspensões temporárias do controlo de fronteiras nos aeroportos",
+      "summary": "A RENA – Associação das Companhias Aéreas em Portugal defende que a União Europeia deveria continuar a permitir a suspensão temporária do sistema de controlo de fronteiras com recolha de dados biométricos nos aeroportos, dando maior latitude de decisão aos…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-07",
+      "url": "https://eco.sapo.pt/2026/09/07/companhias-pedem-regresso-de-suspensoes-temporarias-do-controlo-de-fronteiras-nos-aeroportos/"
+    },
+    {
+      "title": "APS com curso sobre analytics e ciência de dados no setor segurador",
+      "summary": "A Associação Portuguesa de Seguradores (APS) vai realizar, no dia 18 de setembro, entre as 09h30 e as 17h30, o curso “Analytics e ciência de dados para profissionais de seguros” de forma online. Esta formação pretende dar as ferramentas necessárias aos…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-07",
+      "url": "https://eco.sapo.pt/2026/09/07/aps-com-curso-sobre-analytics-e-ciencia-de-dados-no-setor-segurador/"
+    },
+    {
+      "title": "Apply AI Summit",
+      "summary": "Apply AI Summit Anonymous (not verified) Mon, 09/07/2026 - 15:58 17 November 2026 The EGG (Brussels) The Apply AI Summit will gather high-level stakeholders – from industrial representatives, policymakers and startups – to accelerate AI implementation in…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-09-07",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit"
+    },
+    {
+      "title": "MARLA: A Conceptual Scaffold for Regulatory Learning under the EU AI Act",
+      "summary": "arXiv:2609.04877v1 Announce Type: new Abstract: The EU AI Act positions regulation as part of the infrastructure for safe, trustworthy and market-ready innovation. Realising this ambition requires regulatory learning: the evidence generated during…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-07",
+      "url": "https://arxiv.org/abs/2609.04877"
+    },
+    {
+      "title": "AI for Computational Design Science: A Responsible Human-AI Framework and Case Study on Short-Form Video Safety Surveillance",
+      "summary": "arXiv:2609.05270v1 Announce Type: new Abstract: Artificial intelligence (AI) is transforming not only what information systems researchers design, but also how design research is conducted. Yet existing literature offers limited guidance for computational…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-07",
+      "url": "https://arxiv.org/abs/2609.05270"
+    },
+    {
+      "title": "EXAONE Forecast for Finance",
+      "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-07",
+      "url": "https://arxiv.org/abs/2609.04239"
+    },
+    {
+      "title": "When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI",
+      "summary": "arXiv:2609.04766v1 Announce Type: new Abstract: Generative AI research has increasingly evaluated factuality, citation, coverage, and report structure. Yet passing such local checks does not by itself show that a humanistic interpretation has been…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-07",
+      "url": "https://arxiv.org/abs/2609.04766"
+    },
+    {
+      "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
+      "summary": "arXiv:2609.05345v1 Announce Type: new Abstract: As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally contested choices. We examine LLM moral advice as an interactional…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-07",
+      "url": "https://arxiv.org/abs/2609.05345"
+    },
+    {
+      "title": "Course design in the age of AI",
+      "summary": "arXiv:2607.18735v3 Announce Type: cross Abstract: I develop a model of learning-by-doing and course design, and use it to study the impacts of artificial intelligence (AI). A myopic student faces a sequence of tasks that he can work on or delegate to AI. Work…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-07",
+      "url": "https://arxiv.org/abs/2607.18735"
+    },
+    {
+      "title": "Supporting independent journalism in Ukraine",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-07",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine"
+    },
     {
       "title": "OpenAI lança modelo de IA “mais inteligente” do mundo. O que é o GPT-6 Astra?",
       "summary": "—",
@@ -26,6 +114,14 @@
       "tier": "12-industria",
       "date": "2026-09-06",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+    },
+    {
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-06",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
     },
     {
       "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
