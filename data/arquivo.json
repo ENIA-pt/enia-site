@@ -1,8 +1,88 @@
 {
-  "generated": "2026-09-08T01:15:06.819Z",
+  "generated": "2026-09-09T01:17:08.701Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 337,
+  "count": 347,
   "items": [
+    {
+      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+    },
+    {
+      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "summary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch"
+    },
+    {
+      "title": "Meta bets on AI agent Muse to catch up in AI race",
+      "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race"
+    },
+    {
+      "title": "Gasolina teve o maior aumento em três anos",
+      "summary": "Os portugueses começaram a semana com a má notícia garantida. A partir desta segunda-feira, abastecer a viatura ia ficar ainda mais caro. Quem pôde, aguentou alguns longos minutos de filas durante o fim de semana para evitar a fatura mais pesada. Mas, afinal,…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://eco.sapo.pt/2026/09/08/gasolina-teve-o-maior-aumento-em-tres-anos/"
+    },
+    {
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
+    },
+    {
+      "title": "Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment",
+      "summary": "Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment lsiebentritt Tue, 09/08/2026 - 15:20 Document Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment Language en - English Year 2026 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-08",
+      "url": "https://fra.europa.eu/en/content/record-processing-activity-expert-input-ai-and-fundamental-rights-assessment"
+    },
+    {
+      "title": "Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment",
+      "summary": "Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment lsiebentritt Tue, 09/08/2026 - 15:19 Document Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment Language en - English Year 2026 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-08",
+      "url": "https://fra.europa.eu/en/content/data-protection-notice-expert-input-ai-and-fundamental-rights-assessment"
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-08",
+      "url": "https://openai.com/index/the-work-now-within-reach"
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture.…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-08",
+      "url": "https://openai.com/index/navier-stokes-solution"
+    },
     {
       "title": "Opaque recurrence, and other AI terms that you should probably know",
       "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",

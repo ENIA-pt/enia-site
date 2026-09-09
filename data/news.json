@@ -1,7 +1,87 @@
 {
-  "generated": "2026-09-08T01:15:06.819Z",
+  "generated": "2026-09-09T01:17:08.701Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+    },
+    {
+      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "summary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch"
+    },
+    {
+      "title": "Meta bets on AI agent Muse to catch up in AI race",
+      "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race"
+    },
+    {
+      "title": "Gasolina teve o maior aumento em três anos",
+      "summary": "Os portugueses começaram a semana com a má notícia garantida. A partir desta segunda-feira, abastecer a viatura ia ficar ainda mais caro. Quem pôde, aguentou alguns longos minutos de filas durante o fim de semana para evitar a fatura mais pesada. Mas, afinal,…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://eco.sapo.pt/2026/09/08/gasolina-teve-o-maior-aumento-em-tres-anos/"
+    },
+    {
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
+    },
+    {
+      "title": "Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment",
+      "summary": "Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment lsiebentritt Tue, 09/08/2026 - 15:20 Document Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment Language en - English Year 2026 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-08",
+      "url": "https://fra.europa.eu/en/content/record-processing-activity-expert-input-ai-and-fundamental-rights-assessment"
+    },
+    {
+      "title": "Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment",
+      "summary": "Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment lsiebentritt Tue, 09/08/2026 - 15:19 Document Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment Language en - English Year 2026 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-08",
+      "url": "https://fra.europa.eu/en/content/data-protection-notice-expert-input-ai-and-fundamental-rights-assessment"
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-08",
+      "url": "https://openai.com/index/the-work-now-within-reach"
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture.…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-08",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-08",
+      "url": "https://openai.com/index/navier-stokes-solution"
+    },
     {
       "title": "Avis de concours général — EPSO/AD/430/26 — Administrateurs (AD 8) dans les domaines suivants: 1. Intelligence artificielle (IA); 2. Cybersécurité",
       "summary": "—",
@@ -9,30 +89,6 @@
       "tier": "1-lei",
       "date": "2026-09-08",
       "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:c2b0e52c-ab1d-11f1-b9e5-01aa75ed71a1"
-    },
-    {
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-07",
-      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
-    },
-    {
-      "title": "Companhias pedem regresso de suspensões temporárias do controlo de fronteiras nos aeroportos",
-      "summary": "A RENA – Associação das Companhias Aéreas em Portugal defende que a União Europeia deveria continuar a permitir a suspensão temporária do sistema de controlo de fronteiras com recolha de dados biométricos nos aeroportos, dando maior latitude de decisão aos…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-07",
-      "url": "https://eco.sapo.pt/2026/09/07/companhias-pedem-regresso-de-suspensoes-temporarias-do-controlo-de-fronteiras-nos-aeroportos/"
-    },
-    {
-      "title": "APS com curso sobre analytics e ciência de dados no setor segurador",
-      "summary": "A Associação Portuguesa de Seguradores (APS) vai realizar, no dia 18 de setembro, entre as 09h30 e as 17h30, o curso “Analytics e ciência de dados para profissionais de seguros” de forma online. Esta formação pretende dar as ferramentas necessárias aos…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-07",
-      "url": "https://eco.sapo.pt/2026/09/07/aps-com-curso-sobre-analytics-e-ciencia-de-dados-no-setor-segurador/"
     },
     {
       "title": "Apply AI Summit",
@@ -43,108 +99,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit"
     },
     {
-      "title": "MARLA: A Conceptual Scaffold for Regulatory Learning under the EU AI Act",
-      "summary": "arXiv:2609.04877v1 Announce Type: new Abstract: The EU AI Act positions regulation as part of the infrastructure for safe, trustworthy and market-ready innovation. Realising this ambition requires regulatory learning: the evidence generated during…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-07",
-      "url": "https://arxiv.org/abs/2609.04877"
-    },
-    {
-      "title": "AI for Computational Design Science: A Responsible Human-AI Framework and Case Study on Short-Form Video Safety Surveillance",
-      "summary": "arXiv:2609.05270v1 Announce Type: new Abstract: Artificial intelligence (AI) is transforming not only what information systems researchers design, but also how design research is conducted. Yet existing literature offers limited guidance for computational…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-07",
-      "url": "https://arxiv.org/abs/2609.05270"
-    },
-    {
-      "title": "EXAONE Forecast for Finance",
-      "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-07",
-      "url": "https://arxiv.org/abs/2609.04239"
-    },
-    {
-      "title": "When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI",
-      "summary": "arXiv:2609.04766v1 Announce Type: new Abstract: Generative AI research has increasingly evaluated factuality, citation, coverage, and report structure. Yet passing such local checks does not by itself show that a humanistic interpretation has been…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-07",
-      "url": "https://arxiv.org/abs/2609.04766"
-    },
-    {
-      "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
-      "summary": "arXiv:2609.05345v1 Announce Type: new Abstract: As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally contested choices. We examine LLM moral advice as an interactional…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-07",
-      "url": "https://arxiv.org/abs/2609.05345"
-    },
-    {
-      "title": "Course design in the age of AI",
-      "summary": "arXiv:2607.18735v3 Announce Type: cross Abstract: I develop a model of learning-by-doing and course design, and use it to study the impacts of artificial intelligence (AI). A myopic student faces a sequence of tasks that he can work on or delegate to AI. Work…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-07",
-      "url": "https://arxiv.org/abs/2607.18735"
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-07",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine"
-    },
-    {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-06",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
-    },
-    {
-      "title": "An Alien Mind",
-      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-06",
-      "url": "https://openai.com/index/an-alien-mind"
-    },
-    {
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-05",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
-    },
-    {
-      "title": "OpenAI admits to German wiki ‘incident’",
-      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site.…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-05",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident"
-    },
-    {
       "title": "Architecting memory and storage in the AI era",
       "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
       "date": "2026-09-04",
       "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/"
-    },
-    {
-      "title": "The Download: selling battlefield drone data and AI reshaping language",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-04",
-      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/"
     },
     {
       "title": "What Really Happened When OpenAI Bots Escaped a Cybersecurity Test?",
