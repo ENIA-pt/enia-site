@@ -1,8 +1,112 @@
 {
-  "generated": "2026-09-09T01:17:08.701Z",
+  "generated": "2026-09-10T01:07:01.602Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 347,
+  "count": 361,
   "items": [
+    {
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "summary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+    },
+    {
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-09",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
+    },
+    {
+      "title": "Suno releases its first AI music model made with record industry help",
+      "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-09",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help"
+    },
+    {
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "summary": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-09",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes"
+    },
+    {
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-09",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+    },
+    {
+      "title": "Meta lança Muse, um novo agente pessoal de IA. Ações disparam 7%",
+      "summary": "A Meta lançou o Muse, um agente pessoal de inteligência artificial (IA) descrito pela dona do Facebook como “seguro, privado e amplamente acessível”. Desenvolvido de raiz pela empresa liderada por Mark Zuckerberg, o agente não se limita a responder a questões…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-09",
+      "url": "https://eco.sapo.pt/2026/09/09/meta-lanca-muse-o-novo-agente-pessoal-de-ia-acoes-disparam-quase-7/"
+    },
+    {
+      "title": "The AI policy window is open. We need to act.",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-09",
+      "url": "https://openai.com/index/ai-policy-window"
+    },
+    {
+      "title": "How to Verify Probabilistic Consistency of Predictive Models",
+      "summary": "arXiv:2608.11181v2 Announce Type: replace-cross Abstract: When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time? This problem is of interest for AI safety,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2608.11181"
+    },
+    {
+      "title": "When Is Content \"AI-Generated Enough\"? Labelling Synthetic Media under the Digital Services Act and the AI Act",
+      "summary": "arXiv:2609.07727v1 Announce Type: new Abstract: European platform and AI governance increasingly relies on transparency duties to address synthetic and manipulated media. Under the DSA, very large online platforms and search engines may use prominent markings…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.07727"
+    },
+    {
+      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.05437"
+    },
+    {
+      "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
+      "summary": "arXiv:2609.05439v1 Announce Type: new Abstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provide actionable feedback for model improvement. We propose…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.05439"
+    },
+    {
+      "title": "Intent Drift at SME Scale: Deployment Practice, Not Model Capability, Determines Agentic Compliance",
+      "summary": "arXiv:2609.05975v1 Announce Type: new Abstract: We introduce Chain of Intent, a governance framework for agentic AI at small regulated firms, and validate it against a failure it was built to address. Existing agentic governance research assumes enterprise…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.05975"
+    },
+    {
+      "title": "Ordinary, Reasonable Chatbots: Do AI Models Track Human Legal Judgments?",
+      "summary": "arXiv:2609.06769v1 Announce Type: new Abstract: As people increasingly rely on artificial intelligence (AI) for guidance in their own lives, scholars, lawyers, and even judges have begun to consider the role of AI in legal decision-making. As \"silicon…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.06769"
+    },
     {
       "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
       "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
@@ -82,6 +186,14 @@
       "tier": "12-industria",
       "date": "2026-09-08",
       "url": "https://openai.com/index/navier-stokes-solution"
+    },
+    {
+      "title": "Life Under the Algorithm",
+      "summary": "AI Now's Katie Wells co-authors this piece with Veena Dubal in the Fall 2026 Issue, exploring how algorithmic wages and prices are impacting and shaping our lives. The post Life Under the Algorithm appeared first on AI Now Institute.",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-08",
+      "url": "https://ainowinstitute.org/news/press/life-under-the-algorithm"
     },
     {
       "title": "Opaque recurrence, and other AI terms that you should probably know",

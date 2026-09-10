@@ -1,46 +1,118 @@
 {
-  "generated": "2026-09-09T01:17:08.701Z",
+  "generated": "2026-09-10T01:07:01.602Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-      "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "summary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-08",
-      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+      "date": "2026-09-10",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
     },
     {
-      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-      "summary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you…",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-09",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
+    },
+    {
+      "title": "Suno releases its first AI music model made with record industry help",
+      "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-08",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch"
+      "date": "2026-09-09",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help"
     },
     {
-      "title": "Meta bets on AI agent Muse to catch up in AI race",
-      "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize…",
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "summary": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-08",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race"
+      "date": "2026-09-09",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes"
     },
     {
-      "title": "Gasolina teve o maior aumento em três anos",
-      "summary": "Os portugueses começaram a semana com a má notícia garantida. A partir desta segunda-feira, abastecer a viatura ia ficar ainda mais caro. Quem pôde, aguentou alguns longos minutos de filas durante o fim de semana para evitar a fatura mais pesada. Mas, afinal,…",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-09",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+    },
+    {
+      "title": "Meta lança Muse, um novo agente pessoal de IA. Ações disparam 7%",
+      "summary": "A Meta lançou o Muse, um agente pessoal de inteligência artificial (IA) descrito pela dona do Facebook como “seguro, privado e amplamente acessível”. Desenvolvido de raiz pela empresa liderada por Mark Zuckerberg, o agente não se limita a responder a questões…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-09-08",
-      "url": "https://eco.sapo.pt/2026/09/08/gasolina-teve-o-maior-aumento-em-tres-anos/"
+      "date": "2026-09-09",
+      "url": "https://eco.sapo.pt/2026/09/09/meta-lanca-muse-o-novo-agente-pessoal-de-ia-acoes-disparam-quase-7/"
     },
     {
-      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-      "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
+      "title": "The AI policy window is open. We need to act.",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-09",
+      "url": "https://openai.com/index/ai-policy-window"
+    },
+    {
+      "title": "How to Verify Probabilistic Consistency of Predictive Models",
+      "summary": "arXiv:2608.11181v2 Announce Type: replace-cross Abstract: When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time? This problem is of interest for AI safety,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2608.11181"
+    },
+    {
+      "title": "When Is Content \"AI-Generated Enough\"? Labelling Synthetic Media under the Digital Services Act and the AI Act",
+      "summary": "arXiv:2609.07727v1 Announce Type: new Abstract: European platform and AI governance increasingly relies on transparency duties to address synthetic and manipulated media. Under the DSA, very large online platforms and search engines may use prominent markings…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.07727"
+    },
+    {
+      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.05437"
+    },
+    {
+      "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
+      "summary": "arXiv:2609.05439v1 Announce Type: new Abstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provide actionable feedback for model improvement. We propose…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.05439"
+    },
+    {
+      "title": "Intent Drift at SME Scale: Deployment Practice, Not Model Capability, Determines Agentic Compliance",
+      "summary": "arXiv:2609.05975v1 Announce Type: new Abstract: We introduce Chain of Intent, a governance framework for agentic AI at small regulated firms, and validate it against a failure it was built to address. Existing agentic governance research assumes enterprise…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.05975"
+    },
+    {
+      "title": "Ordinary, Reasonable Chatbots: Do AI Models Track Human Legal Judgments?",
+      "summary": "arXiv:2609.06769v1 Announce Type: new Abstract: As people increasingly rely on artificial intelligence (AI) for guidance in their own lives, scholars, lawyers, and even judges have begun to consider the role of AI in legal decision-making. As \"silicon…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.06769"
+    },
+    {
+      "title": "Life Under the Algorithm",
+      "summary": "AI Now's Katie Wells co-authors this piece with Veena Dubal in the Fall 2026 Issue, exploring how algorithmic wages and prices are impacting and shaping our lives. The post Life Under the Algorithm appeared first on AI Now Institute.",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-09-08",
-      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
+      "url": "https://ainowinstitute.org/news/press/life-under-the-algorithm"
     },
     {
       "title": "Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment",
@@ -59,28 +131,12 @@
       "url": "https://fra.europa.eu/en/content/data-protection-notice-expert-input-ai-and-fundamental-rights-assessment"
     },
     {
-      "title": "The Work Now Within Reach",
-      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-08",
-      "url": "https://openai.com/index/the-work-now-within-reach"
-    },
-    {
       "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
       "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture.…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
       "date": "2026-09-08",
       "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
-    },
-    {
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-08",
-      "url": "https://openai.com/index/navier-stokes-solution"
     },
     {
       "title": "Avis de concours général — EPSO/AD/430/26 — Administrateurs (AD 8) dans les domaines suivants: 1. Intelligence artificielle (IA); 2. Cybersécurité",
@@ -97,22 +153,6 @@
       "tier": "2-comissao",
       "date": "2026-09-07",
       "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit"
-    },
-    {
-      "title": "Architecting memory and storage in the AI era",
-      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-04",
-      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/"
-    },
-    {
-      "title": "What Really Happened When OpenAI Bots Escaped a Cybersecurity Test?",
-      "summary": "When hundreds of OpenAI agents broke out of their test environment and infiltrated the AI platform Hugging Face, headlines warned that the machines had gone rogue. But Heidy Khlaaf says this is the wrong story and a distraction from the real problem. The post…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-09-03",
-      "url": "https://ainowinstitute.org/news/press/what-really-happened-when-openai-bots-escaped-a-cybersecurity-test"
     },
     {
       "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
