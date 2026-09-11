@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10T01:07:01.602Z",
+  "generated": "2026-09-11T01:07:11.114Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 361,
+  "count": 379,
   "items": [
     {
       "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
@@ -10,6 +10,150 @@
       "tier": "11-imprensa",
       "date": "2026-09-10",
       "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+    },
+    {
+      "title": "Slack can now vibe-code interactive charts and reports inside chats",
+      "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
+    },
+    {
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+    },
+    {
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "summary": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
+    },
+    {
+      "title": "Schools are catching on to Big Tech’s playbook",
+      "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids"
+    },
+    {
+      "title": "Anthropic trava utilização de modelos de IA que poderiam ajudar a criar armas biológicas",
+      "summary": "A Anthropic interveio, durante este ano, para travar cinco potenciais operações em que cientistas recorreram aos principais modelos de inteligência artificial (IA) da empresa norte-americana em investigações que poderiam contribuir para o desenvolvimento de…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://eco.sapo.pt/2026/09/10/anthropic-trava-utilizacao-de-modelos-de-ia-que-poderiam-ajudar-a-criar-armas-biologicas/"
+    },
+    {
+      "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
+      "summary": "An evangelical thinker explores how AI might be repurposed into a tool that serves human flourishing, in line with a post-Reformation understanding of work.",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-09-10",
+      "url": "https://futureoflife.org/religion/ai-and-the-protestant-vision-of-spirituality-work-and-technology/"
+    },
+    {
+      "title": "Safe Participation Framework: Opportunity and Safety for the Next Generation in the Age of AI",
+      "summary": "Today, Microsoft is sharing our Safe Participation Framework, which centers on designing and enabling safe, privacy-preserving, and age-appropriate experiences for young people online. Members of our AI Youth Futures Council have delivered a clear message:…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-09-10",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/10/safe-participation-framework-opportunity-and-safety-for-the-next-generation-in-the-age-of-ai/"
+    },
+    {
+      "title": "Now everyone can put data to work",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-10",
+      "url": "https://openai.com/index/put-data-to-work"
+    },
+    {
+      "title": "Partnership on AI Welcomes Six New Partners from Academia, Industry, and Civil Society",
+      "summary": "The post Partnership on AI Welcomes Six New Partners from Academia, Industry, and Civil Society appeared first on Partnership on AI.",
+      "source": "Partnership on AI",
+      "tier": "10-sociedade",
+      "date": "2026-09-10",
+      "url": "https://partnershiponai.org/partnership-on-ai-welcomes-six-new-partners-from-academia-industry-and-civil-society/"
+    },
+    {
+      "title": "La CNIL publie le tome 2 de L’Agence Privacy: une nouvelle enquête pour mieux comprendre la cybercriminalité",
+      "summary": "Avec « Au-delà de l’écran », l’Agence Privacy revient avec de nouvelles aventures! Hypertrucage (deepfakes), arnaque aux sentiments, défis nocifs sur les réseaux sociaux, brouteurs: ce tome 2 aborde des risques numériques pour la vie privée auxquels…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-09-10",
+      "url": "https://www.cnil.fr/fr/audeladelecran"
+    },
+    {
+      "title": "Powering AI is an architecture problem",
+      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/"
+    },
+    {
+      "title": "Healthcare AI’s next test is integration",
+      "summary": "The entrance of major AI companies into healthcare is a meaningful and welcome development, accelerating the technical foundation available to the industry. Their models are increasingly capable of processing long clinical records, interpreting complex…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-10",
+      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/"
+    },
+    {
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-10",
+      "url": "https://openai.com/index/expanding-ai-access-us-government"
+    },
+    {
+      "title": "Watermarks Without Verification: AI Text Watermarking After the EU AI Act",
+      "summary": "arXiv:2609.09604v1 Announce Type: cross Abstract: On August 2, 2026, the obligations of Article 50 of the EU AI Act took effect, requiring generative AI providers to mark the content their systems produce and ensure it can be detected as AI-generated. Days…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-10",
+      "url": "https://arxiv.org/abs/2609.09604"
+    },
+    {
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-10",
+      "url": "https://arxiv.org/abs/2609.09203"
+    },
+    {
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-10",
+      "url": "https://arxiv.org/abs/2609.09418"
+    },
+    {
+      "title": "Scalable Oversight for AI in Mental Health: Lessons from 350,000 AI Coaching Conversations between Therapy Sessions",
+      "summary": "arXiv:2609.09533v1 Announce Type: new Abstract: Clinician review of every AI output is often proposed as a safeguard in mental healthcare, but vigilance research suggests this approach fails at scale and may paradoxically reduce safety. Drawing on our…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-10",
+      "url": "https://arxiv.org/abs/2609.09533"
+    },
+    {
+      "title": "Who You Are Adds Nothing Detectable to Where You Go Next: Sociodemographic Conditioning in LLM Next-Location Prediction",
+      "summary": "arXiv:2609.09609v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for individual next-location prediction, while sociodemographic conditioning is common in LLM-based travel simulation. Yet the incremental predictive value of…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-10",
+      "url": "https://arxiv.org/abs/2609.09609"
     },
     {
       "title": "OpenAI adds a prominent AI doomer to its board of directors",
