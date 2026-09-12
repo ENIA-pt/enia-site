@@ -1,46 +1,94 @@
 {
-  "generated": "2026-09-11T01:07:11.114Z",
+  "generated": "2026-09-12T01:09:14.494Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Slack can now vibe-code interactive charts and reports inside chats",
-      "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather…",
+      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+      "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-10",
-      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
+      "date": "2026-09-11",
+      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
     },
     {
-      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-      "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-10",
-      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+      "date": "2026-09-11",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
     },
     {
-      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
-      "summary": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-10",
-      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
+      "date": "2026-09-11",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
     },
     {
-      "title": "Schools are catching on to Big Tech’s playbook",
-      "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the…",
+      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+      "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-10",
-      "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids"
+      "date": "2026-09-11",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal"
     },
     {
-      "title": "Anthropic trava utilização de modelos de IA que poderiam ajudar a criar armas biológicas",
-      "summary": "A Anthropic interveio, durante este ano, para travar cinco potenciais operações em que cientistas recorreram aos principais modelos de inteligência artificial (IA) da empresa norte-americana em investigações que poderiam contribuir para o desenvolvimento de…",
-      "source": "ECO",
+      "title": "Roundtables: AI’s apocalypse crisis",
+      "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-10",
-      "url": "https://eco.sapo.pt/2026/09/10/anthropic-trava-utilizacao-de-modelos-de-ia-que-poderiam-ajudar-a-criar-armas-biologicas/"
+      "date": "2026-09-11",
+      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/"
+    },
+    {
+      "title": "Watermarks Without Verification: AI Text Watermarking After the EU AI Act",
+      "summary": "arXiv:2609.09604v1 Announce Type: cross Abstract: On August 2, 2026, the obligations of Article 50 of the EU AI Act took effect, requiring generative AI providers to mark the content their systems produce and ensure it can be detected as AI-generated. Days…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-11",
+      "url": "https://arxiv.org/abs/2609.09604"
+    },
+    {
+      "title": "SoulAuth: An Actor-native Identity Architecture and Rust Reference Implementation for Humans and Long-lived AI Actors",
+      "summary": "arXiv:2609.11258v1 Announce Type: new Abstract: As AI systems move from transient model invocations toward long-lived actors that persist across credentials, clients, sessions, and runtime instances, identity infrastructure must answer a basic question: where…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-11",
+      "url": "https://arxiv.org/abs/2609.11258"
+    },
+    {
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-11",
+      "url": "https://arxiv.org/abs/2609.09203"
+    },
+    {
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-11",
+      "url": "https://arxiv.org/abs/2609.09418"
+    },
+    {
+      "title": "Governing AI Research Through Peer Review: A Mixed-Methods Study of the Longitudinal Effects of Ethics Flags Across Resubmissions",
+      "summary": "arXiv:2609.10740v1 Announce Type: new Abstract: Selective AI conferences have recently begun enforcing ethics flags and related review requirements, with the goal being to steer research towards safer and more responsible practices before publication. But do…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-11",
+      "url": "https://arxiv.org/abs/2609.10740"
+    },
+    {
+      "title": "Alternative AI Philosophy: Daoism as Method for AI in Education",
+      "summary": "arXiv:2609.10842v1 Announce Type: new Abstract: As artificial intelligence (AI) rapidly iterates and transforms teaching, learning, and knowledge production, philosophical reflection has become increasingly indispensable to educational debates that remain…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-11",
+      "url": "https://arxiv.org/abs/2609.10842"
     },
     {
       "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
@@ -91,14 +139,6 @@
       "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/"
     },
     {
-      "title": "Healthcare AI’s next test is integration",
-      "summary": "The entrance of major AI companies into healthcare is a meaningful and welcome development, accelerating the technical foundation available to the industry. Their models are increasingly capable of processing long clinical records, interpreting complex…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-10",
-      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/"
-    },
-    {
       "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
       "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
       "source": "OpenAI",
@@ -107,68 +147,12 @@
       "url": "https://openai.com/index/expanding-ai-access-us-government"
     },
     {
-      "title": "Watermarks Without Verification: AI Text Watermarking After the EU AI Act",
-      "summary": "arXiv:2609.09604v1 Announce Type: cross Abstract: On August 2, 2026, the obligations of Article 50 of the EU AI Act took effect, requiring generative AI providers to mark the content their systems produce and ensure it can be detected as AI-generated. Days…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-10",
-      "url": "https://arxiv.org/abs/2609.09604"
-    },
-    {
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-10",
-      "url": "https://arxiv.org/abs/2609.09203"
-    },
-    {
-      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-10",
-      "url": "https://arxiv.org/abs/2609.09418"
-    },
-    {
-      "title": "Scalable Oversight for AI in Mental Health: Lessons from 350,000 AI Coaching Conversations between Therapy Sessions",
-      "summary": "arXiv:2609.09533v1 Announce Type: new Abstract: Clinician review of every AI output is often proposed as a safeguard in mental healthcare, but vigilance research suggests this approach fails at scale and may paradoxically reduce safety. Drawing on our…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-10",
-      "url": "https://arxiv.org/abs/2609.09533"
-    },
-    {
-      "title": "Who You Are Adds Nothing Detectable to Where You Go Next: Sociodemographic Conditioning in LLM Next-Location Prediction",
-      "summary": "arXiv:2609.09609v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for individual next-location prediction, while sociodemographic conditioning is common in LLM-based travel simulation. Yet the incremental predictive value of…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-10",
-      "url": "https://arxiv.org/abs/2609.09609"
-    },
-    {
       "title": "Life Under the Algorithm",
-      "summary": "AI Now's Katie Wells co-authors this piece with Veena Dubal in the Fall 2026 Issue, exploring how algorithmic wages and prices are impacting and shaping our lives. The post Life Under the Algorithm appeared first on AI Now Institute.",
+      "summary": "AI Now's Katie Wells co-authors this piece with Veena Dubal in the Fall 2026 Issue, exploring how algorithmic wages and prices are reshaping our lives. The post Life Under the Algorithm appeared first on AI Now Institute.",
       "source": "AI Now Institute",
       "tier": "9-investigacao",
       "date": "2026-09-08",
       "url": "https://ainowinstitute.org/news/press/life-under-the-algorithm"
-    },
-    {
-      "title": "Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment",
-      "summary": "Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment lsiebentritt Tue, 09/08/2026 - 15:20 Document Record of Processing Activity - Expert Input on AI and Fundamental Rights Assessment Language en - English Year 2026 Archive No",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-09-08",
-      "url": "https://fra.europa.eu/en/content/record-processing-activity-expert-input-ai-and-fundamental-rights-assessment"
-    },
-    {
-      "title": "Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment",
-      "summary": "Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment lsiebentritt Tue, 09/08/2026 - 15:19 Document Data Protection Notice - Expert Input on AI and Fundamental Rights Assessment Language en - English Year 2026 Archive No",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-09-08",
-      "url": "https://fra.europa.eu/en/content/data-protection-notice-expert-input-ai-and-fundamental-rights-assessment"
     },
     {
       "title": "Avis de concours général — EPSO/AD/430/26 — Administrateurs (AD 8) dans les domaines suivants: 1. Intelligence artificielle (IA); 2. Cybersécurité",
@@ -313,14 +297,6 @@
       "tier": "8-jurisdicoes",
       "date": "2026-08-12",
       "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16371/request-for-information-rfi-on-modernizing-the-national-vulnerability-database-in-the-age-of"
-    },
-    {
-      "title": "Innovation Advisory Committee",
-      "summary": "The Commodity Futures Trading Commission (CFTC) announces that on August 20, 2026, from 1:00 p.m. to 4:00 p.m. Eastern Daylight Time, the Innovation Advisory Committee (IAC or Committee) will hold an in- person meeting for IAC members, with options for the…",
-      "source": "Federal Register",
-      "tier": "8-jurisdicoes",
-      "date": "2026-08-11",
-      "url": "https://www.federalregister.gov/documents/2026/08/11/2026-16328/innovation-advisory-committee"
     },
     {
       "title": "Join the Inaugural D-TECT Forum",
