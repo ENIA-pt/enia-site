@@ -1,14 +1,70 @@
 {
-  "generated": "2026-09-12T01:09:14.494Z",
+  "generated": "2026-09-13T01:03:48.819Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
-      "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina…",
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-11",
-      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
+      "date": "2026-09-12",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+    },
+    {
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-12",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised"
+    },
+    {
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-12",
+      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
+    },
+    {
+      "title": "CEO da Anthropic defende travagem no desenvolvimento da inteligência artificial",
+      "summary": "Dario Amodei, cofundador e CEO da Anthropic, defende que as empresas de inteligência artificial devem abrandar o ritmo a que evoluem as capacidades dos seus modelos, de forma a dar tempo aos mecanismos de segurança para acompanhar o avanço tecnológico. Num…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-12",
+      "url": "https://eco.sapo.pt/2026/09/12/ceo-da-anthropic-defende-travagem-no-desenvolvimento-da-inteligencia-artificial/"
+    },
+    {
+      "title": "Elite de matemáticos alertam para riscos da inteligência artificial na ciência",
+      "summary": "Cerca de 25 galardoados com o Medalha Fields, o equivalente ao Nobel da Matemática, alertaram para um possível “efeito destrutivo” da inteligência artificial (IA) na investigação na disciplina, poucos dias depois da resolução de um complexo problema pela…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-12",
+      "url": "https://eco.sapo.pt/2026/09/12/elote-de-matematicos-alertam-para-riscos-da-inteligencia-artificial-na-ciencia/"
+    },
+    {
+      "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "summary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and dependencies on people within shared…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-12",
+      "url": "https://arxiv.org/abs/2609.10724"
+    },
+    {
+      "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+      "summary": "arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each calculator as…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-12",
+      "url": "https://arxiv.org/abs/2609.10728"
+    },
+    {
+      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+      "summary": "arXiv:2609.10824v1 Announce Type: new Abstract: Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated adaptation…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-12",
+      "url": "https://arxiv.org/abs/2609.10824"
     },
     {
       "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
@@ -19,76 +75,12 @@
       "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
     },
     {
-      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-      "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-11",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
-    },
-    {
-      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-11",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal"
-    },
-    {
-      "title": "Roundtables: AI’s apocalypse crisis",
+      "title": "Roundtables: Could AI really kill us all?",
       "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
       "date": "2026-09-11",
       "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/"
-    },
-    {
-      "title": "Watermarks Without Verification: AI Text Watermarking After the EU AI Act",
-      "summary": "arXiv:2609.09604v1 Announce Type: cross Abstract: On August 2, 2026, the obligations of Article 50 of the EU AI Act took effect, requiring generative AI providers to mark the content their systems produce and ensure it can be detected as AI-generated. Days…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-11",
-      "url": "https://arxiv.org/abs/2609.09604"
-    },
-    {
-      "title": "SoulAuth: An Actor-native Identity Architecture and Rust Reference Implementation for Humans and Long-lived AI Actors",
-      "summary": "arXiv:2609.11258v1 Announce Type: new Abstract: As AI systems move from transient model invocations toward long-lived actors that persist across credentials, clients, sessions, and runtime instances, identity infrastructure must answer a basic question: where…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-11",
-      "url": "https://arxiv.org/abs/2609.11258"
-    },
-    {
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-11",
-      "url": "https://arxiv.org/abs/2609.09203"
-    },
-    {
-      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-11",
-      "url": "https://arxiv.org/abs/2609.09418"
-    },
-    {
-      "title": "Governing AI Research Through Peer Review: A Mixed-Methods Study of the Longitudinal Effects of Ethics Flags Across Resubmissions",
-      "summary": "arXiv:2609.10740v1 Announce Type: new Abstract: Selective AI conferences have recently begun enforcing ethics flags and related review requirements, with the goal being to steer research towards safer and more responsible practices before publication. But do…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-11",
-      "url": "https://arxiv.org/abs/2609.10740"
-    },
-    {
-      "title": "Alternative AI Philosophy: Daoism as Method for AI in Education",
-      "summary": "arXiv:2609.10842v1 Announce Type: new Abstract: As artificial intelligence (AI) rapidly iterates and transforms teaching, learning, and knowledge production, philosophical reflection has become increasingly indispensable to educational debates that remain…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-11",
-      "url": "https://arxiv.org/abs/2609.10842"
     },
     {
       "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
@@ -177,14 +169,6 @@
       "tier": "12-industria",
       "date": "2026-09-03",
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-    },
-    {
-      "title": "ANACOM participa no 21.º Workshop Internacional de Regulação",
-      "summary": "Raquel Brízida Castro abordou os desafios regulatórios decorrentes da convergência entre serviços digitais, conteúdos audiovisuais e inteligência artificial.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-09-02",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1856977"
     },
     {
       "title": "The AI Ethics Brief #198: Weights and Measures",
@@ -289,14 +273,6 @@
       "tier": "4-dados",
       "date": "2026-08-17",
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/de-fria-voor-ai-systemen-komt-eraan-bereid-u-voor"
-    },
-    {
-      "title": "Request for Information (RFI) on Modernizing the National Vulnerability Database in the Age of Artificial Intelligence",
-      "summary": "The National Institute of Standards and Technology (NIST) established and operates the National Vulnerability Database (NVD), which provides the U.S. government repository of standards-based vulnerability management data. NIST seeks stakeholder input on…",
-      "source": "Federal Register",
-      "tier": "8-jurisdicoes",
-      "date": "2026-08-12",
-      "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16371/request-for-information-rfi-on-modernizing-the-national-vulnerability-database-in-the-age-of"
     },
     {
       "title": "Join the Inaugural D-TECT Forum",
