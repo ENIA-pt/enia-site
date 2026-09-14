@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-13T01:01:09.715Z",
+  "startedAt": "2026-09-14T01:05:16.180Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 33,
+      "items": 32,
       "kept": 0,
       "maisRecente": null
     },
@@ -375,9 +375,9 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 273,
-      "kept": 3,
-      "maisRecente": "2026-09-12"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "arxiv-cs-cy",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 19,
       "kept": 2,
-      "maisRecente": "2026-09-12"
+      "maisRecente": "2026-09-13"
     },
     {
       "id": "theverge-ai",
@@ -548,16 +548,16 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-12"
+      "maisRecente": "2026-09-13"
     },
     {
       "id": "eco-pt",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
-      "items": 22,
-      "kept": 2,
-      "maisRecente": "2026-09-12"
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "fetch failed"
     },
     {
       "id": "publico-tec",
@@ -629,16 +629,16 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "error": "HTTP 404"
     },
     {
       "id": "senado-br-ia",
       "tier": "13-lusofonia",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "inacom-ao",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1979,
+      "items": 1976,
       "kept": 0,
       "maisRecente": null
     },
@@ -699,10 +699,10 @@
     "[alan-turing] HTTP 404",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[eco-pt] fetch failed",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
-    "[anpd-br] fetch failed",
-    "[senado-br-ia] fetch failed",
+    "[anpd-br] HTTP 404",
     "ANTHROPIC_API_KEY ausente: os itens ficam no texto e na língua originais. Adicionar o segredo no repositório para obter títulos e resumos em pt-PT."
   ],
   "desligadas": [
@@ -715,14 +715,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-13T01:03:48.819Z",
-  "recolhidos": 40,
-  "written": 40,
-  "maisRecente": "2026-09-12",
+  "finishedAt": "2026-09-14T01:08:03.050Z",
+  "recolhidos": 35,
+  "written": 35,
+  "maisRecente": "2026-09-13",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 8,
+    "added": 3,
     "curados": 0,
-    "total": 395
+    "total": 398
   }
 }

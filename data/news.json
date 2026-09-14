@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13T01:03:48.819Z",
+  "generated": "2026-09-14T01:08:03.050Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -7,72 +7,32 @@
       "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
     },
     {
-      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-      "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the…",
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-12",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised"
+      "date": "2026-09-13",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
     },
     {
-      "title": "Anthropic CEO outlines plan to slow AI development",
-      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+      "title": "What’s behind the AI industry’s latest warnings of doom?",
+      "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-12",
-      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
+      "date": "2026-09-13",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/"
     },
     {
-      "title": "CEO da Anthropic defende travagem no desenvolvimento da inteligência artificial",
-      "summary": "Dario Amodei, cofundador e CEO da Anthropic, defende que as empresas de inteligência artificial devem abrandar o ritmo a que evoluem as capacidades dos seus modelos, de forma a dar tempo aos mecanismos de segurança para acompanhar o avanço tecnológico. Num…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-12",
-      "url": "https://eco.sapo.pt/2026/09/12/ceo-da-anthropic-defende-travagem-no-desenvolvimento-da-inteligencia-artificial/"
-    },
-    {
-      "title": "Elite de matemáticos alertam para riscos da inteligência artificial na ciência",
-      "summary": "Cerca de 25 galardoados com o Medalha Fields, o equivalente ao Nobel da Matemática, alertaram para um possível “efeito destrutivo” da inteligência artificial (IA) na investigação na disciplina, poucos dias depois da resolução de um complexo problema pela…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-12",
-      "url": "https://eco.sapo.pt/2026/09/12/elote-de-matematicos-alertam-para-riscos-da-inteligencia-artificial-na-ciencia/"
-    },
-    {
-      "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
-      "summary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and dependencies on people within shared…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-12",
-      "url": "https://arxiv.org/abs/2609.10724"
-    },
-    {
-      "title": "Towards a Deterministic Math Solver for Clinical Language Models",
-      "summary": "arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each calculator as…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-12",
-      "url": "https://arxiv.org/abs/2609.10728"
-    },
-    {
-      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-      "summary": "arXiv:2609.10824v1 Announce Type: new Abstract: Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated adaptation…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-12",
-      "url": "https://arxiv.org/abs/2609.10824"
-    },
-    {
-      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-      "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-11",
-      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
+      "date": "2026-09-13",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/"
     },
     {
       "title": "Roundtables: Could AI really kill us all?",
