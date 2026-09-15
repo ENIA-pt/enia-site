@@ -1,46 +1,126 @@
 {
-  "generated": "2026-09-14T01:08:03.050Z",
+  "generated": "2026-09-15T01:28:55.674Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "OpenAI’s rogue AI tried to hack another company in May",
-      "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal…",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "summary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-13",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+      "date": "2026-09-14",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
     },
     {
-      "title": "Trump and Mike Johnson think the AI industry is overreacting",
-      "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis…",
+      "title": "What execs and politicians are saying about slowing down AI development",
+      "summary": "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-13",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
+      "date": "2026-09-14",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei"
     },
     {
-      "title": "What’s behind the AI industry’s latest warnings of doom?",
-      "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "summary": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-13",
-      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/"
+      "date": "2026-09-14",
+      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/"
     },
     {
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
-      "source": "TechCrunch AI",
+      "title": "Lagarde alerta que Europa arrisca financiar IA norte-americana sem colher os benefícios",
+      "summary": "A Europa poderá pagar parte da fatura do ‘boom’ da inteligência artificial nos Estados Unidos sem beneficiar da mesma forma do crescimento daí resultante, alertou esta segunda-feira a presidente do Banco Central Europeu (BCE), Christine Lagarde. “Hoje, os…",
+      "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-09-13",
-      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/"
+      "date": "2026-09-14",
+      "url": "https://eco.sapo.pt/2026/09/14/lagarde-alerta-que-europa-arrisca-financiar-ia-norte-americana-sem-colher-os-beneficios/"
     },
     {
-      "title": "Roundtables: Could AI really kill us all?",
-      "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with…",
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-11",
-      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/"
+      "date": "2026-09-14",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/"
+    },
+    {
+      "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+      "summary": "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-14",
+      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/"
+    },
+    {
+      "title": "Inteligência Artificial ganha espaço, mas clientes de luxo preferem lojas físicas",
+      "summary": "A Inteligência Artificial está a ganhar espaço no setor do luxo, mostram as conclusões do mais recente estudo sobre luxo da EY, que será apresentado oficialmente esta terça-feira. Segundo a consultora, 71% dos clientes continuam a preferir concluir a compra…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-14",
+      "url": "https://eco.sapo.pt/2026/09/14/inteligencia-artificial-ganha-espaco-mas-clientes-de-luxo-preferem-lojas-fisicas/"
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-14",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-14",
+      "url": "https://openai.com/index/fyxer"
+    },
+    {
+      "title": "SoulAuth: An Actor-native Identity Architecture and Rust Reference Implementation for Humans and Long-lived AI Actors",
+      "summary": "arXiv:2609.11258v1 Announce Type: cross Abstract: As AI systems move from transient model invocations toward long-lived actors that persist across credentials, clients, sessions, and runtime instances, identity infrastructure must answer a basic question:…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-14",
+      "url": "https://arxiv.org/abs/2609.11258"
+    },
+    {
+      "title": "Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning",
+      "summary": "arXiv:2609.12035v1 Announce Type: new Abstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capturing distinct but correlated aspects of cardiac…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-14",
+      "url": "https://arxiv.org/abs/2609.12035"
+    },
+    {
+      "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+      "summary": "arXiv:2609.12105v1 Announce Type: new Abstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or containing a network intrusion will…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-14",
+      "url": "https://arxiv.org/abs/2609.12105"
+    },
+    {
+      "title": "Mindspeller Neuroprofiling. How task performance, EEG, and association evidence support O*NET-based role guidance",
+      "summary": "arXiv:2609.12501v1 Announce Type: new Abstract: Mindspeller produces a Neuroprofile from three sources: rational self-report, association-based semantic positioning, and performance recorded during cognitive tasks together with EEG. The task-and-EEG stream is…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-14",
+      "url": "https://arxiv.org/abs/2609.12501"
+    },
+    {
+      "title": "Reinforcement Learning over Patient Trajectories for Clinical Reasoning in EHR Foundation Models",
+      "summary": "arXiv:2609.12277v1 Announce Type: cross Abstract: Electronic health record (EHR) foundation models trained on longitudinal patient trajectories have demonstrated strong performance across diverse clinical prediction tasks. However, their clinical reasoning…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-14",
+      "url": "https://arxiv.org/abs/2609.12277"
+    },
+    {
+      "title": "Informational Help-Seeking on Reddit Did Not Decline After ChatGPT",
+      "summary": "arXiv:2609.12447v1 Announce Type: cross Abstract: Did people stop asking other people for advice online once generative AI could answer their questions? Prior work on ChatGPT's effect on online help-seeking disagrees in both size and sign, in part because no…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-14",
+      "url": "https://arxiv.org/abs/2609.12447"
     },
     {
       "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
@@ -83,22 +163,6 @@
       "url": "https://www.cnil.fr/fr/audeladelecran"
     },
     {
-      "title": "Powering AI is an architecture problem",
-      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-10",
-      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/"
-    },
-    {
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-10",
-      "url": "https://openai.com/index/expanding-ai-access-us-government"
-    },
-    {
       "title": "Life Under the Algorithm",
       "summary": "AI Now's Katie Wells co-authors this piece with Veena Dubal in the Fall 2026 Issue, exploring how algorithmic wages and prices are reshaping our lives. The post Life Under the Algorithm appeared first on AI Now Institute.",
       "source": "AI Now Institute",
@@ -129,6 +193,14 @@
       "tier": "12-industria",
       "date": "2026-09-03",
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+    },
+    {
+      "title": "ANACOM participa no 21.º Workshop Internacional de Regulação",
+      "summary": "Raquel Brízida Castro abordou os desafios regulatórios decorrentes da convergência entre serviços digitais, conteúdos audiovisuais e inteligência artificial.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-09-02",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1856977"
     },
     {
       "title": "The AI Ethics Brief #198: Weights and Measures",
@@ -257,22 +329,6 @@
       "tier": "6-normas",
       "date": "2026-08-04",
       "url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation"
-    },
-    {
-      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "summary": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August Anonymous (not verified) Fri, 07/31/2026 - 09:00 From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-07-31",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
-    },
-    {
-      "title": "EU support for the news media sector",
-      "summary": "EU support for the news media sector anserge Fri, 07/31/2026 - 09:00 The European Commission works to address structural challenges in media sectors and to promote a free, diverse and pluralistic media environment. image by Laurence Dutton by Getty/iStock The…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-07-31",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/eu-support-news-media-sector"
     },
     {
       "title": "Finlândia ativa enforcement",
