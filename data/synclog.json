@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-16T01:25:33.597Z",
+  "startedAt": "2026-09-17T01:25:48.781Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -43,7 +43,7 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 6,
+      "kept": 5,
       "maisRecente": "2026-09-07"
     },
     {
@@ -377,16 +377,16 @@
       "ok": true,
       "items": 634,
       "kept": 3,
-      "maisRecente": "2026-09-15"
+      "maisRecente": "2026-09-16"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 60,
+      "items": 36,
       "kept": 3,
-      "maisRecente": "2026-09-15"
+      "maisRecente": "2026-09-16"
     },
     {
       "id": "stanford-hai",
@@ -422,7 +422,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-14"
+      "maisRecente": "2026-09-15"
     },
     {
       "id": "cset",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-08-27"
+      "maisRecente": "2026-09-12"
     },
     {
       "id": "oii",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-15"
+      "maisRecente": "2026-09-16"
     },
     {
       "id": "techcrunch-ai",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 1,
-      "maisRecente": "2026-09-15"
+      "kept": 2,
+      "maisRecente": "2026-09-16"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "mlex",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1193,
+      "items": 1198,
       "kept": 2,
-      "maisRecente": "2026-09-14"
+      "maisRecente": "2026-09-16"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1949,
+      "items": 1837,
       "kept": 0,
       "maisRecente": null
     },
@@ -699,7 +699,6 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -715,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-16T01:27:57.501Z",
+  "finishedAt": "2026-09-17T01:27:53.879Z",
   "recolhidos": 41,
   "written": 41,
   "maisRecente": "2026-09-21",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 16,
+    "added": 15,
     "curados": 0,
-    "total": 428
+    "total": 443
   }
 }

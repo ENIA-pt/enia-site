@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-16T01:27:57.500Z",
+  "generated": "2026-09-17T01:27:53.878Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 428,
+  "count": 443,
   "items": [
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
@@ -26,6 +26,110 @@
       "tier": "11-imprensa",
       "date": "2026-09-16",
       "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+    },
+    {
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
+    },
+    {
+      "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+      "summary": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review"
+    },
+    {
+      "title": "The AI data center e-waste problem is huge — and getting bigger",
+      "summary": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
+    },
+    {
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/"
+    },
+    {
+      "title": "Subida do gás e IA aumentam riscos para inflação europeia, alerta Santos Pereira",
+      "summary": "A inflação na zona euro não se está a espalhar de forma tão rápida ou de forma tão abrangente como anteriormente, mas a recente subida dos preços do gás natural e a instabilidade global exigem uma monitorização rigorosa nos próximos meses. O aviso foi deixado…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://eco.sapo.pt/2026/09/16/subida-do-gas-e-ia-aumentam-riscos-para-inflacao-europeia-alerta-santos-pereira/"
+    },
+    {
+      "title": "Miguel Stilwell: “Se queremos ser independentes, temos de construir data centers na Europa”",
+      "summary": "O presidente executivo da EDP alertou esta quarta-feira que a Europa está “muito atrás” dos EUA e da China na corrida à infraestrutura para inteligência artificial (IA), afirmando que “apenas 5% dos centros de dados” a nível mundial estão nesta região. Para o…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://eco.sapo.pt/2026/09/16/miguel-stilwell-se-queremos-ser-independentes-temos-de-construir-data-centers-na-europa/"
+    },
+    {
+      "title": "Helping older adults use AI in everyday life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-16",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
+    },
+    {
+      "title": "Reimagining advertising with AI",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-16",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai"
+    },
+    {
+      "title": "Building the materials foundation for AI",
+      "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
+    },
+    {
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/"
+    },
+    {
+      "title": "Using Codebooks to Detect Cybercrime Topics in Text Narratives",
+      "summary": "arXiv:2609.16000v1 Announce Type: new Abstract: In the United States, management of cybercrime-related consumer complaints increasingly falls on state and city governments given de-staffing of federal agencies. AI, and in particular, large language models…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.16000"
+    },
+    {
+      "title": "Measuring AI harms with multidimensional Lorenz Zonoids",
+      "summary": "arXiv:2609.16004v1 Announce Type: new Abstract: While AI systems increasingly shape high-stakes societal domains, their governance is limited by the lack of risk management methods that operate on real harms, taking their severity, and not only their…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.16004"
+    },
+    {
+      "title": "Beyond Cultural Knowledge: Evaluating Arabic Cultural Appropriateness of Large Language Models",
+      "summary": "arXiv:2609.16006v1 Announce Type: new Abstract: Large language models (LLMs) increasingly serve users whose expectations are shaped by their cultural context, yet most cultural evaluations test what a model knows rather than how it behaves when giving…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.16006"
     },
     {
       "title": "The AI data center boom is colliding with cities scarred by big industry",
@@ -122,6 +226,14 @@
       "tier": "9-investigacao",
       "date": "2026-09-15",
       "url": "https://arxiv.org/abs/2609.14849"
+    },
+    {
+      "title": "Could AI really wipe out humanity – six experts spell out the risks",
+      "summary": "In response to alarming claims and essays warning about AI safety, AI Now's Heidy Khlaaf pushes for evidence and concrete examples that can verify these claims. The post Could AI really wipe out humanity – six experts spell out the risks appeared first on AI…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-15",
+      "url": "https://ainowinstitute.org/news/press/could-ai-really-wipe-out-humanity-six-experts-spell-out-the-risks"
     },
     {
       "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
@@ -330,6 +442,14 @@
       "tier": "9-investigacao",
       "date": "2026-09-12",
       "url": "https://arxiv.org/abs/2609.10824"
+    },
+    {
+      "title": "The week the AI freakout went mainstream",
+      "summary": "CSET’s Jessica Ji shared her expert insight in an article published by Vox. The article examines growing concerns about catastrophic AI risks and the challenges of creating effective government oversight as AI systems become more capable and potentially…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-09-12",
+      "url": "https://cset.georgetown.edu/article/the-week-the-ai-freakout-went-mainstream/"
     },
     {
       "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",

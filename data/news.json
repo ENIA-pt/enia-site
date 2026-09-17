@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16T01:27:57.500Z",
+  "generated": "2026-09-17T01:27:53.878Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -11,44 +11,140 @@
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
     },
     {
-      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-      "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-09-16",
-      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/"
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
     },
     {
-      "title": "AI and data centers are incredibly unpopular in every poll",
-      "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data…",
+      "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+      "summary": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-09-16",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+      "url": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review"
     },
     {
-      "title": "The AI data center boom is colliding with cities scarred by big industry",
-      "summary": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
+      "title": "The AI data center e-waste problem is huge — and getting bigger",
+      "summary": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
+    },
+    {
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-15",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/"
+      "date": "2026-09-16",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/"
     },
     {
-      "title": "Roundtables: Could AI really kill us all?",
-      "summary": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction…",
+      "title": "Subida do gás e IA aumentam riscos para inflação europeia, alerta Santos Pereira",
+      "summary": "A inflação na zona euro não se está a espalhar de forma tão rápida ou de forma tão abrangente como anteriormente, mas a recente subida dos preços do gás natural e a instabilidade global exigem uma monitorização rigorosa nos próximos meses. O aviso foi deixado…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://eco.sapo.pt/2026/09/16/subida-do-gas-e-ia-aumentam-riscos-para-inflacao-europeia-alerta-santos-pereira/"
+    },
+    {
+      "title": "Miguel Stilwell: “Se queremos ser independentes, temos de construir data centers na Europa”",
+      "summary": "O presidente executivo da EDP alertou esta quarta-feira que a Europa está “muito atrás” dos EUA e da China na corrida à infraestrutura para inteligência artificial (IA), afirmando que “apenas 5% dos centros de dados” a nível mundial estão nesta região. Para o…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://eco.sapo.pt/2026/09/16/miguel-stilwell-se-queremos-ser-independentes-temos-de-construir-data-centers-na-europa/"
+    },
+    {
+      "title": "Helping older adults use AI in everyday life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-16",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
+    },
+    {
+      "title": "Reimagining advertising with AI",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-16",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai"
+    },
+    {
+      "title": "Building the materials foundation for AI",
+      "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-15",
-      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
+      "date": "2026-09-16",
+      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
     },
     {
-      "title": "What execs and politicians are saying about slowing down AI development",
-      "summary": "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor…",
-      "source": "The Verge AI",
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
+      "date": "2026-09-16",
+      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/"
+    },
+    {
+      "title": "From Legal Text to AI-specific Risk Sources: A Systematic Analysis of the EU AI Act's High-Risk Requirements",
+      "summary": "arXiv:2609.13535v1 Announce Type: new Abstract: The EU AI Act introduces mandatory requirements for high-risk AI systems with the explicit goal of ensuring the development and operation of trustworthy AI. At the same time, AI risk management practices rely on…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.13535"
+    },
+    {
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.13356"
+    },
+    {
+      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.13422"
+    },
+    {
+      "title": "Using Codebooks to Detect Cybercrime Topics in Text Narratives",
+      "summary": "arXiv:2609.16000v1 Announce Type: new Abstract: In the United States, management of cybercrime-related consumer complaints increasingly falls on state and city governments given de-staffing of federal agencies. AI, and in particular, large language models…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.16000"
+    },
+    {
+      "title": "Measuring AI harms with multidimensional Lorenz Zonoids",
+      "summary": "arXiv:2609.16004v1 Announce Type: new Abstract: While AI systems increasingly shape high-stakes societal domains, their governance is limited by the lack of risk management methods that operate on real harms, taking their severity, and not only their…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.16004"
+    },
+    {
+      "title": "Beyond Cultural Knowledge: Evaluating Arabic Cultural Appropriateness of Large Language Models",
+      "summary": "arXiv:2609.16006v1 Announce Type: new Abstract: Large language models (LLMs) increasingly serve users whose expectations are shaped by their cultural context, yet most cultural evaluations test what a model knows rather than how it behaves when giving…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.16006"
+    },
+    {
+      "title": "Could AI really wipe out humanity – six experts spell out the risks",
+      "summary": "In response to alarming claims and essays warning about AI safety, AI Now's Heidy Khlaaf pushes for evidence and concrete examples that can verify these claims. The post Could AI really wipe out humanity – six experts spell out the risks appeared first on AI…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-09-15",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei"
+      "url": "https://ainowinstitute.org/news/press/could-ai-really-wipe-out-humanity-six-experts-spell-out-the-risks"
     },
     {
       "title": "The AI Ethics Brief #199: The Capacity to Govern",
@@ -59,14 +155,6 @@
       "url": "https://montrealethics.ai/the-ai-ethics-brief-199-the-capacity-to-govern/"
     },
     {
-      "title": "O Telemóvel como Assistente Pessoal através da Inteligência Artificial?",
-      "summary": "Nas férias de Verão, no Algarve, aproveito para me desforrar de algumas delícias que não sabem ao mesmo em Lisboa, tais como peixe grelhado na brasa, amêijoas, e outras coisas. O dono do restaurante que frequento habitualmente já conhece os meus gostos, pelo…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-15",
-      "url": "https://eco.sapo.pt/opiniao/o-telemovel-como-assistente-pessoal-atraves-da-inteligencia-artificial/"
-    },
-    {
       "title": "2026 midterm elections: Helping voters navigate election information in the age of AI",
       "summary": "As Americans prepare to vote this November, artificial intelligence is changing how many people find and understand election information. Some voters are deliberately turning to AI tools with questions about candidates, ballot measures, election procedures,…",
       "source": "Microsoft On the Issues",
@@ -75,76 +163,12 @@
       "url": "https://blogs.microsoft.com/on-the-issues/2026/09/15/2026-midterm-elections-helping-voters-navigate-election-information-in-the-age-of-ai/"
     },
     {
-      "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI chiefs Dario Amodei, Sam Altman, Elon Musk, and Demis Hassabis are…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-15",
-      "url": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/"
-    },
-    {
-      "title": "From Legal Text to AI-specific Risk Sources: A Systematic Analysis of the EU AI Act's High-Risk Requirements",
-      "summary": "arXiv:2609.13535v1 Announce Type: new Abstract: The EU AI Act introduces mandatory requirements for high-risk AI systems with the explicit goal of ensuring the development and operation of trustworthy AI. At the same time, AI risk management practices rely on…",
-      "source": "arXiv cs.AI",
+      "title": "The week the AI freakout went mainstream",
+      "summary": "CSET’s Jessica Ji shared her expert insight in an article published by Vox. The article examines growing concerns about catastrophic AI risks and the challenges of creating effective government oversight as AI systems become more capable and potentially…",
+      "source": "CSET Georgetown",
       "tier": "9-investigacao",
-      "date": "2026-09-15",
-      "url": "https://arxiv.org/abs/2609.13535"
-    },
-    {
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-15",
-      "url": "https://arxiv.org/abs/2609.13356"
-    },
-    {
-      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-15",
-      "url": "https://arxiv.org/abs/2609.13422"
-    },
-    {
-      "title": "Algorithm Validation as a Policy Audit: Evidence from Race-blind Charging",
-      "summary": "arXiv:2609.13174v1 Announce Type: new Abstract: California recently required all prosecutors in the state to conduct a \"race-blind charging\" decision by reviewing case documents in which selected race-related proxies have been redacted. We validate bc2, an…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-15",
-      "url": "https://arxiv.org/abs/2609.13174"
-    },
-    {
-      "title": "A latent dimension of Condorcet's jury theorem for multiple AI advisers",
-      "summary": "arXiv:2609.14438v1 Announce Type: new Abstract: When the same question is asked of multiple AI advisers, as in self-consistency and LLM-as-a-judge panels, Condorcet's jury theorem predicts that adding independent, competent advisers makes the majority more…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-15",
-      "url": "https://arxiv.org/abs/2609.14438"
-    },
-    {
-      "title": "LLMs as Oracles: Reliance on LLMs for Subjective Personal Questions",
-      "summary": "arXiv:2609.14849v1 Announce Type: new Abstract: We characterize how people are turning to LLMs as oracles: all-knowing authorities on subjective personal questions. Motivated by risks to users' autonomy and well-being, we develop a typology and LLM-based…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-15",
-      "url": "https://arxiv.org/abs/2609.14849"
-    },
-    {
-      "title": "‘Silent Cold War’: Why calls to slow AI have sparked new US–China frontier",
-      "summary": "Calls by technology leaders to slow AI’s development raise questions about their ability and willingness to control the technology, according to Aya Ibrahim, Senior Economic and National Security Fellow at the AI Now Institute. The post ‘Silent Cold War’: Why…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-09-14",
-      "url": "https://ainowinstitute.org/news/press/silent-cold-war-why-calls-to-slow-ai-have-sparked-new-us-china-frontier"
-    },
-    {
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-14",
-      "url": "https://openai.com/index/fyxer"
+      "date": "2026-09-12",
+      "url": "https://cset.georgetown.edu/article/the-week-the-ai-freakout-went-mainstream/"
     },
     {
       "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
@@ -153,14 +177,6 @@
       "tier": "10-sociedade",
       "date": "2026-09-10",
       "url": "https://futureoflife.org/religion/ai-and-the-protestant-vision-of-spirituality-work-and-technology/"
-    },
-    {
-      "title": "Now everyone can put data to work",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-10",
-      "url": "https://openai.com/index/put-data-to-work"
     },
     {
       "title": "Partnership on AI Welcomes Six New Partners from Academia, Industry, and Civil Society",
@@ -203,28 +219,12 @@
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
     },
     {
-      "title": "State of the Union 2026",
-      "summary": "State of the Union 2026 Anonymous (not verified) Mon, 08/31/2026 - 16:11 16 September 2026 The State of the Union (SOTEU) address is an annual speech by the President of the European Commission to the European Parliament, setting the priorities for the Union…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-08-31",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/state-union-2026"
-    },
-    {
       "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
       "summary": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 The Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large Online…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-08-31",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act"
-    },
-    {
-      "title": "In applying AI to military decision-making, the IP4 should learn from NATO",
-      "summary": "Sophie Mayo, Emelia Probasco, and Lauren Kahn shared their expert analysis in an op-ed published by the Australian Strategic Policy Institute’s The Strategist. In their piece, they examine how NATO’s Indo-Pacific Four (IP4) partners, Australia, Japan, South…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-08-27",
-      "url": "https://cset.georgetown.edu/article/in-applying-ai-to-military-decision-making-the-ip4-should-learn-from-nato/"
     },
     {
       "title": "FTC Finalizes Orders with Cox Media Group, Two Other Firms Settling Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
