@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-17T01:27:53.878Z",
+  "generated": "2026-09-18T01:18:11.373Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 443,
+  "count": 457,
   "items": [
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
@@ -10,6 +10,118 @@
       "tier": "10-sociedade",
       "date": "2026-09-21",
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
+    },
+    {
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "summary": "The round values the data center giant at $30.9 billion.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-17",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+    },
+    {
+      "title": "PrismML hopes its tiny LLM will change how we all use AI",
+      "summary": "If AI lab PrismML isn't on your radar yet, it should be.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-17",
+      "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/"
+    },
+    {
+      "title": "The AI Superintelligence Slowdown",
+      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-17",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
+    },
+    {
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-17",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects"
+    },
+    {
+      "title": "AI Now’s Co-Executive Director Amba Kak Testifies Before Monopoly Busters Caucus",
+      "summary": "On Thursday, September 17th, 2026, AI Now Co-Executive Director Amba Kak testified before the Monopoly Busters Caucus at the shadow hearing “AI Crossroads: Stopping Big Tech’s Race to Monopolize AI through Surveillance on Big Tech.” The hearing came amidst a…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-17",
+      "url": "https://ainowinstitute.org/news/announcement/ai-nows-co-executive-director-amba-kak-testifies-before-monopoly-busters-caucus"
+    },
+    {
+      "title": "Fundamental rights in the EU Entry/Exit System feature at Darmstadt Biometrics Week 2026",
+      "summary": "Language English Press release 0 Secondary theme Asylum Borders and information systems EU Charter of Fundamental Rights Title II: Freedoms Article 19 - Protection in the event of removal, expulsion or extradition Title II: Freedoms Article 8 - Protection of…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-17",
+      "url": "https://fra.europa.eu/en/news/2026/fundamental-rights-eu-entryexit-system-feature-darmstadt-biometrics-week-2026"
+    },
+    {
+      "title": "Conference to explore who protects the rule of law when AI goes wrong",
+      "summary": "Language English Summary FRA will present its AI and digitalisation work during the European Rule of Law Talks in Brussels on 22 September. It will join a panel alongside EDPS, EDRI and others. Published At 2026-09-17T13:06:52 Action buttons Dates…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-17",
+      "url": "https://fra.europa.eu/en/event/2026/conference-explore-who-protects-rule-law-when-ai-goes-wrong"
+    },
+    {
+      "title": "EU KIDS Act to restrict social media platforms’ access to children in the EU",
+      "summary": "EU KIDS Act to restrict social media platforms’ access to children in the EU Anonymous (not verified) Thu, 09/17/2026 - 09:36 Today, the European Commission has adopted the EU KIDS Act to enhance the online safety of children throughout the Union. The…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-09-17",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu"
+    },
+    {
+      "title": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy'",
+      "summary": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy' Anonymous (not verified) Thu, 09/17/2026 - 09:21 This proposal seeks to protect minors from risky digital services and AI systems, uphold the digital single market and…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-09-17",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy"
+    },
+    {
+      "title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment",
+      "summary": "arXiv:2609.18106v1 Announce Type: cross Abstract: Open-weight large language models are rapidly entering hiring pipelines, yet their discriminatory failure modes -- and the regulatory exposure these create under the EU AI Act high-risk classification (Annex…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-17",
+      "url": "https://arxiv.org/abs/2609.18106"
+    },
+    {
+      "title": "A Comprehensive Review of Generative Physical Artificial Intelligence",
+      "summary": "arXiv:2609.18111v1 Announce Type: cross Abstract: The integration of large-scale foundation models with physical embodiments has led to significant advancements in robotics known as Generative Physical Artificial Intelligence (GPAI). These agentic AI systems…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-17",
+      "url": "https://arxiv.org/abs/2609.18111"
+    },
+    {
+      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
+      "summary": "arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-17",
+      "url": "https://arxiv.org/abs/2609.17631"
+    },
+    {
+      "title": "AI and Human Approaches to Mathematical Problem Solving",
+      "summary": "arXiv:2609.17779v1 Announce Type: new Abstract: AI systems have begun to report solutions, disproofs, and substantive advances on long-standing mathematical problems, raising questions about whether they approach research in the same way as mathematicians.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-17",
+      "url": "https://arxiv.org/abs/2609.17779"
+    },
+    {
+      "title": "Toward a Time-Aware Assessment Framework for the Carbon Cost of AI-Enabled Decarbonization",
+      "summary": "arXiv:2609.18029v1 Announce Type: new Abstract: AI is increasingly used to support decarbonization decisions across the built environment, yet the development, training, and use of AI consume energy and induce CO2e emissions. However, existing assessments…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-17",
+      "url": "https://arxiv.org/abs/2609.18029"
     },
     {
       "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
