@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T01:18:11.373Z",
+  "generated": "2026-09-19T01:12:34.544Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -11,52 +11,100 @@
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
     },
     {
-      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
-      "summary": "The round values the data center giant at $30.9 billion.",
+      "title": "A startup that builds other startups raised $100M, and is all-in on physical AI",
+      "summary": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-17",
-      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+      "date": "2026-09-18",
+      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/"
     },
     {
-      "title": "PrismML hopes its tiny LLM will change how we all use AI",
-      "summary": "If AI lab PrismML isn't on your radar yet, it should be.",
+      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-17",
-      "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/"
+      "date": "2026-09-18",
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
     },
     {
-      "title": "The AI Superintelligence Slowdown",
-      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US…",
+      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "summary": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down approvals in a state that is already home to the data center capital of the world.…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-17",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
+      "date": "2026-09-18",
+      "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force"
     },
     {
-      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-17",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects"
-    },
-    {
-      "title": "ANACOM participa em evento europeu sobre Inteligência Artificial e igualdade",
-      "summary": "Sandra Maximiano, Presidente da ANACOM, participou neste evento que assinalou o encerramento do projeto ''Defender a igualdade e a não discriminação por parte dos organismos para a igualdade relativamente à utilização da inteligência artificial nas…",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-09-17",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1858241"
-    },
-    {
-      "title": "AI Now’s Co-Executive Director Amba Kak Testifies Before Monopoly Busters Caucus",
-      "summary": "On Thursday, September 17th, 2026, AI Now Co-Executive Director Amba Kak testified before the Monopoly Busters Caucus at the shadow hearing “AI Crossroads: Stopping Big Tech’s Race to Monopolize AI through Surveillance on Big Tech.” The hearing came amidst a…",
+      "title": "Hugging Face Hack Shows Humans Can Keep AI In Check",
+      "summary": "Weeks after the OpenAI hack, AI Now's Heidy Khlaaf affirms that \"ordinary security engineering would have stopped this well short of reaching Hugging Face’s data.\" The post Hugging Face Hack Shows Humans Can Keep AI In Check appeared first on AI Now Institute.",
       "source": "AI Now Institute",
       "tier": "9-investigacao",
-      "date": "2026-09-17",
-      "url": "https://ainowinstitute.org/news/announcement/ai-nows-co-executive-director-amba-kak-testifies-before-monopoly-busters-caucus"
+      "date": "2026-09-18",
+      "url": "https://ainowinstitute.org/news/press/hugging-face-hack-shows-humans-can-keep-ai-in-check"
+    },
+    {
+      "title": "What Hollywood thinks about existential AI warnings",
+      "summary": "As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment labor groups are urging the public to stay focused on what's already happening. The Verge reached out to Disney, Netflix, Amazon, Lionsgate, and other studios who have…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-18",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings"
+    },
+    {
+      "title": "The Download: AI’s extinction risk and bioweapons threat",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-18",
+      "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/"
+    },
+    {
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session.…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-18",
+      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/"
+    },
+    {
+      "title": "Data Union Conference",
+      "summary": "Data Union Conference Anonymous (not verified) Fri, 09/18/2026 - 09:43 12 January 2027 Charlemagne building, Brussels, Belgium Bringing policymakers, businesses, experts and researchers together to turn Europe’s data policies into more data for AI, growth and…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-09-18",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/data-union-conference"
+    },
+    {
+      "title": "Governance-as-Code: Translating EU AI Act Technical Requirements into Executable Compliance Pipelines for Generative AI Systems",
+      "summary": "arXiv:2609.20016v1 Announce Type: cross Abstract: The EU AI Act (Regulation 2024/1689) imposes technical obligations on high-risk AI providers, yet Articles 8-15 were drafted for predictive AI and leave seven technical gaps when applied to generative systems,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-18",
+      "url": "https://arxiv.org/abs/2609.20016"
+    },
+    {
+      "title": "Reproducibility is not construct validity: LLM measurement of institutionally situated communication",
+      "summary": "arXiv:2609.19866v1 Announce Type: new Abstract: High annotation reproducibility does not necessarily imply that an LLM-inferred measure captures the construct it is intended to measure. We test this distinction using a dataset from the European Commission's…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-18",
+      "url": "https://arxiv.org/abs/2609.19866"
+    },
+    {
+      "title": "What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks",
+      "summary": "arXiv:2609.19182v1 Announce Type: new Abstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated. Yet model rankings alone reveal little about how evaluation requirements themselves are changing. The…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-18",
+      "url": "https://arxiv.org/abs/2609.19182"
+    },
+    {
+      "title": "From Digital Competence to Demonstrated Digital Capability: Positioning the International Digital Driving License Against DigComp and UNESCO Frameworks",
+      "summary": "arXiv:2609.19406v1 Announce Type: new Abstract: Digital competence frameworks define the knowledge, skills, attitudes and values required for participation in digital society. The European Digital Competence Framework for Citizens (DigComp) and UNESCO digital…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-18",
+      "url": "https://arxiv.org/abs/2609.19406"
     },
     {
       "title": "Fundamental rights in the EU Entry/Exit System feature at Darmstadt Biometrics Week 2026",
@@ -76,7 +124,7 @@
     },
     {
       "title": "EU KIDS Act to restrict social media platforms’ access to children in the EU",
-      "summary": "EU KIDS Act to restrict social media platforms’ access to children in the EU Anonymous (not verified) Thu, 09/17/2026 - 09:36 Today, the European Commission has adopted the EU KIDS Act to enhance the online safety of children throughout the Union. The…",
+      "summary": "EU KIDS Act to restrict social media platforms’ access to children in the EU Anonymous (not verified) Thu, 09/17/2026 - 09:36 The European Commission has adopted the EU KIDS Act to enhance the online safety of children throughout the Union. The proposal…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-09-17",
@@ -89,46 +137,6 @@
       "tier": "2-comissao",
       "date": "2026-09-17",
       "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy"
-    },
-    {
-      "title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment",
-      "summary": "arXiv:2609.18106v1 Announce Type: cross Abstract: Open-weight large language models are rapidly entering hiring pipelines, yet their discriminatory failure modes -- and the regulatory exposure these create under the EU AI Act high-risk classification (Annex…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-17",
-      "url": "https://arxiv.org/abs/2609.18106"
-    },
-    {
-      "title": "A Comprehensive Review of Generative Physical Artificial Intelligence",
-      "summary": "arXiv:2609.18111v1 Announce Type: cross Abstract: The integration of large-scale foundation models with physical embodiments has led to significant advancements in robotics known as Generative Physical Artificial Intelligence (GPAI). These agentic AI systems…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-17",
-      "url": "https://arxiv.org/abs/2609.18111"
-    },
-    {
-      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
-      "summary": "arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-17",
-      "url": "https://arxiv.org/abs/2609.17631"
-    },
-    {
-      "title": "AI and Human Approaches to Mathematical Problem Solving",
-      "summary": "arXiv:2609.17779v1 Announce Type: new Abstract: AI systems have begun to report solutions, disproofs, and substantive advances on long-standing mathematical problems, raising questions about whether they approach research in the same way as mathematicians.…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-17",
-      "url": "https://arxiv.org/abs/2609.17779"
-    },
-    {
-      "title": "Toward a Time-Aware Assessment Framework for the Carbon Cost of AI-Enabled Decarbonization",
-      "summary": "arXiv:2609.18029v1 Announce Type: new Abstract: AI is increasingly used to support decarbonization decisions across the built environment, yet the development, training, and use of AI consume energy and induce CO2e emissions. However, existing assessments…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-17",
-      "url": "https://arxiv.org/abs/2609.18029"
     },
     {
       "title": "Helping older adults use AI in everyday life",
@@ -145,22 +153,6 @@
       "tier": "12-industria",
       "date": "2026-09-16",
       "url": "https://openai.com/index/reimagining-advertising-with-ai"
-    },
-    {
-      "title": "Building the materials foundation for AI",
-      "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-16",
-      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
-    },
-    {
-      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-16",
-      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/"
     },
     {
       "title": "The AI Ethics Brief #199: The Capacity to Govern",
@@ -321,14 +313,6 @@
       "tier": "11-imprensa",
       "date": "2026-08-07",
       "url": "https://artificialintelligenceact.eu/ai-therapy-under-the-eu-ai-act/?utm_source=rss&utm_medium=rss&utm_campaign=ai-therapy-under-the-eu-ai-act"
-    },
-    {
-      "title": "NIST Joins National Genesis Mission to Accelerate AI Innovation",
-      "summary": "NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.",
-      "source": "NIST",
-      "tier": "6-normas",
-      "date": "2026-08-04",
-      "url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation"
     },
     {
       "title": "Finlândia ativa enforcement",
