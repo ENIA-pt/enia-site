@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T01:12:15.843Z",
+  "generated": "2026-09-21T01:08:16.582Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -11,12 +11,36 @@
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
     },
     {
-      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
-      "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason…",
+      "title": "Is the AI industry really ready to slow down?",
+      "summary": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-20",
+      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/"
+    },
+    {
+      "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+      "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-19",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
+      "date": "2026-09-20",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"
+    },
+    {
+      "title": "Trump now says he wants to form an ‘AI Force’",
+      "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-20",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar"
+    },
+    {
+      "title": "Garantias de 300 biliões fora dos balanços das tecnológicas",
+      "summary": "As grandes tecnológicas assumiram até 300 mil milhões de dólares em garantias para financiar infraestruturas de inteligência artificial, mantendo a maior parte desta exposição fora dos balanços, segundo o Financial Times (acesso pago, em inglês). As garantias…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-20",
+      "url": "https://eco.sapo.pt/2026/09/20/garantias-de-300-bilioes-fora-dos-balancos-das-tecnologicas/"
     },
     {
       "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
@@ -25,30 +49,6 @@
       "tier": "11-imprensa",
       "date": "2026-09-19",
       "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/"
-    },
-    {
-      "title": "Google’s Gemini is the latest AI model to hack other companies",
-      "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-19",
-      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
-    },
-    {
-      "title": "Empresas alemãs estão atentas à gigafábrica de Sines, mas preocupadas com a burocracia",
-      "summary": "“Há sempre imensos investimentos na calha, porque Portugal está bastante na moda”. As palavras são de Markus Kemper, presidente da Câmara de Comércio e Indústria Luso-Alemã, que prevê um especial interesse germânico na gigafábrica de inteligência artificial…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-19",
-      "url": "https://eco.sapo.pt/especiais/empresas-alemas-estao-atentas-a-gigafabrica-de-sines-mas-preocupadas-com-a-burocracia/"
-    },
-    {
-      "title": "The AI regulation smackdown isn’t over",
-      "summary": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-18",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over"
     },
     {
       "title": "Hugging Face Hack Shows Humans Can Keep AI In Check",

@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-20T01:09:55.756Z",
+  "startedAt": "2026-09-21T01:05:54.972Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -152,7 +152,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "error": "fetch failed"
     },
     {
       "id": "ap-nl",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 29,
+      "items": 27,
       "kept": 0,
       "maisRecente": null
     },
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-09-19"
+      "maisRecente": "2026-09-20"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-19"
+      "maisRecente": "2026-09-20"
     },
     {
       "id": "eco-pt",
@@ -557,7 +557,7 @@
       "ok": true,
       "items": 22,
       "kept": 1,
-      "maisRecente": "2026-09-19"
+      "maisRecente": "2026-09-20"
     },
     {
       "id": "publico-tec",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1864,
+      "items": 1862,
       "kept": 0,
       "maisRecente": null
     },
@@ -683,7 +683,7 @@
     "[edps] HTTP 404",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
-    "[garante] HTTP 404",
+    "[garante] fetch failed",
     "[ico-uk] HTTP 404",
     "[anacom-noticias] fetch failed",
     "[anacom-legislacao] fetch failed",
@@ -714,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-20T01:12:15.843Z",
+  "finishedAt": "2026-09-21T01:08:16.583Z",
   "recolhidos": 37,
   "written": 37,
   "maisRecente": "2026-09-21",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 6,
+    "added": 4,
     "curados": 0,
-    "total": 475
+    "total": 479
   }
 }
