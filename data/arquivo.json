@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-21T01:08:16.582Z",
+  "generated": "2026-09-22T01:39:20.826Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 479,
+  "count": 493,
   "items": [
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
@@ -10,6 +10,118 @@
       "tier": "10-sociedade",
       "date": "2026-09-21",
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
+    },
+    {
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "summary": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/"
+    },
+    {
+      "title": "California tightens rules on AI data center energy and water use",
+      "summary": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+    },
+    {
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/"
+    },
+    {
+      "title": "The continued state of global AI diffusion in 2026",
+      "summary": "Today we published our latest Global AI Diffusion Report. Global AI diffusion continued to climb in the second quarter of 2026. In June, AI usage was 18.8% of the working-age population worldwide, an increase of about 1% from the first quarter of this year.…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-09-21",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/"
+    },
+    {
+      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+      "summary": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
+    },
+    {
+      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/"
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-21",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-21",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
+    },
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.20971"
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21061"
+    },
+    {
+      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21113"
+    },
+    {
+      "title": "Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership",
+      "summary": "arXiv:2609.21194v1 Announce Type: new Abstract: Generative AI can improve students' programming performance, but successful task completion may not reflect what they retain. We examined performance, retention, cognitive load, and ownership in a controlled…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21194"
+    },
+    {
+      "title": "Artificial Intelligence as an Economic, Environmental, Geopolitical, and Social Transformation",
+      "summary": "arXiv:2609.21632v1 Announce Type: new Abstract: The rapid development of artificial intelligence is often discussed primarily as a technological breakthrough. Such an approach is insufficient because AI is also transforming the allocation of capital, energy,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21632"
+    },
+    {
+      "title": "When AI Enters the Workplace, Who Faces Greater Risks? A Gendered Analysis",
+      "summary": "arXiv:2609.21756v1 Announce Type: new Abstract: Gender inequality remains a persistent structural feature of the labour market, shaping women's lifetime earnings and economic security. As artificial intelligence (AI) transforms organisational practices, there…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21756"
     },
     {
       "title": "Is the AI industry really ready to slow down?",

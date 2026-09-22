@@ -1,7 +1,47 @@
 {
-  "generated": "2026-09-21T01:08:16.582Z",
+  "generated": "2026-09-22T01:39:20.826Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "summary": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/"
+    },
+    {
+      "title": "California tightens rules on AI data center energy and water use",
+      "summary": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+    },
+    {
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/"
+    },
+    {
+      "title": "The continued state of global AI diffusion in 2026",
+      "summary": "Today we published our latest Global AI Diffusion Report. Global AI diffusion continued to climb in the second quarter of 2026. In June, AI usage was 18.8% of the working-age population worldwide, an increase of about 1% from the first quarter of this year.…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-09-21",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/"
+    },
+    {
+      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+      "summary": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-21",
+      "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
+    },
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
       "summary": "Hybrid Side Event during UNGA81 High-Level Week The post From surveillance to governance: recentering human rights in the UN AI agenda appeared first on Access Now.",
@@ -11,44 +51,76 @@
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
     },
     {
-      "title": "Is the AI industry really ready to slow down?",
-      "summary": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
-      "source": "TechCrunch AI",
+      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-20",
-      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/"
+      "date": "2026-09-21",
+      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/"
     },
     {
-      "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
-      "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-20",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-21",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
     },
     {
-      "title": "Trump now says he wants to form an ‘AI Force’",
-      "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-20",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar"
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-21",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
     },
     {
-      "title": "Garantias de 300 biliões fora dos balanços das tecnológicas",
-      "summary": "As grandes tecnológicas assumiram até 300 mil milhões de dólares em garantias para financiar infraestruturas de inteligência artificial, mantendo a maior parte desta exposição fora dos balanços, segundo o Financial Times (acesso pago, em inglês). As garantias…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-20",
-      "url": "https://eco.sapo.pt/2026/09/20/garantias-de-300-bilioes-fora-dos-balancos-das-tecnologicas/"
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.20971"
     },
     {
-      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-      "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-19",
-      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/"
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21061"
+    },
+    {
+      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21113"
+    },
+    {
+      "title": "Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership",
+      "summary": "arXiv:2609.21194v1 Announce Type: new Abstract: Generative AI can improve students' programming performance, but successful task completion may not reflect what they retain. We examined performance, retention, cognitive load, and ownership in a controlled…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21194"
+    },
+    {
+      "title": "Artificial Intelligence as an Economic, Environmental, Geopolitical, and Social Transformation",
+      "summary": "arXiv:2609.21632v1 Announce Type: new Abstract: The rapid development of artificial intelligence is often discussed primarily as a technological breakthrough. Such an approach is insufficient because AI is also transforming the allocation of capital, energy,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21632"
+    },
+    {
+      "title": "When AI Enters the Workplace, Who Faces Greater Risks? A Gendered Analysis",
+      "summary": "arXiv:2609.21756v1 Announce Type: new Abstract: Gender inequality remains a persistent structural feature of the labour market, shaping women's lifetime earnings and economic security. As artificial intelligence (AI) transforms organisational practices, there…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.21756"
     },
     {
       "title": "Hugging Face Hack Shows Humans Can Keep AI In Check",
@@ -65,22 +137,6 @@
       "tier": "11-imprensa",
       "date": "2026-09-18",
       "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/"
-    },
-    {
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-18",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint"
-    },
-    {
-      "title": "Could AI really kill us all? Your questions, answered.",
-      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session.…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-18",
-      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/"
     },
     {
       "title": "Data Union Conference",
@@ -123,28 +179,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy"
     },
     {
-      "title": "Helping older adults use AI in everyday life",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-16",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
-    },
-    {
       "title": "The AI Ethics Brief #199: The Capacity to Govern",
       "summary": "On open weights for everyone else, credit for a disputed mathematics proof, and control over autonomous weapons. Source",
       "source": "Montreal AI Ethics Institute",
       "tier": "9-investigacao",
       "date": "2026-09-15",
       "url": "https://montrealethics.ai/the-ai-ethics-brief-199-the-capacity-to-govern/"
-    },
-    {
-      "title": "2026 midterm elections: Helping voters navigate election information in the age of AI",
-      "summary": "As Americans prepare to vote this November, artificial intelligence is changing how many people find and understand election information. Some voters are deliberately turning to AI tools with questions about candidates, ballot measures, election procedures,…",
-      "source": "Microsoft On the Issues",
-      "tier": "12-industria",
-      "date": "2026-09-15",
-      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/15/2026-midterm-elections-helping-voters-navigate-election-information-in-the-age-of-ai/"
     },
     {
       "title": "The week the AI freakout went mainstream",
@@ -281,14 +321,6 @@
       "tier": "2-comissao",
       "date": "2026-08-10",
       "url": "https://digital-strategy.ec.europa.eu/en/events/join-inaugural-d-tect-forum"
-    },
-    {
-      "title": "AI Therapy under the EU AI Act",
-      "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as…",
-      "source": "AI Act Explorer",
-      "tier": "11-imprensa",
-      "date": "2026-08-07",
-      "url": "https://artificialintelligenceact.eu/ai-therapy-under-the-eu-ai-act/?utm_source=rss&utm_medium=rss&utm_campaign=ai-therapy-under-the-eu-ai-act"
     },
     {
       "title": "Finlândia ativa enforcement",
