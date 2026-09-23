@@ -1,46 +1,150 @@
 {
-  "generated": "2026-09-22T01:39:20.826Z",
+  "generated": "2026-09-23T01:31:32.259Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
-      "summary": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-21",
-      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/"
-    },
-    {
-      "title": "California tightens rules on AI data center energy and water use",
-      "summary": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to…",
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-21",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+      "date": "2026-09-23",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
     },
     {
-      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-      "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-21",
-      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/"
+      "date": "2026-09-22",
+      "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/"
     },
     {
-      "title": "The continued state of global AI diffusion in 2026",
-      "summary": "Today we published our latest Global AI Diffusion Report. Global AI diffusion continued to climb in the second quarter of 2026. In June, AI usage was 18.8% of the working-age population worldwide, an increase of about 1% from the first quarter of this year.…",
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+    },
+    {
+      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+    },
+    {
+      "title": "Meta testa “concierge humano” para a nova assistente de IA Muse",
+      "summary": "A Meta tem estado a testar uma funcionalidade de “concierge humano” para a sua nova assistente pessoal de inteligência artificial, a Muse. O sistema envolve o recurso a prestadores de serviços humanos para realizarem algumas das chamadas telefónicas efetuadas…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://eco.sapo.pt/2026/09/22/meta-testa-concierge-humano-para-a-nova-assistente-de-ia-muse/"
+    },
+    {
+      "title": "Disrupting EvilTokens: The AI Chatbot Built for Cybercrime",
+      "summary": "Microsoft has disrupted EvilTokens, a powerful cybercrime platform that used AI at every step of the attack chain—from compromising email accounts to designing intricate roadmaps for financial fraud and scams. While EvilTokens helped cybercriminals access…",
       "source": "Microsoft On the Issues",
       "tier": "12-industria",
-      "date": "2026-09-21",
-      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/"
+      "date": "2026-09-22",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/"
     },
     {
-      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
-      "summary": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model…",
-      "source": "The Verge AI",
+      "title": "Speech by President von der Leyen at the high-level dialogue on ‘Protecting Children's Rights facing Artificial Intelligence'",
+      "summary": "European Commission Speech New York, 23 Sep 2026 Thank you very much for convening this meeting, it is absolutely high time. I would like to tell you a little bit about what we are doing here in the European U...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-09-22",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1942"
+    },
+    {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/"
+    },
+    {
+      "title": "Don’t be fooled by this summer of AI hype",
+      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+    },
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.20971"
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.21061"
+    },
+    {
+      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.21113"
+    },
+    {
+      "title": "Initial Evaluation of Potential Bias in Coverage of Humans in Wikidata",
+      "summary": "arXiv:2609.22375v1 Announce Type: new Abstract: Introduction. Open collaborative knowledge graphs such as Wikidata increasingly ground agentic artificial intelligence, information retrieval, and language modeling systems, making systematic auditing of their…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.22375"
+    },
+    {
+      "title": "AI-written admissions essays are widespread but penalized",
+      "summary": "arXiv:2609.22549v1 Announce Type: new Abstract: AI is rapidly transforming higher education, including the application process, yet relatively little is known about its use and consequences. To help close this gap, we analyze nearly 7{,}500 applications…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.22549"
+    },
+    {
+      "title": "The Moral Check: Strategic AI Governance for the Pacing Problem",
+      "summary": "arXiv:2609.22869v1 Announce Type: new Abstract: Technology cannot steer itself. Strategy provides that steering, establishing the rule that purpose and judgment must precede compute capital. As the frontier artificial intelligence (AI) ecosystem accelerates…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.22869"
+    },
+    {
+      "title": "Friend or foe?: evidence from the use of generative artificial intelligence in learning and teaching",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-09-22",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:e1317635-b62b-11f1-81de-01aa75ed71a1"
+    },
+    {
+      "title": "Priorities and principles for effective third party assessments",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-22",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments"
+    },
+    {
+      "title": "Is this how the world ends? Extinction scenarios are taking over the AI debate.",
+      "summary": "Policymakers have a track record of being deferential when dealing with the tech sector, says AI Now's Aya Ibrahim. “When it comes to tech issues, there’s just this culture of learned helplessness from the same policymakers that sit on energy and commerce…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-09-21",
-      "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
+      "url": "https://ainowinstitute.org/news/is-this-how-the-world-ends-extinction-scenarios-are-taking-over-the-ai-debate"
     },
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
@@ -51,22 +155,6 @@
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
     },
     {
-      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
-      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-21",
-      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/"
-    },
-    {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-21",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
-    },
-    {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
       "source": "OpenAI",
@@ -75,76 +163,20 @@
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
     },
     {
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-21",
-      "url": "https://arxiv.org/abs/2609.20971"
-    },
-    {
-      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-21",
-      "url": "https://arxiv.org/abs/2609.21061"
-    },
-    {
-      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-21",
-      "url": "https://arxiv.org/abs/2609.21113"
-    },
-    {
-      "title": "Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership",
-      "summary": "arXiv:2609.21194v1 Announce Type: new Abstract: Generative AI can improve students' programming performance, but successful task completion may not reflect what they retain. We examined performance, retention, cognitive load, and ownership in a controlled…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-21",
-      "url": "https://arxiv.org/abs/2609.21194"
-    },
-    {
-      "title": "Artificial Intelligence as an Economic, Environmental, Geopolitical, and Social Transformation",
-      "summary": "arXiv:2609.21632v1 Announce Type: new Abstract: The rapid development of artificial intelligence is often discussed primarily as a technological breakthrough. Such an approach is insufficient because AI is also transforming the allocation of capital, energy,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-21",
-      "url": "https://arxiv.org/abs/2609.21632"
-    },
-    {
-      "title": "When AI Enters the Workplace, Who Faces Greater Risks? A Gendered Analysis",
-      "summary": "arXiv:2609.21756v1 Announce Type: new Abstract: Gender inequality remains a persistent structural feature of the labour market, shaping women's lifetime earnings and economic security. As artificial intelligence (AI) transforms organisational practices, there…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-21",
-      "url": "https://arxiv.org/abs/2609.21756"
-    },
-    {
-      "title": "Hugging Face Hack Shows Humans Can Keep AI In Check",
-      "summary": "Weeks after the OpenAI hack, AI Now's Heidy Khlaaf affirms that \"ordinary security engineering would have stopped this well short of reaching Hugging Face’s data.\" The post Hugging Face Hack Shows Humans Can Keep AI In Check appeared first on AI Now Institute.",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-09-18",
-      "url": "https://ainowinstitute.org/news/press/hugging-face-hack-shows-humans-can-keep-ai-in-check"
-    },
-    {
-      "title": "The Download: AI’s extinction risk and bioweapons threat",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-18",
-      "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/"
-    },
-    {
       "title": "Data Union Conference",
       "summary": "Data Union Conference Anonymous (not verified) Fri, 09/18/2026 - 09:43 12 January 2027 Charlemagne building, Brussels, Belgium Bringing policymakers, businesses, experts and researchers together to turn Europe’s data policies into more data for AI, growth and…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-09-18",
       "url": "https://digital-strategy.ec.europa.eu/en/events/data-union-conference"
+    },
+    {
+      "title": "ANACOM participa em evento europeu sobre Inteligência Artificial e igualdade",
+      "summary": "Sandra Maximiano, Presidente da ANACOM, participou neste evento que assinalou o encerramento do projeto ''Defender a igualdade e a não discriminação por parte dos organismos para a igualdade relativamente à utilização da inteligência artificial nas…",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-09-17",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1858241"
     },
     {
       "title": "Fundamental rights in the EU Entry/Exit System feature at Darmstadt Biometrics Week 2026",
@@ -219,14 +251,6 @@
       "url": "https://www.cnil.fr/fr/audeladelecran"
     },
     {
-      "title": "Avis de concours général — EPSO/AD/430/26 — Administrateurs (AD 8) dans les domaines suivants: 1. Intelligence artificielle (IA); 2. Cybersécurité",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-09-08",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:c2b0e52c-ab1d-11f1-b9e5-01aa75ed71a1"
-    },
-    {
       "title": "Apply AI Summit",
       "summary": "Apply AI Summit Anonymous (not verified) Mon, 09/07/2026 - 15:58 17 November 2026 The EGG (Brussels) The Apply AI Summit will gather high-level stakeholders – from industrial representatives, policymakers and startups – to accelerate AI implementation in…",
       "source": "Shaping Europe's Digital Future",
@@ -275,28 +299,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/pitching-day-finalists-apply-ai-startup-award"
     },
     {
-      "title": "How Popular AI Chatbots Recommend Pro-life Websites to Pregnant People",
-      "summary": "An experiment involving four commercial chatbots across Europe found that these often blur the line between trusted health information and advocacy, frequently directing users to anti-abortion content without clearly identifying their sources or…",
-      "source": "AlgorithmWatch",
-      "tier": "10-sociedade",
-      "date": "2026-08-22",
-      "url": "https://algorithmwatch.org/en/chatbots-abortion-ai/"
-    },
-    {
       "title": "AP adviseert Twitch-gebruikers: zet instellingen uit voor delen van data met Amazon AI",
       "summary": "Streamingplatform Twitch heeft bekendgemaakt dat Amazon persoonsgegevens van Twitch-gebruikers gebruikt om AI-modellen mee te trainen. Gebruikers die niet willen dat Amazon hun streams, afbeeldingen en andere persoonsgegevens gebruikt, kunnen dit nu…",
       "source": "Autoriteit Persoonsgegevens",
       "tier": "4-dados",
       "date": "2026-08-20",
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-twitch-gebruikers-zet-instellingen-uit-voor-delen-van-data-met-amazon-ai"
-    },
-    {
-      "title": "Slow Regulation on AI-Generated CSAM is Failing its Victims",
-      "summary": "Artificial intelligence is reshaping the production of child sexual abuse material (CSAM) online, enabling new forms of exploitation that are outpacing the legal and regulatory frameworks designed to contain them.",
-      "source": "AlgorithmWatch",
-      "tier": "10-sociedade",
-      "date": "2026-08-20",
-      "url": "https://algorithmwatch.org/en/slow-regulation-ai-csam-victims/"
     },
     {
       "title": "Call for tenders: Study on how online marketplace design influences user behaviour",

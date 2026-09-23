@@ -1,8 +1,112 @@
 {
-  "generated": "2026-09-22T01:39:20.826Z",
+  "generated": "2026-09-23T01:31:32.259Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 493,
+  "count": 507,
   "items": [
+    {
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-23",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
+    },
+    {
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/"
+    },
+    {
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+    },
+    {
+      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+    },
+    {
+      "title": "Meta testa “concierge humano” para a nova assistente de IA Muse",
+      "summary": "A Meta tem estado a testar uma funcionalidade de “concierge humano” para a sua nova assistente pessoal de inteligência artificial, a Muse. O sistema envolve o recurso a prestadores de serviços humanos para realizarem algumas das chamadas telefónicas efetuadas…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://eco.sapo.pt/2026/09/22/meta-testa-concierge-humano-para-a-nova-assistente-de-ia-muse/"
+    },
+    {
+      "title": "Disrupting EvilTokens: The AI Chatbot Built for Cybercrime",
+      "summary": "Microsoft has disrupted EvilTokens, a powerful cybercrime platform that used AI at every step of the attack chain—from compromising email accounts to designing intricate roadmaps for financial fraud and scams. While EvilTokens helped cybercriminals access…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-09-22",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/"
+    },
+    {
+      "title": "Speech by President von der Leyen at the high-level dialogue on ‘Protecting Children's Rights facing Artificial Intelligence'",
+      "summary": "European Commission Speech New York, 23 Sep 2026 Thank you very much for convening this meeting, it is absolutely high time. I would like to tell you a little bit about what we are doing here in the European U...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-09-22",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1942"
+    },
+    {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/"
+    },
+    {
+      "title": "Don’t be fooled by this summer of AI hype",
+      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-22",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+    },
+    {
+      "title": "Initial Evaluation of Potential Bias in Coverage of Humans in Wikidata",
+      "summary": "arXiv:2609.22375v1 Announce Type: new Abstract: Introduction. Open collaborative knowledge graphs such as Wikidata increasingly ground agentic artificial intelligence, information retrieval, and language modeling systems, making systematic auditing of their…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.22375"
+    },
+    {
+      "title": "AI-written admissions essays are widespread but penalized",
+      "summary": "arXiv:2609.22549v1 Announce Type: new Abstract: AI is rapidly transforming higher education, including the application process, yet relatively little is known about its use and consequences. To help close this gap, we analyze nearly 7{,}500 applications…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.22549"
+    },
+    {
+      "title": "The Moral Check: Strategic AI Governance for the Pacing Problem",
+      "summary": "arXiv:2609.22869v1 Announce Type: new Abstract: Technology cannot steer itself. Strategy provides that steering, establishing the rule that purpose and judgment must precede compute capital. As the frontier artificial intelligence (AI) ecosystem accelerates…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.22869"
+    },
+    {
+      "title": "Priorities and principles for effective third party assessments",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-22",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments"
+    },
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
       "summary": "Hybrid Side Event during UNGA81 High-Level Week The post From surveillance to governance: recentering human rights in the UN AI agenda appeared first on Access Now.",
@@ -122,6 +226,14 @@
       "tier": "9-investigacao",
       "date": "2026-09-21",
       "url": "https://arxiv.org/abs/2609.21756"
+    },
+    {
+      "title": "Is this how the world ends? Extinction scenarios are taking over the AI debate.",
+      "summary": "Policymakers have a track record of being deferential when dealing with the tech sector, says AI Now's Aya Ibrahim. “When it comes to tech issues, there’s just this culture of learned helplessness from the same policymakers that sit on energy and commerce…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-21",
+      "url": "https://ainowinstitute.org/news/is-this-how-the-world-ends-extinction-scenarios-are-taking-over-the-ai-debate"
     },
     {
       "title": "Is the AI industry really ready to slow down?",
