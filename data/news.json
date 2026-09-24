@@ -1,46 +1,150 @@
 {
-  "generated": "2026-09-23T01:31:32.259Z",
+  "generated": "2026-09-24T01:25:24.162Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-      "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-23",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
-    },
-    {
-      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
-      "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "title": "Everything new coming to Meta’s AI agent Muse",
+      "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-22",
-      "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/"
+      "date": "2026-09-24",
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/"
     },
     {
-      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-22",
-      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-    },
-    {
-      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-      "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally…",
+      "title": "Meta is making a standalone Muse AI gadget",
+      "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-22",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+      "date": "2026-09-24",
+      "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware"
     },
     {
-      "title": "Meta testa “concierge humano” para a nova assistente de IA Muse",
-      "summary": "A Meta tem estado a testar uma funcionalidade de “concierge humano” para a sua nova assistente pessoal de inteligência artificial, a Muse. O sistema envolve o recurso a prestadores de serviços humanos para realizarem algumas das chamadas telefónicas efetuadas…",
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "summary": "The tiny hardware device creates another mobile home for its AI agent Muse.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/"
+    },
+    {
+      "title": "Meta Connect 2026: The biggest news and announcements",
+      "summary": "It’s about time for Meta Connect, the company’s annual product launch event. This year, given the company’s major focus on AI and wearables like smart glasses, it seems likely that we’ll see updates from CEO Mark Zuckerberg and his team on those categories.…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements"
+    },
+    {
+      "title": "De novo frente a frente, Trump e Xi procuram estabilidade comercial. IA, tarifas e Irão em cima da mesa",
+      "summary": "Depois dos encontros em outubro de 2025 e em maio deste ano, Donald Trump e Xi Jinping voltam a sentar-se à mesma mesa, desta vez em Washington, com um objetivo aparentemente fácil: impedir uma nova escalada da guerra comercial entre as duas maiores potências…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-09-22",
-      "url": "https://eco.sapo.pt/2026/09/22/meta-testa-concierge-humano-para-a-nova-assistente-de-ia-muse/"
+      "date": "2026-09-23",
+      "url": "https://eco.sapo.pt/2026/09/23/de-novo-frente-a-frente-trump-e-xi-procuram-estabilidade-comercial-ia-tarifas-e-irao-em-cima-da-mesa/"
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "source": "Google DeepMind",
+      "tier": "12-industria",
+      "date": "2026-09-23",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+    },
+    {
+      "title": "Two years of OpenAI Academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-23",
+      "url": "https://openai.com/index/two-years-of-openai-academy"
+    },
+    {
+      "title": "RBI report embargoed",
+      "summary": "RBI report embargoed tmorris Wed, 09/23/2026 - 16:12 Document remote_biometric_identification_embargo.pdf Language en - English Year 2026 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-23",
+      "url": "https://fra.europa.eu/en/content/rbi-report-embargoed"
+    },
+    {
+      "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-23",
+      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/"
+    },
+    {
+      "title": "Amendes RGPD et interaction avec le règlement sur les services numériques: retour sur la plénière du CEPD du 17 septembre 2026",
+      "summary": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-09-23",
+      "url": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques"
+    },
+    {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-23",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
+    },
+    {
+      "title": "The AI Hype Index: AI loves cheating",
+      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets).…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-23",
+      "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
+    },
+    {
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-23",
+      "url": "https://arxiv.org/abs/2609.25010"
+    },
+    {
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-23",
+      "url": "https://arxiv.org/abs/2609.25013"
+    },
+    {
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-23",
+      "url": "https://arxiv.org/abs/2609.25199"
+    },
+    {
+      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+      "summary": "arXiv:2609.25186v1 Announce Type: new Abstract: The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare, such as limited resources, high cost, stigma, and privacy concerns, has created an urgent…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-23",
+      "url": "https://arxiv.org/abs/2609.25186"
+    },
+    {
+      "title": "Embedded Assessments for Frontier AI",
+      "summary": "arXiv:2609.25413v1 Announce Type: new Abstract: Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment. But the risks from frontier AI models depend on how their developers use and govern them…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-23",
+      "url": "https://arxiv.org/abs/2609.25413"
+    },
+    {
+      "title": "Incipit: Axiom-Grounded Scaffolding for Human-AI Literary Creation",
+      "summary": "arXiv:2609.25504v1 Announce Type: new Abstract: Large language models can produce fluent prose from short prompts, but a direct interaction gives writers little access to the assumptions that shape a long narrative. We present Incipit, an implemented research…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-23",
+      "url": "https://arxiv.org/abs/2609.25504"
     },
     {
       "title": "Disrupting EvilTokens: The AI Chatbot Built for Cybercrime",
@@ -59,84 +163,12 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1942"
     },
     {
-      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-22",
-      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/"
-    },
-    {
-      "title": "Don’t be fooled by this summer of AI hype",
-      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-22",
-      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
-    },
-    {
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-22",
-      "url": "https://arxiv.org/abs/2609.20971"
-    },
-    {
-      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-22",
-      "url": "https://arxiv.org/abs/2609.21061"
-    },
-    {
-      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-22",
-      "url": "https://arxiv.org/abs/2609.21113"
-    },
-    {
-      "title": "Initial Evaluation of Potential Bias in Coverage of Humans in Wikidata",
-      "summary": "arXiv:2609.22375v1 Announce Type: new Abstract: Introduction. Open collaborative knowledge graphs such as Wikidata increasingly ground agentic artificial intelligence, information retrieval, and language modeling systems, making systematic auditing of their…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-22",
-      "url": "https://arxiv.org/abs/2609.22375"
-    },
-    {
-      "title": "AI-written admissions essays are widespread but penalized",
-      "summary": "arXiv:2609.22549v1 Announce Type: new Abstract: AI is rapidly transforming higher education, including the application process, yet relatively little is known about its use and consequences. To help close this gap, we analyze nearly 7{,}500 applications…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-22",
-      "url": "https://arxiv.org/abs/2609.22549"
-    },
-    {
-      "title": "The Moral Check: Strategic AI Governance for the Pacing Problem",
-      "summary": "arXiv:2609.22869v1 Announce Type: new Abstract: Technology cannot steer itself. Strategy provides that steering, establishing the rule that purpose and judgment must precede compute capital. As the frontier artificial intelligence (AI) ecosystem accelerates…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-22",
-      "url": "https://arxiv.org/abs/2609.22869"
-    },
-    {
       "title": "Friend or foe?: evidence from the use of generative artificial intelligence in learning and teaching",
       "summary": "—",
       "source": "EUR-Lex",
       "tier": "1-lei",
       "date": "2026-09-22",
       "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:e1317635-b62b-11f1-81de-01aa75ed71a1"
-    },
-    {
-      "title": "Priorities and principles for effective third party assessments",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-22",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments"
     },
     {
       "title": "Is this how the world ends? Extinction scenarios are taking over the AI debate.",
@@ -153,14 +185,6 @@
       "tier": "10-sociedade",
       "date": "2026-09-21",
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
-    },
-    {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-21",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
     },
     {
       "title": "Data Union Conference",
@@ -185,14 +209,6 @@
       "tier": "4-dados",
       "date": "2026-09-17",
       "url": "https://fra.europa.eu/en/news/2026/fundamental-rights-eu-entryexit-system-feature-darmstadt-biometrics-week-2026"
-    },
-    {
-      "title": "Conference to explore who protects the rule of law when AI goes wrong",
-      "summary": "Language English Summary FRA will present its AI and digitalisation work during the European Rule of Law Talks in Brussels on 22 September. It will join a panel alongside EDPS, EDRI and others. Published At 2026-09-17T13:06:52 Action buttons Dates…",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-09-17",
-      "url": "https://fra.europa.eu/en/event/2026/conference-explore-who-protects-rule-law-when-ai-goes-wrong"
     },
     {
       "title": "EU KIDS Act to restrict social media platforms’ access to children in the EU",
@@ -259,28 +275,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit"
     },
     {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "summary": "—",
-      "source": "Google DeepMind",
-      "tier": "12-industria",
-      "date": "2026-09-03",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-    },
-    {
       "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
       "summary": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 The Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large Online…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-08-31",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act"
-    },
-    {
-      "title": "IA: la CNIL met à jour son outil de traçabilité des modèles publiés en source ouverte",
-      "summary": "La CNIL publie une nouvelle version de son démonstrateur permettant d’explorer la généalogie des modèles d’IA publiés en source ouverte. Cette mise à jour améliore notamment les performances de l’outil, son ergonomie et automatise l’actualisation des données.…",
-      "source": "CNIL",
-      "tier": "4-dados",
-      "date": "2026-08-26",
-      "url": "https://www.cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte"
     },
     {
       "title": "New partnership set to see the UK and Ukraine develop battle winning technology as Britain secures access to Ukraine's Avengers AI Labs",
