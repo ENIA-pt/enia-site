@@ -1,46 +1,142 @@
 {
-  "generated": "2026-09-24T01:25:24.162Z",
+  "generated": "2026-09-25T01:33:12.748Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Everything new coming to Meta’s AI agent Muse",
-      "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/"
-    },
-    {
-      "title": "Meta is making a standalone Muse AI gadget",
-      "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the…",
+      "title": "The vibes are bad for Flock in Washington",
+      "summary": "Flock is in the hot seat in Washington, even if its CEO declined to actually face senators at a hearing about its \"AI Surveillance Network\" on Wednesday. \"There's many players in this industry, but there's one name that really stands out above the rest, and…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-09-24",
-      "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware"
+      "url": "https://www.theverge.com/policy/1000005/flock-senate-hearing"
     },
     {
-      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-      "summary": "The tiny hardware device creates another mobile home for its AI agent Muse.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/"
-    },
-    {
-      "title": "Meta Connect 2026: The biggest news and announcements",
-      "summary": "It’s about time for Meta Connect, the company’s annual product launch event. This year, given the company’s major focus on AI and wearables like smart glasses, it seems likely that we’ll see updates from CEO Mark Zuckerberg and his team on those categories.…",
+      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-09-24",
-      "url": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements"
+      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
     },
     {
-      "title": "De novo frente a frente, Trump e Xi procuram estabilidade comercial. IA, tarifas e Irão em cima da mesa",
-      "summary": "Depois dos encontros em outubro de 2025 e em maio deste ano, Donald Trump e Xi Jinping voltam a sentar-se à mesma mesa, desta vez em Washington, com um objetivo aparentemente fácil: impedir uma nova escalada da guerra comercial entre as duas maiores potências…",
+      "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+      "summary": "Prism's larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/"
+    },
+    {
+      "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
+      "summary": "Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/"
+    },
+    {
+      "title": "EUA e China opõem-se a novas regulamentações em matéria de IA",
+      "summary": "O Presidente norte-americano rejeitou esta quinta-feira mais regulamentações aplicadas à Inteligência Artificial (IA) e definiu este como um dos temas centrais nas conversações com o homólogo chinês, Xi Jinping, que partilha essa posição. “Um dia importante…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-09-23",
-      "url": "https://eco.sapo.pt/2026/09/23/de-novo-frente-a-frente-trump-e-xi-procuram-estabilidade-comercial-ia-tarifas-e-irao-em-cima-da-mesa/"
+      "date": "2026-09-24",
+      "url": "https://eco.sapo.pt/2026/09/24/eua-e-china-opoem-se-a-novas-regulamentacoes-em-materia-de-ia/"
+    },
+    {
+      "title": "Três em quatro utilizadores de redes sociais já usaram IA generativa",
+      "summary": "Quase oito em cada dez portugueses que utilizam redes sociais (77%) já recorreram a ferramentas de inteligência artificial generativa, como o ChatGPT, Gemini ou Copilot. A utilização é regular para quase 40% e ocasional para 38%, revela a 16.ª edição do…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://eco.sapo.pt/2026/09/24/tres-em-quatro-utilizadores-de-redes-sociais-ja-usaram-ia/"
+    },
+    {
+      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/"
+    },
+    {
+      "title": "Simplification for whom? Open letter to EU Member States to uphold GDPR protections in Digital Omnibus on Data",
+      "summary": "Over the past months, the European Commission's Digital Omnibus on Data has turned into a wider discussion about how much protection the data – and with it, the rights – of people in the EU should receive in the name of AI, innovation and competitiveness.…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-09-24",
+      "url": "https://edri.org/our-work/simplification-for-whom-open-letter-uphold-gdpr-protections-in-data-omnibus/"
+    },
+    {
+      "title": "AI is dominating the conversation at Climate Week",
+      "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/"
+    },
+    {
+      "title": "Remote biometric identification for law enforcement purposes - Fundamental rights implications",
+      "summary": "Remote biometric identification for law enforcement purposes - Fundamental rights implications lsiebentritt Thu, 09/24/2026 - 11:55 Document Remote biometric identification for law enforcement purposes - Fundamental rights implications Language en - English…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-24",
+      "url": "https://fra.europa.eu/en/content/remote-biometric-identification-law-enforcement-purposes-fundamental-rights-implications"
+    },
+    {
+      "title": "European Police Chiefs Convention Conference to focus on AI and law enforcement",
+      "summary": "Language English Summary FRA will take part in the annual European Police Chiefs Convention Conference in The Hague from 29 to 30 September. Published At 2026-09-24T11:17:25 Organised By Europol Action buttons Dates 2026-09-29T13:00:00 - 2026-09-30T13:00:00…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-24",
+      "url": "https://fra.europa.eu/en/event/2026/european-police-chiefs-convention-conference-focus-ai-and-law-enforcement"
+    },
+    {
+      "title": "Platforms' Research API Data Access: What Users See vs. What Researchers can Retrieve",
+      "summary": "arXiv:2601.12390v2 Announce Type: replace Abstract: Article 40(12) of the Digital Services Act (DSA) requires Very Large Online Platforms (VLOPs) to provide vetted researchers with access to publicly accessible data. While prior work has identified…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2601.12390"
+    },
+    {
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.25010"
+    },
+    {
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.25013"
+    },
+    {
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.25199"
+    },
+    {
+      "title": "Student Use of LLMs and the Limits of AI-Generated Question Difficulty in Data Science Courses",
+      "summary": "arXiv:2609.27063v1 Announce Type: new Abstract: This paper presents a multi-source classroom study conducted during a 10-week quarter in data science courses at Drexel University. We first investigate the behaviors of student engagement with large language…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.27063"
+    },
+    {
+      "title": "Quantifying the Occult: A Comparative Study of Hindu and Buddhist Deities Using Machine Learning Methods",
+      "summary": "arXiv:2609.27074v1 Announce Type: new Abstract: This study introduces a dual-matrix computational architecture to mathematically quantify the morphological and theological divergence of 196 Hindu and Vajrayana Buddhist esoteric deities. Physical morphology is…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.27074"
     },
     {
       "title": "Advancing Private AI Compute with secure, server-side memory",
@@ -59,22 +155,6 @@
       "url": "https://openai.com/index/two-years-of-openai-academy"
     },
     {
-      "title": "RBI report embargoed",
-      "summary": "RBI report embargoed tmorris Wed, 09/23/2026 - 16:12 Document remote_biometric_identification_embargo.pdf Language en - English Year 2026 Archive No",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-09-23",
-      "url": "https://fra.europa.eu/en/content/rbi-report-embargoed"
-    },
-    {
-      "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-23",
-      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/"
-    },
-    {
       "title": "Amendes RGPD et interaction avec le règlement sur les services numériques: retour sur la plénière du CEPD du 17 septembre 2026",
       "summary": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services…",
       "source": "CNIL",
@@ -89,62 +169,6 @@
       "tier": "12-industria",
       "date": "2026-09-23",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
-    },
-    {
-      "title": "The AI Hype Index: AI loves cheating",
-      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets).…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-23",
-      "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
-    },
-    {
-      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-23",
-      "url": "https://arxiv.org/abs/2609.25010"
-    },
-    {
-      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
-      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However,…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-23",
-      "url": "https://arxiv.org/abs/2609.25013"
-    },
-    {
-      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-23",
-      "url": "https://arxiv.org/abs/2609.25199"
-    },
-    {
-      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
-      "summary": "arXiv:2609.25186v1 Announce Type: new Abstract: The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare, such as limited resources, high cost, stigma, and privacy concerns, has created an urgent…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-23",
-      "url": "https://arxiv.org/abs/2609.25186"
-    },
-    {
-      "title": "Embedded Assessments for Frontier AI",
-      "summary": "arXiv:2609.25413v1 Announce Type: new Abstract: Third-party evaluations for frontier AI have mostly tested models through external interfaces before deployment. But the risks from frontier AI models depend on how their developers use and govern them…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-23",
-      "url": "https://arxiv.org/abs/2609.25413"
-    },
-    {
-      "title": "Incipit: Axiom-Grounded Scaffolding for Human-AI Literary Creation",
-      "summary": "arXiv:2609.25504v1 Announce Type: new Abstract: Large language models can produce fluent prose from short prompts, but a direct interaction gives writers little access to the assumptions that shape a long narrative. We present Incipit, an implemented research…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-23",
-      "url": "https://arxiv.org/abs/2609.25504"
     },
     {
       "title": "Disrupting EvilTokens: The AI Chatbot Built for Cybercrime",
@@ -193,22 +217,6 @@
       "tier": "2-comissao",
       "date": "2026-09-18",
       "url": "https://digital-strategy.ec.europa.eu/en/events/data-union-conference"
-    },
-    {
-      "title": "ANACOM participa em evento europeu sobre Inteligência Artificial e igualdade",
-      "summary": "Sandra Maximiano, Presidente da ANACOM, participou neste evento que assinalou o encerramento do projeto ''Defender a igualdade e a não discriminação por parte dos organismos para a igualdade relativamente à utilização da inteligência artificial nas…",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-09-17",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1858241"
-    },
-    {
-      "title": "Fundamental rights in the EU Entry/Exit System feature at Darmstadt Biometrics Week 2026",
-      "summary": "Language English Press release 0 Secondary theme Asylum Borders and information systems EU Charter of Fundamental Rights Title II: Freedoms Article 19 - Protection in the event of removal, expulsion or extradition Title II: Freedoms Article 8 - Protection of…",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-09-17",
-      "url": "https://fra.europa.eu/en/news/2026/fundamental-rights-eu-entryexit-system-feature-darmstadt-biometrics-week-2026"
     },
     {
       "title": "EU KIDS Act to restrict social media platforms’ access to children in the EU",
@@ -321,14 +329,6 @@
       "tier": "4-dados",
       "date": "2026-08-17",
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/de-fria-voor-ai-systemen-komt-eraan-bereid-u-voor"
-    },
-    {
-      "title": "Join the Inaugural D-TECT Forum",
-      "summary": "Join the Inaugural D-TECT Forum lobacni Mon, 08/10/2026 - 14:07 11 November 2026 The Drone Tech for Countering Threats (D-TECT) Forum is the EU industrial coordination mechanism for drone and counter-drone technologies. © Marcus Jacobi The European Commission…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-08-10",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/join-inaugural-d-tect-forum"
     },
     {
       "title": "Finlândia ativa enforcement",

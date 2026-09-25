@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-24T01:25:24.162Z",
+  "generated": "2026-09-25T01:33:12.748Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 525,
+  "count": 539,
   "items": [
     {
       "title": "Everything new coming to Meta’s AI agent Muse",
@@ -34,6 +34,118 @@
       "tier": "11-imprensa",
       "date": "2026-09-24",
       "url": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements"
+    },
+    {
+      "title": "The vibes are bad for Flock in Washington",
+      "summary": "Flock is in the hot seat in Washington, even if its CEO declined to actually face senators at a hearing about its \"AI Surveillance Network\" on Wednesday. \"There's many players in this industry, but there's one name that really stands out above the rest, and…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://www.theverge.com/policy/1000005/flock-senate-hearing"
+    },
+    {
+      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
+    },
+    {
+      "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+      "summary": "Prism's larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/"
+    },
+    {
+      "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
+      "summary": "Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/"
+    },
+    {
+      "title": "EUA e China opõem-se a novas regulamentações em matéria de IA",
+      "summary": "O Presidente norte-americano rejeitou esta quinta-feira mais regulamentações aplicadas à Inteligência Artificial (IA) e definiu este como um dos temas centrais nas conversações com o homólogo chinês, Xi Jinping, que partilha essa posição. “Um dia importante…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://eco.sapo.pt/2026/09/24/eua-e-china-opoem-se-a-novas-regulamentacoes-em-materia-de-ia/"
+    },
+    {
+      "title": "Três em quatro utilizadores de redes sociais já usaram IA generativa",
+      "summary": "Quase oito em cada dez portugueses que utilizam redes sociais (77%) já recorreram a ferramentas de inteligência artificial generativa, como o ChatGPT, Gemini ou Copilot. A utilização é regular para quase 40% e ocasional para 38%, revela a 16.ª edição do…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://eco.sapo.pt/2026/09/24/tres-em-quatro-utilizadores-de-redes-sociais-ja-usaram-ia/"
+    },
+    {
+      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/"
+    },
+    {
+      "title": "Simplification for whom? Open letter to EU Member States to uphold GDPR protections in Digital Omnibus on Data",
+      "summary": "Over the past months, the European Commission's Digital Omnibus on Data has turned into a wider discussion about how much protection the data – and with it, the rights – of people in the EU should receive in the name of AI, innovation and competitiveness.…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-09-24",
+      "url": "https://edri.org/our-work/simplification-for-whom-open-letter-uphold-gdpr-protections-in-data-omnibus/"
+    },
+    {
+      "title": "AI is dominating the conversation at Climate Week",
+      "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-24",
+      "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/"
+    },
+    {
+      "title": "Remote biometric identification for law enforcement purposes - Fundamental rights implications",
+      "summary": "Remote biometric identification for law enforcement purposes - Fundamental rights implications lsiebentritt Thu, 09/24/2026 - 11:55 Document Remote biometric identification for law enforcement purposes - Fundamental rights implications Language en - English…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-24",
+      "url": "https://fra.europa.eu/en/content/remote-biometric-identification-law-enforcement-purposes-fundamental-rights-implications"
+    },
+    {
+      "title": "European Police Chiefs Convention Conference to focus on AI and law enforcement",
+      "summary": "Language English Summary FRA will take part in the annual European Police Chiefs Convention Conference in The Hague from 29 to 30 September. Published At 2026-09-24T11:17:25 Organised By Europol Action buttons Dates 2026-09-29T13:00:00 - 2026-09-30T13:00:00…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-24",
+      "url": "https://fra.europa.eu/en/event/2026/european-police-chiefs-convention-conference-focus-ai-and-law-enforcement"
+    },
+    {
+      "title": "Platforms' Research API Data Access: What Users See vs. What Researchers can Retrieve",
+      "summary": "arXiv:2601.12390v2 Announce Type: replace Abstract: Article 40(12) of the Digital Services Act (DSA) requires Very Large Online Platforms (VLOPs) to provide vetted researchers with access to publicly accessible data. While prior work has identified…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2601.12390"
+    },
+    {
+      "title": "Student Use of LLMs and the Limits of AI-Generated Question Difficulty in Data Science Courses",
+      "summary": "arXiv:2609.27063v1 Announce Type: new Abstract: This paper presents a multi-source classroom study conducted during a 10-week quarter in data science courses at Drexel University. We first investigate the behaviors of student engagement with large language…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.27063"
+    },
+    {
+      "title": "Quantifying the Occult: A Comparative Study of Hindu and Buddhist Deities Using Machine Learning Methods",
+      "summary": "arXiv:2609.27074v1 Announce Type: new Abstract: This study introduces a dual-matrix computational architecture to mathematically quantify the morphological and theological divergence of 196 Hindu and Vajrayana Buddhist esoteric deities. Physical morphology is…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.27074"
     },
     {
       "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
