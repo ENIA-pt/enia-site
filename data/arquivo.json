@@ -1,8 +1,120 @@
 {
-  "generated": "2026-09-25T01:33:12.748Z",
+  "generated": "2026-09-26T01:37:01.443Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 539,
+  "count": 554,
   "items": [
+    {
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "summary": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"
+    },
+    {
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
+    },
+    {
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review"
+    },
+    {
+      "title": "Tribunal mantém exclusão da Anthropic de contratos do Pentágono",
+      "summary": "Um tribunal federal de Washington recusou esta sexta-feira anular a exclusão da empresa de Inteligência Artificial (IA) Anthropic de contratos do Pentágono, devido às restrições impostas pela empresa à utilização militar do modelo Claude. Os prestadores de…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://eco.sapo.pt/2026/09/25/tribunal-mantem-exclusao-da-anthropic-de-contratos-do-pentagono/"
+    },
+    {
+      "title": "One company is at the center of a wave of rogue AI attacks",
+      "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
+    },
+    {
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/"
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
+    },
+    {
+      "title": "RBI press release embargoed",
+      "summary": "RBI press release embargoed tmorris Fri, 09/25/2026 - 09:44 Document fra_press_release_-_remote_biometric_identification_-_embargoed.pdf Language en - English Year 2026 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-25",
+      "url": "https://fra.europa.eu/en/content/rbi-press-release-embargoed"
+    },
+    {
+      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+      "summary": "arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28506"
+    },
+    {
+      "title": "Pistis Technical Report",
+      "summary": "arXiv:2609.28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28554"
+    },
+    {
+      "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
+      "summary": "arXiv:2609.28557v1 Announce Type: new Abstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate established bioinformatics tools at…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28557"
+    },
+    {
+      "title": "When Evaluators Cry Wolf: Lessons from Production LLM-as-Judge Evaluation in Educational AI",
+      "summary": "arXiv:2609.28478v1 Announce Type: new Abstract: MagicSchool's K-12 AI product suite is used by millions of teachers and serves millions of teacher and student messages each month. Our team monitors output along four priority dimensions--student safety, tone…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28478"
+    },
+    {
+      "title": "The Domestic Unprotected Zone: Algorithmic Governance and the Reproduction of Perpetrator Discourse in Conversational AI",
+      "summary": "arXiv:2609.28479v1 Announce Type: new Abstract: Conversational AI increasingly mediates intimate-partner communication, and refusal logic at the inference layer now functions as a governance threshold for gendered harm. This article asks whether such systems…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28479"
+    },
+    {
+      "title": "RADAR: Readiness for AI Discovery and Agentic Reach",
+      "summary": "arXiv:2609.28480v1 Announce Type: new Abstract: Governments increasingly meet citizens through an AI system rather than a website. RADAR (Readiness for AI Discovery and Agentic Reach) measures whether that system works, across 166 countries and on two tasks:…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28480"
+    },
     {
       "title": "Everything new coming to Meta’s AI agent Muse",
       "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
@@ -362,6 +474,14 @@
       "tier": "12-industria",
       "date": "2026-09-22",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments"
+    },
+    {
+      "title": "Why AI companies can’t be trusted to self-regulate",
+      "summary": "In an op-ed, AI Now's Chief AI Scientist Heidy Khlaaf writes: From aviation to banking, high-risk industries are subject to independent oversight and meaningful penalties. AI companies should be no exception. The post Why AI companies can’t be trusted to…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://ainowinstitute.org/news/why-ai-companies-cant-be-trusted-to-self-regulate"
     },
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",

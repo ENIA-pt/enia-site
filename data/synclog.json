@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-25T01:30:52.290Z",
+  "startedAt": "2026-09-26T01:34:35.027Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -8,7 +8,7 @@
       "ok": true,
       "items": 60,
       "kept": 8,
-      "maisRecente": "2026-09-22"
+      "maisRecente": "2026-09-23"
     },
     {
       "id": "eurlex-oj-l",
@@ -107,7 +107,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "id": "fra",
@@ -116,7 +116,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-24"
+      "maisRecente": "2026-09-25"
     },
     {
       "id": "cnpd",
@@ -239,10 +239,10 @@
       "id": "bundesnetzagentur-de",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "agid-it",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 366,
+      "items": 357,
       "kept": 3,
-      "maisRecente": "2026-09-24"
+      "maisRecente": "2026-09-25"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 32,
+      "items": 43,
       "kept": 3,
-      "maisRecente": "2026-09-24"
+      "maisRecente": "2026-09-25"
     },
     {
       "id": "stanford-hai",
@@ -422,7 +422,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-21"
+      "maisRecente": "2026-09-22"
     },
     {
       "id": "cset",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-24"
+      "maisRecente": "2026-09-25"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-09-24"
+      "maisRecente": "2026-09-25"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-24"
+      "maisRecente": "2026-09-25"
     },
     {
       "id": "eco-pt",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 2,
-      "maisRecente": "2026-09-24"
+      "kept": 1,
+      "maisRecente": "2026-09-25"
     },
     {
       "id": "publico-tec",
@@ -591,7 +591,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1229,
+      "items": 1230,
       "kept": 2,
       "maisRecente": "2026-09-23"
     },
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1236,
+      "items": 1152,
       "kept": 0,
       "maisRecente": null
     },
@@ -680,7 +680,7 @@
   "warnings": [
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
-    "[edps] HTTP 404",
+    "[edps] HTTP 503",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
@@ -691,7 +691,6 @@
     "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
-    "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
     "[iso] HTTP 403",
     "[oecd-ai] HTTP 404",
@@ -714,14 +713,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-25T01:33:12.749Z",
-  "recolhidos": 42,
-  "written": 42,
-  "maisRecente": "2026-09-24",
+  "finishedAt": "2026-09-26T01:37:01.444Z",
+  "recolhidos": 41,
+  "written": 41,
+  "maisRecente": "2026-09-25",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 14,
+    "added": 15,
     "curados": 0,
-    "total": 539
+    "total": 554
   }
 }

@@ -1,62 +1,118 @@
 {
-  "generated": "2026-09-25T01:33:12.748Z",
+  "generated": "2026-09-26T01:37:01.443Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "The vibes are bad for Flock in Washington",
-      "summary": "Flock is in the hot seat in Washington, even if its CEO declined to actually face senators at a hearing about its \"AI Surveillance Network\" on Wednesday. \"There's many players in this industry, but there's one name that really stands out above the rest, and…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://www.theverge.com/policy/1000005/flock-senate-hearing"
-    },
-    {
-      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
-      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
-    },
-    {
-      "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
-      "summary": "Prism's larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.",
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "summary": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/"
+      "date": "2026-09-25",
+      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"
     },
     {
-      "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
-      "summary": "Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/"
+      "date": "2026-09-25",
+      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
     },
     {
-      "title": "EUA e China opõem-se a novas regulamentações em matéria de IA",
-      "summary": "O Presidente norte-americano rejeitou esta quinta-feira mais regulamentações aplicadas à Inteligência Artificial (IA) e definiu este como um dos temas centrais nas conversações com o homólogo chinês, Xi Jinping, que partilha essa posição. “Um dia importante…",
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review"
+    },
+    {
+      "title": "Tribunal mantém exclusão da Anthropic de contratos do Pentágono",
+      "summary": "Um tribunal federal de Washington recusou esta sexta-feira anular a exclusão da empresa de Inteligência Artificial (IA) Anthropic de contratos do Pentágono, devido às restrições impostas pela empresa à utilização militar do modelo Claude. Os prestadores de…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://eco.sapo.pt/2026/09/24/eua-e-china-opoem-se-a-novas-regulamentacoes-em-materia-de-ia/"
+      "date": "2026-09-25",
+      "url": "https://eco.sapo.pt/2026/09/25/tribunal-mantem-exclusao-da-anthropic-de-contratos-do-pentagono/"
     },
     {
-      "title": "Três em quatro utilizadores de redes sociais já usaram IA generativa",
-      "summary": "Quase oito em cada dez portugueses que utilizam redes sociais (77%) já recorreram a ferramentas de inteligência artificial generativa, como o ChatGPT, Gemini ou Copilot. A utilização é regular para quase 40% e ocasional para 38%, revela a 16.ª edição do…",
-      "source": "ECO",
+      "title": "One company is at the center of a wave of rogue AI attacks",
+      "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://eco.sapo.pt/2026/09/24/tres-em-quatro-utilizadores-de-redes-sociais-ja-usaram-ia/"
+      "date": "2026-09-25",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
     },
     {
-      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US…",
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/"
+      "date": "2026-09-25",
+      "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/"
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
+    },
+    {
+      "title": "RBI press release embargoed",
+      "summary": "RBI press release embargoed tmorris Fri, 09/25/2026 - 09:44 Document fra_press_release_-_remote_biometric_identification_-_embargoed.pdf Language en - English Year 2026 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-25",
+      "url": "https://fra.europa.eu/en/content/rbi-press-release-embargoed"
+    },
+    {
+      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+      "summary": "arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28506"
+    },
+    {
+      "title": "Pistis Technical Report",
+      "summary": "arXiv:2609.28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28554"
+    },
+    {
+      "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
+      "summary": "arXiv:2609.28557v1 Announce Type: new Abstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate established bioinformatics tools at…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28557"
+    },
+    {
+      "title": "When Evaluators Cry Wolf: Lessons from Production LLM-as-Judge Evaluation in Educational AI",
+      "summary": "arXiv:2609.28478v1 Announce Type: new Abstract: MagicSchool's K-12 AI product suite is used by millions of teachers and serves millions of teacher and student messages each month. Our team monitors output along four priority dimensions--student safety, tone…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28478"
+    },
+    {
+      "title": "The Domestic Unprotected Zone: Algorithmic Governance and the Reproduction of Perpetrator Discourse in Conversational AI",
+      "summary": "arXiv:2609.28479v1 Announce Type: new Abstract: Conversational AI increasingly mediates intimate-partner communication, and refusal logic at the inference layer now functions as a governance threshold for gendered harm. This article asks whether such systems…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28479"
+    },
+    {
+      "title": "RADAR: Readiness for AI Discovery and Agentic Reach",
+      "summary": "arXiv:2609.28480v1 Announce Type: new Abstract: Governments increasingly meet citizens through an AI system rather than a website. RADAR (Readiness for AI Discovery and Agentic Reach) measures whether that system works, across 166 countries and on two tasks:…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-25",
+      "url": "https://arxiv.org/abs/2609.28480"
     },
     {
       "title": "Simplification for whom? Open letter to EU Member States to uphold GDPR protections in Digital Omnibus on Data",
@@ -67,76 +123,12 @@
       "url": "https://edri.org/our-work/simplification-for-whom-open-letter-uphold-gdpr-protections-in-data-omnibus/"
     },
     {
-      "title": "AI is dominating the conversation at Climate Week",
-      "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-24",
-      "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/"
-    },
-    {
       "title": "Remote biometric identification for law enforcement purposes - Fundamental rights implications",
       "summary": "Remote biometric identification for law enforcement purposes - Fundamental rights implications lsiebentritt Thu, 09/24/2026 - 11:55 Document Remote biometric identification for law enforcement purposes - Fundamental rights implications Language en - English…",
       "source": "FRA",
       "tier": "4-dados",
       "date": "2026-09-24",
       "url": "https://fra.europa.eu/en/content/remote-biometric-identification-law-enforcement-purposes-fundamental-rights-implications"
-    },
-    {
-      "title": "European Police Chiefs Convention Conference to focus on AI and law enforcement",
-      "summary": "Language English Summary FRA will take part in the annual European Police Chiefs Convention Conference in The Hague from 29 to 30 September. Published At 2026-09-24T11:17:25 Organised By Europol Action buttons Dates 2026-09-29T13:00:00 - 2026-09-30T13:00:00…",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-09-24",
-      "url": "https://fra.europa.eu/en/event/2026/european-police-chiefs-convention-conference-focus-ai-and-law-enforcement"
-    },
-    {
-      "title": "Platforms' Research API Data Access: What Users See vs. What Researchers can Retrieve",
-      "summary": "arXiv:2601.12390v2 Announce Type: replace Abstract: Article 40(12) of the Digital Services Act (DSA) requires Very Large Online Platforms (VLOPs) to provide vetted researchers with access to publicly accessible data. While prior work has identified…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-24",
-      "url": "https://arxiv.org/abs/2601.12390"
-    },
-    {
-      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-24",
-      "url": "https://arxiv.org/abs/2609.25010"
-    },
-    {
-      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
-      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However,…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-24",
-      "url": "https://arxiv.org/abs/2609.25013"
-    },
-    {
-      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-24",
-      "url": "https://arxiv.org/abs/2609.25199"
-    },
-    {
-      "title": "Student Use of LLMs and the Limits of AI-Generated Question Difficulty in Data Science Courses",
-      "summary": "arXiv:2609.27063v1 Announce Type: new Abstract: This paper presents a multi-source classroom study conducted during a 10-week quarter in data science courses at Drexel University. We first investigate the behaviors of student engagement with large language…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-24",
-      "url": "https://arxiv.org/abs/2609.27063"
-    },
-    {
-      "title": "Quantifying the Occult: A Comparative Study of Hindu and Buddhist Deities Using Machine Learning Methods",
-      "summary": "arXiv:2609.27074v1 Announce Type: new Abstract: This study introduces a dual-matrix computational architecture to mathematically quantify the morphological and theological divergence of 196 Hindu and Vajrayana Buddhist esoteric deities. Physical morphology is…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-24",
-      "url": "https://arxiv.org/abs/2609.27074"
     },
     {
       "title": "Advancing Private AI Compute with secure, server-side memory",
@@ -171,6 +163,22 @@
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
     },
     {
+      "title": "Artificial intelligence and financial markets",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-09-23",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:c138ee1e-b889-11f1-81de-01aa75ed71a1"
+    },
+    {
+      "title": "Why AI companies can’t be trusted to self-regulate",
+      "summary": "In an op-ed, AI Now's Chief AI Scientist Heidy Khlaaf writes: From aviation to banking, high-risk industries are subject to independent oversight and meaningful penalties. AI companies should be no exception. The post Why AI companies can’t be trusted to…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-22",
+      "url": "https://ainowinstitute.org/news/why-ai-companies-cant-be-trusted-to-self-regulate"
+    },
+    {
       "title": "Disrupting EvilTokens: The AI Chatbot Built for Cybercrime",
       "summary": "Microsoft has disrupted EvilTokens, a powerful cybercrime platform that used AI at every step of the attack chain—from compromising email accounts to designing intricate roadmaps for financial fraud and scams. While EvilTokens helped cybercriminals access…",
       "source": "Microsoft On the Issues",
@@ -185,22 +193,6 @@
       "tier": "2-comissao",
       "date": "2026-09-22",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1942"
-    },
-    {
-      "title": "Friend or foe?: evidence from the use of generative artificial intelligence in learning and teaching",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-09-22",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:e1317635-b62b-11f1-81de-01aa75ed71a1"
-    },
-    {
-      "title": "Is this how the world ends? Extinction scenarios are taking over the AI debate.",
-      "summary": "Policymakers have a track record of being deferential when dealing with the tech sector, says AI Now's Aya Ibrahim. “When it comes to tech issues, there’s just this culture of learned helplessness from the same policymakers that sit on energy and commerce…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-09-21",
-      "url": "https://ainowinstitute.org/news/is-this-how-the-world-ends-extinction-scenarios-are-taking-over-the-ai-debate"
     },
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
