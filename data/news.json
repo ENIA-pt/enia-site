@@ -1,22 +1,38 @@
 {
-  "generated": "2026-09-26T01:37:01.443Z",
+  "generated": "2026-09-27T01:28:28.490Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "summary": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans.",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-25",
-      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"
+      "date": "2026-09-26",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/"
     },
     {
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
+      "date": "2026-09-26",
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/"
+    },
+    {
+      "title": "Agentes da OpenAI voltam a escapar ao controlo e acedem a sites de agências do Governo dos EUA",
+      "summary": "A OpenAI voltou a detetar situações em que os seus modelos de inteligência artificial fugiram ao controlo da empresa e desencadearam ação não pretendidas. Desta feita, os alvos incluíram agências do Governo dos Estados Unidos. Parte da atividade dos modelos…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-26",
+      "url": "https://eco.sapo.pt/2026/09/26/agentes-da-openai-voltam-a-escapar-ao-controlo-e-acedem-a-sites-de-agencias-do-governo-dos-eua/"
+    },
+    {
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
       "date": "2026-09-25",
-      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
     },
     {
       "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
@@ -25,22 +41,6 @@
       "tier": "11-imprensa",
       "date": "2026-09-25",
       "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review"
-    },
-    {
-      "title": "Tribunal mantém exclusão da Anthropic de contratos do Pentágono",
-      "summary": "Um tribunal federal de Washington recusou esta sexta-feira anular a exclusão da empresa de Inteligência Artificial (IA) Anthropic de contratos do Pentágono, devido às restrições impostas pela empresa à utilização militar do modelo Claude. Os prestadores de…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-09-25",
-      "url": "https://eco.sapo.pt/2026/09/25/tribunal-mantem-exclusao-da-anthropic-de-contratos-do-pentagono/"
-    },
-    {
-      "title": "One company is at the center of a wave of rogue AI attacks",
-      "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-25",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
     },
     {
       "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
@@ -65,54 +65,6 @@
       "tier": "4-dados",
       "date": "2026-09-25",
       "url": "https://fra.europa.eu/en/content/rbi-press-release-embargoed"
-    },
-    {
-      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
-      "summary": "arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-25",
-      "url": "https://arxiv.org/abs/2609.28506"
-    },
-    {
-      "title": "Pistis Technical Report",
-      "summary": "arXiv:2609.28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-25",
-      "url": "https://arxiv.org/abs/2609.28554"
-    },
-    {
-      "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
-      "summary": "arXiv:2609.28557v1 Announce Type: new Abstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate established bioinformatics tools at…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-25",
-      "url": "https://arxiv.org/abs/2609.28557"
-    },
-    {
-      "title": "When Evaluators Cry Wolf: Lessons from Production LLM-as-Judge Evaluation in Educational AI",
-      "summary": "arXiv:2609.28478v1 Announce Type: new Abstract: MagicSchool's K-12 AI product suite is used by millions of teachers and serves millions of teacher and student messages each month. Our team monitors output along four priority dimensions--student safety, tone…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-25",
-      "url": "https://arxiv.org/abs/2609.28478"
-    },
-    {
-      "title": "The Domestic Unprotected Zone: Algorithmic Governance and the Reproduction of Perpetrator Discourse in Conversational AI",
-      "summary": "arXiv:2609.28479v1 Announce Type: new Abstract: Conversational AI increasingly mediates intimate-partner communication, and refusal logic at the inference layer now functions as a governance threshold for gendered harm. This article asks whether such systems…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-25",
-      "url": "https://arxiv.org/abs/2609.28479"
-    },
-    {
-      "title": "RADAR: Readiness for AI Discovery and Agentic Reach",
-      "summary": "arXiv:2609.28480v1 Announce Type: new Abstract: Governments increasingly meet citizens through an AI system rather than a website. RADAR (Readiness for AI Discovery and Agentic Reach) measures whether that system works, across 166 countries and on two tasks:…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-25",
-      "url": "https://arxiv.org/abs/2609.28480"
     },
     {
       "title": "Simplification for whom? Open letter to EU Member States to uphold GDPR protections in Digital Omnibus on Data",
@@ -209,6 +161,14 @@
       "tier": "2-comissao",
       "date": "2026-09-18",
       "url": "https://digital-strategy.ec.europa.eu/en/events/data-union-conference"
+    },
+    {
+      "title": "ANACOM participa em evento europeu sobre Inteligência Artificial e igualdade",
+      "summary": "Sandra Maximiano, Presidente da ANACOM, participou neste evento que assinalou o encerramento do projeto ''Defender a igualdade e a não discriminação por parte dos organismos para a igualdade relativamente à utilização da inteligência artificial nas…",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-09-17",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1858241"
     },
     {
       "title": "EU KIDS Act to restrict social media platforms’ access to children in the EU",

@@ -1,8 +1,32 @@
 {
-  "generated": "2026-09-26T01:37:01.443Z",
+  "generated": "2026-09-27T01:28:28.490Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 554,
+  "count": 558,
   "items": [
+    {
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-26",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/"
+    },
+    {
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-26",
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/"
+    },
+    {
+      "title": "Agentes da OpenAI voltam a escapar ao controlo e acedem a sites de agências do Governo dos EUA",
+      "summary": "A OpenAI voltou a detetar situações em que os seus modelos de inteligência artificial fugiram ao controlo da empresa e desencadearam ação não pretendidas. Desta feita, os alvos incluíram agências do Governo dos Estados Unidos. Parte da atividade dos modelos…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-26",
+      "url": "https://eco.sapo.pt/2026/09/26/agentes-da-openai-voltam-a-escapar-ao-controlo-e-acedem-a-sites-de-agencias-do-governo-dos-eua/"
+    },
     {
       "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
       "summary": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans.",
@@ -114,6 +138,14 @@
       "tier": "9-investigacao",
       "date": "2026-09-25",
       "url": "https://arxiv.org/abs/2609.28480"
+    },
+    {
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-25",
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
     },
     {
       "title": "Everything new coming to Meta’s AI agent Muse",
