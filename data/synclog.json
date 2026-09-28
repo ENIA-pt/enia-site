@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-27T01:27:32.120Z",
+  "startedAt": "2026-09-28T01:39:53.701Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 24,
-      "kept": 2,
-      "maisRecente": "2026-09-17"
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "fetch failed"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "dre-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 27,
+      "items": 26,
       "kept": 0,
       "maisRecente": null
     },
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-09-26"
+      "maisRecente": "2026-09-27"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-25"
+      "maisRecente": "2026-09-27"
     },
     {
       "id": "eco-pt",
@@ -685,6 +685,10 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
+    "[anacom-noticias] fetch failed",
+    "[anacom-legislacao] fetch failed",
+    "[anacom-imprensa] fetch failed",
+    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -710,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-27T01:28:28.490Z",
-  "recolhidos": 36,
-  "written": 36,
-  "maisRecente": "2026-09-26",
+  "finishedAt": "2026-09-28T01:42:28.476Z",
+  "recolhidos": 35,
+  "written": 35,
+  "maisRecente": "2026-09-27",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
     "added": 4,
     "curados": 0,
-    "total": 558
+    "total": 562
   }
 }
