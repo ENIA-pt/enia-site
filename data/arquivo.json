@@ -1,8 +1,128 @@
 {
-  "generated": "2026-09-28T01:42:28.475Z",
+  "generated": "2026-09-29T02:38:36.982Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 562,
+  "count": 578,
   "items": [
+    {
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-28",
+      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/"
+    },
+    {
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-28",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+    },
+    {
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-28",
+      "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
+    },
+    {
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-28",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids"
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-28",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
+    },
+    {
+      "title": "Remarks by Commissioner McGrath at the General Assembly of the United Nations' Side-Event on Shaping Democratic Agency over the course of AI Development",
+      "summary": "European Commission Speech New York, 28 Sep 2026 Excellencies, distinguished guests, ladies and gentlemen, It's a pleasure to join you at this important United Nations discussion on how countries can shape the...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-09-28",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1997"
+    },
+    {
+      "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
+      "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-09-28",
+      "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
+    },
+    {
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Who’s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-28",
+      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/"
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-28",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+    },
+    {
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30291"
+    },
+    {
+      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30341"
+    },
+    {
+      "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+      "summary": "arXiv:2609.30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30397"
+    },
+    {
+      "title": "Beyond the Last Truffula Tree: SustainAI - A Water-Aware, Closed-Loop Framework for Environmentally Accountable AI",
+      "summary": "arXiv:2609.30747v1 Announce Type: new Abstract: As artificial intelligence (AI) becomes embedded in everyday life, its environmental footprint, particularly water consumption remains largely invisible. While energy and carbon impacts are widely recognized,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30747"
+    },
+    {
+      "title": "Large language models underestimate and partly misrepresent cultural variation in everyday norms",
+      "summary": "arXiv:2609.30896v1 Announce Type: new Abstract: A key aspect of culture is a society's norms about everyday behavior. How accurately do large language models (LLMs) represent cultural differences in such norms? To answer this question we used the recent…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30896"
+    },
+    {
+      "title": "Incipit: Axiom-Grounded Scaffolding for Human-AI Literary Creation",
+      "summary": "arXiv:2609.31007v1 Announce Type: new Abstract: Large language models can produce fluent prose from short prompts, but direct prompt-to-text interaction gives writers limited access to the assumptions that shape a long narrative. We present Incipit, an…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.31007"
+    },
     {
       "title": "Engram is a sampler that turns broken AI hallucinations into music",
       "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This…",
@@ -322,6 +442,14 @@
       "tier": "9-investigacao",
       "date": "2026-09-24",
       "url": "https://arxiv.org/abs/2609.27074"
+    },
+    {
+      "title": "America Is Behind on Memory Chips—and Tariffs Threaten to Make Things Harder",
+      "summary": "CSET’s Hanna Dohmen shared her expert insight in an article published by The Wall Street Journal. The article examines the United States’ reliance on foreign-made memory chips and how proposed tariffs could complicate efforts to expand domestic semiconductor…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://cset.georgetown.edu/article/america-is-behind-on-memory-chips-and-tariffs-threaten-to-make-things-harder/"
     },
     {
       "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",

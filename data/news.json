@@ -1,62 +1,126 @@
 {
-  "generated": "2026-09-28T01:42:28.475Z",
+  "generated": "2026-09-29T02:38:36.982Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Engram is a sampler that turns broken AI hallucinations into music",
-      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-27",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music"
-    },
-    {
-      "title": "Can Muse overcome Meta’s trust issues?",
-      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-27",
-      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/"
+      "date": "2026-09-28",
+      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/"
     },
     {
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack,…",
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-27",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
+      "date": "2026-09-28",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
     },
     {
-      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
-      "summary": "\"AI is the devil and I its maker.\"",
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-09-27",
-      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/"
+      "date": "2026-09-28",
+      "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
     },
     {
-      "title": "Agentes da OpenAI voltam a escapar ao controlo e acedem a sites de agências do Governo dos EUA",
-      "summary": "A OpenAI voltou a detetar situações em que os seus modelos de inteligência artificial fugiram ao controlo da empresa e desencadearam ação não pretendidas. Desta feita, os alvos incluíram agências do Governo dos Estados Unidos. Parte da atividade dos modelos…",
-      "source": "ECO",
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-26",
-      "url": "https://eco.sapo.pt/2026/09/26/agentes-da-openai-voltam-a-escapar-ao-controlo-e-acedem-a-sites-de-agencias-do-governo-dos-eua/"
+      "date": "2026-09-28",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids"
     },
     {
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over…",
+      "title": "When can we say AI made a scientific discovery?",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-25",
-      "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/"
+      "date": "2026-09-28",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
     },
     {
-      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use…",
+      "title": "Remarks by Commissioner McGrath at the General Assembly of the United Nations' Side-Event on Shaping Democratic Agency over the course of AI Development",
+      "summary": "European Commission Speech New York, 28 Sep 2026 Excellencies, distinguished guests, ladies and gentlemen, It's a pleasure to join you at this important United Nations discussion on how countries can shape the...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-09-28",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1997"
+    },
+    {
+      "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
+      "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-09-28",
+      "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
+    },
+    {
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Who’s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-09-25",
-      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
+      "date": "2026-09-28",
+      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/"
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-28",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+    },
+    {
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30291"
+    },
+    {
+      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30341"
+    },
+    {
+      "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+      "summary": "arXiv:2609.30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30397"
+    },
+    {
+      "title": "Beyond the Last Truffula Tree: SustainAI - A Water-Aware, Closed-Loop Framework for Environmentally Accountable AI",
+      "summary": "arXiv:2609.30747v1 Announce Type: new Abstract: As artificial intelligence (AI) becomes embedded in everyday life, its environmental footprint, particularly water consumption remains largely invisible. While energy and carbon impacts are widely recognized,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30747"
+    },
+    {
+      "title": "Large language models underestimate and partly misrepresent cultural variation in everyday norms",
+      "summary": "arXiv:2609.30896v1 Announce Type: new Abstract: A key aspect of culture is a society's norms about everyday behavior. How accurately do large language models (LLMs) represent cultural differences in such norms? To answer this question we used the recent…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.30896"
+    },
+    {
+      "title": "Incipit: Axiom-Grounded Scaffolding for Human-AI Literary Creation",
+      "summary": "arXiv:2609.31007v1 Announce Type: new Abstract: Large language models can produce fluent prose from short prompts, but direct prompt-to-text interaction gives writers limited access to the assumptions that shape a long narrative. We present Incipit, an…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://arxiv.org/abs/2609.31007"
     },
     {
       "title": "RBI press release embargoed",
@@ -65,6 +129,14 @@
       "tier": "4-dados",
       "date": "2026-09-25",
       "url": "https://fra.europa.eu/en/content/rbi-press-release-embargoed"
+    },
+    {
+      "title": "America Is Behind on Memory Chips—and Tariffs Threaten to Make Things Harder",
+      "summary": "CSET’s Hanna Dohmen shared her expert insight in an article published by The Wall Street Journal. The article examines the United States’ reliance on foreign-made memory chips and how proposed tariffs could complicate efforts to expand domestic semiconductor…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-09-24",
+      "url": "https://cset.georgetown.edu/article/america-is-behind-on-memory-chips-and-tariffs-threaten-to-make-things-harder/"
     },
     {
       "title": "Simplification for whom? Open letter to EU Member States to uphold GDPR protections in Digital Omnibus on Data",
@@ -107,14 +179,6 @@
       "url": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques"
     },
     {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-23",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
-    },
-    {
       "title": "Artificial intelligence and financial markets",
       "summary": "—",
       "source": "EUR-Lex",
@@ -137,14 +201,6 @@
       "tier": "12-industria",
       "date": "2026-09-22",
       "url": "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/"
-    },
-    {
-      "title": "Speech by President von der Leyen at the high-level dialogue on ‘Protecting Children's Rights facing Artificial Intelligence'",
-      "summary": "European Commission Speech New York, 23 Sep 2026 Thank you very much for convening this meeting, it is absolutely high time. I would like to tell you a little bit about what we are doing here in the European U...",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-09-22",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1942"
     },
     {
       "title": "From surveillance to governance: recentering human rights in the UN AI agenda",
@@ -185,14 +241,6 @@
       "tier": "9-investigacao",
       "date": "2026-09-15",
       "url": "https://montrealethics.ai/the-ai-ethics-brief-199-the-capacity-to-govern/"
-    },
-    {
-      "title": "The week the AI freakout went mainstream",
-      "summary": "CSET’s Jessica Ji shared her expert insight in an article published by Vox. The article examines growing concerns about catastrophic AI risks and the challenges of creating effective government oversight as AI systems become more capable and potentially…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-09-12",
-      "url": "https://cset.georgetown.edu/article/the-week-the-ai-freakout-went-mainstream/"
     },
     {
       "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",

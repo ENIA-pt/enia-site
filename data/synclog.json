@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-28T01:39:53.701Z",
+  "startedAt": "2026-09-29T02:34:45.215Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -23,10 +23,10 @@
       "id": "op-cellar-atom",
       "tier": "1-lei",
       "kind": "atom",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 403"
     },
     {
       "id": "ec-press-corner",
@@ -35,7 +35,7 @@
       "ok": true,
       "items": 50,
       "kept": 1,
-      "maisRecente": "2026-09-22"
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "ec-digital-strategy",
@@ -107,7 +107,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "id": "fra",
@@ -284,10 +284,10 @@
       "id": "etsi",
       "tier": "6-normas",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "timeout 25s"
     },
     {
       "id": "oecd-ai",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 331,
+      "kept": 3,
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 19,
+      "kept": 3,
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "stanford-hai",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-12"
+      "maisRecente": "2026-09-24"
     },
     {
       "id": "oii",
@@ -457,8 +457,8 @@
       "kind": "rss",
       "ok": true,
       "items": 20,
-      "kept": 1,
-      "maisRecente": "2026-09-10"
+      "kept": 2,
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "algorithmwatch",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-25"
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-09-27"
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "theverge-ai",
@@ -548,16 +548,16 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-27"
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "eco-pt",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
-      "items": 22,
-      "kept": 1,
-      "maisRecente": "2026-09-26"
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "timeout 25s"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1230,
+      "items": 1234,
       "kept": 2,
-      "maisRecente": "2026-09-23"
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1339,
+      "items": 1277,
       "kept": 0,
       "maisRecente": null
     },
@@ -678,9 +678,10 @@
     }
   ],
   "warnings": [
+    "[op-cellar-atom] HTTP 403",
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
-    "[edps] HTTP 503",
+    "[edps] HTTP 404",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
@@ -694,11 +695,13 @@
     "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
     "[iso] HTTP 403",
+    "[etsi] timeout 25s",
     "[oecd-ai] HTTP 404",
     "[coe-ai] HTTP 403",
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[eco-pt] timeout 25s",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -714,14 +717,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-28T01:42:28.476Z",
-  "recolhidos": 35,
-  "written": 35,
-  "maisRecente": "2026-09-27",
+  "finishedAt": "2026-09-29T02:38:36.983Z",
+  "recolhidos": 41,
+  "written": 41,
+  "maisRecente": "2026-09-28",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 4,
+    "added": 16,
     "curados": 0,
-    "total": 562
+    "total": 578
   }
 }
