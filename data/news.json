@@ -1,46 +1,166 @@
 {
-  "generated": "2026-09-29T02:38:36.982Z",
+  "generated": "2026-09-30T02:09:54.219Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "OpenAI reportedly ditches model over safety concerns",
-      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-28",
-      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/"
-    },
-    {
-      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of…",
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "summary": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-28",
-      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+      "date": "2026-09-30",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety"
     },
     {
-      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
-      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-09-28",
-      "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
-    },
-    {
-      "title": "Florida seeks a ban on ChatGPT acting like a person",
-      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of…",
+      "title": "OpenAI DevDay 2026: The biggest news and announcements",
+      "summary": "It’s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed several notable updates, including Dots, its AI agent product…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-09-28",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids"
+      "date": "2026-09-30",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
     },
     {
-      "title": "When can we say AI made a scientific discovery?",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents…",
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/"
+    },
+    {
+      "title": "OpenAI’s latest features take direct aim at the app store model",
+      "summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/"
+    },
+    {
+      "title": "The AI Ethics Brief #200: Who Is This For?",
+      "summary": "On MAIEI’s founding question, the fragility that can accompany AI adoption, and the people institutions need to govern it. Source",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-200-who-is-this-for/"
+    },
+    {
+      "title": "OpenAI cancela lançamento de novo modelo de IA por riscos de segurança",
+      "summary": "A OpenAI cancelou o lançamento do seu novo modelo de inteligência artificial (IA), o GPT-6.1 Astra, por ter percebido que não cumpria normas de segurança. A tecnológica norte-americana tinha previsto lançar o sistema de última geração em outubro, mas as…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-29",
+      "url": "https://eco.sapo.pt/2026/09/29/openai-cancela-lancamento-de-novo-modelo-de-ia-por-riscos-de-seguranca/"
+    },
+    {
+      "title": "Ativo do dia. Anthropic quer entrar em bolsa a valer 2 biliões de dólares",
+      "summary": "O ativo Ações da Anthropic. Ainda não entraram sequer em bolsa e já mexem com os mercados. A Reuters teve acesso ao prospeto do IPO (oferta pública inicial) da empresa de inteligência artificial (IA) que desenvolveu o modelo Claude e noticiou que a…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-29",
+      "url": "https://eco.sapo.pt/2026/09/29/ativo-do-dia-anthropic-quer-entrar-em-bolsa-a-valer-2-bilioes-de-dolares/"
+    },
+    {
+      "title": "Tracking AI Chips: What Does It Cost?",
+      "summary": "In an accompanying report, we found that two methods are best for verifying the location of AI chips: ping-based location verification (PLV) and physical inspections. This piece compares these two methods through a cost-benefit analysis and shows that PLV is…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://cset.georgetown.edu/article/tracking-ai-chips-what-does-it-cost/"
+    },
+    {
+      "title": "The Download: climate tech companies to watch and AI’s discovery problem",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
+      "date": "2026-09-29",
+      "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/"
+    },
+    {
+      "title": "Making AI an asset, not an expense",
+      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-29",
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/"
+    },
+    {
+      "title": "Discours de la Commissaire Lahbib au Parlement fédéral Belge",
+      "summary": "European Commission Discours Brussels, 29 Sep 2026 C'est un plaisir d'être de retour au Parlement belge, l'enceinte où les échanges sont toujours enrichissants, j'ai pu y aiguiser mon combat politique… J'ai un p...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-09-29",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_2001"
+    },
+    {
+      "title": "Targeted consultation to support a better copyright environment for creativity and innovation",
+      "summary": "Targeted consultation to support a better copyright environment for creativity and innovation Anonymous (not verified) Tue, 09/29/2026 - 10:15 Opening: 29 September 2026 Closing: 03 November 2026 The Commission has launched a targeted consultation in…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-09-29",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-support-better-copyright-environment-creativity-and-innovation"
+    },
+    {
+      "title": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
+      "summary": "arXiv:2609.28335v2 Announce Type: replace Abstract: Claims about AI safety reach audiences well beyond the AI community, yet many rely on opaque evidence or static assessments, when supporting evidence is accessible at all. We present the Systemic Risk Index,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://arxiv.org/abs/2609.28335"
+    },
+    {
+      "title": "SMARtCARE: Privacy-Preserving Agentic AI Systems for Bounded-Autonomy Clinical Decision Support",
+      "summary": "arXiv:2609.31763v1 Announce Type: new Abstract: Long-context clinical AI systems can miss relevant patient history when prior admissions fall outside the active reasoning context. In ICU monitoring, this can cause early vital-sign drift to appear nonspecific…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://arxiv.org/abs/2609.31763"
+    },
+    {
+      "title": "Working with AI: A Design Framework for Human-AI Collaboration",
+      "summary": "arXiv:2609.31793v1 Announce Type: new Abstract: Artificial Intelligence (AI), particularly GenAI, is becoming an increasingly important part of modern work. In industrial settings, AI can support decision-making, automate routine activities, assist humans,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://arxiv.org/abs/2609.31793"
+    },
+    {
+      "title": "The Death of the Legal Author. Authority, Intention, And Law-Creation in the Advent of GenAI",
+      "summary": "arXiv:2609.31621v1 Announce Type: new Abstract: Generative artificial intelligence in the form of chatbots based on large language models (LLMs) has taken the world of law by storm. Philosophy of law is struggling to catch up with the theoretical significance…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://arxiv.org/abs/2609.31621"
+    },
+    {
+      "title": "The Multi-Lab Enterprise: Governance, FinOps, and Telemetry Challenges of Multi-Model AI Adoption",
+      "summary": "arXiv:2609.31622v1 Announce Type: new Abstract: Enterprises are not choosing a single frontier AI provider; they are licensing all of them. As of early 2026, 81% of Global 2000 enterprises run three or more model families, and OpenAI, Anthropic, and Google…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://arxiv.org/abs/2609.31622"
+    },
+    {
+      "title": "Perceived and Actual AI Deepfakes: The Case of Sudan",
+      "summary": "arXiv:2609.31625v1 Announce Type: new Abstract: Sudan's AI deepfake risk currently appears driven more by demand-side vulnerabilities than the volume of AI deepfake content. While AI-generated disinformation in Sudanese feeds remains limited, perceived…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-29",
+      "url": "https://arxiv.org/abs/2609.31625"
+    },
+    {
+      "title": "Berichtigung der Verordnung (EU) 2026/1744 des Europäischen Parlaments und des Rates vom 8. Juli 2026 zur Änderung der Verordnungen (EU) 2024/1689, (EU)…",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-09-29",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:1d32c7c2-bb9e-11f1-81de-01aa75ed71a1"
+    },
+    {
+      "title": "Towards safety cases for frontier AI training",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "source": "OpenAI",
+      "tier": "12-industria",
       "date": "2026-09-28",
-      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
     },
     {
       "title": "Remarks by Commissioner McGrath at the General Assembly of the United Nations' Side-Event on Shaping Democratic Agency over the course of AI Development",
@@ -59,14 +179,6 @@
       "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
     },
     {
-      "title": "The Download: rogue agent liability and the AI Hype Index",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Who’s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-09-28",
-      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/"
-    },
-    {
       "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
       "source": "OpenAI",
@@ -75,68 +187,12 @@
       "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
     },
     {
-      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
-      "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-28",
-      "url": "https://arxiv.org/abs/2609.30291"
-    },
-    {
-      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-28",
-      "url": "https://arxiv.org/abs/2609.30341"
-    },
-    {
-      "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
-      "summary": "arXiv:2609.30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-09-28",
-      "url": "https://arxiv.org/abs/2609.30397"
-    },
-    {
-      "title": "Beyond the Last Truffula Tree: SustainAI - A Water-Aware, Closed-Loop Framework for Environmentally Accountable AI",
-      "summary": "arXiv:2609.30747v1 Announce Type: new Abstract: As artificial intelligence (AI) becomes embedded in everyday life, its environmental footprint, particularly water consumption remains largely invisible. While energy and carbon impacts are widely recognized,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-28",
-      "url": "https://arxiv.org/abs/2609.30747"
-    },
-    {
-      "title": "Large language models underestimate and partly misrepresent cultural variation in everyday norms",
-      "summary": "arXiv:2609.30896v1 Announce Type: new Abstract: A key aspect of culture is a society's norms about everyday behavior. How accurately do large language models (LLMs) represent cultural differences in such norms? To answer this question we used the recent…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-28",
-      "url": "https://arxiv.org/abs/2609.30896"
-    },
-    {
-      "title": "Incipit: Axiom-Grounded Scaffolding for Human-AI Literary Creation",
-      "summary": "arXiv:2609.31007v1 Announce Type: new Abstract: Large language models can produce fluent prose from short prompts, but direct prompt-to-text interaction gives writers limited access to the assumptions that shape a long narrative. We present Incipit, an…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-09-28",
-      "url": "https://arxiv.org/abs/2609.31007"
-    },
-    {
       "title": "RBI press release embargoed",
       "summary": "RBI press release embargoed tmorris Fri, 09/25/2026 - 09:44 Document fra_press_release_-_remote_biometric_identification_-_embargoed.pdf Language en - English Year 2026 Archive No",
       "source": "FRA",
       "tier": "4-dados",
       "date": "2026-09-25",
       "url": "https://fra.europa.eu/en/content/rbi-press-release-embargoed"
-    },
-    {
-      "title": "America Is Behind on Memory Chips—and Tariffs Threaten to Make Things Harder",
-      "summary": "CSET’s Hanna Dohmen shared her expert insight in an article published by The Wall Street Journal. The article examines the United States’ reliance on foreign-made memory chips and how proposed tariffs could complicate efforts to expand domestic semiconductor…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-09-24",
-      "url": "https://cset.georgetown.edu/article/america-is-behind-on-memory-chips-and-tariffs-threaten-to-make-things-harder/"
     },
     {
       "title": "Simplification for whom? Open letter to EU Member States to uphold GDPR protections in Digital Omnibus on Data",
@@ -163,28 +219,12 @@
       "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
     },
     {
-      "title": "Two years of OpenAI Academy",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-23",
-      "url": "https://openai.com/index/two-years-of-openai-academy"
-    },
-    {
       "title": "Amendes RGPD et interaction avec le règlement sur les services numériques: retour sur la plénière du CEPD du 17 septembre 2026",
       "summary": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services…",
       "source": "CNIL",
       "tier": "4-dados",
       "date": "2026-09-23",
       "url": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques"
-    },
-    {
-      "title": "Artificial intelligence and financial markets",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-09-23",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:c138ee1e-b889-11f1-81de-01aa75ed71a1"
     },
     {
       "title": "Why AI companies can’t be trusted to self-regulate",
@@ -233,14 +273,6 @@
       "tier": "2-comissao",
       "date": "2026-09-17",
       "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy"
-    },
-    {
-      "title": "The AI Ethics Brief #199: The Capacity to Govern",
-      "summary": "On open weights for everyone else, credit for a disputed mathematics proof, and control over autonomous weapons. Source",
-      "source": "Montreal AI Ethics Institute",
-      "tier": "9-investigacao",
-      "date": "2026-09-15",
-      "url": "https://montrealethics.ai/the-ai-ethics-brief-199-the-capacity-to-govern/"
     },
     {
       "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",

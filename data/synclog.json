@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-29T02:34:45.215Z",
+  "startedAt": "2026-09-30T02:07:47.095Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -8,7 +8,7 @@
       "ok": true,
       "items": 60,
       "kept": 8,
-      "maisRecente": "2026-09-23"
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "eurlex-oj-l",
@@ -23,10 +23,10 @@
       "id": "op-cellar-atom",
       "tier": "1-lei",
       "kind": "atom",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 403"
+      "maisRecente": null
     },
     {
       "id": "ec-press-corner",
@@ -34,8 +34,8 @@
       "kind": "rss",
       "ok": true,
       "items": 50,
-      "kept": 1,
-      "maisRecente": "2026-09-28"
+      "kept": 2,
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "ec-digital-strategy",
@@ -43,8 +43,8 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 7,
-      "maisRecente": "2026-09-18"
+      "kept": 8,
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "ec-have-your-say",
@@ -284,10 +284,10 @@
       "id": "etsi",
       "tier": "6-normas",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "timeout 25s"
+      "maisRecente": null
     },
     {
       "id": "oecd-ai",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 26,
+      "items": 28,
       "kept": 0,
       "maisRecente": null
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 331,
+      "items": 1446,
       "kept": 3,
-      "maisRecente": "2026-09-28"
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 19,
+      "items": 81,
       "kept": 3,
-      "maisRecente": "2026-09-28"
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "stanford-hai",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-24"
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "oii",
@@ -449,7 +449,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-15"
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "fli",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-28"
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-09-28"
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "theverge-ai",
@@ -548,16 +548,16 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-28"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "eco-pt",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "timeout 25s"
+      "ok": true,
+      "items": 22,
+      "kept": 2,
+      "maisRecente": "2026-09-29"
     },
     {
       "id": "publico-tec",
@@ -591,7 +591,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1234,
+      "items": 1238,
       "kept": 2,
       "maisRecente": "2026-09-28"
     },
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1277,
+      "items": 1633,
       "kept": 0,
       "maisRecente": null
     },
@@ -678,7 +678,6 @@
     }
   ],
   "warnings": [
-    "[op-cellar-atom] HTTP 403",
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
@@ -695,13 +694,11 @@
     "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
     "[iso] HTTP 403",
-    "[etsi] timeout 25s",
     "[oecd-ai] HTTP 404",
     "[coe-ai] HTTP 403",
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[eco-pt] timeout 25s",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -717,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-29T02:38:36.983Z",
-  "recolhidos": 41,
-  "written": 41,
-  "maisRecente": "2026-09-28",
+  "finishedAt": "2026-09-30T02:09:54.220Z",
+  "recolhidos": 45,
+  "written": 45,
+  "maisRecente": "2026-09-30",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 16,
+    "added": 19,
     "curados": 0,
-    "total": 578
+    "total": 597
   }
 }
