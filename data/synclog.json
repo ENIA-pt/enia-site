@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-30T02:07:47.095Z",
+  "startedAt": "2026-10-01T02:09:26.590Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 28,
+      "items": 31,
       "kept": 0,
       "maisRecente": null
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1446,
+      "items": 725,
       "kept": 3,
-      "maisRecente": "2026-09-29"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 81,
+      "items": 30,
       "kept": 3,
-      "maisRecente": "2026-09-29"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "stanford-hai",
@@ -422,7 +422,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-22"
+      "maisRecente": "2026-09-28"
     },
     {
       "id": "cset",
@@ -530,16 +530,16 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-29"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "techcrunch-ai",
       "tier": "11-imprensa",
       "kind": "rss",
       "ok": true,
-      "items": 20,
+      "items": 19,
       "kept": 2,
-      "maisRecente": "2026-09-29"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-09-30"
+      "maisRecente": "2026-10-01"
     },
     {
       "id": "eco-pt",
@@ -557,7 +557,7 @@
       "ok": true,
       "items": 22,
       "kept": 2,
-      "maisRecente": "2026-09-29"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1238,
+      "items": 1240,
       "kept": 2,
-      "maisRecente": "2026-09-28"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "deepmind",
@@ -602,7 +602,7 @@
       "ok": true,
       "items": 100,
       "kept": 1,
-      "maisRecente": "2026-09-23"
+      "maisRecente": "2026-09-30"
     },
     {
       "id": "mistral",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1633,
+      "items": 1941,
       "kept": 0,
       "maisRecente": null
     },
@@ -714,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-09-30T02:09:54.220Z",
+  "finishedAt": "2026-10-01T02:11:44.631Z",
   "recolhidos": 45,
   "written": 45,
-  "maisRecente": "2026-09-30",
+  "maisRecente": "2026-10-01",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 19,
+    "added": 18,
     "curados": 0,
-    "total": 597
+    "total": 615
   }
 }

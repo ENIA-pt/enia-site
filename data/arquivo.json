@@ -1,8 +1,16 @@
 {
-  "generated": "2026-09-30T02:09:54.219Z",
+  "generated": "2026-10-01T02:11:44.630Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 597,
+  "count": 615,
   "items": [
+    {
+      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+      "summary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-01",
+      "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai"
+    },
     {
       "title": "Sam Altman says OpenAI won’t go public until its models are safe",
       "summary": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have…",
@@ -18,6 +26,126 @@
       "tier": "11-imprensa",
       "date": "2026-09-30",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
+    },
+    {
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-30",
+      "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+    },
+    {
+      "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+      "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-30",
+      "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon"
+    },
+    {
+      "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+      "summary": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-09-30",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
+    },
+    {
+      "title": "MI5 emite alerta de espionagem visando empresa chinesa",
+      "summary": "O MI5, o serviço de segurança interna britânico, emitiu um alerta de espionagem visando a empresa chinesa China General Technology Research Institute (CGTRI). A empresa, que mantém relações muito estreitas com o Ministério da Segurança do Estado chinês (MSS),…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-30",
+      "url": "https://eco.sapo.pt/2026/09/30/mi5-emite-alerta-de-espionagem-visando-empresa-chinesa/"
+    },
+    {
+      "title": "Ativo do dia. Hewlett Packard ganha encomenda de 1,2 mil milhões para sistemas de inteligência artificial",
+      "summary": "O ativo Ações da Hewlett Packard Enterprise. Os títulos da tecnológica sobem mais de 6% a meio da sessão em Wall Street esta quarta-feira, depois de a empresa anunciar uma encomenda de 1,2 mil milhões de dólares (cerca de mil milhões de euros) da Vultr,…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-09-30",
+      "url": "https://eco.sapo.pt/2026/09/30/ativo-do-dia-hewlett-packard-ganha-encomenda-de-12-mil-milhoes-para-sistemas-de-inteligencia-artificial/"
+    },
+    {
+      "title": "Introducing SynthID Bio",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "source": "Google DeepMind",
+      "tier": "12-industria",
+      "date": "2026-09-30",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+    },
+    {
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-30",
+      "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/"
+    },
+    {
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-09-30",
+      "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/"
+    },
+    {
+      "title": "Helping small businesses put AI to work",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-09-30",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+    },
+    {
+      "title": "An Empirical Study and Assessment of EU AI Act Compliance Checkers",
+      "summary": "arXiv:2609.36228v1 Announce Type: new Abstract: The EU AI Act introduces extensive compliance requirements for organizations that develop, deploy, or integrate AI systems. Many of these requirements are directly relevant to security and privacy, while also…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.36228"
+    },
+    {
+      "title": "Designing a Boundary Negotiating Artifact for Collaborative Socio-Technical Sense-Making in AI Regulatory Sandboxes",
+      "summary": "arXiv:2609.37109v1 Announce Type: cross Abstract: The rapid, unpredictable advancements in AI system capabilities has seen regulators take adaptive and experimental approaches to policymaking. Established in other domains as instruments balancing regulation…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.37109"
+    },
+    {
+      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+      "summary": "arXiv:2609.35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can preserve or improve adaptation utility without requiring a…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.35868"
+    },
+    {
+      "title": "What if automating AI R&D triggers an intelligence explosion?",
+      "summary": "arXiv:2609.36054v1 Announce Type: new Abstract: In contrast to even a year ago, AI systems now write most of the code inside the companies that build them. As more of the AI research and development (R&D) pipeline is automated, could AI progress radically…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.36054"
+    },
+    {
+      "title": "Argus: Academic Integrity in the Era of Generative AI",
+      "summary": "arXiv:2609.36073v1 Announce Type: new Abstract: The rapid proliferation of large language models (LLMs) in the context of education has introduced significant challenges in enforcement of academic integrity, especially in programming courses. We present…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.36073"
+    },
+    {
+      "title": "After the Award: The Authorization Gap in Academic Access to Frontier AI",
+      "summary": "arXiv:2609.36304v1 Announce Type: new Abstract: Academic access programs distribute frontier artificial intelligence as research infrastructure, but awards and institutional authorization are distinct stages. We examine the handoff through structured coding…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.36304"
     },
     {
       "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
@@ -276,6 +404,14 @@
       "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
     },
     {
+      "title": "White House Releases Taxpayer-Funded Midterm Ads",
+      "summary": "In the wake of NVIDIA's announcement of a new agent safety platform, AI Now's Aya Ibrahim joins \"Balance of Power\" to warn against \"one-size-fits-all\" security steps. The post White House Releases Taxpayer-Funded Midterm Ads appeared first on AI Now Institute.",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-28",
+      "url": "https://ainowinstitute.org/news/press/white-house-releases-taxpayer-funded-midterm-ads"
+    },
+    {
       "title": "Engram is a sampler that turns broken AI hallucinations into music",
       "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This…",
       "source": "The Verge AI",
@@ -450,6 +586,14 @@
       "tier": "11-imprensa",
       "date": "2026-09-25",
       "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
+    },
+    {
+      "title": "Press release: Remote biometric identification in policing - public security benefits depend on robust fundamental rights safeguards",
+      "summary": "Press release: Remote biometric identification in policing - public security benefits depend on robust fundamental rights safeguards tmorris Fri, 09/25/2026 - 10:55 Document FRA press release: Remote biometric identification in policing - public security…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-09-25",
+      "url": "https://fra.europa.eu/en/content/press-release-remote-biometric-identification-policing-public-security-benefits-depend"
     },
     {
       "title": "Everything new coming to Meta’s AI agent Muse",
