@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-01T02:11:44.630Z",
+  "generated": "2026-10-02T02:18:17.667Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 615,
+  "count": 627,
   "items": [
     {
       "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
@@ -10,6 +10,94 @@
       "tier": "11-imprensa",
       "date": "2026-10-01",
       "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai"
+    },
+    {
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "summary": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\"…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-01",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+    },
+    {
+      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+      "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-01",
+      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/"
+    },
+    {
+      "title": "Google’s new Guided Vision feature can help you read the fine print",
+      "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-01",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+    },
+    {
+      "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+      "summary": "Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-01",
+      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/"
+    },
+    {
+      "title": "The eternal complement",
+      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-01",
+      "url": "https://openai.com/index/the-eternal-complement"
+    },
+    {
+      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain scan A new AI tool can guess what…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-01",
+      "url": "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/"
+    },
+    {
+      "title": "An AI “mind-reading” tool can reconstruct what you’re looking at from a brain scan",
+      "summary": "A new AI tool can guess what you’re looking at just by analyzing your brain scans—and re-create that image with remarkable precision. It can go the other way, too, and predict a person’s brain activity based on what they’re looking at. In the image above, for…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-01",
+      "url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/"
+    },
+    {
+      "title": "A Reusable Semantic Web Framework for Evidence-Grounded Fundamental Rights Impact Assessments under the EU AI Act",
+      "summary": "arXiv:2609.39537v1 Announce Type: cross Abstract: The EU AI Act (Art. 27) requires deployers of high-risk AI systems to conduct Fundamental Rights Impact Assessments (FRIAs) before deployment, yet the evidence needed for credible assessments is fragmented…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-01",
+      "url": "https://arxiv.org/abs/2609.39537"
+    },
+    {
+      "title": "Eigenism: Ethics for a Human-AI Future",
+      "summary": "arXiv:2606.12420v2 Announce Type: replace-cross Abstract: Our concepts of survival and self-interest were built for single, continuous biological lives. These ideas break down when applied to artificial intelligence, since an AI can be easily copied, paused,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-01",
+      "url": "https://arxiv.org/abs/2606.12420"
+    },
+    {
+      "title": "Drowning in AI Slop: How Social Media Platforms (Do Not) Label AI and Deepfake Content under EU law",
+      "summary": "arXiv:2609.38571v1 Announce Type: new Abstract: AI labels are emerging as a primary safeguard for transparency about AI-generated content on social media, including under the EU Digital Services Act and AI Act. Yet, limited systematic evidence exists on how…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-01",
+      "url": "https://arxiv.org/abs/2609.38571"
+    },
+    {
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "summary": "arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-01",
+      "url": "https://arxiv.org/abs/2609.38288"
     },
     {
       "title": "Sam Altman says OpenAI won’t go public until its models are safe",
@@ -146,6 +234,14 @@
       "tier": "9-investigacao",
       "date": "2026-09-30",
       "url": "https://arxiv.org/abs/2609.36304"
+    },
+    {
+      "title": "How the bad science of AI doomerism is good for big business",
+      "summary": "AI Now's Senior Research Scientist, Boyan Milanov, points out how AI doomerism isn't based on any scientific work and that calls for regulation from within the industry are, in reality, attempts by AI companies to set their own standards. The post How the bad…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-09-30",
+      "url": "https://ainowinstitute.org/news/press/how-the-bad-science-of-ai-doomerism-is-good-for-big-business"
     },
     {
       "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
