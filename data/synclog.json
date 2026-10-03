@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-02T02:15:54.228Z",
+  "startedAt": "2026-10-03T01:57:15.670Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -43,7 +43,7 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 8,
+      "kept": 7,
       "maisRecente": "2026-09-29"
     },
     {
@@ -116,7 +116,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-25"
+      "maisRecente": "2026-10-02"
     },
     {
       "id": "cnpd",
@@ -143,7 +143,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 500"
+      "error": "HTTP 503"
     },
     {
       "id": "garante",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 30,
+      "items": 32,
       "kept": 0,
       "maisRecente": null
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 613,
+      "items": 568,
       "kept": 3,
-      "maisRecente": "2026-10-01"
+      "maisRecente": "2026-10-02"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 45,
+      "items": 43,
       "kept": 3,
-      "maisRecente": "2026-10-01"
+      "maisRecente": "2026-10-02"
     },
     {
       "id": "stanford-hai",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-09-29"
+      "maisRecente": "2026-10-02"
     },
     {
       "id": "oii",
@@ -530,16 +530,16 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-01"
+      "maisRecente": "2026-10-02"
     },
     {
       "id": "techcrunch-ai",
       "tier": "11-imprensa",
       "kind": "rss",
       "ok": true,
-      "items": 19,
+      "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-01"
+      "maisRecente": "2026-10-02"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-01"
+      "maisRecente": "2026-10-02"
     },
     {
       "id": "eco-pt",
@@ -591,7 +591,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1243,
+      "items": 1245,
       "kept": 2,
       "maisRecente": "2026-10-01"
     },
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 2471,
+      "items": 2633,
       "kept": 0,
       "maisRecente": null
     },
@@ -682,7 +682,7 @@
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
     "[cnpd] HTTP 404",
-    "[aepd] HTTP 500",
+    "[aepd] HTTP 503",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
     "[anacom-noticias] fetch failed",
@@ -714,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-02T02:18:17.668Z",
-  "recolhidos": 36,
-  "written": 36,
-  "maisRecente": "2026-10-01",
+  "finishedAt": "2026-10-03T01:59:21.877Z",
+  "recolhidos": 37,
+  "written": 37,
+  "maisRecente": "2026-10-02",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 12,
+    "added": 13,
     "curados": 0,
-    "total": 627
+    "total": 640
   }
 }

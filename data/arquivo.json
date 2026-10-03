@@ -1,8 +1,112 @@
 {
-  "generated": "2026-10-02T02:18:17.667Z",
+  "generated": "2026-10-03T01:59:21.876Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 627,
+  "count": 640,
   "items": [
+    {
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-02",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
+    },
+    {
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-02",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+    },
+    {
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-02",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+    },
+    {
+      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-02",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+    },
+    {
+      "title": "China has cracked down on AI relationships. Is it ahead of the game?",
+      "summary": "CSET’s Sam Bresnick shared his expert insight in an article published by BBC. The article examines China’s new regulations on AI companions and the country’s efforts to address concerns around emotional dependency, child safety, and the broader social effects…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-10-02",
+      "url": "https://cset.georgetown.edu/article/china-has-cracked-down-on-ai-relationships-is-it-ahead-of-the-game/"
+    },
+    {
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-02",
+      "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/"
+    },
+    {
+      "title": "Negotiated procedure for a low value contract - Safeguarding fundamental rights through effective human oversight of AI in the field of justice",
+      "summary": "Negotiated procedure for a low value contract - Safeguarding fundamental rights through effective human oversight of AI in the field of justice gpatterson Fri, 10/02/2026 - 16:49 Archive No",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-10-02",
+      "url": "https://fra.europa.eu/en/call-for-tender/2026/negotiated-procedure-low-value-contract-safeguarding-fundamental-rights"
+    },
+    {
+      "title": "The AI Assessment Sandbox Configurator: A Framework to Support Technical Assessment in AI Regulatory Sandboxes",
+      "summary": "arXiv:2610.01539v1 Announce Type: new Abstract: The EU's Artificial Intelligence Act requires all Member States to establish AI Regulatory Sandboxes (AIRS) by August 2027: supervised environments bringing together national Competent Authorities, technical…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.01539"
+    },
+    {
+      "title": "When Do Causal World Models Help Modular LLM Agents",
+      "summary": "arXiv:2610.00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.00012"
+    },
+    {
+      "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+      "summary": "arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.00015"
+    },
+    {
+      "title": "Who Judges the Frame? Auditing Multimodal LLM Judges for News Framing Across Event-Level Perspectives",
+      "summary": "arXiv:2610.00071v1 Announce Type: new Abstract: News coverage of major world events is shaped not only by what is reported, but also by how events are framed through text, images and their combination. At the same time, Large Language Models (LLMs), including…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.00071"
+    },
+    {
+      "title": "White Men Without Degrees Receive the Lowest Ratings from Large Language Models",
+      "summary": "arXiv:2610.00185v1 Announce Type: new Abstract: White men without an undergraduate degree receive the lowest average ratings among eight gender-race-education groups in controlled large-language-model evaluations of credit, hiring, and rental applications. We…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.00185"
+    },
+    {
+      "title": "CALLIOPE: A Source-Grounded Oral Assessment System and Synthetic Readiness Evaluation",
+      "summary": "arXiv:2610.00290v1 Announce Type: new Abstract: Oral assessment with generative AI requires more than a conversational interface: educators must connect a spoken response to its source material, scoring criteria, model outputs and subsequent human judgement.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.00290"
+    },
     {
       "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
       "summary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of…",
