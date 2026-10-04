@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-03T01:57:15.670Z",
+  "startedAt": "2026-10-04T02:40:08.712Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -143,7 +143,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 500"
     },
     {
       "id": "garante",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 568,
-      "kept": 3,
-      "maisRecente": "2026-10-02"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 43,
-      "kept": 3,
-      "maisRecente": "2026-10-02"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "stanford-hai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-02"
+      "maisRecente": "2026-10-03"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-02"
+      "maisRecente": "2026-10-03"
     },
     {
       "id": "eco-pt",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 2633,
+      "items": 2623,
       "kept": 0,
       "maisRecente": null
     },
@@ -682,7 +682,7 @@
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
     "[cnpd] HTTP 404",
-    "[aepd] HTTP 503",
+    "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
     "[anacom-noticias] fetch failed",
@@ -714,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-03T01:59:21.877Z",
-  "recolhidos": 37,
-  "written": 37,
-  "maisRecente": "2026-10-02",
+  "finishedAt": "2026-10-04T02:42:13.502Z",
+  "recolhidos": 31,
+  "written": 31,
+  "maisRecente": "2026-10-03",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 13,
+    "added": 4,
     "curados": 0,
-    "total": 640
+    "total": 644
   }
 }
