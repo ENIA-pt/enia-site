@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-04T02:40:08.712Z",
+  "startedAt": "2026-10-05T02:01:27.970Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -14,10 +14,10 @@
       "id": "eurlex-oj-l",
       "tier": "1-lei",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "timeout 25s"
     },
     {
       "id": "op-cellar-atom",
@@ -160,8 +160,8 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 1,
-      "maisRecente": "2026-08-20"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "ico-uk",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 32,
+      "items": 31,
       "kept": 0,
       "maisRecente": null
     },
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-03"
+      "maisRecente": "2026-10-04"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-03"
+      "maisRecente": "2026-10-04"
     },
     {
       "id": "eco-pt",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 2,
+      "maisRecente": "2026-10-04"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 404"
     },
     {
       "id": "mlex",
@@ -678,6 +678,7 @@
     }
   ],
   "warnings": [
+    "[eurlex-oj-l] timeout 25s",
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
@@ -699,6 +700,7 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -714,14 +716,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-04T02:42:13.502Z",
-  "recolhidos": 31,
-  "written": 31,
-  "maisRecente": "2026-10-03",
+  "finishedAt": "2026-10-05T02:04:40.948Z",
+  "recolhidos": 32,
+  "written": 32,
+  "maisRecente": "2026-10-04",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 4,
+    "added": 7,
     "curados": 0,
-    "total": 644
+    "total": 651
   }
 }

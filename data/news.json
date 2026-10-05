@@ -1,38 +1,54 @@
 {
-  "generated": "2026-10-04T02:42:13.502Z",
+  "generated": "2026-10-05T02:04:40.947Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-      "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-03",
-      "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development"
-    },
-    {
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "summary": "AI slop seems to be overwhelming bug bounty programs.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-03",
-      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+      "date": "2026-10-04",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
     },
     {
-      "title": "An OpenAI safety employee has quit and is sounding the alarm",
-      "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-03",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
-    },
-    {
-      "title": "All the AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-03",
-      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/"
+      "date": "2026-10-04",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/"
+    },
+    {
+      "title": "Trump cria “Força da Superinteligência” para coordenar o desenvolvimento de IA",
+      "summary": "O Presidente norte-americano anunciou este domingo a criação da “Força da Superinteligência”, uma unidade de coordenação dentro da Casa Branca e do Governo federal que vai liderar o desenvolvimento da inteligência artificial (IA) nos Estados Unidos. “A Força…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-04",
+      "url": "https://eco.sapo.pt/2026/10/04/trump-cria-forca-da-superinteligencia-para-coordenar-o-desenvolvimento-de-ia/"
+    },
+    {
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "summary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-04",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true"
+    },
+    {
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-04",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
+    },
+    {
+      "title": "“Empresas não conseguem trazer para a organização as mesmas ferramentas de produtividade que as pessoas utilizam a nível individual”",
+      "summary": "A gigante de software empresarial especializada na relação com o cliente, Salesforce, acredita que o Software as a Service (SaaS) “não morreu” e que a integração de agentes de inteligência artificial (IA) nos produtos vai tornar-se num dos principais fatores…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-04",
+      "url": "https://eco.sapo.pt/entrevista/empresas-nao-conseguem-trazer-para-a-organizacao-as-mesmas-ferramentas-de-produtividade-que-as-pessoas-utilizam-a-nivel-individual/"
     },
     {
       "title": "China has cracked down on AI relationships. Is it ahead of the game?",
@@ -56,7 +72,7 @@
       "source": "FRA",
       "tier": "4-dados",
       "date": "2026-10-02",
-      "url": "https://fra.europa.eu/en/call-for-tender/2026/negotiated-procedure-low-value-contract-safeguarding-fundamental-rights"
+      "url": "http://fra.europa.eu/en/call-for-tender/2026/negotiated-procedure-low-value-contract-safeguarding-fundamental-rights"
     },
     {
       "title": "The eternal complement",
@@ -233,14 +249,6 @@
       "tier": "2-comissao",
       "date": "2026-08-24",
       "url": "https://digital-strategy.ec.europa.eu/en/events/pitching-day-finalists-apply-ai-startup-award"
-    },
-    {
-      "title": "AP adviseert Twitch-gebruikers: zet instellingen uit voor delen van data met Amazon AI",
-      "summary": "Streamingplatform Twitch heeft bekendgemaakt dat Amazon persoonsgegevens van Twitch-gebruikers gebruikt om AI-modellen mee te trainen. Gebruikers die niet willen dat Amazon hun streams, afbeeldingen en andere persoonsgegevens gebruikt, kunnen dit nu…",
-      "source": "Autoriteit Persoonsgegevens",
-      "tier": "4-dados",
-      "date": "2026-08-20",
-      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-twitch-gebruikers-zet-instellingen-uit-voor-delen-van-data-met-amazon-ai"
     },
     {
       "title": "Finlândia ativa enforcement",
