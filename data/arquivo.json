@@ -1,8 +1,144 @@
 {
-  "generated": "2026-10-05T02:04:40.947Z",
+  "generated": "2026-10-06T02:59:57.001Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 651,
+  "count": 668,
   "items": [
+    {
+      "title": "Gemini Call for Me might tell your mom you’re running late",
+      "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors"
+    },
+    {
+      "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+      "summary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms.…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
+    },
+    {
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+    },
+    {
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+    },
+    {
+      "title": "The Triumph of Tech-Fueled Propaganda",
+      "summary": "CSET’s Josh A. Goldstein co-authored an op-ed with Renée DiResta in Foreign Affairs. The article examines how foreign influence operations are evolving as governments combine traditional propaganda, social media, covert networks, influencers, and artificial…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://cset.georgetown.edu/article/the-triumph-of-tech-fueled-propaganda/"
+    },
+    {
+      "title": "Connecting AI agents to enterprise knowledge",
+      "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
+    },
+    {
+      "title": "Our approach to EU text provenance rules",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-05",
+      "url": "https://openai.com/index/eu-text-provenance"
+    },
+    {
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
+    },
+    {
+      "title": "Papel do professor na era da IA",
+      "summary": "Durante muito tempo, uma parte importante da autoridade do professor assentou no conhecimento que possuía e na capacidade de o transmitir. O professor sabia, explicava e avaliava, o estudante escutava, estudava e demonstrava aquilo que tinha aprendido. A…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://eco.sapo.pt/opiniao/papel-do-professor-na-era-da-ia/"
+    },
+    {
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-05",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+    },
+    {
+      "title": "Are Governments Ready for AI Agents?",
+      "summary": "—",
+      "source": "Oxford Internet Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://www.oii.ox.ac.uk/are-governments-ready-for-ai-agents/"
+    },
+    {
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "summary": "arXiv:2610.02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02267"
+    },
+    {
+      "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
+      "summary": "arXiv:2610.02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a useful signal about how…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02281"
+    },
+    {
+      "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+      "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02330"
+    },
+    {
+      "title": "Social bot detection in the age of ChatGPT: Challenges and opportunities",
+      "summary": "arXiv:2610.02386v1 Announce Type: new Abstract: We present a comprehensive overview of the challenges and opportunities in social bot detection in the context of the rise of sophisticated AI-based chatbots. By examining the state of the art in social bot…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02386"
+    },
+    {
+      "title": "LearnAdapt Praxis: Controlled AI Assistance and Evidence Traces for Adult Workplace Learning",
+      "summary": "arXiv:2610.02699v1 Announce Type: new Abstract: AI can help adults produce plausible workplace artefacts while leaving their independent reasoning difficult to inspect. LearnAdapt Praxis addresses this design problem through a five-stage learning workspace:…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02699"
+    },
+    {
+      "title": "Same Performance, Different Process: Epistemic Ownership in AI-Mediated Education",
+      "summary": "arXiv:2610.02731v1 Announce Type: new Abstract: Generative AI weakens the link between assessed performance and the cognitive processes that educational work is expected to reflect. This paper examines observable traces of those processes in a sample of 150…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02731"
+    },
     {
       "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
       "summary": "AI slop seems to be overwhelming bug bounty programs.",

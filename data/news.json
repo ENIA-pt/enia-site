@@ -1,70 +1,142 @@
 {
-  "generated": "2026-10-05T02:04:40.947Z",
+  "generated": "2026-10-06T02:59:57.001Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-      "summary": "AI slop seems to be overwhelming bug bounty programs.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-04",
-      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
-    },
-    {
-      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-      "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-04",
-      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/"
-    },
-    {
-      "title": "Trump cria “Força da Superinteligência” para coordenar o desenvolvimento de IA",
-      "summary": "O Presidente norte-americano anunciou este domingo a criação da “Força da Superinteligência”, uma unidade de coordenação dentro da Casa Branca e do Governo federal que vai liderar o desenvolvimento da inteligência artificial (IA) nos Estados Unidos. “A Força…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-04",
-      "url": "https://eco.sapo.pt/2026/10/04/trump-cria-forca-da-superinteligencia-para-coordenar-o-desenvolvimento-de-ia/"
-    },
-    {
-      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
-      "summary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to…",
+      "title": "Gemini Call for Me might tell your mom you’re running late",
+      "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-04",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true"
+      "date": "2026-10-05",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors"
     },
     {
-      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-      "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated…",
+      "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+      "summary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms.…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-04",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
+      "date": "2026-10-05",
+      "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
     },
     {
-      "title": "“Empresas não conseguem trazer para a organização as mesmas ferramentas de produtividade que as pessoas utilizam a nível individual”",
-      "summary": "A gigante de software empresarial especializada na relação com o cliente, Salesforce, acredita que o Software as a Service (SaaS) “não morreu” e que a integração de agentes de inteligência artificial (IA) nos produtos vai tornar-se num dos principais fatores…",
-      "source": "ECO",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+      "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-04",
-      "url": "https://eco.sapo.pt/entrevista/empresas-nao-conseguem-trazer-para-a-organizacao-as-mesmas-ferramentas-de-produtividade-que-as-pessoas-utilizam-a-nivel-individual/"
+      "date": "2026-10-05",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
     },
     {
-      "title": "China has cracked down on AI relationships. Is it ahead of the game?",
-      "summary": "CSET’s Sam Bresnick shared his expert insight in an article published by BBC. The article examines China’s new regulations on AI companions and the country’s efforts to address concerns around emotional dependency, child safety, and the broader social effects…",
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+    },
+    {
+      "title": "The Triumph of Tech-Fueled Propaganda",
+      "summary": "CSET’s Josh A. Goldstein co-authored an op-ed with Renée DiResta in Foreign Affairs. The article examines how foreign influence operations are evolving as governments combine traditional propaganda, social media, covert networks, influencers, and artificial…",
       "source": "CSET Georgetown",
       "tier": "9-investigacao",
-      "date": "2026-10-02",
-      "url": "https://cset.georgetown.edu/article/china-has-cracked-down-on-ai-relationships-is-it-ahead-of-the-game/"
+      "date": "2026-10-05",
+      "url": "https://cset.georgetown.edu/article/the-triumph-of-tech-fueled-propaganda/"
     },
     {
-      "title": "Redefining enterprise intelligence with autonomous AI",
-      "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion…",
+      "title": "Connecting AI agents to enterprise knowledge",
+      "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-10-02",
-      "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/"
+      "date": "2026-10-05",
+      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
+    },
+    {
+      "title": "Our approach to EU text provenance rules",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-05",
+      "url": "https://openai.com/index/eu-text-provenance"
+    },
+    {
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
+    },
+    {
+      "title": "Papel do professor na era da IA",
+      "summary": "Durante muito tempo, uma parte importante da autoridade do professor assentou no conhecimento que possuía e na capacidade de o transmitir. O professor sabia, explicava e avaliava, o estudante escutava, estudava e demonstrava aquilo que tinha aprendido. A…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-05",
+      "url": "https://eco.sapo.pt/opiniao/papel-do-professor-na-era-da-ia/"
+    },
+    {
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-05",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+    },
+    {
+      "title": "Are Governments Ready for AI Agents?",
+      "summary": "—",
+      "source": "Oxford Internet Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://www.oii.ox.ac.uk/are-governments-ready-for-ai-agents/"
+    },
+    {
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "summary": "arXiv:2610.02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02267"
+    },
+    {
+      "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
+      "summary": "arXiv:2610.02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a useful signal about how…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02281"
+    },
+    {
+      "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+      "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02330"
+    },
+    {
+      "title": "Social bot detection in the age of ChatGPT: Challenges and opportunities",
+      "summary": "arXiv:2610.02386v1 Announce Type: new Abstract: We present a comprehensive overview of the challenges and opportunities in social bot detection in the context of the rise of sophisticated AI-based chatbots. By examining the state of the art in social bot…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02386"
+    },
+    {
+      "title": "LearnAdapt Praxis: Controlled AI Assistance and Evidence Traces for Adult Workplace Learning",
+      "summary": "arXiv:2610.02699v1 Announce Type: new Abstract: AI can help adults produce plausible workplace artefacts while leaving their independent reasoning difficult to inspect. LearnAdapt Praxis addresses this design problem through a five-stage learning workspace:…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02699"
+    },
+    {
+      "title": "Same Performance, Different Process: Epistemic Ownership in AI-Mediated Education",
+      "summary": "arXiv:2610.02731v1 Announce Type: new Abstract: Generative AI weakens the link between assessed performance and the cognitive processes that educational work is expected to reflect. This paper examines observable traces of those processes in a sample of 150…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.02731"
     },
     {
       "title": "Negotiated procedure for a low value contract - Safeguarding fundamental rights through effective human oversight of AI in the field of justice",
@@ -72,23 +144,15 @@
       "source": "FRA",
       "tier": "4-dados",
       "date": "2026-10-02",
-      "url": "http://fra.europa.eu/en/call-for-tender/2026/negotiated-procedure-low-value-contract-safeguarding-fundamental-rights"
+      "url": "https://fra.europa.eu/en/call-for-tender/2026/negotiated-procedure-low-value-contract-safeguarding-fundamental-rights"
     },
     {
-      "title": "The eternal complement",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-01",
-      "url": "https://openai.com/index/the-eternal-complement"
-    },
-    {
-      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain scan A new AI tool can guess what…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-01",
-      "url": "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/"
+      "title": "Proposal for a Regulation amending Regulations (EU) 2016/1679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, (EU) 2024/1689 and Directives 2002/58/EC, (EU)…",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-10-02",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:395a2e79-c0b9-11f1-988f-01aa75ed71a1"
     },
     {
       "title": "How the bad science of AI doomerism is good for big business",
@@ -107,14 +171,6 @@
       "url": "https://deepmind.google/blog/introducing-synthid-bio/"
     },
     {
-      "title": "Helping small businesses put AI to work",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-09-30",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
-    },
-    {
       "title": "The AI Ethics Brief #200: Who Is This For?",
       "summary": "On MAIEI’s founding question, the fragility that can accompany AI adoption, and the people institutions need to govern it. Source",
       "source": "Montreal AI Ethics Institute",
@@ -129,14 +185,6 @@
       "tier": "2-comissao",
       "date": "2026-09-29",
       "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-support-better-copyright-environment-creativity-and-innovation"
-    },
-    {
-      "title": "Berichtigung der Verordnung (EU) 2026/1744 des Europäischen Parlaments und des Rates vom 8. Juli 2026 zur Änderung der Verordnungen (EU) 2024/1689, (EU)…",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-09-29",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:1d32c7c2-bb9e-11f1-81de-01aa75ed71a1"
     },
     {
       "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
