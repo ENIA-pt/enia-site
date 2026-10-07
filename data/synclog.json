@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-06T02:58:27.185Z",
+  "startedAt": "2026-10-07T02:23:39.329Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -8,7 +8,7 @@
       "ok": true,
       "items": 60,
       "kept": 8,
-      "maisRecente": "2026-10-02"
+      "maisRecente": "2026-10-05"
     },
     {
       "id": "eurlex-oj-l",
@@ -34,8 +34,8 @@
       "kind": "rss",
       "ok": true,
       "items": 50,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 2,
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "ec-digital-strategy",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 29,
+      "items": 31,
       "kept": 0,
       "maisRecente": null
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 402,
+      "items": 857,
       "kept": 3,
-      "maisRecente": "2026-10-05"
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 30,
+      "items": 51,
       "kept": 3,
-      "maisRecente": "2026-10-05"
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "stanford-hai",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-10-05"
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "oii",
@@ -529,17 +529,17 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 2,
-      "maisRecente": "2026-10-05"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "techcrunch-ai",
       "tier": "11-imprensa",
       "kind": "rss",
       "ok": true,
-      "items": 20,
+      "items": 18,
       "kept": 2,
-      "maisRecente": "2026-10-05"
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-05"
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "eco-pt",
@@ -557,7 +557,7 @@
       "ok": true,
       "items": 22,
       "kept": 1,
-      "maisRecente": "2026-10-05"
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1247,
+      "items": 1251,
       "kept": 2,
-      "maisRecente": "2026-10-05"
+      "maisRecente": "2026-10-06"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 2302,
+      "items": 2788,
       "kept": 0,
       "maisRecente": null
     },
@@ -714,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-06T02:59:57.001Z",
+  "finishedAt": "2026-10-07T02:24:29.186Z",
   "recolhidos": 38,
   "written": 38,
-  "maisRecente": "2026-10-05",
+  "maisRecente": "2026-10-06",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 17,
+    "added": 16,
     "curados": 0,
-    "total": 668
+    "total": 684
   }
 }

@@ -1,8 +1,128 @@
 {
-  "generated": "2026-10-06T02:59:57.001Z",
+  "generated": "2026-10-07T02:24:29.185Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 668,
+  "count": 684,
   "items": [
+    {
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-06",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
+    },
+    {
+      "title": "How AI decision models could change content moderation",
+      "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-06",
+      "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/"
+    },
+    {
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-06",
+      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/"
+    },
+    {
+      "title": "We can’t just change the definition of ‘recording’",
+      "summary": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-06",
+      "url": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording"
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-06",
+      "url": "https://openai.com/index/atlassian-partnership"
+    },
+    {
+      "title": "Ativo do dia. S&P 500 renova máximos com alívio nos juros das Treasuries",
+      "summary": "O ativo O S&P 500. O índice de referência mundial atingiu um novo recorde histórico intradiário no arranque da sessão desta terça-feira, perante a trégua nos mercados obrigacionistas e do petróleo e com o regresso dos investidores ao setor da Inteligência…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-06",
+      "url": "https://eco.sapo.pt/2026/10/06/ativo-do-dia-sp-500-renova-maximos-com-alivio-nos-juros-das-treasuries/"
+    },
+    {
+      "title": "Video message by President von der Leyen to mark 25th Anniversary of IFOAM Organics Europe",
+      "summary": "European Commission Speech Brussels, 06 Oct 2026 President Drexler, Dear Dora, Ladies and gentlemen, Congratulations on your 25th anniversary! IFOAM Organics Europe and all its members have so much to be proud...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-06",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2089"
+    },
+    {
+      "title": "Should We Track AI Chips?",
+      "summary": "CSET’s Jacob Feldgoise, Kyle Miller, and Hanna Dohmen dove deep into investigating how location verification methods can—and cannot—improve enforcement of export controls on powerful AI chips, culminating in their report. I sat down with Jacob to learn more…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-10-06",
+      "url": "https://cset.georgetown.edu/article/should-we-track-ai-chips/"
+    },
+    {
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-06",
+      "url": "https://openai.com/index/jump-trading"
+    },
+    {
+      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+      "summary": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.03872"
+    },
+    {
+      "title": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
+      "summary": "arXiv:2610.03888v1 Announce Type: new Abstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling. Traditional assimilation and inverse models are physically…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.03888"
+    },
+    {
+      "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+      "summary": "arXiv:2610.03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run. Frontier chat APIs hide the model's token probabilities; the agent's…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.03894"
+    },
+    {
+      "title": "Testing Large Language Model Agents on the Use of Biological Tools for Nucleic Acid Synthesis Screening Evasion",
+      "summary": "arXiv:2610.03852v1 Announce Type: new Abstract: This report is a continuation of previous efforts to test the ability of large language model (LLM)-driven artificial intelligence (AI) agents to interface with AI-enabled biological tools (BTs). While rapid…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.03852"
+    },
+    {
+      "title": "Can LLM Agents Select and Engage with Biological Tools?",
+      "summary": "arXiv:2610.03853v1 Announce Type: new Abstract: Computational tools for biological research (biological tools, or BTs) are advancing rapidly in both quantity and demonstrated capability. While these technologies offer many benefits for scientific advancement,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.03853"
+    },
+    {
+      "title": "Govern, Map, Measure, Absorb: The Legibility Trap in Public Sector Participatory AI Governance",
+      "summary": "arXiv:2610.03932v1 Announce Type: new Abstract: Public sector agencies have adopted participatory design as a prominent procedural safeguard proposed against algorithmic harm. Across methods, institutional contexts, and well-intentioned implementations, the…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.03932"
+    },
     {
       "title": "Gemini Call for Me might tell your mom you’re running late",
       "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call…",
@@ -138,6 +258,14 @@
       "tier": "9-investigacao",
       "date": "2026-10-05",
       "url": "https://arxiv.org/abs/2610.02731"
+    },
+    {
+      "title": "Commission registers European Citizens' Initiative for sovereign European AI domains",
+      "summary": "European Commission Press release Brussels, 06 Oct 2026 Today, the European Commission registered the European Citizens' Initiative (ECI) entitled ‘Creation of a European Digital Space (.IA) for Sovereign AI Governance'.",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-05",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2064"
     },
     {
       "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
