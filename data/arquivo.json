@@ -1,8 +1,104 @@
 {
-  "generated": "2026-10-07T02:24:29.185Z",
+  "generated": "2026-10-08T02:42:34.069Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 684,
+  "count": 697,
   "items": [
+    {
+      "title": "Muse launches on the iPad",
+      "summary": "After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-07",
+      "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
+    },
+    {
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "summary": "The developer of Hermes Agent raised a $90 million Series B.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-07",
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
+    },
+    {
+      "title": "Microsoft is giving Copilot more control over Windows and your files",
+      "summary": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\"…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-07",
+      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+    },
+    {
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-07",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
+    },
+    {
+      "title": "Google disponibiliza ferramenta para verificar conteúdos gerados por IA",
+      "summary": "A empresa tecnológica norte-americana Google disponibilizou esta quarta-feira gratuitamente ao público a ferramenta SynthID Detector, que permite a qualquer utilizador verificar se uma imagem, um vídeo ou um ficheiro de áudio foi gerado através de…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-07",
+      "url": "https://eco.sapo.pt/2026/10/07/google-disponibiliza-ferramenta-para-verificar-conteudos-gerados-por-ia/"
+    },
+    {
+      "title": "PAI honors Verity Harding and James Manyika as 2026 ChangeMaker Awardees",
+      "summary": "The post PAI honors Verity Harding and James Manyika as 2026 ChangeMaker Awardees appeared first on Partnership on AI.",
+      "source": "Partnership on AI",
+      "tier": "10-sociedade",
+      "date": "2026-10-07",
+      "url": "https://partnershiponai.org/pai-honors-verity-harding-and-james-manyika-as-2026-changemaker-awardees/"
+    },
+    {
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-07",
+      "url": "https://openai.com/index/teens-learn-and-plan"
+    },
+    {
+      "title": "Auditable Claims about AI Agents",
+      "summary": "arXiv:2610.07459v1 Announce Type: new Abstract: Organizations make claims about their AI agents: a person approves every external email, every action is logged, an evaluation shows the agent is safe to deploy. Article 12 of the EU AI Act requires high-risk…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.07459"
+    },
+    {
+      "title": "Intersectional Fairness via Mixed-Integer Optimization",
+      "summary": "arXiv:2601.19595v2 Announce Type: replace-cross Abstract: The deployment of Artificial Intelligence in high-risk domains, such as finance and healthcare, necessitates models that are both fair and transparent. While regulatory frameworks, including the EU's…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-07",
+      "url": "https://arxiv.org/abs/2601.19595"
+    },
+    {
+      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+      "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.06910"
+    },
+    {
+      "title": "When the Rule-Maker Runs the World Championship: Late Patches and Procedural Accountability in League of Legends",
+      "summary": "arXiv:2610.07427v1 Announce Type: new Abstract: Riot Games, which runs the League of Legends World Championship (Worlds), also changes the game shortly before each tournament. This concentration of authority raises a governance question: Who scrutinizes how…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.07427"
+    },
+    {
+      "title": "Can Power Draw Constrain Covert Compute? Limits of Analogue Verification for AI Governance",
+      "summary": "arXiv:2610.07476v1 Announce Type: new Abstract: Frontier AI treaties or agreements on limiting computation require external verification; an external auditor must be able to confirm how much computation actually ran and that parties are adhering to the…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.07476"
+    },
     {
       "title": "OpenAI drops another batch of mathematical breakthroughs",
       "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both…",
@@ -266,6 +362,14 @@
       "tier": "2-comissao",
       "date": "2026-10-05",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2064"
+    },
+    {
+      "title": "Establishing the European AI Observatory: Call for tenders",
+      "summary": "Establishing the European AI Observatory: Call for tenders Anonymous (not verified) Mon, 10/05/2026 - 09:22 Opening: 05 October 2026 Closing: 03 November 2026 The Commission is seeking a procurement contract for the setup and operation of the AI Observatory…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-05",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/establishing-european-ai-observatory-call-tenders"
     },
     {
       "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
