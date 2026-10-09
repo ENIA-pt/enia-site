@@ -1,118 +1,182 @@
 {
-  "generated": "2026-10-08T02:42:34.069Z",
+  "generated": "2026-10-09T02:58:46.653Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Artificial Intelligence, jobs and society: what we know so far",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-09",
+      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+    },
+    {
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+    },
+    {
+      "title": "Trump ameaça tratar como inimigo quem falar em IA em vez de ‘superinteligência’",
+      "summary": "Donald Trump, que quer impor o termo “superinteligência” em vez de “inteligência artificial” (IA), garantiu esta quinta-feira que vai considerar “inimigo” quem quer que seja que não o siga nesta opção, sem detalhar o que a ameaça implica. “A Casa Branca…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-08",
+      "url": "https://eco.sapo.pt/2026/10/08/trump-ameaca-tratar-como-inimigo-quem-falar-em-ia-em-vez-de-superinteligencia/"
+    },
+    {
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-08",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+    },
+    {
+      "title": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being",
+      "summary": "The post Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being appeared first on Partnership on AI.",
+      "source": "Partnership on AI",
+      "tier": "10-sociedade",
+      "date": "2026-10-08",
+      "url": "https://partnershiponai.org/partnership-on-ai-welcomes-eight-new-partners-advancing-mental-health-and-well-being/"
+    },
+    {
+      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+      "summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-08",
+      "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/"
+    },
+    {
+      "title": "USA Today becomes the latest publisher to sue OpenAI",
+      "summary": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
+    },
+    {
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-08",
+      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/"
+    },
+    {
+      "title": "FTC Returns More than $15.8 Million to Consumers Misled by Cash Advance App Company Cleo AI",
+      "summary": "Agency charged that the company deceptively marketed cash advance services and obstructed cancellations The Federal Trade Commission is sending more than $15.8 million to consumers impacted by cash advance app company Cleo AI’s deceptive claims about the…",
+      "source": "FTC",
+      "tier": "8-jurisdicoes",
+      "date": "2026-10-08",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai"
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-08",
+      "url": "https://openai.com/index/pollo-ai"
+    },
+    {
+      "title": "The Cloud and AI Development Act (CADA) represents everything that’s wrong with Europe’s approach to digital sovereignty",
+      "summary": "The EU’s Tech Sovereignty Package is supposed to jump-start Europe’s “sovereign AI” ambitions. But due to fundamental misunderstandings about the technology behind ‘AI’ and the blind trust in Big Tech’s AI doomer and boomer narratives, it is more likely to…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-10-08",
+      "url": "https://edri.org/our-work/the-cloud-and-ai-development-act-cada-represents-everything-thats-wrong-with-europes-approach-to-digital-sovereignty/"
+    },
+    {
+      "title": "No human required: Austria’s plan for AI-only government decisions",
+      "summary": "A sweeping change to Austria's administrative law would let authorities issue binding decisions using AI systems with no human ever reviewing the outcome. EDRi member epicenter.works has sent an open letter to parliament, and is looking for input from readers…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-10-08",
+      "url": "https://edri.org/our-work/no-human-required-austrias-plan-for-ai-only-government-decisions/"
+    },
+    {
+      "title": "European AI Innovation Month",
+      "summary": "European AI Innovation Month Anonymous (not verified) Thu, 10/08/2026 - 09:00 14 October 2026 - 17 November 2026 From 14 October to 17 November 2026, this initiative led by the European Commission in partnership with the upcoming Irish Presidency of the…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-08",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
+    },
+    {
+      "title": "Adaptive Workflow Intelligence: A Cognitive Architecture for Context-Driven Enterprise Automation",
+      "summary": "arXiv:2610.08793v1 Announce Type: new Abstract: Enterprise systems increasingly rely on automated workflows, yet many AI-driven solutions remain brittle under non-stationary conditions, evolving policies, and delayed operational feedback. While reinforcement…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.08793"
+    },
+    {
+      "title": "How Could AI Eliminate Humanity? A Failure-Mode Analysis of Civilizational Risk",
+      "summary": "arXiv:2610.08878v1 Announce Type: new Abstract: This article develops a failure-mode framework for analyzing how advanced artificial intelligence could contribute to human extinction, irreversible civilizational collapse, or permanent human disempowerment.…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.08878"
+    },
+    {
+      "title": "Sequential Probabilistic Uncertainty Estimation for Parallel Multi-Agent Reasoning Systems",
+      "summary": "arXiv:2610.08901v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) have attracted growing attention for improving reasoning through interaction among multiple agents. In this work, we focus on parallel multi-agent reasoning systems, where…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.08901"
+    },
+    {
+      "title": "Talking with Language Models",
+      "summary": "arXiv:2610.09064v1 Announce Type: new Abstract: When we interact with large language models (LLMs), are we having a conversation? They are designed to invite us to treat them as intelligent interlocutors who remember, act, and make commitments. But…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.09064"
+    },
+    {
+      "title": "Beyond Score Accuracy: Examining the Diagnostic Quality of LLM-Generated Structured Assessment in Higher Education",
+      "summary": "arXiv:2610.09460v1 Announce Type: new Abstract: As Large Language Models (LLMs) are increasingly adopted for automated grading and feedback in higher education, their structured outputs, including multi-dimensional rubric scores, detailed feedback comments,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.09460"
+    },
+    {
+      "title": "Comprehension Audits to Mitigate Risks from Automated AI Research",
+      "summary": "arXiv:2610.10064v1 Announce Type: new Abstract: AI is already writing a majority of code for frontier AI labs. This creates a safety risk if there is insufficient human oversight. Existing work proposes minimum comprehension thresholds and unaided checks to…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.10064"
+    },
+    {
+      "title": "Disrupting AI-enabled “false front” operations",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-08",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+    },
+    {
+      "title": "AI Now’s Aashna Agarwal Testifies before NYC Council Committee of the Whole",
+      "summary": "On Monday, October 5th, 2026, AI Now Program Associate Aashna Agarwal testified before the New York City Council at a Committee of the Whole hearing on the concrete risks of AI acceleration. In her testimony, Aashna outlined three critical ways that AI…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-07",
+      "url": "https://ainowinstitute.org/news/announcement/ai-nows-aashna-agarwal-testifies-before-nyc-council-committee-of-the-whole"
+    },
+    {
+      "title": "The use of data in public health: understanding the potential for artificial intelligence in medicine",
       "summary": "—",
       "source": "EUR-Lex",
       "tier": "1-lei",
-      "date": "2026-10-08",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:532e5d57-c2c1-11f1-bfcb-01aa75ed71a1"
-    },
-    {
-      "title": "Muse launches on the iPad",
-      "summary": "After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
       "date": "2026-10-07",
-      "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
-    },
-    {
-      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "summary": "The developer of Hermes Agent raised a $90 million Series B.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-07",
-      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
-    },
-    {
-      "title": "Microsoft is giving Copilot more control over Windows and your files",
-      "summary": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\"…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-07",
-      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
-    },
-    {
-      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-07",
-      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
-    },
-    {
-      "title": "Google disponibiliza ferramenta para verificar conteúdos gerados por IA",
-      "summary": "A empresa tecnológica norte-americana Google disponibilizou esta quarta-feira gratuitamente ao público a ferramenta SynthID Detector, que permite a qualquer utilizador verificar se uma imagem, um vídeo ou um ficheiro de áudio foi gerado através de…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-07",
-      "url": "https://eco.sapo.pt/2026/10/07/google-disponibiliza-ferramenta-para-verificar-conteudos-gerados-por-ia/"
-    },
-    {
-      "title": "PAI honors Verity Harding and James Manyika as 2026 ChangeMaker Awardees",
-      "summary": "The post PAI honors Verity Harding and James Manyika as 2026 ChangeMaker Awardees appeared first on Partnership on AI.",
-      "source": "Partnership on AI",
-      "tier": "10-sociedade",
-      "date": "2026-10-07",
-      "url": "https://partnershiponai.org/pai-honors-verity-harding-and-james-manyika-as-2026-changemaker-awardees/"
-    },
-    {
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-07",
-      "url": "https://openai.com/index/teens-learn-and-plan"
-    },
-    {
-      "title": "Auditable Claims about AI Agents",
-      "summary": "arXiv:2610.07459v1 Announce Type: new Abstract: Organizations make claims about their AI agents: a person approves every external email, every action is logged, an evaluation shows the agent is safe to deploy. Article 12 of the EU AI Act requires high-risk…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-07",
-      "url": "https://arxiv.org/abs/2610.07459"
-    },
-    {
-      "title": "Intersectional Fairness via Mixed-Integer Optimization",
-      "summary": "arXiv:2601.19595v2 Announce Type: replace-cross Abstract: The deployment of Artificial Intelligence in high-risk domains, such as finance and healthcare, necessitates models that are both fair and transparent. While regulatory frameworks, including the EU's…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-07",
-      "url": "https://arxiv.org/abs/2601.19595"
-    },
-    {
-      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
-      "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-07",
-      "url": "https://arxiv.org/abs/2610.06910"
-    },
-    {
-      "title": "When the Rule-Maker Runs the World Championship: Late Patches and Procedural Accountability in League of Legends",
-      "summary": "arXiv:2610.07427v1 Announce Type: new Abstract: Riot Games, which runs the League of Legends World Championship (Worlds), also changes the game shortly before each tournament. This concentration of authority raises a governance question: Who scrutinizes how…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-07",
-      "url": "https://arxiv.org/abs/2610.07427"
-    },
-    {
-      "title": "Can Power Draw Constrain Covert Compute? Limits of Analogue Verification for AI Governance",
-      "summary": "arXiv:2610.07476v1 Announce Type: new Abstract: Frontier AI treaties or agreements on limiting computation require external verification; an external auditor must be able to confirm how much computation actually ran and that parties are adhering to the…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-07",
-      "url": "https://arxiv.org/abs/2610.07476"
-    },
-    {
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-06",
-      "url": "https://openai.com/index/atlassian-partnership"
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:8d28abd9-c387-11f1-bfcb-01aa75ed71a1"
     },
     {
       "title": "Video message by President von der Leyen to mark 25th Anniversary of IFOAM Organics Europe",
@@ -155,12 +219,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/funding/establishing-european-ai-observatory-call-tenders"
     },
     {
-      "title": "How the bad science of AI doomerism is good for big business",
-      "summary": "AI Now's Senior Research Scientist, Boyan Milanov, points out how AI doomerism isn't based on any scientific work and that calls for regulation from within the industry are, in reality, attempts by AI companies to set their own standards. The post How the bad…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-09-30",
-      "url": "https://ainowinstitute.org/news/press/how-the-bad-science-of-ai-doomerism-is-good-for-big-business"
+      "title": "Consultation on EU KIDS ACT",
+      "summary": "Consultation on EU KIDS ACT Anonymous (not verified) Fri, 10/02/2026 - 12:26 Opening: 02 October 2026 Closing: 03 December 2026 All feedback received will be summarised by the European Commission and presented to the European Parliament and Council with the…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-02",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-eu-kids-act"
     },
     {
       "title": "Introducing SynthID Bio",
@@ -195,14 +259,6 @@
       "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
     },
     {
-      "title": "Simplification for whom? Open letter to EU Member States to uphold GDPR protections in Digital Omnibus on Data",
-      "summary": "Over the past months, the European Commission's Digital Omnibus on Data has turned into a wider discussion about how much protection the data – and with it, the rights – of people in the EU should receive in the name of AI, innovation and competitiveness.…",
-      "source": "EDRi",
-      "tier": "10-sociedade",
-      "date": "2026-09-24",
-      "url": "https://edri.org/our-work/simplification-for-whom-open-letter-uphold-gdpr-protections-in-data-omnibus/"
-    },
-    {
       "title": "Amendes RGPD et interaction avec le règlement sur les services numériques: retour sur la plénière du CEPD du 17 septembre 2026",
       "summary": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services…",
       "source": "CNIL",
@@ -225,14 +281,6 @@
       "tier": "10-sociedade",
       "date": "2026-09-21",
       "url": "https://www.accessnow.org/event/unga81-ai-governance/"
-    },
-    {
-      "title": "Data Union Conference",
-      "summary": "Data Union Conference Anonymous (not verified) Fri, 09/18/2026 - 09:43 12 January 2027 Charlemagne building, Brussels, Belgium Bringing policymakers, businesses, experts and researchers together to turn Europe’s data policies into more data for AI, growth and…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-09-18",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/data-union-conference"
     },
     {
       "title": "EU KIDS Act to restrict social media platforms’ access to children in the EU",
@@ -273,22 +321,6 @@
       "tier": "2-comissao",
       "date": "2026-08-31",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act"
-    },
-    {
-      "title": "New partnership set to see the UK and Ukraine develop battle winning technology as Britain secures access to Ukraine's Avengers AI Labs",
-      "summary": "A landmark AI deal between the UK and Ukraine has been signed today as the two countries join forces to develop new military capabilities and the technology of the future.",
-      "source": "GOV.UK · DSIT / AISI",
-      "tier": "8-jurisdicoes",
-      "date": "2026-08-24",
-      "url": "https://www.gov.uk/government/news/new-partnership-set-to-see-the-uk-and-ukraine-develop-battle-winning-technology-as-britain-secures-access-to-ukraines-avengers-ai-labs"
-    },
-    {
-      "title": "Pitching day: Finalists of the Apply AI Startup Award",
-      "summary": "Pitching day: Finalists of the Apply AI Startup Award Anonymous (not verified) Mon, 08/24/2026 - 10:19 20 October 2026 Watch the pitches of the top 10 finalists of the Apply AI Startup Award and learn more about how the European Innovation Council (EIC) and…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-08-24",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/pitching-day-finalists-apply-ai-startup-award"
     },
     {
       "title": "Finlândia ativa enforcement",
