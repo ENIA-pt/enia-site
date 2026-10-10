@@ -1,38 +1,118 @@
 {
-  "generated": "2026-10-09T02:58:46.653Z",
+  "generated": "2026-10-10T02:21:12.963Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of…",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-10",
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+    },
+    {
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-09",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+    },
+    {
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-09",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+    },
+    {
+      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+      "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-09",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai"
+    },
+    {
+      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts.…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
       "date": "2026-10-09",
-      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/"
     },
     {
-      "title": "Anthropic launches free AI security scans for open-source projects",
-      "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could…",
-      "source": "The Verge AI",
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-10-08",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+      "date": "2026-10-09",
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/"
     },
     {
-      "title": "Trump ameaça tratar como inimigo quem falar em IA em vez de ‘superinteligência’",
-      "summary": "Donald Trump, que quer impor o termo “superinteligência” em vez de “inteligência artificial” (IA), garantiu esta quinta-feira que vai considerar “inimigo” quem quer que seja que não o siga nesta opção, sem detalhar o que a ameaça implica. “A Casa Branca…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-08",
-      "url": "https://eco.sapo.pt/2026/10/08/trump-ameaca-tratar-como-inimigo-quem-falar-em-ia-em-vez-de-superinteligencia/"
+      "title": "AP zet volgende stap in toezicht op AI",
+      "summary": "De Autoriteit Persoonsgegevens (AP) maakt zich verder klaar voor het toezicht op artificiële intelligentie (AI). Met de start van de nieuwe directie Toezicht en Coördinatie AI/Algoritmes (TCA) krijgt de taakopbouw steeds concreter vorm. De nieuwe directie…",
+      "source": "Autoriteit Persoonsgegevens",
+      "tier": "4-dados",
+      "date": "2026-10-09",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-zet-volgende-stap-in-toezicht-op-ai"
     },
     {
-      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-      "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-08",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+      "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
+      "summary": "Commission holds special meeting of Scientific panel on frontier AI safety and risks Anonymous (not verified) Fri, 10/09/2026 - 09:16 Today, the Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI). The panel has been…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-09",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks"
+    },
+    {
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.10549"
+    },
+    {
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.10611"
+    },
+    {
+      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.10629"
+    },
+    {
+      "title": "Auditing AI-Washing in German Startups: A Mixed-Methods Study of Marketing Claims and Perceptions",
+      "summary": "arXiv:2610.11788v1 Announce Type: new Abstract: AI-washing is the use of 'AI' as a marketing term where products' claims are exaggerated, likely to capture the hype from investors and consumers. In this paper, we examine how startups market AI and how people…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.11788"
+    },
+    {
+      "title": "Automated Disinformation and Malicious AI Swarms: Risks for Democracy and Development in Africa",
+      "summary": "arXiv:2610.11930v1 Announce Type: new Abstract: Generative artificial intelligence is reshaping how information is produced, accessed, and circulated, while enabling disinformation campaigns of increasing scale and sophistication. There is currently no clear…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.11930"
+    },
+    {
+      "title": "The learner who does not learn: when optimizing a pedagogical metric degrades LLM tutoring",
+      "summary": "arXiv:2610.12125v1 Announce Type: new Abstract: It is assumed that a natural way to improve the pedagogical quality of large language model tutors is to define a metric of instructional performance and fine-tune the model against it. To test this strategy, we…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.12125"
     },
     {
       "title": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being",
@@ -43,28 +123,12 @@
       "url": "https://partnershiponai.org/partnership-on-ai-welcomes-eight-new-partners-advancing-mental-health-and-well-being/"
     },
     {
-      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
-      "summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
+      "title": "Jennifer Huddleston and Sarah Myers West on Artificial Intelligence Regulation",
+      "summary": "AI Now's Co-Executive Director Sarah Myers West joined the Washington Journal to talk about how artificial intelligence should be regulated. The post Jennifer Huddleston and Sarah Myers West on Artificial Intelligence Regulation appeared first on AI Now…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-10-08",
-      "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/"
-    },
-    {
-      "title": "USA Today becomes the latest publisher to sue OpenAI",
-      "summary": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-08",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
-    },
-    {
-      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-08",
-      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/"
+      "url": "https://ainowinstitute.org/news/jennifer-huddleston-and-sarah-myers-west-on-artificial-intelligence-regulation"
     },
     {
       "title": "FTC Returns More than $15.8 Million to Consumers Misled by Cash Advance App Company Cleo AI",
@@ -81,6 +145,14 @@
       "tier": "12-industria",
       "date": "2026-10-08",
       "url": "https://openai.com/index/pollo-ai"
+    },
+    {
+      "title": "Stronger awareness and resources needed for effective data protection in law enforcement",
+      "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-10-08",
+      "url": "https://fra.europa.eu/en/news/2026/stronger-awareness-and-resources-needed-effective-data-protection-law-enforcement"
     },
     {
       "title": "The Cloud and AI Development Act (CADA) represents everything that’s wrong with Europe’s approach to digital sovereignty",
@@ -107,68 +179,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
     },
     {
-      "title": "Adaptive Workflow Intelligence: A Cognitive Architecture for Context-Driven Enterprise Automation",
-      "summary": "arXiv:2610.08793v1 Announce Type: new Abstract: Enterprise systems increasingly rely on automated workflows, yet many AI-driven solutions remain brittle under non-stationary conditions, evolving policies, and delayed operational feedback. While reinforcement…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-08",
-      "url": "https://arxiv.org/abs/2610.08793"
-    },
-    {
-      "title": "How Could AI Eliminate Humanity? A Failure-Mode Analysis of Civilizational Risk",
-      "summary": "arXiv:2610.08878v1 Announce Type: new Abstract: This article develops a failure-mode framework for analyzing how advanced artificial intelligence could contribute to human extinction, irreversible civilizational collapse, or permanent human disempowerment.…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-08",
-      "url": "https://arxiv.org/abs/2610.08878"
-    },
-    {
-      "title": "Sequential Probabilistic Uncertainty Estimation for Parallel Multi-Agent Reasoning Systems",
-      "summary": "arXiv:2610.08901v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) have attracted growing attention for improving reasoning through interaction among multiple agents. In this work, we focus on parallel multi-agent reasoning systems, where…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-08",
-      "url": "https://arxiv.org/abs/2610.08901"
-    },
-    {
-      "title": "Talking with Language Models",
-      "summary": "arXiv:2610.09064v1 Announce Type: new Abstract: When we interact with large language models (LLMs), are we having a conversation? They are designed to invite us to treat them as intelligent interlocutors who remember, act, and make commitments. But…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-08",
-      "url": "https://arxiv.org/abs/2610.09064"
-    },
-    {
-      "title": "Beyond Score Accuracy: Examining the Diagnostic Quality of LLM-Generated Structured Assessment in Higher Education",
-      "summary": "arXiv:2610.09460v1 Announce Type: new Abstract: As Large Language Models (LLMs) are increasingly adopted for automated grading and feedback in higher education, their structured outputs, including multi-dimensional rubric scores, detailed feedback comments,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-08",
-      "url": "https://arxiv.org/abs/2610.09460"
-    },
-    {
-      "title": "Comprehension Audits to Mitigate Risks from Automated AI Research",
-      "summary": "arXiv:2610.10064v1 Announce Type: new Abstract: AI is already writing a majority of code for frontier AI labs. This creates a safety risk if there is insufficient human oversight. Existing work proposes minimum comprehension thresholds and unaided checks to…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-08",
-      "url": "https://arxiv.org/abs/2610.10064"
-    },
-    {
       "title": "Disrupting AI-enabled “false front” operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "source": "OpenAI",
       "tier": "12-industria",
       "date": "2026-10-08",
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
-    },
-    {
-      "title": "AI Now’s Aashna Agarwal Testifies before NYC Council Committee of the Whole",
-      "summary": "On Monday, October 5th, 2026, AI Now Program Associate Aashna Agarwal testified before the New York City Council at a Committee of the Whole hearing on the concrete risks of AI acceleration. In her testimony, Aashna outlined three critical ways that AI…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-07",
-      "url": "https://ainowinstitute.org/news/announcement/ai-nows-aashna-agarwal-testifies-before-nyc-council-committee-of-the-whole"
     },
     {
       "title": "The use of data in public health: understanding the potential for artificial intelligence in medicine",
@@ -313,14 +329,6 @@
       "tier": "2-comissao",
       "date": "2026-09-07",
       "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit"
-    },
-    {
-      "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
-      "summary": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 The Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large Online…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-08-31",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act"
     },
     {
       "title": "Finlândia ativa enforcement",
