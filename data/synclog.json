@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-10T02:20:12.983Z",
+  "startedAt": "2026-10-11T01:53:51.860Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -107,7 +107,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "id": "fra",
@@ -224,7 +224,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "error": "HTTP 404"
     },
     {
       "id": "aesia-es",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 31,
+      "items": 28,
       "kept": 0,
       "maisRecente": null
     },
@@ -377,16 +377,16 @@
       "ok": true,
       "items": 472,
       "kept": 3,
-      "maisRecente": "2026-10-09"
+      "maisRecente": "2026-10-10"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 20,
-      "kept": 3,
-      "maisRecente": "2026-10-09"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "stanford-hai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-09"
+      "maisRecente": "2026-10-10"
     },
     {
       "id": "eco-pt",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 1,
+      "maisRecente": "2026-10-10"
     },
     {
       "id": "publico-tec",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 2189,
+      "items": 2385,
       "kept": 0,
       "maisRecente": null
     },
@@ -680,7 +680,7 @@
   "warnings": [
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
-    "[edps] HTTP 403",
+    "[edps] HTTP 404",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
@@ -689,7 +689,7 @@
     "[anacom-legislacao] HTTP 404",
     "[anacom-imprensa] HTTP 404",
     "[anacom-consultas] HTTP 404",
-    "[traficom-fi] fetch failed",
+    "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
@@ -714,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-10T02:21:12.963Z",
-  "recolhidos": 42,
-  "written": 42,
+  "finishedAt": "2026-10-11T01:54:44.418Z",
+  "recolhidos": 40,
+  "written": 40,
   "maisRecente": "2026-10-10",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 16,
+    "added": 5,
     "curados": 0,
-    "total": 735
+    "total": 740
   }
 }
