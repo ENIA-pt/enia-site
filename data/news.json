@@ -1,54 +1,86 @@
 {
-  "generated": "2026-10-12T02:26:27.706Z",
+  "generated": "2026-10-13T03:37:02.930Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-      "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-11",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
-    },
-    {
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-11",
-      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/"
+      "date": "2026-10-12",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
     },
     {
-      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-      "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-11",
-      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/"
+      "date": "2026-10-12",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
     },
     {
-      "title": "“Não se pode construir tecnologias emergentes sobre bases frágeis”",
-      "summary": "A inteligência artificial (IA) está a redesenhar vários processos nas empresas, a levantar novas questões de segurança e a transformar a forma como as organizações trabalham. Para Ismail Amla, Senior Vice President da Kyndryl e líder global da Kyndryl…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-11",
-      "url": "https://eco.sapo.pt/entrevista/nao-se-pode-construir-tecnologias-emergentes-sobre-bases-frageis/"
-    },
-    {
-      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're…",
+      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-11",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+      "date": "2026-10-12",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
     },
     {
-      "title": "Barack Obama em Lisboa: “Coordenar segurança da IA entre EUA e China vai ser um desafio”",
-      "summary": "“A tecnologia move-se de forma muito rápida, mas os governos movem-se com muita lentidão“, disse Obama, durante o evento Game Changers Forum, que decorre no Meo Arena. “O problema é que não dispomos das medidas de segurança de que necessitamos”. “Isto tem de…",
-      "source": "ECO",
+      "title": "Meta has some Wonder Full new AI models",
+      "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-10",
-      "url": "https://eco.sapo.pt/2026/10/10/barack-obama-em-lisboa-coordenar-seguranca-da-ia-entre-eua-e-china-vai-ser-um-desafio/"
+      "date": "2026-10-12",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+    },
+    {
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12493"
+    },
+    {
+      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+      "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12536"
+    },
+    {
+      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+      "summary": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12593"
+    },
+    {
+      "title": "Knowing Is Not Telling: Identity Ossification in LLM Representations of Trans-border Communities",
+      "summary": "arXiv:2610.12610v1 Announce Type: new Abstract: Ethnic and cultural identities rarely align with political borders, a tension made sharper by migration and long-standing cross-border ties. Communities such as the Sami, the Rohingya, and the Kurds have long…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12610"
+    },
+    {
+      "title": "What Counts as Evidence? Epistemic Cue Utilization in Large Language Models",
+      "summary": "arXiv:2610.12788v1 Announce Type: new Abstract: Which information actually shapes a language model's judgment when sources disagree? We study epistemic cue utilization through a controlled benchmark of 500 scenarios and five complementary tracks separating…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12788"
+    },
+    {
+      "title": "Large Language Models, Machine-Assisted Cultural Analytics, and the Agentic Turn",
+      "summary": "arXiv:2610.12792v1 Announce Type: new Abstract: Technologies like large language models make it easier to convert cultural material into analyzable variables, while LLM-driven agentic systems extend machine assistance to other parts of the research workflow.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12792"
     },
     {
       "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
@@ -76,7 +108,7 @@
     },
     {
       "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
-      "summary": "Commission holds special meeting of Scientific panel on frontier AI safety and risks Anonymous (not verified) Fri, 10/09/2026 - 09:16 Today, the Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI). The panel has been…",
+      "summary": "Commission holds special meeting of Scientific panel on frontier AI safety and risks Anonymous (not verified) Fri, 10/09/2026 - 09:16 The Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI). The panel has been…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-10-09",
@@ -147,20 +179,20 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
     },
     {
+      "title": "Artificial Intelligence, jobs and society: what we know so far",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-10-08",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:532e5d57-c2c1-11f1-bfcb-01aa75ed71a1"
+    },
+    {
       "title": "Disrupting AI-enabled “false front” operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "source": "OpenAI",
       "tier": "12-industria",
       "date": "2026-10-08",
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
-    },
-    {
-      "title": "The use of data in public health: understanding the potential for artificial intelligence in medicine",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-10-07",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:8d28abd9-c387-11f1-bfcb-01aa75ed71a1"
     },
     {
       "title": "Video message by President von der Leyen to mark 25th Anniversary of IFOAM Organics Europe",

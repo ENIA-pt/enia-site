@@ -1,8 +1,88 @@
 {
-  "generated": "2026-10-12T02:26:27.706Z",
+  "generated": "2026-10-13T03:37:02.930Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 745,
+  "count": 755,
   "items": [
+    {
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-12",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+    },
+    {
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-12",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
+    },
+    {
+      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-12",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+    },
+    {
+      "title": "Meta has some Wonder Full new AI models",
+      "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-12",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+    },
+    {
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12493"
+    },
+    {
+      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+      "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12536"
+    },
+    {
+      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+      "summary": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12593"
+    },
+    {
+      "title": "Knowing Is Not Telling: Identity Ossification in LLM Representations of Trans-border Communities",
+      "summary": "arXiv:2610.12610v1 Announce Type: new Abstract: Ethnic and cultural identities rarely align with political borders, a tension made sharper by migration and long-standing cross-border ties. Communities such as the Sami, the Rohingya, and the Kurds have long…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12610"
+    },
+    {
+      "title": "What Counts as Evidence? Epistemic Cue Utilization in Large Language Models",
+      "summary": "arXiv:2610.12788v1 Announce Type: new Abstract: Which information actually shapes a language model's judgment when sources disagree? We study epistemic cue utilization through a controlled benchmark of 500 scenarios and five complementary tracks separating…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12788"
+    },
+    {
+      "title": "Large Language Models, Machine-Assisted Cultural Analytics, and the Agentic Turn",
+      "summary": "arXiv:2610.12792v1 Announce Type: new Abstract: Technologies like large language models make it easier to convert cultural material into analyzable variables, while LLM-driven agentic systems extend machine assistance to other parts of the research workflow.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.12792"
+    },
     {
       "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
       "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most…",

@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-12T02:24:20.530Z",
+  "startedAt": "2026-10-13T03:34:31.331Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -8,7 +8,7 @@
       "ok": true,
       "items": 60,
       "kept": 8,
-      "maisRecente": "2026-10-07"
+      "maisRecente": "2026-10-08"
     },
     {
       "id": "eurlex-oj-l",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 28,
+      "items": 27,
       "kept": 0,
       "maisRecente": null
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 313,
+      "kept": 3,
+      "maisRecente": "2026-10-12"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 19,
+      "kept": 3,
+      "maisRecente": "2026-10-12"
     },
     {
       "id": "stanford-hai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-11"
+      "maisRecente": "2026-10-12"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-11"
+      "maisRecente": "2026-10-12"
     },
     {
       "id": "eco-pt",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 2,
-      "maisRecente": "2026-10-11"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "publico-tec",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 2385,
+      "items": 1883,
       "kept": 0,
       "maisRecente": null
     },
@@ -714,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-12T02:26:27.707Z",
-  "recolhidos": 38,
-  "written": 38,
-  "maisRecente": "2026-10-11",
+  "finishedAt": "2026-10-13T03:37:02.931Z",
+  "recolhidos": 42,
+  "written": 42,
+  "maisRecente": "2026-10-12",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 5,
+    "added": 10,
     "curados": 0,
-    "total": 745
+    "total": 755
   }
 }
