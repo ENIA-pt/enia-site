@@ -1,8 +1,80 @@
 {
-  "generated": "2026-10-13T03:37:02.930Z",
+  "generated": "2026-10-14T01:55:32.100Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 755,
+  "count": 765,
   "items": [
+    {
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
+    },
+    {
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "summary": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
+    },
+    {
+      "title": "It’s ‘incomprehensible’ that Instagram allowed an AI image of Mia Goth to spread, say her reps",
+      "summary": "Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce"
+    },
+    {
+      "title": "Shopify opens its catalog up to more AI agents",
+      "summary": "More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf,…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
+    },
+    {
+      "title": "Presidente da Microsoft quer leis para manter IA sob controlo humano e critica autorregulação",
+      "summary": "O presidente e vice-chairman da Microsoft defendeu esta terça-feira que o desenvolvimento da inteligência artificial (IA) tem de permanecer sob controlo humano e que as empresas do setor não se podem limitar à autorregulação. Brad Smith considera necessárias…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://eco.sapo.pt/2026/10/13/presidente-da-microsoft-quer-leis-para-manter-ia-sob-controlo-humano-e-critica-autorregulacao/"
+    },
+    {
+      "title": "The AI Ethics Brief #201: The Year the Terms Became Visible",
+      "summary": "On MAIEI’s founding question, the fragility that can accompany AI adoption, and the people institutions need to govern it. Source",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-13",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-201-the-year-the-terms-became-visible/"
+    },
+    {
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
+    },
+    {
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-13",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice"
+    },
+    {
+      "title": "AI labs are buying data from dead startups to train their models",
+      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+    },
     {
       "title": "Meta releases its first frontier model, Muse Wonder",
       "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
@@ -450,6 +522,14 @@
       "tier": "4-dados",
       "date": "2026-10-08",
       "url": "https://fra.europa.eu/en/news/2026/stronger-awareness-and-resources-needed-effective-data-protection-law-enforcement"
+    },
+    {
+      "title": "Opening words by Executive Vice-President Virkkunen at the Meeting with the European AI Scientific Panel of Independent Experts",
+      "summary": "European Commission Speech Brussels, 13 Oct 2026 Dear Chair and Vice-Chair, dear members of the Scientific Panel. Thank you for making the time to be here today. You are among the most sought-after experts in...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-08",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2148"
     },
     {
       "title": "Muse launches on the iPad",

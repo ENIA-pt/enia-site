@@ -1,102 +1,86 @@
 {
-  "generated": "2026-10-13T03:37:02.930Z",
+  "generated": "2026-10-14T01:55:32.100Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-12",
-      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+      "date": "2026-10-13",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
     },
     {
-      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "summary": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-12",
-      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
+      "date": "2026-10-13",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
     },
     {
-      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's…",
+      "title": "It’s ‘incomprehensible’ that Instagram allowed an AI image of Mia Goth to spread, say her reps",
+      "summary": "Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-12",
-      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+      "date": "2026-10-13",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce"
     },
     {
-      "title": "Meta has some Wonder Full new AI models",
-      "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The…",
+      "title": "Shopify opens its catalog up to more AI agents",
+      "summary": "More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf,…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-12",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+      "date": "2026-10-13",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
     },
     {
-      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
-      "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However,…",
-      "source": "arXiv cs.AI",
+      "title": "Presidente da Microsoft quer leis para manter IA sob controlo humano e critica autorregulação",
+      "summary": "O presidente e vice-chairman da Microsoft defendeu esta terça-feira que o desenvolvimento da inteligência artificial (IA) tem de permanecer sob controlo humano e que as empresas do setor não se podem limitar à autorregulação. Brad Smith considera necessárias…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-13",
+      "url": "https://eco.sapo.pt/2026/10/13/presidente-da-microsoft-quer-leis-para-manter-ia-sob-controlo-humano-e-critica-autorregulacao/"
+    },
+    {
+      "title": "The AI Ethics Brief #201: The Year the Terms Became Visible",
+      "summary": "On MAIEI’s founding question, the fragility that can accompany AI adoption, and the people institutions need to govern it. Source",
+      "source": "Montreal AI Ethics Institute",
       "tier": "9-investigacao",
-      "date": "2026-10-12",
-      "url": "https://arxiv.org/abs/2610.12493"
+      "date": "2026-10-13",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-201-the-year-the-terms-became-visible/"
     },
     {
-      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
-      "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-12",
-      "url": "https://arxiv.org/abs/2610.12536"
-    },
-    {
-      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
-      "summary": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-12",
-      "url": "https://arxiv.org/abs/2610.12593"
-    },
-    {
-      "title": "Knowing Is Not Telling: Identity Ossification in LLM Representations of Trans-border Communities",
-      "summary": "arXiv:2610.12610v1 Announce Type: new Abstract: Ethnic and cultural identities rarely align with political borders, a tension made sharper by migration and long-standing cross-border ties. Communities such as the Sami, the Rohingya, and the Kurds have long…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-12",
-      "url": "https://arxiv.org/abs/2610.12610"
-    },
-    {
-      "title": "What Counts as Evidence? Epistemic Cue Utilization in Large Language Models",
-      "summary": "arXiv:2610.12788v1 Announce Type: new Abstract: Which information actually shapes a language model's judgment when sources disagree? We study epistemic cue utilization through a controlled benchmark of 500 scenarios and five complementary tracks separating…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-12",
-      "url": "https://arxiv.org/abs/2610.12788"
-    },
-    {
-      "title": "Large Language Models, Machine-Assisted Cultural Analytics, and the Agentic Turn",
-      "summary": "arXiv:2610.12792v1 Announce Type: new Abstract: Technologies like large language models make it easier to convert cultural material into analyzable variables, while LLM-driven agentic systems extend machine assistance to other parts of the research workflow.…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-12",
-      "url": "https://arxiv.org/abs/2610.12792"
-    },
-    {
-      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts.…",
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-10-09",
-      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/"
+      "date": "2026-10-13",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
     },
     {
-      "title": "We’re putting too much faith in AI’s ability to say no",
-      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers…",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-13",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice"
+    },
+    {
+      "title": "AI labs are buying data from dead startups to train their models",
+      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-10-09",
-      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/"
+      "date": "2026-10-13",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+    },
+    {
+      "title": "A Bizottság (EU) 2026/2274 végrehajtási határozata (2026. október 12.) az (EU) 2024/1689 európai parlamenti és tanácsi rendelet támogatása céljából a nagy…",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-10-12",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:05805dc1-c76c-11f1-a77b-01aa75ed71a1"
     },
     {
       "title": "AP zet volgende stap in toezicht op AI",
@@ -113,6 +97,14 @@
       "tier": "2-comissao",
       "date": "2026-10-09",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks"
+    },
+    {
+      "title": "Opening words by Executive Vice-President Virkkunen at the Meeting with the European AI Scientific Panel of Independent Experts",
+      "summary": "European Commission Speech Brussels, 13 Oct 2026 Dear Chair and Vice-Chair, dear members of the Scientific Panel. Thank you for making the time to be here today. You are among the most sought-after experts in...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-08",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2148"
     },
     {
       "title": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being",
@@ -179,28 +171,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
     },
     {
-      "title": "Artificial Intelligence, jobs and society: what we know so far",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-10-08",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:532e5d57-c2c1-11f1-bfcb-01aa75ed71a1"
-    },
-    {
-      "title": "Disrupting AI-enabled “false front” operations",
-      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-08",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
-    },
-    {
-      "title": "Video message by President von der Leyen to mark 25th Anniversary of IFOAM Organics Europe",
-      "summary": "European Commission Speech Brussels, 06 Oct 2026 President Drexler, Dear Dora, Ladies and gentlemen, Congratulations on your 25th anniversary! IFOAM Organics Europe and all its members have so much to be proud...",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-10-06",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2089"
+      "title": "ANACOM reúne com a Google sobre a IA Agêntica",
+      "summary": "A reunião decorreu na sede da ANACOM, a 06.10.2026.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-10-07",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1859241"
     },
     {
       "title": "Should We Track AI Chips?",
@@ -209,14 +185,6 @@
       "tier": "9-investigacao",
       "date": "2026-10-06",
       "url": "https://cset.georgetown.edu/article/should-we-track-ai-chips/"
-    },
-    {
-      "title": "Commission registers European Citizens' Initiative for sovereign European AI domains",
-      "summary": "European Commission Press release Brussels, 06 Oct 2026 Today, the European Commission registered the European Citizens' Initiative (ECI) entitled ‘Creation of a European Digital Space (.IA) for Sovereign AI Governance'.",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-10-05",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2064"
     },
     {
       "title": "Are Governments Ready for AI Agents?",
@@ -251,14 +219,6 @@
       "url": "https://deepmind.google/blog/introducing-synthid-bio/"
     },
     {
-      "title": "The AI Ethics Brief #200: Who Is This For?",
-      "summary": "On MAIEI’s founding question, the fragility that can accompany AI adoption, and the people institutions need to govern it. Source",
-      "source": "Montreal AI Ethics Institute",
-      "tier": "9-investigacao",
-      "date": "2026-09-29",
-      "url": "https://montrealethics.ai/the-ai-ethics-brief-200-who-is-this-for/"
-    },
-    {
       "title": "Targeted consultation to support a better copyright environment for creativity and innovation",
       "summary": "Targeted consultation to support a better copyright environment for creativity and innovation Anonymous (not verified) Tue, 09/29/2026 - 10:15 Opening: 29 September 2026 Closing: 03 November 2026 The Commission has launched a targeted consultation in…",
       "source": "Shaping Europe's Digital Future",
@@ -273,14 +233,6 @@
       "tier": "10-sociedade",
       "date": "2026-09-28",
       "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
-    },
-    {
-      "title": "Amendes RGPD et interaction avec le règlement sur les services numériques: retour sur la plénière du CEPD du 17 septembre 2026",
-      "summary": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services…",
-      "source": "CNIL",
-      "tier": "4-dados",
-      "date": "2026-09-23",
-      "url": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques"
     },
     {
       "title": "Disrupting EvilTokens: The AI Chatbot Built for Cybercrime",
