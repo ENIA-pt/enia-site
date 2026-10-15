@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-14T01:54:37.183Z",
+  "startedAt": "2026-10-15T01:28:53.850Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -34,8 +34,8 @@
       "kind": "rss",
       "ok": true,
       "items": 50,
-      "kept": 1,
-      "maisRecente": "2026-10-08"
+      "kept": 3,
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "ec-digital-strategy",
@@ -131,10 +131,10 @@
       "id": "cnil",
       "tier": "4-dados",
       "kind": "rss",
-      "ok": true,
-      "items": 10,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 503"
     },
     {
       "id": "aepd",
@@ -160,8 +160,8 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 1,
-      "maisRecente": "2026-10-09"
+      "kept": 2,
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "ico-uk",
@@ -177,7 +177,7 @@
       "tier": "5-nacional",
       "kind": "rss",
       "ok": true,
-      "items": 21,
+      "items": 20,
       "kept": 1,
       "maisRecente": "2026-10-07"
     },
@@ -348,9 +348,9 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 27,
-      "kept": 0,
-      "maisRecente": null
+      "items": 29,
+      "kept": 1,
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "canada-aida",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 1353,
+      "kept": 3,
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 77,
+      "kept": 3,
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "stanford-hai",
@@ -473,10 +473,10 @@
       "id": "edri",
       "tier": "10-sociedade",
       "kind": "rss",
-      "ok": true,
-      "items": 20,
-      "kept": 2,
-      "maisRecente": "2026-10-08"
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "timeout 25s"
     },
     {
       "id": "access-now",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-13"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-13"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "eco-pt",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 1,
-      "maisRecente": "2026-10-13"
+      "kept": 2,
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1288,
+      "items": 1293,
       "kept": 2,
-      "maisRecente": "2026-10-13"
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "deepmind",
@@ -602,7 +602,7 @@
       "ok": true,
       "items": 100,
       "kept": 1,
-      "maisRecente": "2026-09-30"
+      "maisRecente": "2026-10-14"
     },
     {
       "id": "mistral",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1619,
+      "items": 1288,
       "kept": 0,
       "maisRecente": null
     },
@@ -682,6 +682,7 @@
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
     "[cnpd] HTTP 404",
+    "[cnil] HTTP 503",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
@@ -693,6 +694,7 @@
     "[oecd-ai] HTTP 404",
     "[coe-ai] HTTP 403",
     "[alan-turing] HTTP 403",
+    "[edri] timeout 25s",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
     "[anthropic-news] HTTP 404",
@@ -710,14 +712,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-14T01:55:32.101Z",
-  "recolhidos": 36,
-  "written": 36,
-  "maisRecente": "2026-10-13",
+  "finishedAt": "2026-10-15T01:30:38.827Z",
+  "recolhidos": 45,
+  "written": 45,
+  "maisRecente": "2026-10-15",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 10,
+    "added": 19,
     "curados": 0,
-    "total": 765
+    "total": 784
   }
 }
