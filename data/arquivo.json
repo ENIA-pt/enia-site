@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-15T01:30:38.827Z",
+  "generated": "2026-10-16T01:23:05.480Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 784,
+  "count": 796,
   "items": [
     {
       "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
@@ -26,6 +26,102 @@
       "tier": "11-imprensa",
       "date": "2026-10-15",
       "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/"
+    },
+    {
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-15",
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
+    },
+    {
+      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+      "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game,…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-15",
+      "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
+    },
+    {
+      "title": "Trump posts AI-edited photo to brag about White House restoration work",
+      "summary": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-15",
+      "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column"
+    },
+    {
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-15",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+    },
+    {
+      "title": "CNN e Google unem forças em parceria estratégica de IA",
+      "summary": "A CNN anunciou esta quinta-feira uma parceria estratégica plurianual com a Google, que dá à tecnológica direitos de conteúdo alargados sobre os conteúdos do canal norte-americano para testar novas funcionalidades de inteligência artificial (IA) generativa. O…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-15",
+      "url": "https://eco.sapo.pt/2026/10/15/cnn-e-google-unem-forcas-em-parceria-estrategica-de-ia/"
+    },
+    {
+      "title": "Ativo do dia. Fantasma da Fed faz soar alarmes na operadora CoreWeave",
+      "summary": "O ativo A CoreWeave é uma empresa norte-americana. Começou por minerar criptomoedas e transitou para a computação na nuvem, especializada em fornecer infraestrutura de alto desempenho projetada especificamente para o processamento de inteligência artificial…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-15",
+      "url": "https://eco.sapo.pt/2026/10/15/ativo-do-dia-fantasma-da-fed-faz-soar-alarmes-na-operadora-coreweave/"
+    },
+    {
+      "title": "Teaching students to think and learn through questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-15",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+    },
+    {
+      "title": "Commission launches RAISE pledging initiative to boost AI support for researchers across Europe",
+      "summary": "European Commission Press release Brussels, 15 Oct 2026 Today, at the European AI in Science Summit in Dublin, the European Commission launched the RAISE (Resource for AI Science in Europe) pledging initiative for AI in Science Enablers.",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-15",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2175"
+    },
+    {
+      "title": "MemeTrace: A Multimodal LLM-Based Agent for Safety-Aware Meme Provenance Analysis",
+      "summary": "arXiv:2610.19267v1 Announce Type: cross Abstract: Online memes are often carriers of unsafe content such as disinformation and propaganda. Their rapid evolution in response to news events and strong dependence on contextual information make it difficult for…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.19267"
+    },
+    {
+      "title": "Moral Combat: Exploiting Moral Foundations Theory to Jailbreak LLMs",
+      "summary": "arXiv:2610.19587v1 Announce Type: cross Abstract: Social psychology has long described how people can be persuaded to interpret a harmful act as moral. Recent research suggests that Large Language Models (LLMs) echo aspects of human psychology, from cognitive…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.19587"
+    },
+    {
+      "title": "HACHIMI-II: From Role-Play to Learner Behavior Modeling for Faithful Student Simulation",
+      "summary": "arXiv:2610.19654v1 Announce Type: cross Abstract: Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails. The…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.19654"
+    },
+    {
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-15",
+      "url": "https://openai.com/index/sullivan-cromwell"
     },
     {
       "title": "McKinsey is making job applicants spar with a fake AI client",

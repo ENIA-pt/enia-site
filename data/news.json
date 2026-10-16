@@ -1,54 +1,126 @@
 {
-  "generated": "2026-10-15T01:30:38.827Z",
+  "generated": "2026-10-16T01:23:05.480Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-10-15",
-      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
     },
     {
-      "title": "The AI race is back on",
-      "summary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its…",
+      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+      "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game,…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-10-15",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
+      "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
     },
     {
-      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy.…",
+      "title": "Trump posts AI-edited photo to brag about White House restoration work",
+      "summary": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-15",
+      "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column"
+    },
+    {
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-10-15",
-      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/"
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
     },
     {
-      "title": "McKinsey is making job applicants spar with a fake AI client",
-      "summary": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-14",
-      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
-    },
-    {
-      "title": "Hassabis defende que criatividade humana continua essencial na era da IA",
-      "summary": "A inteligência artificial (IA) já consegue ajudar a resolver problemas complexos, mas continua a caber aos humanos fazer as perguntas certas. É esta a distinção que Demis Hassabis, cofundador e presidente da Google DeepMind e cientista-chefe da Alphabet…",
+      "title": "CNN e Google unem forças em parceria estratégica de IA",
+      "summary": "A CNN anunciou esta quinta-feira uma parceria estratégica plurianual com a Google, que dá à tecnológica direitos de conteúdo alargados sobre os conteúdos do canal norte-americano para testar novas funcionalidades de inteligência artificial (IA) generativa. O…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-10-14",
-      "url": "https://eco.sapo.pt/2026/10/14/hassabis-defende-que-criatividade-humana-continua-essencial-na-era-da-ia/"
+      "date": "2026-10-15",
+      "url": "https://eco.sapo.pt/2026/10/15/cnn-e-google-unem-forcas-em-parceria-estrategica-de-ia/"
     },
     {
-      "title": "CFO da OpenAI alerta para riscos de cibersegurança dos modelos de IA com pesos abertos",
-      "summary": "A administradora financeira da OpenAI, Sarah Friar, alertou esta quarta-feira para os riscos de cibersegurança associados à disponibilização de modelos avançados de inteligência artificial (IA) em código aberto ou com os respetivos pesos acessíveis. A CFO da…",
+      "title": "Ativo do dia. Fantasma da Fed faz soar alarmes na operadora CoreWeave",
+      "summary": "O ativo A CoreWeave é uma empresa norte-americana. Começou por minerar criptomoedas e transitou para a computação na nuvem, especializada em fornecer infraestrutura de alto desempenho projetada especificamente para o processamento de inteligência artificial…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-10-14",
-      "url": "https://eco.sapo.pt/2026/10/14/cfo-da-openai-alerta-para-riscos-de-ciberseguranca-dos-modelos-de-ia-com-pesos-abertos/"
+      "date": "2026-10-15",
+      "url": "https://eco.sapo.pt/2026/10/15/ativo-do-dia-fantasma-da-fed-faz-soar-alarmes-na-operadora-coreweave/"
+    },
+    {
+      "title": "Teaching students to think and learn through questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-15",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+    },
+    {
+      "title": "Commission launches RAISE pledging initiative to boost AI support for researchers across Europe",
+      "summary": "European Commission Press release Brussels, 15 Oct 2026 Today, at the European AI in Science Summit in Dublin, the European Commission launched the RAISE (Resource for AI Science in Europe) pledging initiative for AI in Science Enablers.",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-15",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2175"
+    },
+    {
+      "title": "Transparent Information Flow Modeling for Role-Aware AI Act Assessment",
+      "summary": "arXiv:2610.16916v1 Announce Type: new Abstract: The European Union's Artificial Intelligence Act introduces a structured framework for governing high-risk AI systems, emphasizing transparency, risk management, and role-specific accountability. However,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.16916"
+    },
+    {
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.14005"
+    },
+    {
+      "title": "The Silent Failures in Agentic Data Science",
+      "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.14115"
+    },
+    {
+      "title": "MemeTrace: A Multimodal LLM-Based Agent for Safety-Aware Meme Provenance Analysis",
+      "summary": "arXiv:2610.19267v1 Announce Type: cross Abstract: Online memes are often carriers of unsafe content such as disinformation and propaganda. Their rapid evolution in response to news events and strong dependence on contextual information make it difficult for…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.19267"
+    },
+    {
+      "title": "Moral Combat: Exploiting Moral Foundations Theory to Jailbreak LLMs",
+      "summary": "arXiv:2610.19587v1 Announce Type: cross Abstract: Social psychology has long described how people can be persuaded to interpret a harmful act as moral. Recent research suggests that Large Language Models (LLMs) echo aspects of human psychology, from cognitive…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.19587"
+    },
+    {
+      "title": "HACHIMI-II: From Role-Play to Learner Behavior Modeling for Faithful Student Simulation",
+      "summary": "arXiv:2610.19654v1 Announce Type: cross Abstract: Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails. The…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.19654"
+    },
+    {
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-15",
+      "url": "https://openai.com/index/sullivan-cromwell"
     },
     {
       "title": "Nieuwe EDPB-guidelines over samenspel DSA/AVG en AVG-boetes",
@@ -59,14 +131,6 @@
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/nieuwe-edpb-guidelines-over-samenspel-dsaavg-en-avg-boetes"
     },
     {
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-14",
-      "url": "https://openai.com/index/amp-beyond-coding"
-    },
-    {
       "title": "Eurobarometer survey highlights growing use of AI in European companies",
       "summary": "European Commission Press release Brussels, 14 Oct 2026 European businesses rely increasingly on artificial intelligence (AI). That is what the results of the latest Eurobarometer survey showed, published today.",
       "source": "Comissão Europeia",
@@ -75,68 +139,12 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2160"
     },
     {
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-14",
-      "url": "https://openai.com/index/third-moment-research"
-    },
-    {
-      "title": "Transparent Information Flow Modeling for Role-Aware AI Act Assessment",
-      "summary": "arXiv:2610.16916v1 Announce Type: new Abstract: The European Union's Artificial Intelligence Act introduces a structured framework for governing high-risk AI systems, emphasizing transparency, risk management, and role-specific accountability. However,…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-14",
-      "url": "https://arxiv.org/abs/2610.16916"
-    },
-    {
       "title": "Division of Program Coordination, Planning, and Strategic Initiatives, Office of the Director Notice of Proposed Reorganization",
       "summary": "The Division of Program Coordination, Planning, and Strategic Initiatives (DPCPSI) in the Office of the Director (OD), National Institutes of Health (NIH) is seeking public comment regarding its proposal to establish the Office of the NIH Chief Artificial…",
       "source": "Federal Register",
       "tier": "8-jurisdicoes",
       "date": "2026-10-14",
       "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20891/division-of-program-coordination-planning-and-strategic-initiatives-office-of-the-director-notice-of"
-    },
-    {
-      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-14",
-      "url": "https://arxiv.org/abs/2610.14005"
-    },
-    {
-      "title": "The Silent Failures in Agentic Data Science",
-      "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-14",
-      "url": "https://arxiv.org/abs/2610.14115"
-    },
-    {
-      "title": "AI Advice Reinforces Traditional Gender Roles",
-      "summary": "arXiv:2610.14036v1 Announce Type: new Abstract: Professionals are increasingly turning to artificial intelligence (AI) for career advice. We tested whether large language models (LLMs) provide different advice to female and male job candidates in the context…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-14",
-      "url": "https://arxiv.org/abs/2610.14036"
-    },
-    {
-      "title": "Culture in the Code: Anthropological Concepts Decoding AI's Hidden Assumptions",
-      "summary": "arXiv:2610.14203v1 Announce Type: new Abstract: Contemporary AI development operates on foundational assumptions about intelligence, rationality, and human values that reflect narrow cultural perspectives, limiting alternative conceptions of how AI can be…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-14",
-      "url": "https://arxiv.org/abs/2610.14203"
-    },
-    {
-      "title": "Defective, Amplified, Contested: Folk Conceptualizations of AI Slop",
-      "summary": "arXiv:2610.14231v1 Announce Type: new Abstract: AI slop has flooded social media feeds with overprocessed and derivative content--Jesus fusing with a shrimp, a humanoid orange chubby cat shoplifting, and a \"hero\" dog rescuing a human child after a plane…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-14",
-      "url": "https://arxiv.org/abs/2610.14231"
     },
     {
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
@@ -203,14 +211,6 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks"
     },
     {
-      "title": "Opening words by Executive Vice-President Virkkunen at the Meeting with the European AI Scientific Panel of Independent Experts",
-      "summary": "European Commission Speech Brussels, 13 Oct 2026 Dear Chair and Vice-Chair, dear members of the Scientific Panel. Thank you for making the time to be here today. You are among the most sought-after experts in...",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-10-08",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2148"
-    },
-    {
       "title": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being",
       "summary": "The post Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being appeared first on Partnership on AI.",
       "source": "Partnership on AI",
@@ -235,12 +235,20 @@
       "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai"
     },
     {
-      "title": "Stronger awareness and resources needed for effective data protection in law enforcement",
-      "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
-      "source": "FRA",
-      "tier": "4-dados",
+      "title": "The Cloud and AI Development Act (CADA) represents everything that’s wrong with Europe’s approach to digital sovereignty",
+      "summary": "The EU’s Tech Sovereignty Package is supposed to jump-start Europe’s “sovereign AI” ambitions. But due to fundamental misunderstandings about the technology behind ‘AI’ and the blind trust in Big Tech’s AI doomer and boomer narratives, it is more likely to…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
       "date": "2026-10-08",
-      "url": "https://fra.europa.eu/en/news/2026/stronger-awareness-and-resources-needed-effective-data-protection-law-enforcement"
+      "url": "https://edri.org/our-work/the-cloud-and-ai-development-act-cada-represents-everything-thats-wrong-with-europes-approach-to-digital-sovereignty/"
+    },
+    {
+      "title": "No human required: Austria’s plan for AI-only government decisions",
+      "summary": "A sweeping change to Austria's administrative law would let authorities issue binding decisions using AI systems with no human ever reviewing the outcome. EDRi member epicenter.works has sent an open letter to parliament, and is looking for input from readers…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-10-08",
+      "url": "https://edri.org/our-work/no-human-required-austrias-plan-for-ai-only-government-decisions/"
     },
     {
       "title": "European AI Innovation Month",
@@ -249,14 +257,6 @@
       "tier": "2-comissao",
       "date": "2026-10-08",
       "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
-    },
-    {
-      "title": "ANACOM reúne com a Google sobre a IA Agêntica",
-      "summary": "A reunião decorreu na sede da ANACOM, a 06.10.2026.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-10-07",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1859241"
     },
     {
       "title": "Should We Track AI Chips?",

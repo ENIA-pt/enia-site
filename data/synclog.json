@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-15T01:28:53.850Z",
+  "startedAt": "2026-10-16T01:20:48.514Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -35,7 +35,7 @@
       "ok": true,
       "items": 50,
       "kept": 3,
-      "maisRecente": "2026-10-14"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "ec-digital-strategy",
@@ -115,8 +115,8 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 1,
-      "maisRecente": "2026-10-08"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "cnpd",
@@ -131,10 +131,10 @@
       "id": "cnil",
       "tier": "4-dados",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 10,
       "kept": 0,
-      "error": "HTTP 503"
+      "maisRecente": null
     },
     {
       "id": "aepd",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 20,
-      "kept": 1,
-      "maisRecente": "2026-10-07"
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "fetch failed"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "fetch failed"
     },
     {
       "id": "dre-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 29,
+      "items": 28,
       "kept": 1,
       "maisRecente": "2026-10-14"
     },
@@ -377,16 +377,16 @@
       "ok": true,
       "items": 1353,
       "kept": 3,
-      "maisRecente": "2026-10-14"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 77,
+      "items": 25,
       "kept": 3,
-      "maisRecente": "2026-10-14"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "stanford-hai",
@@ -473,10 +473,10 @@
       "id": "edri",
       "tier": "10-sociedade",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "timeout 25s"
+      "ok": true,
+      "items": 20,
+      "kept": 2,
+      "maisRecente": "2026-10-08"
     },
     {
       "id": "access-now",
@@ -557,7 +557,7 @@
       "ok": true,
       "items": 22,
       "kept": 2,
-      "maisRecente": "2026-10-14"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1293,
+      "items": 1296,
       "kept": 2,
-      "maisRecente": "2026-10-14"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1288,
+      "items": 1690,
       "kept": 0,
       "maisRecente": null
     },
@@ -682,10 +682,13 @@
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
     "[cnpd] HTTP 404",
-    "[cnil] HTTP 503",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
+    "[anacom-noticias] fetch failed",
+    "[anacom-legislacao] fetch failed",
+    "[anacom-imprensa] fetch failed",
+    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
@@ -694,7 +697,6 @@
     "[oecd-ai] HTTP 404",
     "[coe-ai] HTTP 403",
     "[alan-turing] HTTP 403",
-    "[edri] timeout 25s",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
     "[anthropic-news] HTTP 404",
@@ -712,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-15T01:30:38.827Z",
+  "finishedAt": "2026-10-16T01:23:05.481Z",
   "recolhidos": 45,
   "written": 45,
   "maisRecente": "2026-10-15",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 19,
+    "added": 12,
     "curados": 0,
-    "total": 784
+    "total": 796
   }
 }
