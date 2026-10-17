@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-16T01:20:48.514Z",
+  "startedAt": "2026-10-17T01:19:38.343Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 18,
+      "kept": 1,
+      "maisRecente": "2026-10-07"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "dre-pt",
@@ -230,10 +230,10 @@
       "id": "aesia-es",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "bundesnetzagentur-de",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 28,
+      "items": 29,
       "kept": 1,
       "maisRecente": "2026-10-14"
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1353,
+      "items": 453,
       "kept": 3,
-      "maisRecente": "2026-10-15"
+      "maisRecente": "2026-10-16"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 25,
+      "items": 16,
       "kept": 3,
-      "maisRecente": "2026-10-15"
+      "maisRecente": "2026-10-16"
     },
     {
       "id": "stanford-hai",
@@ -422,7 +422,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-10-08"
+      "maisRecente": "2026-10-15"
     },
     {
       "id": "cset",
@@ -500,10 +500,10 @@
       "id": "aiact-explorer",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
-      "items": 27,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "timeout 25s"
     },
     {
       "id": "euractiv-tech",
@@ -529,8 +529,8 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 2,
-      "maisRecente": "2026-10-13"
+      "kept": 1,
+      "maisRecente": "2026-10-16"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-15"
+      "maisRecente": "2026-10-16"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-15"
+      "maisRecente": "2026-10-16"
     },
     {
       "id": "eco-pt",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 2,
-      "maisRecente": "2026-10-15"
+      "kept": 1,
+      "maisRecente": "2026-10-16"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1296,
+      "items": 1298,
       "kept": 2,
-      "maisRecente": "2026-10-15"
+      "maisRecente": "2026-10-16"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1690,
+      "items": 1466,
       "kept": 0,
       "maisRecente": null
     },
@@ -685,18 +685,14 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
-    "[anacom-noticias] fetch failed",
-    "[anacom-legislacao] fetch failed",
-    "[anacom-imprensa] fetch failed",
-    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
-    "[aesia-es] fetch failed",
     "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
     "[iso] HTTP 403",
     "[oecd-ai] HTTP 404",
     "[coe-ai] HTTP 403",
     "[alan-turing] HTTP 403",
+    "[aiact-explorer] timeout 25s",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
     "[anthropic-news] HTTP 404",
@@ -714,14 +710,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-16T01:23:05.481Z",
-  "recolhidos": 45,
-  "written": 45,
-  "maisRecente": "2026-10-15",
+  "finishedAt": "2026-10-17T01:21:22.848Z",
+  "recolhidos": 44,
+  "written": 44,
+  "maisRecente": "2026-10-16",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 12,
+    "added": 13,
     "curados": 0,
-    "total": 796
+    "total": 809
   }
 }

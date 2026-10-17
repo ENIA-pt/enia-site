@@ -1,8 +1,104 @@
 {
-  "generated": "2026-10-16T01:23:05.480Z",
+  "generated": "2026-10-17T01:21:22.847Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 796,
+  "count": 809,
   "items": [
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-16",
+      "url": "https://openai.com/index/itau-generative-ai"
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+    },
+    {
+      "title": "Mais de metade da publicidade de influencers não estará identificada",
+      "summary": "Mais de metade das publicações publicitárias analisadas pela #Pub nas redes sociais não estava corretamente identificada. Para combater a falta de transparência no marketing de influência, o projeto sem fins lucrativos lançou uma plataforma que recorre à…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://eco.sapo.pt/2026/10/16/mais-de-metade-da-publicidade-de-influencers-nao-estara-identificada/"
+    },
+    {
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
+    },
+    {
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+    },
+    {
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.20665"
+    },
+    {
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.20667"
+    },
+    {
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.20681"
+    },
+    {
+      "title": "Workplace Ambiguity and Technology Support for Autistic and IDD Workers",
+      "summary": "arXiv:2610.21236v1 Announce Type: cross Abstract: Workplace ambiguity, where expectations, evaluations, or procedures are left unstated, acts as a structural access barrier for autistic and IDD workers, routinely forcing them to act on guesses. To investigate…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.21236"
+    },
+    {
+      "title": "What do AI chatbots do after users decline therapeutic redirection for suicide thoughts?",
+      "summary": "arXiv:2610.21253v1 Announce Type: cross Abstract: Safety evaluations of artificial intelligence (AI) chatbots focus on therapeutic redirection, statements urging users who disclose suicide thoughts to seek help from crisis lines or other human sources. How…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.21253"
+    },
+    {
+      "title": "VoteGEO-Bench: Measuring the Impact of Generative Engine Optimization on Electoral Visibility",
+      "summary": "arXiv:2610.21330v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used for election information, yet little is known about how external web content shapes the political information they present. Generative engine optimization…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.21330"
+    },
     {
       "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
       "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
@@ -122,6 +218,14 @@
       "tier": "12-industria",
       "date": "2026-10-15",
       "url": "https://openai.com/index/sullivan-cromwell"
+    },
+    {
+      "title": "The $5 Trillion AI Bet You’re Already Paying For",
+      "summary": "Co-executive director Amba Kak joins Agents of Tech to unpack the consolidation of power among tech monopolies, the slow bailout of AI companies that the public is footing, regulation for the industry, and more. The post The $5 Trillion AI Bet You’re Already…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-15",
+      "url": "https://ainowinstitute.org/news/the-5-trillion-ai-bet-youre-already-paying-for"
     },
     {
       "title": "McKinsey is making job applicants spar with a fake AI client",

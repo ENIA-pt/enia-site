@@ -1,14 +1,102 @@
 {
-  "generated": "2026-10-16T01:23:05.480Z",
+  "generated": "2026-10-17T01:21:22.847Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-16",
+      "url": "https://openai.com/index/itau-generative-ai"
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-15",
-      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
+      "date": "2026-10-16",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+    },
+    {
+      "title": "Mais de metade da publicidade de influencers não estará identificada",
+      "summary": "Mais de metade das publicações publicitárias analisadas pela #Pub nas redes sociais não estava corretamente identificada. Para combater a falta de transparência no marketing de influência, o projeto sem fins lucrativos lançou uma plataforma que recorre à…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://eco.sapo.pt/2026/10/16/mais-de-metade-da-publicidade-de-influencers-nao-estara-identificada/"
+    },
+    {
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
+    },
+    {
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-16",
+      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+    },
+    {
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.20665"
+    },
+    {
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.20667"
+    },
+    {
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.20681"
+    },
+    {
+      "title": "Workplace Ambiguity and Technology Support for Autistic and IDD Workers",
+      "summary": "arXiv:2610.21236v1 Announce Type: cross Abstract: Workplace ambiguity, where expectations, evaluations, or procedures are left unstated, acts as a structural access barrier for autistic and IDD workers, routinely forcing them to act on guesses. To investigate…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.21236"
+    },
+    {
+      "title": "What do AI chatbots do after users decline therapeutic redirection for suicide thoughts?",
+      "summary": "arXiv:2610.21253v1 Announce Type: cross Abstract: Safety evaluations of artificial intelligence (AI) chatbots focus on therapeutic redirection, statements urging users who disclose suicide thoughts to seek help from crisis lines or other human sources. How…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.21253"
+    },
+    {
+      "title": "VoteGEO-Bench: Measuring the Impact of Generative Engine Optimization on Electoral Visibility",
+      "summary": "arXiv:2610.21330v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used for election information, yet little is known about how external web content shapes the political information they present. Generative engine optimization…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.21330"
     },
     {
       "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
@@ -19,36 +107,12 @@
       "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
     },
     {
-      "title": "Trump posts AI-edited photo to brag about White House restoration work",
-      "summary": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
+      "title": "The $5 Trillion AI Bet You’re Already Paying For",
+      "summary": "Co-executive director Amba Kak joins Agents of Tech to unpack the consolidation of power among tech monopolies, the slow bailout of AI companies that the public is footing, regulation for the industry, and more. The post The $5 Trillion AI Bet You’re Already…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-10-15",
-      "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column"
-    },
-    {
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-15",
-      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
-    },
-    {
-      "title": "CNN e Google unem forças em parceria estratégica de IA",
-      "summary": "A CNN anunciou esta quinta-feira uma parceria estratégica plurianual com a Google, que dá à tecnológica direitos de conteúdo alargados sobre os conteúdos do canal norte-americano para testar novas funcionalidades de inteligência artificial (IA) generativa. O…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-15",
-      "url": "https://eco.sapo.pt/2026/10/15/cnn-e-google-unem-forcas-em-parceria-estrategica-de-ia/"
-    },
-    {
-      "title": "Ativo do dia. Fantasma da Fed faz soar alarmes na operadora CoreWeave",
-      "summary": "O ativo A CoreWeave é uma empresa norte-americana. Começou por minerar criptomoedas e transitou para a computação na nuvem, especializada em fornecer infraestrutura de alto desempenho projetada especificamente para o processamento de inteligência artificial…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-15",
-      "url": "https://eco.sapo.pt/2026/10/15/ativo-do-dia-fantasma-da-fed-faz-soar-alarmes-na-operadora-coreweave/"
+      "url": "https://ainowinstitute.org/news/the-5-trillion-ai-bet-youre-already-paying-for"
     },
     {
       "title": "Teaching students to think and learn through questions",
@@ -65,62 +129,6 @@
       "tier": "2-comissao",
       "date": "2026-10-15",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2175"
-    },
-    {
-      "title": "Transparent Information Flow Modeling for Role-Aware AI Act Assessment",
-      "summary": "arXiv:2610.16916v1 Announce Type: new Abstract: The European Union's Artificial Intelligence Act introduces a structured framework for governing high-risk AI systems, emphasizing transparency, risk management, and role-specific accountability. However,…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-15",
-      "url": "https://arxiv.org/abs/2610.16916"
-    },
-    {
-      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-15",
-      "url": "https://arxiv.org/abs/2610.14005"
-    },
-    {
-      "title": "The Silent Failures in Agentic Data Science",
-      "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-15",
-      "url": "https://arxiv.org/abs/2610.14115"
-    },
-    {
-      "title": "MemeTrace: A Multimodal LLM-Based Agent for Safety-Aware Meme Provenance Analysis",
-      "summary": "arXiv:2610.19267v1 Announce Type: cross Abstract: Online memes are often carriers of unsafe content such as disinformation and propaganda. Their rapid evolution in response to news events and strong dependence on contextual information make it difficult for…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-15",
-      "url": "https://arxiv.org/abs/2610.19267"
-    },
-    {
-      "title": "Moral Combat: Exploiting Moral Foundations Theory to Jailbreak LLMs",
-      "summary": "arXiv:2610.19587v1 Announce Type: cross Abstract: Social psychology has long described how people can be persuaded to interpret a harmful act as moral. Recent research suggests that Large Language Models (LLMs) echo aspects of human psychology, from cognitive…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-15",
-      "url": "https://arxiv.org/abs/2610.19587"
-    },
-    {
-      "title": "HACHIMI-II: From Role-Play to Learner Behavior Modeling for Faithful Student Simulation",
-      "summary": "arXiv:2610.19654v1 Announce Type: cross Abstract: Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails. The…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-15",
-      "url": "https://arxiv.org/abs/2610.19654"
-    },
-    {
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-15",
-      "url": "https://openai.com/index/sullivan-cromwell"
     },
     {
       "title": "Nieuwe EDPB-guidelines over samenspel DSA/AVG en AVG-boetes",
@@ -171,22 +179,6 @@
       "url": "https://montrealethics.ai/the-ai-ethics-brief-201-the-year-the-terms-became-visible/"
     },
     {
-      "title": "The Download: open model trade-offs and geothermal power’s promise",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-13",
-      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
-    },
-    {
-      "title": "AI labs are buying data from dead startups to train their models",
-      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-13",
-      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
-    },
-    {
       "title": "A Bizottság (EU) 2026/2274 végrehajtási határozata (2026. október 12.) az (EU) 2024/1689 európai parlamenti és tanácsi rendelet támogatása céljából a nagy…",
       "summary": "—",
       "source": "EUR-Lex",
@@ -219,14 +211,6 @@
       "url": "https://partnershiponai.org/partnership-on-ai-welcomes-eight-new-partners-advancing-mental-health-and-well-being/"
     },
     {
-      "title": "Jennifer Huddleston and Sarah Myers West on Artificial Intelligence Regulation",
-      "summary": "AI Now's Co-Executive Director Sarah Myers West joined the Washington Journal to talk about how artificial intelligence should be regulated. The post Jennifer Huddleston and Sarah Myers West on Artificial Intelligence Regulation appeared first on AI Now…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-08",
-      "url": "https://ainowinstitute.org/news/jennifer-huddleston-and-sarah-myers-west-on-artificial-intelligence-regulation"
-    },
-    {
       "title": "FTC Returns More than $15.8 Million to Consumers Misled by Cash Advance App Company Cleo AI",
       "summary": "Agency charged that the company deceptively marketed cash advance services and obstructed cancellations The Federal Trade Commission is sending more than $15.8 million to consumers impacted by cash advance app company Cleo AI’s deceptive claims about the…",
       "source": "FTC",
@@ -257,6 +241,14 @@
       "tier": "2-comissao",
       "date": "2026-10-08",
       "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
+    },
+    {
+      "title": "ANACOM reúne com a Google sobre a IA Agêntica",
+      "summary": "A reunião decorreu na sede da ANACOM, a 06.10.2026.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-10-07",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1859241"
     },
     {
       "title": "Should We Track AI Chips?",
