@@ -1,7 +1,63 @@
 {
-  "generated": "2026-10-17T01:21:22.847Z",
+  "generated": "2026-10-18T01:03:27.573Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-17",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+    },
+    {
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-17",
+      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+    },
+    {
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-17",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+    },
+    {
+      "title": "Tiago Venâncio vai deixar a Aegon Santander Portugal",
+      "summary": "O CEO Tiago do Couto Venâncio decidiu deixar a liderança da Aegon Santander Portugal, confirmou o gestor a ECOseguros. Após mais de uma década à frente de um projeto, o gestor prepara-se para continuar profissionalmente em Portugal, encerrando “um ciclo…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-17",
+      "url": "https://eco.sapo.pt/2026/10/17/tiago-venancio-vai-deixar-a-aegon-santander-portugal/"
+    },
+    {
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-17",
+      "url": "https://arxiv.org/abs/2610.20665"
+    },
+    {
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-17",
+      "url": "https://arxiv.org/abs/2610.20667"
+    },
+    {
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-17",
+      "url": "https://arxiv.org/abs/2610.20681"
+    },
     {
       "title": "How Itaú is building generative AI for its entire customer base",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
@@ -25,86 +81,6 @@
       "tier": "11-imprensa",
       "date": "2026-10-16",
       "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
-    },
-    {
-      "title": "Mais de metade da publicidade de influencers não estará identificada",
-      "summary": "Mais de metade das publicações publicitárias analisadas pela #Pub nas redes sociais não estava corretamente identificada. Para combater a falta de transparência no marketing de influência, o projeto sem fins lucrativos lançou uma plataforma que recorre à…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-16",
-      "url": "https://eco.sapo.pt/2026/10/16/mais-de-metade-da-publicidade-de-influencers-nao-estara-identificada/"
-    },
-    {
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.…",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-16",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
-    },
-    {
-      "title": "Meta’s new terms may allow it to train AI on news sites for free",
-      "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-16",
-      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
-    },
-    {
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-16",
-      "url": "https://arxiv.org/abs/2610.20665"
-    },
-    {
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-16",
-      "url": "https://arxiv.org/abs/2610.20667"
-    },
-    {
-      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-16",
-      "url": "https://arxiv.org/abs/2610.20681"
-    },
-    {
-      "title": "Workplace Ambiguity and Technology Support for Autistic and IDD Workers",
-      "summary": "arXiv:2610.21236v1 Announce Type: cross Abstract: Workplace ambiguity, where expectations, evaluations, or procedures are left unstated, acts as a structural access barrier for autistic and IDD workers, routinely forcing them to act on guesses. To investigate…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-16",
-      "url": "https://arxiv.org/abs/2610.21236"
-    },
-    {
-      "title": "What do AI chatbots do after users decline therapeutic redirection for suicide thoughts?",
-      "summary": "arXiv:2610.21253v1 Announce Type: cross Abstract: Safety evaluations of artificial intelligence (AI) chatbots focus on therapeutic redirection, statements urging users who disclose suicide thoughts to seek help from crisis lines or other human sources. How…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-16",
-      "url": "https://arxiv.org/abs/2610.21253"
-    },
-    {
-      "title": "VoteGEO-Bench: Measuring the Impact of Generative Engine Optimization on Electoral Visibility",
-      "summary": "arXiv:2610.21330v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used for election information, yet little is known about how external web content shapes the political information they present. Generative engine optimization…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-16",
-      "url": "https://arxiv.org/abs/2610.21330"
-    },
-    {
-      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game,…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-15",
-      "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
     },
     {
       "title": "The $5 Trillion AI Bet You’re Already Paying For",

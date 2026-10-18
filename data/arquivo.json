@@ -1,8 +1,32 @@
 {
-  "generated": "2026-10-17T01:21:22.847Z",
+  "generated": "2026-10-18T01:03:27.573Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 809,
+  "count": 812,
   "items": [
+    {
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-17",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+    },
+    {
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-17",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+    },
+    {
+      "title": "Tiago Venâncio vai deixar a Aegon Santander Portugal",
+      "summary": "O CEO Tiago do Couto Venâncio decidiu deixar a liderança da Aegon Santander Portugal, confirmou o gestor a ECOseguros. Após mais de uma década à frente de um projeto, o gestor prepara-se para continuar profissionalmente em Portugal, encerrando “um ciclo…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-17",
+      "url": "https://eco.sapo.pt/2026/10/17/tiago-venancio-vai-deixar-a-aegon-santander-portugal/"
+    },
     {
       "title": "How Itaú is building generative AI for its entire customer base",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
