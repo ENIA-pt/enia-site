@@ -1,7 +1,15 @@
 {
-  "generated": "2026-10-18T01:03:27.573Z",
+  "generated": "2026-10-19T01:19:06.772Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-18",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+    },
     {
       "title": "Meta removes language that raised scraping and AI training concerns",
       "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
@@ -27,38 +35,6 @@
       "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
     },
     {
-      "title": "Tiago Venâncio vai deixar a Aegon Santander Portugal",
-      "summary": "O CEO Tiago do Couto Venâncio decidiu deixar a liderança da Aegon Santander Portugal, confirmou o gestor a ECOseguros. Após mais de uma década à frente de um projeto, o gestor prepara-se para continuar profissionalmente em Portugal, encerrando “um ciclo…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-17",
-      "url": "https://eco.sapo.pt/2026/10/17/tiago-venancio-vai-deixar-a-aegon-santander-portugal/"
-    },
-    {
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-17",
-      "url": "https://arxiv.org/abs/2610.20665"
-    },
-    {
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-17",
-      "url": "https://arxiv.org/abs/2610.20667"
-    },
-    {
-      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-17",
-      "url": "https://arxiv.org/abs/2610.20681"
-    },
-    {
       "title": "How Itaú is building generative AI for its entire customer base",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "source": "OpenAI",
@@ -73,14 +49,6 @@
       "tier": "11-imprensa",
       "date": "2026-10-16",
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
-    },
-    {
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-16",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
     },
     {
       "title": "The $5 Trillion AI Bet You’re Already Paying For",
@@ -217,14 +185,6 @@
       "tier": "2-comissao",
       "date": "2026-10-08",
       "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
-    },
-    {
-      "title": "ANACOM reúne com a Google sobre a IA Agêntica",
-      "summary": "A reunião decorreu na sede da ANACOM, a 06.10.2026.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-10-07",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1859241"
     },
     {
       "title": "Should We Track AI Chips?",
