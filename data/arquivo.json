@@ -1,8 +1,88 @@
 {
-  "generated": "2026-10-19T01:19:06.772Z",
+  "generated": "2026-10-20T01:51:03.153Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 813,
+  "count": 823,
   "items": [
+    {
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-20",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/"
+    },
+    {
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-19",
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+    },
+    {
+      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+      "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-19",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+    },
+    {
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-19",
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
+    },
+    {
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-19",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
+    },
+    {
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-19",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+    },
+    {
+      "title": "First harmonised standard supporting the AI Act published in the Official Journal",
+      "summary": "First harmonised standard supporting the AI Act published in the Official Journal Anonymous (not verified) Mon, 10/19/2026 - 09:37 The European Commission has published the reference to the first harmonised standard supporting the implementation of the AI Act…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-19",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal"
+    },
+    {
+      "title": "Social Bias or Social Desirability? Comparing Factorial Survey Experiments for Humans and Large Language Models",
+      "summary": "arXiv:2610.22409v1 Announce Type: new Abstract: Factorial survey experiments are a survey method from the social sciences that uses descriptions of socially complex situation (``vignettes'') to elicit judgments such as social bias. They provide two major…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.22409"
+    },
+    {
+      "title": "Generative AI Produces and Transmits Beauty Bias",
+      "summary": "arXiv:2610.22553v1 Announce Type: new Abstract: Societies reward people judged to be attractive by standards intertwined with gender and race. In this paper, we examine if and how generative AI may contribute to these dynamics. We audited 27 text-to-image…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.22553"
+    },
+    {
+      "title": "A misinformation playbook sharpens judgement without breeding cynicism",
+      "summary": "arXiv:2610.22724v1 Announce Type: new Abstract: Misinformation harms public health and democracy, and generative artificial intelligence now writes falsehoods as persuasive as people's. Defences range from fact-checking individual claims to training people to…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.22724"
+    },
     {
       "title": "Disney agrees to hire the majority of Character.AI’s workforce",
       "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
