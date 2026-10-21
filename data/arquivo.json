@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20T01:51:03.153Z",
+  "generated": "2026-10-21T01:38:00.399Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 823,
+  "count": 839,
   "items": [
     {
       "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
@@ -10,6 +10,134 @@
       "tier": "11-imprensa",
       "date": "2026-10-20",
       "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/"
+    },
+    {
+      "title": "The public should reap the benefits of the AI boom it helped build, new study argues",
+      "summary": "—",
+      "source": "Oxford Internet Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://www.oii.ox.ac.uk/the-public-should-reap-the-benefits-of-the-ai-boom-it-helped-build-new-study-argues/"
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-20",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+    },
+    {
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-20",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto"
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-20",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/"
+    },
+    {
+      "title": "Robotic therapy for stroke patients",
+      "summary": "Strokes leave 5 million people with long-term impairments each year, and a growing shortage of physical therapists makes it hard for them to get the care they need. A new approach tries to solve that problem by combining artificial intelligence and human…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-20",
+      "url": "https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/"
+    },
+    {
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-20",
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+    },
+    {
+      "title": "Journée RGPD à Poitiers: cybersécurité, IA et conformité au cœur des enjeux de protection des données",
+      "summary": "La CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-10-20",
+      "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers"
+    },
+    {
+      "title": "Digital Services Act study on financial scams on online platforms and ways to counter them",
+      "summary": "Digital Services Act study on financial scams on online platforms and ways to counter them Anonymous (not verified) Tue, 10/20/2026 - 08:47 A new study maps the main types of online financial scams, platform features scammers exploit, their impact on users…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-20",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-services-act-study-financial-scams-online-platforms-and-ways-counter-them"
+    },
+    {
+      "title": "Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements",
+      "summary": "The Department of Homeland Security is publishing notice of the Secretary of Homeland Security's issuance of an order (1) excluding information technology products and services developed by Hangzhou DeepSeek Artificial Intelligence Co., Ltd (DeepSeek), to…",
+      "source": "Federal Register",
+      "tier": "8-jurisdicoes",
+      "date": "2026-10-20",
+      "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive"
+    },
+    {
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "summary": "arXiv:2610.23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.23866"
+    },
+    {
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "summary": "arXiv:2610.23921v1 Announce Type: new Abstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.23921"
+    },
+    {
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.23962"
+    },
+    {
+      "title": "Desirability Confirmation: Relational Sycophancy in AI Intimate Roleplay",
+      "summary": "arXiv:2610.24265v1 Announce Type: new Abstract: Research on LLM sycophancy has largely focused on propositional agreement, in which models echo users' beliefs, preferences, or judgments. Adult intimate roleplay presents a different case because what the user…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.24265"
+    },
+    {
+      "title": "AI Rights with an Off-Switch: Rights-Balancing and Due Process Harmonize AI Rights with AI Safety",
+      "summary": "arXiv:2610.24782v1 Announce Type: new Abstract: Several prominent voices in AI safety have recently opposed rights for AI on the grounds that such rights would make it harder for us to justify a mandatory off-switch for potentially dangerous systems. In this…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.24782"
+    },
+    {
+      "title": "When Is Disclosing Private Conversations with AI to the State Justified? Proactive Referral Policies of Major U.S. AI Companies through the Lens of Contextual…",
+      "summary": "arXiv:2610.25169v1 Announce Type: new Abstract: AI companies engage in \"proactive referral\": notifying law enforcement, without a government request, of user conversations they judge dangerous. This poses a dilemma: referral may expose people who merely…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.25169"
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-20",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
     },
     {
       "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",

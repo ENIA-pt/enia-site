@@ -1,62 +1,134 @@
 {
-  "generated": "2026-10-20T01:51:03.153Z",
+  "generated": "2026-10-21T01:38:00.399Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "title": "The public should reap the benefits of the AI boom it helped build, new study argues",
+      "summary": "—",
+      "source": "Oxford Internet Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://www.oii.ox.ac.uk/the-public-should-reap-the-benefits-of-the-ai-boom-it-helped-build-new-study-argues/"
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-10-20",
-      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/"
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
     },
     {
-      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over…",
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-20",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto"
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-19",
-      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+      "date": "2026-10-20",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/"
     },
     {
-      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-      "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-19",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
-    },
-    {
-      "title": "Making the internet better for AI agents might make it worse for everyone else",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed…",
+      "title": "Robotic therapy for stroke patients",
+      "summary": "Strokes leave 5 million people with long-term impairments each year, and a growing shortage of physical therapists makes it hard for them to get the care they need. A new approach tries to solve that problem by combining artificial intelligence and human…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-10-19",
-      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
+      "date": "2026-10-20",
+      "url": "https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/"
     },
     {
-      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-19",
-      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
-    },
-    {
-      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies…",
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-19",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+      "date": "2026-10-20",
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
     },
     {
-      "title": "ANACOM participa na REGULATEL Week 2026",
-      "summary": "Raquel Brízida Castro, Vice-Presidente do Conselho de Administração da ANACOM, participou em debates sobre os desafios da regulação digital, a Inteligência Artificial e a integração regional.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-10-19",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1859516"
+      "title": "Journée RGPD à Poitiers: cybersécurité, IA et conformité au cœur des enjeux de protection des données",
+      "summary": "La CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-10-20",
+      "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers"
+    },
+    {
+      "title": "Digital Services Act study on financial scams on online platforms and ways to counter them",
+      "summary": "Digital Services Act study on financial scams on online platforms and ways to counter them Anonymous (not verified) Tue, 10/20/2026 - 08:47 A new study maps the main types of online financial scams, platform features scammers exploit, their impact on users…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-20",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-services-act-study-financial-scams-online-platforms-and-ways-counter-them"
+    },
+    {
+      "title": "Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements",
+      "summary": "The Department of Homeland Security is publishing notice of the Secretary of Homeland Security's issuance of an order (1) excluding information technology products and services developed by Hangzhou DeepSeek Artificial Intelligence Co., Ltd (DeepSeek), to…",
+      "source": "Federal Register",
+      "tier": "8-jurisdicoes",
+      "date": "2026-10-20",
+      "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive"
+    },
+    {
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "summary": "arXiv:2610.23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.23866"
+    },
+    {
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "summary": "arXiv:2610.23921v1 Announce Type: new Abstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.23921"
+    },
+    {
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.23962"
+    },
+    {
+      "title": "Desirability Confirmation: Relational Sycophancy in AI Intimate Roleplay",
+      "summary": "arXiv:2610.24265v1 Announce Type: new Abstract: Research on LLM sycophancy has largely focused on propositional agreement, in which models echo users' beliefs, preferences, or judgments. Adult intimate roleplay presents a different case because what the user…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.24265"
+    },
+    {
+      "title": "AI Rights with an Off-Switch: Rights-Balancing and Due Process Harmonize AI Rights with AI Safety",
+      "summary": "arXiv:2610.24782v1 Announce Type: new Abstract: Several prominent voices in AI safety have recently opposed rights for AI on the grounds that such rights would make it harder for us to justify a mandatory off-switch for potentially dangerous systems. In this…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.24782"
+    },
+    {
+      "title": "When Is Disclosing Private Conversations with AI to the State Justified? Proactive Referral Policies of Major U.S. AI Companies through the Lens of Contextual…",
+      "summary": "arXiv:2610.25169v1 Announce Type: new Abstract: AI companies engage in \"proactive referral\": notifying law enforcement, without a government request, of user conversations they judge dangerous. This poses a dilemma: referral may expose people who merely…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.25169"
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-20",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
     },
     {
       "title": "First harmonised standard supporting the AI Act published in the Official Journal",
@@ -67,28 +139,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal"
     },
     {
-      "title": "Social Bias or Social Desirability? Comparing Factorial Survey Experiments for Humans and Large Language Models",
-      "summary": "arXiv:2610.22409v1 Announce Type: new Abstract: Factorial survey experiments are a survey method from the social sciences that uses descriptions of socially complex situation (``vignettes'') to elicit judgments such as social bias. They provide two major…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
+      "title": "Proposal for a Regulation amending Regulations (EU) 2016/1679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, (EU) 2024/1689 and Directives 2002/58/EC, (EU)…",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
       "date": "2026-10-19",
-      "url": "https://arxiv.org/abs/2610.22409"
-    },
-    {
-      "title": "Generative AI Produces and Transmits Beauty Bias",
-      "summary": "arXiv:2610.22553v1 Announce Type: new Abstract: Societies reward people judged to be attractive by standards intertwined with gender and race. In this paper, we examine if and how generative AI may contribute to these dynamics. We audited 27 text-to-image…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-19",
-      "url": "https://arxiv.org/abs/2610.22553"
-    },
-    {
-      "title": "A misinformation playbook sharpens judgement without breeding cynicism",
-      "summary": "arXiv:2610.22724v1 Announce Type: new Abstract: Misinformation harms public health and democracy, and generative artificial intelligence now writes falsehoods as persuasive as people's. Defences range from fact-checking individual claims to training people to…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-19",
-      "url": "https://arxiv.org/abs/2610.22724"
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:3d84f605-cc5b-11f1-8b4c-01aa75ed71a1"
     },
     {
       "title": "How Itaú is building generative AI for its entire customer base",
@@ -105,14 +161,6 @@
       "tier": "9-investigacao",
       "date": "2026-10-15",
       "url": "https://ainowinstitute.org/news/the-5-trillion-ai-bet-youre-already-paying-for"
-    },
-    {
-      "title": "Teaching students to think and learn through questions",
-      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-15",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
     },
     {
       "title": "Commission launches RAISE pledging initiative to boost AI support for researchers across Europe",
@@ -155,28 +203,12 @@
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
     },
     {
-      "title": "Speech by Executive Vice-President Virkkunen at the International AI Summit in Dublin",
-      "summary": "European Commission Speech Dublin, 14 Oct 2026 Prime Minister Martin, Minister Smyth, Minister Burke, thank you for inviting me. I would like to begin with a remarkable story from Ireland's past. In 1858, on...",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-10-13",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2150"
-    },
-    {
       "title": "The AI Ethics Brief #201: The Year the Terms Became Visible",
       "summary": "On MAIEI’s founding question, the fragility that can accompany AI adoption, and the people institutions need to govern it. Source",
       "source": "Montreal AI Ethics Institute",
       "tier": "9-investigacao",
       "date": "2026-10-13",
       "url": "https://montrealethics.ai/the-ai-ethics-brief-201-the-year-the-terms-became-visible/"
-    },
-    {
-      "title": "A Bizottság (EU) 2026/2274 végrehajtási határozata (2026. október 12.) az (EU) 2024/1689 európai parlamenti és tanácsi rendelet támogatása céljából a nagy…",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-10-12",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:05805dc1-c76c-11f1-a77b-01aa75ed71a1"
     },
     {
       "title": "AP zet volgende stap in toezicht op AI",
@@ -243,14 +275,6 @@
       "url": "https://cset.georgetown.edu/article/should-we-track-ai-chips/"
     },
     {
-      "title": "Are Governments Ready for AI Agents?",
-      "summary": "—",
-      "source": "Oxford Internet Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-05",
-      "url": "https://www.oii.ox.ac.uk/are-governments-ready-for-ai-agents/"
-    },
-    {
       "title": "Establishing the European AI Observatory: Call for tenders",
       "summary": "Establishing the European AI Observatory: Call for tenders Anonymous (not verified) Mon, 10/05/2026 - 09:22 Opening: 05 October 2026 Closing: 03 November 2026 The Commission is seeking a procurement contract for the setup and operation of the AI Observatory…",
       "source": "Shaping Europe's Digital Future",
@@ -305,14 +329,6 @@
       "tier": "2-comissao",
       "date": "2026-09-17",
       "url": "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu"
-    },
-    {
-      "title": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy'",
-      "summary": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy' Anonymous (not verified) Thu, 09/17/2026 - 09:21 This proposal seeks to protect minors from risky digital services and AI systems, uphold the digital single market and…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-09-17",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy"
     },
     {
       "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
