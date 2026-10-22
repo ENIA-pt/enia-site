@@ -1,8 +1,120 @@
 {
-  "generated": "2026-10-21T01:38:00.399Z",
+  "generated": "2026-10-22T01:34:11.585Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 839,
+  "count": 854,
   "items": [
+    {
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-21",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/"
+    },
+    {
+      "title": "Data centers could erase decades of air quality gains",
+      "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-21",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report"
+    },
+    {
+      "title": "Walmart is inviting AI agents to shop for you",
+      "summary": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of AI agents stands in…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-21",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents"
+    },
+    {
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-21",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
+    },
+    {
+      "title": "Openness in AI development: a path to long-term independence",
+      "summary": "This blog post unpacks concrete initiatives that show how openness in AI development can increase people’s agency over AI and advance the development of public interest technology. The post Openness in AI development: a path to long-term independence appeared…",
+      "source": "Access Now",
+      "tier": "10-sociedade",
+      "date": "2026-10-21",
+      "url": "https://www.accessnow.org/openness-in-ai-development/?pk_campaign=feed&pk_kwd=openness-in-ai-development"
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-21",
+      "url": "https://openai.com/index/openai-models-google-cloud"
+    },
+    {
+      "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
+      "summary": "European Commission Press release Brussels, 21 Oct 2026 Today, the European Commission has opened formal proceedings to assess whether Booking.com may have breached the Digital Services Act (DSA) by not having diligently assessed or effectively mitigated…",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-21",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2223"
+    },
+    {
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-21",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack"
+    },
+    {
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.26887"
+    },
+    {
+      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+      "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.26899"
+    },
+    {
+      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
+      "summary": "arXiv:2610.26904v1 Announce Type: new Abstract: Recent studies have proposed reinforcement learning with verifiable rewards (RLVR) methods that enable LLMs to generate high-quality RTL circuits from natural-language specifications. Existing approaches…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.26904"
+    },
+    {
+      "title": "Evaluating LLM-Generated Feedback on Handwritten Mathematics: Feedback Quality and Subsequent Exam Performance",
+      "summary": "arXiv:2610.27881v1 Announce Type: new Abstract: We evaluate the quality of feedback and practice exercises generated by GPT-5.1 from handwritten university mathematics answers and their grades, and examine whether receiving this feedback improves subsequent…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.27881"
+    },
+    {
+      "title": "Large Language Models for Agent-Based Modelling: Current and possible uses across the modelling cycle",
+      "summary": "arXiv:2507.05723v1 Announce Type: cross Abstract: The emergence of Large Language Models (LLMs) with increasingly sophisticated natural language understanding and generative capabilities has sparked interest in the Agent-based Modelling (ABM) community. With…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://arxiv.org/abs/2507.05723"
+    },
+    {
+      "title": "An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response",
+      "summary": "arXiv:2606.08270v3 Announce Type: cross Abstract: University Academic Management Information Systems (ACMIS) are high-value targets for a wide spectrum of security threats including brute-force login attacks, payment fraud, privilege escalation, insider data…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://arxiv.org/abs/2606.08270"
+    },
     {
       "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
       "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
@@ -586,6 +698,14 @@
       "tier": "12-industria",
       "date": "2026-10-14",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+    },
+    {
+      "title": "Speech of Commissioner Michael McGrath at the AI in Science Summit 2026",
+      "summary": "European Commission Speech Dublin, 21 Oct 2026 It is a pleasure to welcome you to this year's AI in Science Summit on behalf of the European Commission. I would like to begin by thanking the Irish Presidency...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-10-14",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2230"
     },
     {
       "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
