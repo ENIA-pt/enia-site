@@ -1,8 +1,112 @@
 {
-  "generated": "2026-10-22T01:34:11.585Z",
+  "generated": "2026-10-23T01:33:47.227Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 854,
+  "count": 868,
   "items": [
+    {
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-23",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models,…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-22",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+    },
+    {
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-22",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+    },
+    {
+      "title": "Discord now formats Markdown previews right",
+      "summary": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context,…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-22",
+      "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels"
+    },
+    {
+      "title": "The Foundations of Scalable AI",
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-22",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+    },
+    {
+      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+      "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-22",
+      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network"
+    },
+    {
+      "title": "Expanding AI literacy with the Public Library Association and community-based programs",
+      "summary": "The people and institutions closest to a community understand their needs best. Libraries, small businesses, nonprofits, and schools see firsthand where AI can create opportunity and where people need support to navigate change. At Microsoft, our role is to…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-10-22",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/10/22/expanding-ai-literacy-with-the-american-library-association-and-community-based-programs/"
+    },
+    {
+      "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+      "summary": "arXiv:2610.28706v1 Announce Type: new Abstract: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.28706"
+    },
+    {
+      "title": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+      "summary": "arXiv:2610.28826v1 Announce Type: new Abstract: Automated judges of clinical artificial intelligence (AI) outputs are necessary, but large language model (LLM) judges are costly and slow at scale. We compared Jev, a decision language model that returns…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.28826"
+    },
+    {
+      "title": "Speedrunning Relational Foundation Model Pretraining",
+      "summary": "arXiv:2610.28855v1 Announce Type: new Abstract: Progress on foundation model pretraining is gated by who can afford a trial, and relational pretraining is no exception. Recipes are developed inside individual labs, reported under private protocols, and do not…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.28855"
+    },
+    {
+      "title": "Artificial Intelligence and Job Design: A Dynamic Framework",
+      "summary": "arXiv:2610.28830v1 Announce Type: new Abstract: This study aims to deepen the understanding of artificial intelligence's (AI) impact on work by introducing and describing the AI-Job Dynamics Framework. Drawing from sociotechnical systems theory, complexity…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.28830"
+    },
+    {
+      "title": "Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction",
+      "summary": "arXiv:2610.29304v1 Announce Type: new Abstract: Large language models increasingly address users in the register of care: they remember personal details, adopt a first-person emotional voice, and sustain relationships across many sessions. This…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.29304"
+    },
+    {
+      "title": "AI Security Literacy: Ecosystem-based Competency Framework and K-12 Learning Platform",
+      "summary": "arXiv:2610.28859v1 Announce Type: cross Abstract: Adoption of artificial intelligence in K-12 schools has outpaced guidance for students, teachers, and administrators. Existing AI-literacy frameworks emphasize understanding and use; cybersecurity frameworks…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.28859"
+    },
     {
       "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
       "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
@@ -114,6 +218,14 @@
       "tier": "9-investigacao",
       "date": "2026-10-21",
       "url": "https://arxiv.org/abs/2606.08270"
+    },
+    {
+      "title": "Amid AI Boom, “Risk Is Spreading Throughout the Economy”: Astra Taylor & Naomi Klein",
+      "summary": "Naomi Klein and Astra Taylor join a wide-ranging conversation on the multitrillion-dollar global investment in artificial intelligence and its reverberating effects around the world. The post Amid AI Boom, “Risk Is Spreading Throughout the Economy”: Astra…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://ainowinstitute.org/news/amid-ai-boom-risk-is-spreading-throughout-the-economy-astra-taylor-naomi-klein"
     },
     {
       "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
