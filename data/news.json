@@ -1,14 +1,94 @@
 {
-  "generated": "2026-10-23T01:33:47.227Z",
+  "generated": "2026-10-24T01:38:25.044Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-10-23",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+    },
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-23",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one,…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-23",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
+    },
+    {
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-23",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-23",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    },
+    {
+      "title": "Brussels airport training on fundamental rights and the use of biometrics",
+      "summary": "Language English Press release 0 Secondary theme Asylum Borders and information systems EU Charter of Fundamental Rights Title II: Freedoms Article 19 - Protection in the event of removal, expulsion or extradition Title II: Freedoms Article 8 - Protection of…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-10-23",
+      "url": "https://fra.europa.eu/en/news/2026/brussels-airport-training-fundamental-rights-and-use-biometrics"
+    },
+    {
+      "title": "TESSA: A Governance-Oriented Custom GPT for SME Guidance under the EU AI Act: Design, Implementation, and Evaluation",
+      "summary": "arXiv:2610.30822v1 Announce Type: new Abstract: The increasing adoption of generative AI presents new opportunities while raising AI governance and regulatory challenges, particularly for small and medium-sized enterprises (SMEs) navigating the European Union…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.30822"
+    },
+    {
+      "title": "AI Risk Ontologies for the EU AI Act Compliance: AIRO, VAIR, and their Integration with DPV",
+      "summary": "arXiv:2610.31380v1 Announce Type: cross Abstract: As the use of AI, and consequently its harms, becomes more prevalent, the global discourse around AI has become increasingly risk-aware. With new risks emerging more frequently than ever, a key challenge is…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.31380"
+    },
+    {
+      "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+      "summary": "arXiv:2610.31588v1 Announce Type: cross Abstract: Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.31588"
+    },
+    {
+      "title": "The EU AI Act Beyond Europe: A Practical Readiness Framework for Non-EU Organisations. Comparative Evidence from Four African Countries",
+      "summary": "arXiv:2610.30152v1 Announce Type: new Abstract: The EU Artificial Intelligence Act has implications for organizations within Europe as well as organisations outside the European Union where they provide AI-enabled services to EU clients, use European vendors,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.30152"
+    },
+    {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-23",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
     },
     {
       "title": "Designing an AI serving harness built to last",
@@ -19,22 +99,6 @@
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
     },
     {
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-22",
-      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
-    },
-    {
-      "title": "Discord now formats Markdown previews right",
-      "summary": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context,…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-22",
-      "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels"
-    },
-    {
       "title": "The Foundations of Scalable AI",
       "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation…",
       "source": "MIT Technology Review",
@@ -43,68 +107,12 @@
       "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
     },
     {
-      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-      "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-22",
-      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network"
-    },
-    {
       "title": "Expanding AI literacy with the Public Library Association and community-based programs",
       "summary": "The people and institutions closest to a community understand their needs best. Libraries, small businesses, nonprofits, and schools see firsthand where AI can create opportunity and where people need support to navigate change. At Microsoft, our role is to…",
       "source": "Microsoft On the Issues",
       "tier": "12-industria",
       "date": "2026-10-22",
       "url": "https://blogs.microsoft.com/on-the-issues/2026/10/22/expanding-ai-literacy-with-the-american-library-association-and-community-based-programs/"
-    },
-    {
-      "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
-      "summary": "arXiv:2610.28706v1 Announce Type: new Abstract: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed,…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-22",
-      "url": "https://arxiv.org/abs/2610.28706"
-    },
-    {
-      "title": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
-      "summary": "arXiv:2610.28826v1 Announce Type: new Abstract: Automated judges of clinical artificial intelligence (AI) outputs are necessary, but large language model (LLM) judges are costly and slow at scale. We compared Jev, a decision language model that returns…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-22",
-      "url": "https://arxiv.org/abs/2610.28826"
-    },
-    {
-      "title": "Speedrunning Relational Foundation Model Pretraining",
-      "summary": "arXiv:2610.28855v1 Announce Type: new Abstract: Progress on foundation model pretraining is gated by who can afford a trial, and relational pretraining is no exception. Recipes are developed inside individual labs, reported under private protocols, and do not…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-22",
-      "url": "https://arxiv.org/abs/2610.28855"
-    },
-    {
-      "title": "Artificial Intelligence and Job Design: A Dynamic Framework",
-      "summary": "arXiv:2610.28830v1 Announce Type: new Abstract: This study aims to deepen the understanding of artificial intelligence's (AI) impact on work by introducing and describing the AI-Job Dynamics Framework. Drawing from sociotechnical systems theory, complexity…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-22",
-      "url": "https://arxiv.org/abs/2610.28830"
-    },
-    {
-      "title": "Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction",
-      "summary": "arXiv:2610.29304v1 Announce Type: new Abstract: Large language models increasingly address users in the register of care: they remember personal details, adopt a first-person emotional voice, and sustain relationships across many sessions. This…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-22",
-      "url": "https://arxiv.org/abs/2610.29304"
-    },
-    {
-      "title": "AI Security Literacy: Ecosystem-based Competency Framework and K-12 Learning Platform",
-      "summary": "arXiv:2610.28859v1 Announce Type: cross Abstract: Adoption of artificial intelligence in K-12 schools has outpaced guidance for students, teachers, and administrators. Existing AI-literacy frameworks emphasize understanding and use; cybersecurity frameworks…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-22",
-      "url": "https://arxiv.org/abs/2610.28859"
     },
     {
       "title": "Proposal for a Regulation amending Regulations (EU) 2016/1679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, (EU) 2024/1689 and Directives 2002/58/EC, (EU)…",
@@ -131,28 +139,12 @@
       "url": "https://ainowinstitute.org/news/amid-ai-boom-risk-is-spreading-throughout-the-economy-astra-taylor-naomi-klein"
     },
     {
-      "title": "OpenAI models are coming to Google Cloud",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-21",
-      "url": "https://openai.com/index/openai-models-google-cloud"
-    },
-    {
       "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
       "summary": "European Commission Press release Brussels, 21 Oct 2026 Today, the European Commission has opened formal proceedings to assess whether Booking.com may have breached the Digital Services Act (DSA) by not having diligently assessed or effectively mitigated…",
       "source": "Comissão Europeia",
       "tier": "2-comissao",
       "date": "2026-10-21",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2223"
-    },
-    {
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-21",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack"
     },
     {
       "title": "The public should reap the benefits of the AI boom it helped build, new study argues",
@@ -177,14 +169,6 @@
       "tier": "8-jurisdicoes",
       "date": "2026-10-20",
       "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive"
-    },
-    {
-      "title": "Commission launches RAISE pledging initiative to boost AI support for researchers across Europe",
-      "summary": "European Commission Press release Brussels, 15 Oct 2026 Today, at the European AI in Science Summit in Dublin, the European Commission launched the RAISE (Resource for AI Science in Europe) pledging initiative for AI in Science Enablers.",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-10-15",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2175"
     },
     {
       "title": "Nieuwe EDPB-guidelines over samenspel DSA/AVG en AVG-boetes",
@@ -257,22 +241,6 @@
       "tier": "9-investigacao",
       "date": "2026-10-06",
       "url": "https://cset.georgetown.edu/article/should-we-track-ai-chips/"
-    },
-    {
-      "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
-      "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
-      "source": "Future of Life Institute",
-      "tier": "10-sociedade",
-      "date": "2026-09-28",
-      "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
-    },
-    {
-      "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
-      "summary": "An evangelical thinker explores how AI might be repurposed into a tool that serves human flourishing, in line with a post-Reformation understanding of work.",
-      "source": "Future of Life Institute",
-      "tier": "10-sociedade",
-      "date": "2026-09-10",
-      "url": "https://futureoflife.org/religion/ai-and-the-protestant-vision-of-spirituality-work-and-technology/"
     },
     {
       "title": "Finlândia ativa enforcement",
