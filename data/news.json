@@ -1,38 +1,46 @@
 {
-  "generated": "2026-10-24T01:38:25.044Z",
+  "generated": "2026-10-25T01:11:17.090Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-23",
-      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
-    },
-    {
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web…",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-23",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+      "date": "2026-10-24",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
     },
     {
-      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one,…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-23",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
-    },
-    {
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both…",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
+      "date": "2026-10-24",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    },
+    {
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-24",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-24",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    },
+    {
+      "title": "ANACOM participa pela primeira vez nos trabalhos do Conselho da Europa sobre novas tecnologias digitais e IA",
+      "summary": "Reunião do Steering Committee for New and Emerging Digital Technologies (CDNET) decorreu de 21 a 23.10.2026, em Estrasburgo.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
       "date": "2026-10-23",
-      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/"
+      "url": "https://www.anacom.pt/render.jsp?contentId=1860314"
     },
     {
       "title": "Securing our frontier model training environment",
@@ -49,38 +57,6 @@
       "tier": "4-dados",
       "date": "2026-10-23",
       "url": "https://fra.europa.eu/en/news/2026/brussels-airport-training-fundamental-rights-and-use-biometrics"
-    },
-    {
-      "title": "TESSA: A Governance-Oriented Custom GPT for SME Guidance under the EU AI Act: Design, Implementation, and Evaluation",
-      "summary": "arXiv:2610.30822v1 Announce Type: new Abstract: The increasing adoption of generative AI presents new opportunities while raising AI governance and regulatory challenges, particularly for small and medium-sized enterprises (SMEs) navigating the European Union…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-23",
-      "url": "https://arxiv.org/abs/2610.30822"
-    },
-    {
-      "title": "AI Risk Ontologies for the EU AI Act Compliance: AIRO, VAIR, and their Integration with DPV",
-      "summary": "arXiv:2610.31380v1 Announce Type: cross Abstract: As the use of AI, and consequently its harms, becomes more prevalent, the global discourse around AI has become increasingly risk-aware. With new risks emerging more frequently than ever, a key challenge is…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-23",
-      "url": "https://arxiv.org/abs/2610.31380"
-    },
-    {
-      "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
-      "summary": "arXiv:2610.31588v1 Announce Type: cross Abstract: Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-23",
-      "url": "https://arxiv.org/abs/2610.31588"
-    },
-    {
-      "title": "The EU AI Act Beyond Europe: A Practical Readiness Framework for Non-EU Organisations. Comparative Evidence from Four African Countries",
-      "summary": "arXiv:2610.30152v1 Announce Type: new Abstract: The EU Artificial Intelligence Act has implications for organizations within Europe as well as organisations outside the European Union where they provide AI-enabled services to EU clients, use European vendors,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-23",
-      "url": "https://arxiv.org/abs/2610.30152"
     },
     {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
@@ -241,6 +217,22 @@
       "tier": "9-investigacao",
       "date": "2026-10-06",
       "url": "https://cset.georgetown.edu/article/should-we-track-ai-chips/"
+    },
+    {
+      "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
+      "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-09-28",
+      "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
+    },
+    {
+      "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
+      "summary": "An evangelical thinker explores how AI might be repurposed into a tool that serves human flourishing, in line with a post-Reformation understanding of work.",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-09-10",
+      "url": "https://futureoflife.org/religion/ai-and-the-protestant-vision-of-spirituality-work-and-technology/"
     },
     {
       "title": "Finlândia ativa enforcement",
