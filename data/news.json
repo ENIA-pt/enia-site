@@ -1,7 +1,47 @@
 {
-  "generated": "2026-10-25T01:11:17.090Z",
+  "generated": "2026-10-26T01:13:03.148Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-25",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+    },
+    {
+      "title": "Preparados para falhar?",
+      "summary": "O setor segurador vende a simples promessa que quando o sinistro acontecer, estaremos lá. Mas quem estará lá quando a seguradora sofrer o seu próprio sinistro? A questão pode parecer provocatória. É intencional. Num mercado cada vez mais focado em requisitos…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-25",
+      "url": "https://eco.sapo.pt/opiniao/preparados-para-falhar/"
+    },
+    {
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-25",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+    },
+    {
+      "title": "APS com curso de inteligência artificial aplicada aos seguros",
+      "summary": "A CASA – Conhecimento e Aprendizagem de Seguros, da APS, anunciou o curso “Hackathon lab: construa com ia, antecipe tendências e ganhe inteligência estratégica aplicada ao setor segurador”, que irá decorrer no dia 4 de novembro, entre as 9h00 e as 15h00. O…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-25",
+      "url": "https://eco.sapo.pt/2026/10/25/aps-com-curso-de-inteligencia-artificial-aplicada-aos-seguros/"
+    },
+    {
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI,…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-25",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+    },
     {
       "title": "Blue Planet III is keeping the rough edges in the age of AI",
       "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead…",
@@ -9,38 +49,6 @@
       "tier": "11-imprensa",
       "date": "2026-10-24",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-24",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
-    },
-    {
-      "title": "Pennsylvania will require labels on AI-generated ads",
-      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-24",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
-    },
-    {
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-24",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
-    },
-    {
-      "title": "ANACOM participa pela primeira vez nos trabalhos do Conselho da Europa sobre novas tecnologias digitais e IA",
-      "summary": "Reunião do Steering Committee for New and Emerging Digital Technologies (CDNET) decorreu de 21 a 23.10.2026, em Estrasburgo.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-10-23",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1860314"
     },
     {
       "title": "Securing our frontier model training environment",
@@ -225,14 +233,6 @@
       "tier": "10-sociedade",
       "date": "2026-09-28",
       "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
-    },
-    {
-      "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
-      "summary": "An evangelical thinker explores how AI might be repurposed into a tool that serves human flourishing, in line with a post-Reformation understanding of work.",
-      "source": "Future of Life Institute",
-      "tier": "10-sociedade",
-      "date": "2026-09-10",
-      "url": "https://futureoflife.org/religion/ai-and-the-protestant-vision-of-spirituality-work-and-technology/"
     },
     {
       "title": "Finlândia ativa enforcement",
