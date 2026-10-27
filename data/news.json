@@ -1,54 +1,118 @@
 {
-  "generated": "2026-10-26T01:13:03.148Z",
+  "generated": "2026-10-27T02:07:20.762Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-25",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+      "date": "2026-10-27",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
     },
     {
-      "title": "Preparados para falhar?",
-      "summary": "O setor segurador vende a simples promessa que quando o sinistro acontecer, estaremos lá. Mas quem estará lá quando a seguradora sofrer o seu próprio sinistro? A questão pode parecer provocatória. É intencional. Num mercado cada vez mais focado em requisitos…",
-      "source": "ECO",
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-25",
-      "url": "https://eco.sapo.pt/opiniao/preparados-para-falhar/"
+      "date": "2026-10-26",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
     },
     {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-26",
+      "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic"
+    },
+    {
+      "title": "What Should the Rules for A.I. Companies Actually Be? We Asked the Experts.",
+      "summary": "AI Now's Senior Director Kate Brennan joined a roundtable discussion with AI experts and leaders, pushing the conversation away from abstract risk and toward the very real harms caused by AI companies willing to gamble with our lives and our economy. The post…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-26",
+      "url": "https://ainowinstitute.org/news/what-should-the-rules-for-a-i-companies-actually-be-we-asked-the-experts"
+    },
+    {
+      "title": "Will the real Anthropic please stand up",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-26",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+    },
+    {
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-25",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+      "date": "2026-10-26",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
     },
     {
-      "title": "APS com curso de inteligência artificial aplicada aos seguros",
-      "summary": "A CASA – Conhecimento e Aprendizagem de Seguros, da APS, anunciou o curso “Hackathon lab: construa com ia, antecipe tendências e ganhe inteligência estratégica aplicada ao setor segurador”, que irá decorrer no dia 4 de novembro, entre as 9h00 e as 15h00. O…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-10-25",
-      "url": "https://eco.sapo.pt/2026/10/25/aps-com-curso-de-inteligencia-artificial-aplicada-aos-seguros/"
+      "title": "Learning Curves: The future of education, from classrooms to careers, in an AI-driven world",
+      "summary": "The rapid diffusion of AI globally and the pace at which AI is developing put us at a societal crossroads. The choices we’re making now will determine who has access to AI and the opportunity it affords. There is perhaps no more important tool than our…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-10-26",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/10/26/learning-curves-the-future-of-education-from-classrooms-to-careers-in-an-ai-driven-world/"
     },
     {
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI,…",
-      "source": "The Verge AI",
+      "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance,…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-10-25",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+      "date": "2026-10-26",
+      "url": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/"
     },
     {
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
-      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-24",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+      "title": "AI Policy Corner: Examining Cloud Procurement Reforms in the Department of Defence (S.5436)",
+      "summary": "✍️By Syona Kadidal Syona is an undergraduate student in Psychological Sciences and Artificial Intelligence, as well as a Research Assistant at the Governance and Responsible AI Lab (GRAIL), Purdue University. 📌 Editor’s Note: This article is part of our AI…",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-26",
+      "url": "https://montrealethics.ai/ai-policy-corner-examining-cloud-procurement-reforms-in-the-department-of-defence-s-5436/"
+    },
+    {
+      "title": "EvalCards: A Framework for Standardized Evaluation Reporting",
+      "summary": "arXiv:2511.21695v2 Announce Type: replace-cross Abstract: Evaluation reports guide the use of general-purpose AI (GPAI) models, yet inconsistent reporting often leaves essential questions unanswered. Through a review of prior work, we identify three central…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-26",
+      "url": "https://arxiv.org/abs/2511.21695"
+    },
+    {
+      "title": "Autonomous Cyber Weapons as AI-Enabled Digital Harms: A Platform Accountability Framework",
+      "summary": "arXiv:2610.32238v1 Announce Type: new Abstract: Governments govern AI-generated online harms from commercial platforms (EU DSA, AI Act, UK Online Safety Act), yet the most severe class remains ungoverned: autonomous cyber weapons (ACWs) deployed by…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.32238"
+    },
+    {
+      "title": "From Regulation to Engineering: Organizational Privacy Climate as Mediator",
+      "summary": "arXiv:2610.32576v1 Announce Type: new Abstract: Data protection legislation aims to protect privacy rights by regulating how information systems store and process personal information. While such legislation defines legal obligations, translating regulatory…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.32576"
+    },
+    {
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.31789"
+    },
+    {
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.31882"
     },
     {
       "title": "Securing our frontier model training environment",
@@ -75,30 +139,6 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
     },
     {
-      "title": "Designing an AI serving harness built to last",
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models,…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-22",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-    },
-    {
-      "title": "The Foundations of Scalable AI",
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-22",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
-    },
-    {
-      "title": "Expanding AI literacy with the Public Library Association and community-based programs",
-      "summary": "The people and institutions closest to a community understand their needs best. Libraries, small businesses, nonprofits, and schools see firsthand where AI can create opportunity and where people need support to navigate change. At Microsoft, our role is to…",
-      "source": "Microsoft On the Issues",
-      "tier": "12-industria",
-      "date": "2026-10-22",
-      "url": "https://blogs.microsoft.com/on-the-issues/2026/10/22/expanding-ai-literacy-with-the-american-library-association-and-community-based-programs/"
-    },
-    {
       "title": "Proposal for a Regulation amending Regulations (EU) 2016/1679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, (EU) 2024/1689 and Directives 2002/58/EC, (EU)…",
       "summary": "—",
       "source": "EUR-Lex",
@@ -113,14 +153,6 @@
       "tier": "10-sociedade",
       "date": "2026-10-21",
       "url": "https://www.accessnow.org/openness-in-ai-development/?pk_campaign=feed&pk_kwd=openness-in-ai-development"
-    },
-    {
-      "title": "Amid AI Boom, “Risk Is Spreading Throughout the Economy”: Astra Taylor & Naomi Klein",
-      "summary": "Naomi Klein and Astra Taylor join a wide-ranging conversation on the multitrillion-dollar global investment in artificial intelligence and its reverberating effects around the world. The post Amid AI Boom, “Risk Is Spreading Throughout the Economy”: Astra…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-21",
-      "url": "https://ainowinstitute.org/news/amid-ai-boom-risk-is-spreading-throughout-the-economy-astra-taylor-naomi-klein"
     },
     {
       "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
@@ -177,14 +209,6 @@
       "tier": "12-industria",
       "date": "2026-10-14",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-    },
-    {
-      "title": "The AI Ethics Brief #201: The Year the Terms Became Visible",
-      "summary": "On MAIEI’s founding question, the fragility that can accompany AI adoption, and the people institutions need to govern it. Source",
-      "source": "Montreal AI Ethics Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-13",
-      "url": "https://montrealethics.ai/the-ai-ethics-brief-201-the-year-the-terms-became-visible/"
     },
     {
       "title": "AP zet volgende stap in toezicht op AI",
