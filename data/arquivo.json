@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-27T02:07:20.762Z",
+  "generated": "2026-10-28T02:17:59.818Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 902,
+  "count": 914,
   "items": [
     {
       "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
@@ -10,6 +10,102 @@
       "tier": "11-imprensa",
       "date": "2026-10-27",
       "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+    },
+    {
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-27",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
+    },
+    {
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-27",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/"
+    },
+    {
+      "title": "The AI Ethics Brief #202: Delegated by Default",
+      "summary": "On AI agents that act for us, a national AI council that advises for us, and who gets a say in either. Plus: two weeks to SAIER Volume 8. Source",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-27",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-202-delegated-by-default/"
+    },
+    {
+      "title": "Da defesa e IA à indústria aeroespacial, o futuro vai a debate em Guimarães",
+      "summary": "Concelho onde mais de 40% do emprego se concentra na indústria transformadora, Guimarães quer diversificar o tecido empresarial, tornando-o mais competitivo e reforçando a capacidade de inovação e internacionalização. O foco da autarquia está no reforço da…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-27",
+      "url": "https://eco.sapo.pt/2026/10/27/da-defesa-e-ia-a-industria-aeroespacial-o-futuro-vai-a-debate-em-guimaraes/"
+    },
+    {
+      "title": "In an age of AI, deciding what to trust is a foundational skill. Here’s how we’re helping educators teach it.",
+      "summary": "Launching the expanded AI Classroom Toolkit with Cyberlite during Global Media and Information Literacy Week AI is opening new pathways to information, giving people faster access to answers, ideas, and knowledge. At the same time, it’s making it harder to…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-10-27",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/"
+    },
+    {
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-27",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai"
+    },
+    {
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-27",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+    },
+    {
+      "title": "How solid-state transformers could help power the AI boom",
+      "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-27",
+      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-27",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+    },
+    {
+      "title": "Governing Artificial Intelligence as a Macro Socio-Technical Regime: The F-I-C-P Framework for Regime-Level AI Infrastructure and Governance",
+      "summary": "arXiv:2610.32985v1 Announce Type: new Abstract: Artificial intelligence (AI) is often analysed through technical, organisational, or regulatory perspectives that treat capability, adoption, and governance as separate issues. This article conceptualises AI…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-27",
+      "url": "https://arxiv.org/abs/2610.32985"
+    },
+    {
+      "title": "LLM-as-a-Judge Version Shift: The Instrument Changed, Not the Standard",
+      "summary": "arXiv:2610.32986v1 Announce Type: new Abstract: Automated research pipelines increasingly rely on fixed LLM judges to rank, filter, and revise proposals, yet these judges are routinely replaced by newer versions. We study whether such replacements preserve…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-27",
+      "url": "https://arxiv.org/abs/2610.32986"
+    },
+    {
+      "title": "Veracity labels flip the emotional tone of language models but leave racial disparities intact",
+      "summary": "arXiv:2610.33021v1 Announce Type: new Abstract: Large language models (LLMs) increasingly deliver information through personas, but it is unclear whether correcting the facts also makes their framing consistent across identity labels. We audited four LLMs…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-27",
+      "url": "https://arxiv.org/abs/2610.33021"
     },
     {
       "title": "Anthropic is burning gas to feed the AI boom",
