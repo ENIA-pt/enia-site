@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-29T02:27:12.476Z",
+  "startedAt": "2026-10-30T02:36:34.924Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -34,17 +34,17 @@
       "kind": "rss",
       "ok": true,
       "items": 50,
-      "kept": 1,
-      "maisRecente": "2026-10-21"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "ec-digital-strategy",
       "tier": "2-comissao",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "items": 10,
+      "kept": 8,
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "ec-have-your-say",
@@ -161,7 +161,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-14"
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "ico-uk",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 24,
+      "kept": 3,
+      "maisRecente": "2026-10-27"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 2,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "dre-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 35,
+      "items": 37,
       "kept": 2,
       "maisRecente": "2026-10-20"
     },
@@ -377,16 +377,16 @@
       "ok": true,
       "items": 407,
       "kept": 3,
-      "maisRecente": "2026-10-28"
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 50,
-      "kept": 3,
-      "maisRecente": "2026-10-28"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "stanford-hai",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-10-06"
+      "maisRecente": "2026-10-21"
     },
     {
       "id": "oii",
@@ -476,7 +476,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-08"
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "access-now",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-28"
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-28"
+      "maisRecente": "2026-10-30"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-28"
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "eco-pt",
@@ -556,8 +556,8 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 1,
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "publico-tec",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1334,
+      "items": 1337,
       "kept": 2,
-      "maisRecente": "2026-10-28"
+      "maisRecente": "2026-10-29"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1559,
+      "items": 1389,
       "kept": 0,
       "maisRecente": null
     },
@@ -678,7 +678,6 @@
     }
   ],
   "warnings": [
-    "[ec-digital-strategy] HTTP 403",
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
@@ -686,10 +685,6 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
-    "[anacom-noticias] fetch failed",
-    "[anacom-legislacao] fetch failed",
-    "[anacom-imprensa] fetch failed",
-    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[bundesnetzagentur-de] HTTP 404",
     "[iso] HTTP 403",
@@ -713,14 +708,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-10-29T02:29:22.605Z",
-  "recolhidos": 33,
-  "written": 33,
-  "maisRecente": "2026-10-28",
+  "finishedAt": "2026-10-30T02:37:35.541Z",
+  "recolhidos": 39,
+  "written": 39,
+  "maisRecente": "2026-10-30",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 11,
+    "added": 15,
     "curados": 0,
-    "total": 925
+    "total": 940
   }
 }

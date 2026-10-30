@@ -1,8 +1,104 @@
 {
-  "generated": "2026-10-29T02:29:22.605Z",
+  "generated": "2026-10-30T02:37:35.541Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 925,
+  "count": 940,
   "items": [
+    {
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-30",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
+    },
+    {
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-29",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
+    },
+    {
+      "title": "AI has come for Arizona’s water",
+      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-29",
+      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
+    },
+    {
+      "title": "APROSE alerta para riscos de compradores de seguros autónomos com IA",
+      "summary": "A inteligência artificial não deve substituir o aconselhamento personalizado, uma vez que a escolha de uma apólice não se resume apenas ao preço, defende Nuno Martins, presidente da Associação Nacional de Agentes e Corretores de Seguros (APROSE). O…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-10-29",
+      "url": "https://eco.sapo.pt/2026/10/29/aprose-alerta-para-riscos-de-compradores-de-seguros-autonomos-com-ia/"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-29",
+      "url": "https://openai.com/index/updated-model-spec"
+    },
+    {
+      "title": "Microsoft’s AI future has fewer jobs",
+      "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-29",
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
+    },
+    {
+      "title": "The Download: AI agent tracking and climate feedback loops",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-29",
+      "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/"
+    },
+    {
+      "title": "We urgently need to monitor AI agents’ actions in real time",
+      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-10-29",
+      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
+    },
+    {
+      "title": "AP informeert incassobureaus over verantwoorde inzet AI",
+      "summary": "Incassobureaus gebruiken steeds vaker algoritmes en AI, zo blijkt uit een steekproef van de Autoriteit Persoonsgegevens (AP) onder 29 bureaus. Het werk gaat hierdoor sneller, maar het leidt ook tot risico’s op onjuiste beslissingen, discriminatie en ongelijke…",
+      "source": "Autoriteit Persoonsgegevens",
+      "tier": "4-dados",
+      "date": "2026-10-29",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-29",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+    },
+    {
+      "title": "What the new Convention on Decent Work in the Platform Economy means for workers – and what’s next for implementation",
+      "summary": "In June 2026, the International Labour Organisation (ILO) adopted a new Convention on Decent Work in the Platform Economy. Following in the footsteps of the EU’s Platform Work Directive, this Convention extends data protection rights for platform workers and…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-10-29",
+      "url": "https://edri.org/our-work/what-the-new-convention-on-decent-work-in-the-platform-economy-means-for-workers-and-whats-next-for-implementation/"
+    },
+    {
+      "title": "Local Digital Twins CiTiVERSE EDIC joins Smart City Expo World Congress 2026",
+      "summary": "Local Digital Twins CiTiVERSE EDIC joins Smart City Expo World Congress 2026 Anonymous (not verified) Thu, 10/29/2026 - 09:12 03 November 2026 - 05 November 2026 Fira de Barcelona, Hall 3, Stand D71 Explore human-centric AI solutions for smart cities with the…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-29",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/local-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026"
+    },
     {
       "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
       "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the…",
@@ -298,6 +394,14 @@
       "tier": "9-investigacao",
       "date": "2026-10-26",
       "url": "https://arxiv.org/abs/2610.31882"
+    },
+    {
+      "title": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act",
+      "summary": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act Anonymous (not verified) Mon, 10/26/2026 - 10:28 The European Commission has accepted Temu's action plan to comply with the Digital Services Act (DSA) and tackle the…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-26",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-temus-action-plan-remedy-breach-digital-services-act"
     },
     {
       "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
@@ -682,6 +786,22 @@
       "tier": "9-investigacao",
       "date": "2026-10-21",
       "url": "https://ainowinstitute.org/news/amid-ai-boom-risk-is-spreading-throughout-the-economy-astra-taylor-naomi-klein"
+    },
+    {
+      "title": "Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds",
+      "summary": "CSET’s Owen J. Daniels shared his expert insight in an article published by Military Times. The article examines a Government Accountability Office report highlighting staffing shortages, incomplete initiatives, and oversight challenges as the Pentagon…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-10-21",
+      "url": "https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/"
+    },
+    {
+      "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
+      "summary": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act Anonymous (not verified) Wed, 10/21/2026 - 12:06 The European Commission has opened formal proceedings to assess whether Booking.com may have breached the Digital…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-10-21",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-investigate-how-bookingcom-combats-scams-and-fraud-under-digital-services-act"
     },
     {
       "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
