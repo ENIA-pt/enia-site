@@ -1,54 +1,94 @@
 {
-  "generated": "2026-10-30T02:37:35.541Z",
+  "generated": "2026-10-31T02:26:03.853Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-31",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+    },
+    {
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-10-30",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/"
     },
     {
-      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-29",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
-    },
-    {
-      "title": "AI has come for Arizona’s water",
-      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and…",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-29",
-      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
+      "date": "2026-10-30",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
     },
     {
-      "title": "APROSE alerta para riscos de compradores de seguros autónomos com IA",
-      "summary": "A inteligência artificial não deve substituir o aconselhamento personalizado, uma vez que a escolha de uma apólice não se resume apenas ao preço, defende Nuno Martins, presidente da Associação Nacional de Agentes e Corretores de Seguros (APROSE). O…",
-      "source": "ECO",
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-29",
-      "url": "https://eco.sapo.pt/2026/10/29/aprose-alerta-para-riscos-de-compradores-de-seguros-autonomos-com-ia/"
+      "date": "2026-10-30",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
     },
     {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "source": "OpenAI",
       "tier": "12-industria",
-      "date": "2026-10-29",
-      "url": "https://openai.com/index/updated-model-spec"
+      "date": "2026-10-30",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
     },
     {
-      "title": "Microsoft’s AI future has fewer jobs",
-      "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-29",
-      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
+      "title": "Strategic Integration of Artificial Intelligence in the C-Suite: The Role of the Chief AI Officer",
+      "summary": "arXiv:2407.10247v4 Announce Type: replace-cross Abstract: The integration of Artificial Intelligence (AI) into corporate strategy has become critical for organizations seeking to maintain competitive advantage in the digital age. Although organizations…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-30",
+      "url": "https://arxiv.org/abs/2407.10247"
+    },
+    {
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.37739"
+    },
+    {
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.37809"
+    },
+    {
+      "title": "From the Gettier Machine to Justified True Output: A Three-Step Account of Rational Trust in Generative AI",
+      "summary": "arXiv:2610.38112v1 Announce Type: new Abstract: As generative artificial intelligence (AI) settles into everyday practices of inquiry, an old epistemological question returns in a new guise: when does a proposition a user takes from an AI output become…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.38112"
+    },
+    {
+      "title": "IKTRACE: A Natural Language Processing Framework for Identifying Indigenous Knowledge Representation in Academic Literature",
+      "summary": "arXiv:2610.38186v1 Announce Type: new Abstract: As artificial intelligence systems increasingly rely on vast textual data, respectful and accurate representation of Indigenous Knowledge has become critical. This paper introduces IKTRACE, a natural language…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.38186"
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-10-30",
+      "url": "https://openai.com/index/fair-use-benefits-everyone"
     },
     {
       "title": "The Download: AI agent tracking and climate feedback loops",
@@ -75,14 +115,6 @@
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai"
     },
     {
-      "title": "How we detect frontier model misalignment",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-10-29",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
-    },
-    {
       "title": "What the new Convention on Decent Work in the Platform Economy means for workers – and what’s next for implementation",
       "summary": "In June 2026, the International Labour Organisation (ILO) adopted a new Convention on Decent Work in the Platform Economy. Following in the footsteps of the EU’s Platform Work Directive, this Convention extends data protection rights for platform workers and…",
       "source": "EDRi",
@@ -97,30 +129,6 @@
       "tier": "2-comissao",
       "date": "2026-10-29",
       "url": "https://digital-strategy.ec.europa.eu/en/events/local-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026"
-    },
-    {
-      "title": "Counting the Bandages: On measuring the time that AI saves",
-      "summary": "arXiv:2610.35942v1 Announce Type: new Abstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-29",
-      "url": "https://arxiv.org/abs/2610.35942"
-    },
-    {
-      "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
-      "summary": "arXiv:2610.35984v1 Announce Type: new Abstract: Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often limited by challenges such as insufficient data and class…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-29",
-      "url": "https://arxiv.org/abs/2610.35984"
-    },
-    {
-      "title": "Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction",
-      "summary": "arXiv:2610.36116v1 Announce Type: new Abstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing science, and \\emph{how} should they use AI when they do? This paper…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-29",
-      "url": "https://arxiv.org/abs/2610.36116"
     },
     {
       "title": "Gemini 4 Carbon: Our next frontier model",
@@ -139,6 +147,14 @@
       "url": "https://montrealethics.ai/the-ai-ethics-brief-202-delegated-by-default/"
     },
     {
+      "title": "COP31 pledge on AI lacks climate targets, critics say",
+      "summary": "Ahead of COP31, a proposed artificial intelligence pledge lacks any concrete climate targets and allows signatories to determine what steps they take. \"We can't trust them to grade their own homework,\" says AI Now's Alli Finn. The post COP31 pledge on AI…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-10-27",
+      "url": "https://ainowinstitute.org/news/cop31-pledge-on-ai-lacks-climate-targets-critics-say"
+    },
+    {
       "title": "In an age of AI, deciding what to trust is a foundational skill. Here’s how we’re helping educators teach it.",
       "summary": "Launching the expanded AI Classroom Toolkit with Cyberlite during Global Media and Information Literacy Week AI is opening new pathways to information, giving people faster access to answers, ideas, and knowledge. At the same time, it’s making it harder to…",
       "source": "Microsoft On the Issues",
@@ -153,14 +169,6 @@
       "tier": "5-nacional",
       "date": "2026-10-27",
       "url": "https://www.anacom.pt/render.jsp?contentId=1860479"
-    },
-    {
-      "title": "What Should the Rules for A.I. Companies Actually Be? We Asked the Experts.",
-      "summary": "AI Now's Senior Director Kate Brennan joined a roundtable discussion with AI experts and leaders, pushing the conversation away from abstract risk and toward the very real harms caused by AI companies willing to gamble with our lives and our economy. The post…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-26",
-      "url": "https://ainowinstitute.org/news/what-should-the-rules-for-a-i-companies-actually-be-we-asked-the-experts"
     },
     {
       "title": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act",
@@ -297,14 +305,6 @@
       "tier": "2-comissao",
       "date": "2026-10-02",
       "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-eu-kids-act"
-    },
-    {
-      "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
-      "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
-      "source": "Future of Life Institute",
-      "tier": "10-sociedade",
-      "date": "2026-09-28",
-      "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
     },
     {
       "title": "Finlândia ativa enforcement",
