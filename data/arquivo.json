@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-31T02:26:03.853Z",
+  "generated": "2026-11-01T02:16:50.014Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 952,
+  "count": 955,
   "items": [
     {
       "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
@@ -10,6 +10,30 @@
       "tier": "11-imprensa",
       "date": "2026-10-31",
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+    },
+    {
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-31",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+    },
+    {
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-31",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+    },
+    {
+      "title": "I built an AI Tamagotchi before Meta could",
+      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-31",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
     },
     {
       "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",

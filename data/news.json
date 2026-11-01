@@ -1,22 +1,54 @@
 {
-  "generated": "2026-10-31T02:26:03.853Z",
+  "generated": "2026-11-01T02:16:50.014Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-10-31",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
     },
     {
-      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
-      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-30",
-      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/"
+      "date": "2026-10-31",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+    },
+    {
+      "title": "I built an AI Tamagotchi before Meta could",
+      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-10-31",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
+    },
+    {
+      "title": "Strategic Integration of Artificial Intelligence in the C-Suite: The Role of the Chief AI Officer",
+      "summary": "arXiv:2407.10247v4 Announce Type: replace-cross Abstract: The integration of Artificial Intelligence (AI) into corporate strategy has become critical for organizations seeking to maintain competitive advantage in the digital age. Although organizations…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-31",
+      "url": "https://arxiv.org/abs/2407.10247"
+    },
+    {
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-31",
+      "url": "https://arxiv.org/abs/2610.37739"
+    },
+    {
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-10-31",
+      "url": "https://arxiv.org/abs/2610.37809"
     },
     {
       "title": "The biggest names in AI are backing a new way to opt out of scraping",
@@ -27,60 +59,12 @@
       "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
     },
     {
-      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-      "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-10-30",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
-    },
-    {
       "title": "Making it easier for websites to express AI training preferences",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "source": "OpenAI",
       "tier": "12-industria",
       "date": "2026-10-30",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
-    },
-    {
-      "title": "Strategic Integration of Artificial Intelligence in the C-Suite: The Role of the Chief AI Officer",
-      "summary": "arXiv:2407.10247v4 Announce Type: replace-cross Abstract: The integration of Artificial Intelligence (AI) into corporate strategy has become critical for organizations seeking to maintain competitive advantage in the digital age. Although organizations…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-30",
-      "url": "https://arxiv.org/abs/2407.10247"
-    },
-    {
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-30",
-      "url": "https://arxiv.org/abs/2610.37739"
-    },
-    {
-      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
-      "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-30",
-      "url": "https://arxiv.org/abs/2610.37809"
-    },
-    {
-      "title": "From the Gettier Machine to Justified True Output: A Three-Step Account of Rational Trust in Generative AI",
-      "summary": "arXiv:2610.38112v1 Announce Type: new Abstract: As generative artificial intelligence (AI) settles into everyday practices of inquiry, an old epistemological question returns in a new guise: when does a proposition a user takes from an AI output become…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-30",
-      "url": "https://arxiv.org/abs/2610.38112"
-    },
-    {
-      "title": "IKTRACE: A Natural Language Processing Framework for Identifying Indigenous Knowledge Representation in Academic Literature",
-      "summary": "arXiv:2610.38186v1 Announce Type: new Abstract: As artificial intelligence systems increasingly rely on vast textual data, respectful and accurate representation of Indigenous Knowledge has become critical. This paper introduces IKTRACE, a natural language…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-10-30",
-      "url": "https://arxiv.org/abs/2610.38186"
     },
     {
       "title": "Fair use benefits everyone",
@@ -161,14 +145,6 @@
       "tier": "12-industria",
       "date": "2026-10-27",
       "url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/"
-    },
-    {
-      "title": "Informação e IA: sabe o que verificar antes de confiar?",
-      "summary": "Teste os seus conhecimentos no quiz e descubra como reconhecer sinais de fraude e avaliar conteúdos que podem ter sido criados ou manipulados por IA.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-10-27",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1860479"
     },
     {
       "title": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act",
@@ -305,6 +281,14 @@
       "tier": "2-comissao",
       "date": "2026-10-02",
       "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-eu-kids-act"
+    },
+    {
+      "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
+      "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-09-28",
+      "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
     },
     {
       "title": "Finlândia ativa enforcement",
