@@ -1,8 +1,40 @@
 {
-  "generated": "2026-11-01T02:16:50.014Z",
+  "generated": "2026-11-02T02:33:32.428Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 955,
+  "count": 959,
   "items": [
+    {
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+    },
+    {
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
+    },
+    {
+      "title": "O preço de ter tido razão",
+      "summary": "Muitos dos comportamentos que hoje parecem limitar o crescimento das empresas familiares foram precisamente os que as tornaram bem-sucedidas durante décadas. O contexto mudou, e de que maneira: cadeias de abastecimento que se partem, uma geopolítica que…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-01",
+      "url": "https://eco.sapo.pt/opiniao/o-preco-de-ter-tido-razao/"
+    },
+    {
+      "title": "Empresas de IA precisam dos media mas com remuneração justa",
+      "summary": "As empresas de Inteligência Artificial (IA) precisam dos media, mas é necessário que haja uma remuneração justa pelos conteúdos, afirma o diretor de projetos da Global Alliance for Media Innovation da WAN-IFRA (World Association of News Publishers), afirma,…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-01",
+      "url": "https://eco.sapo.pt/2026/11/01/empresas-de-ia-precisam-dos-media-mas-com-remuneracao-justa/"
+    },
     {
       "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
       "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",

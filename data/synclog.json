@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-01T02:14:10.227Z",
+  "startedAt": "2026-11-02T02:31:16.540Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -170,7 +170,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "timeout 25s"
+      "error": "HTTP 403"
     },
     {
       "id": "anacom-noticias",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 33,
+      "items": 32,
       "kept": 2,
       "maisRecente": "2026-10-20"
     },
@@ -375,9 +375,9 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 605,
-      "kept": 3,
-      "maisRecente": "2026-10-31"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "arxiv-cs-cy",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-10-31"
+      "maisRecente": "2026-11-01"
     },
     {
       "id": "theverge-ai",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 2,
+      "maisRecente": "2026-11-01"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "mlex",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 2009,
+      "items": 1984,
       "kept": 0,
       "maisRecente": null
     },
@@ -684,7 +684,7 @@
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
-    "[ico-uk] timeout 25s",
+    "[ico-uk] HTTP 403",
     "[anacom-noticias] fetch failed",
     "[anacom-legislacao] fetch failed",
     "[anacom-imprensa] fetch failed",
@@ -697,7 +697,6 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -713,14 +712,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-01T02:16:50.015Z",
-  "recolhidos": 37,
-  "written": 37,
-  "maisRecente": "2026-10-31",
+  "finishedAt": "2026-11-02T02:33:32.429Z",
+  "recolhidos": 36,
+  "written": 36,
+  "maisRecente": "2026-11-01",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 3,
+    "added": 4,
     "curados": 0,
-    "total": 955
+    "total": 959
   }
 }

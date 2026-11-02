@@ -1,22 +1,38 @@
 {
-  "generated": "2026-11-01T02:16:50.014Z",
+  "generated": "2026-11-02T02:33:32.428Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-31",
-      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
     },
     {
-      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-10-31",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
+    },
+    {
+      "title": "O preço de ter tido razão",
+      "summary": "Muitos dos comportamentos que hoje parecem limitar o crescimento das empresas familiares foram precisamente os que as tornaram bem-sucedidas durante décadas. O contexto mudou, e de que maneira: cadeias de abastecimento que se partem, uma geopolítica que…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-01",
+      "url": "https://eco.sapo.pt/opiniao/o-preco-de-ter-tido-razao/"
+    },
+    {
+      "title": "Empresas de IA precisam dos media mas com remuneração justa",
+      "summary": "As empresas de Inteligência Artificial (IA) precisam dos media, mas é necessário que haja uma remuneração justa pelos conteúdos, afirma o diretor de projetos da Global Alliance for Media Innovation da WAN-IFRA (World Association of News Publishers), afirma,…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-01",
+      "url": "https://eco.sapo.pt/2026/11/01/empresas-de-ia-precisam-dos-media-mas-com-remuneracao-justa/"
     },
     {
       "title": "I built an AI Tamagotchi before Meta could",
@@ -25,30 +41,6 @@
       "tier": "11-imprensa",
       "date": "2026-10-31",
       "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
-    },
-    {
-      "title": "Strategic Integration of Artificial Intelligence in the C-Suite: The Role of the Chief AI Officer",
-      "summary": "arXiv:2407.10247v4 Announce Type: replace-cross Abstract: The integration of Artificial Intelligence (AI) into corporate strategy has become critical for organizations seeking to maintain competitive advantage in the digital age. Although organizations…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-31",
-      "url": "https://arxiv.org/abs/2407.10247"
-    },
-    {
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-31",
-      "url": "https://arxiv.org/abs/2610.37739"
-    },
-    {
-      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
-      "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-10-31",
-      "url": "https://arxiv.org/abs/2610.37809"
     },
     {
       "title": "The biggest names in AI are backing a new way to opt out of scraping",
