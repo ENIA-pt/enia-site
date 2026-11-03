@@ -1,86 +1,126 @@
 {
-  "generated": "2026-11-02T02:33:32.428Z",
+  "generated": "2026-11-03T03:57:55.581Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-01",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+      "date": "2026-11-03",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
     },
     {
-      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-01",
-      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
+      "date": "2026-11-03",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
     },
     {
-      "title": "O preço de ter tido razão",
-      "summary": "Muitos dos comportamentos que hoje parecem limitar o crescimento das empresas familiares foram precisamente os que as tornaram bem-sucedidas durante décadas. O contexto mudou, e de que maneira: cadeias de abastecimento que se partem, uma geopolítica que…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-01",
-      "url": "https://eco.sapo.pt/opiniao/o-preco-de-ter-tido-razao/"
-    },
-    {
-      "title": "Empresas de IA precisam dos media mas com remuneração justa",
-      "summary": "As empresas de Inteligência Artificial (IA) precisam dos media, mas é necessário que haja uma remuneração justa pelos conteúdos, afirma o diretor de projetos da Global Alliance for Media Innovation da WAN-IFRA (World Association of News Publishers), afirma,…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-01",
-      "url": "https://eco.sapo.pt/2026/11/01/empresas-de-ia-precisam-dos-media-mas-com-remuneracao-justa/"
-    },
-    {
-      "title": "I built an AI Tamagotchi before Meta could",
-      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have…",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-31",
-      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
+      "date": "2026-11-02",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
     },
     {
-      "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences…",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-10-30",
-      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+      "date": "2026-11-02",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
     },
     {
-      "title": "Making it easier for websites to express AI training preferences",
-      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "source": "OpenAI",
       "tier": "12-industria",
-      "date": "2026-10-30",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+      "date": "2026-11-02",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
     },
     {
-      "title": "Fair use benefits everyone",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "title": "Raising the quality of insights in agentic analytics",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-02",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/"
+    },
+    {
+      "title": "Stop counting tokens, start counting what ships",
+      "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-02",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
+    },
+    {
+      "title": "LifeVal",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "source": "OpenAI",
       "tier": "12-industria",
+      "date": "2026-11-02",
+      "url": "https://openai.com/index/lifeval"
+    },
+    {
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "summary": "arXiv:2610.40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2610.40831"
+    },
+    {
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "summary": "arXiv:2610.40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition.…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2610.40883"
+    },
+    {
+      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "summary": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2610.40890"
+    },
+    {
+      "title": "Language Non-Invariance in the Ideological Evaluation of Large Language Models",
+      "summary": "arXiv:2610.41135v1 Announce Type: new Abstract: Recent multilingual studies show that political evaluations of large language models (LLMs) can vary across languages. This paper examines how robust this non-invariance is to questionnaire translation, surface…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2610.41135"
+    },
+    {
+      "title": "The Ineliminable Anchor: Human Judgment as a Structural Requirement of Autonomous Artificial Intelligence Systems",
+      "summary": "arXiv:2610.41682v1 Announce Type: new Abstract: As artificial intelligence (AI) agents carry out longer chains of tasks, oversight must establish whether their behavior still serves an authorized goal. Here, we introduce the anchor: the point at which…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2610.41682"
+    },
+    {
+      "title": "LLM Recommenders Produce Demographic Inequality Through Content Preferences",
+      "summary": "arXiv:2610.41854v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being integrated into systems that rank and recommend online content. We examine how this shift can produce demographic inequality in whose voices are surfaced.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2610.41854"
+    },
+    {
+      "title": "Speeding up planning decisions with AI",
+      "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "source": "Google DeepMind",
+      "tier": "12-industria",
       "date": "2026-10-30",
-      "url": "https://openai.com/index/fair-use-benefits-everyone"
-    },
-    {
-      "title": "The Download: AI agent tracking and climate feedback loops",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-29",
-      "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/"
-    },
-    {
-      "title": "We urgently need to monitor AI agents’ actions in real time",
-      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-10-29",
-      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
     },
     {
       "title": "AP informeert incassobureaus over verantwoorde inzet AI",
@@ -105,14 +145,6 @@
       "tier": "2-comissao",
       "date": "2026-10-29",
       "url": "https://digital-strategy.ec.europa.eu/en/events/local-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026"
-    },
-    {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "summary": "—",
-      "source": "Google DeepMind",
-      "tier": "12-industria",
-      "date": "2026-10-28",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
     },
     {
       "title": "The AI Ethics Brief #202: Delegated by Default",
