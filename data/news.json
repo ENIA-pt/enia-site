@@ -1,62 +1,150 @@
 {
-  "generated": "2026-11-04T03:03:50.888Z",
+  "generated": "2026-11-05T03:30:35.653Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "The biggest modding site in PC gaming is taking a stance on AI",
-      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about…",
+      "title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+    },
+    {
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-04",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/"
+    },
+    {
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-11-04",
-      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
     },
     {
-      "title": "Please stop asking me when the AI bubble will pop",
-      "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and…",
+      "title": "ChatGPT will now make you animated GIFs",
+      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others.…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-11-03",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
+      "date": "2026-11-04",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
     },
     {
-      "title": "Anthropic is working on a system to prove AI models’ identity",
-      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-03",
-      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+      "title": "Concurso para prestação de serviços de consultoria para definição do modelo de governança dos sistemas de Inteligência Artificial - prorrogação adicional de…",
+      "summary": "Entrega das propostas prorrogada até às 17:00 horas de 09.12.2026.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-11-04",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1861057"
     },
     {
-      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-03",
-      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
-    },
-    {
-      "title": "Chatbots de IA “podem, em determinadas circunstâncias, violar os direitos dos editores de imprensa”",
-      "summary": "Os chatbots de inteligência artificial (IA) que vão buscar notícias à internet em tempo real para responder aos utilizadores podem violar, “em determinadas circunstâncias”, os direitos dos editores de imprensa. A posição foi defendida esta terça-feira pelo…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-03",
-      "url": "https://eco.sapo.pt/2026/11/03/chatbots-de-ia-podem-em-determinadas-circunstancias-violar-os-direitos-dos-editores-de-imprensa/"
-    },
-    {
-      "title": "Um quarto das seguradoras já utiliza agentes de IA, revela EY",
-      "summary": "A utilização de agentes de inteligência artificial está a avançar no setor segurador, com 25% das companhias inquiridas pela EY a já terem adotado esta tecnologia num espaço de seis meses. Apesar da rápida expansão, a sua aplicação continua sobretudo…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-03",
-      "url": "https://eco.sapo.pt/2026/11/03/um-quarto-das-seguradoras-ja-utiliza-agentes-de-ia-revela-ey/"
-    },
-    {
-      "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control…",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton.…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-11-03",
-      "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/"
+      "date": "2026-11-04",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+    },
+    {
+      "title": "Independent study on the impact of age assurance on fundamental rights and costs for businesses",
+      "summary": "Independent study on the impact of age assurance on fundamental rights and costs for businesses Anonymous (not verified) Wed, 11/04/2026 - 15:04 An independent study analyses the impacts of age assurance on fundamental rights and the costs for businesses…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-11-04",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses"
+    },
+    {
+      "title": "EU governments call it ‘simplification,’ but their Data Omnibus deal considerably weakens our rights",
+      "summary": "EU governments have agreed on their position on the Digital Omnibus, retaining changes that threaten fundamental rights to privacy and data protection. With negotiations moving to the European Parliament, MEPs must reject the proposed weakening of GDPR…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-11-04",
+      "url": "https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/"
+    },
+    {
+      "title": "Securing the agentic enterprise with data lineage",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-04",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
+    },
+    {
+      "title": "Record of processing activity - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027",
+      "summary": "Record of processing activity - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027 gpatterson Wed, 11/04/2026 - 13:14 Document Record of processing activity - Expert meeting of national…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-11-04",
+      "url": "https://fra.europa.eu/en/content/record-processing-activity-expert-meeting-national-fundamental-rights-bodies-designated"
+    },
+    {
+      "title": "Data protection notice - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027",
+      "summary": "Data protection notice - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027 gpatterson Wed, 11/04/2026 - 12:41 Document Data protection notice - Expert meeting of national fundamental rights…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-11-04",
+      "url": "https://fra.europa.eu/en/content/data-protection-notice-expert-meeting-national-fundamental-rights-bodies-designated-under"
+    },
+    {
+      "title": "Call for evidence on advertising repositories",
+      "summary": "Call for evidence on advertising repositories Anonymous (not verified) Wed, 11/04/2026 - 11:10 Opening: 04 November 2026 Closing: 02 December 2026 The Commission is seeking feedback on upcoming technical guidelines concerning advertising repositories under…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-11-04",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories"
+    },
+    {
+      "title": "Are LLM Assistants Regulatory Ready? Answers from regenold's 2026 EU AI Act Q&A Challenge",
+      "summary": "arXiv:2611.04546v1 Announce Type: new Abstract: Large language model (LLM) assistants are increasingly proposed for regulatory affairs, yet their reliability in regulatory tasks remains unclear. We introduce the EU AI Act Q&A Benchmark, an expert-curated…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.04546"
+    },
+    {
+      "title": "Fast, Cheap, and Fair? Evaluating Decision Models",
+      "summary": "arXiv:2611.04510v1 Announce Type: new Abstract: Industries are increasingly adopting AI-driven systems to automate a wide range of tasks, including high-stakes decisions in human resources, such as candidate screening and recruitment. This makes evaluating…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.04510"
+    },
+    {
+      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+      "summary": "arXiv:2611.03662v1 Announce Type: new Abstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.03662"
+    },
+    {
+      "title": "From Guidelines to Practice: Defining Requirements for AI Red-Teaming Tools",
+      "summary": "arXiv:2611.04271v1 Announce Type: new Abstract: Artificial Intelligence (AI) has seen significant developments and increased usage in recent years. AI benefits various tasks, automates decision-making, and enhances efficiency. However, AI also introduces…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.04271"
+    },
+    {
+      "title": "Unmitigated? How are the world's largest companies responding to AI risks?",
+      "summary": "arXiv:2611.04278v1 Announce Type: new Abstract: AI is introducing new risks to large companies and amplifying existing risks, but whether companies are addressing the AI risks they are exposed to is largely untested. We investigated what outsiders can…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.04278"
+    },
+    {
+      "title": "Towards Multi-Method Evaluation of AI in Health: Integrating Benchmarks, Autoraters, and Expert Evaluation",
+      "summary": "arXiv:2611.05127v1 Announce Type: new Abstract: General-purpose generative AI (GenAI) models are being rapidly adopted in healthcare, but they are challenging to assess with traditional evaluation frameworks. These conceptual, methodological, and practical…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.05127"
     },
     {
       "title": "Call for proposals: EU AI Media Platform – Modular multilingual public-interest infrastructure for European news and audiovisual media (IA) - Apply AI",
@@ -65,14 +153,6 @@
       "tier": "2-comissao",
       "date": "2026-11-03",
       "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european"
-    },
-    {
-      "title": "How “reverse game theory” could keep AI agents in check",
-      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-03",
-      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
     },
     {
       "title": "Web Summit 2026",
@@ -89,54 +169,6 @@
       "tier": "12-industria",
       "date": "2026-11-03",
       "url": "https://openai.com/index/heimstaden"
-    },
-    {
-      "title": "ComplianceAtlas: A Taxonomy-Driven Agentic AI Framework for Automated AI Act Gap Analysis and Remediation",
-      "summary": "arXiv:2611.03121v1 Announce Type: new Abstract: Assessing regulatory compliance for high-risk AI systems requires systematic identification of technical gaps such as missing controls, in- adequate processes, or shallow evaluation of practices. Compliance…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-03",
-      "url": "https://arxiv.org/abs/2611.03121"
-    },
-    {
-      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
-      "summary": "arXiv:2611.00171v1 Announce Type: new Abstract: Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data. Early approaches relied on handcrafted rules and template matching, while subsequent…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-03",
-      "url": "https://arxiv.org/abs/2611.00171"
-    },
-    {
-      "title": "RE-SciVQA: Improving Scientific VQA With Context-Relevant Retrieval and Lightweight MLLM Adaptation",
-      "summary": "arXiv:2611.00242v1 Announce Type: new Abstract: A deep understanding of scientific literature often relies on interpreting figures that contain key information beyond the main text. Leveraging Large Language Models (LLMs) to extract insights from these…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-03",
-      "url": "https://arxiv.org/abs/2611.00242"
-    },
-    {
-      "title": "Where Intention Goes, Responsibility Flows: Grounding AI Accountability in the Machine Learning Paradigm",
-      "summary": "arXiv:2611.00380v1 Announce Type: new Abstract: An opening salvo of lawsuits in U.S. courts has begun holding AI companies accountable through independent doctrinal routes: product liability and agency law cut as swords, while the shields of Section 230…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-03",
-      "url": "https://arxiv.org/abs/2611.00380"
-    },
-    {
-      "title": "On the Framing Effect of AI Red-Teaming Instructions: Evidence from Prior Exercises and Controlled Simulations",
-      "summary": "arXiv:2611.00412v1 Announce Type: new Abstract: AI red-teaming, adversarially probing generative AI systems to surface harms, has become a central evaluation method. However, prior work has highlighted that red-teaming is a fairly open-ended task, laden with…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-03",
-      "url": "https://arxiv.org/abs/2611.00412"
-    },
-    {
-      "title": "The Promises and Limitations of Evaluation-Based AI Governance: Evidence from Expert Interviews",
-      "summary": "arXiv:2611.00465v1 Announce Type: new Abstract: We conducted 37 semi-structured expert interviews to examine how frontier AI evaluations reduce societal-level AI risks. Evaluations have become central to AI risk governance, despite their shortcomings being…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-03",
-      "url": "https://arxiv.org/abs/2611.00465"
     },
     {
       "title": "Preparing our next security sprint to harden OpenAI",
@@ -275,14 +307,6 @@
       "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive"
     },
     {
-      "title": "First harmonised standard supporting the AI Act published in the Official Journal",
-      "summary": "First harmonised standard supporting the AI Act published in the Official Journal Anonymous (not verified) Mon, 10/19/2026 - 09:37 The European Commission has published the reference to the first harmonised standard supporting the implementation of the AI Act…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-10-19",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal"
-    },
-    {
       "title": "Nieuwe EDPB-guidelines over samenspel DSA/AVG en AVG-boetes",
       "summary": "De European Data Protection Board (EDPB) heeft nieuwe guidelines vastgesteld voor de wisselwerking tussen de Algemene verordening gegevensbescherming (AVG) en de Digital Services Act (DSA). Daarnaast stelde de EDPB nieuwe guidelines op voor de procedure rond…",
       "source": "Autoriteit Persoonsgegevens",
@@ -305,22 +329,6 @@
       "tier": "10-sociedade",
       "date": "2026-10-08",
       "url": "https://partnershiponai.org/partnership-on-ai-welcomes-eight-new-partners-advancing-mental-health-and-well-being/"
-    },
-    {
-      "title": "The Cloud and AI Development Act (CADA) represents everything that’s wrong with Europe’s approach to digital sovereignty",
-      "summary": "The EU’s Tech Sovereignty Package is supposed to jump-start Europe’s “sovereign AI” ambitions. But due to fundamental misunderstandings about the technology behind ‘AI’ and the blind trust in Big Tech’s AI doomer and boomer narratives, it is more likely to…",
-      "source": "EDRi",
-      "tier": "10-sociedade",
-      "date": "2026-10-08",
-      "url": "https://edri.org/our-work/the-cloud-and-ai-development-act-cada-represents-everything-thats-wrong-with-europes-approach-to-digital-sovereignty/"
-    },
-    {
-      "title": "European AI Innovation Month",
-      "summary": "European AI Innovation Month Anonymous (not verified) Thu, 10/08/2026 - 09:00 14 October 2026 - 17 November 2026 From 14 October to 17 November 2026, this initiative led by the European Commission in partnership with the upcoming Irish Presidency of the…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-10-08",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
     },
     {
       "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
