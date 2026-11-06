@@ -1,46 +1,158 @@
 {
-  "generated": "2026-11-05T03:30:35.653Z",
+  "generated": "2026-11-06T03:28:30.191Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+      "title": "Airbnb is working on an AI travel agent",
+      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-06",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings"
+    },
+    {
+      "title": "Muse has a voice mode now",
+      "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
+    },
+    {
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-11-05",
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
     },
     {
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+      "title": "Depois do ‘tsunami azul’, veio o tombo de Wall Street. Pior dia desde “ofensiva” tarifária de Trump",
+      "summary": "A vitória dos democratas nas eleições intercalares animou na quarta-feira os principais índices norte-americanos, com o industrial Dow Jones a registar a melhor sessão desde 9 de abril de 2025. No entanto, bastou apenas um dia para que o “tsunami azul”…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://eco.sapo.pt/2026/11/05/depois-do-tsunami-azul-veio-o-tombo-de-wall-street-pior-dia-desde-ofensiva-tarifaria-de-trump/"
+    },
+    {
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-04",
-      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/"
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
     },
     {
-      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through…",
-      "source": "The Verge AI",
+      "title": "Wall Street afunda com vitória democrata nas intercalares a ameaçar ‘boom’ da IA",
+      "summary": "Os principais índices de Wall Street estão a atravessar uma sessão de forte turbulência esta quinta-feira, com as ações tecnológicas a liderarem uma onda de vendas que já se estende aos restantes mercados norte-americanos. Os receios de que a vitória…",
+      "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-11-04",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
+      "date": "2026-11-05",
+      "url": "https://eco.sapo.pt/2026/11/05/wall-street-afunda-com-vitoria-democrata-nas-intercalares-a-ameacar-boom-da-ia/"
     },
     {
-      "title": "ChatGPT will now make you animated GIFs",
-      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others.…",
-      "source": "The Verge AI",
+      "title": "Australian universities are creating AI-native graduates",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-05",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates"
+    },
+    {
+      "title": "Digitalising justice and fundamental rights",
+      "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-11-05",
+      "url": "https://fra.europa.eu/en/news/2026/digitalising-justice-and-fundamental-rights"
+    },
+    {
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-11-04",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+      "date": "2026-11-05",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/"
     },
     {
-      "title": "Concurso para prestação de serviços de consultoria para definição do modelo de governança dos sistemas de Inteligência Artificial - prorrogação adicional de…",
-      "summary": "Entrega das propostas prorrogada até às 17:00 horas de 09.12.2026.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
+      "title": "Remarks by Executive Vice-President Mînzatu on the Education and Skills package",
+      "summary": "European Commission Speech Brussels, 05 Nov 2026 Europe is living through a transformation that will define generations to come. Artificial intelligence is changing how we work and learn. Disinformation is tes...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-11-05",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2351"
+    },
+    {
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-05",
+      "url": "https://openai.com/index/merge-builds-with-openai"
+    },
+    {
+      "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
+      "summary": "The Food and Drug Administration (FDA) is classifying the digital cervical cytology slide imaging system with artificial intelligence algorithm into class II (special controls). The special controls that apply to the device type are identified in this order…",
+      "source": "Federal Register",
+      "tier": "8-jurisdicoes",
+      "date": "2026-11-05",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology"
+    },
+    {
+      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+      "summary": "arXiv:2611.05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05390"
+    },
+    {
+      "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+      "summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05392"
+    },
+    {
+      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+      "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05393"
+    },
+    {
+      "title": "What Do We Mean When We Say 'F*ck AI'?: Moral Panic, Semantic Indeterminacy, and the Reification of Techno-Capitalism",
+      "summary": "arXiv:2611.05574v1 Announce Type: new Abstract: Academic and (increasingly) public resistance to artificial intelligence (AI) often blurs the line between legitimate critique of techno-capitalist exploitation and (inflated) existential risk. Moreover,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05574"
+    },
+    {
+      "title": "The Male Abstraction Bias in Internet Culture and Large Language Models",
+      "summary": "arXiv:2611.05730v1 Announce Type: new Abstract: Two foundational aspects of human cognition, abstractness and gender, are typically examined as separable. Here, we find they are systematically linked throughout the entire space of concepts spanning single (N…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05730"
+    },
+    {
+      "title": "Thick Alignment: A Social Framework for Values and AI Systems",
+      "summary": "arXiv:2611.05857v1 Announce Type: new Abstract: Computer science research on the \"alignment\" of artificial intelligence (AI) systems treats human values as content to be specified and optimized. Decades of social science scholarship describe values…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05857"
+    },
+    {
+      "title": "Commission launches Education and Skills package to tackle declining basic skills, rapid digital change and teacher shortages",
+      "summary": "European Commission Press release Brussels, 05 Nov 2026 Today, the European Commission presents a new Education and Skills Package to reverse the decline in basic skills, help schools make AI and digital technologies work for learning and address teacher…",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
       "date": "2026-11-04",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1861057"
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2338"
     },
     {
       "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
@@ -49,6 +161,14 @@
       "tier": "11-imprensa",
       "date": "2026-11-04",
       "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+    },
+    {
+      "title": "Coming Soon: Guest Report on AI Corporate Structure and Mission Accountability",
+      "summary": "Public Good or Private Gain? Corporate Structure and Mission Accountability at Leading AI Companies Guest report by Maroussia Lévesque, Professor of Law & AI, Queen’s University Leading AI companies have adopted unusual corporate structures to “benefit…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "//cdn-images.mailchimp.com/embedcode/classic-061523.css"
     },
     {
       "title": "Independent study on the impact of age assurance on fundamental rights and costs for businesses",
@@ -67,14 +187,6 @@
       "url": "https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/"
     },
     {
-      "title": "Securing the agentic enterprise with data lineage",
-      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-04",
-      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
-    },
-    {
       "title": "Record of processing activity - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027",
       "summary": "Record of processing activity - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027 gpatterson Wed, 11/04/2026 - 13:14 Document Record of processing activity - Expert meeting of national…",
       "source": "FRA",
@@ -83,68 +195,12 @@
       "url": "https://fra.europa.eu/en/content/record-processing-activity-expert-meeting-national-fundamental-rights-bodies-designated"
     },
     {
-      "title": "Data protection notice - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027",
-      "summary": "Data protection notice - Expert meeting of national fundamental rights bodies designated under Article 77 of the AI Act, 18-19 January 2027 gpatterson Wed, 11/04/2026 - 12:41 Document Data protection notice - Expert meeting of national fundamental rights…",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-11-04",
-      "url": "https://fra.europa.eu/en/content/data-protection-notice-expert-meeting-national-fundamental-rights-bodies-designated-under"
-    },
-    {
       "title": "Call for evidence on advertising repositories",
       "summary": "Call for evidence on advertising repositories Anonymous (not verified) Wed, 11/04/2026 - 11:10 Opening: 04 November 2026 Closing: 02 December 2026 The Commission is seeking feedback on upcoming technical guidelines concerning advertising repositories under…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-11-04",
       "url": "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories"
-    },
-    {
-      "title": "Are LLM Assistants Regulatory Ready? Answers from regenold's 2026 EU AI Act Q&A Challenge",
-      "summary": "arXiv:2611.04546v1 Announce Type: new Abstract: Large language model (LLM) assistants are increasingly proposed for regulatory affairs, yet their reliability in regulatory tasks remains unclear. We introduce the EU AI Act Q&A Benchmark, an expert-curated…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-04",
-      "url": "https://arxiv.org/abs/2611.04546"
-    },
-    {
-      "title": "Fast, Cheap, and Fair? Evaluating Decision Models",
-      "summary": "arXiv:2611.04510v1 Announce Type: new Abstract: Industries are increasingly adopting AI-driven systems to automate a wide range of tasks, including high-stakes decisions in human resources, such as candidate screening and recruitment. This makes evaluating…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-04",
-      "url": "https://arxiv.org/abs/2611.04510"
-    },
-    {
-      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
-      "summary": "arXiv:2611.03662v1 Announce Type: new Abstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-04",
-      "url": "https://arxiv.org/abs/2611.03662"
-    },
-    {
-      "title": "From Guidelines to Practice: Defining Requirements for AI Red-Teaming Tools",
-      "summary": "arXiv:2611.04271v1 Announce Type: new Abstract: Artificial Intelligence (AI) has seen significant developments and increased usage in recent years. AI benefits various tasks, automates decision-making, and enhances efficiency. However, AI also introduces…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-04",
-      "url": "https://arxiv.org/abs/2611.04271"
-    },
-    {
-      "title": "Unmitigated? How are the world's largest companies responding to AI risks?",
-      "summary": "arXiv:2611.04278v1 Announce Type: new Abstract: AI is introducing new risks to large companies and amplifying existing risks, but whether companies are addressing the AI risks they are exposed to is largely untested. We investigated what outsiders can…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-04",
-      "url": "https://arxiv.org/abs/2611.04278"
-    },
-    {
-      "title": "Towards Multi-Method Evaluation of AI in Health: Integrating Benchmarks, Autoraters, and Expert Evaluation",
-      "summary": "arXiv:2611.05127v1 Announce Type: new Abstract: General-purpose generative AI (GenAI) models are being rapidly adopted in healthcare, but they are challenging to assess with traditional evaluation frameworks. These conceptual, methodological, and practical…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-04",
-      "url": "https://arxiv.org/abs/2611.05127"
     },
     {
       "title": "Call for proposals: EU AI Media Platform – Modular multilingual public-interest infrastructure for European news and audiovisual media (IA) - Apply AI",
@@ -163,36 +219,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026"
     },
     {
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-03",
-      "url": "https://openai.com/index/heimstaden"
-    },
-    {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-02",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
-    },
-    {
       "title": "Speeding up planning decisions with AI",
       "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
       "source": "Google DeepMind",
       "tier": "12-industria",
       "date": "2026-10-30",
       "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
-    },
-    {
-      "title": "Who will get to define the danger?",
-      "summary": "At the People's AI Assembly, the crowd, spilling onto the balconies, laughed at Mayor Zohran Mamdani’s jokes, cheered former antitrust chief Lina Khan, and hung on the every word of writers Arundhati Roy, Karen Hao and Naomi Klein. The post Who will get to…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-29",
-      "url": "https://ainowinstitute.org/news/who-will-get-to-define-the-danger"
     },
     {
       "title": "AP informeert incassobureaus over verantwoorde inzet AI",
@@ -313,14 +345,6 @@
       "tier": "4-dados",
       "date": "2026-10-14",
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/nieuwe-edpb-guidelines-over-samenspel-dsaavg-en-avg-boetes"
-    },
-    {
-      "title": "Division of Program Coordination, Planning, and Strategic Initiatives, Office of the Director Notice of Proposed Reorganization",
-      "summary": "The Division of Program Coordination, Planning, and Strategic Initiatives (DPCPSI) in the Office of the Director (OD), National Institutes of Health (NIH) is seeking public comment regarding its proposal to establish the Office of the NIH Chief Artificial…",
-      "source": "Federal Register",
-      "tier": "8-jurisdicoes",
-      "date": "2026-10-14",
-      "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20891/division-of-program-coordination-planning-and-strategic-initiatives-office-of-the-director-notice-of"
     },
     {
       "title": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being",

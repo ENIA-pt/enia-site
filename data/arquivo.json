@@ -1,8 +1,16 @@
 {
-  "generated": "2026-11-05T03:30:35.653Z",
+  "generated": "2026-11-06T03:28:30.191Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1009,
+  "count": 1029,
   "items": [
+    {
+      "title": "Airbnb is working on an AI travel agent",
+      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-06",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings"
+    },
     {
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
       "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
@@ -10,6 +18,142 @@
       "tier": "11-imprensa",
       "date": "2026-11-05",
       "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+    },
+    {
+      "title": "Muse has a voice mode now",
+      "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
+    },
+    {
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
+    },
+    {
+      "title": "Depois do ‘tsunami azul’, veio o tombo de Wall Street. Pior dia desde “ofensiva” tarifária de Trump",
+      "summary": "A vitória dos democratas nas eleições intercalares animou na quarta-feira os principais índices norte-americanos, com o industrial Dow Jones a registar a melhor sessão desde 9 de abril de 2025. No entanto, bastou apenas um dia para que o “tsunami azul”…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://eco.sapo.pt/2026/11/05/depois-do-tsunami-azul-veio-o-tombo-de-wall-street-pior-dia-desde-ofensiva-tarifaria-de-trump/"
+    },
+    {
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
+    },
+    {
+      "title": "Wall Street afunda com vitória democrata nas intercalares a ameaçar ‘boom’ da IA",
+      "summary": "Os principais índices de Wall Street estão a atravessar uma sessão de forte turbulência esta quinta-feira, com as ações tecnológicas a liderarem uma onda de vendas que já se estende aos restantes mercados norte-americanos. Os receios de que a vitória…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://eco.sapo.pt/2026/11/05/wall-street-afunda-com-vitoria-democrata-nas-intercalares-a-ameacar-boom-da-ia/"
+    },
+    {
+      "title": "Australian universities are creating AI-native graduates",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-05",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates"
+    },
+    {
+      "title": "Digitalising justice and fundamental rights",
+      "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-11-05",
+      "url": "https://fra.europa.eu/en/news/2026/digitalising-justice-and-fundamental-rights"
+    },
+    {
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-05",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/"
+    },
+    {
+      "title": "Remarks by Executive Vice-President Mînzatu on the Education and Skills package",
+      "summary": "European Commission Speech Brussels, 05 Nov 2026 Europe is living through a transformation that will define generations to come. Artificial intelligence is changing how we work and learn. Disinformation is tes...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-11-05",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2351"
+    },
+    {
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-05",
+      "url": "https://openai.com/index/merge-builds-with-openai"
+    },
+    {
+      "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
+      "summary": "The Food and Drug Administration (FDA) is classifying the digital cervical cytology slide imaging system with artificial intelligence algorithm into class II (special controls). The special controls that apply to the device type are identified in this order…",
+      "source": "Federal Register",
+      "tier": "8-jurisdicoes",
+      "date": "2026-11-05",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology"
+    },
+    {
+      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+      "summary": "arXiv:2611.05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05390"
+    },
+    {
+      "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+      "summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05392"
+    },
+    {
+      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+      "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05393"
+    },
+    {
+      "title": "What Do We Mean When We Say 'F*ck AI'?: Moral Panic, Semantic Indeterminacy, and the Reification of Techno-Capitalism",
+      "summary": "arXiv:2611.05574v1 Announce Type: new Abstract: Academic and (increasingly) public resistance to artificial intelligence (AI) often blurs the line between legitimate critique of techno-capitalist exploitation and (inflated) existential risk. Moreover,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05574"
+    },
+    {
+      "title": "The Male Abstraction Bias in Internet Culture and Large Language Models",
+      "summary": "arXiv:2611.05730v1 Announce Type: new Abstract: Two foundational aspects of human cognition, abstractness and gender, are typically examined as separable. Here, we find they are systematically linked throughout the entire space of concepts spanning single (N…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05730"
+    },
+    {
+      "title": "Thick Alignment: A Social Framework for Values and AI Systems",
+      "summary": "arXiv:2611.05857v1 Announce Type: new Abstract: Computer science research on the \"alignment\" of artificial intelligence (AI) systems treats human values as content to be specified and optimized. Decades of social science scholarship describe values…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.05857"
     },
     {
       "title": "The biggest modding site in PC gaming is taking a stance on AI",
@@ -146,6 +290,22 @@
       "tier": "9-investigacao",
       "date": "2026-11-04",
       "url": "https://arxiv.org/abs/2611.05127"
+    },
+    {
+      "title": "Commission launches Education and Skills package to tackle declining basic skills, rapid digital change and teacher shortages",
+      "summary": "European Commission Press release Brussels, 05 Nov 2026 Today, the European Commission presents a new Education and Skills Package to reverse the decline in basic skills, help schools make AI and digital technologies work for learning and address teacher…",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-11-04",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2338"
+    },
+    {
+      "title": "Coming Soon: Guest Report on AI Corporate Structure and Mission Accountability",
+      "summary": "Public Good or Private Gain? Corporate Structure and Mission Accountability at Leading AI Companies Guest report by Maroussia Lévesque, Professor of Law & AI, Queen’s University Leading AI companies have adopted unusual corporate structures to “benefit…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-04",
+      "url": "//cdn-images.mailchimp.com/embedcode/classic-061523.css"
     },
     {
       "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
