@@ -1,7 +1,23 @@
 {
-  "generated": "2026-11-07T02:48:53.583Z",
+  "generated": "2026-11-08T02:31:49.969Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-07",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+    },
+    {
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-07",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+    },
     {
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "summary": "The deal highlights the challenges of developing massive AI data centers.",
@@ -11,20 +27,12 @@
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
     },
     {
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
+      "title": "2026 election breakdown: Americans vote down data centers, AI and oligarchy",
+      "summary": "Sophie Song, AI Now's Data Center Policy Fellow, joins Brian Merchant, Molly White, and Dave Karpf for a roundtable discussion about what the midterms mean for AI, data centers, and the tech industry. The post 2026 election breakdown: Americans vote down data…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-11-06",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
-    },
-    {
-      "title": "AI is the new dating dealbreaker",
-      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping,…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-06",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity"
+      "url": "https://ainowinstitute.org/news/2026-election-breakdown-americans-vote-down-data-centers-ai-and-oligarchy"
     },
     {
       "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
@@ -51,68 +59,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes"
     },
     {
-      "title": "Sandra Maximiano aborda desafios da regulação da IA no ''World AI Regulation Summit''",
-      "summary": "Presidente da ANACOM participou, a 05.11.2026, na sessão dedicada à experiência portuguesa na implementação do Regulamento da Inteligência Artificial.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-11-06",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1861187"
-    },
-    {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "source": "OpenAI",
       "tier": "12-industria",
       "date": "2026-11-06",
       "url": "https://openai.com/index/partnering-with-hacktron"
-    },
-    {
-      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-      "summary": "arXiv:2611.06962v1 Announce Type: new Abstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-06",
-      "url": "https://arxiv.org/abs/2611.06962"
-    },
-    {
-      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-      "summary": "arXiv:2611.06972v1 Announce Type: new Abstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-06",
-      "url": "https://arxiv.org/abs/2611.06972"
-    },
-    {
-      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-      "summary": "arXiv:2611.06977v1 Announce Type: new Abstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant kernels constrain…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-06",
-      "url": "https://arxiv.org/abs/2611.06977"
-    },
-    {
-      "title": "Code, Commits, and Complexity in the GenAI Era: A Longitudinal Study of Team-Based Capstone Projects",
-      "summary": "arXiv:2611.07297v1 Announce Type: new Abstract: Generative AI tools are now widely available to students, but little is known about how team-based project codebases have changed since they appeared. This matters when project courses use repository activity as…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-06",
-      "url": "https://arxiv.org/abs/2611.07297"
-    },
-    {
-      "title": "Operationalizing NCII and CSAM Law in the Age of AI: Open Problems",
-      "summary": "arXiv:2611.07831v1 Announce Type: new Abstract: Advances in generative AI have driven a surge in synthetic non-consensual intimate imagery (NCII) and child sexual abuse material (CSAM), prompting a series of legal reforms. These reforms rely on legal…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-06",
-      "url": "https://arxiv.org/abs/2611.07831"
-    },
-    {
-      "title": "How Generative AI Redefines Personalization and Diversity in the Newsroom",
-      "summary": "arXiv:2611.07931v1 Announce Type: new Abstract: The tension between news personalization and information diversity has traditionally been understood as a matter of different content reaching different people, with diversity evaluated by the range of sources,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-06",
-      "url": "https://arxiv.org/abs/2611.07931"
     },
     {
       "title": "Measuring how AI agents handle everyday wet-lab science",
@@ -163,20 +115,20 @@
       "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology"
     },
     {
+      "title": "Gender bias and artificial intelligence",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-11-05",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:09e026ed-da5b-11f1-8501-01aa75ed71a1"
+    },
+    {
       "title": "Commission launches Education and Skills package to tackle declining basic skills, rapid digital change and teacher shortages",
       "summary": "European Commission Press release Brussels, 05 Nov 2026 Today, the European Commission presents a new Education and Skills Package to reverse the decline in basic skills, help schools make AI and digital technologies work for learning and address teacher…",
       "source": "Comissão Europeia",
       "tier": "2-comissao",
       "date": "2026-11-04",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2338"
-    },
-    {
-      "title": "Coming Soon: Guest Report on AI Corporate Structure and Mission Accountability",
-      "summary": "Public Good or Private Gain? Corporate Structure and Mission Accountability at Leading AI Companies Guest report by Maroussia Lévesque, Professor of Law & AI, Queen’s University Leading AI companies have adopted unusual corporate structures to “benefit…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-11-04",
-      "url": "//cdn-images.mailchimp.com/embedcode/classic-061523.css"
     },
     {
       "title": "Independent study on the impact of age assurance on fundamental rights and costs for businesses",
@@ -273,14 +225,6 @@
       "tier": "2-comissao",
       "date": "2026-10-26",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-temus-action-plan-remedy-breach-digital-services-act"
-    },
-    {
-      "title": "Proposal for a Regulation amending Regulations (EU) 2016/1679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, (EU) 2024/1689 and Directives 2002/58/EC, (EU)…",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-10-22",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:9177ca63-ce23-11f1-8b4c-01aa75ed71a1"
     },
     {
       "title": "Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds",

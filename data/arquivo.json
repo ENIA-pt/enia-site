@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-07T02:48:53.583Z",
+  "generated": "2026-11-08T02:31:49.969Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1044,
+  "count": 1047,
   "items": [
     {
       "title": "Crusoe sells troubled Wyoming data center project to Google",
@@ -10,6 +10,22 @@
       "tier": "11-imprensa",
       "date": "2026-11-07",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+    },
+    {
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-07",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+    },
+    {
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-07",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
     },
     {
       "title": "Airbnb is working on an AI travel agent",
@@ -122,6 +138,14 @@
       "tier": "12-industria",
       "date": "2026-11-06",
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+    },
+    {
+      "title": "2026 election breakdown: Americans vote down data centers, AI and oligarchy",
+      "summary": "Sophie Song, AI Now's Data Center Policy Fellow, joins Brian Merchant, Molly White, and Dave Karpf for a roundtable discussion about what the midterms mean for AI, data centers, and the tech industry. The post 2026 election breakdown: Americans vote down data…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-06",
+      "url": "https://ainowinstitute.org/news/2026-election-breakdown-americans-vote-down-data-centers-ai-and-oligarchy"
     },
     {
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
