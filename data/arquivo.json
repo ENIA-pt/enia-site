@@ -1,8 +1,32 @@
 {
-  "generated": "2026-11-08T02:31:49.969Z",
+  "generated": "2026-11-09T02:41:50.045Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1047,
+  "count": 1050,
   "items": [
+    {
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+    },
+    {
+      "title": "Anthropic compra geradores por 3,4 mil milhões",
+      "summary": "A Anthropic fechou um acordo de 3,4 mil milhões de dólares com a OnePWR Solutions para garantir o fornecimento de geradores a gás para os seus centros de dados, segundo o Financial Times (acesso pago). É a maior compra conhecida de equipamento de produção de…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-08",
+      "url": "https://eco.sapo.pt/2026/11/08/anthropic-compra-geradores-por-34-mil-milhoes/"
+    },
+    {
+      "title": "Meta quer recolher conteúdos dos media para desenvolver IA. O que está em causa?",
+      "summary": "Este artigo é exclusivo para assinantes Assine o ECO Premium e continue a ler esta e todas as notícias exclusivas, sem limites. Recomendado Anual 55€ /ano Equivale a 4,58€/mês Mensal 5€ /mês Cancele quando quiser Assinar ECO Premium e continuar a ler Já é…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-08",
+      "url": "https://eco.sapo.pt/descodificador/meta-quer-recolher-conteudos-dos-media-para-desenvolver-ia-o-que-esta-em-causa/"
+    },
     {
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "summary": "The deal highlights the challenges of developing massive AI data centers.",

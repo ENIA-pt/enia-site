@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-08T02:29:44.417Z",
+  "startedAt": "2026-11-09T02:39:40.622Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 32,
+      "items": 33,
       "kept": 2,
       "maisRecente": "2026-11-05"
     },
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-07"
+      "maisRecente": "2026-11-08"
     },
     {
       "id": "eco-pt",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 2,
+      "maisRecente": "2026-11-08"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 404"
     },
     {
       "id": "mlex",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1042,
+      "items": 1037,
       "kept": 0,
       "maisRecente": null
     },
@@ -698,6 +698,7 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -713,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-08T02:31:49.969Z",
-  "recolhidos": 38,
-  "written": 38,
-  "maisRecente": "2026-11-07",
+  "finishedAt": "2026-11-09T02:41:50.046Z",
+  "recolhidos": 40,
+  "written": 40,
+  "maisRecente": "2026-11-08",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
     "added": 3,
     "curados": 0,
-    "total": 1047
+    "total": 1050
   }
 }
