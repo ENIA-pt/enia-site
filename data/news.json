@@ -1,70 +1,142 @@
 {
-  "generated": "2026-11-09T02:41:50.045Z",
+  "generated": "2026-11-10T04:38:52.791Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-08",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
-    },
-    {
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-08",
-      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
-    },
-    {
-      "title": "Anthropic compra geradores por 3,4 mil milhões",
-      "summary": "A Anthropic fechou um acordo de 3,4 mil milhões de dólares com a OnePWR Solutions para garantir o fornecimento de geradores a gás para os seus centros de dados, segundo o Financial Times (acesso pago). É a maior compra conhecida de equipamento de produção de…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-08",
-      "url": "https://eco.sapo.pt/2026/11/08/anthropic-compra-geradores-por-34-mil-milhoes/"
-    },
-    {
-      "title": "Meta quer recolher conteúdos dos media para desenvolver IA. O que está em causa?",
-      "summary": "Este artigo é exclusivo para assinantes Assine o ECO Premium e continue a ler esta e todas as notícias exclusivas, sem limites. Recomendado Anual 55€ /ano Equivale a 4,58€/mês Mensal 5€ /mês Cancele quando quiser Assinar ECO Premium e continuar a ler Já é…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-08",
-      "url": "https://eco.sapo.pt/descodificador/meta-quer-recolher-conteudos-dos-media-para-desenvolver-ia-o-que-esta-em-causa/"
-    },
-    {
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-07",
-      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
     },
     {
-      "title": "2026 election breakdown: Americans vote down data centers, AI and oligarchy",
-      "summary": "Sophie Song, AI Now's Data Center Policy Fellow, joins Brian Merchant, Molly White, and Dave Karpf for a roundtable discussion about what the midterms mean for AI, data centers, and the tech industry. The post 2026 election breakdown: Americans vote down data…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-11-06",
-      "url": "https://ainowinstitute.org/news/2026-election-breakdown-americans-vote-down-data-centers-ai-and-oligarchy"
-    },
-    {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "source": "TechCrunch AI",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out…",
+      "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-11-06",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+      "date": "2026-11-10",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
     },
     {
-      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post…",
+      "title": "What could China get from Jensen Huang?",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-10",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+    },
+    {
+      "title": "Governo garante que “projeto de gigafábrica está a bom ritmo”",
+      "summary": "O Governo português garante que vai formalizar a candidatura a uma das gigafábricas de inteligência artificial (IA) da União Europeia até dia 3 de dezembro, lado-a-lado com Espanha, com quem está a ultimar os aspetos técnicos antes de entrar oficialmente na…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://eco.sapo.pt/2026/11/09/governo-garante-que-projeto-de-gigafabrica-esta-a-bom-ritmo/"
+    },
+    {
+      "title": "Cloudflare e Lovable alertam para excessos no investimento em IA e antecipam consolidação",
+      "summary": "O forte investimento em inteligência artificial (IA) está a levantar dúvidas sobre a sustentabilidade do atual crescimento do setor. Apesar de reconhecerem o potencial da tecnologia e a procura crescente por soluções de IA, responsáveis de grandes empresas…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://eco.sapo.pt/2026/11/09/cloudflare-e-lovable-alertam-para-excessos-no-investimento-em-ia-e-antecipam-consolidacao/"
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-11-06",
-      "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/"
+      "date": "2026-11-09",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+    },
+    {
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+    },
+    {
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
+    },
+    {
+      "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
+      "summary": "As tech companies face growing criticism and backlash, AI Now's Senior Economic and National Security Fellow Aya Ibrahim warns that they will go to great lengths to burnish their reputations and avoid accountability. The post Palantir hires a former…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://ainowinstitute.org/news/palantir-hires-a-former-democratic-senator-as-it-faces-scrutiny-in-new-congress"
+    },
+    {
+      "title": "The U.S.–China AI Competition: Two Paths to Artificial General Intelligence",
+      "summary": "The United States leads the world in frontier AI models and computing, but China is pursuing broader paths toward artificial general intelligence, including robotics, “embodiment,” and brain-inspired systems. A forthcoming CSET study compares the two…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://cset.georgetown.edu/article/the-u-s-china-ai-competition-two-paths-to-artificial-general-intelligence/"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-09",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak"
+    },
+    {
+      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "summary": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08626"
+    },
+    {
+      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "summary": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08640"
+    },
+    {
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "summary": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08644"
+    },
+    {
+      "title": "Real-World Adoption, Use, and Governance of an LLM-Based Electronic Health Record Search and Synthesis Platform",
+      "summary": "arXiv:2611.08672v1 Announce Type: new Abstract: We evaluated the longitudinal adoption and use of Scout, an electronic health record-integrated large language model platform that provides cited search and synthesis of patient records, during staged deployment…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08672"
+    },
+    {
+      "title": "Remembering Is Not Enough: Evaluating Timing and Omission in Longitudinal AI Mental Health Support",
+      "summary": "arXiv:2611.08721v1 Announce Type: new Abstract: Evaluations of large language models (LLMs) for mental health support commonly focus on the clinical appropriateness of individual responses, potentially overlooking failures that emerge across extended…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08721"
+    },
+    {
+      "title": "How are viral trends different from educational and commercial uses of LLM image generation and editing? A privacy-preserving descriptive analysis",
+      "summary": "arXiv:2611.08749v1 Announce Type: new Abstract: Gemini's Nano Banana models, first introduced in late 2025, led to a shift in the capabilities and use of image generation and editing. We utilize Urania, a Google-developed framework for generating insights…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08749"
     },
     {
       "title": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect",
@@ -75,20 +147,20 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes"
     },
     {
+      "title": "Sandra Maximiano aborda desafios da regulação da IA no ''World AI Regulation Summit''",
+      "summary": "Presidente da ANACOM participou, a 05.11.2026, na sessão dedicada à experiência portuguesa na implementação do Regulamento da Inteligência Artificial.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-11-06",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1861187"
+    },
+    {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "source": "OpenAI",
       "tier": "12-industria",
       "date": "2026-11-06",
       "url": "https://openai.com/index/partnering-with-hacktron"
-    },
-    {
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-06",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
     },
     {
       "title": "Commission preliminarily finds TikTok's ‘For You' feed in breach of Digital Services Act for harmful ‘rabbit holes' effect",
@@ -105,14 +177,6 @@
       "tier": "4-dados",
       "date": "2026-11-05",
       "url": "https://fra.europa.eu/en/news/2026/digitalising-justice-and-fundamental-rights"
-    },
-    {
-      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-05",
-      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/"
     },
     {
       "title": "Remarks by Executive Vice-President Mînzatu on the Education and Skills package",
@@ -241,14 +305,6 @@
       "tier": "2-comissao",
       "date": "2026-10-26",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-temus-action-plan-remedy-breach-digital-services-act"
-    },
-    {
-      "title": "Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds",
-      "summary": "CSET’s Owen J. Daniels shared his expert insight in an article published by Military Times. The article examines a Government Accountability Office report highlighting staffing shortages, incomplete initiatives, and oversight challenges as the Pentagon…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-10-21",
-      "url": "https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/"
     },
     {
       "title": "Openness in AI development: a path to long-term independence",

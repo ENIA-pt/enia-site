@@ -1,8 +1,144 @@
 {
-  "generated": "2026-11-09T02:41:50.045Z",
+  "generated": "2026-11-10T04:38:52.791Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1050,
+  "count": 1067,
   "items": [
+    {
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+    },
+    {
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-10",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
+    },
+    {
+      "title": "What could China get from Jensen Huang?",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-10",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+    },
+    {
+      "title": "Governo garante que “projeto de gigafábrica está a bom ritmo”",
+      "summary": "O Governo português garante que vai formalizar a candidatura a uma das gigafábricas de inteligência artificial (IA) da União Europeia até dia 3 de dezembro, lado-a-lado com Espanha, com quem está a ultimar os aspetos técnicos antes de entrar oficialmente na…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://eco.sapo.pt/2026/11/09/governo-garante-que-projeto-de-gigafabrica-esta-a-bom-ritmo/"
+    },
+    {
+      "title": "Cloudflare e Lovable alertam para excessos no investimento em IA e antecipam consolidação",
+      "summary": "O forte investimento em inteligência artificial (IA) está a levantar dúvidas sobre a sustentabilidade do atual crescimento do setor. Apesar de reconhecerem o potencial da tecnologia e a procura crescente por soluções de IA, responsáveis de grandes empresas…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://eco.sapo.pt/2026/11/09/cloudflare-e-lovable-alertam-para-excessos-no-investimento-em-ia-e-antecipam-consolidacao/"
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+    },
+    {
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+    },
+    {
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-09",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
+    },
+    {
+      "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
+      "summary": "As tech companies face growing criticism and backlash, AI Now's Senior Economic and National Security Fellow Aya Ibrahim warns that they will go to great lengths to burnish their reputations and avoid accountability. The post Palantir hires a former…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://ainowinstitute.org/news/palantir-hires-a-former-democratic-senator-as-it-faces-scrutiny-in-new-congress"
+    },
+    {
+      "title": "The U.S.–China AI Competition: Two Paths to Artificial General Intelligence",
+      "summary": "The United States leads the world in frontier AI models and computing, but China is pursuing broader paths toward artificial general intelligence, including robotics, “embodiment,” and brain-inspired systems. A forthcoming CSET study compares the two…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://cset.georgetown.edu/article/the-u-s-china-ai-competition-two-paths-to-artificial-general-intelligence/"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-09",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak"
+    },
+    {
+      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "summary": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08626"
+    },
+    {
+      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "summary": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08640"
+    },
+    {
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "summary": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities,…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08644"
+    },
+    {
+      "title": "Real-World Adoption, Use, and Governance of an LLM-Based Electronic Health Record Search and Synthesis Platform",
+      "summary": "arXiv:2611.08672v1 Announce Type: new Abstract: We evaluated the longitudinal adoption and use of Scout, an electronic health record-integrated large language model platform that provides cited search and synthesis of patient records, during staged deployment…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08672"
+    },
+    {
+      "title": "Remembering Is Not Enough: Evaluating Timing and Omission in Longitudinal AI Mental Health Support",
+      "summary": "arXiv:2611.08721v1 Announce Type: new Abstract: Evaluations of large language models (LLMs) for mental health support commonly focus on the clinical appropriateness of individual responses, potentially overlooking failures that emerge across extended…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08721"
+    },
+    {
+      "title": "How are viral trends different from educational and commercial uses of LLM image generation and editing? A privacy-preserving descriptive analysis",
+      "summary": "arXiv:2611.08749v1 Announce Type: new Abstract: Gemini's Nano Banana models, first introduced in late 2025, led to a shift in the capabilities and use of image generation and editing. We utilize Urania, a Google-developed framework for generating insights…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.08749"
+    },
     {
       "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
       "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to…",
