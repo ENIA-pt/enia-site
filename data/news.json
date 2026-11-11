@@ -1,46 +1,142 @@
 {
-  "generated": "2026-11-10T04:38:52.791Z",
+  "generated": "2026-11-11T02:49:19.497Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-12",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
+    },
+    {
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
       "date": "2026-11-10",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
     },
     {
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out…",
+      "title": "CEO da Cloudflare: “A Nvidia ainda pode vencer, porque vende muito bons chips”",
+      "summary": "O cofundador e CEO da Cloudflare acredita que a Nvidia vai continuar a prosperar, apesar do caso extraconjugal do seu presidente executivo com uma alegada espiã chinesa, que penalizou as ações da tecnológica especializada em chips de inteligência artificial…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-10",
+      "url": "https://eco.sapo.pt/2026/11/10/ceo-da-cloudflare-a-nvidia-ainda-pode-vencer-porque-vende-muito-bons-chips/"
+    },
+    {
+      "title": "The US is winning the AI race. Jensen Huang could have blown it",
+      "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-11-10",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
     },
     {
-      "title": "What could China get from Jensen Huang?",
-      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential…",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+    },
+    {
+      "title": "The indie game community is in disarray over AI and Big Walk",
+      "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a statement saying it \"sparingly\" used AI…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-11-10",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+      "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai"
     },
     {
-      "title": "Governo garante que “projeto de gigafábrica está a bom ritmo”",
-      "summary": "O Governo português garante que vai formalizar a candidatura a uma das gigafábricas de inteligência artificial (IA) da União Europeia até dia 3 de dezembro, lado-a-lado com Espanha, com quem está a ultimar os aspetos técnicos antes de entrar oficialmente na…",
+      "title": "Defined.ai anuncia expansão do marketplace de dados para treinar IA",
+      "summary": "A Defined.ai anunciou o lançamento de uma versão alargada do seu marketplace de dados para treino de inteligência artificial (IA), que reúne cerca de dez petabytes (equivalente a dez milhões de gigabytes) de informação e quase dois mil conjuntos de dados. A…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-11-09",
-      "url": "https://eco.sapo.pt/2026/11/09/governo-garante-que-projeto-de-gigafabrica-esta-a-bom-ritmo/"
+      "date": "2026-11-10",
+      "url": "https://eco.sapo.pt/2026/11/10/defined-ai-anuncia-expansao-do-marketplace-de-dados-para-treinar-ia/"
     },
     {
-      "title": "Cloudflare e Lovable alertam para excessos no investimento em IA e antecipam consolidação",
-      "summary": "O forte investimento em inteligência artificial (IA) está a levantar dúvidas sobre a sustentabilidade do atual crescimento do setor. Apesar de reconhecerem o potencial da tecnologia e a procura crescente por soluções de IA, responsáveis de grandes empresas…",
-      "source": "ECO",
+      "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI —Grace Huckins As a California state senator, Scott Wiener authored…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-11-09",
-      "url": "https://eco.sapo.pt/2026/11/09/cloudflare-e-lovable-alertam-para-excessos-no-investimento-em-ia-e-antecipam-consolidacao/"
+      "date": "2026-11-10",
+      "url": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/"
+    },
+    {
+      "title": "Helping caregivers use AI in everyday life",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-10",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+    },
+    {
+      "title": "The AI Ethics Brief #203: Power, Fracture, Resistance",
+      "summary": "Introducing the State of AI Ethics Report, Volume 8 (2026) Source",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://montrealethics.ai/the-ai-ethics-brief-203-power-fracture-resistance/"
+    },
+    {
+      "title": "Complementarity without ground truth?",
+      "summary": "arXiv:2611.10893v1 Announce Type: new Abstract: Human-AI complementarity captures the idea that a human assisted by an AI system can outperform both the human and the AI acting alone. In prediction tasks, this improvement is assessed against ground truth…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.10893"
+    },
+    {
+      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+      "summary": "arXiv:2611.10045v1 Announce Type: new Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.10045"
+    },
+    {
+      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
+      "summary": "arXiv:2611.10048v1 Announce Type: new Abstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.10048"
+    },
+    {
+      "title": "From Dialogue to Task: How Cognitive Engagement With Generative Artificial Intelligence Relates to Post-Dialogue Activity and Task Outcomes",
+      "summary": "arXiv:2611.11435v1 Announce Type: new Abstract: Generative AI is increasingly embedded within learning tasks, yet interaction frequency reveals little about cognitive engagement in student-AI dialogue. Little is known about how such engagement is situated…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.11435"
+    },
+    {
+      "title": "Known Good, Known Bad: A Ground-Truth Calibration Protocol for AI Judgment in Science",
+      "summary": "arXiv:2611.11673v1 Announce Type: new Abstract: Scientific use of generative AI requires evaluation against cases with independently checkable answers. We present a ground truth calibration protocol that compares a verified reference case with reference…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.11673"
+    },
+    {
+      "title": "AI and Mathematical Work on Mastodon: Attention, Topics, and Target-Specific Evaluations",
+      "summary": "arXiv:2611.11841v1 Announce Type: new Abstract: How does a mathematical community discuss AI on a federated social platform? We study 24,920 public posts from January--September 2026 by 272 accounts in a fixed roster of 1,002 Mastodon accounts whose profiles…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.11841"
+    },
+    {
+      "title": "KOMISJONI RAKENDUSMÄÄRUS (EL) …/…, milles sätestatakse Euroopa Parlamendi ja nõukogu määruse (EL) 2024/1689 kohaldamise eeskirjad seoses tehisintellekti…",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-11-10",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:5d4384a2-dcf5-11f1-8501-01aa75ed71a1"
     },
     {
       "title": "The backlash about data centers might really just be about electricity",
@@ -49,22 +145,6 @@
       "tier": "11-imprensa",
       "date": "2026-11-09",
       "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
-    },
-    {
-      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-09",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
-    },
-    {
-      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-09",
-      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
     },
     {
       "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
@@ -83,84 +163,12 @@
       "url": "https://cset.georgetown.edu/article/the-u-s-china-ai-competition-two-paths-to-artificial-general-intelligence/"
     },
     {
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-09",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak"
-    },
-    {
-      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
-      "summary": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-09",
-      "url": "https://arxiv.org/abs/2611.08626"
-    },
-    {
-      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-      "summary": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-09",
-      "url": "https://arxiv.org/abs/2611.08640"
-    },
-    {
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "summary": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities,…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-09",
-      "url": "https://arxiv.org/abs/2611.08644"
-    },
-    {
-      "title": "Real-World Adoption, Use, and Governance of an LLM-Based Electronic Health Record Search and Synthesis Platform",
-      "summary": "arXiv:2611.08672v1 Announce Type: new Abstract: We evaluated the longitudinal adoption and use of Scout, an electronic health record-integrated large language model platform that provides cited search and synthesis of patient records, during staged deployment…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-09",
-      "url": "https://arxiv.org/abs/2611.08672"
-    },
-    {
-      "title": "Remembering Is Not Enough: Evaluating Timing and Omission in Longitudinal AI Mental Health Support",
-      "summary": "arXiv:2611.08721v1 Announce Type: new Abstract: Evaluations of large language models (LLMs) for mental health support commonly focus on the clinical appropriateness of individual responses, potentially overlooking failures that emerge across extended…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-09",
-      "url": "https://arxiv.org/abs/2611.08721"
-    },
-    {
-      "title": "How are viral trends different from educational and commercial uses of LLM image generation and editing? A privacy-preserving descriptive analysis",
-      "summary": "arXiv:2611.08749v1 Announce Type: new Abstract: Gemini's Nano Banana models, first introduced in late 2025, led to a shift in the capabilities and use of image generation and editing. We utilize Urania, a Google-developed framework for generating insights…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-09",
-      "url": "https://arxiv.org/abs/2611.08749"
-    },
-    {
       "title": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect",
       "summary": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect Anonymous (not verified) Fri, 11/06/2026 - 12:09 The European Commission has preliminarily found TikTok in breach of the Digital…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-11-06",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes"
-    },
-    {
-      "title": "Sandra Maximiano aborda desafios da regulação da IA no ''World AI Regulation Summit''",
-      "summary": "Presidente da ANACOM participou, a 05.11.2026, na sessão dedicada à experiência portuguesa na implementação do Regulamento da Inteligência Artificial.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-11-06",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1861187"
-    },
-    {
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-06",
-      "url": "https://openai.com/index/partnering-with-hacktron"
     },
     {
       "title": "Commission preliminarily finds TikTok's ‘For You' feed in breach of Digital Services Act for harmful ‘rabbit holes' effect",
@@ -193,14 +201,6 @@
       "tier": "8-jurisdicoes",
       "date": "2026-11-05",
       "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology"
-    },
-    {
-      "title": "Gender bias and artificial intelligence",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-11-05",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:09e026ed-da5b-11f1-8501-01aa75ed71a1"
     },
     {
       "title": "Commission launches Education and Skills package to tackle declining basic skills, rapid digital change and teacher shortages",
@@ -281,14 +281,6 @@
       "tier": "2-comissao",
       "date": "2026-10-29",
       "url": "https://digital-strategy.ec.europa.eu/en/events/local-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026"
-    },
-    {
-      "title": "The AI Ethics Brief #202: Delegated by Default",
-      "summary": "On AI agents that act for us, a national AI council that advises for us, and who gets a say in either. Plus: two weeks to SAIER Volume 8. Source",
-      "source": "Montreal AI Ethics Institute",
-      "tier": "9-investigacao",
-      "date": "2026-10-27",
-      "url": "https://montrealethics.ai/the-ai-ethics-brief-202-delegated-by-default/"
     },
     {
       "title": "In an age of AI, deciding what to trust is a foundational skill. Here’s how we’re helping educators teach it.",
