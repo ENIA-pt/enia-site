@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11T02:49:19.497Z",
+  "generated": "2026-11-12T03:50:53.656Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1083,
+  "count": 1097,
   "items": [
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -10,6 +10,110 @@
       "tier": "12-industria",
       "date": "2026-11-12",
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
+    },
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-11",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+    },
+    {
+      "title": "United won’t let your AI agent book your flight",
+      "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-11",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+    },
+    {
+      "title": "Why the data center you dread might never even be built",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-11",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
+    },
+    {
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease -…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-11",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+      "title": "The Download: preserving minds and weighing open AI risks",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-11",
+      "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/"
+    },
+    {
+      "title": "Espionage, AI, and the Risks of Strategic Overreaction",
+      "summary": "Allegations involving Nvidia’s chief executive have renewed scrutiny of Chinese intelligence collection and U.S. controls on advanced AI chips. Meanwhile, local resistance to data centers—a sentiment that’s been linked to PRC influence campaigns—raises a…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-11",
+      "url": "https://cset.georgetown.edu/article/espionage-ai-and-the-risks-of-strategic-overreaction/"
+    },
+    {
+      "title": "LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding",
+      "summary": "arXiv:2611.12936v1 Announce Type: new Abstract: Intelligent landslide detection is essential for disaster prevention. However, existing models primarily focus on isolated visual tasks, require extensive labeled data, and lack deep analytical and…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.12936"
+    },
+    {
+      "title": "Tracing Psychometric Inference in Large Language Models",
+      "summary": "arXiv:2611.12937v1 Announce Type: new Abstract: Do large language models represent psychological constructs internally, or do they only generate outputs that resemble psychometric structure? We address this question using a cross-persona paradigm across 14…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.12937"
+    },
+    {
+      "title": "AI Governance Should Prioritize Control and Knowledge Boundaries Over Limiting Intelligence",
+      "summary": "arXiv:2611.12941v1 Announce Type: new Abstract: The rapid proliferation of autonomously acting AI agents makes the governance of agentic systems urgent. We propose the competence circuit, summarized as IKC + KC + C, that decomposes an agent's real-world…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.12941"
+    },
+    {
+      "title": "Perspicacious: An Educational Intelligence Platform for Instructional Designers",
+      "summary": "arXiv:2611.13549v1 Announce Type: new Abstract: Designing effective instruction requires instructional designers to create assessment questions aligned with clearly defined knowledge components (KCs). These KCs represent specific knowledge or skills that…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.13549"
+    },
+    {
+      "title": "Transparency Disclosures for Chain-of-Thought Monitorability",
+      "summary": "arXiv:2611.13873v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is one of the most valuable tools for monitoring advanced AI systems, but it is under threat. We argue that frontier AI developers should report specific indicators to make…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.13873"
+    },
+    {
+      "title": "Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity",
+      "summary": "arXiv:2611.13968v1 Announce Type: new Abstract: The Report \"Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity\" is an important outcome of the AI Safety and Governance Program of World Internet Conference Specialized…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.13968"
+    },
+    {
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-11",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri"
     },
     {
       "title": "Anthropic reportedly plans to move forward with IPO plans",
@@ -154,6 +258,14 @@
       "tier": "9-investigacao",
       "date": "2026-11-10",
       "url": "https://arxiv.org/abs/2611.11841"
+    },
+    {
+      "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+      "summary": "AI Now's Chief AI Scientist Heidy Khlaaf distinguishes between real concerns around AI safety and unsubstantiated extinction claims, while pointing to the existing field of risk assessment with its rigorous standards, techniques, and methods. The post The AI…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-10",
+      "url": "https://ainowinstitute.org/news/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are"
     },
     {
       "title": "Governo garante que “projeto de gigafábrica está a bom ritmo”",

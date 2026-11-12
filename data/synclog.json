@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-11T02:47:04.716Z",
+  "startedAt": "2026-11-12T03:48:46.839Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -34,7 +34,7 @@
       "kind": "rss",
       "ok": true,
       "items": 50,
-      "kept": 3,
+      "kept": 1,
       "maisRecente": "2026-11-05"
     },
     {
@@ -107,7 +107,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "id": "fra",
@@ -170,7 +170,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "id": "anacom-noticias",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 887,
+      "items": 381,
       "kept": 3,
-      "maisRecente": "2026-11-10"
+      "maisRecente": "2026-11-11"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 55,
+      "items": 30,
       "kept": 3,
-      "maisRecente": "2026-11-10"
+      "maisRecente": "2026-11-11"
     },
     {
       "id": "stanford-hai",
@@ -422,7 +422,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-11-09"
+      "maisRecente": "2026-11-10"
     },
     {
       "id": "cset",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-11-09"
+      "maisRecente": "2026-11-11"
     },
     {
       "id": "oii",
@@ -457,8 +457,8 @@
       "kind": "rss",
       "ok": true,
       "items": 20,
-      "kept": 1,
-      "maisRecente": "2026-09-28"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "algorithmwatch",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-10"
+      "maisRecente": "2026-11-11"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-11-10"
+      "maisRecente": "2026-11-11"
     },
     {
       "id": "theverge-ai",
@@ -548,16 +548,16 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-10"
+      "maisRecente": "2026-11-11"
     },
     {
       "id": "eco-pt",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
-      "items": 22,
-      "kept": 2,
-      "maisRecente": "2026-11-10"
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 404"
     },
     {
       "id": "publico-tec",
@@ -591,7 +591,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1377,
+      "items": 1381,
       "kept": 2,
       "maisRecente": "2026-11-12"
     },
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 968,
+      "items": 831,
       "kept": 0,
       "maisRecente": null
     },
@@ -680,11 +680,11 @@
   "warnings": [
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
-    "[edps] HTTP 404",
+    "[edps] HTTP 503",
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
-    "[ico-uk] HTTP 403",
+    "[ico-uk] HTTP 404",
     "[anacom-noticias] fetch failed",
     "[anacom-legislacao] fetch failed",
     "[anacom-imprensa] fetch failed",
@@ -698,6 +698,7 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[eco-pt] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -713,14 +714,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-11T02:49:19.497Z",
-  "recolhidos": 46,
-  "written": 46,
+  "finishedAt": "2026-11-12T03:50:53.657Z",
+  "recolhidos": 41,
+  "written": 41,
   "maisRecente": "2026-11-12",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 16,
+    "added": 14,
     "curados": 0,
-    "total": 1083
+    "total": 1097
   }
 }
