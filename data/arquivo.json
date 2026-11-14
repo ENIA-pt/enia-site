@@ -1,8 +1,112 @@
 {
-  "generated": "2026-11-13T03:26:57.791Z",
+  "generated": "2026-11-14T03:17:07.777Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1108,
+  "count": 1122,
   "items": [
+    {
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-13",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+    },
+    {
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-13",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+    },
+    {
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-13",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    },
+    {
+      "title": "What’s really at stake in the Jensen Huang saga",
+      "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-13",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+    },
+    {
+      "title": "AI Now Statement on the Bipartisan American Affordability and Jobs Act (BAAJA) to US Congress",
+      "summary": "The AI Now Institute has released a statement outlining concerns with the Bipartisan American Affordability and Jobs Act (BAAJA), which serves as a backdoor bailout of the AI industry. The statement’s key points are as follows: Last week, voters across the…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://ainowinstitute.org/news/announcement/ai-now-statement-on-the-bipartisan-american-affordability-and-jobs-act-baaja-to-us-congress"
+    },
+    {
+      "title": "Prohibited AI Practices under the AI Act",
+      "summary": "Since 2 February 2025, eight categories of AI practices have been banned in the EU because they pose unacceptable risks to fundamental rights and Union values. These ‘prohibited practices’ are set out in Article 5 of the AI Act. In 2026, the Digital Omnibus…",
+      "source": "AI Act Explorer",
+      "tier": "11-imprensa",
+      "date": "2026-11-13",
+      "url": "https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act/?utm_source=rss&utm_medium=rss&utm_campaign=prohibited-ai-practices-under-the-ai-act"
+    },
+    {
+      "title": "Doorstep by President von der Leyen ahead of the informal meeting of the European Council of 13 November",
+      "summary": "European Commission Statement Dublin, 13 Nov 2026 Today, we are going to discuss AI. It is going to be very interesting. Of course, we are going to discuss the risks, like, for example, runaway AI, but also the...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-11-13",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2431"
+    },
+    {
+      "title": "Together Compiler: Continual Compilation for AI Inference",
+      "summary": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.14681"
+    },
+    {
+      "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "summary": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.14765"
+    },
+    {
+      "title": "Rational Use of Time for Social Coordination in Humans and AI",
+      "summary": "arXiv:2611.14766v1 Announce Type: new Abstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.14766"
+    },
+    {
+      "title": "Care, Human Enfeeblement, and the Existential Implications of AGI",
+      "summary": "arXiv:2611.14520v1 Announce Type: new Abstract: Stuart Russell has named \"human enfeeblement\" as a long-term societal risk of advanced AI. This paper gives a new interpretation of the enfeeblement danger by interpreting it in light of recent work by Brian…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.14520"
+    },
+    {
+      "title": "Who (or what) are they prompting? How CS students conceptualize and use LLMs",
+      "summary": "arXiv:2611.14798v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used by students in computing courses. Yet computing education research has not fully examined how teaching and inclusion of LLMs shape students' conceptualization…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.14798"
+    },
+    {
+      "title": "Taxonomizing Synthetic Data for Law",
+      "summary": "arXiv:2611.15489v1 Announce Type: new Abstract: Synthetic data is increasingly important in data usage and AI design, creating novel legal and policy dilemmas. All too often, discussions of synthetic data treat it as entirely distinct from \"real,\" collected…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.15489"
+    },
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
@@ -354,6 +458,14 @@
       "tier": "9-investigacao",
       "date": "2026-11-10",
       "url": "https://ainowinstitute.org/news/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are"
+    },
+    {
+      "title": "Opening the datasets behind our AI weather models",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "source": "Google DeepMind",
+      "tier": "12-industria",
+      "date": "2026-11-10",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
     },
     {
       "title": "Governo garante que “projeto de gigafábrica está a bom ritmo”",
