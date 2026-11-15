@@ -1,8 +1,48 @@
 {
-  "generated": "2026-11-14T03:17:07.777Z",
+  "generated": "2026-11-15T02:40:18.533Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1122,
+  "count": 1128,
   "items": [
+    {
+      "title": "Pagar a quem nos vai substituir",
+      "summary": "Em meados de Outubro, a CNN anunciou um acordo plurianual com o Google. A rede cede direitos alargados sobre o seu jornalismo para funcionalidades experimentais de inteligência artificial e recebe uma compensação por isso. Segundo a imprensa americana, os…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://eco.sapo.pt/opiniao/pagar-a-quem-nos-vai-substituir/"
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    },
+    {
+      "title": "Convergent Interests: How America Could Undermine Its Own AI Advantage",
+      "summary": "A convergence of political, commercial, and ideological pressures can impede America’s AI leadership, and public controversies are powerful enough to catalyze that convergence. Our piece spotlights this issue, urging policymakers to govern AI responsibly…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-14",
+      "url": "https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/"
+    },
+    {
+      "title": "Jensen Huang: Do estrelato à queda, a história do homem que construiu a Nvidia",
+      "summary": "Taipé, 17 de fevereiro de 1963. Nascia na capital de Taiwan Jensen Huang, o homem que viria a fundar uma das empresas mais valiosas da história recente e a colocar os seus processadores no centro da revolução da inteligência artificial (IA). Mais de seis…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://eco.sapo.pt/especiais/jensen-huang-do-estrelato-a-queda-a-historia-do-homem-que-construiu-a-nvidia/"
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+    },
     {
       "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
       "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
@@ -106,6 +146,14 @@
       "tier": "9-investigacao",
       "date": "2026-11-13",
       "url": "https://arxiv.org/abs/2611.15489"
+    },
+    {
+      "title": "Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress",
+      "summary": "AI Now's Aya Ibrahim joins Lawfare Contributing Editor and host of the Security Economics podcast Peter Harrell to talk about AI regulation and U.S.-China policy. The post Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://ainowinstitute.org/news/lawfare-daily-aya-ibrahim-on-progressive-priorities-for-the-new-democratic-congress"
     },
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",

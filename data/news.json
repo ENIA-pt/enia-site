@@ -1,7 +1,55 @@
 {
-  "generated": "2026-11-14T03:17:07.777Z",
+  "generated": "2026-11-15T02:40:18.533Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "The next phase of artificial intelligence: governing for safety, security and human agency Joint EGE GCSA Statement",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-11-16",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:e6268fb6-dfd9-11f1-b50a-01aa75ed71a1"
+    },
+    {
+      "title": "Pagar a quem nos vai substituir",
+      "summary": "Em meados de Outubro, a CNN anunciou um acordo plurianual com o Google. A rede cede direitos alargados sobre o seu jornalismo para funcionalidades experimentais de inteligência artificial e recebe uma compensação por isso. Segundo a imprensa americana, os…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://eco.sapo.pt/opiniao/pagar-a-quem-nos-vai-substituir/"
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    },
+    {
+      "title": "Convergent Interests: How America Could Undermine Its Own AI Advantage",
+      "summary": "A convergence of political, commercial, and ideological pressures can impede America’s AI leadership, and public controversies are powerful enough to catalyze that convergence. Our piece spotlights this issue, urging policymakers to govern AI responsibly…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-14",
+      "url": "https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/"
+    },
+    {
+      "title": "Jensen Huang: Do estrelato à queda, a história do homem que construiu a Nvidia",
+      "summary": "Taipé, 17 de fevereiro de 1963. Nascia na capital de Taiwan Jensen Huang, o homem que viria a fundar uma das empresas mais valiosas da história recente e a colocar os seus processadores no centro da revolução da inteligência artificial (IA). Mais de seis…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://eco.sapo.pt/especiais/jensen-huang-do-estrelato-a-queda-a-historia-do-homem-que-construiu-a-nvidia/"
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-14",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+    },
     {
       "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
       "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
@@ -11,36 +59,20 @@
       "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
     },
     {
+      "title": "Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress",
+      "summary": "AI Now's Aya Ibrahim joins Lawfare Contributing Editor and host of the Security Economics podcast Peter Harrell to talk about AI regulation and U.S.-China policy. The post Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-13",
+      "url": "https://ainowinstitute.org/news/lawfare-daily-aya-ibrahim-on-progressive-priorities-for-the-new-democratic-congress"
+    },
+    {
       "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
       "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-11-13",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
-    },
-    {
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-13",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
-    },
-    {
-      "title": "What’s really at stake in the Jensen Huang saga",
-      "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-13",
-      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
-    },
-    {
-      "title": "AI Now Statement on the Bipartisan American Affordability and Jobs Act (BAAJA) to US Congress",
-      "summary": "The AI Now Institute has released a statement outlining concerns with the Bipartisan American Affordability and Jobs Act (BAAJA), which serves as a backdoor bailout of the AI industry. The statement’s key points are as follows: Last week, voters across the…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://ainowinstitute.org/news/announcement/ai-now-statement-on-the-bipartisan-american-affordability-and-jobs-act-baaja-to-us-congress"
     },
     {
       "title": "Prohibited AI Practices under the AI Act",
@@ -59,62 +91,6 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2431"
     },
     {
-      "title": "Together Compiler: Continual Compilation for AI Inference",
-      "summary": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://arxiv.org/abs/2611.14681"
-    },
-    {
-      "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
-      "summary": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://arxiv.org/abs/2611.14765"
-    },
-    {
-      "title": "Rational Use of Time for Social Coordination in Humans and AI",
-      "summary": "arXiv:2611.14766v1 Announce Type: new Abstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://arxiv.org/abs/2611.14766"
-    },
-    {
-      "title": "Care, Human Enfeeblement, and the Existential Implications of AGI",
-      "summary": "arXiv:2611.14520v1 Announce Type: new Abstract: Stuart Russell has named \"human enfeeblement\" as a long-term societal risk of advanced AI. This paper gives a new interpretation of the enfeeblement danger by interpreting it in light of recent work by Brian…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://arxiv.org/abs/2611.14520"
-    },
-    {
-      "title": "Who (or what) are they prompting? How CS students conceptualize and use LLMs",
-      "summary": "arXiv:2611.14798v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used by students in computing courses. Yet computing education research has not fully examined how teaching and inclusion of LLMs shape students' conceptualization…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://arxiv.org/abs/2611.14798"
-    },
-    {
-      "title": "Taxonomizing Synthetic Data for Law",
-      "summary": "arXiv:2611.15489v1 Announce Type: new Abstract: Synthetic data is increasingly important in data usage and AI design, creating novel legal and policy dilemmas. All too often, discussions of synthetic data treat it as entirely distinct from \"real,\" collected…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://arxiv.org/abs/2611.15489"
-    },
-    {
-      "title": "AI Kill Switches: What Policymakers Should Know",
-      "summary": "Policymakers have recently proposed requiring “AI kill switches” to quickly stop an AI system or limit the impact of a harmful or unwanted AI incident. This piece describes different potential implementations of AI kill switches at each layer of the AI stack…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-11-12",
-      "url": "https://cset.georgetown.edu/article/ai-kill-switches-what-policymakers-should-know/"
-    },
-    {
       "title": "FRA and the European Committee of the Regions’ CIVEX Commission hold annual dialogue",
       "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
       "source": "FRA",
@@ -129,22 +105,6 @@
       "tier": "4-dados",
       "date": "2026-11-12",
       "url": "https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur"
-    },
-    {
-      "title": "ANACOM apresenta prioridades de Portugal na Conferência de Plenipotenciários da UIT",
-      "summary": "Sandra Maximiano interveio na Conferência de Plenipotenciários da UIT, no Qatar, destacando as prioridades de Portugal para a conectividade internacional, a proteção dos consumidores e a governação da inteligência artificial.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-11-12",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1862594"
-    },
-    {
-      "title": "Oznámenie Komisie – Usmernenia k plneniu povinností v oblasti transparentnosti v súvislosti s niektorými systémami AI podľa článku 50 nariadenia (EÚ) 2024/1689…",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-11-12",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:caabe0cd-de39-11f1-ba80-01aa75ed71a1"
     },
     {
       "title": "Supporting research on AI and children’s safety",
