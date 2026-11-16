@@ -1,7 +1,23 @@
 {
-  "generated": "2026-11-15T02:40:18.533Z",
+  "generated": "2026-11-16T02:46:15.942Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-16",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
+    },
+    {
+      "title": "Apple launches new app to study how people use AI for health",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-16",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+    },
     {
       "title": "The next phase of artificial intelligence: governing for safety, security and human agency Joint EGE GCSA Statement",
       "summary": "—",
@@ -9,6 +25,38 @@
       "tier": "1-lei",
       "date": "2026-11-16",
       "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:e6268fb6-dfd9-11f1-b50a-01aa75ed71a1"
+    },
+    {
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-15",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+    },
+    {
+      "title": "Our new blog for science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-15",
+      "url": "https://openai.com/index/our-new-blog-for-science"
+    },
+    {
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-15",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+    },
+    {
+      "title": "O Preço Certo, Demasiado Tarde",
+      "summary": "A sofisticação técnica foi e é uma das grandes ambições do pricing segurador. Mais dados. Mais segmentação. Mais variáveis. Modelos preditivos mais poderosos. Telemática, informação comportamental, dados externos e, mais recentemente, inteligência artificial.…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-15",
+      "url": "https://eco.sapo.pt/opiniao/o-preco-certo-demasiado-tarde/"
     },
     {
       "title": "Pagar a quem nos vai substituir",
@@ -19,14 +67,6 @@
       "url": "https://eco.sapo.pt/opiniao/pagar-a-quem-nos-vai-substituir/"
     },
     {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-14",
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
-    },
-    {
       "title": "Convergent Interests: How America Could Undermine Its Own AI Advantage",
       "summary": "A convergence of political, commercial, and ideological pressures can impede America’s AI leadership, and public controversies are powerful enough to catalyze that convergence. Our piece spotlights this issue, urging policymakers to govern AI responsibly…",
       "source": "CSET Georgetown",
@@ -35,44 +75,12 @@
       "url": "https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/"
     },
     {
-      "title": "Jensen Huang: Do estrelato à queda, a história do homem que construiu a Nvidia",
-      "summary": "Taipé, 17 de fevereiro de 1963. Nascia na capital de Taiwan Jensen Huang, o homem que viria a fundar uma das empresas mais valiosas da história recente e a colocar os seus processadores no centro da revolução da inteligência artificial (IA). Mais de seis…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-14",
-      "url": "https://eco.sapo.pt/especiais/jensen-huang-do-estrelato-a-queda-a-historia-do-homem-que-construiu-a-nvidia/"
-    },
-    {
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-14",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
-    },
-    {
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-13",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
-    },
-    {
       "title": "Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress",
       "summary": "AI Now's Aya Ibrahim joins Lawfare Contributing Editor and host of the Security Economics podcast Peter Harrell to talk about AI regulation and U.S.-China policy. The post Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress…",
       "source": "AI Now Institute",
       "tier": "9-investigacao",
       "date": "2026-11-13",
       "url": "https://ainowinstitute.org/news/lawfare-daily-aya-ibrahim-on-progressive-priorities-for-the-new-democratic-congress"
-    },
-    {
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-13",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
     },
     {
       "title": "Prohibited AI Practices under the AI Act",
@@ -113,14 +121,6 @@
       "tier": "12-industria",
       "date": "2026-11-12",
       "url": "https://openai.com/index/children-first-declaration"
-    },
-    {
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-12",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
     },
     {
       "title": "The Download: preserving minds and weighing open AI risks",
