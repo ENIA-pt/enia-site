@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-16T02:43:58.042Z",
+  "startedAt": "2026-11-17T05:05:06.614Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -115,7 +115,7 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 1,
+      "kept": 2,
       "maisRecente": "2026-11-12"
     },
     {
@@ -170,43 +170,43 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 30,
+      "kept": 5,
+      "maisRecente": "2026-11-12"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 1,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "dre-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 31,
+      "items": 30,
       "kept": 2,
       "maisRecente": "2026-11-05"
     },
@@ -375,9 +375,9 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 0,
-      "kept": 0,
-      "maisRecente": null
+      "items": 276,
+      "kept": 3,
+      "maisRecente": "2026-11-17"
     },
     {
       "id": "arxiv-cs-cy",
@@ -476,7 +476,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-11-04"
+      "maisRecente": "2026-11-16"
     },
     {
       "id": "access-now",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-11"
+      "maisRecente": "2026-11-16"
     },
     {
       "id": "techcrunch-ai",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 2,
-      "maisRecente": "2026-11-15"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 404"
     },
     {
       "id": "mlex",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1389,
+      "items": 1398,
       "kept": 2,
-      "maisRecente": "2026-11-15"
+      "maisRecente": "2026-11-16"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1109,
+      "items": 1288,
       "kept": 0,
       "maisRecente": null
     },
@@ -684,11 +684,7 @@
     "[cnpd] HTTP 404",
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
-    "[ico-uk] HTTP 403",
-    "[anacom-noticias] fetch failed",
-    "[anacom-legislacao] fetch failed",
-    "[anacom-imprensa] fetch failed",
-    "[anacom-consultas] fetch failed",
+    "[ico-uk] HTTP 404",
     "[traficom-fi] HTTP 404",
     "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
@@ -698,6 +694,7 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
+    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -713,14 +710,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-16T02:46:15.942Z",
-  "recolhidos": 38,
-  "written": 38,
-  "maisRecente": "2026-11-16",
+  "finishedAt": "2026-11-17T05:06:00.252Z",
+  "recolhidos": 41,
+  "written": 41,
+  "maisRecente": "2026-11-17",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 6,
+    "added": 12,
     "curados": 0,
-    "total": 1134
+    "total": 1146
   }
 }
