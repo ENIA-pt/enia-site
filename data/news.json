@@ -1,62 +1,158 @@
 {
-  "generated": "2026-11-17T05:06:00.251Z",
+  "generated": "2026-11-18T04:21:51.735Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements",
-      "summary": "arXiv:2611.18439v1 Announce Type: cross Abstract: The EU AI Act imposes technical and organizational requirements for high-risk AI systems, but applying these requirements involves contextual choices about what to measure and what evidence supports a…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.18439"
-    },
-    {
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.17338"
-    },
-    {
-      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-      "summary": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.17339"
-    },
-    {
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-16",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
-    },
-    {
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly…",
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-11-16",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+      "date": "2026-11-18",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
     },
     {
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-      "source": "TechCrunch AI",
+      "title": "VFA celebra dez anos com uma “Conferência do Apocalipse” sobre o futuro da IA",
+      "summary": "A IA poderá representar uma ameaça à sobrevivência da humanidade? E estarão os seres humanos preparados para controlar uma tecnologia que evolui a uma velocidade superior à capacidade de resposta das instituições? É a partir destas perguntas que a VFA –…",
+      "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-11-16",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+      "date": "2026-11-18",
+      "url": "https://eco.sapo.pt/2026/11/18/vfa-celebra-dez-anos-com-uma-conferencia-do-apocalipse-sobre-o-futuro-da-ia/"
     },
     {
-      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-      "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will…",
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent.…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
+      "date": "2026-11-17",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake"
+    },
+    {
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-17",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+    },
+    {
+      "title": "IA: Apontar o telemóvel e obter uma cotação de seguro",
+      "summary": "Obter uma estimativa de seguro pode passar a ser tão “simples como reconhecer uma planta ou identificar uma música com o telemóvel”. É essa a proposta da Objais, uma aplicação que recorre à inteligência artificial para transformar uma fotografia numa…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-17",
+      "url": "https://eco.sapo.pt/2026/11/17/ia-apontar-o-telemovel-e-obter-uma-cotacao-de-seguro/"
+    },
+    {
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-17",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
+    },
+    {
+      "title": "AI and Elections",
+      "summary": "More and more people are using chatbots and AI-powered search engines to inform themselves about politics. Since 2023, AlgorithmWatch has been investigating how reliably these systems respond ahead of regional elections and what that means for democratic…",
+      "source": "AlgorithmWatch",
+      "tier": "10-sociedade",
+      "date": "2026-11-17",
+      "url": "https://algorithmwatch.org/en/ai-and-elections/"
+    },
+    {
+      "title": "EU Leaders discuss AI and Europe's role in Ukraine peace negotiations during informal summit in Dublin",
+      "summary": "European Commission News Brussels, 17 Nov 2026 President of the European Commission, Ursula von der Leyen, was in Dublin on 12 and 13 November to attend the informal EUCO hosted by the Irish Presidency. Lea...",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
+      "date": "2026-11-17",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2477"
+    },
+    {
+      "title": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products",
+      "summary": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products Anonymous (not verified) Tue, 11/17/2026 - 11:11 The European Commission preliminarily found Temu in breach of the Digital Services…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
+      "date": "2026-11-17",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal"
+    },
+    {
+      "title": "Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?",
+      "summary": "In July 2026, AlgorithmWatch investigated how Google's AI Overviews handle questions about election-related content. The result: It's unclear when AI Overviews are displayed, the diversity of sources used is limited, and the Overviews are not phrased…",
+      "source": "AlgorithmWatch",
+      "tier": "10-sociedade",
+      "date": "2026-11-17",
+      "url": "https://algorithmwatch.org/en/google-ai-overviews-state-elections/"
+    },
+    {
+      "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
+      "summary": "arXiv:2611.18714v1 Announce Type: new Abstract: Can AI systems be moral agents? That is, can they undertake actions that can be correctly assessed as morally right or wrong? There is no settled normative criterion of moral agency that applies neatly outside…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18714"
+    },
+    {
+      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+      "summary": "arXiv:2611.18747v1 Announce Type: new Abstract: Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions. However, existing approaches to learning…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18747"
+    },
+    {
+      "title": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
+      "summary": "arXiv:2611.18905v1 Announce Type: new Abstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18905"
+    },
+    {
+      "title": "Ethics Integration in CS Theory Courses",
+      "summary": "arXiv:2611.18590v1 Announce Type: new Abstract: The integration of ethics into computing curricula has gained substantial momentum, based on foundational work by the Embedded EthiCS movement, ACM/IEEE curricular recommendations, and a growing literature on…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18590"
+    },
+    {
+      "title": "Model Maps: A Documentation Framework for Tracing Foundation Model Ancestry and Understanding AI Entanglement",
+      "summary": "arXiv:2611.18998v1 Announce Type: new Abstract: The development of foundation models incorporates pre-existing AI artifacts like models, datasets, and benchmarks. These relationships, as part of the broader AI supply chain, produce \"entangled\" webs in which…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18998"
+    },
+    {
+      "title": "Architecting the Corporate AI Infrastructure: The Evolving Roles of AI Governance Committees and Chief Ethics Officers",
+      "summary": "arXiv:2611.19670v1 Announce Type: new Abstract: The accelerating integration of artificial intelligence (AI) into core business operations has created an urgent need for robust corporate governance infrastructures capable of managing complex ethical, legal,…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.19670"
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-17",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+    },
+    {
+      "title": "Introducing OpenAI for Chile",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-17",
+      "url": "https://openai.com/index/introducing-openai-for-chile"
+    },
+    {
+      "title": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products",
+      "summary": "European Commission Press release Brussels, 17 Nov 2026 The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation to put in place reasonable, proportionate and effective measures to mitigate the risk of illegal…",
+      "source": "Comissão Europeia",
+      "tier": "2-comissao",
       "date": "2026-11-16",
-      "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription"
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2463"
     },
     {
       "title": "The open-source movement wants Jensen Huang back",
@@ -67,12 +163,12 @@
       "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
     },
     {
-      "title": "Broadening access to AI for scientists",
-      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "source": "OpenAI",
-      "tier": "12-industria",
+      "title": "AI Comes for Nursing",
+      "summary": "SUSAN IS FICTIONAL. But the pieces of her story are not. Her day reflects a composite of the experiences of real-world nurses with new AI technologies. In this report, we examine these experiences and document how nurses have unexpectedly found themselves on…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
       "date": "2026-11-16",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+      "url": "https://ainowinstitute.org/publications/ai-comes-for-nursing"
     },
     {
       "title": "Building trustworthy AI by fencing it in, not predicting it",
@@ -91,12 +187,12 @@
       "url": "https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/"
     },
     {
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "source": "OpenAI",
-      "tier": "12-industria",
+      "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake",
+      "summary": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake Anonymous (not verified) Mon, 11/16/2026 - 13:43 Nearly 1,000 high-level policymakers, start-ups, industry leaders and researchers will take part in the Apply AI Summit in Brussels…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
       "date": "2026-11-16",
-      "url": "https://openai.com/index/lvmh-media-division-partnership"
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake"
     },
     {
       "title": "The next phase of artificial intelligence: governing for safety, security and human agency Joint EGE GCSA Statement",
@@ -113,14 +209,6 @@
       "tier": "9-investigacao",
       "date": "2026-11-14",
       "url": "https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/"
-    },
-    {
-      "title": "Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress",
-      "summary": "AI Now's Aya Ibrahim joins Lawfare Contributing Editor and host of the Security Economics podcast Peter Harrell to talk about AI regulation and U.S.-China policy. The post Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-11-13",
-      "url": "https://ainowinstitute.org/news/lawfare-daily-aya-ibrahim-on-progressive-priorities-for-the-new-democratic-congress"
     },
     {
       "title": "Prohibited AI Practices under the AI Act",
@@ -145,14 +233,6 @@
       "tier": "4-dados",
       "date": "2026-11-12",
       "url": "https://fra.europa.eu/en/news/2026/fra-and-european-committee-regions-civex-commission-hold-annual-dialogue"
-    },
-    {
-      "title": "Panel discussion on safer cities at the Smart City Expo World Congress",
-      "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-11-12",
-      "url": "https://fra.europa.eu/en/news/2026/panel-discussion-safer-cities-smart-city-expo-world-congress"
     },
     {
       "title": "Actualité du CEPD: adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA",
@@ -267,28 +347,12 @@
       "url": "https://blogs.microsoft.com/on-the-issues/2026/10/27/in-an-age-of-ai-deciding-what-to-trust-is-a-foundational-skill-heres-how-were-helping-educators-teach-it/"
     },
     {
-      "title": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act",
-      "summary": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act Anonymous (not verified) Mon, 10/26/2026 - 10:28 The European Commission has accepted Temu's action plan to comply with the Digital Services Act (DSA) and tackle the…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-10-26",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-temus-action-plan-remedy-breach-digital-services-act"
-    },
-    {
       "title": "Openness in AI development: a path to long-term independence",
       "summary": "This blog post unpacks concrete initiatives that show how openness in AI development can increase people’s agency over AI and advance the development of public interest technology. The post Openness in AI development: a path to long-term independence appeared…",
       "source": "Access Now",
       "tier": "10-sociedade",
       "date": "2026-10-21",
       "url": "https://www.accessnow.org/openness-in-ai-development/?pk_campaign=feed&pk_kwd=openness-in-ai-development"
-    },
-    {
-      "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
-      "summary": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act Anonymous (not verified) Wed, 10/21/2026 - 12:06 The European Commission has opened formal proceedings to assess whether Booking.com may have breached the Digital…",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-10-21",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-investigate-how-bookingcom-combats-scams-and-fraud-under-digital-services-act"
     },
     {
       "title": "The public should reap the benefits of the AI boom it helped build, new study argues",
