@@ -1,8 +1,16 @@
 {
-  "generated": "2026-11-18T04:21:51.735Z",
+  "generated": "2026-11-19T04:14:15.963Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1167,
+  "count": 1184,
   "items": [
+    {
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-19",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+    },
     {
       "title": "Satya Nadella says he’s AGI-pilled now",
       "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the…",
@@ -18,6 +26,134 @@
       "tier": "11-imprensa",
       "date": "2026-11-18",
       "url": "https://eco.sapo.pt/2026/11/18/vfa-celebra-dez-anos-com-uma-conferencia-do-apocalipse-sobre-o-futuro-da-ia/"
+    },
+    {
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+    },
+    {
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+    },
+    {
+      "title": "Oficial. Anthropic bate expetativas e fixa preço do IPO em 83 dólares por ação",
+      "summary": "É um novo recorde, o maior IPO de sempre e uma resposta positiva no teste crucial à confiança de Wall Street no boom da inteligência artificial (IA). A Anthropic, criadora do Claude, informou esta quarta-feira que fixou o preço das ações na oferta publica…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://eco.sapo.pt/2026/11/18/anthropic-bate-expetativas-e-fixa-preco-do-ipo-em-83-dolares-por-acao/"
+    },
+    {
+      "title": "Trump’s latest land grab is an AI hub in the Philippines",
+      "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\"…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica"
+    },
+    {
+      "title": "Leading figures condemn Anthropic for reckless race to recursive self-improvement",
+      "summary": "Experts agree that the breakneck pursuit of recursive self-improvement (RSI) – AI that can build itself – will rapidly create […]",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-11-18",
+      "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/"
+    },
+    {
+      "title": "Union Nurses Tell Researchers That AI Can Make Their Jobs Harder",
+      "summary": "“AI Comes for Nursing\" argues that hospitals are adding artificial intelligence tools quickly, often without telling nurses what has changed. Little independent evidence shows they work as advertised, the authors say, and there is no clear answer on who is…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://ainowinstitute.org/news/press/union-nurses-tell-researchers-that-ai-can-make-their-jobs-harder"
+    },
+    {
+      "title": "The AI Hype Index: AI is everywhere",
+      "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
+    },
+    {
+      "title": "The Download: AI learns to smell and hydropower struggles",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/"
+    },
+    {
+      "title": "The Silent Consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-18",
+      "url": "https://openai.com/index/the-silent-consensus"
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-18",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+    },
+    {
+      "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "summary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21682"
+    },
+    {
+      "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+      "summary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21799"
+    },
+    {
+      "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
+      "summary": "arXiv:2611.21832v1 Announce Type: new Abstract: As AI systems are increasingly used to automate AI R&D, misaligned systems could sabotage research intended to improve model safety and alignment. To stress-test defenses against such sabotage, we use a human…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21832"
+    },
+    {
+      "title": "Anticipating or Speculating? Making Futures Pay in AI Ethics",
+      "summary": "arXiv:2611.22268v1 Announce Type: new Abstract: Philosophers have recently been trying to develop uniform decision rules for instances in which physicians' judgments diverge from the recommendations of medical artificial intelligence (AI) systems. I argue…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.22268"
+    },
+    {
+      "title": "WIP: Exploring Student-Created AI Agents and Instructional Videos to Foster Engagement in Computing Education",
+      "summary": "arXiv:2611.23058v1 Announce Type: new Abstract: This work-in-progress (WIP) research-to-practice study examines the use of student-created artifacts to promote active learning in a large undergraduate Software Design and Engineering (SWE) course. Active…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.23058"
+    },
+    {
+      "title": "Ethics Suppression in AI Development: A Comparative Case Study of Responsible AI Under Competitive Pressure",
+      "summary": "arXiv:2611.21629v1 Announce Type: cross Abstract: This study explores the governance tensions among Google, OpenAI, Meta, and Microsoft, focusing on how competitive AI development can lead to the ethics suppression. The study aims to examine how ethical…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21629"
     },
     {
       "title": "Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements",

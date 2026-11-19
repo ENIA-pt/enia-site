@@ -1,54 +1,142 @@
 {
-  "generated": "2026-11-18T04:21:51.735Z",
+  "generated": "2026-11-19T04:14:15.963Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "Satya Nadella says he’s AGI-pilled now",
-      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the…",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you…",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-19",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+    },
+    {
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+    },
+    {
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-11-18",
-      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
     },
     {
-      "title": "VFA celebra dez anos com uma “Conferência do Apocalipse” sobre o futuro da IA",
-      "summary": "A IA poderá representar uma ameaça à sobrevivência da humanidade? E estarão os seres humanos preparados para controlar uma tecnologia que evolui a uma velocidade superior à capacidade de resposta das instituições? É a partir destas perguntas que a VFA –…",
+      "title": "Oficial. Anthropic bate expetativas e fixa preço do IPO em 83 dólares por ação",
+      "summary": "É um novo recorde, o maior IPO de sempre e uma resposta positiva no teste crucial à confiança de Wall Street no boom da inteligência artificial (IA). A Anthropic, criadora do Claude, informou esta quarta-feira que fixou o preço das ações na oferta publica…",
       "source": "ECO",
       "tier": "11-imprensa",
       "date": "2026-11-18",
-      "url": "https://eco.sapo.pt/2026/11/18/vfa-celebra-dez-anos-com-uma-conferencia-do-apocalipse-sobre-o-futuro-da-ia/"
+      "url": "https://eco.sapo.pt/2026/11/18/anthropic-bate-expetativas-e-fixa-preco-do-ipo-em-83-dolares-por-acao/"
     },
     {
-      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-      "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent.…",
+      "title": "Trump’s latest land grab is an AI hub in the Philippines",
+      "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\"…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-11-17",
-      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake"
+      "date": "2026-11-18",
+      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica"
     },
     {
-      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-17",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+      "title": "Leading figures condemn Anthropic for reckless race to recursive self-improvement",
+      "summary": "Experts agree that the breakneck pursuit of recursive self-improvement (RSI) – AI that can build itself – will rapidly create […]",
+      "source": "Future of Life Institute",
+      "tier": "10-sociedade",
+      "date": "2026-11-18",
+      "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/"
     },
     {
-      "title": "IA: Apontar o telemóvel e obter uma cotação de seguro",
-      "summary": "Obter uma estimativa de seguro pode passar a ser tão “simples como reconhecer uma planta ou identificar uma música com o telemóvel”. É essa a proposta da Objais, uma aplicação que recorre à inteligência artificial para transformar uma fotografia numa…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-17",
-      "url": "https://eco.sapo.pt/2026/11/17/ia-apontar-o-telemovel-e-obter-uma-cotacao-de-seguro/"
+      "title": "Union Nurses Tell Researchers That AI Can Make Their Jobs Harder",
+      "summary": "“AI Comes for Nursing\" argues that hospitals are adding artificial intelligence tools quickly, often without telling nurses what has changed. Little independent evidence shows they work as advertised, the authors say, and there is no clear answer on who is…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://ainowinstitute.org/news/press/union-nurses-tell-researchers-that-ai-can-make-their-jobs-harder"
     },
     {
-      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
-      "source": "TechCrunch AI",
+      "title": "The AI Hype Index: AI is everywhere",
+      "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up…",
+      "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-11-17",
-      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
+      "date": "2026-11-18",
+      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
+    },
+    {
+      "title": "The Download: AI learns to smell and hydropower struggles",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-18",
+      "url": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/"
+    },
+    {
+      "title": "The Silent Consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-18",
+      "url": "https://openai.com/index/the-silent-consensus"
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-18",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+    },
+    {
+      "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "summary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21682"
+    },
+    {
+      "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+      "summary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21799"
+    },
+    {
+      "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
+      "summary": "arXiv:2611.21832v1 Announce Type: new Abstract: As AI systems are increasingly used to automate AI R&D, misaligned systems could sabotage research intended to improve model safety and alignment. To stress-test defenses against such sabotage, we use a human…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21832"
+    },
+    {
+      "title": "Anticipating or Speculating? Making Futures Pay in AI Ethics",
+      "summary": "arXiv:2611.22268v1 Announce Type: new Abstract: Philosophers have recently been trying to develop uniform decision rules for instances in which physicians' judgments diverge from the recommendations of medical artificial intelligence (AI) systems. I argue…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.22268"
+    },
+    {
+      "title": "WIP: Exploring Student-Created AI Agents and Instructional Videos to Foster Engagement in Computing Education",
+      "summary": "arXiv:2611.23058v1 Announce Type: new Abstract: This work-in-progress (WIP) research-to-practice study examines the use of student-created artifacts to promote active learning in a large undergraduate Software Design and Engineering (SWE) course. Active…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.23058"
+    },
+    {
+      "title": "Ethics Suppression in AI Development: A Comparative Case Study of Responsible AI Under Competitive Pressure",
+      "summary": "arXiv:2611.21629v1 Announce Type: cross Abstract: This study explores the governance tensions among Google, OpenAI, Meta, and Microsoft, focusing on how competitive AI development can lead to the ethics suppression. The study aims to examine how ethical…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.21629"
     },
     {
       "title": "AI and Elections",
@@ -83,100 +171,12 @@
       "url": "https://algorithmwatch.org/en/google-ai-overviews-state-elections/"
     },
     {
-      "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
-      "summary": "arXiv:2611.18714v1 Announce Type: new Abstract: Can AI systems be moral agents? That is, can they undertake actions that can be correctly assessed as morally right or wrong? There is no settled normative criterion of moral agency that applies neatly outside…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.18714"
-    },
-    {
-      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
-      "summary": "arXiv:2611.18747v1 Announce Type: new Abstract: Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions. However, existing approaches to learning…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.18747"
-    },
-    {
-      "title": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
-      "summary": "arXiv:2611.18905v1 Announce Type: new Abstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.18905"
-    },
-    {
-      "title": "Ethics Integration in CS Theory Courses",
-      "summary": "arXiv:2611.18590v1 Announce Type: new Abstract: The integration of ethics into computing curricula has gained substantial momentum, based on foundational work by the Embedded EthiCS movement, ACM/IEEE curricular recommendations, and a growing literature on…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.18590"
-    },
-    {
-      "title": "Model Maps: A Documentation Framework for Tracing Foundation Model Ancestry and Understanding AI Entanglement",
-      "summary": "arXiv:2611.18998v1 Announce Type: new Abstract: The development of foundation models incorporates pre-existing AI artifacts like models, datasets, and benchmarks. These relationships, as part of the broader AI supply chain, produce \"entangled\" webs in which…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.18998"
-    },
-    {
-      "title": "Architecting the Corporate AI Infrastructure: The Evolving Roles of AI Governance Committees and Chief Ethics Officers",
-      "summary": "arXiv:2611.19670v1 Announce Type: new Abstract: The accelerating integration of artificial intelligence (AI) into core business operations has created an urgent need for robust corporate governance infrastructures capable of managing complex ethical, legal,…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-17",
-      "url": "https://arxiv.org/abs/2611.19670"
-    },
-    {
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-17",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
-    },
-    {
-      "title": "Introducing OpenAI for Chile",
-      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-17",
-      "url": "https://openai.com/index/introducing-openai-for-chile"
-    },
-    {
       "title": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products",
       "summary": "European Commission Press release Brussels, 17 Nov 2026 The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation to put in place reasonable, proportionate and effective measures to mitigate the risk of illegal…",
       "source": "Comissão Europeia",
       "tier": "2-comissao",
       "date": "2026-11-16",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2463"
-    },
-    {
-      "title": "The open-source movement wants Jensen Huang back",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-16",
-      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
-    },
-    {
-      "title": "AI Comes for Nursing",
-      "summary": "SUSAN IS FICTIONAL. But the pieces of her story are not. Her day reflects a composite of the experiences of real-world nurses with new AI technologies. In this report, we examine these experiences and document how nurses have unexpectedly found themselves on…",
-      "source": "AI Now Institute",
-      "tier": "9-investigacao",
-      "date": "2026-11-16",
-      "url": "https://ainowinstitute.org/publications/ai-comes-for-nursing"
-    },
-    {
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-16",
-      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
     },
     {
       "title": "1,840 amendments, one basic question: will the Data Omnibus simplify EU digital rules or weaken people’s rights?",
@@ -219,36 +219,12 @@
       "url": "https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act/?utm_source=rss&utm_medium=rss&utm_campaign=prohibited-ai-practices-under-the-ai-act"
     },
     {
-      "title": "Doorstep by President von der Leyen ahead of the informal meeting of the European Council of 13 November",
-      "summary": "European Commission Statement Dublin, 13 Nov 2026 Today, we are going to discuss AI. It is going to be very interesting. Of course, we are going to discuss the risks, like, for example, runaway AI, but also the...",
-      "source": "Comissão Europeia",
-      "tier": "2-comissao",
-      "date": "2026-11-13",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2431"
-    },
-    {
       "title": "FRA and the European Committee of the Regions’ CIVEX Commission hold annual dialogue",
       "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
       "source": "FRA",
       "tier": "4-dados",
       "date": "2026-11-12",
       "url": "https://fra.europa.eu/en/news/2026/fra-and-european-committee-regions-civex-commission-hold-annual-dialogue"
-    },
-    {
-      "title": "Actualité du CEPD: adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA",
-      "summary": "Le 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations finales sur les règles d’entreprises contraignantes et le thème…",
-      "source": "CNIL",
-      "tier": "4-dados",
-      "date": "2026-11-12",
-      "url": "https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur"
-    },
-    {
-      "title": "ANACOM apresenta prioridades de Portugal na Conferência de Plenipotenciários da UIT",
-      "summary": "Sandra Maximiano interveio na Conferência de Plenipotenciários da UIT, no Qatar, destacando as prioridades de Portugal para a conectividade internacional, a proteção dos consumidores e a governação da inteligência artificial.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-11-12",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1862594"
     },
     {
       "title": "Opening the datasets behind our AI weather models",
