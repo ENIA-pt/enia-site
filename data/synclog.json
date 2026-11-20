@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-19T04:11:51.788Z",
+  "startedAt": "2026-11-20T03:58:20.897Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -34,7 +34,7 @@
       "kind": "rss",
       "ok": true,
       "items": 50,
-      "kept": 2,
+      "kept": 1,
       "maisRecente": "2026-11-17"
     },
     {
@@ -115,8 +115,8 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 1,
-      "maisRecente": "2026-11-12"
+      "kept": 2,
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "cnpd",
@@ -131,10 +131,10 @@
       "id": "cnil",
       "tier": "4-dados",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "HTTP 503"
+      "ok": true,
+      "items": 10,
+      "kept": 2,
+      "maisRecente": "2026-11-18"
     },
     {
       "id": "aepd",
@@ -143,7 +143,7 @@
       "ok": false,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 500"
+      "error": "HTTP 503"
     },
     {
       "id": "garante",
@@ -161,7 +161,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-10-29"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "ico-uk",
@@ -348,9 +348,9 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 34,
+      "items": 35,
       "kept": 2,
-      "maisRecente": "2026-11-05"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "canada-aida",
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 401,
+      "items": 362,
       "kept": 3,
-      "maisRecente": "2026-11-18"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 25,
+      "items": 31,
       "kept": 3,
-      "maisRecente": "2026-11-18"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "stanford-hai",
@@ -422,7 +422,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-11-18"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "cset",
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-11-14"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "oii",
@@ -476,7 +476,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-11-16"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "access-now",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-18"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-11-19"
+      "maisRecente": "2026-11-20"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-18"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "eco-pt",
@@ -557,16 +557,16 @@
       "ok": true,
       "items": 22,
       "kept": 1,
-      "maisRecente": "2026-11-18"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "mlex",
@@ -591,7 +591,7 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1413,
+      "items": 1418,
       "kept": 2,
       "maisRecente": "2026-11-18"
     },
@@ -620,7 +620,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-10-27"
+      "maisRecente": "2026-11-19"
     },
     {
       "id": "anpd-br",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1488,
+      "items": 1386,
       "kept": 0,
       "maisRecente": null
     },
@@ -682,8 +682,7 @@
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
     "[cnpd] HTTP 404",
-    "[cnil] HTTP 503",
-    "[aepd] HTTP 500",
+    "[aepd] HTTP 503",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
     "[anacom-noticias] fetch failed",
@@ -699,7 +698,6 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -715,14 +713,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-19T04:14:15.964Z",
-  "recolhidos": 46,
-  "written": 46,
-  "maisRecente": "2026-11-19",
+  "finishedAt": "2026-11-20T04:00:31.836Z",
+  "recolhidos": 48,
+  "written": 48,
+  "maisRecente": "2026-11-20",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 17,
+    "added": 22,
     "curados": 0,
-    "total": 1184
+    "total": 1206
   }
 }

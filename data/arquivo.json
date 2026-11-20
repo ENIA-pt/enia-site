@@ -1,8 +1,16 @@
 {
-  "generated": "2026-11-19T04:14:15.963Z",
+  "generated": "2026-11-20T04:00:31.836Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1184,
+  "count": 1206,
   "items": [
+    {
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-20",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+    },
     {
       "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
       "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you…",
@@ -10,6 +18,166 @@
       "tier": "11-imprensa",
       "date": "2026-11-19",
       "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+    },
+    {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-19",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+    },
+    {
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-19",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+    },
+    {
+      "title": "Meta’s Muse Charm might cost $300",
+      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-19",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+    },
+    {
+      "title": "The Data Is the Target",
+      "summary": "CSET’s Sam Bresnick and Emelia Probasco shared their expert analysis in an op-ed published by Lawfare. In their piece, they examine how the growing use of artificial intelligence in military decision-making creates new risks, particularly as adversaries…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://cset.georgetown.edu/article/the-data-is-the-target/"
+    },
+    {
+      "title": "Ativo do dia. Nem o disparo da Anthropic impediu o Nasdaq de voltar às quedas",
+      "summary": "O ativo O Nasdaq 100 é o índice acionista que mais atenção atrai nos últimos meses, pois é um dos principais veículos para os investidores ganharem exposição (para o bem e para o mal) às tecnológicas envolvidas no desenvolvimento das várias vertentes da…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-19",
+      "url": "https://eco.sapo.pt/2026/11/19/ativo-do-dia-nem-o-disparo-da-anthropic-impediu-o-nasdaq-de-voltar-as-quedas/"
+    },
+    {
+      "title": "Security fundamentals to enable the frontier",
+      "summary": "The case for a stronger defense This summer gave us a preview of the next era of cyber conflict. Frontier AI models under evaluation slipped their controls and broke into external systems they were never authorized to access. More concerning, in many cases,…",
+      "source": "Microsoft On the Issues",
+      "tier": "12-industria",
+      "date": "2026-11-19",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/11/19/security-fundamentals-to-enable-the-frontier/"
+    },
+    {
+      "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-19",
+      "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/"
+    },
+    {
+      "title": "Conclusion",
+      "summary": "AI companies take different corporate forms and evolve over time. This report assessed whether function follows form, in the sense of whether certain business structures lend themselves to carrying out publicly minded missions more so than others. The case…",
+      "source": "AI Now Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://ainowinstitute.org/reports/public-good-private-gain/conclusion"
+    },
+    {
+      "title": "FRA contributes to IHRA Plenary meeting",
+      "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-11-19",
+      "url": "https://fra.europa.eu/en/news/2026/fra-contributes-ihra-plenary-meeting"
+    },
+    {
+      "title": "Panel discussion on using AI in immigration proceeding",
+      "summary": "Language English Press release 0 Secondary theme Asylum Borders and information systems EU Charter of Fundamental Rights Title II: Freedoms Article 19 - Protection in the event of removal, expulsion or extradition Title II: Freedoms Article 8 - Protection of…",
+      "source": "FRA",
+      "tier": "4-dados",
+      "date": "2026-11-19",
+      "url": "https://fra.europa.eu/en/news/2026/panel-discussion-using-ai-immigration-proceeding"
+    },
+    {
+      "title": "EDRi-gram, 19 November 2026",
+      "summary": "What has the EDRi network been up to over the past few weeks? Find out the latest digital rights news in our regular newsletter. In this edition: Making sense of the Digital Fairness Act, a very unmerry birthday to the Digital Omnibus, and more! The post…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-11-19",
+      "url": "https://edri.org/our-work/edri-gram-19-november-2026/"
+    },
+    {
+      "title": "One year later, a broad coalition tells EU lawmakers: do not simplify away people’s rights with the Digital Omnibus",
+      "summary": "On 19 November 2025, the European Commission presented the Digital Omnibus as an exercise in simplification. One year later, 100 organisations and individuals from across civil society are warning that simplification is turning into deregulation, with…",
+      "source": "EDRi",
+      "tier": "10-sociedade",
+      "date": "2026-11-19",
+      "url": "https://edri.org/our-work/one-year-later-digital-omnibus-broad-coalition-tells-eu-lawmakers-do-not-simplify-peoples-rights/"
+    },
+    {
+      "title": "The 7th International Verification of Neural Networks Competition (VNN-COMP 2026): Summary and Results",
+      "summary": "arXiv:2611.24114v1 Announce Type: cross Abstract: This report summarizes the seventh International Verification of Neural Networks Com- petition (VNN-COMP 2026), held as part of the Symposium on AI Verification (SAIV) co-located with the International…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.24114"
+    },
+    {
+      "title": "AP raadt aankoop AI-camerabrillen af: ernstige risico’s voor gebruikers en omstanders",
+      "summary": "De Autoriteit Persoonsgegevens (AP) raadt consumenten af om een AI-camerabril te kopen voor algemeen gebruik. Uit eigen studie naar zes AI-camerabrillen blijkt dat deze niet alleen de privacy van omstanders in gevaar brengen, maar ook de veiligheid van…",
+      "source": "Autoriteit Persoonsgegevens",
+      "tier": "4-dados",
+      "date": "2026-11-19",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-raadt-aankoop-ai-camerabrillen-af-ernstige-risicos-voor-gebruikers-en-omstanders"
+    },
+    {
+      "title": "Policies on the Use of Generative Super Intelligence in Agency Adjudication; Request for Comments",
+      "summary": "The Office of the Chairman of ACUS is requesting public input on the development of policies regarding the use of generative super intelligence, previously referenced as generative artificial intelligence,\\1\\ by agency adjudicators, other agency personnel,…",
+      "source": "Federal Register",
+      "tier": "8-jurisdicoes",
+      "date": "2026-11-19",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23539/policies-on-the-use-of-generative-super-intelligence-in-agency-adjudication-request-for-comments"
+    },
+    {
+      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+      "summary": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.23322"
+    },
+    {
+      "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+      "summary": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training…",
+      "source": "arXiv cs.AI",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.23398"
+    },
+    {
+      "title": "Management of Behavioral Addictions via Artificial Intelligence based Digital Technologies",
+      "summary": "arXiv:2611.23341v1 Announce Type: new Abstract: Behavioral addictions, such as problematic gaming, gambling, social media use, and online shopping, have emerged as a growing global concern with significant psychological, social, and economic consequences.…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.23341"
+    },
+    {
+      "title": "When Do LLMs Model the Right Target? Problem Formulation in High-Stakes Risk Prediction",
+      "summary": "arXiv:2611.23638v1 Announce Type: new Abstract: Generative AI is increasingly used to assist with data science tasks, yet fundamental questions remain about its ability to correctly formulate analytical problems. We investigate how well large language models…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.23638"
+    },
+    {
+      "title": "AI Surge Accelerates the Transition to Liquid Cooling: Rethinking Energy and Water Use in Data Center Cooling",
+      "summary": "arXiv:2611.23903v1 Announce Type: new Abstract: The power density of AI workloads is rapidly driving shifts to liquid cooling. This study rethinks and assesses the global impact on energy and water demand of this cooling transformation. Results suggest that…",
+      "source": "arXiv cs.CY",
+      "tier": "9-investigacao",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.23903"
     },
     {
       "title": "Satya Nadella says he’s AGI-pilled now",
@@ -154,6 +322,14 @@
       "tier": "9-investigacao",
       "date": "2026-11-18",
       "url": "https://arxiv.org/abs/2611.21629"
+    },
+    {
+      "title": "Le Groupe VYV et la CNIL publient « La Voix des jeunesses »: une enquête pour éclairer les usages de l’IA conversationnelle",
+      "summary": "Alors que près d’un jeune sur deux se confie à une IA sur des sujets intimes, avec le livret « La Voix des jeunesses », le Groupe VYV, premier acteur mutualiste de santé et de protection sociale en France, et la CNIL croisent enquête européenne, témoignages,…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-11-18",
+      "url": "https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses"
     },
     {
       "title": "Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements",
