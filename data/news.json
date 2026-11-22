@@ -1,7 +1,31 @@
 {
-  "generated": "2026-11-21T04:00:21.879Z",
+  "generated": "2026-11-22T03:13:03.056Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+    },
+    {
+      "title": "Can Anthropic afford to put safety first?",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-21",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+    },
     {
       "title": "Arrastado pela inteligência artificial, Nasdaq apaga todos os ganhos e já recua 2,69% no ano",
       "summary": "O Nasdaq apagou esta semana todos os ganhos acumulados em 2026, arrastado pela queda das tecnológicas ligadas à inteligência artificial. O índice tecnológico fechou a sessão desta sexta-feira cair 5,28% para os 22.617,73 pontos, e recua agora 2,69% desde o…",
@@ -9,22 +33,6 @@
       "tier": "11-imprensa",
       "date": "2026-11-20",
       "url": "https://eco.sapo.pt/2026/11/20/arrastado-pela-inteligencia-artificial-nasdaq-apaga-todos-os-ganhos-e-ja-recua-269-no-ano/"
-    },
-    {
-      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-20",
-      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
-    },
-    {
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-20",
-      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
     },
     {
       "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
@@ -35,28 +43,12 @@
       "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
     },
     {
-      "title": "Mais de metade dos portugueses já utiliza IA. Adoção nas empresas chega aos 20%",
-      "summary": "Mais de metade (54,4%) dos portugueses entre os 16 e os 74 anos utilizam ferramentas de inteligência artificial (IA), um aumento de 17 pontos percentuais face a 2025, revelam os dados do Instituto Nacional de Estatística (INE), divulgados esta sexta-feira. A…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-20",
-      "url": "https://eco.sapo.pt/2026/11/20/mais-de-metade-dos-portugueses-ja-utiliza-ia-adocao-nas-empresas-chega-aos-20/"
-    },
-    {
       "title": "The most misunderstood graph in AI just got a major update",
       "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
       "date": "2026-11-20",
       "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
-    },
-    {
-      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-20",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
     },
     {
       "title": "IA et éducation: une résolution mondiale pour la protection des données",
@@ -81,54 +73,6 @@
       "tier": "2-comissao",
       "date": "2026-11-20",
       "url": "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education"
-    },
-    {
-      "title": "Whose Risks Count? What 1,901 AI Incidents Reveal About Corporate Disclosures",
-      "summary": "arXiv:2611.25841v1 Announce Type: new Abstract: AI systems can harm people, yet the AI actors that provide or deploy them are rarely obliged to disclose these risks. US securities regulation is an exception. Companies registered with the Securities and…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-20",
-      "url": "https://arxiv.org/abs/2611.25841"
-    },
-    {
-      "title": "Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face",
-      "summary": "arXiv:2611.26050v1 Announce Type: new Abstract: The European Union's Artificial Intelligence Act (AI Act) entered into force in August 2024, and its obligations apply in stages. Obligations for providers of general-purpose AI models have applied since August…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-20",
-      "url": "https://arxiv.org/abs/2611.26050"
-    },
-    {
-      "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
-      "summary": "arXiv:2611.25043v1 Announce Type: new Abstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results. However, analytical reasoning alone does not make a laboratory…",
-      "source": "arXiv cs.AI",
-      "tier": "9-investigacao",
-      "date": "2026-11-20",
-      "url": "https://arxiv.org/abs/2611.25043"
-    },
-    {
-      "title": "Whose Safety? Addressing Anti-Blackness in the Age of AI Safety",
-      "summary": "arXiv:2611.25302v1 Announce Type: new Abstract: \"AI safety\" has grown from a niche contingent of actors into the dominant framing for artificial intelligence (AI) assessment and evaluation, overshadowing AI ethics. Through political and monetary influence, AI…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-20",
-      "url": "https://arxiv.org/abs/2611.25302"
-    },
-    {
-      "title": "AI-Driven Transformation of Digital Platform Work: A Task-Based Model for Measuring Labour Disruption and Vulnerability, with Early Evidence from Online…",
-      "summary": "arXiv:2611.25585v1 Announce Type: new Abstract: Assessments of AI's impact on labour often rely on conventional occupational categories or broad market indicators. This dominant trend, however, obscures how tasks within the same occupation vary in practice…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-20",
-      "url": "https://arxiv.org/abs/2611.25585"
-    },
-    {
-      "title": "HireWatch: Evaluating LLM Compliance with U.S. Employment Law Under Contextual Pressure",
-      "summary": "arXiv:2611.24970v1 Announce Type: cross Abstract: The deployment of large language models (LLMs) in hiring pipelines is growing, yet existing evaluations generally overlook their compliance with legal rules. To fill this gap, we introduce HireWatch, an…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-20",
-      "url": "https://arxiv.org/abs/2611.24970"
     },
     {
       "title": "Can AI help scientists identify promising drug candidates?",

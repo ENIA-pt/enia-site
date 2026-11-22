@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-21T03:58:19.918Z",
+  "startedAt": "2026-11-22T03:11:00.313Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 35,
+      "items": 36,
       "kept": 2,
       "maisRecente": "2026-11-19"
     },
@@ -375,18 +375,18 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 400,
-      "kept": 3,
-      "maisRecente": "2026-11-20"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 23,
-      "kept": 3,
-      "maisRecente": "2026-11-20"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "stanford-hai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-11-20"
+      "maisRecente": "2026-11-21"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-20"
+      "maisRecente": "2026-11-21"
     },
     {
       "id": "eco-pt",
@@ -556,7 +556,7 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 2,
+      "kept": 1,
       "maisRecente": "2026-11-20"
     },
     {
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1213,
+      "items": 1377,
       "kept": 0,
       "maisRecente": null
     },
@@ -713,14 +713,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-21T04:00:21.879Z",
-  "recolhidos": 47,
-  "written": 47,
-  "maisRecente": "2026-11-20",
+  "finishedAt": "2026-11-22T03:13:03.056Z",
+  "recolhidos": 40,
+  "written": 40,
+  "maisRecente": "2026-11-21",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 17,
+    "added": 3,
     "curados": 0,
-    "total": 1223
+    "total": 1226
   }
 }
