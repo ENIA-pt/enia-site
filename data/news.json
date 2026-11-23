@@ -1,7 +1,31 @@
 {
-  "generated": "2026-11-22T03:13:03.056Z",
+  "generated": "2026-11-23T03:44:08.951Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-22",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+    },
+    {
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-22",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-22",
+      "url": "https://openai.com/index/perplexity-and-intelligence"
+    },
     {
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
@@ -11,36 +35,12 @@
       "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
     },
     {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-21",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
-    },
-    {
       "title": "Can Anthropic afford to put safety first?",
       "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
       "date": "2026-11-21",
       "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
-    },
-    {
-      "title": "Arrastado pela inteligência artificial, Nasdaq apaga todos os ganhos e já recua 2,69% no ano",
-      "summary": "O Nasdaq apagou esta semana todos os ganhos acumulados em 2026, arrastado pela queda das tecnológicas ligadas à inteligência artificial. O índice tecnológico fechou a sessão desta sexta-feira cair 5,28% para os 22.617,73 pontos, e recua agora 2,69% desde o…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-20",
-      "url": "https://eco.sapo.pt/2026/11/20/arrastado-pela-inteligencia-artificial-nasdaq-apaga-todos-os-ganhos-e-ja-recua-269-no-ano/"
-    },
-    {
-      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-20",
-      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
     },
     {
       "title": "The most misunderstood graph in AI just got a major update",
@@ -163,12 +163,12 @@
       "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/"
     },
     {
-      "title": "The Silent Consensus",
-      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "source": "OpenAI",
-      "tier": "12-industria",
+      "title": "20 anos de Congresso do Comité Português da URSI: investigação, inovação e reconhecimento científico",
+      "summary": "O 20.º Congresso dedicado à Inteligência Artificial na Radiociência teve lugar a 13.11.2026, em Lisboa.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
       "date": "2026-11-18",
-      "url": "https://openai.com/index/the-silent-consensus"
+      "url": "https://www.anacom.pt/render.jsp?contentId=1862885"
     },
     {
       "title": "AI and Elections",
@@ -305,14 +305,6 @@
       "tier": "9-investigacao",
       "date": "2026-10-20",
       "url": "https://www.oii.ox.ac.uk/the-public-should-reap-the-benefits-of-the-ai-boom-it-helped-build-new-study-argues/"
-    },
-    {
-      "title": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being",
-      "summary": "The post Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being appeared first on Partnership on AI.",
-      "source": "Partnership on AI",
-      "tier": "10-sociedade",
-      "date": "2026-10-08",
-      "url": "https://partnershiponai.org/partnership-on-ai-welcomes-eight-new-partners-advancing-mental-health-and-well-being/"
     },
     {
       "title": "Finlândia ativa enforcement",
