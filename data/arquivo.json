@@ -1,8 +1,96 @@
 {
-  "generated": "2026-11-23T03:44:08.951Z",
+  "generated": "2026-11-24T06:58:28.153Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1229,
+  "count": 1240,
   "items": [
+    {
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    },
+    {
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+    },
+    {
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit"
+    },
+    {
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return"
+    },
+    {
+      "title": "Nuestros datos, nuestras reglas: Gobernanza de datos para bienes comunes digitales en la era de la IA",
+      "summary": "El lanzamiento de LatamGPT, un sistema de procesamiento de lenguaje natural hecho por y para América Latina nos lleva a analizar dónde estamos y qué pasos debemos priorizar en esta región en cuanto a innovación técnica. The post Nuestros datos, nuestras…",
+      "source": "Access Now",
+      "tier": "10-sociedade",
+      "date": "2026-11-23",
+      "url": "https://www.accessnow.org/datos-para-bienes-comunes-digitales-en-la-era-de-la-ia/?pk_campaign=feed&pk_kwd=datos-para-bienes-comunes-digitales-en-la-era-de-la-ia"
+    },
+    {
+      "title": "AI Policy Corner: Artificial Intelligence Literacy and Inclusion Act",
+      "summary": "✍️By Gitali Teckchandani Gitali is an undergraduate student in Environmental Geosciences, as well as an Undergraduate Affiliate at the Governance and Responsible AI Lab (GRAIL), Purdue University. 📌 Editor’s Note: This article is part of our AI Policy Corner…",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-23",
+      "url": "https://montrealethics.ai/ai-policy-corner-artificial-intelligence-literacy-and-inclusion-act/"
+    },
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
+    },
+    {
+      "title": "Judge the Cyber Apocalypse by the Data, Not the Headlines",
+      "summary": "The technical metrics on AI for cybersecurity now indicate that recent advances are enabling attackers more than defenders and that AI is regularly being used in attacks. This is in line with daily news stories on the “vulnpocalypse” and “Black October.”…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-23",
+      "url": "https://cset.georgetown.edu/article/judge-the-cyber-apocalypse-by-the-data-not-the-headlines/"
+    },
+    {
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/"
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-23",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+    },
+    {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-23",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+    },
     {
       "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
       "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",

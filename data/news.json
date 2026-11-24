@@ -1,54 +1,94 @@
 {
-  "generated": "2026-11-23T03:44:08.951Z",
+  "generated": "2026-11-24T06:58:28.153Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-22",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+      "date": "2026-11-23",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
     },
     {
-      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
-      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-22",
-      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
-    },
-    {
-      "title": "Perplexity and Intelligence",
-      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-22",
-      "url": "https://openai.com/index/perplexity-and-intelligence"
-    },
-    {
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-21",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+      "date": "2026-11-23",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
     },
     {
-      "title": "Can Anthropic afford to put safety first?",
-      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but…",
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-11-21",
-      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+      "date": "2026-11-23",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit"
     },
     {
-      "title": "The most misunderstood graph in AI just got a major update",
-      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The…",
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return"
+    },
+    {
+      "title": "Nuestros datos, nuestras reglas: Gobernanza de datos para bienes comunes digitales en la era de la IA",
+      "summary": "El lanzamiento de LatamGPT, un sistema de procesamiento de lenguaje natural hecho por y para América Latina nos lleva a analizar dónde estamos y qué pasos debemos priorizar en esta región en cuanto a innovación técnica. The post Nuestros datos, nuestras…",
+      "source": "Access Now",
+      "tier": "10-sociedade",
+      "date": "2026-11-23",
+      "url": "https://www.accessnow.org/datos-para-bienes-comunes-digitales-en-la-era-de-la-ia/?pk_campaign=feed&pk_kwd=datos-para-bienes-comunes-digitales-en-la-era-de-la-ia"
+    },
+    {
+      "title": "AI Policy Corner: Artificial Intelligence Literacy and Inclusion Act",
+      "summary": "✍️By Gitali Teckchandani Gitali is an undergraduate student in Environmental Geosciences, as well as an Undergraduate Affiliate at the Governance and Responsible AI Lab (GRAIL), Purdue University. 📌 Editor’s Note: This article is part of our AI Policy Corner…",
+      "source": "Montreal AI Ethics Institute",
+      "tier": "9-investigacao",
+      "date": "2026-11-23",
+      "url": "https://montrealethics.ai/ai-policy-corner-artificial-intelligence-literacy-and-inclusion-act/"
+    },
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor…",
       "source": "MIT Technology Review",
       "tier": "11-imprensa",
-      "date": "2026-11-20",
-      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+      "date": "2026-11-23",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
+    },
+    {
+      "title": "Judge the Cyber Apocalypse by the Data, Not the Headlines",
+      "summary": "The technical metrics on AI for cybersecurity now indicate that recent advances are enabling attackers more than defenders and that AI is regularly being used in attacks. This is in line with daily news stories on the “vulnpocalypse” and “Black October.”…",
+      "source": "CSET Georgetown",
+      "tier": "9-investigacao",
+      "date": "2026-11-23",
+      "url": "https://cset.georgetown.edu/article/judge-the-cyber-apocalypse-by-the-data-not-the-headlines/"
+    },
+    {
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-23",
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/"
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-23",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+    },
+    {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "source": "OpenAI",
+      "tier": "12-industria",
+      "date": "2026-11-23",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
     },
     {
       "title": "IA et éducation: une résolution mondiale pour la protection des données",
@@ -75,36 +115,12 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education"
     },
     {
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "source": "OpenAI",
-      "tier": "12-industria",
-      "date": "2026-11-20",
-      "url": "https://openai.com/index/introducing-medchembench"
-    },
-    {
-      "title": "The Data Is the Target",
-      "summary": "CSET’s Sam Bresnick and Emelia Probasco shared their expert analysis in an op-ed published by Lawfare. In their piece, they examine how the growing use of artificial intelligence in military decision-making creates new risks, particularly as adversaries…",
-      "source": "CSET Georgetown",
-      "tier": "9-investigacao",
-      "date": "2026-11-19",
-      "url": "https://cset.georgetown.edu/article/the-data-is-the-target/"
-    },
-    {
       "title": "Security fundamentals to enable the frontier",
       "summary": "The case for a stronger defense This summer gave us a preview of the next era of cyber conflict. Frontier AI models under evaluation slipped their controls and broke into external systems they were never authorized to access. More concerning, in many cases,…",
       "source": "Microsoft On the Issues",
       "tier": "12-industria",
       "date": "2026-11-19",
       "url": "https://blogs.microsoft.com/on-the-issues/2026/11/19/security-fundamentals-to-enable-the-frontier/"
-    },
-    {
-      "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-19",
-      "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/"
     },
     {
       "title": "Conclusion",
@@ -163,14 +179,6 @@
       "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/"
     },
     {
-      "title": "20 anos de Congresso do Comité Português da URSI: investigação, inovação e reconhecimento científico",
-      "summary": "O 20.º Congresso dedicado à Inteligência Artificial na Radiociência teve lugar a 13.11.2026, em Lisboa.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-11-18",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1862885"
-    },
-    {
       "title": "AI and Elections",
       "summary": "More and more people are using chatbots and AI-powered search engines to inform themselves about politics. Since 2023, AlgorithmWatch has been investigating how reliably these systems respond ahead of regional elections and what that means for democratic…",
       "source": "AlgorithmWatch",
@@ -203,14 +211,6 @@
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake"
     },
     {
-      "title": "The next phase of artificial intelligence: governing for safety, security and human agency Joint EGE GCSA Statement",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-11-16",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:e6268fb6-dfd9-11f1-b50a-01aa75ed71a1"
-    },
-    {
       "title": "Prohibited AI Practices under the AI Act",
       "summary": "Since 2 February 2025, eight categories of AI practices have been banned in the EU because they pose unacceptable risks to fundamental rights and Union values. These ‘prohibited practices’ are set out in Article 5 of the AI Act. In 2026, the Digital Omnibus…",
       "source": "AI Act Explorer",
@@ -225,14 +225,6 @@
       "tier": "12-industria",
       "date": "2026-11-10",
       "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
-    },
-    {
-      "title": "The AI Ethics Brief #203: Power, Fracture, Resistance",
-      "summary": "Introducing the State of AI Ethics Report, Volume 8 (2026) Source",
-      "source": "Montreal AI Ethics Institute",
-      "tier": "9-investigacao",
-      "date": "2026-11-10",
-      "url": "https://montrealethics.ai/the-ai-ethics-brief-203-power-fracture-resistance/"
     },
     {
       "title": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect",
@@ -289,14 +281,6 @@
       "tier": "4-dados",
       "date": "2026-10-29",
       "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai"
-    },
-    {
-      "title": "Openness in AI development: a path to long-term independence",
-      "summary": "This blog post unpacks concrete initiatives that show how openness in AI development can increase people’s agency over AI and advance the development of public interest technology. The post Openness in AI development: a path to long-term independence appeared…",
-      "source": "Access Now",
-      "tier": "10-sociedade",
-      "date": "2026-10-21",
-      "url": "https://www.accessnow.org/openness-in-ai-development/?pk_campaign=feed&pk_kwd=openness-in-ai-development"
     },
     {
       "title": "The public should reap the benefits of the AI boom it helped build, new study argues",

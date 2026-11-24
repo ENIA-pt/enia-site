@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-23T03:43:18.648Z",
+  "startedAt": "2026-11-24T06:57:54.633Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -7,8 +7,8 @@
       "kind": "sparql",
       "ok": true,
       "items": 60,
-      "kept": 8,
-      "maisRecente": "2026-11-16"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "eurlex-oj-l",
@@ -23,10 +23,10 @@
       "id": "op-cellar-atom",
       "tier": "1-lei",
       "kind": "atom",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 403"
     },
     {
       "id": "ec-press-corner",
@@ -69,7 +69,7 @@
       "tier": "3-parlamento",
       "kind": "rss",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "kept": 0,
       "maisRecente": null
     },
@@ -77,10 +77,10 @@
       "id": "europarl-think-tank",
       "tier": "3-parlamento",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 404"
     },
     {
       "id": "consilium-press",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 25,
-      "kept": 3,
-      "maisRecente": "2026-11-18"
+      "ok": false,
+      "items": 0,
+      "kept": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 1,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 403"
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
-      "items": 1,
+      "ok": false,
+      "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 403"
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": true,
+      "ok": false,
       "items": 0,
       "kept": 0,
-      "maisRecente": null
+      "error": "HTTP 403"
     },
     {
       "id": "dre-pt",
@@ -348,7 +348,7 @@
       "tier": "8-jurisdicoes",
       "kind": "rss",
       "ok": true,
-      "items": 35,
+      "items": 32,
       "kept": 2,
       "maisRecente": "2026-11-19"
     },
@@ -431,7 +431,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-11-19"
+      "maisRecente": "2026-11-23"
     },
     {
       "id": "oii",
@@ -449,7 +449,7 @@
       "ok": true,
       "items": 10,
       "kept": 1,
-      "maisRecente": "2026-11-10"
+      "maisRecente": "2026-11-23"
     },
     {
       "id": "fli",
@@ -485,7 +485,7 @@
       "ok": true,
       "items": 15,
       "kept": 1,
-      "maisRecente": "2026-10-21"
+      "maisRecente": "2026-11-23"
     },
     {
       "id": "partnership-on-ai",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-20"
+      "maisRecente": "2026-11-23"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-11-22"
+      "maisRecente": "2026-11-23"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-22"
+      "maisRecente": "2026-11-23"
     },
     {
       "id": "eco-pt",
@@ -563,10 +563,10 @@
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "mlex",
@@ -591,9 +591,9 @@
       "tier": "12-industria",
       "kind": "rss",
       "ok": true,
-      "items": 1422,
+      "items": 1425,
       "kept": 2,
-      "maisRecente": "2026-11-22"
+      "maisRecente": "2026-11-23"
     },
     {
       "id": "deepmind",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 1341,
+      "items": 1299,
       "kept": 0,
       "maisRecente": null
     },
@@ -678,6 +678,8 @@
     }
   ],
   "warnings": [
+    "[op-cellar-atom] HTTP 403",
+    "[europarl-think-tank] HTTP 404",
     "[consilium-press] HTTP 403",
     "[edpb] HTTP 404",
     "[edps] HTTP 404",
@@ -685,6 +687,10 @@
     "[aepd] HTTP 503",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
+    "[anacom-noticias] HTTP 403",
+    "[anacom-legislacao] HTTP 403",
+    "[anacom-imprensa] HTTP 403",
+    "[anacom-consultas] HTTP 403",
     "[traficom-fi] HTTP 404",
     "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
@@ -694,7 +700,6 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -710,14 +715,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-23T03:44:08.951Z",
-  "recolhidos": 39,
-  "written": 39,
-  "maisRecente": "2026-11-22",
+  "finishedAt": "2026-11-24T06:58:28.154Z",
+  "recolhidos": 37,
+  "written": 37,
+  "maisRecente": "2026-11-23",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 3,
+    "added": 11,
     "curados": 0,
-    "total": 1229
+    "total": 1240
   }
 }
