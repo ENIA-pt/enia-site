@@ -1,70 +1,110 @@
 {
-  "generated": "2026-11-25T05:27:55.733Z",
+  "generated": "2026-11-26T05:07:10.493Z",
   "window": "últimos 45 dias",
   "items": [
     {
-      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-      "summary": "arXiv:2611.31301v1 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding…",
+      "title": "Anti-AI in the Wild: From Toxic Discourse to Action",
+      "summary": "arXiv:2611.33254v1 Announce Type: cross Abstract: Online discussion of generative AI has become increasingly contentious, and communities devoted to supporting, opposing, or debating AI have emerged on social media. Some of these communities take anti-AI…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-11-25",
-      "url": "https://arxiv.org/abs/2611.31301"
+      "date": "2026-11-26",
+      "url": "https://arxiv.org/abs/2611.33254"
     },
     {
-      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
-      "summary": "arXiv:2611.31345v1 Announce Type: new Abstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks mainly focus on static charts, overlooking interactive…",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "summary": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-11-25",
-      "url": "https://arxiv.org/abs/2611.31345"
+      "date": "2026-11-26",
+      "url": "https://arxiv.org/abs/2611.33160"
     },
     {
-      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
-      "summary": "arXiv:2611.31346v1 Announce Type: new Abstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained…",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-11-25",
-      "url": "https://arxiv.org/abs/2611.31346"
+      "date": "2026-11-26",
+      "url": "https://arxiv.org/abs/2611.33161"
     },
     {
-      "title": "Typical-query energy figures mislead institutional AI electricity demand",
-      "summary": "arXiv:2611.31960v1 Announce Type: new Abstract: Institutions increasingly buy large language model services, yet we still often estimate electricity use as single Wh-per-query value. We present the Surrogate Large Language Energy Emulator (SULLEE), an open…",
+      "title": "The AI Disclosure Paradox: Operational Disclosure and the Rise of Corporate AI Narratives",
+      "summary": "arXiv:2611.33201v1 Announce Type: new Abstract: AI-related corporate disclosure can expand while becoming less concentrated on current use. Across U.S. SEC filings from 2017 to 2025, AI-related passage intensity increased 6.3-fold between 2017-2022 and…",
       "source": "arXiv cs.CY",
       "tier": "9-investigacao",
-      "date": "2026-11-25",
-      "url": "https://arxiv.org/abs/2611.31960"
+      "date": "2026-11-26",
+      "url": "https://arxiv.org/abs/2611.33201"
     },
     {
-      "title": "Audits Need Access, Data, and Compute. But How Much?",
-      "summary": "arXiv:2611.31968v1 Announce Type: new Abstract: AI audits have garnered significant attention in recent months, as the ability to test and monitor AI models plays a crucial role in safe development and deployment. However, AI audit success hinges on an…",
+      "title": "Designing an Integrated Learning Ecosystem for Introductory Python Programming: Scaffolded Problem Solving, Tablet-Inspired Navigation, and AI-Enhanced…",
+      "summary": "arXiv:2611.33471v1 Announce Type: new Abstract: Introductory programming requires students to represent problems, develop and test programs, debug errors, and apply computational ideas in new contexts. In this paper, we present an artifact-centered design…",
       "source": "arXiv cs.CY",
       "tier": "9-investigacao",
-      "date": "2026-11-25",
-      "url": "https://arxiv.org/abs/2611.31968"
+      "date": "2026-11-26",
+      "url": "https://arxiv.org/abs/2611.33471"
     },
     {
-      "title": "Do Clinician-Scored Examples Help LLMs Code ADOS-2 from Hour-Long Transcripts?",
-      "summary": "arXiv:2611.32050v1 Announce Type: new Abstract: Large language models can apply a written rubric to a transcript, making automated coding of the Autism Diagnostic Observation Schedule (ADOS-2) look within reach. A common way to align such a rater with…",
+      "title": "Beyond Disclosure: Compositional Privacy Harm in AI Systems",
+      "summary": "arXiv:2611.33847v1 Announce Type: new Abstract: Privacy law attaches obligations to each stage of information processing, whether it be collection, use, storage, or disclosure. We examine how legally cognisable privacy harm emerges across this full lifecycle…",
       "source": "arXiv cs.CY",
       "tier": "9-investigacao",
-      "date": "2026-11-25",
-      "url": "https://arxiv.org/abs/2611.32050"
+      "date": "2026-11-26",
+      "url": "https://arxiv.org/abs/2611.33847"
     },
     {
-      "title": "Even the best AI agents struggle with everyday life",
-      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "title": "Câmara de Lisboa aprova 68 câmaras de videovigilância na Baixa por 1,8 milhões de euros",
+      "summary": "A Câmara de Lisboa aprovou esta quarta-feira contratar a instalação de 68 câmaras de videovigilância na Baixa, bem como remodelar as instalações das esquadras e instalar um sistema de gravação de imagens, proposta que suscitou preocupações por incluir…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-25",
+      "url": "https://eco.sapo.pt/2026/11/25/camara-de-lisboa-aprova-68-camaras-de-videovigilancia-na-baixa-por-18-milhoes-de-euros/"
+    },
+    {
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-25",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent"
+    },
+    {
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-24",
-      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+      "date": "2026-11-25",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
     },
     {
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
       "source": "TechCrunch AI",
       "tier": "11-imprensa",
-      "date": "2026-11-24",
-      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+      "date": "2026-11-25",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+    },
+    {
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-25",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+    },
+    {
+      "title": "How data centers are driving a US natural-gas boom",
+      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-25",
+      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"
+    },
+    {
+      "title": "The Download: AI swamping open records, and firefighting for permafrost",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-25",
+      "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/"
     },
     {
       "title": "The AI Ethics Brief #204: Surveillance Pricing Reaches Parliament",
@@ -75,44 +115,12 @@
       "url": "https://montrealethics.ai/the-ai-ethics-brief-204-surveillance-pricing-reaches-parliament/"
     },
     {
-      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
-      "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-24",
-      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive"
-    },
-    {
-      "title": "Tidal will start banning AI-generated music next month",
-      "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-24",
-      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
-    },
-    {
       "title": "Too Big to Fire? Jensen Huang Is Back at Nvidia; Questions Loom Over AI Boom & U.S.-China Relations",
       "summary": "The US government is staking our economy and national security on tech companies and billionaires. AI Now's Aya Ibrahim joins Democracy Now! to discuss the broader impact of Jensen Huang's reinstatement as NVIDIA CEO. The post Too Big to Fire? Jensen Huang Is…",
       "source": "AI Now Institute",
       "tier": "9-investigacao",
       "date": "2026-11-24",
       "url": "https://ainowinstitute.org/news/press/too-big-to-fire-jensen-huang-is-back-at-nvidia-questions-loom-over-ai-boom-u-s-china-relations"
-    },
-    {
-      "title": "Raising the stakes for enterprise networks with AI modernization",
-      "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-24",
-      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
-    },
-    {
-      "title": "The Download: AI’s gas power boom and a consciousness reality check",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
-      "date": "2026-11-24",
-      "url": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/"
     },
     {
       "title": "Nuestros datos, nuestras reglas: Gobernanza de datos para bienes comunes digitales en la era de la IA",
