@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-26T05:04:54.077Z",
+  "startedAt": "2026-11-27T05:03:04.192Z",
   "sources": [
     {
       "id": "eurlex-sparql-pt",
@@ -7,8 +7,8 @@
       "kind": "sparql",
       "ok": true,
       "items": 60,
-      "kept": 0,
-      "maisRecente": null
+      "kept": 1,
+      "maisRecente": "2026-11-26"
     },
     {
       "id": "eurlex-oj-l",
@@ -44,7 +44,7 @@
       "ok": true,
       "items": 10,
       "kept": 8,
-      "maisRecente": "2026-11-20"
+      "maisRecente": "2026-11-25"
     },
     {
       "id": "ec-have-your-say",
@@ -115,8 +115,8 @@
       "kind": "rss",
       "ok": true,
       "items": 10,
-      "kept": 1,
-      "maisRecente": "2026-11-19"
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "cnpd",
@@ -176,37 +176,37 @@
       "id": "anacom-noticias",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
-      "kept": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "items": 24,
+      "kept": 1,
+      "maisRecente": "2026-11-18"
     },
     {
       "id": "anacom-legislacao",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
-      "items": 0,
+      "ok": true,
+      "items": 1,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-imprensa",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "anacom-consultas",
       "tier": "5-nacional",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "fetch failed"
+      "maisRecente": null
     },
     {
       "id": "dre-pt",
@@ -377,16 +377,16 @@
       "ok": true,
       "items": 398,
       "kept": 3,
-      "maisRecente": "2026-11-26"
+      "maisRecente": "2026-11-27"
     },
     {
       "id": "arxiv-cs-cy",
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 32,
-      "kept": 3,
-      "maisRecente": "2026-11-26"
+      "items": 0,
+      "kept": 0,
+      "maisRecente": null
     },
     {
       "id": "stanford-hai",
@@ -530,7 +530,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-25"
+      "maisRecente": "2026-11-26"
     },
     {
       "id": "techcrunch-ai",
@@ -539,7 +539,7 @@
       "ok": true,
       "items": 20,
       "kept": 2,
-      "maisRecente": "2026-11-25"
+      "maisRecente": "2026-11-26"
     },
     {
       "id": "theverge-ai",
@@ -548,7 +548,7 @@
       "ok": true,
       "items": 10,
       "kept": 2,
-      "maisRecente": "2026-11-25"
+      "maisRecente": "2026-11-26"
     },
     {
       "id": "eco-pt",
@@ -556,17 +556,17 @@
       "kind": "rss",
       "ok": true,
       "items": 22,
-      "kept": 1,
-      "maisRecente": "2026-11-25"
+      "kept": 2,
+      "maisRecente": "2026-11-26"
     },
     {
       "id": "publico-tec",
       "tier": "11-imprensa",
       "kind": "rss",
-      "ok": false,
+      "ok": true,
       "items": 0,
       "kept": 0,
-      "error": "HTTP 404"
+      "maisRecente": null
     },
     {
       "id": "mlex",
@@ -663,7 +663,7 @@
       "tier": "9-investigacao",
       "kind": "rss",
       "ok": true,
-      "items": 924,
+      "items": 1178,
       "kept": 0,
       "maisRecente": null
     },
@@ -685,10 +685,6 @@
     "[aepd] HTTP 500",
     "[garante] HTTP 404",
     "[ico-uk] HTTP 404",
-    "[anacom-noticias] fetch failed",
-    "[anacom-legislacao] fetch failed",
-    "[anacom-imprensa] fetch failed",
-    "[anacom-consultas] fetch failed",
     "[traficom-fi] HTTP 404",
     "[bundesnetzagentur-de] HTTP 404",
     "[agid-it] HTTP 404",
@@ -698,7 +694,6 @@
     "[alan-turing] HTTP 403",
     "[euractiv-tech] HTTP 403",
     "[euronews-next] HTTP 404",
-    "[publico-tec] HTTP 404",
     "[anthropic-news] HTTP 404",
     "[mistral] HTTP 404",
     "[anpd-br] HTTP 404",
@@ -714,14 +709,14 @@
     "inacom-ao",
     "cplp"
   ],
-  "finishedAt": "2026-11-26T05:07:10.493Z",
-  "recolhidos": 44,
-  "written": 44,
-  "maisRecente": "2026-11-26",
+  "finishedAt": "2026-11-27T05:03:56.992Z",
+  "recolhidos": 43,
+  "written": 43,
+  "maisRecente": "2026-11-27",
   "traducao": "DESLIGADA (sem ANTHROPIC_API_KEY)",
   "archive": {
-    "added": 13,
+    "added": 7,
     "curados": 0,
-    "total": 1267
+    "total": 1274
   }
 }

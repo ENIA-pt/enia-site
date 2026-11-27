@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T05:07:10.493Z",
+  "generated": "2026-11-27T05:03:56.991Z",
   "window": "últimos 45 dias",
   "items": [
     {
@@ -7,7 +7,7 @@
       "summary": "arXiv:2611.33254v1 Announce Type: cross Abstract: Online discussion of generative AI has become increasingly contentious, and communities devoted to supporting, opposing, or debating AI have emerged on social media. Some of these communities take anti-AI…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "url": "https://arxiv.org/abs/2611.33254"
     },
     {
@@ -15,7 +15,7 @@
       "summary": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "url": "https://arxiv.org/abs/2611.33160"
     },
     {
@@ -23,48 +23,64 @@
       "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be…",
       "source": "arXiv cs.AI",
       "tier": "9-investigacao",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "url": "https://arxiv.org/abs/2611.33161"
     },
     {
-      "title": "The AI Disclosure Paradox: Operational Disclosure and the Rise of Corporate AI Narratives",
-      "summary": "arXiv:2611.33201v1 Announce Type: new Abstract: AI-related corporate disclosure can expand while becoming less concentrated on current use. Across U.S. SEC filings from 2017 to 2025, AI-related passage intensity increased 6.3-fold between 2017-2022 and…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-26",
-      "url": "https://arxiv.org/abs/2611.33201"
-    },
-    {
-      "title": "Designing an Integrated Learning Ecosystem for Introductory Python Programming: Scaffolded Problem Solving, Tablet-Inspired Navigation, and AI-Enhanced…",
-      "summary": "arXiv:2611.33471v1 Announce Type: new Abstract: Introductory programming requires students to represent problems, develop and test programs, debug errors, and apply computational ideas in new contexts. In this paper, we present an artifact-centered design…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-26",
-      "url": "https://arxiv.org/abs/2611.33471"
-    },
-    {
-      "title": "Beyond Disclosure: Compositional Privacy Harm in AI Systems",
-      "summary": "arXiv:2611.33847v1 Announce Type: new Abstract: Privacy law attaches obligations to each stage of information processing, whether it be collection, use, storage, or disclosure. We examine how legally cognisable privacy harm emerges across this full lifecycle…",
-      "source": "arXiv cs.CY",
-      "tier": "9-investigacao",
-      "date": "2026-11-26",
-      "url": "https://arxiv.org/abs/2611.33847"
-    },
-    {
-      "title": "Câmara de Lisboa aprova 68 câmaras de videovigilância na Baixa por 1,8 milhões de euros",
-      "summary": "A Câmara de Lisboa aprovou esta quarta-feira contratar a instalação de 68 câmaras de videovigilância na Baixa, bem como remodelar as instalações das esquadras e instalar um sistema de gravação de imagens, proposta que suscitou preocupações por incluir…",
+      "title": "Futura gigafábrica de IA recebe autorização para ligação à rede elétrica",
+      "summary": "O Conselho de Ministros aprovou esta quinta-feira uma Resolução que concede o estatuto de “interesse estratégico nacional” à candidatura portuguesa a uma das gigafábricas de inteligência artificial (IA) que serão cofinanciadas pela Comissão Europeia. Isto…",
       "source": "ECO",
       "tier": "11-imprensa",
-      "date": "2026-11-25",
-      "url": "https://eco.sapo.pt/2026/11/25/camara-de-lisboa-aprova-68-camaras-de-videovigilancia-na-baixa-por-18-milhoes-de-euros/"
+      "date": "2026-11-26",
+      "url": "https://eco.sapo.pt/2026/11/26/futura-gigafabrica-de-ia-recebe-autorizacao-para-ligacao-a-rede-eletrica/"
     },
     {
-      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
-      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but…",
+      "title": "Governo e INA querem formar 600 mil funcionários públicos em IA até 2030",
+      "summary": "O Governo lançou esta quinta-feira com o Instituto Nacional de Administração (INA) um programa de formação em inteligência artificial (IA) para a Administração Pública com o objetivo de formar 600 mil trabalhadores até 2030. De acordo com um dos responsáveis…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-26",
+      "url": "https://eco.sapo.pt/2026/11/26/governo-e-ina-querem-formar-600-mil-funcionarios-publicos-em-ia-ate-2030/"
+    },
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "source": "TechCrunch AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-26",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+    },
+    {
+      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then,…",
+      "source": "MIT Technology Review",
+      "tier": "11-imprensa",
+      "date": "2026-11-26",
+      "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/"
+    },
+    {
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice…",
       "source": "The Verge AI",
       "tier": "11-imprensa",
-      "date": "2026-11-25",
-      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent"
+      "date": "2026-11-26",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
+    },
+    {
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-26",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+    },
+    {
+      "title": "Proposal for a Regulation amending Regulations (EU) 2016/1679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, (EU) 2024/1689 and Directives 2002/58/EC, (EU)…",
+      "summary": "—",
+      "source": "EUR-Lex",
+      "tier": "1-lei",
+      "date": "2026-11-26",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:14e8d517-e9bd-11f1-b745-01aa75ed71a1"
     },
     {
       "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
@@ -75,22 +91,6 @@
       "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
     },
     {
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-      "source": "TechCrunch AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-25",
-      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
-    },
-    {
-      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-25",
-      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
-    },
-    {
       "title": "How data centers are driving a US natural-gas boom",
       "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s…",
       "source": "MIT Technology Review",
@@ -99,12 +99,12 @@
       "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"
     },
     {
-      "title": "The Download: AI swamping open records, and firefighting for permafrost",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last…",
-      "source": "MIT Technology Review",
-      "tier": "11-imprensa",
+      "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
+      "summary": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security Anonymous (not verified) Wed, 11/25/2026 - 08:52 The European Commission today proposed the Quantum Act, a new framework to help turn…",
+      "source": "Shaping Europe's Digital Future",
+      "tier": "2-comissao",
       "date": "2026-11-25",
-      "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/"
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial"
     },
     {
       "title": "The AI Ethics Brief #204: Surveillance Pricing Reaches Parliament",
@@ -187,14 +187,6 @@
       "url": "https://blogs.microsoft.com/on-the-issues/2026/11/19/security-fundamentals-to-enable-the-frontier/"
     },
     {
-      "title": "FRA contributes to IHRA Plenary meeting",
-      "summary": "Language English Press release 0 Secondary theme Data Artificial intelligence and big data EU Charter of Fundamental Rights Title III: Equality Article 21 - Non-discrimination Highlights Report / Paper / Summary 18 November 2021 Directive (EU) 2017/541 on…",
-      "source": "FRA",
-      "tier": "4-dados",
-      "date": "2026-11-19",
-      "url": "https://fra.europa.eu/en/news/2026/fra-contributes-ihra-plenary-meeting"
-    },
-    {
       "title": "EDRi-gram, 19 November 2026",
       "summary": "What has the EDRi network been up to over the past few weeks? Find out the latest digital rights news in our regular newsletter. In this edition: Making sense of the Digital Fairness Act, a very unmerry birthday to the Digital Omnibus, and more! The post…",
       "source": "EDRi",
@@ -233,6 +225,14 @@
       "tier": "10-sociedade",
       "date": "2026-11-18",
       "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/"
+    },
+    {
+      "title": "20 anos de Congresso do Comité Português da URSI: investigação, inovação e reconhecimento científico",
+      "summary": "O 20.º Congresso dedicado à Inteligência Artificial na Radiociência teve lugar a 13.11.2026, em Lisboa.",
+      "source": "ANACOM",
+      "tier": "5-nacional",
+      "date": "2026-11-18",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1862885"
     },
     {
       "title": "AI and Elections",
@@ -321,14 +321,6 @@
       "tier": "2-comissao",
       "date": "2026-11-03",
       "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european"
-    },
-    {
-      "title": "Web Summit 2026",
-      "summary": "Web Summit 2026 Anonymous (not verified) Tue, 11/03/2026 - 11:13 10 November 2026 - 12 November 2026 DG Connect will be at Web Summit in Lisbon from 10 to 12 November. Main link https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-support……",
-      "source": "Shaping Europe's Digital Future",
-      "tier": "2-comissao",
-      "date": "2026-11-03",
-      "url": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026"
     },
     {
       "title": "AP informeert incassobureaus over verantwoorde inzet AI",
