@@ -1,8 +1,24 @@
 {
-  "generated": "2026-11-27T05:03:56.991Z",
+  "generated": "2026-11-28T04:46:13.592Z",
   "nota": "Arquivo integral. O sync diário acrescenta itens novos e nunca remove os antigos. A deduplicação é feita por URL, com o título como recurso.",
-  "count": 1274,
+  "count": 1276,
   "items": [
+    {
+      "title": "Forças Armadas da Polónia utilizarão inteligência artificial da empresa Palantir",
+      "summary": "As Forças Armadas polacas vão utilizar um ‘software’ de inteligência artificial (IA) da empresa norte-americana Palantir para auxiliar na tomada de decisões, segundo um contrato assinado hoje em Varsóvia, anunciou o Ministério da Defesa polaco. A ferramenta…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-27",
+      "url": "https://eco.sapo.pt/2026/11/27/forcas-armadas-da-polonia-utilizarao-inteligencia-artificial-da-empresa-palantir/"
+    },
+    {
+      "title": "IA en contexte de soins: accompagner le bon usage avec le guide CNIL et HAS",
+      "summary": "Avec la publication du guide « IA en contexte de soins: accompagner le bon usage » qu’elles ont conjointement élaboré, la Haute Autorité de santé (HAS) et la CNIL se mobilisent pour accompagner les acteurs de la santé en clarifiant les règles et les bonnes…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-11-27",
+      "url": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil"
+    },
     {
       "title": "Anti-AI in the Wild: From Toxic Discourse to Action",
       "summary": "arXiv:2611.33254v1 Announce Type: cross Abstract: Online discussion of generative AI has become increasingly contentious, and communities devoted to supporting, opposing, or debating AI have emerged on social media. Some of these communities take anti-AI…",

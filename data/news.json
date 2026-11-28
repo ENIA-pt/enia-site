@@ -1,7 +1,23 @@
 {
-  "generated": "2026-11-27T05:03:56.991Z",
+  "generated": "2026-11-28T04:46:13.592Z",
   "window": "últimos 45 dias",
   "items": [
+    {
+      "title": "Forças Armadas da Polónia utilizarão inteligência artificial da empresa Palantir",
+      "summary": "As Forças Armadas polacas vão utilizar um ‘software’ de inteligência artificial (IA) da empresa norte-americana Palantir para auxiliar na tomada de decisões, segundo um contrato assinado hoje em Varsóvia, anunciou o Ministério da Defesa polaco. A ferramenta…",
+      "source": "ECO",
+      "tier": "11-imprensa",
+      "date": "2026-11-27",
+      "url": "https://eco.sapo.pt/2026/11/27/forcas-armadas-da-polonia-utilizarao-inteligencia-artificial-da-empresa-palantir/"
+    },
+    {
+      "title": "IA en contexte de soins: accompagner le bon usage avec le guide CNIL et HAS",
+      "summary": "Avec la publication du guide « IA en contexte de soins: accompagner le bon usage » qu’elles ont conjointement élaboré, la Haute Autorité de santé (HAS) et la CNIL se mobilisent pour accompagner les acteurs de la santé en clarifiant les règles et les bonnes…",
+      "source": "CNIL",
+      "tier": "4-dados",
+      "date": "2026-11-27",
+      "url": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil"
+    },
     {
       "title": "Anti-AI in the Wild: From Toxic Discourse to Action",
       "summary": "arXiv:2611.33254v1 Announce Type: cross Abstract: Online discussion of generative AI has become increasingly contentious, and communities devoted to supporting, opposing, or debating AI have emerged on social media. Some of these communities take anti-AI…",
@@ -27,22 +43,6 @@
       "url": "https://arxiv.org/abs/2611.33161"
     },
     {
-      "title": "Futura gigafábrica de IA recebe autorização para ligação à rede elétrica",
-      "summary": "O Conselho de Ministros aprovou esta quinta-feira uma Resolução que concede o estatuto de “interesse estratégico nacional” à candidatura portuguesa a uma das gigafábricas de inteligência artificial (IA) que serão cofinanciadas pela Comissão Europeia. Isto…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-26",
-      "url": "https://eco.sapo.pt/2026/11/26/futura-gigafabrica-de-ia-recebe-autorizacao-para-ligacao-a-rede-eletrica/"
-    },
-    {
-      "title": "Governo e INA querem formar 600 mil funcionários públicos em IA até 2030",
-      "summary": "O Governo lançou esta quinta-feira com o Instituto Nacional de Administração (INA) um programa de formação em inteligência artificial (IA) para a Administração Pública com o objetivo de formar 600 mil trabalhadores até 2030. De acordo com um dos responsáveis…",
-      "source": "ECO",
-      "tier": "11-imprensa",
-      "date": "2026-11-26",
-      "url": "https://eco.sapo.pt/2026/11/26/governo-e-ina-querem-formar-600-mil-funcionarios-publicos-em-ia-ate-2030/"
-    },
-    {
       "title": "Nvidia hits pause on chip shipments to Southeast Asia",
       "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
       "source": "TechCrunch AI",
@@ -59,14 +59,6 @@
       "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/"
     },
     {
-      "title": "Jensen Huang deepfakes are the hot new AI slop",
-      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice…",
-      "source": "The Verge AI",
-      "tier": "11-imprensa",
-      "date": "2026-11-26",
-      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
-    },
-    {
       "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
       "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction…",
       "source": "The Verge AI",
@@ -75,12 +67,12 @@
       "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
     },
     {
-      "title": "Proposal for a Regulation amending Regulations (EU) 2016/1679, (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, (EU) 2024/1689 and Directives 2002/58/EC, (EU)…",
-      "summary": "—",
-      "source": "EUR-Lex",
-      "tier": "1-lei",
-      "date": "2026-11-26",
-      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=cellar:14e8d517-e9bd-11f1-b745-01aa75ed71a1"
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but…",
+      "source": "The Verge AI",
+      "tier": "11-imprensa",
+      "date": "2026-11-25",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent"
     },
     {
       "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
@@ -100,7 +92,7 @@
     },
     {
       "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
-      "summary": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security Anonymous (not verified) Wed, 11/25/2026 - 08:52 The European Commission today proposed the Quantum Act, a new framework to help turn…",
+      "summary": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security Anonymous (not verified) Wed, 11/25/2026 - 08:52 The European Commission has proposed the Quantum Act, a new framework to help turn…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-11-25",
@@ -163,14 +155,6 @@
       "url": "https://www.cnil.fr/fr/gpa-ia-education"
     },
     {
-      "title": "48e Assemblée mondiale pour la protection de la vie privée (GPA)",
-      "summary": "L’Assemblée mondiale pour la protection de la vie privée (ou Global Privacy Assembly), qui rassemble plus de 130 autorités de protection des données de plus de 80 pays, a adopté cinq résolutions dont deux sur l’Intelligence artificielle lors de sa réunion…",
-      "source": "CNIL",
-      "tier": "4-dados",
-      "date": "2026-11-20",
-      "url": "https://www.cnil.fr/fr/48e-gpa"
-    },
-    {
       "title": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education",
       "summary": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education Anonymous (not verified) Fri, 11/20/2026 - 11:30 Today, the European Commission and eight Member States are launching the European Digital Infrastructure…",
       "source": "Shaping Europe's Digital Future",
@@ -225,14 +209,6 @@
       "tier": "10-sociedade",
       "date": "2026-11-18",
       "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/"
-    },
-    {
-      "title": "20 anos de Congresso do Comité Português da URSI: investigação, inovação e reconhecimento científico",
-      "summary": "O 20.º Congresso dedicado à Inteligência Artificial na Radiociência teve lugar a 13.11.2026, em Lisboa.",
-      "source": "ANACOM",
-      "tier": "5-nacional",
-      "date": "2026-11-18",
-      "url": "https://www.anacom.pt/render.jsp?contentId=1862885"
     },
     {
       "title": "AI and Elections",
@@ -308,7 +284,7 @@
     },
     {
       "title": "Call for evidence on advertising repositories",
-      "summary": "Call for evidence on advertising repositories Anonymous (not verified) Wed, 11/04/2026 - 11:10 Opening: 04 November 2026 Closing: 02 December 2026 The Commission is seeking feedback on upcoming technical guidelines concerning advertising repositories under…",
+      "summary": "Call for evidence on advertising repositories Anonymous (not verified) Wed, 11/04/2026 - 11:10 Opening: 04 November 2026 Closing: 09 December 2026 The Commission is seeking feedback on upcoming technical guidelines concerning advertising repositories under…",
       "source": "Shaping Europe's Digital Future",
       "tier": "2-comissao",
       "date": "2026-11-04",
